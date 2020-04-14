@@ -2,10 +2,15 @@
 title: Reflection and Refraction
 ...
 
+***At any point, if you hover your mouse over a video, a button will appear in the upper right corner. If you click it, it will open the video in another tab allowing you to go fullscreen. ***
+
+***If you are using the Safari browser, this is the only way to watch the videos. ***
+
 ## INTRODUCTION
 
+<!-- Concepts Video -->
 :::GVideo
-1VKsYcK8Phlzv-hjRfzhuQKw71KD6KqFm
+1TSH_O83DskelYdG_kclysjNzDZNFonMv
 :::
 
 **You will be expected to turn in all plots and tables you are asked to make in the exercises, as well as all answers to questions.**
@@ -19,11 +24,11 @@ The beam in the lower region is the incident beam. The beam in the upper region 
 :::Question
 a.) Is there any change in the path of the normal light beam (A) as it goes from the lower region to the upper?
 
-b.) Is the angle of the refracted light beam (look at beam B or C) more or less than the angle of the respective incident beam? What happens as the angle of the incidence increases? (Goes form B to C)
+b.) Is the angle of the refracted light beam (look at beam B or C) more or less than the angle of the respective incident beam? What happens as the angle of the incidence increases? (Goes from B to C)
 
 c.) Is there a particular angle that the rays do not behave like rays B or C?
 
-d.) Does light transmit into the upper region when the incident angle is larger than L?
+d.) Does light transmit into the upper region when the incident angle is larger than $\theta_L$?
 :::
 
 **Theory:** When a light ray encounters a boundary between two materials it experiences a change in direction due to the difference in materials’ indexes of refraction, typically denoted as $n_1$ and $n_2$. The particular physics of this is beyond the scope of this lab, however the empirical results are neatly summarized by Snell’s Law:
@@ -43,26 +48,28 @@ where $n$ is the index of refraction, $c$ is the speed of light in a vacuum and 
 
 :::Exercise
 
+In this exercise you will use a computer program to simulate what happens to light at a boundary.
+
 ![Simulation 1](https://phet.colorado.edu/sims/html/bending-light/latest/bending-light_en.html?screens=1){width=100% height=600px}
 
-1. The top material should already be set to "Air". Leave it as that. Change the bottom material to "Mystery B".
+1. The top material should already be set to "Air." Leave it as that. Change the bottom material to "Mystery B."
 
-2. Turn on the laser by clicking the large red button and click on teh grey housing of the laser and move it a new angle.
+2. Turn on the laser by clicking the large red button and click on the grey housing of the laser and move it to a new angle.
 
-3. Use the protractor tool to measure the new incident angle and refracted angle
+3. Use the protractor tool to measure the new incident angle and refracted angle.
 
 :::Question
-What is the index of refraction for the material "Mystery B". Show your work.
+What is the index of refraction for the material "Mystery B?" Show your work.
 :::
 
 4. Now make the top material "Mystery A" and move your laser to a new angle.
 
 :::Question
-What is the index of refraction for the material "Mystery A". Show your work.
+What is the index of refraction for the material "Mystery A?" Show your work.
 :::
 
 :::Question
-What is the speed of light in materials "Mystery A" and "Mystery B". Show your work.
+What is the speed of light in materials "Mystery A" and "Mystery B?" Show your work.
 :::
 
 :::
@@ -76,7 +83,9 @@ In each of the following cases record the incident and refracted angles.
 :::row
 
 :::column
-In the video below you will be shown light passing through a semi-cylindrical prism (D-block). The light is coming from the bottom of the video and hitting the curved surface of the D-block first then passing through the material and exiting the flat surface. See Figure 2. You will use this video to make some measurements and answer the questions below.
+In the video below you will be shown light passing through a semi-cylindrical prism (D-block). The light is coming from the bottom of the video and hitting the curved surface of the D-block first then passing through the material and exiting the flat surface. 
+
+See Figure 2. You will use this video to make some measurements and answer the questions below.
 
 <!-- 1. Adjust the ray box to provide one beam of light. Place the semi-circular plastic block in the middle of the ray tracing table. Align it with the table’s axis, this will make it easy to measure the incident and refracted angles. *You can then rotate the table, not the block. It’s easy! Measure and record four different angles of incidence and their respective angles of refraction. Be sure your choices of the incident angles produce a reasonable span of values. A selection of values, ranging from 5° to 8°, would be “not a reasonable span.”* -->
 :::
@@ -86,27 +95,27 @@ In the video below you will be shown light passing through a semi-cylindrical pr
 :::
 
 :::
-
+<!-- Ray Table -->
 :::GVideo
-1h-8WdeqtuEpyadrCHB3RbF0kA0Qb5gjC
+1M835o-_GPfGcv-qjY7pX6ln0V6LFMzV4
 :::
 
 1. Start by making a data table to record the incident and refracted angles.
 
-2. Starting about about 2:20 in the video, the angle ray tracing table starts to be rotated. This goes on until about 3:50. Within this window pause the video at four different angles and use the ray tracing table to record the incident and reflected angles. The video stops for a moment to highlight which angles you should be measuring. Feel free to use this as one of your measurements. Finally, be sure your choices of the incident angles produce a reasonable span of values. A selection of values, ranging from $5^{\circ}$ to $8\^{circ}$, would be “not a reasonable span."
+2. Starting about about 2:20 in the video, the angle ray tracing table starts to be rotated. This goes on until about 3:50. Within this window pause the video at four different angles and use the ray tracing table to record the incident and refracted angles. The video stops for a moment to highlight which angles you should be measuring. Feel free to use this as one of your measurements. Finally, be sure your choices of the incident angles produce a reasonable span of values. A selection of values, ranging from $5^{\circ}$ to $8^{\circ}$, would be “not a reasonable span."
 
 :::Question
-The light is passing through 2 boundaries. The curved surface, and the flat surface. At which, or both, of these surfaces is refraction occurring? Why or why not?
+The light is passing through 2 boundaries, the curved surface and the flat surface. At which, or both, of these surfaces is refraction occurring? Why or why not?
 :::
 
 :::Question
-What is average index of refraction for the acrylic D-block, we will denote it $n_{avg}$.
+What is average index of refraction for the acrylic D-block? We will denote it $n_{avg}$.
 :::
 
-3. The *critical angle* is the breaking point between refraction and *total internal reflection* (where no light is refracted, it is all reflected. Find this angle in the video.
+3. The *critical angle* is the incident angle at which light does not get transmitted but undergoes *total internal reflection* (all the light is reflected). Find this angle in the video.
 
 :::Question
-a. Based on the video, what is the critical angle for an acrylic-air boundary, we will denote it $\theta_c$?
+a. Based on the video, what is the critical angle for an acrylic-air boundary? We will denote it $\theta_c$.
 b. At the critical angle the refracted light travels along the surface of the plastic block. Thus, $\sin(\theta_2) = 1.0$, or $\theta_2 = 90$ ̊. Plug this into Snell’s law and compute $n_c$.
 :::
 
@@ -119,25 +128,92 @@ What is the speed of light in the acrylic block?
 :::
 
 :::Question
-Pretend instead of air, the incident medium is “mystery B” from the PhET and the refracted medium is the acrylic block used in the videos, comment on how the light will bend. Justify your answer.
+Pretend instead of air, the incident medium is “Mystery B” from the PhET and the refracted medium is the acrylic block used in the videos. Comment on how the light will bend. Justify your answer.
 :::
 
 :::
 
+:::Exercise
 
-## PART 2: PRISMS & FREQUENCY DEPENDENT REFRACTION
+In this video you will see light passing into and out of an acrylic block. The unique thing that is happening here is that the two refractive boundaries are parallel to one another. Pay attention to the relationship between the incident and refracted beam.
+
+<!-- Double Refraction -->
+:::GVideo
+160J7ATyanZHAY9cTu58f0GMphzNzmf2K
+:::
+
+![Simulation 2](https://phet.colorado.edu/sims/html/bending-light/latest/bending-light_en.html?screens=2){width=100% height=600px}
+
+Now that you've seen it happen in real life. Try to recreate what you saw in a simulation.
+
+1. Grab the square block from the tools below.
+
+2. Rotate the square block so that the rotation knob is pointing straight down.
+
+3. Press the red button on the laser to turn it on.
+
+4. Align the square block so that beam enters one side of the square block, and exits on the side directly opposite.
+
+:::Question
+a. In this orientation, how are the incoming and exiting beams related to one another?
+
+b. Why is there an offset between the incoming and exiting beams? In a sentence or two, explain what is happening.
+:::
+
+:::
+
+## PART 2: PRISMS & FREQUENCY-DEPENDENT REFRACTION
+
+***Theory:***
+
+The index of refraction for a medium is dependent upon the frequency of the light – blue light has a different index of refraction than red light for a given medium.
+
+1. The angle at which a beam of light is refracted when traveling between two mediums is dependent upon the index of refraction.
+
+2. The indexes of refraction are typically frequency dependent for a given medium. A medium will refract one color 
+more than another color.
+
+3. White light is made of many constituent colors.
+
+Piecing these statements together we have a tidy explanation for the phenomenon of a rainbow. At each boundary some colors are refracted more than others which results in white light being spread out into its constituent spectrum. This spreading is called dispersion. The second boundary of the prism – plastic to air – is at such an angle as to increase this dispersion. The difference between the index of refraction for the lowest frequency and the highest frequency determines how wide a rainbow you can see. A material with a larger spread in indexes will have a larger maximum width.
+
+:::row
+
+:::column
+![Figure 2.1 *Frequency dependent index of refraction for glass, quartz, and diamond*](imgs/fig2_1.jpg)
+:::
+
+:::column
+![](imgs/fig2_1_graph.jpg)
+:::
+
+:::
+
+:::Question
+A beam of white light traveling in air is incident on a glass block at an angle of 17 degrees. Use Snell’s Law to compute the refracted angle for purple, green and orange light.
+:::
+
 
 ***Simulation***
 
 :::Exercise
 
+In this video you will see what happens when we refract white light. Recall that white light is composed of many different frequencies (colors) of light.
+
+<!-- Dispersion -->
+:::GVideo
+1I6TK-BISF5otUyKcnonZB0LhEq1VWdgR
+:::
+
 ![Simulation 2](https://phet.colorado.edu/sims/html/bending-light/latest/bending-light_en.html?screens=2){width=100% height=600px}
 
-1. Start by selecting the white light source instead of the laser. You can find this on the right side of the simulation, is the second row, third option on the right. You will know you have found it because the background will turn black.
+Now that you've seen dispersion happening in real life, try to recreate what you saw in a simulation.
+
+1. Start by selecting the white light source instead of the laser. You can find this on the right side of the simulation, in the second row, third option on the right. You will know you have found it because the background will turn black.
 
 2. Press the red button to turn on the light source and drag the D-block prism in front of the incident beam, hitting the curved side first.
 
-3. Do you best to align the prism so that the incident beam passes through the center of the prism.
+3. Do your best to align the D-block prism so that the incident beam passes through the center of the D-Block prism (as in Figure 2).
 
 4. Now you can use the knob at the bottom of the prism to rotate it about the center. Rotate it and watch what happens.
 
@@ -146,31 +222,8 @@ a. Sketch the orientation of the block when the rainbow is most observable. Does
 b. Why do you think when white light is going into the prism, a rainbow is coming out?
 :::
 
-5. Replace the D-block prism with the square prism.
-
-6. Rotate the square prism so that the rotation knob is pointing straight down.
-
-7. Align the square prism so that beam enters one side of the square prism, and exits on the side directly opposite. 
-
-:::Question
-a. In this orientation, how are the incoming and exiting beams related to one another?
-
-b. Why is there an offset between the incoming and exiting beams? In a sentence or two, explain what is happening?
 :::
 
-:::
-
-***Experiment***
-
-:::Exercise
-
-Now we will show you dispersion actually happening in a prism. 
-
-:::GVideo
-1mqAYATS5ocTZns5FhTbPkzQXqO5aNCTX
-:::
-
-:::
 
 <!-- ![TOP VIEW](imgs/top_view.jpg) -->
 
@@ -195,45 +248,16 @@ b. When the incident beam is normal to the surface are you able to observe the s
 
 At steep angles you will observe total internal reflection just as you did with the acrylic block. Mess around with the block and prism to see the many possible geometric paths. -->
 
-***Theory:***
-
-The index of refraction for a medium is dependent upon the frequency of the light – blue light has a different index of refraction than red light for a given medium.
-
-1. The angle at which a beam of light is refracted when traveling between two mediums is dependent upon the index of refraction.
-
-2. The indexes of refraction are typically frequency dependent for a given medium. A medium will refract one color 
-more than another color.
-
-3. White light is made of many constituent colors.
-
-Piecing these statements together we have a tidy explanation for the phenomenon of a rainbow. At each boundary some colors are refracted more than others which results in white light being spread out into its constituent spectrum. This spreading is called dispersion. The second boundary of the prism – plastic to air – is at such an angle as to increase this dispersion. The difference between the Index of Refraction for the lowest frequency and the highest frequency determines how wide of a rainbow you can see. A material with a larger difference in indexes will have a larger maximum width.
-
-:::row
-
-:::column
-![Figure 2.1 *Frequency dependent index of refraction for glass, quartz, and diamond*](imgs/fig2_1.jpg)
-:::
-
-:::column
-![](imgs/fig2_1_graph.jpg)
-:::
-
-:::
-
-:::Question
-A beam of white light traveling in air is incident on a glass block at an angle of 17 degrees. Use Snell’s Law to compute the refractive angle for purple, green and orange light.
-:::
-
 ## PART 3: FLAT MIRRORS
 
 ::: row
 
 ::: column
-***SINGLE PLANAR MIRROR:*** We regularly encounter flat mirrors as well as glass surfaces which act like mirrors. Intuitively you know that your image is standing directly across from you, when speaking in terms of ray tracing we are the *object* and our reflection is the *image*. It is easy to convince yourself that this image is formed straight back – that is, normal to the plane of the mirror – and that it is also an equal distance behind the mirror.
+***SINGLE PLANAR MIRROR:*** We regularly encounter flat mirrors as well as glass surfaces which act like mirrors. Intuitively you know that your image is standing directly across from you. When speaking in terms of ray tracing, we are the *object* and our reflection is the *image*. It is easy to convince yourself that this image is formed straight back – that is, normal to the plane of the mirror – and that it is also an equal distance behind the mirror.
 
-The image of any point object in a planar mirror is simply the point straight across at an equal distance. This is the case for any viewing angle, you will see the image “behind” the mirror at an equal distance. The line between the object and image is always normal to the plane of the mirror.
+The image of any point object in a planar mirror is simply the point straight across at an equal distance. This is the case for any viewing angle; you will see the image “behind” the mirror at an equal distance. The line between the object and image is always normal to the plane of the mirror.
 
-Now lets consider why ray tracing works. The law of reflection tells us that the angle of incidence is always equal to the angle of reflection. We also know that the image is formed by the light ray that emanates from the object, reflects off the mirror, and finally reaches our eye. The ray which reaches our eye must obey the law of reflection, its path is shown in Figure 3.1. It is important to note that this would work equally as well for any set of angles. We see an image behind the mirror because of the law of reflection - if you instead extend the reflected light ray behind the mirror it would arrive precisely at the image point as in Figure 3.1. The phenomenon of reflection fools us into thinking the light rays originate from the image point.
+Now lets consider why ray tracing works. The law of reflection tells us that the angle of incidence is always equal to the angle of reflection. We also know that the image is formed by the light ray that emanates from the object, reflects off the mirror, and finally reaches our eye. The ray which reaches our eye must obey the law of reflection; its path is shown in Figure 3.1. It is important to note that this would work equally as well for any set of angles. We see an image behind the mirror because of the law of reflection - if you instead extend the reflected light ray behind the mirror it would arrive precisely at the image point as in Figure 3.1. The phenomenon of reflection fools us into thinking the light rays originate from the image point.
 :::
 
 :::column
@@ -243,22 +267,22 @@ Now lets consider why ray tracing works. The law of reflection tells us that the
 :::
 
 :::Exercise
-This simulation explains what is happening when you see an object in the mirror. It is an interactive version of Figure 3.1. The mirror lies at the center of the screen $x=0$. The object and person are on the right. You can drag the yellow object to any positive $(x,y)$ position. Then you can move the eye to any positive $(x,y)$ position to view the object in the mirror.
+This simulation explains what is happening when you see an object in the mirror. It is an interactive version of Figure 3.1. The mirror lies at the center of the screen, $x=0$. The object and person are on the right. You can drag the yellow object to any positive $(x,y)$ position. Then you can move the eye to any positive $(x,y)$ position to view the object in the mirror.
 
-The pink arrow coming off the object indicates a ray of light emitted form the object. When it hits the mirror it reflects off, and this is the blue arrow. That beam will reflect into the viewers eye.
+The pink arrow coming off the object indicates a ray of light emitted form the object. When it hits the mirror it reflects off, and this is the blue arrow. That beam will reflect into the viewer's eye.
 
-From the viewers perspective the ray gets traced back behind the mirror. It's position is the dashed yellow image on the negative side of the plane.
+From the viewer's perspective the ray gets traced back behind the mirror. Its position is the dashed yellow image on the negative side of the plane.
 
 ![Simulation 3](https://iwant2study.org/lookangejss/04waves_13light/ejss_model_mirrorv11/mirrorv11_Simulation.xhtml){width=100% height=800px frameborder=0}
 
 To mimic the exercise you will be doing shortly, you need to do the following in the simulation. 
 
-1. In the drop down selector in the top left, choose the following three things:
+1. In the drop-down selector in the top left, choose the following three things:
     - Show Angles
     - Show Distance
     - Show Custom Ray
 
-The first selection shows the law of reflection, the second shows the object's and the image's distance from the mirror, and the final selection and another green ray to the system.
+The first selection shows the law of reflection, the second shows the object's and the image's distance from the mirror, and the final selection adds another green ray to the system.
 
 2. Move the green arrow to another location.
 
@@ -270,17 +294,18 @@ The first selection shows the law of reflection, the second shows the object's a
 
 :::Exercise
 
-Here we will show you how to set up a ray tracing for a planar mirror. In the video we are looking down from onto a flat mirror that comes in an out of your screen. The red pin that is placed will be the object. We will use yellow pins to mark the reflected rays. That is, we will align the yellow pins on the blue line in the simulation above. 
+Here we will show you how to set up a ray tracing for a planar mirror. In the video we are looking down from onto a flat mirror that comes in and out of your screen. The red pin that is placed will be the object. We will use yellow pins to mark the reflected rays. That is, we will align the yellow pins on the blue line in the simulation above.
 
-The goal of this exercise is to trace the path that light takes from the object pin, off of the mirror, and to your eye on the paper on the left side of the screen. Then we will remove the mirror, and trace those rays behind the screen to find the location of the image that we are seeing.
+The goal of this exercise is to trace the path that light takes from the object pin, off the mirror, and to your eye, on the paper on the left side of the screen. Then we will remove the mirror, and trace those rays to the right side of the screen, behind the mirror, to find the location of the image that we are seeing.
 
+<!-- Planar Mirror Ray Trace -->
 :::GVideo
-1bkxJrUWmsom6FLG0LiaMVsmSBHMlbZci
+1_bQA4djbphWCM3i5XS_J_mjxz-JzfISX
 :::
 
-Now you have seen a video of the all of the rays being marked. Now what's left to do is trace the points in to a diagram similar to what was in Simulation 3. Below is a link to and image paper that was created in the video. You will take that image and perform a ray trace.
+Now you have seen a video of the all of the rays being marked. What's left to do is trace the points into a diagram similar to what was in Simulation 3. Below is a link to an image paper that was created in the video. You will take that image and perform a ray trace.
 
-***Recipe for Planar Mirror Ray Tracing:***
+<!-- ***Procedure for Planar Mirror Ray Tracing:***
 
 *Note: Read this. You'll need the information in a moment*
 
@@ -290,25 +315,26 @@ ii. Reflect the object over the plane of the mirror.
 
 iii. Draw a line from the viewer to the image
 
-iv. Draw another line from the rays intersection point back to the object.
+iv. Draw another line from the rays intersection point back to the object. -->
 
 
 1. Take [this image](https://drive.google.com/a/ucsb.edu/file/d/1GzSUSF4hoYAaT_hoSxRW_6ryHqxU8JVd/view?usp=sharing){target="_blank"} and go to the website [GeoGebra](https://www.geogebra.org/){target="_blank"}
 
-2. Follow the recipe above for creating a ray trace diagram. For a guide on how to use the tools in GeoGebra watch the video below.
+2. For a guide on how to use the tools in GeoGebra and perform the ray trace, watch the video below.
 
+<!-- GeoGebra Introduction -->
 :::GVideo
-19k_9gylZ9MTTFQrM7cFUAWS362DpqWWS
+1ktTo0xuLYxc08HlCJNuySUfxRSTLFTpZ
 :::
 
-3. Make sure to measure the incident and reflected angles for both of rays.
+3. Make sure to measure the incident and reflected angles for both rays.
 
 4. Also include the distance from the object to the mirror and the image to the mirror.
 
 5. Take a screenshot of your ray tracing and include it in your lab report.
 
 :::Question
-How does the object distance compare to the image distance? In ideal conditions, how should they compare.
+How does the object distance compare to the image distance? In ideal conditions, how should they compare?
 :::
 
 :::Question
