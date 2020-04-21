@@ -7,21 +7,33 @@ title: Lenses, Ray Tracing, and Simple Optical Devices
 Convex lenses are those which bulge outward in the center with the edge being the most narrow part.
 
 :::Exercise
-1. Select one of the unlabeled thin lenses. Move it up and down beneath the laboratory’s fluorescent lights. View image of ceiling lights using page 52 as a screen. 
+1. Grab a clear curved object such as a full water bottle, it may be cylindrical or spherical. Move it around beneath a nearby lightsource and use a piece of paper as a screen. A clear ziplock bag filled with water can work as a rudimentary lens as well, be creative in your object choice.
 
 :::Question
-What do you observe about the light passing through the lens?
+What do you observe about the light passing through your object?
 :::
 
 :::
 
-At one height you should see that the lens will focus the light from the fluorescent lights. The lights are long, parallel tubes and as a result you see two sharply focused lines. Note that different lenses focus the light at different heights above the table. This is due to the fact that the lenses have different focal lengths, a property dependent upon the index of refraction and geometry of the lens. Select a lens and measure the height at which this occurs, then do the same for two other unlabeled convex lenses.
+<!-- ![Simulation 2](https://phet.colorado.edu/sims/html/bending-light/latest/bending-light_en.html?screens=2){width=100% height=600px} -->
+
+At one height you should see that the object may focus the light from the your lightsource. Due to the shape of your object you may not get a focal point but rather a distance of greater light focus. A true lens would focus the light from your source far better. Note that different lenses focus the light at different heights above the table. This is due to the fact that the lenses have different focal lengths, a property dependent upon the index of refraction and geometry of the lens. Measure the height at which this occurs with your object, then do the same for two other objects if you can find.
+
+[Simulation 1](https://ricktu288.github.io/ray-optics/simulator/){width=100% height=600px}
+<!-- I cannot get this sim to stay in a window, Setting it up as an image does not work. Setting it up as a link forces you to another page. I have a saved file for it but I do not know how to get it to that, 6CL_Lab2_P1_Test.json. -->
+
+![Simulation 1](https://phet.colorado.edu/sims/geometric-optics/geometric-optics_en.html){width=100% height=600px}
+
+
+
+
+Simulation 1 shows how lenses act in two dimentions. There are 4 lenses already made with a light source similar to that of the lights in your laboratory. The three on the left are convex and the one on the right is concave. Move the convex lenses around to see how the light passing through them acts. Select a lens and measure the height at which this occurs using the ruler tool, then do the same for two other unlabeled convex lenses.
 
 :::Question
 Is there a relationship between the curvature of the lens and the height at which it focuses? 
 :::
 
-Now take the concave lens – this one is thickest on the outside and thinnest in the middle. Using the same method find the focus height of this lens.
+Note the relationship between curvature and focal length. Now take the concave lens on the far right – this one is thickest on the outside and thinnest in the middle. Using the same method find the focus height of this lens.
 
 :::Question
 Does the concave lens sharply focus the light?
@@ -29,10 +41,10 @@ Does the concave lens sharply focus the light?
 
 ## PART 2
 
-In this procedure you will use the optical bench. It has a multi-purpose light source and a small circular ray traced platform where you set the lens. You are provided with one thin convex block lens and one thick block half lens. You will use both to demonstrate focal lengths.
+In this procedure you will use Simulation 2 to simulate an optical bench. It has a multi-purpose light source which can be set to fire 5 beams of parallel light. You are have a spherical convex lens, a half convex lense, and a half concave lens. You will use these to demonstrate focal lengths.
 
 :::Exercise
-1. Adjust the grating on the ray box to provide 5 parallel rays.
+1. Set the laser to fire off 5 parallel rays with the button on the right side of the screen.
 2. Place the thin convex lens perpendicular to the rays. The imaginary line perpendicular to the lens and running exactly through the center is referred to as the optical axis or principal axis. *Note that it is necessary to place the lens on the front half of the table to observe the intended phenomenon.*
 3. Dim the class lights and observe the refracted rays.
 
@@ -78,6 +90,8 @@ An object is some physical entity which either produces light rays of its own (l
 - *The image cannot be projected onto a screen.* 
 - *The image is in the same orientation as the object, we say that it is erect.*
 
+![Simulation 2](https://phet.colorado.edu/sims/html/bending-light/latest/bending-light_en.html?screens=2){width=100% height=600px}
+
 ## PART 3: RAY TRACING WITH KNOWN FOCAL LENGTH
 
 Like mirrors, we use ray tracing methods to predict the behavior of a lens. We begin with convex lenses though the same methods apply equally to concave. There are only three essential premises needed to analyze lenses:
@@ -87,11 +101,11 @@ Like mirrors, we use ray tracing methods to predict the behavior of a lens. We b
 
 ![Figure 3.1](imgs/fig3_1.jpg)
 
-2. A light ray passing through the focal point and then through the lens will emerge parallel to the optical axis
+2. A light ray passing through the center of a lens is unchanged. *Note that this is only true for thin lenses.*
 
 ![Figure 3.2](imgs/fig3_2.jpg)
 
-3.A light ray passing through the center of a lens is unchanged. *Note that this is only true for thin lenses.*
+3.A light ray passing through the focal point and then through the lens will emerge parallel to the optical axis
 
 ![Figure 3.3](imgs/fig3_3.jpg)
 
@@ -156,6 +170,10 @@ Concave lenses do not cause light to converge upon a single point but instead ca
 
 ![Figure 3.7](imgs/fig3_7.jpg)
 
+Recreate your ray trace diagram using simlation 3 below.
+
+![Simulation 3](https://ophysics.com/l12.html){width=100% height=1000px}
+
 ## PART 4: TELESCOPES AND MICROSCOPES
 
 Note: In the following procedure, you may have to adjust the starting positions to get good results.
@@ -204,3 +222,7 @@ What do you observe?
 :::
 
 :::
+
+<!-- Example Functions -->
+<!--PhET Formatting ![Simulation 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
+

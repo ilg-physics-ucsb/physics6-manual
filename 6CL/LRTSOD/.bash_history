@@ -39,3 +39,21 @@ compile LRTSOD.md 6CL_Lab2.html
 compile LRTSOD.md 6CL_Lab2.html
 compile LRTSOD.md 6CL_Lab2.html
 exit
+compile
+compile LRTSOD.md testfile.html
+exitr
+exit
+compile LRTSOD.md testfile.html
+compile LRTSOD.md testfile.html
+compile LRTSOD.md testfile.html
+compile LRTSOD.md testfile.html
+compile LRTSOD.md testfile.html
+compile LRTSOD.md testfile.html
+compile LRTSOD.md testfile.html
+compile LRTSOD.md testfile.html
+compile LRTSOD.md testfile.html
+compile LRTSOD.md testfile.html
+compile LRTSOD.md testfile.html
+compile LRTSOD.md testfile.html
+compile LRTSOD.md testfile.html
+exit
