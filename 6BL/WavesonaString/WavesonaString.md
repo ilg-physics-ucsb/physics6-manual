@@ -4,30 +4,37 @@ title: Waves on a String
 
 ## PART 1: THEORY
 
-![Diagram 1.1: Traveling Pulse Waves](imgs/Figure1_TravelingPulse.jpg)
-
-
-::: Exercise
+![Figure 1: Traveling Pulse Waves](imgs/Figure1_TravelingPulse.jpg)
 
 ::: Question
 For a given tension, will a more dense string have greater or lesser propagation velocity? Justify your reasoning.
 :::
 
-Simulation 1 will allow you to test your answer so you can see the characteristics of a wave and how tension affects its speed.
+::: Exercise
+
+Below, in Simulation 1, you will see what appears to be many beads linked together on a string. This is simulating the description in Figure 1 to an extreme. Each bead has mass and interacts while the string does not. It will interact with its neighboring beads through the string. So when one bead gets pulled on, it will the pull on its neighboring bead. The green beads behave exactly like the red beads, they are just there as a positional reference.
+
+In Simulation 1 you can move the end of the string of beads in three different ways. You can make your choice in the upper left corner of the simulation. Manual allows you to manually move the wrench up and down, by clicking and dragging. Oscillate will drive the end of the string up and down periodically. You can change the frequency and amplitude of the oscillation in the lower control panel. Lastly, pulse will allow you send a triangle shaped pulse down the string. You can change the pulses amplitude and width in the bottom control panel.
+
+A few other things to highlight. In the upper right is a control panel that allows you to change what is happening on the right end of the string. The lower control panel will change slight based on your selection to drive the string. The things that stay constant are the tension and the damping. The tension slider allows you to change how taut string is, while the damping slider adds a bit of reality to the simulation. *For the most part, when you use the simulation you will want to set damping to "None."* Finally, there is a set of tools you can use in the right side of the of the bottom control panel. You will need these from time to time to make measurements.
+
+For this exercise you will investigate how tension affects the velocity of a pulse on a string. You will send a pulse down string, and time how long it takes to travel many round trips. Then using the distance it travelled over a given time you can determine the velocity of the pulse.
+
+![Simulation 1: Wave Velocity Calculation](https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_en.html){width=100% height=600px}
 
 a) First set up the settings on Simulation 1 as follows.
 
-![Simulation 1 Velocity Calculation Settings](imgs/Pulse_Settings.JPG){width=100%}
+![Table 1: Velocity Calculation Settings](imgs/Pulse_Settings.JPG){width=75%}
 
-b) Make a table as seen in (sample table doc) with columns for Tension, Length, total time, time and velocity.
+b) Make a table as seen in [sample table doc](https://docs.google.com/spreadsheets/d/1xZ7Nz3IUxpD715pPghY0djhcSn_bZ_FZs1SoGMgkw8k/edit?usp=sharing){target=_blank} with columns for Tension, Length, total time, time and velocity.
 
 c) Use the ruler to measure the length of the string and record it in the table.
 
-d) Send a pulse and simultaniously start the timer and record how long it takes the pulse to travel 5 full cycles. Add this time to your table under the "Total time (s)" column.
+d) Send a pulse and simultaneously start the timer and record how long it takes the pulse to travel 5 full cycles. Add this time to your table under the "Total time (s)" column.
 
-e) Repeat part d) with the tension set to Medium and Low and fill out the table accordingly. Note the length does not change. 
+e) Repeat part d) with the tension set to Medium and Low and fill out the table accordingly. Note the length does not change.
 
-f) Calculate the time for one pulse's round trip by taking the total time and dividing it by 5. Divide the length of one round trip (twice the length of the string) by the time for a single round trip. 
+f) Calculate the time for one pulse's round trip by taking the total time and dividing it by 5. Divide the length of one round trip (twice the length of the string) by the time for a single round trip.
 
 ::: Question
 a) How is the speed of a wave on a rope affected by tension?
@@ -37,13 +44,7 @@ b) Calculate the ratio of the tensions.
 b) What is the ratio of the tension to linear density for each tension setting assuming linear density is constant?
 :::
 
-![Simulation 1: Wave Velocity Calculation](https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_en.html){width=100% height=600px}
-
 :::
-
-
-
-
 
 If this string is instead driven by a source which moves up and down in a sinusoidal fashion, then a sine wave will propagate down the line instead of a pulse. The spatial length of this waveform is determined by the frequency of oscillation and the velocity of the wave. Note that every point on the string vibrates with the same frequency.
 
@@ -51,8 +52,12 @@ If this string is instead driven by a source which moves up and down in a sinuso
 
 A wave propagating on a string is described by the equation:
 
-$$\bf{(Equation\ 1)}$$
-$$velocity = v = wavelength \cdot frequency = \lambda \cdot f$$  
+$$
+\begin{align}
+    velocity = v = wavelength \cdot frequency = \lambda \cdot f
+\end{align}
+$$
+$$\textbf{(Equation 1)}$$
 
 Velocity, v, is the speed at which any disturbance propagates down the string. Wavelength, $\lambda$, is the spatial distance that one sinusoidal oscillation covers on the string. Frequency, f, is the rate of periodic oscillation.
 
@@ -291,7 +296,6 @@ d) What does this say about the number of data points required to reduce error?
 
 AVOCADO The manual uses F and T for the same thing, for consistency which one should I use
 AVOCADO Double check the question and example numbering because I added a PhET
-
 
 <!-- Example Functions -->
 

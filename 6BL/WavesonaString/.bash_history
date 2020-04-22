@@ -85,3 +85,22 @@ compile WavesonaString.md WavesonaStringTest3.html
 compile WavesonaString.md WavesonaStringTest3.html
 compile WavesonaString.md WavesonaStringTest3.html
 exit
+ls
+compile WavesonaString.md WavesonaString.html
+ls
+ls
+compile WavesonaString.md WavesonaString.html
+compile WavesonaString.md WavesonaString.html
+compile WavesonaString.md WavesonaString.html
+compile WavesonaString.md WavesonaString.html
+compile WavesonaString.md WavesonaString.html
+compile WavesonaString.md WavesonaString.html
+compile WavesonaString.md WavesonaString.html
+compile WavesonaString.md WavesonaString.html
+compile WavesonaString.md WavesonaString.html
+compile WavesonaString.md WavesonaString.html\
+compile WavesonaString.md WavesonaString.html\
+compile WavesonaString.md WavesonaString.html
+exit
+compile WavesonaString.md WavesonaString.html
+exit
