@@ -4,47 +4,48 @@ title: Waves on a String
 
 ## PART 1: THEORY
 
-![Figure 1: Traveling Pulse Waves](imgs/Figure1_TravelingPulse.jpg)
+![Diagram 1.1: Traveling Pulse Waves](imgs/Figure1_TravelingPulse.jpg)
+
+
+::: Exercise
 
 ::: Question
 For a given tension, will a more dense string have greater or lesser propagation velocity? Justify your reasoning.
 :::
 
-::: Exercise
+Simulation 1 will allow you to test your answer so you can see the characteristics of a wave and how tension affects its speed.
 
-Below, in Simulation 1, you will see what appears to be many beads linked together on a string. This is simulating the description in Figure 1 to an extreme. Each bead has mass and interacts while the string does not. It will interact with its neighboring beads through the string. So when one bead gets pulled on, it will the pull on its neighboring bead. The green beads behave exactly like the red beads, they are just there as a positional reference.
+a) First set up the settings on Simulation 1 as follows.
 
-In Simulation 1 you can move the end of the string of beads in three different ways. You can make your choice in the upper left corner of the simulation. Manual allows you to manually move the wrench up and down, by clicking and dragging. Oscillate will drive the end of the string up and down periodically. You can change the frequency and amplitude of the oscillation in the lower control panel. Lastly, pulse will allow you send a triangle shaped pulse down the string. You can change the pulses amplitude and width in the bottom control panel.
+![Simulation 1 Velocity Calculation Settings](imgs/Pulse_Settings.JPG){width=100%}
 
-A few other things to highlight. In the upper right is a control panel that allows you to change what is happening on the right end of the string. The lower control panel will change slight based on your selection to drive the string. The things that stay constant are the tension and the damping. The tension slider allows you to change how taut string is, while the damping slider adds a bit of reality to the simulation. *For the most part, when you use the simulation you will want to set damping to "None."* Finally, there is a set of tools you can use in the right side of the of the bottom control panel. You will need these from time to time to make measurements.
+b) Make a table as seen in (sample table doc) with columns for Tension, Length, total time, time and velocity.
 
-For this exercise you will investigate how tension affects the velocity of a pulse on a string. You will send a pulse down string, and time how long it takes to travel many round trips. Then using the distance it travelled over a given time you can determine the velocity of the pulse.
+c) Use the ruler to measure the length of the string and record it in the table.
 
-![Simulation 1: Wave Velocity Calculation](https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_en.html){width=100% height=600px}
+d) Send a pulse and simultaniously start the timer and record how long it takes the pulse to travel 5 full cycles. Add this time to your table under the "Total time (s)" column.
 
-1) First set up the settings on Simulation 1 as follows.
+e) Repeat part d) with the tension set to Medium and Low and fill out the table accordingly. Note the length does not change. 
 
-![Table 1: Velocity Calculation Settings](imgs/Pulse_Settings.JPG){width=75%}
-
-2) Make a table as seen in [sample table doc](https://docs.google.com/spreadsheets/d/1xZ7Nz3IUxpD715pPghY0djhcSn_bZ_FZs1SoGMgkw8k/edit?usp=sharing){target=_blank} with columns for Tension, Length, total time, time and velocity.
-
-3) Use the ruler to measure the length of the string and record it in the table.
-
-4) Send a pulse and simultaneously start the timer and record how long it takes the pulse to travel 5 full cycles. Add this time to your table under the "Total time (s)" column.
-
-5) Repeat part d) with the tension set to Medium and Low and fill out the table accordingly. Note the length does not change.
-
-6) Calculate the time for one pulse's round trip by taking the total time and dividing it by 5. Divide the length of one round trip (twice the length of the string) by the time for a single round trip.
+f) Calculate the time for one pulse's round trip by taking the total time and dividing it by 5. Divide the length of one round trip (twice the length of the string) by the time for a single round trip. 
 
 ::: Question
 a) How is the speed of a wave on a rope affected by tension?
 
 b) Calculate the ratio of the tensions.
 
-b) What is the ratio of the tension to linear density for each tension setting assuming linear density is constant?
+c) What is the ratio of the tension to linear density for each tension setting assuming linear density is constant?
+
+d) In the Pendulum lab and this lab you are asked to take multiple cycles of data and divide your values. Why do you think this is done?
 :::
 
+![Simulation 1: Wave Velocity Calculation](https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_en.html){width=100% height=600px}
+
 :::
+
+
+
+
 
 If this string is instead driven by a source which moves up and down in a sinusoidal fashion, then a sine wave will propagate down the line instead of a pulse. The spatial length of this waveform is determined by the frequency of oscillation and the velocity of the wave. Note that every point on the string vibrates with the same frequency.
 
@@ -52,13 +53,8 @@ If this string is instead driven by a source which moves up and down in a sinuso
 
 A wave propagating on a string is described by the equation:
 
-$$\textbf{(Equation 1)}$$
-$$
-\begin{align}
-    velocity = v = wavelength \cdot frequency = \lambda \cdot f
-\end{align}
-$$
-
+$$\bf{(Equation\ 1)}$$
+$$velocity = v = wavelength \cdot frequency = \lambda \cdot f$$  
 
 Velocity, v, is the speed at which any disturbance propagates down the string. Wavelength, $\lambda$, is the spatial distance that one sinusoidal oscillation covers on the string. Frequency, f, is the rate of periodic oscillation.
 
@@ -71,7 +67,7 @@ c) If the frequency of the oscillator was changed to 16 Hz, how far would one cy
 **NOTE:** If frequency is fixed (which it will be in the subsequent experiment) then the wavelength is determined entirely by the velocity of the wave on the string. The velocity of a wave on a string is given by:
 
 $$\bf{(Equation\ 2)}$$
-$$velocity = v = \sqrt{\frac{Force\, due\, to\, Tension}{String\, Density}} = \sqrt{\frac{F_T}{\mu}}$$
+$$velocity = v = \sqrt{\frac{Force}{String Density}} = \sqrt{\frac{F}{\mu}}$$
 
 What is the equation for wavelength in terms of force?
 :::
@@ -86,11 +82,11 @@ Two waves can travel on a string - in opposite directions - and pass through eac
 
 Play with Simulation 2 to see wave interference in action. 
 
-1) First set up the settings on Simulation 2 as follows.
+a) First set up the settings on Simulation 2 as follows.
 
 ![Simulation 1 Wave Interference Settings](imgs/Interference_Settings.JPG){width=100%}
 
-2) Send two pulses with a gap in between them and observe how they constructively and destructively interfere. Note this will be easier to view with the speed set to Slow Motion or with reduced tension to make the waves travel slower. You may also play with this in Manual mode.
+b) Send two pulses with a gap in between them and observe how they constructively and destructively interfere. Note this will be easier to view with the speed set to Slow Motion or with reduced tension to make the waves travel slower. You may also play with this in Manual mode.
 
 ![Simulation 2: Wave Interference](https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_en.html){width=100% height=600px}
 
@@ -135,17 +131,17 @@ b) Instead drive one end of the string with a sinusoidal oscillator of frequency
 
 Using Simulation 3 you will see standing waves and gain an intuition for how to produce them.
 
-1) First set up the settings on Simulation 3 as follows.
+a) First set up the settings on Simulation 3 as follows.
 
-![Simulation 3 Standing Wave Settings](imgs/Standing_Wave_Table.JPG){width=100%}
+![Simulation 3 Standing Wave Settings](imgs/Standing_Wave_Table2.JPG){width=100%}
 
-2) Use equation 3 and your measurement of the length of the string from Exercise 1 to determine the wavelength needed to generate a standing wave with n segments.
+b) Use equation 3 and your measurement of the length of the string from Exercise 1 to determine the wavelength needed to generate n standing waves.
 
-3) Use equation 1 and your calculated velocity from Exercise 1 for tension set to high to calculate the frequency as a function of n needed to produce a standing wave with n segments. 
+c) Use equation 1 and your calculated velocity from Exercise 1 for tension set to high to calculate the frequency needed. 
 
-4) Set your frequency to fit the wavelength to get n = 2 with tension set to high. 
+d) Set your frequency to fit the wavelength to get n = 2 with tension set to high. 
 
-5) Repeat part d. with the tension set to Medium and Low for n = 3 and n = 4. Make a table similar to [sample table doc](https://docs.google.com/spreadsheets/d/1xZ7Nz3IUxpD715pPghY0djhcSn_bZ_FZs1SoGMgkw8k/edit?usp=sharing){target=_blank} and fill the table accordingly. Note the length does not change. 
+e) Repeat part d. with the tension set to Medium and Low for n = 3 and n = 4. Make a table similar to (Sample Table) and fill the table accordingly. Note the length does not change. 
 
 ![Simulation 1](https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_en.html){width=100% height=600px}
 
@@ -161,7 +157,7 @@ a) Do we want any questions here?
 <!-- Sample PhET for Waves on a String -->
 <!-- ![Simulation 1](https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_en.html){width=100% height=600px} -->
 
-The objective of this lab is to analyze the characteristics of waves on a string. This will be done with 3 systems with varying characteristics.
+The objective of this lab is to analyze the characteristics of waves on a string. This will be done with varying systems.
 
 You will be expected to turn in all plots and tables you are asked to make in the exercises, as well as all answers to questions.
 
@@ -171,11 +167,10 @@ You will be expected to turn in all plots and tables you are asked to make in th
 
 This exercise will set a baseline for our measurements using the system seen in Image 1 and used in Video 1. This set up can be called System 1.
 
-1) The linear density, μ (mass/length) is given in AVOCADO. If it is not posted, ask your TA. At the time of the manual’s writing, the mass density was 0.266 g/m.
-2) The distance from the string vibrator and pulley should be about 100 cm. At the end of the string there are hangers used to attach the masses, additional hangers will be attached as needed. Each hanger has a mass of 5g. Using Image 1 below record the hanging mass, m (do not forget to include the mass of the hanger).
-3) Measure from the knot where the string attaches to the string vibrator to the top of the pulley using using Image 1 below. This is distance L. 
-4) Record this data in a table labeled Base Values. This tabel should have column headers: L, m, μ, T, and $v_{Fμ}$; and row headers: System 1, System 2, and System 3. Record your systems' values here as you proceed with part two of this lab. Be sure to use the correct units when recording your data. You may include your units in your headers.
-You will be creating seperate tables for each of the 3 systems in the upcoming exercises.
+a) The linear density, μ (mass/length) is given in AVOCADO. If it is not posted, ask your TA. At the time of the manual’s writing, the mass density was 0.266 g/m.
+b) The distance from the string vibrator and pulley should be about 100 cm. At the end of the string there are hangers used to attach the masses, additional hangers will be attached as needed. Each hanger has a mass of 5g. Using Image 1 below record the hanging mass, m (do not forget to include the mass of the hanger).
+c) Measure from the knot where the string attaches to the string vibrator to the top of the pulley using using Image 1 below. This is distance L. 
+d) Record this data in a table labeled System 1. This tabel should have 2 rows. The first row should have your measured and calculates values as headers (L, m, μ, f, T, $v_{Fμ}$, $v_{λf}$, % Deviation of v). The second row should have your measured and calculated values under the header n = 0. Leave unmeasured and uncalculated cells blank for now. Here is a [Sample Table](https://docs.google.com/spreadsheets/d/1xZ7Nz3IUxpD715pPghY0djhcSn_bZ_FZs1SoGMgkw8k/edit?usp=sharing).
 
 <!--Image 1 ![Image 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
 ![Image 1: Sample Image 1](imgs/Mars_Test.JPG)
@@ -194,11 +189,9 @@ Now we will begin taking data points using System 1. Since this is the set up in
 :::GVideo
 watch?v=tpiyEe_CqB4
 :::
-*Video 1 placeholder* This video scans through frequencies on System 1 to find standing waves with varying numbers of wave segments.
+*Video 1 placeholder* This video scans through frequencies on System 1 to find different amounts of standing waves.
 
-1) Create a table for System 1 with column headers for frequency, $v_{λf}$, and % Deviation of v; and with a row header for n = 1.
-
-2) Video 1 scans through frequencies using System 1. Watch the video and determine the frequency at which you see 1 standing wave. Record the frequency for your standing wave with one segment in your table.
+a) Video 1 scans through frequencies using System 1. Watch the video and determine the frequency at which you see 1 standing wave. Add a row with the header n = 1 and record the frequency for your single standing wave in the appropriate box.
 
 ::: Question
 a) What is the tension in the string? Use the formula Tension = T = F = mg
@@ -208,32 +201,32 @@ d) Compare the two values of speed. What is the difference? Calculate the percen
 deviates from $v_{λf}$.
 :::
 
-Fill in your new values into your table for System 1. 
+Fill in your new values into your table for System 1. Please notice what values vary and what values do not as you go from your base values (n = 0) to your n = 1 values. What was your frequency for n = 0?
 
-2) AVOCADO I dont know how many segments well get. Now add three more rows with the headers n = 2, n = 3, and n = 4 respectively.
+b) Now add three more rows with the headers n = 2, n = 3, and n = 4 respectively.
 
-3) Continue watching video 1 and repeat Excercise 2 for standing waves of three and four segments. Answer question 6 for each case and fill out your table accordingly.
+c) Continue watching video 1 and repeat Excercise 2 for standing waves of three and four segments. Answer question 5 for each case and fill out your table accordingly.
 :::
 
 ::: Exercise
 
 This exercise uses a new set up called System 2. This will have the same L as System 1, but will have approximately half of the mass. 
 
-1) Measure the mass for System 2 using Image 2 below.
+a) Measure the mass for System 2 using Image 2 below.
 
 <!--Image 2 ![Image 2](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
 ![Image 2: Sample Image 2](imgs/Moon_Test.JPG)
 *Image 2 placeholder*
 
-2) Create a new table labeled System 2 just like you made for System 1 and record L, m, and μ in your Base Values table.
+b) Create a new table labeled System 2 just like you made for System 1 only with your new values for L, m, and μ and blank cells for everything else. Note μ and L are the same as before. 
 
 <!--Video 2 Baseline ![Video 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
 :::GVideo
 watch?v=tpiyEe_CqB4
 :::
-*Video 2 placeholder* This video scans through frequencies on System 2 to find standing waves with varying numbers of wave segments.
+*Video 2 placeholder* This video scans through frequencies on System 2 to find different amounts of standing waves.
 
-3) Just as you did for System 1 go through Video 2 and find the frequencies for each number of standing waves. Answer question 6 for each value of n and fill out your table accordingly.
+c) Just as you did for System 1 go through Video 2 and find the frequencies for each number of standing waves. Answer question 5 for each value of n and fill out your table accordingly.
 :::
 
 
@@ -241,30 +234,30 @@ watch?v=tpiyEe_CqB4
 
 This exercise uses a new set up called System 3. This will have the same m as System 2, but will have approximately half of the length. 
 
-1) Measure the length for System 3 using Image 3 below.
+a) Measure the length for System 3 using Image 3 below.
 
 <!--Image 3 ![Video 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
 ![Image 3: Sample Image 3](imgs/Saturn_Test.jpg)
 *Image 3 placeholder*
 
-2)  Create a new table labeled System 3 just like you made for System 1 and System 2 and record L, m, and μ in your Base Values table. 
+b) Create a new table labeled System 3 just like you made for Systems 1 and 2, only with your new values for L, m, and μ and blank cells for everything else. Note μ and m are the same as for System ?. AVOCADO (We need to make see which m System 3 matches) 
 
 <!--Video 3 Baseline ![Video 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
 :::GVideo
 watch?v=tpiyEe_CqB4
 :::
-*Video 3 placeholder* This video scans through frequencies on System 3 to find standing waves with varying numbers of wave segments.
+*Video 3 placeholder* This video scans through frequencies on System 3 to find different amounts of standing waves.
 
-3) Just as you did for Systems 1 and 2 go through Video 3 and find the frequencies for each number of standing waves. Answer question 6 for each value of n and fill out your table accordingly.
+c) Just as you did for Systems 1 and 2 go through Video 3 and find the frequencies for each number of standing waves. Answer question 5 for each value of n and fill out your table accordingly.
 :::
 
 
 ### Analysis Method 2
 
 ::: Exercise
-1) Our goal is now to study the relationship between the number of segments and the frequency of the wave. Make sure your tables for Systems 1, 2, and 3 are completely filled out. 
+a) Our goal is now to study the relationship between the number of segments and the frequency of the wave. Make sure your tables for Systems 1, 2, and 3 are completely filled out. 
 
-2) Make a graph of $f$ versus $n$ (the number of segments) for each system. You should have the three curves on one graph in different colors.
+b) Make a graph of $f$ versus $n$ (the number of segments) for each system. You should have the three curves on one graph in different colors.
 
 ::: Question
 a) What are the shapes of each of the curves on the graph?
@@ -273,14 +266,33 @@ c) How does each system's curve vary?
 d) What are the slopes of the best fit lines through these cruves?
 :::
 
-3) Combine equations 1, 2, and 3 (from the Theory section), and show that the frequency can be written as: $$f = \sqrt{F/μ}(1/2L)n$$
+c) Combine equations 1, 2, and 3 (from the Theory section), and show that the frequency can be written as: $$f = \sqrt{F/μ}(1/2L)n$$And that the tension can be
+written as: $$F = (4μf^{2}L^{2})(1/n^{2})$$
 
 ::: Question
 a) What function does the slopes of your $f$ vs $n$ graph give you in terms of F, μ, and L.
 b) Use the slopes from your graph and the tension and length for each system to calculate the density, μ, of the string. Get a value of μ for each frequency for each system. Compare these measured values of density to the accepted value. What is the percent difference for each?
+
+AVOCADO Enough data for the following questions? They should be able to figure these out mathematically, but is that asking too much?
+
+c) What is the shape of an F versus $n$ graph?
+d) What is the shape of an F versus $1/n^2$ graph?
+e) What is the slope of an F versus $1/n^2$ graph?
 :::
 
+d) For System 1 and System 2, find two values of $n$ that have similar frequencies (within 10% of each other). Graph F versus $1/n^2$ using the an $n$ value from System 1 and an $n$ value of System 2 with similar frequency.
+
+::: Question
+a) Graph F versus $1/n^2$ graph
+b) Use the slope from your graph to calculate the density, μ, of the string. Compare this measured
+value of density to the accepted value. What is the percent difference?
+c) How does this value compare to the one you calculated above using $f$ vs $n$? Which is more accurate?
+d) What does this say about the number of data points required to reduce error?
 :::
+:::
+
+AVOCADO The manual uses F and T for the same thing, for consistency which one should I use
+AVOCADO Double check the question and example numbering because I added a PhET
 
 
 <!-- Example Functions -->
