@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Ohms Law</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="./css/pandoc.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Ohms Law</h1>
+</header>
+<h3 id="introduction">Introduction</h3>
+<p>During the nineteenth century so many advances were made in understanding the electrical nature of matter that it has been called the “age of electricity.” One such advance was made by an investigator named Georg Simon Ohm. Ohm was interested in examining the relationship between an applied voltage and the resulting current in a conducting material. He found that for a given conductor the current in the wire was directly proportional to the voltage across it. When current (dependent axis) is plotted against the voltage (independent axis) in a given conductor, the data forms a straight line. The reciprocal of the slope is the resistance of the conductor. This result was published in 1826. In recognition of Ohm’s work, this empirical relationship bears his name.</p>
+<h2 id="part-1-empirically-determining-resistance">PART 1: EMPIRICALLY DETERMINING RESISTANCE</h2>
+<div class="ENumber">
+<p>Exercise 1</p>
+<div class="Exercise">
+<ol type="a">
+<li>Wire the circuit shown in Figure 1.</li>
+</ol>
+<figure>
+<img src="imgs/Figure1_Part1Circuit.jpg" alt="Figure 1: A 2200 ohm (2.2k ohm) resistor is wired in series with an ammeter and connected to the 0–20 volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the resistor to measure the voltage drop." /><figcaption>Figure 1: A 2200 ohm (2.2k ohm) resistor is wired in series with an ammeter and connected to the 0–20 volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the resistor to measure the voltage drop.</figcaption>
+</figure>
+<ol start="2" type="a">
+<li><strong>Hint:</strong> Wire the circuit as a loop. Start from the negative terminal of the power supply, continue to the next circuit element, then to the next, and so on and so forth until you arrive back at the positive terminal of the power supply. <strong>Hint:</strong> Current must flow through an ammeter. It must be part of the circuit loop. <strong>Hint:</strong> Voltage is measured across circuit elements. Voltmeters are not part of the circuit loop, but must instead be placed with one terminal on each side of the element you wish to measure. <strong>Note:</strong> The gray box is a power supply protection device. If the red light is on, everything is ok. If it is off, it has broken the circuit for safety. Too much current was being drawn. <strong>Note:</strong> This will reduce the voltage somewhat, always trust the yellow meters, not the read out on the blue power supply. Otherwise, you may treat the output of the gray box as though it was the output of the power supply.</li>
+<li>The volt meter measures the voltage across the 2200Ω resistor. Treat this as your independent (x) axis in this experiment.</li>
+<li>The ammeter measures the amount of current flowing through the series circuit. Treat this as your dependent (y) axis in this experiment.</li>
+<li>Adjust the voltage applied to the circuit with the large right-most knob on the power supply, also be sure that the mode switch is in the “tracking” position. You will measure the voltage and corresponding current for 10 data points. Your first current measurement is taken with the voltmeter reading 2V. Increment the voltage by 2 volts until you’ve reached 20 volts. Take a current reading for each voltage.</li>
+<li>Neatly tabulate your data, then plot your data with voltage as the X-axis and current as your Y-axis.</li>
+</ol>
+</div>
+</div>
+<div class="QNumber">
+<p>Question 1</p>
+<div class="Question">
+<ol type="a">
+<li>Describe this plot. Is it linear or almost linear? Is there a section of the plot which is linear?</li>
+<li>What is the slope of this line? Use units.</li>
+<li>What is the reciprocal of this line? Use units. Note the equivalency volts/amperes = ohms.</li>
+</ol>
+</div>
+</div>
+<h3 id="theory---ohms-law">Theory - Ohm’s Law</h3>
+<p>Ohm’s law is most simply expressed as the equation:</p>
+<p><span class="math display">\[V = I \cdot R\]</span></p>
+<p>where</p>
+<p><strong>V</strong> represents the voltage across the resistor measured in volts, <strong>I</strong> the current in the resistor measured in amperes, and <strong>R</strong> the resistance of the resistor measured in units called “ohms” symbolized the upper-case Greek omega <span class="math inline">\((\Omega).\)</span></p>
+<p>In words, Ohm’s law states that “the voltage V across the ends of a resistor R and the current I flowing through this resistor are proportional.” If the potential difference across a resistor is set at 1 volt, and if a current of 1 amp is measured in the resistor, then its resistance is determined to be 1 ohm.</p>
+<p><span class="math display">\[1A = 1000mA\]</span> <span class="math display">\[1k \Omega = 1000\Omega\]</span></p>
+<p>Algebraic rearrangement gives the current in terms of the voltage and resistance:</p>
+<p><span class="math display">\[I = V/R\]</span></p>
+<p>This is exactly what you just saw in the previous experiment. From this equation, it should be clear why the reciprocal of the slope is the resistance. Further algebraically rearrangement yields the proportionality constant R, which is the electrical resistance of the device.</p>
+<p><span class="math display">\[R = V/I\]</span></p>
+<div class="QNumber">
+<p>Question 2</p>
+<div class="Question">
+<ol type="a">
+<li>A <span class="math inline">\(10.2K\Omega\)</span> resistor passes a current of 2mA. What is the voltage across this resistor?</li>
+<li>What is the current through this resistor when 9V are dropped across it?</li>
+</ol>
+</div>
+</div>
+<h2 id="part-2-series-circuit-elements">PART 2: SERIES CIRCUIT ELEMENTS</h2>
+<div class="ENumber">
+<p>Exercise 2</p>
+<div class="Exercise">
+<ol type="a">
+<li>Wire the circuit shown in Figure 2.</li>
+</ol>
+<figure>
+<img src="imgs/Figure2_Part2Circuit.jpg" alt="Figure 2: Two 2200 ohm (2.2k ohm) resistors are wired in series with an ammeter and connected to the 0–20 volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the two resistors to measure the total voltage drop." /><figcaption>Figure 2: Two 2200 ohm (2.2k ohm) resistors are wired in series with an ammeter and connected to the 0–20 volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the two resistors to measure the total voltage drop.</figcaption>
+</figure>
+<ol start="2" type="a">
+<li>The voltmeter is placed across two 2.2K resistors chained end to end. The quantity measured by this device is the voltage across both resistors. Treat this as your independent (x) axis in this experiment.</li>
+<li>Again, the ammeter measures the amount of current flowing through the series circuit. Treat this as your dependent (y)axis in this experiment.</li>
+<li>Adjust the voltage applied to the circuit with the large right-most knob on the power supply, also be sure that the mode switch is in the “tracking” position (see Figure 2). You will measure the voltage and corresponding current for 10 data points. Your first current measurement is taken with the voltmeter reading 2V. Increment the voltage by 2 volts until you’ve reached 20 volts. Take a current reading for each voltage.</li>
+<li>Neatly tabulate your data, then plot your data with voltage as the X-axis and current as your Y-axis.</li>
+</ol>
+</div>
+</div>
+<div class="QNumber">
+<p>Question 3</p>
+<div class="Question">
+<ol type="a">
+<li>What is the slope of this line? Use units. What is the reciprocal of this line?</li>
+<li>Qualitatively compare this plot to what you found in the first procedure. How do the slopes compare? What can you say about resistances in series?</li>
+</ol>
+</div>
+</div>
+<h3 id="theory---series-circuits">Theory - Series Circuits</h3>
+<p>In order for current to move through a circuit, there must be a complete path leading away from and back to the source voltage. In a simple series circuit there is only one such path. It is important to note that the same amount of current flows through all points of a series circuit. If this were not the case, there would be points where current was either created or destroyed. Top minds in physics maintain that this does not happen. <em>The current through each element is the same</em>, however the total circuit voltage is divided among the individual resistors. For this reason, the circuit in the previous experiment is commonly known as a voltage divider. Individual series resistors add to form a total resistance. Individual voltages in series circuits add to form the total circuit voltage. The entire source voltage will be dropped across the combination of two resistors. The voltage across each individual resistor is proportional to its individual resistance. The circuit has a simple and useful ratio equivalence:</p>
+<p><span class="math display">\[\frac{Individual Resistance Value}{Total Resistance Value} = \frac{Individual Voltage Dropped}{Total Voltage Dropped}\]</span></p>
+<p>Algebraic manipulation shows us:</p>
+<p><span class="math display">\[Individual Voltage Dropped = Source Voltage \cdot \frac{Individual Resistance}{Total Resistance}\]</span></p>
+<p>Thus the name voltage divider refers to the fact that the voltage will divide according to the ratio of the two resistances.</p>
+<div class="QNumber">
+<p>Question 4</p>
+<div class="Question">
+<p>a)A series circuit has a source voltage of 20V and two resistances of 1.7K and 2.6K, respectively. What is the total circuit current? What are the voltages across each resistor? Show that Ohm’s Law holds for each element individually.</p>
+</div>
+</div>
+<h2 id="part-3-parallel-circuits">PART 3: PARALLEL CIRCUITS</h2>
+<div class="ENumber">
+<p>Exercise 3</p>
+<div class="Exercise">
+<ol type="a">
+<li>Wire the circuit shown in Figure 3a. Use the 5 volt supply for this part.</li>
+</ol>
+<figure>
+<img src="imgs/Figure3a_Part3Circuit.jpg" alt="Figure 3a. A 2200 ohm (2.2k ohm) resistor is wired in series with the ammeter and connected to the 5 volt fixed terminals of the power supply. The voltmeter is connected across the resistor to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit." /><figcaption>Figure 3a. A 2200 ohm (2.2k ohm) resistor is wired in series with the ammeter and connected to the <strong>5 volt</strong> fixed terminals of the power supply. The voltmeter is connected across the resistor to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit.</figcaption>
+</figure>
+</div>
+</div>
+<div class="QNumber">
+<p>Question 5</p>
+<div class="Question">
+<ol type="a">
+<li>Measure the voltage and current. Calculate the resistance and compare it to the labeled value.</li>
+</ol>
+</div>
+</div>
+<div class="ENumber">
+<p>Exercise 4</p>
+<div class="Exercise">
+<ol type="a">
+<li>Wire the circuit shown in Figure 3b. In a series configuration the resistors are hooked end to end with just one path for the current to flow. In Figure 3b, we put the resistors next to each other with common points at each end. The result is two separate paths for current to flow. For obvious reasons, this arrangement is referred to as parallel.</li>
+</ol>
+<figure>
+<img src="imgs/Figure3b_Part3Circuit.jpg" alt="Figure 3b. Two 2200 ohm resistors in parallel are connected in series with the ammeter and connected to the 5 volt fixed terminals of the power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit." /><figcaption>Figure 3b. Two 2200 ohm resistors in parallel are connected in series with the ammeter and connected to the <strong>5 volt</strong> fixed terminals of the power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit.</figcaption>
+</figure>
+</div>
+</div>
+<div class="QNumber">
+<p>Question 6</p>
+<div class="Question">
+<ol type="a">
+<li>The source voltage has stayed the same. What has happened to the current?</li>
+<li>What does this imply of the resistance?</li>
+</ol>
+</div>
+</div>
+<div class="ENumber">
+<p>Exercise 5</p>
+<div class="Exercise">
+<ol type="a">
+<li>Wire the circuit shown in Figure 3c. There are now three paths for the current to take.</li>
+</ol>
+<figure>
+<img src="imgs/Figure3c_Part3Circuit.jpg" alt="Figure 3c. Three 2200 ohm resistors in parallel are connected in series with the ammeter and connected to the 5 volt fixed terminals of the power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit." /><figcaption>Figure 3c. Three 2200 ohm resistors in parallel are connected in series with the ammeter and connected to the 5 volt fixed terminals of the power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit.</figcaption>
+</figure>
+</div>
+</div>
+<div class="QNumber">
+<p>Question 7</p>
+<div class="Question">
+<ol type="a">
+<li>Again, the source voltage has stayed the same. What has happened to the current? This is easier if you compare it to the original current amount.</li>
+<li>What does this imply of the resistance?</li>
+</ol>
+</div>
+</div>
+<h3 id="theory---parallel-circuits">Theory - Parallel Circuits</h3>
+<p>You’ve now been familiarized with the relationship between current, voltage and resistance for a single resistor. In circuits, any point connected by a wire is considered to be the same point. Thus when we connect two or three resistors in parallel they all have the same voltage across them. In this scenario, Ohm’s law applies to each resistor individually. If the resistance values are different, the current through that branch will also be different. In a parallel arrangement the current can divide at the top junction and recombine at the bottom junction. Because there are multiple paths on which current can flow, more current can flow for a given voltage value. Thus, the equivalent resistance will be less than any one of the individual paths. The equation to determine the equivalent resistance of a network of parallel resistors is:</p>
+<p><span class="math display">\[1/R_{equivalent} = 1/R_{1} + 1/R_{2} + 1/R_{3}\]</span></p>
+<p>in the above experiment, all of the resistances were equal.</p>
+<div class="QNumber">
+<p>Question 8</p>
+<div class="Question">
+<ol type="a">
+<li>What is the equivalent resistance of a parallel network of 2.2kΩ, 3.1kΩ and 6.7kΩ?</li>
+<li>A 2.2kΩ resistor is placed in series with 1.7kΩ and 2.6kΩ resistors in parallel. The entire circuit is driven by 18V. What is the voltage across each element? What is the current through each element?</li>
+</ol>
+<figure>
+<img src="imgs/Figure4_Part3CircuitQ.jpg" alt="Figure 4: Ciruit Question" /><figcaption>Figure 4: Ciruit Question</figcaption>
+</figure>
+</div>
+</div>
+</body>
+</html>
