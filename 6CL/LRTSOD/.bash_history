@@ -57,3 +57,9 @@ compile LRTSOD.md testfile.html
 compile LRTSOD.md testfile.html
 compile LRTSOD.md testfile.html
 exit
+compile LRTSOD.md LensesRayTracingsAndSOD.html
+compile LRTSOD.md LensesRayTracingsAndSOD.html
+compile LRTSOD.md LensesRayTracingsAndSOD.html
+compile LRTSOD.md LensesRayTracingsAndSOD.html
+compile LRTSOD.md LensesRayTracingsAndSOD.html
+exit

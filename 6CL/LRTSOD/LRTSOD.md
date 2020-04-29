@@ -4,77 +4,173 @@ title: Lenses, Ray Tracing, and Simple Optical Devices
 
 ## PART 1: GAINING INTUTION
 
-Convex lenses are those which bulge outward in the center with the edge being the most narrow part.
+
+<!-- Paula's Intro Video -->
+:::GVideo
+1EmS1-pJrvrXioPXkftd1xWqZA97V3AdG
+:::
+
+In the last lab you studied the bending of the trajectory of a single ray of light at a boundary between two materials, a process known as refraction. The important aspects of refraction are the indices of refraction of the materials and the incident angle the light makes with the boundary.  In this lab we will study the refraction of multiple rays of light emitted from a single source point as they reach the boundary.
+
+A lens is an object that consists of a material of index of refraction $n$ and two spherical boundaries. The shape of the boundaries are designed such that when multiple rays of light emitted by a single source point pass through the lens, they converge to a unique point, known as the image point. The lens thus creates the image of the source point.
+
+We will consider two common types of lenses, convex and concave lenses. Convex lenses are those which bulge outward in the center with the edge being the most narrow part. Concave lenses are those which are thicker on the outside and thinner towards the center.
 
 :::Exercise
-1. Grab a clear curved object such as a full water bottle, it may be cylindrical or spherical. Move it around beneath a nearby lightsource and use a piece of paper as a screen. A clear ziplock bag filled with water can work as a rudimentary lens as well, be creative in your object choice.
+
+In this exercise you will explore the relationship between the curvature of a lens and its focal length. In Video 2 you will be shown three different lenses. It will start by showing you them in profile, this is to display their curvatures. The thicker a lens is at its center the greater the curvature. Next you will see the light source, in this case a ceiling light. This is the object that will be focused by the lens to the paper below. The lenses will be moved up and down until the light is focused. Note the distance between the lens and the paper when the image is focused while considering the lens's curvature.
+
+<!-- **6CL LRTSOD Video 1 Notes:** Set up camera on a tripod aimed down at a table. In this orientation show three lenses in profile. Now aim the camera up towards your ceiling light to show this is the object we are viewing. Now reposition the camera so you can see a table below the ceiling light and vertical space above it. Take three lenses and move them up and down in this region until you focus them and their varying heights.  -->
+
+<!-- Jeremy: Lens intuition video with focusing ceiling light-->
+:::GVideo
+1Z7R_8qxzZQeAn39GAaGjxaX9mtQaqlfF
+:::
+
+When a source is very far away, the image appears at the focal point of the lens. Let's consider the ceiling light to be very far from the lenses. Thus the light from the ceiling is converging at the focal point of the lenses. The distance between the lens and the focal point is the **focal length**. 
 
 :::Question
-What do you observe about the light passing through your object?
+Is there a relationship between the curvature of the lens and the focal length? 
 :::
 
+***Note:** A concave lens does not focus parallel light to a point.
+
+Simulation 1 shows how lenses act in two dimensions. Play with the system by dragging the focal point along the optical axis. Moving the focal point to the left of the lens will convert the blue convex lens to a red concave one. Use the simulation to explore your answer to question 1.
+
+<!-- Simulation 1 -->
+<!-- <figure> -->
+<!-- <div class="container" style="padding-bottom:56.25%:"> -->
+<iframe scrolling="no" title="InfiniteSourceTest" src="https://www.geogebra.org/material/iframe/id/rvcjbetq/width/700/height/444/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width=100% height="600px" style="border:0px;" allowfullscreen> </iframe>
+<!-- </div> -->
+<!-- <figcaption> Simulation 1 </figcaption> -->
+<!-- </figure> -->
+
+:::
+<!-- End of Exercise 1 -->
+
+::: Exercise
+
+In this exercise we will be more quantitative about the focal lengths. We will show you a video of five parallel rays passing through two lenses. This will be done with a concave and a convex lens over graph paper. You will be measuring the focal lengths of these lenses. 
+
+<!-- **6CL LRTSOD Video 2 Notes:** Have the light coming in from left to right. Do convex lens first, then concave lens. dit in test that says pause now. -->
+
+<!-- Jeremy's: 5 rays of light going to two lenses -->
+:::GVideo
+1ftavX8tEbtSw7jihY-UlMOpSiEkN15ji
 :::
 
-<!-- ![Simulation 2](https://phet.colorado.edu/sims/html/bending-light/latest/bending-light_en.html?screens=2){width=100% height=600px} -->
+**Note:** The graph paper used is 4 boxes per inch.
 
-At one height you should see that the object may focus the light from the your lightsource. Due to the shape of your object you may not get a focal point but rather a distance of greater light focus. A true lens would focus the light from your source far better. Note that different lenses focus the light at different heights above the table. This is due to the fact that the lenses have different focal lengths, a property dependent upon the index of refraction and geometry of the lens. Measure the height at which this occurs with your object, then do the same for two other objects if you can find.
+1. Pause the video when the convex lens is in place.
 
-[Simulation 1](https://ricktu288.github.io/ray-optics/simulator/){width=100% height=600px}
-<!-- I cannot get this sim to stay in a window, Setting it up as an image does not work. Setting it up as a link forces you to another page. I have a saved file for it but I do not know how to get it to that, 6CL_Lab2_P1_Test.json. -->
+2. Measure the focal length in units of boxes.
 
-![Simulation 1](https://phet.colorado.edu/sims/geometric-optics/geometric-optics_en.html){width=100% height=600px}
+3. Notice that for the concave lens the light does not converge. For this reason we must trace the light backwards. Pause the video when the concave lens is in place and the traced lines have appeared.
 
+4. Measure this distance in units of boxes.
 
+5. Convert both of your measurements to mm.
 
-
-Simulation 1 shows how lenses act in two dimentions. There are 4 lenses already made with a light source similar to that of the lights in your laboratory. The three on the left are convex and the one on the right is concave. Move the convex lenses around to see how the light passing through them acts. Select a lens and measure the height at which this occurs using the ruler tool, then do the same for two other unlabeled convex lenses.
-
-:::Question
-Is there a relationship between the curvature of the lens and the height at which it focuses? 
+::: Question
+What focal lengths did you measure?
 :::
-
-Note the relationship between curvature and focal length. Now take the concave lens on the far right – this one is thickest on the outside and thinnest in the middle. Using the same method find the focus height of this lens.
-
-:::Question
-Does the concave lens sharply focus the light?
 :::
-
-## PART 2
-
-In this procedure you will use Simulation 2 to simulate an optical bench. It has a multi-purpose light source which can be set to fire 5 beams of parallel light. You are have a spherical convex lens, a half convex lense, and a half concave lens. You will use these to demonstrate focal lengths.
+<!-- End of Exercise 2 -->
 
 :::Exercise
-1. Set the laser to fire off 5 parallel rays with the button on the right side of the screen.
-2. Place the thin convex lens perpendicular to the rays. The imaginary line perpendicular to the lens and running exactly through the center is referred to as the optical axis or principal axis. *Note that it is necessary to place the lens on the front half of the table to observe the intended phenomenon.*
-3. Dim the class lights and observe the refracted rays.
+
+In this exercise we will look at a lens that deviates from the thin lens approximation, specifically one that does not focus all parallel light to a single point. Lenses like this are said to have aberrations. In this video five parallel rays pass through this thick lens, the D-block used in Lab 1.
+
+<!-- **6CL LRTSOD Video 3 Notes:** Have the light coming in from left to right. Film flat side facing left (towards the rays). Edit in test that says pause now. -->
+
+<!-- Jeremy's: 5 rays of light going through hemispherical lenses -->
+
+:::GVideo
+1Io0eHTnNUuBQDuVvrKzhCtTZDQya-pQi
+:::
+
+1. Pause the video when the D-block is in place.
+
+2. You will notice how the rays do not converge to one point. Measure the focal lengths for the inner and outer pairs of rays from the flat side of the lens.
 
 :::Question
-What is the focal length of the lens?
+What are the focal lengths of the lens?
 :::
 
-4. Use the thick block half lens. Place the curved surface towards the parallel light source. Observe the refracted beams.
+<!-- Simulation 2 -->
+<!-- <figure> -->
+<!-- <div class="container" style="padding-bottom:56.25%:"> -->
+<iframe scrolling="no" title="" src="https://www.geogebra.org/material/iframe/id/a2rNFfHA/width/1100/height/600/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width=100% height="600px" style="border:0px;" allowfullscreen> </iframe>
+<!-- </div> -->
+<!-- <figcaption> Simulation 2 </figcaption> -->
+<!-- </figure> -->
+
+1. Use this simulation of a thick block lens. Set the radius of curvature of the right side to 100 and the radius of curvature of the left side to 4. This closely simulates a plano-convex lens. Observe the refracted rays.
 
 :::Question
-Measured from the flat surface, at what distance do the beams converge?
+Measured from the flat surface, at what distance do the rays converge?
 :::
 
-5. Reverse the orientation of the block such that the flat surface is towards the light source.
+2. Now set the the radius of curvature of the right side to 4 and the radius of curvature of the left side to 100. Observe the refracted rays.
 
 :::Question
-Does the block lense have symmetrical behavior? That is, do the beams converge at the same distance from the flat surface? Why might this be the case? Hint: look at the flat boundary, comment on the refraction which occurs there.
-:::
-
-6. Place the concave lens on the platform. Again observe the refracted beams.
-
-:::Question
-Can you measure the focal length of the lense? If you were to trace the refracted rays backwards (on the same side as the incident beams) would they converge?
+Does the block lens have symmetrical behavior? That is, do the rays converge at the same distance from the flat surface? Why might this be the case? Hint: look at the flat boundary, comment on the refraction which occurs there.
 :::
 
 :::
+<!-- End of Exercise 3 -->
 
-If you were to trace imaginary beams backwards from the refracted beams you will find that they have a well defined intersection point. For this reason concave lenses are said to have *negative* focal lengths and produce *virtual* images.
 
+## PART 2: RAY TRACING WITH KNOWN FOCAL LENGTH
+
+:::GVideo
+1Op2ZrjSVVUFSoRDbeuHTv0eDs3v2VV4g
+:::
+ 
 An object is some physical entity which either produces light rays of its own (like a light bulb) or reflects them from some other light source (like this text, or your pencil.) The image is a version of the object as it appears after going through some optical device, in this case a lens. In the remainder of this lab we will explore lenses and their relationship to objects and images.
+
+
+We use ray tracing methods to predict the behavior of a lens. We begin with convex lenses though the same methods apply equally to concave. There are only three essential premises needed to analyze lenses:
+
+1. A light ray entering a lens parallel to the optical axis will pass through the focal point on the other side.
+
+![Figure 1](imgs/fig3_1.JPG)
+
+2. A light ray passing through the center of a lens is unchanged. *Note that this is only true for thin lenses.*
+
+![Figure 2](imgs/fig3_2.JPG)
+
+3.A light ray passing through the focal point and then through the lens will emerge parallel to the optical axis
+
+![Figure 3](imgs/fig3_3.JPG)
+
+
+**Ray Tracing Method**
+
+1. Pick a point as the object.
+
+2. Draw one line from the point and parallel to the optical axis. Once it hits the lens it bends down through the focal point. Be sure to extend it beyond the focal point.
+
+3. Draw one line from the point to the center of the lens, extend it until it intersects the first line
+
+4. Draw one last line from the point through the near-side focal point and then to the lens, when it emerges from the lens it will be parallel to the optical axis. This line will intersect at the same point as the other two.
+
+
+![Figure 4](imgs/fig3_4.JPG)
+
+There are two other important cases to consider. When an object is placed within the focal length of a convex lens the image point become negative. A virtual image is formed at the point that the images *appear* to come from. The ray tracing method is consistent, however note that you draw the line in reverse:
+
+![Figure 5](imgs/fig3_5.JPG)
+
+*Note:* As a convention, we always draw from the top most point on the object. Any other point would work equally as well. The top is generally most useful.
+
+A concave lens has a negative focal length and the line from object to focal length actually crosses the lens:
+
+![Figure 6](imgs/fig3_6.JPG)
+
+Concave lenses do not cause light to converge upon a single point but instead cause it to spread out. Because of this they are referred to as diverging lenses. The focal length of a concave lens is negative. If we incorporate this into our ray tracing they can be analyzed using the same method that was used for convex lenses. 
+
+![Figure 7](imgs/fig3_7.JPG)
 
 *Real Images:*
 
@@ -90,95 +186,155 @@ An object is some physical entity which either produces light rays of its own (l
 - *The image cannot be projected onto a screen.* 
 - *The image is in the same orientation as the object, we say that it is erect.*
 
-![Simulation 2](https://phet.colorado.edu/sims/html/bending-light/latest/bending-light_en.html?screens=2){width=100% height=600px}
-
-## PART 3: RAY TRACING WITH KNOWN FOCAL LENGTH
-
-Like mirrors, we use ray tracing methods to predict the behavior of a lens. We begin with convex lenses though the same methods apply equally to concave. There are only three essential premises needed to analyze lenses:
-
 :::Exercise
-1. A light ray entering a lens parallel to the optical axis will pass through the focal point on the other side.
 
-![Figure 3.1](imgs/fig3_1.jpg)
+In this exercise you will practice ray tracing on a piece of paper. You will be expected to photograph and attach your work.
 
-2. A light ray passing through the center of a lens is unchanged. *Note that this is only true for thin lenses.*
+#### Convex Lens - Object Outside Focal Length 
+1. Get a sheet of paper and draw a horizontal optical axis. Next, draw a vertical line near the center of the optical axis to represent your lens, then measure out and draw the focal points. Assume the focal length to be 2cm. Pick an object point 6cm away from the lens on the top left-hand side of the paper. Draw the three simple case rays – parallel, through the center of the lens, and through the focal point – and locate the image formed on the other side of the lens.
 
-![Figure 3.2](imgs/fig3_2.jpg)
+Note that the image is inverted, at a different distance from the lens than the object, and is a different size than the object. Also note that the light rays converge at a given point. For this reason, convex lenses are frequently referred to as *converging lenses.*
 
-3.A light ray passing through the focal point and then through the lens will emerge parallel to the optical axis
+#### Convex Lens - Object Inside Focal Length 
 
-![Figure 3.3](imgs/fig3_3.jpg)
-
-:::
-
-
-**Ray Tracing Method**
-
-1. Pick a point as the object.
-
-2. Draw one line from the point and parallel to the optical axis. Once it hits the lens it bends down through the focal point. Be sure to extend it beyond the focal point.
-
-3. Draw one line from the point to the center of the lens, extend it until it intersects the first line
-
-4. Draw one last line from the point through the near-side focal point and then to the lens, when it emerges from the lens it will be parallel to the optical axis. This line will intersect at the same point as the other two.
-
-![Figure 3.4](imgs/fig3_4.jpg)
-
-There are two other important cases to consider. When an object is placed within the focal length of a convex lens the image point become negative. A virtual image is formed at the point that the images *appear* to come from. The ray tracing method is consistent, however note that you draw the line in reverse:
-
-![Figure 3.5](imgs/fig3_5.jpg)
-
-*Note:* As a convention, we always draw from the top most point on the object. Any other point would work equally as well. The top is generally most useful.
-
-A concave lens has a negative focal length and the line from object to focal length actually crosses the lens:
-
-![Figure 3.6](imgs/fig3_6.jpg)
-
-**Procedure**
-
-:::Exercise
-1. In this section you will practice the ray tracing method described above. Assume the focal length to be 2cm. Get a sheet of paper and draw the optical axis, measure out and draw the focal point and trace the outline of the convex lens. Pick an object point outside of the focal length on the top left-hand side of the paper. Draw the three simple case rays – parallel, through the lens center and through the focal point – and locate the image formed on the other side of the lens.
-
-Note that it is a) inverted, b) at a different distance than the object, and c) it is a different size than the object. Also note that the light rays converge at a given point, convex lenses are frequently referred to as *converging lenses.*
-
-2. Get another sheet of paper and repeat step 1), however instead draw the object point inside the focal length. Again draw the three simple case rays. Note that this is one of the special cases mentioned above, see Figure 3.5.
+2. Get another sheet of paper and repeat step 1, however instead draw the object point inside the focal length, 1cm away from the lens. Again draw the three simple case rays. Note that this is one of the special cases mentioned above, see Figure 5.
 
 :::Question
 What do you observe? Do the lines converge at a given point?
 :::
 
-3. Instead trace the rays backwards as shown in figure 3.5. You will find that they all intersect at a point on the same side 
-as the object. 
+3. Now trace the rays backwards as shown in Figure 5. You will find that they all intersect at a point on the same side as the object. 
 
-When an object is inside of the focal length of a convex lens it no longer converges the light rays to a single point. The image is bigger, such a set up is called a *magnifier.* Since light does not actually pass through the point where the image is formed we call it a *virtual image.*
+When an object is inside of the focal length of a convex lens it no longer converges the light rays to a single point. The image is bigger. Such a set up is called a *magnifier.* Since light does not actually pass through the point where the image is formed we call it a *virtual image.*
 
-4. Get a third sheet of paper and repeat the ray tracing procedure for the concave lens. Place the object outside of the focal length. Note that this is the second special case mentioned above, see Figure 3.6.
+#### Concave Lens - Object Outside Focal Length 
+
+4. Get a third sheet of paper and repeat the ray tracing procedure for a concave lens with focal length -2cm. Place the object outside of the focal length, 4cm to the left of the lens. Note that this is the second special case mentioned above, see Figure 6.
 
 :::Question
 Do the rays converge at a given point?
 :::
 
-5. Trace the rays backwards as shown in figure 3.6.
+5. Trace the rays backwards as shown in Figure 6.
 
 :::Question
 For object distances outside the focal length, do concave lenses make things bigger or smaller?
 :::
 
 :::
+<!-- End of Exercise: Ray Tracing -->
 
-Concave lenses do not cause light to converge upon a single point but instead cause it to spread out. Because of this they are referred to as diverging lenses. The focal length of a concave lens is negative. If we incorporate this into our ray tracing they can be analyzed using the same method that was used for convex lenses. 
+::: Exercise
 
-![Figure 3.7](imgs/fig3_7.jpg)
+In this exercise you will fill out a table to describe image placements in single lens optical systems. Use the following simulation to test your answers from the Exercise 4. Additionally you will explore all possible scenarios to fill out the table below and fully characterize the behavior of convex and concave lenses.
 
-Recreate your ray trace diagram using simlation 3 below.
+<!-- Simulation 3 -->
+<!-- <figure> -->
+<!-- <div class="container" style="padding-bottom:56.25%:"> -->
+<!-- <iframe scrolling="no" title="" src="https://www.geogebra.org/material/iframe/id/X8RuneVy/width/1033/height/482/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width=100% height="600px" style="border:0px;" allowfullscreen> </iframe> -->
 
-![Simulation 3](https://ophysics.com/l12.html){width=100% height=1000px}
+<iframe scrolling="no" title="Concave and Convex Lenses" src="https://www.geogebra.org/material/iframe/id/vd77gpfr/width/1033/height/482/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="100%" height="600px" style="border:0px;" allowfullscreen> </iframe>
 
-## PART 4: TELESCOPES AND MICROSCOPES
+<!-- </div> -->
+<!-- <figcaption> Simulation 3 </figcaption> -->
+<!-- </figure> -->
 
-Note: In the following procedure, you may have to adjust the starting positions to get good results.
+<!-- ![Test Sim](https://www.geogebra.org/material/iframe/id/thejwqzw/width/1033/height/482/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/false/ctl/false){width=100% height=600px} -->
+
+<!-- New Simulation 3 -->
+
+<!-- <iframe scrolling="no" title="Copy of Concave and Convex Lenses" src="https://www.geogebra.org/material/iframe/id/thejwqzw/width/1033/height/482/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/false/ctl/false" width="1033px" height="482px" style="border:0px;"> </iframe> -->
+
+1. Simulation 3 is dynamic. You can change the location of the object as well as the focal length of the lens. The latter can be done by dragging the point labeled Focus'. You can switch between convex and concave by dragging the Focus' point to the right of the lens. 
+
+2. Use the simulation to explore the conditions in the tables below. Fill out the table using the [Table Templates](https://docs.google.com/spreadsheets/d/1Cvw8Ov_A9N4cCR9wG04k_4OWk2SzO5Wo7_48GxVOHCQ/edit?usp=sharing){target=_blank}. Notice the first case is filled out for you as an example.
+
+![Lens Characteristics Table](imgs/Table.JPG){width=75%}
+
+::: Question
+For the convex lens describe with words what the conditions are such that the image is larger than the object, smaller than the object, and the same size as the object.
+:::
+
+:::
+<!-- End Exercise: Lens Table -->
+
+
+## PART 3: TELESCOPES AND MICROSCOPES
+
+:::GVideo
+1kn4Ho0wEIhZA5l4XZYeH5GXb2RX2vdOa
+:::
+
+Now that you have become acquainted with ray tracing for a single lens, we can use some more advanced ray tracing techniques. What you will see in this part of the lab is some simple two lens systems. The way that we do a ray tracing for two lens system is simple.
+
+1. For the first lens, you perform a ray tracing for for the object just like you have practiced so far.
+
+2. For the second lens, you use the *image from the first lens* as the *object for the second lens* and just do your ray tracing like you have practiced.
+
+The image created by the first lens and used as the second lens is call the **intermediary image**. Performing a two lens ray trace allows you to quickly explore two lens systems.
 
 :::Exercise
+
+In this exercise we will explore some of theory of two lens systems. Typically we call the first lens that light passes through the **objective** lens and the second one the **eyepiece**. We will look at a version of the telescope and a compound microscope. Each device uses only two convex lenses but the two devices have very different purposes.
+
+Telescopes are used to look at things very far away, usually things we can't really change our distance to. Something like the moon, or a very far away mountain. Thus we can treat the object as though it were infinitely far away. Therefore we use the objective lens to make the intermediary image somewhere near where we are, then we use then we use the eyepiece as a magnifier.
+
+:::Question
+a. For a telescope, at what point does the objective lens focus the image?
+b. Use your table from Exercise 5 to help answer this part of the question. Why can't the objective be used as a magnifier?
+:::
+
+On the other hand, with a microscope we do have control over the object's position! Thus we can use both the objective and eyepiece lenses as magnifiers. The eyepiece will *compound* the magnification of the objective. Hence the name of the device. 
+
+Below is a simulation that will perform a two lens ray trace for you. Let's use this to build a microscope. In the simulation light is coming from left and moving to the right.
+
+- By clicking on the point labelled "Object1" you can move the objects position and adjust its height. 
+
+- By clicking on the point labelled "f1" you can change the focal length of the objective lens. 
+
+- By clicking on the point labelled "S" you can adjust the position of the eyepiece.
+
+- By clicking on the point labelled "f2" you can change the focal length of the eyepiece.
+
+Additionally you can make the simulation full screen if you would like. Also, after clicking in the simulation window you can scroll to zoom in and out.
+
+<!-- ![Figure 8](imgs/TelescopeRayTrace.png) -->
+
+<iframe scrolling="no" title="" src="https://www.geogebra.org/material/iframe/id/M3CjvAms/width/907/height/591/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/true/ctl/false" width="100%" height="600px" style="border:0px;" allowfullscreen> </iframe>
+
+-------
+
+**Use the table you created in Exercise 5 to help guide you through the process.**
+
+1. Place the object somewhere where you think you would get a large magnification, but also somewhere where the intermediary image is still between the two lenses.
+
+2. Now move the eyepiece and/or adjust the eyepiece focal length to magnify the intermediary image. Again, make sure that the the final image isn't off the screen. You can zoom out as needed.
+
+3. Take a screenshot of your setup and include it in your report.
+
+::: Question
+a. Explain your reasoning for why you chose your object placement that you did.
+b. Explain you reasoning for why you chose the eyepiece setup you did.
+c. Estimate how much bigger "image2" is compared to "object1." This is the magnification of the system.
+:::
+
+Watch the video below to see a telescope and compound microscope being constructed in real life.
+
+:::GVideo
+1X2RSyvgI9ivdY1Aj2X11-mqpo8c45kno
+:::
+
+
+:::
+<!-- Two lens -->
+
+<!--  
+:::Exercise
+
+:::GVideo
+1X2RSyvgI9ivdY1Aj2X11-mqpo8c45kno
+:::
+
 1. Hold the 200mm lens in your left hand. Lock your elbow to give a full extension (Figure 4.1). Aim your arm with the 200mm lens at something across the room. Now take the 100mm lens and hold it with your right hand. Place the 100mm lens, the eyepiece, right at the back of the 200mm lens, the objective lens (Figure 4.2). Using your right eye, slowly bring the eyepiece, in your right hand, toward your eye (Figure 4.3). Keep your eye, the eyepiece and the objective lens along the same axis pointed at your target. You should be able to capture a clear image of your target. You may find this easier if you shut your left eye.
 
 :::Question
@@ -196,7 +352,7 @@ This is an extremely basic telescope. The 200mm lens is used to form an inverted
 :::
 
 :::column
-![Figure 4.1 - *Hold the 200mm lens in your left hand. Lock your elbow to give a full extension.*](imgs/fig4_1.jpg)
+![Figure 4.1 - *Hold the 200mm lens in your left hand. Lock your elbow to give a full extension.*](imgs/fig4_1.JPG)
 :::
 
 :::
@@ -204,25 +360,58 @@ This is an extremely basic telescope. The 200mm lens is used to form an inverted
 :::row
 
 :::column
-![Figure 4.2 - *With the 100mm lens in your right hand, place it right at the back of the 200mm lens*](imgs/fig4_2.jpg)
+![Figure 4.2 - *With the 100mm lens in your right hand, place it right at the back of the 200mm lens*](imgs/fig4_2.JPG)
 :::
 
 :::column
-![Figure 4.3 - *Using your right eye, bring the eyepiece (100mm) in your right hand, toward your eye.*](imgs/fig4_3.jpg)
+![Figure 4.3 - *Using your right eye, bring the eyepiece (100mm) in your right hand, toward your eye.*](imgs/fig4_3.JPG)
 :::
 
 :::
 
 2. Remove all the lenses except for the 200mm and 100mm lenses. Remove the Ray Table (round disc) from the Ray Table Base and place the Ray Table onto the lab table. Slide the Ray Table Base toward the 20 cm mark. Do not remove the Ray Table Base from the Optics Bench. Place the light box on the end of the optical bench, with a position of 100cm. Orient it such that the target (crossed-arrows) is facing the rest of the bench toward the 0cm end. Place the 200mm lens at 60cm and the 100cm lens at 10cm. Plug in the light box and view from approximately the 0cm mark. See Figure 4.4.
 
-![Figure 4.4](imgs/fig4_4.jpg)
+![Figure 4.4](imgs/fig4_4.JPG)
 
 :::Question
 What do you observe?
 :::
 
 :::
+-->
+
+:::Exercise
+Write a brief summarizing the important points of this lab.
+:::  
+
+
 
 <!-- Example Functions -->
 <!--PhET Formatting ![Simulation 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
 
+<!-- Simulations
+
+Sim 1
+
+<iframe scrolling="no" title="InfiniteSourceTest" src="https://www.geogebra.org/material/iframe/id/v69nxnqu/width/700/height/444/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="1100px" height="600px" style="border:0px;"> </iframe>
+
+Sim 2
+
+<iframe scrolling="no" title="" src="https://www.geogebra.org/material/iframe/id/X8RuneVy/width/1033/height/482/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1100px" height="600px" style="border:0px;"> </iframe>
+
+Sim 3
+
+<iframe scrolling="no" title="" src="https://www.geogebra.org/material/iframe/id/a2rNFfHA/width/1100/height/600/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1100px" height="600px" style="border:0px;"> </iframe>
+ -->
+
+<!-- Sim 1 Old -->
+
+<!-- [Simulation 1 Old](https://ricktu288.github.io/ray-optics/simulator/){width=100% height=600px} -->
+<!-- No Longer Wanted -->
+<!-- I cannot get this sim to stay in a window, Setting it up as an image does not work. Setting it up as a link forces you to another page. I have a saved file for it but I do not know how to get it to that, 6CL_Lab2_P1_Test.json. -->
+
+<!-- Sim 1 Text
+Simulation 1 shows how lenses act in two dimentions. There are 4 lenses already made with a light source similar to that of the lights in your laboratory. The three on the left are convex and the one on the right is concave. Move the convex lenses around to see how the light passing through them acts. Select a lens and measure the height at which this occurs using the ruler tool, then do the same for two other unlabeled convex lenses. -->
+
+<!-- Sim 2 Old -->
+<!-- ![Simulation 2](https://phet.colorado.edu/sims/html/bending-light/latest/bending-light_en.html?screens=2){width=100% height=600px} -->

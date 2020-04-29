@@ -18,7 +18,17 @@
 <header id="title-block-header">
 <h1 class="title">Waves on a String</h1>
 </header>
-<h2 id="part-1-theory">PART 1: THEORY</h2>
+<h2 id="introduction">INTRODUCTION</h2>
+
+        <figure>
+        <div class="resp-container">
+        <iframe class="resp-iframe" width="100%" height="100%" src="https://drive.google.com/file/d/1an1ZCDO0onq_-mtUjBbJnqIjgI0eIQAp/preview"></iframe>
+        </div>
+        <figcaption>Video 1
+        </figure>
+        
+<h2 id="part-1-pulses">PART 1: PULSES</h2>
+<p><strong><em>Theory</em></strong></p>
 <figure>
 <img src="imgs/Figure1_TravelingPulse.jpg" alt="Figure 1: Traveling Pulse Waves" /><figcaption>Figure 1: Traveling Pulse Waves</figcaption>
 </figure>
@@ -28,312 +38,391 @@
 <p>For a given tension, will a more dense string have greater or lesser propagation velocity? Justify your reasoning.</p>
 </div>
 </div>
+<p><strong><em>Simulations</em></strong></p>
 <div class="ENumber">
 <p>Exercise 1</p>
 <div class="Exercise">
-<p>Below, in Simulation 1, you will see what appears to be many beads linked together on a string. This is simulating the description in Figure 1 to an extreme. Each bead has mass and interacts while the string does not. It will interact with its neighboring beads through the string. So when one bead gets pulled on, it will the pull on its neighboring bead. The green beads behave exactly like the red beads, they are just there as a positional reference.</p>
-<p>In Simulation 1 you can move the end of the string of beads in three different ways. You can make your choice in the upper left corner of the simulation. Manual allows you to manually move the wrench up and down, by clicking and dragging. Oscillate will drive the end of the string up and down periodically. You can change the frequency and amplitude of the oscillation in the lower control panel. Lastly, pulse will allow you send a triangle shaped pulse down the string. You can change the pulses amplitude and width in the bottom control panel.</p>
-<p>A few other things to highlight. In the upper right is a control panel that allows you to change what is happening on the right end of the string. The lower control panel will change slight based on your selection to drive the string. The things that stay constant are the tension and the damping. The tension slider allows you to change how taut string is, while the damping slider adds a bit of reality to the simulation. <em>For the most part, when you use the simulation you will want to set damping to “None.”</em> Finally, there is a set of tools you can use in the right side of the of the bottom control panel. You will need these from time to time to make measurements.</p>
-<p>For this exercise you will investigate how tension affects the velocity of a pulse on a string. You will send a pulse down string, and time how long it takes to travel many round trips. Then using the distance it travelled over a given time you can determine the velocity of the pulse.</p>
+<p>Below, in Simulation 1, you will see what appears to be many beads linked together on a string. This is simulating the description in Figure 1 to an extreme. Each bead has mass and interacts with its neighboring beads through the string. So when one bead gets pulled on, it pulls on its neighboring bead. The green beads behave exactly as the red beads do; they are just there as positional references.</p>
+<p>In Simulation 1 you can move the end of the string of beads in three different ways, which you can choose from the panel in the upper left corner of the simulation. “Manual” allows you to move the wrench up and down by clicking and dragging it. “Oscillate” drives the end of the string up and down periodically. You can change the frequency and amplitude of the oscillation in the lower control panel. Last, “Pulse” allows you send a triangle-shaped pulse down the string. You can change the pulse’s amplitude and width in the bottom control panel.</p>
+<p>There are a few more things to note. In the upper right is a control panel that allows you to change what is happening on the right end of the string. The lower control panel will change slightly, depending on your selection of how to drive the string. The things that stay constant are the tension and the damping. The tension slider allows you to change how taut the string is, while the damping slider adds a bit of reality to the simulation. <em>For the most part, when you use the simulation you will want to set damping to “None.”</em> Finally, there is a set of tools you can use in the right side of the bottom control panel. You will need these from time to time to make measurements.</p>
+<p>For this exercise you will investigate how the velocity of a pulse on a taut string varies with the tension. You will send a pulse down the string, and time how long it takes to travel 5 round trips. You will use the time and distance you measured to determine the velocity.</p>
 <figure>
-<embed src="https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_en.html" style="width:100.0%" height="600" /><figcaption>Simulation 1: Wave Velocity Calculation</figcaption>
+<embed src="https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_en.html" style="width:100.0%" height="600" /><figcaption>Simulation 1: Pulse Velocity Measurement</figcaption>
 </figure>
-<ol type="a">
+<ol type="1">
 <li>First set up the settings on Simulation 1 as follows.</li>
 </ol>
 <figure>
-<img src="imgs/Pulse_Settings.JPG" alt="Table 1: Velocity Calculation Settings" style="width:75.0%" /><figcaption>Table 1: Velocity Calculation Settings</figcaption>
+<img src="imgs/Pulse_Settings.JPG" alt="Table 1: Velocity Measurement Settings" style="width:75.0%" /><figcaption>Table 1: Velocity Measurement Settings</figcaption>
 </figure>
-<ol start="2" type="a">
-<li><p>Make a table as seen in <a href="https://docs.google.com/spreadsheets/d/1xZ7Nz3IUxpD715pPghY0djhcSn_bZ_FZs1SoGMgkw8k/edit?usp=sharing" target="_blank">sample table doc</a> with columns for Tension, Length, total time, time and velocity.</p></li>
-<li><p>Use the ruler to measure the length of the string and record it in the table.</p></li>
-<li><p>Send a pulse and simultaneously start the timer and record how long it takes the pulse to travel 5 full cycles. Add this time to your table under the “Total time (s)” column.</p></li>
-<li><p>Repeat part d) with the tension set to Medium and Low and fill out the table accordingly. Note the length does not change.</p></li>
-<li><p>Calculate the time for one pulse’s round trip by taking the total time and dividing it by 5. Divide the length of one round trip (twice the length of the string) by the time for a single round trip.</p></li>
+<!-- 2) Make a table as shown in [sample table doc](https://docs.google.com/spreadsheets/d/1xZ7Nz3IUxpD715pPghY0djhcSn_bZ_FZs1SoGMgkw8k/edit?usp=sharing){target=_blank} with columns for Tension, Length, total time, time and velocity. -->
+<ol start="2" type="1">
+<li><p>Measure the total length of the string and record that value.</p></li>
+<li><p>Create a data table with columns for Tension, Total Time. The first entry in the Tension column should be “High.”</p></li>
+</ol>
+<!-- 3) Use the ruler to measure the length of the string and record it in the table. -->
+<!-- 4) Send a pulse and simultaneously start the timer, and record how long it takes the pulse to travel 5 full cycles. Add this time to your table under the "Total time (s)" column. -->
+<ol start="5" type="1">
+<li><p>Send a pulse down the line. Wait for the pulse to get to one of the ends, and start the timer. Record the total time it takes for the pulse to make 5 round trips (travel the length of the string 10 times).</p></li>
+<li><p>You now have all the information you need to calculate the velocity of the pulse. Add whatever columns you need to your table to make the velocity calculation. The last column, however, should be velocity.</p></li>
 </ol>
 <div class="QNumber">
 <p>Question 2</p>
 <div class="Question">
-<ol type="a">
-<li><p>How is the speed of a wave on a rope affected by tension?</p></li>
-<li><p>Calculate the ratio of the tensions.</p></li>
-<li>What is the ratio of the tension to linear density for each tension setting assuming linear density is constant?</li>
+<p>Explain each column in your table. Provide a description of how you obtained each value in every column.</p>
+</div>
+</div>
+<ol start="7" type="1">
+<li>Repeat part 4. with the tension set to Medium and Low, and fill out the table accordingly. Note that the length you measured in step 2 does not change.</li>
 </ol>
-</div>
-</div>
-</div>
-</div>
-<p>If this string is instead driven by a source which moves up and down in a sinusoidal fashion, then a sine wave will propagate down the line instead of a pulse. The spatial length of this waveform is determined by the frequency of oscillation and the velocity of the wave. Note that every point on the string vibrates with the same frequency.</p>
-<figure>
-<img src="imgs/Figure2_SMO.jpg" alt="Diagram 1.2: Sinusoidal Mechanical Oscillator" /><figcaption>Diagram 1.2: Sinusoidal Mechanical Oscillator</figcaption>
-</figure>
-<p>A wave propagating on a string is described by the equation:</p>
-<p><span class="math display">\[
-\begin{align}
-    velocity = v = wavelength \cdot frequency = \lambda \cdot f
-\end{align}
-\]</span> <span class="math display">\[\textbf{(Equation 1)}\]</span></p>
-<p>Velocity, v, is the speed at which any disturbance propagates down the string. Wavelength, <span class="math inline">\(\lambda\)</span>, is the spatial distance that one sinusoidal oscillation covers on the string. Frequency, f, is the rate of periodic oscillation.</p>
+<!-- 8) Calculate the time for one pulse's round trip by taking the total time and dividing it by 5. Divide the length of one round trip (twice the length of the string) by the time for a single round trip. -->
 <div class="QNumber">
 <p>Question 3</p>
 <div class="Question">
 <ol type="a">
-<li>Consider a very long string driven by a sinusoidal oscillator. The string is so long that there are no reflections. A wave travels at 3 m/s on this string, and the oscillator is set to 10Hz. You can view the wavelength as how far a wave travels in one period of oscillation. What is the wavelength in this case?</li>
-<li>If the velocity were instead 12 m/s what would the wavelength be? Keep in mind that the frequency is the same as Question 3. Is the sinusoidal pattern on the string longer or shorter with a greater propagation velocity?</li>
-<li>If the frequency of the oscillator was changed to 16 Hz, how far would one cycle travel? The velocity is still 12 m/s.</li>
+<li>How is the speed of a wave on a rope related to tension?</li>
 </ol>
 </div>
 </div>
-<p><strong>NOTE:</strong> If frequency is fixed (which it will be in the subsequent experiment) then the wavelength is determined entirely by the velocity of the wave on the string. The velocity of a wave on a string is given by:</p>
-<p><span class="math display">\[\bf{(Equation\ 2)}\]</span> <span class="math display">\[velocity = v = \sqrt{\frac{Force}{String Density}} = \sqrt{\frac{F}{\mu}}\]</span></p>
-<p>What is the equation for wavelength in terms of force? :::</p>
+</div>
+</div>
+<!-- End of Exercise -->
 <figure>
-<img src="imgs/Figure3_IRTPulse.jpg" alt="Diagram 1.3: Incident and Reflected Traveling Pulse" /><figcaption>Diagram 1.3: Incident and Reflected Traveling Pulse</figcaption>
+<img src="imgs/Figure3_IRTPulse.jpg" alt="Figure 2: Incident and Reflected Traveling Pulse" /><figcaption>Figure 2: Incident and Reflected Traveling Pulse</figcaption>
 </figure>
 <figure>
-<img src="imgs/Figure4_IRTPulseCont.jpg" alt="Diagram 1.4: Incident and Reflected Traveling Pulse Continued" /><figcaption>Diagram 1.4: Incident and Reflected Traveling Pulse Continued</figcaption>
+<img src="imgs/Figure4_IRTPulseCont.jpg" alt="Figure 3: Incident and Reflected Traveling Pulse Continued" /><figcaption>Figure 3: Incident and Reflected Traveling Pulse Continued</figcaption>
 </figure>
-<p>Two waves can travel on a string - in opposite directions - and pass through each other and retain their individual properties. This is called the principle of superposition. Consider two pulses of identical shape and amplitude traveling toward each other. If they are both positive (above figure, left side) they will cross each and build in amplitude. The maximum height is the sum of both individual amplitudes. If one is positive and the other negative (above figure, right side), they will sum to zero amplitude when they are exactly over each other. In either case, the two pulses retain their same shape and amplitude.</p>
+<p>Two waves can travel on a string - in opposite directions - and pass through each other and retain their individual properties. This is called the principle of superposition. Consider two pulses of identical shape and amplitude traveling toward each other. If they are both positive (above figure, left side) they will cross each other and build in amplitude. The maximum height is the sum of both individual amplitudes. If one is positive and the other negative (above figure, right side), they will sum to zero amplitude when they are exactly over each other. In either case, the two pulses retain their original shape and amplitude after they have passed each other.</p>
 <div class="ENumber">
 <p>Exercise 2</p>
 <div class="Exercise">
-<p>Play with Simulation 2 to see wave interference in action.</p>
-<ol type="a">
+<p>In this exercise you will explore how two disturbances on a string combine when they overlap on the same part of the string. You will use the same simulation as Simulation 1, but this time you will set it up so that the end of the string is loose.</p>
+<p>This is mainly just an exercise to gain intuition. You won’t be taking data, making a table, or plotting.</p>
+<!-- There is one question for you to answer, but you don't need to spend much time on it. -->
+<figure>
+<embed src="https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_en.html" style="width:100.0%" height="600" /><figcaption>Simulation 2: Pulse Interference</figcaption>
+</figure>
+<ol type="1">
 <li>First set up the settings on Simulation 2 as follows.</li>
 </ol>
 <figure>
-<img src="imgs/Interference_Settings.JPG" alt="Simulation 1 Wave Interference Settings" style="width:100.0%" /><figcaption>Simulation 1 Wave Interference Settings</figcaption>
+<img src="imgs/Interference_Settings.JPG" alt="Table 2: Pulse Interference Settings" style="width:100.0%" /><figcaption>Table 2: Pulse Interference Settings</figcaption>
 </figure>
-<ol start="2" type="a">
-<li>Send two pulses with a gap in between them and observe how they constructively and destructively interfere. Note this will be easier to view with the speed set to Slow Motion or with reduced tension to make the waves travel slower. You may also play with this in Manual mode.</li>
+<ol start="2" type="1">
+<li>Send two pulses with a gap in between them, and observe how they constructively and destructively interfere. Note that this will be easier to view with the speed set to Slow Motion or with reduced tension, to make the waves travel more slowly. You may also play with this in Manual mode.</li>
 </ol>
-<figure>
-<embed src="https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_en.html" style="width:100.0%" height="600" /><figcaption>Simulation 2: Wave Interference</figcaption>
-</figure>
+<!-- :::Question
+Could you observe constructive interference if you instead set the end to fixed?
+::: -->
 </div>
 </div>
-<h3 id="standing-waves">Standing Waves</h3>
-<!--PhET Formatting ![Simulation 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
-<p>When a string is fixed between two rigid terminations we get an interesting phenomenon. A wave traveling on this string is continually reflected back and forth between the two boundaries. At each boundary, the wave experiences a negative reflection. The left-moving and right-moving traveling waves superimpose at all points. What results are sinusoidal standing wave patterns called the natural modes of the string. This is the phenomenon that occurs on guitar, piano, and violin strings. Any vibration on a doubly fixed string can be modeled as a linear combination of the sinusoidal natural modes. This is called Fourier Analysis; you will learn more about this in your advanced coursework.</p>
+<!-- End of Exercise -->
+<h2 id="part-2-oscillatory-motion">PART 2: OSCILLATORY MOTION</h2>
+<p>If the string is instead driven by a source that moves up and down in a sinusoidal fashion, then a sine wave will propagate down the line instead of a pulse. The length of this waveform is determined by the frequency of oscillation and the velocity of the wave. Note that every point on the string vibrates with the same frequency.</p>
 <figure>
-<img src="imgs/Figure5_Nodes.jpg" alt="Diagram 1.5: Nodes" /><figcaption>Diagram 1.5: Nodes</figcaption>
+<img src="imgs/Figure2_SMO.jpg" alt="Figure 4: Sinusoidal Mechanical Oscillator" /><figcaption>Figure 4: Sinusoidal Mechanical Oscillator</figcaption>
 </figure>
-<p>If we drive one side of a string with a sinusoidal mechanical oscillator of arbitrary frequency, we get a lot of random motion with no discernible pattern.</p>
-<figure>
-<img src="imgs/Figure6_RandomMotion.jpg" alt="Diagram 1.6: Random Motion" /><figcaption>Diagram 1.6: Random Motion</figcaption>
-</figure>
-<p>However, for the mathematical condition:</p>
-<p><span class="math display">\[\bf{(Equation\ 3)}\]</span> <span class="math display">\[Wavelength = 2L/n\]</span></p>
-<p>Where n is a positive integer and L is the Length of the string in meters.</p>
-<p>We get the phenomenon of standing waves. In this case, the left-moving and right-moving waves line up such that there are areas of large motion called anti-nodes, and areas that don’t move at all called nodes. This pattern of vibration is fixed on the string.</p>
-<p>Algebraic manipulation shows:</p>
-<p><span class="math display">\[\bf{(Equation\ 4)}\]</span> <span class="math display">\[L = n \cdot (wavelength/2)\]</span></p>
-<p>Which is slightly easier to interpret: any integer number of half wavelengths can fit on the string. Why does this happen? Because only an integer number of half wavelengths will put a node at each end. This condition is necessitated by the fact that the ends are fixed and cannot move up and down.</p>
-<figure>
-<img src="imgs/Figure7_WavesonaString.jpg" alt="Picture 1.1: Waves on a String" /><figcaption>Picture 1.1: Waves on a String</figcaption>
-</figure>
+<p>A wave propagating on a string is described by the equation:</p>
+<p><span class="math display">\[\textbf{(Equation 1)}\]</span> <span class="math display">\[velocity = v = wavelength \cdot frequency = \lambda \cdot f \label{eq:vel}\]</span></p>
+<p>Velocity, <span class="math inline">\(v\)</span>, is the speed at which any disturbance propagates down the string. Wavelength, <span class="math inline">\(\lambda\)</span>, is the distance that one sinusoidal oscillation covers on the string. Frequency, <span class="math inline">\(f\)</span>, is the rate of periodic oscillation. For our purposes, we will use units of cycles per second, or hertz.</p>
 <div class="QNumber">
 <p>Question 4</p>
 <div class="Question">
 <ol type="a">
-<li>What wavelength is required to get 5 standing wave segments on a doubly fixed string of length 0.75m? If the velocity v is 50m/s, what will be the frequency of this wave?</li>
-<li>Instead drive one end of the string with a sinusoidal oscillator of frequency 100Hz. What velocity is required to setup a standing wave with 5 segments?</li>
+<li>Consider a very long string driven by a sinusoidal oscillator. The string is so long that there are no reflections. A wave travels at 3 m/s on this string, and the oscillator is set to 10 Hz. You can view the wavelength as how far a wave travels in one period of oscillation. What is the wavelength in this case?</li>
+<li>If the velocity were instead 12 m/s, what would the wavelength be? Keep in mind that the frequency is the same as in part a. Is the sinusoidal pattern on the string longer or shorter with a greater propagation velocity?</li>
+<li>If the frequency of the oscillator were changed to 16 Hz, how far would one cycle travel? The velocity is still 12 m/s.</li>
+</ol>
+</div>
+</div>
+<p><strong>NOTE:</strong> For a given frequency the wavelength is determined entirely by the velocity of the wave on the string. The velocity of a wave on a string is given by:</p>
+<p><span class="math display">\[\bf{(Equation\ 2)}\]</span> <span class="math display">\[velocity = v = \sqrt{\frac{Force\, due\, to\, Tension}{String\, Density}} = \sqrt{\frac{F_T}{\mu}}\]</span></p>
+<!-- AVOCADO What is the equation for wavelength in terms of force? -->
+<h3 id="standing-waves">Standing Waves</h3>
+<!--PhET Formatting ![Simulation 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
+<p>When a string is fixed between two rigid terminations we get an interesting phenomenon. A wave traveling on this string is continually reflected back and forth between the two boundaries. At each boundary, the wave experiences a negative reflection. The left-moving and right-moving traveling waves superimpose at all points. What results are sinusoidal standing wave patterns called the natural modes of the string. This is the phenomenon that occurs on guitar, piano and violin strings. Any vibration on a doubly fixed string can be modeled as a linear combination of the sinusoidal natural modes. This is called Fourier Analysis; you will learn more about this in your advanced coursework.</p>
+<figure>
+<img src="imgs/Figure5_Nodes.jpg" alt="Figure 5: Nodes" /><figcaption>Figure 5: Nodes</figcaption>
+</figure>
+<p>If we drive one side of a string with a sinusoidal mechanical oscillator of arbitrary frequency, we get a lot of random motion with no discernible pattern.</p>
+<figure>
+<img src="imgs/Figure6_RandomMotion.jpg" alt="Figure 6: Random Motion" /><figcaption>Figure 6: Random Motion</figcaption>
+</figure>
+<p>However, for the mathematical condition:</p>
+<p><span class="math display">\[\bf{(Equation\ 3)}\]</span> <span class="math display">\[Wavelength = 2L/n\]</span></p>
+<p>where n is a positive integer and L is the Length of the string in meters,</p>
+<p>we get the phenomenon of standing waves. In this case, the left-moving and right-moving waves line up such that there are areas of large motion called antinodes, and areas that don’t move at all called nodes. This pattern of vibration is fixed on the string.</p>
+<p>Algebraic manipulation shows:</p>
+<p><span class="math display">\[\bf{(Equation\ 4)}\]</span> <span class="math display">\[L = n \cdot (wavelength/2)\]</span></p>
+<p>Which is slightly easier to interpret: any integer number of half wavelengths can fit on the string. Why does this happen? Because only an integer number of half wavelengths will put a node at each end. This condition is necessitated by the fact that the ends are fixed and cannot move up and down.</p>
+<figure>
+<img src="imgs/Figure7_WavesonaString.jpg" alt="Figure 7: Waves on a String" /><figcaption>Figure 7: Waves on a String</figcaption>
+</figure>
+<div class="QNumber">
+<p>Question 5</p>
+<div class="Question">
+<ol type="a">
+<li>What wavelength is required to get 5 standing wave segments on a doubly fixed string of length 0.75m? If the velocity v is 50 m/s, what will be the frequency of this wave?</li>
+<li>Instead drive one end of the string with a sinusoidal oscillator of frequency 100 Hz. What velocity is required to set up a standing wave with 5 segments?</li>
 </ol>
 </div>
 </div>
 <div class="ENumber">
 <p>Exercise 3</p>
 <div class="Exercise">
-<p>Using Simulation 3 you will see standing waves and gain an intuition for how to produce them.</p>
-<ol type="a">
+<p>Using the same simulation, you will see standing waves and gain an intuition for how to produce them.</p>
+<p>In this exercise you will calculate the wavelength needed to produce a standing wave with two segments. Then you’ll use the velocity you measured in Exercise 1 to get the frequency at which you need to drive the string in order to make the standing wave. Then, you will adjust the frequency to something random and see what happens.</p>
+<figure>
+<embed src="https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_en.html" style="width:100.0%" height="600" /><figcaption>Simulation 3: Standing Waves</figcaption>
+</figure>
+<ol type="1">
 <li>First set up the settings on Simulation 3 as follows.</li>
 </ol>
 <figure>
-<img src="imgs/Standing_Wave_Table2.JPG" alt="Simulation 3 Standing Wave Settings" style="width:100.0%" /><figcaption>Simulation 3 Standing Wave Settings</figcaption>
+<img src="imgs/Standing_Wave_Table.JPG" alt="Table 3: Standing Waves Settings" style="width:80.0%" /><figcaption>Table 3: Standing Waves Settings</figcaption>
 </figure>
-<ol start="2" type="a">
-<li><p>Use equation 3 and your measurement of the length of the string from Exercise 1 to determine the wavelength needed to generate n standing waves.</p></li>
-<li><p>Use equation 1 and your calculated velocity from Exercise 1 for tension set to high to calculate the frequency needed.</p></li>
-<li><p>Set your frequency to fit the wavelength to get n = 2 with tension set to high.</p></li>
-<li><p>Repeat part d. with the tension set to Medium and Low for n = 3 and n = 4. Make a table similar to (Sample Table) and fill the table accordingly. Note the length does not change.</p></li>
+<ol start="2" type="1">
+<li><p>Click the pause button followed by the “Restart” button in the upper left corner.</p></li>
+<li><p>Using equation 3, determine the wavelength you need to create a standing wave with two segments. Show your work.</p></li>
+<li><p>Using the wavelength you just calculated, equation 1, and the velocity you measured for the high tension setting in Exercise 1, determine the frequency needed to create a standing wave with two segments. Show your work.</p></li>
+<li><p>In the simulation set your frequency to what you just calculated, and hit play.</p></li>
 </ol>
-<figure>
-<embed src="https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_en.html" style="width:100.0%" height="600" /><figcaption>Simulation 1</figcaption>
-</figure>
-<div class="QNumber">
-<p>Question 5</p>
-<div class="Question">
-<ol type="a">
-<li>Do we want any questions here?</li>
-</ol>
-</div>
-</div>
-</div>
-</div>
-<h2 id="part-2-setup">PART 2: SETUP</h2>
-<!-- Sample PhET for Waves on a String -->
-<!-- ![Simulation 1](https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_en.html){width=100% height=600px} -->
-<p>The objective of this lab is to analyze the characteristics of waves on a string. This will be done with varying systems.</p>
-<p>You will be expected to turn in all plots and tables you are asked to make in the exercises, as well as all answers to questions.</p>
-<div class="ENumber">
-<p>Exercise 4</p>
-<div class="Exercise">
-<p><em>NOTE</em> This “Exercise” is essentially for them to record and understand their set up, lets discuss it.</p>
-<p>This exercise will set a baseline for our measurements using the system seen in Image 1 and used in Video 1. This set up can be called System 1.</p>
-<ol type="a">
-<li>The linear density, μ (mass/length) is given in AVOCADO. If it is not posted, ask your TA. At the time of the manual’s writing, the mass density was 0.266 g/m.</li>
-<li>The distance from the string vibrator and pulley should be about 100 cm. At the end of the string there are hangers used to attach the masses, additional hangers will be attached as needed. Each hanger has a mass of 5g. Using Image 1 below record the hanging mass, m (do not forget to include the mass of the hanger).</li>
-<li>Measure from the knot where the string attaches to the string vibrator to the top of the pulley using using Image 1 below. This is distance L.</li>
-<li>Record this data in a table labeled System 1. This tabel should have 2 rows. The first row should have your measured and calculates values as headers (L, m, μ, f, T, <span class="math inline">\(v_{Fμ}\)</span>, <span class="math inline">\(v_{λf}\)</span>, % Deviation of v). The second row should have your measured and calculated values under the header n = 0. Leave unmeasured and uncalculated cells blank for now. Here is a <a href="https://docs.google.com/spreadsheets/d/1xZ7Nz3IUxpD715pPghY0djhcSn_bZ_FZs1SoGMgkw8k/edit?usp=sharing">Sample Table</a>.</li>
-</ol>
-<!--Image 1 ![Image 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
-<p><img src="imgs/Mars_Test.JPG" alt="Image 1: Sample Image 1" /> <em>Image 1 placeholder</em></p>
-</div>
-</div>
-<h3 id="procedure">Procedure</h3>
-<div class="ENumber">
-<p>Exercise 5</p>
-<div class="Exercise">
-<p>Now we will begin taking data points using System 1. Since this is the set up in Image 1 we will be using the string length and mass measured above in Excercise 1.</p>
-<!--Video 1 Baseline ![Video 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
+<!-- 2) Use equation 3 and your measurement of the length of the string from Exercise 1 to determine the wavelength needed to generate a standing wave with $n$ segments.
 
-        <figure>
-        <div class="resp-container">
-        <iframe class="resp-iframe" width="100%" height="100%" src="https://drive.google.com/file/d/watch?v=tpiyEe_CqB4/preview"></iframe>
-        </div>
-        <figcaption>Video 1
-        </figure>
-        
-<p><em>Video 1 placeholder</em> This video scans through frequencies on System 1 to find different amounts of standing waves.</p>
-<ol type="a">
-<li>Video 1 scans through frequencies using System 1. Watch the video and determine the frequency at which you see 1 standing wave. Add a row with the header n = 1 and record the frequency for your single standing wave in the appropriate box.</li>
-</ol>
+3) Use equation 1 and your calculated velocity from Exercise 1 for tension set to high to calculate the frequency as a function of $n$ needed to produce a standing wave with $n$ segments.  -->
+<!-- 4. Set your frequency to fit the wavelength to get $n = 2$ with tension set to high. 
+
+5. Repeat part d. with the tension set to Medium and Low for n = 3 and n = 4. Make a table similar to [sample table doc](https://docs.google.com/spreadsheets/d/1xZ7Nz3IUxpD715pPghY0djhcSn_bZ_FZs1SoGMgkw8k/edit?usp=sharing){target=_blank} and fill the table accordingly. Note that the length does not change.  -->
 <div class="QNumber">
 <p>Question 6</p>
 <div class="Question">
-<ol type="a">
-<li>What is the tension in the string? Use the formula Tension = T = F = mg</li>
-<li>What is the speed of the wave as calculated from your observed values of tension (F) and linear density (μ)? Denote this <span class="math inline">\(v_{Fμ}\)</span>.</li>
-<li>Instead calculate the speed from the wavelength (λ) and frequency (f). Denote this <span class="math inline">\(v_{λf}\)</span>, Use the equation <span class="math inline">\(v_{λf} = fλ\)</span>. Use Equation 3 to calculate the wavelength.</li>
-<li>Compare the two values of speed. What is the difference? Calculate the percentage by which <span class="math inline">\(v_{Fμ}\)</span> deviates from <span class="math inline">\(v_{λf}\)</span>.</li>
-</ol>
+<p>Describe what you are seeing on the screen. What is moving? What is stationary?</p>
 </div>
 </div>
-<p>Fill in your new values into your table for System 1. Please notice what values vary and what values do not as you go from your base values (n = 0) to your n = 1 values. What was your frequency for n = 0?</p>
-<ol start="2" type="a">
-<li><p>Now add three more rows with the headers n = 2, n = 3, and n = 4 respectively.</p></li>
-<li>Continue watching video 1 and repeat Excercise 2 for standing waves of three and four segments. Answer question 5 for each case and fill out your table accordingly.</li>
-</ol>
-</div>
-</div>
-<div class="ENumber">
-<p>Exercise 6</p>
-<div class="Exercise">
-<p>This exercise uses a new set up called System 2. This will have the same L as System 1, but will have approximately half of the mass.</p>
-<ol type="a">
-<li>Measure the mass for System 2 using Image 2 below.</li>
-</ol>
-<!--Image 2 ![Image 2](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
-<p><img src="imgs/Moon_Test.JPG" alt="Image 2: Sample Image 2" /> <em>Image 2 placeholder</em></p>
-<ol start="2" type="a">
-<li>Create a new table labeled System 2 just like you made for System 1 only with your new values for L, m, and μ and blank cells for everything else. Note μ and L are the same as before.</li>
-</ol>
-<!--Video 2 Baseline ![Video 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
-
-        <figure>
-        <div class="resp-container">
-        <iframe class="resp-iframe" width="100%" height="100%" src="https://drive.google.com/file/d/watch?v=tpiyEe_CqB4/preview"></iframe>
-        </div>
-        <figcaption>Video 2
-        </figure>
-        
-<p><em>Video 2 placeholder</em> This video scans through frequencies on System 2 to find different amounts of standing waves.</p>
-<ol start="3" type="a">
-<li>Just as you did for System 1 go through Video 2 and find the frequencies for each number of standing waves. Answer question 5 for each value of n and fill out your table accordingly.</li>
-</ol>
-</div>
-</div>
-<div class="ENumber">
-<p>Exercise 7</p>
-<div class="Exercise">
-<p>This exercise uses a new set up called System 3. This will have the same m as System 2, but will have approximately half of the length.</p>
-<ol type="a">
-<li>Measure the length for System 3 using Image 3 below.</li>
-</ol>
-<!--Image 3 ![Video 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
-<p><img src="imgs/Saturn_Test.jpg" alt="Image 3: Sample Image 3" /> <em>Image 3 placeholder</em></p>
-<ol start="2" type="a">
-<li>Create a new table labeled System 3 just like you made for Systems 1 and 2, only with your new values for L, m, and μ and blank cells for everything else. Note μ and m are the same as for System ?. AVOCADO (We need to make see which m System 3 matches)</li>
-</ol>
-<!--Video 3 Baseline ![Video 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
-
-        <figure>
-        <div class="resp-container">
-        <iframe class="resp-iframe" width="100%" height="100%" src="https://drive.google.com/file/d/watch?v=tpiyEe_CqB4/preview"></iframe>
-        </div>
-        <figcaption>Video 3
-        </figure>
-        
-<p><em>Video 3 placeholder</em> This video scans through frequencies on System 3 to find different amounts of standing waves.</p>
-<ol start="3" type="a">
-<li>Just as you did for Systems 1 and 2 go through Video 3 and find the frequencies for each number of standing waves. Answer question 5 for each value of n and fill out your table accordingly.</li>
-</ol>
-</div>
-</div>
-<h3 id="analysis-method-2">Analysis Method 2</h3>
-<div class="ENumber">
-<p>Exercise 8</p>
-<div class="Exercise">
-<ol type="a">
-<li><p>Our goal is now to study the relationship between the number of segments and the frequency of the wave. Make sure your tables for Systems 1, 2, and 3 are completely filled out.</p></li>
-<li><p>Make a graph of <span class="math inline">\(f\)</span> versus <span class="math inline">\(n\)</span> (the number of segments) for each system. You should have the three curves on one graph in different colors.</p></li>
+<ol start="6" type="1">
+<li>Now reduce or increase the frequency by 0.2 Hz and hit restart.</li>
 </ol>
 <div class="QNumber">
 <p>Question 7</p>
 <div class="Question">
 <ol type="a">
-<li>What are the shapes of each of the curves on the graph?</li>
-<li>Does each system result in the same shape?</li>
-<li>How does each system’s curve vary?</li>
-<li>What are the slopes of the best fit lines through these cruves?</li>
+<li>Describe what you see now. Compare and contrast it to what you saw before.</li>
+<li>Explain the difference between the two setups. Why do they behave so differently?</li>
 </ol>
 </div>
 </div>
-<ol start="3" type="a">
-<li>Combine equations 1, 2, and 3 (from the Theory section), and show that the frequency can be written as: <span class="math display">\[f = \sqrt{F/μ}(1/2L)n\]</span>And that the tension can be written as: <span class="math display">\[F = (4μf^{2}L^{2})(1/n^{2})\]</span></li>
+</div>
+</div>
+<h2 id="part-3-measurement">PART 3: MEASUREMENT</h2>
+<!-- Sample PhET for Waves on a String -->
+<!-- ![Simulation 1](https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_en.html){width=100% height=600px} -->
+<!-- The objective of this lab is to analyze the characteristics of waves on a string. You will do this by examining 3 systems with varying characteristics. -->
+<p>In the rest of the lab you will watch videos of different versions of the same setup. You can see a basic setup in Figure 8 below. We have an oscillator attached to string, similar to the simulations above. The string is then strung over a pulley with a mass <span class="math inline">\(m\)</span> hanging off the end to create tension in the string. We can vary the frequency at which the oscillator vibrates, the length of the string (the spacing between the oscillator and the pulley), and the amount of mass hanging off the end.</p>
+<figure>
+<img src="imgs/WavesDrawing.png" alt="Figure 8" /><figcaption>Figure 8</figcaption>
+</figure>
+<p>We will start by setting up a system, System 1, and measure the physical characteristics of that system – length, tension (determined by the mass), and density of the string. Then we will perform the experiment making some initial <strong>baseline</strong> measurements. We will then repeat the same measurements with two additional systems. System 2 will have half the length of System 1, but the same tension (mass) as System 1. System 3 will have the same length as System 1 but half the tension (mass) as System 1.</p>
+<p>The goal of the experiment for each system is to understand and see the relationship between frequency and when standing waves occur. Then we will compare and contrast our three runs to see how changing the tension and length affect this.</p>
+<p>For each system we will keep the mass and length constant throughout the experiment, but we will slowly sweep through a range of frequencies. The current frequency will be displayed on a large monitor in the video. You will notice that at particular frequencies, standing waves will form on the string. At other frequencies you might notice nothing on the string, and sometimes chaos.</p>
+<p><strong>Important:</strong> You may also notice two sets of standing waves that form at frequencies close together. This happens because the metal tongue that is oscillating can become part of the vibrating system. You don’t want this. The standing waves you will want to take note of are the ones that form when it looks as if the tongue is almost still. The string should have something like a node near the end of the metal tongue. See the video below.</p>
+
+        <figure>
+        <div class="resp-container">
+        <iframe class="resp-iframe" width="100%" height="100%" src="https://drive.google.com/file/d/1vOgx2JbLxskVyYBM4yBIKA0Zpxlp_cx6/preview"></iframe>
+        </div>
+        <figcaption>Video 2
+        </figure>
+        
+<p><strong>Important:</strong> If your internet quality is giving you trouble, you should be able to download any of the these videos and play it on your own computer. If you click the “Pop-out” button in the upper right, it will open the video in a google drive link. You can download it from there. Additionally, all of these videos are sped up to play at 2X speed. Since this is the YouTube video player you can slow the video down to 0.5X of real life speed and up to 4X real life speed. Just click the cog in the lower right corner and adjust “Playback speed.”</p>
+<p>You will be expected to turn in all plots and tables you are asked to make in the exercises, as well as all answers to questions.</p>
+<h3 id="setup">Setup</h3>
+<div class="ENumber">
+<p>Exercise 4</p>
+<div class="Exercise">
+<p>In this exercise we will build a table where we can record the things that stay constant for each of the three systems. Then we will fill it out for the first system. To do this, we will use the system shown in Figure 9 and used in Video 3, 4, and 5. This setup can be called System 1.</p>
+<ol type="1">
+<li>The linear density, <span class="math inline">\(\mu\)</span> (mass/length) is given in grams/meter. For the string we are using, the linear mass density is 0.266 g/m.</li>
+<li>The length of the string is about 0.985 m.</li>
+<li>The mass for the baseline measurement will be 50 g.</li>
+<li>Record these data in a table labeled, “Constant Values.” This table should have column headers: <span class="math inline">\(L\)</span>, <span class="math inline">\(m\)</span>, <span class="math inline">\(\mu\)</span>, <span class="math inline">\(F_T\)</span>, and <span class="math inline">\(v_{F\mu}\)</span>; and row headers: System 1, System 2, and System 3. Record your systems’ values here as you proceed with part two of this lab. Be sure to use the correct units when recording your data. You should include your units in your headers.</li>
 </ol>
+<p>You will be creating additional, separate, tables for each of the 3 systems in the upcoming exercises.</p>
 <div class="QNumber">
 <p>Question 8</p>
 <div class="Question">
 <ol type="a">
-<li>What function does the slopes of your <span class="math inline">\(f\)</span> vs <span class="math inline">\(n\)</span> graph give you in terms of F, μ, and L.</li>
-<li>Use the slopes from your graph and the tension and length for each system to calculate the density, μ, of the string. Get a value of μ for each frequency for each system. Compare these measured values of density to the accepted value. What is the percent difference for each?</li>
-</ol>
-<p>AVOCADO Enough data for the following questions? They should be able to figure these out mathematically, but is that asking too much?</p>
-<ol start="3" type="a">
-<li>What is the shape of an F versus <span class="math inline">\(n\)</span> graph?</li>
-<li>What is the shape of an F versus <span class="math inline">\(1/n^2\)</span> graph?</li>
-<li>What is the slope of an F versus <span class="math inline">\(1/n^2\)</span> graph?</li>
+<li>What is the tension in the string? Use the formula <span class="math inline">\(\text{Tension} = F_T = mg\)</span>. Show your work.</li>
+<li>What is the speed of the wave as calculated from your observed values of tension (<span class="math inline">\(F_T\)</span>) and linear density (<span class="math inline">\(\mu\)</span>)? Record this value in the <span class="math inline">\(v_{Fμ}\)</span> column. Show your work.</li>
 </ol>
 </div>
 </div>
-<ol start="4" type="a">
-<li>For System 1 and System 2, find two values of <span class="math inline">\(n\)</span> that have similar frequencies (within 10% of each other). Graph F versus <span class="math inline">\(1/n^2\)</span> using the an <span class="math inline">\(n\)</span> value from System 1 and an <span class="math inline">\(n\)</span> value of System 2 with similar frequency.</li>
+<!-- 
+<!--Image 1 ![Image 1](imgs/Figure5_Nodes.jpg){width=100% height=600px}
+![Figure 9: Sample Image 1](imgs/Mars_Test.JPG)
+*Image 1 placeholder* -->
+</div>
+</div>
+<h3 id="experiments">Experiments</h3>
+<div class="ENumber">
+<p>Exercise 5</p>
+<div class="Exercise">
+<p>In this exercise we will establish our baseline system, System 1. Above, in your Constant Values table, you characterized the system, but now we will perform our experiment. We will drive the oscillator with a sine wave and slowly sweep through a few hundred hertz. You can pause the video and scrub through it as slowly as you’d like.</p>
+<p>Do your best to identify a standing wave. You might notice something looking like a standing wave over a range of frequencies. You want the frequency where the amplitude of the string looks the largest, <strong>the tongue of the oscillator is relatively stable,</strong> and the whole wave looks fairly stable.</p>
+<p><strong>It is fine if you don’t measure the exact frequency of the wave.</strong> We won’t grade you on how good you are at watching a video to make a challenging measurement. Just do your best to identify the standing wave and measure the frequency. What is interesting isn’t the exact frequency at which a standing wave occurs. It is the <em>relationship</em> between frequency and the different standing waves that form. As long as you are close you should see the <em>relationship</em>.</p>
+<p>Now we will begin taking data points with System 1. Since this is the System 1 setup, we will be using the string length and mass given above in Exercise 4.</p>
+<!--Video 1 Baseline ![Video 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
+
+        <figure>
+        <div class="resp-container">
+        <iframe class="resp-iframe" width="100%" height="100%" src="https://drive.google.com/file/d/1g36ZdXNY7PA1P5SjsvOUi92QjRKrpPfu/preview"></iframe>
+        </div>
+        <figcaption>Video 3
+        </figure>
+        
+<ol type="1">
+<li><p>Create a table for System 1 with column headers for number of segments (<span class="math inline">\(n\)</span>), frequency (<span class="math inline">\(f\)</span>), <span class="math inline">\(v_{λf}\)</span>, and % Difference of <span class="math inline">\(v\)</span>. Your first entry in number of segments should be 1.</p></li>
+<li><p>Video 1 sweeps through frequencies using System 1. Watch the video and determine the frequency at which you see 1 standing wave segment. Record the frequency for your standing wave with one segment in your table.</p></li>
 </ol>
 <div class="QNumber">
 <p>Question 9</p>
 <div class="Question">
 <ol type="a">
-<li>Graph F versus <span class="math inline">\(1/n^2\)</span> graph</li>
-<li>Use the slope from your graph to calculate the density, μ, of the string. Compare this measured value of density to the accepted value. What is the percent difference?</li>
-<li>How does this value compare to the one you calculated above using <span class="math inline">\(f\)</span> vs <span class="math inline">\(n\)</span>? Which is more accurate?</li>
-<li>What does this say about the number of data points required to reduce error?</li>
+<li>Now calculate the speed from the wavelength (<span class="math inline">\(\lambda\)</span>) and frequency (<span class="math inline">\(f\)</span>). Denote this <span class="math inline">\(v_{\lambda f}\)</span>. Use the equation <span class="math inline">\(v_{\lambda f} = f \lambda\)</span>. Use Equation 3 to calculate the wavelength. Record this in the System 1 table you just made. Show your work.</li>
+<li>Compare the two values of speed. Use the <span class="math inline">\(v_{F\mu}\)</span> from your Constants Table and the <span class="math inline">\(v_{\lambda f}\)</span> that you just calculated. What is the percent difference between these two values? Record this in the System 1 table you just made. Show your work.</li>
 </ol>
 </div>
 </div>
+<ol start="3" type="1">
+<li>Continue watching Video 1 and repeat Exercise 2 for standing waves of two, three, four, and five segments.</li>
+</ol>
 </div>
 </div>
-<p>AVOCADO The manual uses F and T for the same thing, for consistency which one should I use AVOCADO Double check the question and example numbering because I added a PhET</p>
+<!-- End Exercise -->
+<div class="ENumber">
+<p>Exercise 6</p>
+<div class="Exercise">
+<p>This exercise uses a new set up called System 2. This will have the same L as System 1, but will have half the mass.</p>
+<ol type="1">
+<li><p>The mass for System 2 is 25 g. <!-- 1) Measure the mass for System 2 using Image 2 below.
+
+<!-- Image 2 ![Image 2](imgs/Figure5_Nodes.jpg){width=100% height=600px}
+![Image 2: Sample Image 2](imgs/Moon_Test.JPG)
+*Image 2 placeholder* --></p></li>
+<li><p>Add the values of <span class="math inline">\(L\)</span>, <span class="math inline">\(m\)</span>, and <span class="math inline">\(\mu\)</span> to your Constant Values table in the System 2 row. Calculate the tension and the velocity, and include those in your table as well.</p></li>
+<li><p>Create a new table labeled System 2, just like the one you made for System 1.</p></li>
+</ol>
+<!--Video 2 Lighter Mass ![Video 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
+
+        <figure>
+        <div class="resp-container">
+        <iframe class="resp-iframe" width="100%" height="100%" src="https://drive.google.com/file/d/1nz51ZGXjDyq28iRyb6SUkrjKc3ioko_O/preview"></iframe>
+        </div>
+        <figcaption>Video 4
+        </figure>
+        
+<ol start="4" type="1">
+<li>Just as you did for System 1, go through Video 2 and find the frequencies for each number of standing wave segments. Fill out your System 2 table accordingly. You should be able to go up to at least five segments.</li>
+</ol>
+</div>
+</div>
+<!-- End of Exercise -->
+<div class="ENumber">
+<p>Exercise 7</p>
+<div class="Exercise">
+<p>This exercise uses a new setup called System 3. This will have the same mass as System 1, but will have half the length.</p>
+<ol type="1">
+<li>The length of the string in System 3 is 0.4925 m.</li>
+</ol>
+<!-- 1) Measure the length for System 3 using Image 3 below.
+
+<!--Image 3 ![Video 1](imgs/Figure5_Nodes.jpg){width=100% height=600px}
+![Image 3: Sample Image 3](imgs/Saturn_Test.jpg)
+*Image 3 placeholder* -->
+<ol start="2" type="1">
+<li>Add the values of <span class="math inline">\(L\)</span>, <span class="math inline">\(m\)</span>, and <span class="math inline">\(\mu\)</span> to your Constant Values table in the System 3 row. Calculate the tension and the velocity, and include those in your table as well.</li>
+</ol>
+<!--Video 3 Baseline ![Video 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
+
+        <figure>
+        <div class="resp-container">
+        <iframe class="resp-iframe" width="100%" height="100%" src="https://drive.google.com/file/d/1DeLhDlN5magKGvzTYqaaOrCRr_qvPazT/preview"></iframe>
+        </div>
+        <figcaption>Video 5
+        </figure>
+        
+<ol start="3" type="1">
+<li><p>Create a new table labeled System 3, just like the one you made for System 1.</p></li>
+<li>Just as you did for Systems 1 and 2, go through Video 3 and find the frequencies for each number of standing wave segments. Fill out your System 3 table accordingly. You should just barely be able to get three segments.</li>
+</ol>
+</div>
+</div>
+<h3 id="analysis">Analysis</h3>
+<div class="ENumber">
+<p>Exercise 8</p>
+<div class="Exercise">
+<p>In this exercise we will now analyze the three systems and compare and contrast them together.</p>
+<ol type="1">
+<li><p>Our goal is now to study the relationship between the frequency and the number of segments of the wave. Make sure your tables for Systems 1, 2 and 3 are completely filled out.</p></li>
+<li><p>Make a graph of <span class="math inline">\(f\)</span> versus <span class="math inline">\(n\)</span> (the number of segments) for each system. You should have the three curves on one graph in different colors.</p></li>
+</ol>
+<p>All standing waves are referred to as <strong>harmonics</strong>. A standing wave with one segment is called the <strong>fundamental</strong> or the the first harmonic. The <strong>fundamental</strong> is the natural frequency at which the system wants to oscillate. If instead of driving the system with an oscillator you were to pluck the string as you would on a guitar, it would oscillate at the <strong>fundamental</strong> frequency.</p>
+<div class="QNumber">
+<p>Question 10</p>
+<div class="Question">
+<p>What do you notice about the fundamental frequency of the three systems? How does halving the length change the fundamental? How does halving the mass change the fundamental?</p>
+</div>
+</div>
+<div class="QNumber">
+<p>Question 11</p>
+<div class="Question">
+<ol type="a">
+<li>For these systems, how are the frequencies of the upper harmonics related to the frequency of the fundamental?</li>
+<li>Does halving the length or halving the tension (mass) change the relationships you noted in part a. of this question?</li>
+</ol>
+</div>
+</div>
+<div class="QNumber">
+<p>Question 12</p>
+<div class="Question">
+<ol type="a">
+<li>What is the shape of each of the curves on the graph?</li>
+<li>Does each system yield a curve of the same shape?</li>
+<li>From system to system, how does this curve vary?</li>
+<li>What are the slopes of the best fit lines through these curves?</li>
+</ol>
+</div>
+</div>
+<ol start="3" type="1">
+<li>Combine equations 1, 2, and 3 (from the Theory section), and show that the frequency can be written as:</li>
+</ol>
+<p><span class="math display">\[(\textbf{Equation 5})\]</span> <span class="math display">\[f = \left (\frac{1}{2L}\sqrt{\frac{F_T}{\mu}} \right )n\]</span></p>
+<div class="QNumber">
+<p>Question 13</p>
+<div class="Question">
+<ol type="a">
+<li>From Equation 5, what is slope of your <span class="math inline">\(f\)</span> vs <span class="math inline">\(n\)</span> graph in terms of <span class="math inline">\(F\)</span>, <span class="math inline">\(\mu\)</span>, and <span class="math inline">\(L\)</span>?</li>
+<li>What are the units of the slope, and what physical meaning does it have?</li>
+<li>Compare the value of the slope of your plots to the measured fundamental frequency for each system.</li>
+</ol>
+</div>
+</div>
+<p>We have previously given you the value of the linear mass density (<span class="math inline">\(\mu\)</span>), but you can check our value using the slope from Equation 5.</p>
+<div class="QNumber">
+<p>Question 14</p>
+<div class="Question">
+<p>Use the slopes from your graph, and the tension and length for each system, to calculate the density, <span class="math inline">\(\mu\)</span>, of the string. Compare these measured values of density to the accepted value. What is the percent difference for each?</p>
+</div>
+</div>
+</div>
+</div>
+<h2 id="conclusion">Conclusion</h2>
+<div class="ENumber">
+<p>Exercise 9</p>
+<div class="Exercise">
+<p>Write a brief conclusion summarizing the important points of this lab.</p>
+</div>
+</div>
 <!-- Example Functions -->
 <!--PhET Formatting ![Simulation 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
 <!-- Sample Table Sheet https://docs.google.com/spreadsheets/d/1xZ7Nz3IUxpD715pPghY0djhcSn_bZ_FZs1SoGMgkw8k/edit?usp=sharing -->
