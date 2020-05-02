@@ -256,21 +256,21 @@ Do your best to identify a standing wave. You might notice something looking lik
 
 Now we will begin taking data points with System 1. Since this is the System 1 setup, we will be using the string length and mass given above in Exercise 4.
 
-<!--Video 1 Baseline ![Video 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
+<!--Video 3 Baseline ![Video 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
 :::GVideo
 1g36ZdXNY7PA1P5SjsvOUi92QjRKrpPfu
 :::
 
 1. Create a table for System 1 with column headers for number of segments ($n$), frequency ($f$), $v_{λf}$, and % Difference of $v$. Your first entry in number of segments should be 1.
 
-2. Video 1 sweeps through frequencies using System 1. Watch the video and determine the frequency at which you see 1 standing wave segment. Record the frequency for your standing wave with one segment in your table.
+2. Video 3 sweeps through frequencies using System 1. Watch the video and determine the frequency at which you see 1 standing wave segment. Record the frequency for your standing wave with one segment in your table.
 
 ::: Question
 a. Now calculate the speed from the wavelength ($\lambda$) and frequency ($f$). Denote this $v_{\lambda f}$. Use the equation $v_{\lambda f} = f \lambda$. Use Equation 3 to calculate the wavelength. Record this in the System 1 table you just made. Show your work.
 b. Compare the two values of speed. Use the $v_{F\mu}$ from your Constants Table and the $v_{\lambda f}$ that you just calculated. What is the percent difference between these two values? Record this in the System 1 table you just made. Show your work.
 :::
 
-3. Continue watching Video 1 and repeat Exercise 2 for standing waves of two, three, four, and five segments.
+3. Continue watching Video 3 and repeat Exercise 2 for standing waves of two, three, four, and five segments.
 
 :::
 <!-- End Exercise -->
@@ -290,12 +290,12 @@ This exercise uses a new set up called System 2. This will have the same L as Sy
 
 3. Create a new table labeled System 2, just like the one you made for System 1.
 
-<!--Video 2 Lighter Mass ![Video 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
+<!--Video 4 Lighter Mass ![Video 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
 :::GVideo
 1nz51ZGXjDyq28iRyb6SUkrjKc3ioko_O
 :::
 
-4. Just as you did for System 1, go through Video 2 and find the frequencies for each number of standing wave segments. Fill out your System 2 table accordingly. You should be able to go up to at least five segments.
+4. Just as you did for System 1, go through Video 4 and find the frequencies for each number of standing wave segments. Fill out your System 2 table accordingly. You should be able to go up to at least five segments.
 :::
 <!-- End of Exercise -->
 
@@ -313,14 +313,14 @@ This exercise uses a new setup called System 3. This will have the same mass as 
 
 2. Add the values of $L$, $m$, and $\mu$ to your Constant Values table in the System 3 row. Calculate the tension and the velocity, and include those in your table as well.
 
-<!--Video 3 Baseline ![Video 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
+<!--Video 5 Baseline ![Video 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
 :::GVideo
 1DeLhDlN5magKGvzTYqaaOrCRr_qvPazT
 :::
 
 3. Create a new table labeled System 3, just like the one you made for System 1.
 
-4. Just as you did for Systems 1 and 2, go through Video 3 and find the frequencies for each number of standing wave segments. Fill out your System 3 table accordingly. You should just barely be able to get three segments. 
+4. Just as you did for Systems 1 and 2, go through Video 5 and find the frequencies for each number of standing wave segments. Fill out your System 3 table accordingly. You should just barely be able to get three segments. 
 :::
 
 ### Analysis
