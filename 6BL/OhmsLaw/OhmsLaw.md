@@ -11,7 +11,7 @@ During the nineteenth century so many advances were made in understanding the el
 ::: Exercise
 a) Wire the circuit shown in Figure 1.
 
-![Figure 1: A 2200 ohm (2.2k ohm) resistor is wired in series with an ammeter and connected to the 0–20 volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the resistor to measure the voltage drop.](imgs/Figure1_Part1Circuit.jpg)
+![Figure 1: A **R** resistor is wired in series with an ammeter and connected to the 0–20 volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the resistor to measure the voltage drop.](imgs/Figure1_Part1Circuit.jpg)
 
 b) **Hint:** Wire the circuit as a loop. Start from the negative terminal of the power supply, continue
 to the next circuit element, then to the next, and so on and so forth until you arrive back at
@@ -25,7 +25,7 @@ If it is off, it has broken the circuit for safety. Too much current was being d
 **Note:** This will reduce the voltage somewhat, always trust the yellow meters, not the read out on
 the blue power supply. Otherwise, you may treat the output of the gray box as though it
 was the output of the power supply.
-c) The volt meter measures the voltage across the 2200Ω resistor. Treat this as your independent (x) axis in this
+c) The volt meter measures the voltage across the **R** resistor. Treat this as your independent (x) axis in this
 experiment.
 d) The ammeter measures the amount of current flowing through the series circuit. Treat this as your dependent (y) axis in this experiment.
 e) Adjust the voltage applied to the circuit with the large right-most knob on the power supply, also be sure that the mode switch is in the “tracking” position. You will measure the voltage and corresponding current for 10 data points. Your first current measurement is taken with the voltmeter reading 2V. Increment the voltage by 2 volts until you’ve reached 20 volts. Take a current reading for each voltage.
@@ -73,7 +73,7 @@ b) What is the current through this resistor when 9V are dropped across it?
 ::: Exercise
 a) Wire the circuit shown in Figure 2.
 
-![Figure 2: Two 2200 ohm (2.2k ohm) resistors are wired in series with an ammeter and connected to the 0–20 volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the two resistors to measure the total voltage drop.](imgs/Figure2_Part2Circuit.jpg)
+![Figure 2: Two **R** resistors are wired in series with an ammeter and connected to the 0–20 volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the two resistors to measure the total voltage drop.](imgs/Figure2_Part2Circuit.jpg)
 
 b) The voltmeter is placed across two 2.2K resistors chained end to end. The quantity measured by this device is the
 voltage across both resistors. Treat this as your independent (x) axis in this experiment.
@@ -111,7 +111,7 @@ a)A series circuit has a source voltage of 20V and two resistances of 1.7K and 2
 ::: Exercise
 a) Wire the circuit shown in Figure 3a. Use the 5 volt supply for this part.
 
-![Figure 3a. A 2200 ohm (2.2k ohm) resistor is wired in series with the ammeter and connected to the **5 volt** fixed terminals of the power supply. The voltmeter is connected across the resistor to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit.](imgs/Figure3a_Part3Circuit.jpg)
+![Figure 3a. A **R** resistor is wired in series with the ammeter and connected to the **5 volt** fixed terminals of the power supply. The voltmeter is connected across the resistor to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit.](imgs/Figure3a_Part3Circuit.jpg)
 :::
 
 ::: Question
@@ -121,7 +121,7 @@ a) Measure the voltage and current. Calculate the resistance and compare it to t
 ::: Exercise
 a) Wire the circuit shown in Figure 3b. In a series configuration the resistors are hooked end to end with just one path for the current to flow. In Figure 3b, we put the resistors next to each other with common points at each end. The result is two separate paths for current to flow. For obvious reasons, this arrangement is referred to as parallel.
 
-![Figure 3b. Two 2200 ohm resistors in parallel are connected in series with the ammeter and connected to the **5 volt** fixed terminals of the power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit.](imgs/Figure3b_Part3Circuit.jpg)
+![Figure 3b. Two **R** resistors in parallel are connected in series with the ammeter and connected to the **5 volt** fixed terminals of the power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit.](imgs/Figure3b_Part3Circuit.jpg)
 
 :::
 
@@ -133,7 +133,7 @@ b) What does this imply of the resistance?
 ::: Exercise
 a) Wire the circuit shown in Figure 3c. There are now three paths for the current to take.
 
-![Figure 3c. Three 2200 ohm resistors in parallel are connected in series with the ammeter and connected to the 5 volt fixed terminals of the power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit.](imgs/Figure3c_Part3Circuit.jpg)
+![Figure 3c. Three **R** resistors in parallel are connected in series with the ammeter and connected to the 5 volt fixed terminals of the power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit.](imgs/Figure3c_Part3Circuit.jpg)
 
 :::
 
