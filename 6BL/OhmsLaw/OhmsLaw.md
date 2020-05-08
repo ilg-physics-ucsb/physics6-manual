@@ -105,7 +105,7 @@ Exercise GUAC will have you looking at a simple circuit. This circuit consists o
 
 a) See the circuit shown in Figure GUAC.
 
-![Figure 1: A 2200 ohm (2.2k ohm) resistor is wired in series with an ammeter and connected to the 0–20 volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the resistor to measure the voltage drop.](imgs/Figure1_Part1Circuit.jpg)
+![Figure 1: A **R** resistor is wired in series with an ammeter and connected to the 0–20 volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the resistor to measure the voltage drop.](imgs/Figure1_Part1Circuit.jpg)
 
 AVOCADO (There should be a new figure)
 
@@ -133,7 +133,7 @@ Video GUAC has the system set up from figure GUAC.
 1an1ZCDO0onq_-mtUjBbJnqIjgI0eIQAp 
 :::
 
-b) The volt meter measures the voltage across the 2200Ω resistor. Treat this as your independent (x) axis in this
+b) The volt meter measures the voltage across the **$R$** resistor. Treat this as your independent (x) axis in this
 experiment.
 c) The ammeter measures the amount of current flowing through the series circuit. Treat this as your dependent (y) axis in this experiment.
 d) Video GUAC adjust the voltage applied to the circuit using the power supply at the top. You will measure the voltage and corresponding current for 10 data points. Your first current measurement is taken with the voltmeter reading 2V. Increment the voltage by 2 volts until you’ve reached 20 volts. AVOCADO (Until 18V?) Take a current reading for each voltage.
@@ -195,7 +195,7 @@ Now we will be looking at series circuit elements. This is when we have componen
 ::: Exercise
 a) See the circuit shown in Figure GUAC.
 
-![Figure 2: Two 2200 ohm (2.2k ohm) resistors are wired in series with an ammeter and connected to the 0–20 volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the two resistors to measure the total voltage drop.](imgs/Figure2_Part2Circuit.jpg)
+![Figure 2: Two **R** resistors are wired in series with an ammeter and connected to the 0–20 volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the two resistors to measure the total voltage drop.](imgs/Figure2_Part2Circuit.jpg)
 
 <!-- Video for system 2, a series circuit -->
 :::GVideo 
@@ -223,7 +223,7 @@ Now we will be looking at parallel circuit elements. This is then components in 
 ::: Exercise
 a) See the circuit shown in Figure GUAC. This will be using the 5 volt supply.
 
-![Figure GUAC. A 2200 ohm (2.2k ohm) resistor is wired in series with the ammeter and connected to the **5 volt** fixed terminals of the power supply. The voltmeter is connected across the resistor to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit.](imgs/Figure3a_Part3Circuit.jpg)
+![Figure GUAC. A **R** resistor is wired in series with the ammeter and connected to the **5 volt** fixed terminals of the power supply. The voltmeter is connected across the resistor to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit.](imgs/Figure3a_Part3Circuit.jpg)
 
 
 <!-- Video for system 3, a parallel circuit -->
@@ -242,7 +242,7 @@ a) Measure the voltage and current. Calculate the resistance and compare it to t
 ::: Exercise
 a) See the circuit shown in Figure GUAC. In a series configuration the resistors are hooked end to end with just one path for the current to flow. In Figure GUAC, we put the resistors next to each other with common points at each end. The result is two separate paths for current to flow. For obvious reasons, this arrangement is referred to as parallel.
 
-![Figure GUAC. Two 2200 ohm resistors in parallel are connected in series with the ammeter and connected to the **5 volt** fixed terminals of the power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit.](imgs/Figure3b_Part3Circuit.jpg)
+![Figure GUAC. Two **R** resistors in parallel are connected in series with the ammeter and connected to the **5 volt** fixed terminals of the power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit.](imgs/Figure3b_Part3Circuit.jpg)
 
 <!-- Video for system 3, a parallel circuit -->
 :::GVideo 
@@ -260,7 +260,7 @@ b) What does this imply of the resistance?
 ::: Exercise
 a) See the circuit shown in Figure GUAC. There are now three paths for the current to take.
 
-![Figure GUAC. Three 2200 ohm resistors in parallel are connected in series with the ammeter and connected to the 5 volt fixed terminals of the power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit.](imgs/Figure3c_Part3Circuit.jpg)
+![Figure GUAC. Three **R** resistors in parallel are connected in series with the ammeter and connected to the 5 volt fixed terminals of the power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit.](imgs/Figure3c_Part3Circuit.jpg)
 
 <!-- Video for system 3, a parallel circuit -->
 :::GVideo 
