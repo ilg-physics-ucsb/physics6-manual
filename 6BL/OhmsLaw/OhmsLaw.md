@@ -28,42 +28,10 @@ A simple circuit can be analogized by a system of water flowing through pipes. I
 
 ### Resistance
 
-Resistance is the measure of opposition to some flow, in electrical circuits this flow is the flow of electrons, otherwise known as current. As such, resistance reduces the current that can flow due to a voltage source. The unit of resistance is the Ohm, it is characterized by the symbol $\Omega$.
-
-Resistance is primarily affected by two things. First is a material's intrinsic property known as resistivity. Second is the geometry of the material, particularly the cross-sectional area and the length of the material. Resistivity varies from material to material and is similar to density. The greater the resistivity of a material, the greater the resistance of that object for a given geometry. The geometry's affect on the resistance is more complex than just volume. Remember that current flows through something, therefore discussing volume generally is not important. Looking at the length the current must travel and the area through which is travels is what gives us the important information we are looking for. The longer a resistive object is, the greater its resistance is, however, the larger the cross-sectional area of an object, the smaller the resistance is. This is characterized by the equation below.
-
-$$R_{resistance}\ (\Omega) = \frac{ρ_{resistivity}\ (\Omega\ cm) \cdot L(cm)}{A(cm^2)}$$
-
-To return to our piping analogy, resistivity is like obstructions in a pipe such as rocks and other blockages. The more obstructions, the harder it is for the water to flow. Early resistors were made by coiling lengths of resistive wire. Resistors today are often made by taking carbon composite and binding it using some binding material with such a density as to get the desired resistance. These obstructions can be seen as the non-conductive gaps in the otherwise conductive material AVOCADO (Not a good sentence). As the length of the pipe increases, the amount of obstructions also increases overall, making it harder yet for the water to flow. As the cross-sectional area increases, there becomes far more space around the obstructions for the water to flow around, thus the obstructions become a much smaller percentage of the total region in which the water can flow and the flow increases. Imagine trying to pump water through a massive pipe a meter in diameter, water would flow quite easily. Now try pumping the same amount of water in a pipe a millimeter in diameter, it would be far more difficult to push the same amount of water through this pipe.
+Resistance is the measure of opposition to some flow, in electrical circuits this flow is the flow of electrons, otherwise known as current. As such, resistance reduces the current that can flow due to a voltage source. The unit of resistance is the Ohm, it is characterized by the symbol $\Omega$. A component in a circuit designed to have a set resistance is called a **resistor**.In our pipe analogy a resistor would be an obstruction or a kink in the piping.
 
 
-Check out Simulation 1 to see how the values of $ρ,\ L$, and $A$ affect $R$. Please note the visual representation of the resistor and how it changes with these values.
-
-![Simulation 1](https://phet.colorado.edu/sims/html/resistance-in-a-wire/latest/resistance-in-a-wire_en.html){width=100% height=600px}
-
-The resistivity of a material can be dependent on temperature. This, however, is generally taken into account by manufacturers to minimize this effect to create constant resistors. In devices where temperature dependent resistance is useful, manufacturers take make it work yo such that resistors are designed to not change resistance when within their operating temperatures. Resistors that are designed to change with temperature are called thermistors, we will not be dealing with those in this lab.
-
-::: Exercise
-
-Modern resistors are made using a carbon composite to create resistors of a consistent size. Earlier resistors however were made by coiling resistive wire, such as Nichrome, around an insulating core until the desired resistance was achieved.  
-
-A typical modern resistor made of composite may be about $8.5\ mm$ long and $3.2\ mm$ in diameter. Nichrome has a resistivity, $\rho$, of approximately $10^{-6}\ \Omega\ cm$. 
-
-<!-- Image of a resistor? -->
-
-::: Question
-a) What is the resistivity, $\rho$, of a 750 $\Omega$ resistor that is in the standardized package mentioned above?
-b) What is the resistivity of a a $3.2K\ \Omega$ resistor? 
-c) Compare this resistivity with the resistivity of nichrome.
-d) If you had a nichrome wire of the typical resistor diameter, $3.2\ mm$, what length would you need to have a resistance $R$ of 750 $\Omega$?
-:::
-
-You may have noticed the value of part d above is quite large. This would result in a very inconvenient resistor, as it would be huge compared to modern electronics. This large length is due to the large cross-sectional area of the resistor. A modern resistor made of nichrome wire uses wire approximately AVOCADO mm in diameter wrapped around a core AVOCADO mm in diameter. One loop of this wire around the core is AVOCADO mm long.
-
-::: Question
-Using the resistivity of nichrome, the length per loop or wire, and diameter of modern nichrome wires in resistors, find the amount of loops of nichrome needed to make a 750 $\Omega$ resistor.
-:::
-:::
+**Pipe Analogy Video**
 
 
 ### Ohm's Law
@@ -348,3 +316,51 @@ In this exercise you will use Simulation GUAC to build a new circuit.
 Adding switches will help you make your circuit more manageable and will allow you to switch parts of your circuit on or off.
 
 :::
+
+## Conclusion
+
+<!-- Add things -->
+
+
+## Appendix
+
+<!-- Move resistivity here -->
+### Resistivity
+
+Resistance is primarily affected by two things. First is a material's intrinsic property known as resistivity. Second is the geometry of the material, particularly the cross-sectional area and the length of the material. Resistivity varies from material to material and is similar to density. The greater the resistivity of a material, the greater the resistance of that object for a given geometry. The geometry's affect on the resistance is more complex than just volume. Remember that current flows through something, therefore discussing volume generally is not important. Looking at the length the current must travel and the area through which is travels is what gives us the important information we are looking for. The longer a resistive object is, the greater its resistance is, however, the larger the cross-sectional area of an object, the smaller the resistance is. This is characterized by the equation below.
+
+$$R_{resistance}\ (\Omega) = \frac{ρ_{resistivity}\ (\Omega\ cm) \cdot L(cm)}{A(cm^2)}$$
+
+To return to our piping analogy, resistivity is like obstructions in a pipe such as rocks and other blockages. The more obstructions, the harder it is for the water to flow. Early resistors were made by coiling lengths of resistive wire. Resistors today are often made by taking carbon composite and binding it using some binding material with such a density as to get the desired resistance. These obstructions can be seen as the non-conductive gaps in the otherwise conductive material AVOCADO (Not a good sentence). As the length of the pipe increases, the amount of obstructions also increases overall, making it harder yet for the water to flow. As the cross-sectional area increases, there becomes far more space around the obstructions for the water to flow around, thus the obstructions become a much smaller percentage of the total region in which the water can flow and the flow increases. Imagine trying to pump water through a massive pipe a meter in diameter, water would flow quite easily. Now try pumping the same amount of water in a pipe a millimeter in diameter, it would be far more difficult to push the same amount of water through this pipe.
+
+
+Check out Simulation 1 to see how the values of $ρ,\ L$, and $A$ affect $R$. Please note the visual representation of the resistor and how it changes with these values.
+
+![Simulation 1](https://phet.colorado.edu/sims/html/resistance-in-a-wire/latest/resistance-in-a-wire_en.html){width=100% height=600px}
+
+The resistivity of a material can be dependent on temperature. This, however, is generally taken into account by manufacturers to minimize this effect to create constant resistors. In devices where temperature dependent resistance is useful, manufacturers take make it work yo such that resistors are designed to not change resistance when within their operating temperatures. Resistors that are designed to change with temperature are called thermistors, we will not be dealing with those in this lab.
+
+::: Exercise
+
+Modern resistors are made using a carbon composite to create resistors of a consistent size. Earlier resistors however were made by coiling resistive wire, such as Nichrome, around an insulating core until the desired resistance was achieved.  
+
+A typical modern resistor made of composite may be about $8.5\ mm$ long and $3.2\ mm$ in diameter. Nichrome has a resistivity, $\rho$, of approximately $10^{-6}\ \Omega\ cm$. 
+
+<!-- Image of a resistor? -->
+
+::: Question
+a) What is the resistivity, $\rho$, of a 750 $\Omega$ resistor that is in the standardized package mentioned above?
+b) What is the resistivity of a a $3.2K\ \Omega$ resistor? 
+c) Compare this resistivity with the resistivity of nichrome.
+d) If you had a nichrome wire of the typical resistor diameter, $3.2\ mm$, what length would you need to have a resistance $R$ of 750 $\Omega$?
+:::
+
+You may have noticed the value of part d above is quite large. This would result in a very inconvenient resistor, as it would be huge compared to modern electronics. This large length is due to the large cross-sectional area of the resistor. A modern resistor made of nichrome wire uses wire approximately AVOCADO mm in diameter wrapped around a core AVOCADO mm in diameter. One loop of this wire around the core is AVOCADO mm long.
+
+::: Question
+Using the resistivity of nichrome, the length per loop or wire, and diameter of modern nichrome wires in resistors, find the amount of loops of nichrome needed to make a 750 $\Omega$ resistor.
+:::
+:::
+
+
+
