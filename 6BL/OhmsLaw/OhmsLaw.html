@@ -36,41 +36,8 @@
 <p>A circuit is a closed loop of wires and components that allows electrons to flow through it. The flow of electrons is referred to as <strong>current</strong>, and it varies at different parts of a circuit. The flow of electrons is caused by differences in electrical potential, the amount of which is referred to as <strong>voltage</strong>. Differences in voltage are provided by power sources, often times, a battery. As the power source causes a current to flow, electrical potential energy is converted into electrical kinetic energy as current. This leads to the draining of your power source over time. For any particular voltage, the current that flows will be determined by the <strong>resistance</strong> of the medium through which it is flowing. The larger the resistance, the more difficult it is for electrons to flow, and thus the lower the current. Refine this explanation, make some good analogy to a physical system. AVOCADO <!-- Circuits are analogous to other systems that flow such as piped water. Water held at a height has a potential and when drained can flow water out.  --></p>
 <p>A simple circuit can be analogized by a system of water flowing through pipes. Imagine a loop of pipes filled with water. A pump which takes water to a higher height is similar to a power source that is creating a potential energy. The ware then flows down from that source analogous to current until it reaches the lower potential then gets pumped back up by means of the power source. As the water is flowing the resistance in the pipes determines the rate of flow. A pipe with more obstructions will reduce the flow more than a pipe with no obstructions. AVOCADO, not well worded analogy I feel.</p>
 <h3 id="resistance">Resistance</h3>
-<p>Resistance is the measure of opposition to some flow, in electrical circuits this flow is the flow of electrons, otherwise known as current. As such, resistance reduces the current that can flow due to a voltage source. The unit of resistance is the Ohm, it is characterized by the symbol <span class="math inline">\(\Omega\)</span>.</p>
-<p>Resistance is primarily affected by two things. First is a material’s intrinsic property known as resistivity. Second is the geometry of the material, particularly the cross-sectional area and the length of the material. Resistivity varies from material to material and is similar to density. The greater the resistivity of a material, the greater the resistance of that object for a given geometry. The geometry’s affect on the resistance is more complex than just volume. Remember that current flows through something, therefore discussing volume generally is not important. Looking at the length the current must travel and the area through which is travels is what gives us the important information we are looking for. The longer a resistive object is, the greater its resistance is, however, the larger the cross-sectional area of an object, the smaller the resistance is. This is characterized by the equation below.</p>
-<p><span class="math display">\[R_{resistance}\ (\Omega) = \frac{ρ_{resistivity}\ (\Omega\ cm) \cdot L(cm)}{A(cm^2)}\]</span></p>
-<p>To return to our piping analogy, resistivity is like obstructions in a pipe such as rocks and other blockages. The more obstructions, the harder it is for the water to flow. Early resistors were made by coiling lengths of resistive wire. Resistors today are often made by taking carbon composite and binding it using some binding material with such a density as to get the desired resistance. These obstructions can be seen as the non-conductive gaps in the otherwise conductive material AVOCADO (Not a good sentence). As the length of the pipe increases, the amount of obstructions also increases overall, making it harder yet for the water to flow. As the cross-sectional area increases, there becomes far more space around the obstructions for the water to flow around, thus the obstructions become a much smaller percentage of the total region in which the water can flow and the flow increases. Imagine trying to pump water through a massive pipe a meter in diameter, water would flow quite easily. Now try pumping the same amount of water in a pipe a millimeter in diameter, it would be far more difficult to push the same amount of water through this pipe.</p>
-<p>Check out Simulation 1 to see how the values of <span class="math inline">\(ρ,\ L\)</span>, and <span class="math inline">\(A\)</span> affect <span class="math inline">\(R\)</span>. Please note the visual representation of the resistor and how it changes with these values.</p>
-<figure>
-<embed src="https://phet.colorado.edu/sims/html/resistance-in-a-wire/latest/resistance-in-a-wire_en.html" style="width:100.0%" height="600" /><figcaption>Simulation 1</figcaption>
-</figure>
-<p>The resistivity of a material can be dependent on temperature. This, however, is generally taken into account by manufacturers to minimize this effect to create constant resistors. In devices where temperature dependent resistance is useful, manufacturers take make it work yo such that resistors are designed to not change resistance when within their operating temperatures. Resistors that are designed to change with temperature are called thermistors, we will not be dealing with those in this lab.</p>
-<div class="ENumber">
-<p>Exercise 1</p>
-<div class="Exercise">
-<p>Modern resistors are made using a carbon composite to create resistors of a consistent size. Earlier resistors however were made by coiling resistive wire, such as Nichrome, around an insulating core until the desired resistance was achieved.</p>
-<p>A typical modern resistor made of composite may be about <span class="math inline">\(8.5\ mm\)</span> long and <span class="math inline">\(3.2\ mm\)</span> in diameter. Nichrome has a resistivity, <span class="math inline">\(\rho\)</span>, of approximately <span class="math inline">\(10^{-6}\ \Omega\ cm\)</span>.</p>
-<!-- Image of a resistor? -->
-<div class="QNumber">
-<p>Question 1</p>
-<div class="Question">
-<ol type="a">
-<li>What is the resistivity, <span class="math inline">\(\rho\)</span>, of a 750 <span class="math inline">\(\Omega\)</span> resistor that is in the standardized package mentioned above?</li>
-<li>What is the resistivity of a a <span class="math inline">\(3.2K\ \Omega\)</span> resistor?</li>
-<li>Compare this resistivity with the resistivity of nichrome.</li>
-<li>If you had a nichrome wire of the typical resistor diameter, <span class="math inline">\(3.2\ mm\)</span>, what length would you need to have a resistance <span class="math inline">\(R\)</span> of 750 <span class="math inline">\(\Omega\)</span>?</li>
-</ol>
-</div>
-</div>
-<p>You may have noticed the value of part d above is quite large. This would result in a very inconvenient resistor, as it would be huge compared to modern electronics. This large length is due to the large cross-sectional area of the resistor. A modern resistor made of nichrome wire uses wire approximately AVOCADO mm in diameter wrapped around a core AVOCADO mm in diameter. One loop of this wire around the core is AVOCADO mm long.</p>
-<div class="QNumber">
-<p>Question 2</p>
-<div class="Question">
-<p>Using the resistivity of nichrome, the length per loop or wire, and diameter of modern nichrome wires in resistors, find the amount of loops of nichrome needed to make a 750 <span class="math inline">\(\Omega\)</span> resistor.</p>
-</div>
-</div>
-</div>
-</div>
+<p>Resistance is the measure of opposition to some flow, in electrical circuits this flow is the flow of electrons, otherwise known as current. As such, resistance reduces the current that can flow due to a voltage source. The unit of resistance is the Ohm, it is characterized by the symbol <span class="math inline">\(\Omega\)</span>. A component in a circuit designed to have a set resistance is called a <strong>resistor</strong>. In our pipe analogy a resistor would be an obstruction or a kink in the piping.</p>
+<p><strong>Pipe Analogy Video</strong></p>
 <h3 id="ohms-law">Ohm’s Law</h3>
 <p>Ohm’s law is most simply expressed as the equation:</p>
 <p><span class="math display">\[V = I \cdot R\]</span></p>
@@ -85,7 +52,7 @@
 <p>This is exactly what you just saw in the previous experiment. From this equation, it should be clear why the reciprocal of the slope is the resistance. Further algebraical rearrangement yields the proportionality constant R, which is the electrical resistance of the device.</p>
 <p><span class="math display">\[R = V/I\]</span></p>
 <div class="ENumber">
-<p>Exercise 2</p>
+<p>Exercise 1</p>
 <div class="Exercise">
 <p>Use Simulation 2 to gain intuition on Ohm’s Law. Notice the size of each symbol changes to demonstrate the change in magnitude of that value. As current increases the orange arrows on the the corners of the circuit increase to demonstrate this. The larger the arrow, the greater the current. AVOCADO</p>
 <figure>
@@ -93,7 +60,7 @@
 </figure>
 <p>Using the equations above answer the following questions. Use Simulation 2 to verify these results.</p>
 <div class="QNumber">
-<p>Question 3</p>
+<p>Question 1</p>
 <div class="Question">
 <ol type="a">
 <li>A <span class="math inline">\(873\ \Omega\)</span> AVOCADO (This resistor value was changed by me to make it more interesting, use the Birthday thing?) resistor passes a current of 2mA. What is the voltage across this resistor?</li>
@@ -121,22 +88,21 @@ Basically part 5 of the outline.
 <h2 id="part-2-empirically-determining-resistance">Part 2: Empirically Determining Resistance</h2>
 <p>In this part we will look at real circuits to further explore Ohm’s Law and the characteristics of circuits.</p>
 <div class="ENumber">
-<p>Exercise 3</p>
+<p>Exercise 2</p>
 <div class="Exercise">
 <p>Exercise GUAC will have you looking at a simple circuit. This circuit consists of a power supply, and a resistor. An Ammeter and a Voltmeter will be used to to measure the voltage across the resistor and the current passing through the wire.</p>
 <ol type="a">
 <li>See the circuit shown in Figure GUAC.</li>
 </ol>
 <figure>
-<img src="imgs/Figure1_Part1Circuit.jpg" alt="Figure 1: A 2200 ohm (2.2k ohm) resistor is wired in series with an ammeter and connected to the 0–20 volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the resistor to measure the voltage drop." /><figcaption>Figure 1: A 2200 ohm (2.2k ohm) resistor is wired in series with an ammeter and connected to the 0–20 volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the resistor to measure the voltage drop.</figcaption>
+<img src="imgs/Figure1_Part1Circuit.jpg" alt="Figure GUAC: A resistor of resistance R is wired in series with an ammeter and connected to the 0–20 volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the resistor to measure the voltage drop." /><figcaption>Figure GUAC: A resistor of resistance <strong>R</strong> is wired in series with an ammeter and connected to the 0–20 volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the resistor to measure the voltage drop.</figcaption>
 </figure>
-<p>AVOCADO (There should be a new figure)</p>
 <p><strong>Note:</strong> The circuit is wired as a loop. Starting from the negative terminal of the power supply, it continues to the next circuit element, then to the next, and so on and so forth until it arrives back at the positive terminal of the power supply.</p>
 <p><strong>Note:</strong> Current must flow through an ammeter. It must be part of the circuit loop.</p>
 <p><strong>Note:</strong> Voltage is measured across circuit elements. Voltmeters are not part of the circuit loop, but must instead be placed with one terminal on each side of the element you wish to measure.</p>
 <p><strong>Note:</strong> The gray box is a power supply protection device. If the red light is on, everything is ok. If it is off, it has broken the circuit for safety. Too much current was being drawn. AVOCADO (To be removed I assume, unless we want a note about it so the students know it should be there)</p>
 <p><strong>Note:</strong> This will reduce the voltage somewhat, always trust the yellow meters, not the read out on the blue power supply. Otherwise, you may treat the output of the gray box as though it was the output of the power supply.</p>
-<p>Video GUAC has the system set up from figure GUAC.</p>
+<p>Video GUAC has the system set up from figure GUAC and will scan through increasing voltages from the power supply.</p>
 <!-- Video for system 1, a simple circuit -->
 
         <figure>
@@ -147,27 +113,41 @@ Basically part 5 of the outline.
         </figure>
         
 <ol start="2" type="a">
-<li>The volt meter measures the voltage across the 2200Ω resistor. Treat this as your independent (x) axis in this experiment.</li>
-<li>The ammeter measures the amount of current flowing through the series circuit. Treat this as your dependent (y) axis in this experiment.</li>
-<li>Video GUAC adjust the voltage applied to the circuit using the power supply at the top. You will measure the voltage and corresponding current for 10 data points. Your first current measurement is taken with the voltmeter reading 2V. Increment the voltage by 2 volts until you’ve reached 20 volts. AVOCADO (Until 18V?) Take a current reading for each voltage.</li>
-<li>Neatly tabulate your data, then plot your data with voltage as the X-axis and current as your Y-axis.</li>
+<li>The volt meter measures the voltage across the <strong><span class="math inline">\(R\)</span></strong> resistor. Treat this as your y axis in this experiment.</li>
+<li>The ammeter measures the amount of current flowing through the series circuit. Treat this as your x axis in this experiment.</li>
+<li>Video GUAC adjusts the voltage applied to the circuit using the power supply at the top. You will measure the voltage and corresponding current for 10 data points. Your first current measurement is taken with the voltmeter reading 2V. Increment the voltage by 2 volts until you’ve reached 20 volts. AVOCADO (Until 18V?) Take a current reading for each voltage.</li>
+<li>Neatly tabulate your data, then plot your data with current as the X-axis and voltage as your Y-axis.</li>
 </ol>
 <div class="QNumber">
-<p>Question 4</p>
+<p>Question 2</p>
 <div class="Question">
 <ol type="a">
 <li>Describe this plot. Is it linear or almost linear? Is there a section of the plot which is linear?</li>
-<li>What is the slope of this line? Use units.</li>
-<li>What is the reciprocal of this line? Use units. Note the equivalency volts/amperes = ohms.</li>
+<li>What is the slope of this line? Use units. Note the equivalency volts/amperes = ohms.</li>
+</ol>
+<p>AVOCADO (My additional questions below)</p>
+<ol start="3" type="a">
+<li>What is the part of this circuit does this value define? Note the units.</li>
+</ol>
+<p>AVOCADO (Should we make a note about the independent vs dependent axis flip and have a simple question?)</p>
+<ol start="4" type="a">
+<li></li>
 </ol>
 </div>
 </div>
+</div>
+</div>
+<div class="ENumber">
+<p>Exercise 3</p>
+<div class="Exercise">
+<h2 id="mystery-resistor-exercise">Mystery Resistor Exercise</h2>
 </div>
 </div>
 <!-- ### Series and Parallel Introductions -->
 <p>Now that you have seen simple circuits, we can explore more complex ones. There are two ways in which components may be connected together, in series and in parallel. AVOCADO Double Check wording</p>
-<h4 id="series-circuits">Series Circuits</h4>
-<p>In order for current to move through a circuit, there must be a complete path leading away from and back to the source voltage. In a simple series circuit there is only one such path. It is important to note that the same amount of current flows through all points of a series circuit. If this were not the case, there would be points where current was either created or destroyed. <em>The current through each element is the same</em>, however the total circuit voltage is divided among the individual resistors. For this reason, the circuit in the previous experiment is commonly known as a voltage divider. Individual series resistors add to form a total resistance. Individual voltages in series circuits add to form the total circuit voltage. The entire source voltage will be dropped across the combination of two resistors. The voltage across each individual resistor is proportional to its individual resistance.</p>
+<!-- #### Series Circuits
+
+In order for current to move through a circuit, there must be a complete path leading away from and back to the source voltage. In a simple series circuit there is only one such path. It is important to note that the same amount of current flows through all points of a series circuit. If this were not the case, there would be points where current was either created or destroyed. *The current through each element is the same*, however the total circuit voltage is divided among the individual resistors. For this reason, the circuit in the previous experiment is commonly known as a voltage divider. Individual series resistors add to form a total resistance. Individual voltages in series circuits add to form the total circuit voltage. The entire source voltage will be dropped across the combination of two resistors. The voltage across each individual resistor is proportional to its individual resistance.  -->
 <!-- The circuit has a simple and useful ratio equivalence:
 
 $$\frac{Individual\ Resistance\ Value}{Total\ Resistance\ Value} = \frac{Individual\ Voltage\ Dropped}{Total\ Voltage\ Dropped}$$
@@ -180,8 +160,15 @@ Thus the name voltage divider refers to the fact that the voltage will divide ac
 <!-- ::: Question
 a) A series circuit has a source voltage of 20V and two resistances of 1.7K and 2.6K, respectively. What is the total circuit current? What are the voltages across each resistor? Show that Ohm’s Law holds for each element individually.
 ::: -->
-<h4 id="parallel-circuits">Parallel Circuits</h4>
-<p>You’ve now been familiarized with the relationship between current, voltage and resistance for a single resistor. In circuits, any point connected by a wire is considered to be the same point. Thus when we connect two or three resistors in parallel they all have the same voltage across them. In this scenario, Ohm’s law applies to each resistor individually. If the resistance values are different, the current through that branch will also be different. In a parallel arrangement the current can divide at the top junction and recombine at the bottom junction. Because there are multiple paths on which current can flow, more current can flow for a given voltage value. Thus, the equivalent resistance will be less than any one of the individual paths.</p>
+<!-- #### Parallel Circuits
+
+You’ve now been familiarized with the relationship between current, voltage and resistance for a single resistor. In a parallel configuration we have two elements connected to each other at both ends. This is in contrast to series elements that have 
+
+In circuits, any point connected by a wire is considered to be the same point. 
+
+## Discuss this section AVOCADO I feel
+
+Thus when we connect two or three resistors in parallel they all have the same voltage across them. In this scenario, Ohm’s law applies to each resistor individually. If the resistance values are different, the current through that branch will also be different.  -->
 <!-- The equation to determine the equivalent resistance of a network of parallel resistors is:
 
 $$1/R_{equivalent} = 1/R_{1} + 1/R_{2} + 1/R_{3}$$
@@ -195,7 +182,9 @@ b) A 2.2kΩ resistor is placed in series with 1.7kΩ and 2.6kΩ resistors in par
 ![Figure 4: Ciruit Question](imgs/Figure4_Part3CircuitQ.jpg)
 
 ::: -->
-<h2 id="part-2-series-circuit-elements">PART 2: SERIES CIRCUIT ELEMENTS</h2>
+<h2 id="part-3-series-circuit-elements">PART 3: SERIES CIRCUIT ELEMENTS</h2>
+<p>In order for current to move through a circuit, there must be a complete path leading away from and back to the source voltage. In a simple series circuit there is only one such path. It is important to note that the same amount of current flows through all points of a series circuit. If this were not the case, there would be points where current was either created or destroyed. <em>The current through each element is the same</em>, however the total circuit voltage is divided among the individual resistors. For this reason, the circuit in the previous experiment is commonly known as a voltage divider. Individual series resistors add to form a total resistance. Individual voltages in series circuits add to form the total circuit voltage. The entire source voltage will be dropped across the combination of two resistors. The voltage across each individual resistor is proportional to its individual resistance.</p>
+<p><strong>For series elements, the current through them is the same.</strong></p>
 <p>Now we will be looking at series circuit elements. This is when we have components in a circuit going back to back as can be seen in Figure GUAC.</p>
 <div class="ENumber">
 <p>Exercise 4</p>
@@ -204,7 +193,7 @@ b) A 2.2kΩ resistor is placed in series with 1.7kΩ and 2.6kΩ resistors in par
 <li>See the circuit shown in Figure GUAC.</li>
 </ol>
 <figure>
-<img src="imgs/Figure2_Part2Circuit.jpg" alt="Figure 2: Two R resistors are wired in series with an ammeter and connected to the 0–20 volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the two resistors to measure the total voltage drop." /><figcaption>Figure 2: Two <strong>R</strong> resistors are wired in series with an ammeter and connected to the 0–20 volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the two resistors to measure the total voltage drop.</figcaption>
+<img src="imgs/Figure2_Part2Circuit.jpg" alt="Figure GUAC: Two resistors of resistance R are wired in series with an ammeter and connected to the 0–20 volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the two resistors to measure the total voltage drop." /><figcaption>Figure GUAC: Two resistors of resistance <strong>R</strong> are wired in series with an ammeter and connected to the 0–20 volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the two resistors to measure the total voltage drop.</figcaption>
 </figure>
 <!-- Video for system 2, a series circuit -->
 
@@ -217,32 +206,36 @@ b) A 2.2kΩ resistor is placed in series with 1.7kΩ and 2.6kΩ resistors in par
         
 <p>Video GUAC will vary the voltage supplied to the circuit in Figure GUAC.</p>
 <ol start="2" type="a">
-<li>The voltmeter is placed across two 2.2K resistors chained end to end. The quantity measured by this device is the voltage across both resistors. Treat this as your independent (x) axis in this experiment.</li>
-<li>Again, the ammeter measures the amount of current flowing through the series circuit. Treat this as your dependent (y)axis in this experiment.</li>
+<li>The voltmeter is placed across two resistors both of resistance <span class="math inline">\(R\)</span> chained end to end. The quantity measured by this device is the voltage across both resistors. Treat this as your Y axis in this experiment.</li>
+<li>Again, the ammeter measures the amount of current flowing through the series circuit. Treat this as your X axis in this experiment.</li>
 <li>Video GUAC adjusts the voltage applied to the circuit using the power supply at the top. You will measure the voltage and corresponding current for 10 data points. Your first current measurement is taken with the voltmeter reading 2V. Increment the voltage by 2 volts until you’ve reached 20 volts AVOCADO (18 volts?). Take a current reading for each voltage.</li>
-<li>Neatly tabulate your data, then plot your data with voltage as the X-axis and current as your Y-axis.</li>
+<li>Neatly tabulate your data, then plot your data with current as the X-axis and voltage as your Y-axis.</li>
 </ol>
 <div class="QNumber">
-<p>Question 5</p>
+<p>Question 3</p>
 <div class="Question">
 <ol type="a">
-<li>What is the slope of this line? Use units. What is the reciprocal of this line?</li>
+<li>What is the slope of this line? Use units.</li>
 <li>Qualitatively compare this plot to what you found in the first procedure. How do the slopes compare? What can you say about resistances in series?</li>
 </ol>
 </div>
 </div>
 </div>
 </div>
-<h2 id="part-3-parallel-circuits">PART 3: PARALLEL CIRCUITS</h2>
-<p>Now we will be looking at parallel circuit elements. This is then components in a circuit fork the path into multiple parallel paths then rejoin at a later point.</p>
+<p>To determine a single resistor that can be used to replace several resistors oriented in series we need to find the <strong>equivalent resistance</strong> for series elements.</p>
+<p>The equivalent to determine the equivalent resistance of a network of series resistors is:</p>
+<p><span class="math display">\[R_{equivalent} = R_{1} + R_{2} + R_{3}...\]</span></p>
+<h2 id="part-4-parallel-circuits">PART 4: PARALLEL CIRCUITS</h2>
+<p>You’ve now been familiarized with the relationship between current, voltage and resistance for a single resistor. In a parallel configuration we have two or more elements connected to each other at both ends. A parallel configuration can be seen in Figure GUAC, in Exercise 5. Note that in circuits, any point connected by a wire is considered to be the same point. Ohm’s law applies to each resistor individually.</p>
+<p><strong>In parallel, the voltage across the resistors is the same.</strong></p>
 <div class="ENumber">
 <p>Exercise 5</p>
 <div class="Exercise">
-<ol type="a">
+<ol type="1">
 <li>See the circuit shown in Figure GUAC. This will be using the 5 volt supply.</li>
 </ol>
 <figure>
-<img src="imgs/Figure3a_Part3Circuit.jpg" alt="Figure GUAC. A 2200 ohm (2.2k ohm) resistor is wired in series with the ammeter and connected to the 5 volt fixed terminals of the power supply. The voltmeter is connected across the resistor to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit." /><figcaption>Figure GUAC. A 2200 ohm (2.2k ohm) resistor is wired in series with the ammeter and connected to the <strong>5 volt</strong> fixed terminals of the power supply. The voltmeter is connected across the resistor to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit.</figcaption>
+<img src="imgs/Figure3a_Part3Circuit.jpg" alt="Figure GUAC. A resistor of resistance R is wired in series with the ammeter and connected to the 5 volt fixed terminals of the power supply. The voltmeter is connected across the resistor to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit." /><figcaption>Figure GUAC. A resistor of resistance <strong>R</strong> is wired in series with the ammeter and connected to the <strong>5 volt</strong> fixed terminals of the power supply. The voltmeter is connected across the resistor to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit.</figcaption>
 </figure>
 <!-- Video for system 3, a parallel circuit -->
 
@@ -253,9 +246,9 @@ b) A 2.2kΩ resistor is placed in series with 1.7kΩ and 2.6kΩ resistors in par
         <figcaption>Video 4
         </figure>
         
-<p>Video GUAC will vary the voltage supplied to the circuit in Figure GUAC. AVOCADO</p>
+<p>Video GUAC will do what? AVOCADO Is it even a video or just an image?</p>
 <div class="QNumber">
-<p>Question 6</p>
+<p>Question 4</p>
 <div class="Question">
 <ol type="a">
 <li>Measure the voltage and current. Calculate the resistance and compare it to the labeled value.</li>
@@ -264,14 +257,12 @@ b) A 2.2kΩ resistor is placed in series with 1.7kΩ and 2.6kΩ resistors in par
 </div>
 </div>
 </div>
-<div class="ENumber">
-<p>Exercise 6</p>
-<div class="Exercise">
 <ol type="a">
-<li>See the circuit shown in Figure GUAC. In a series configuration the resistors are hooked end to end with just one path for the current to flow. In Figure GUAC, we put the resistors next to each other with common points at each end. The result is two separate paths for current to flow. For obvious reasons, this arrangement is referred to as parallel.</li>
+<li>See the circuit shown in Figure GUAC. In a series configuration the resistors are hooked end to end with just one path for the current to flow.</li>
 </ol>
+<p>In Figure GUAC, we put the resistors next to each other with common points at each end. The result is two separate paths for current to flow. For obvious reasons, this arrangement is referred to as parallel.</p>
 <figure>
-<img src="imgs/Figure3b_Part3Circuit.jpg" alt="Figure GUAC. Two 2200 ohm resistors in parallel are connected in series with the ammeter and connected to the 5 volt fixed terminals of the power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit." /><figcaption>Figure GUAC. Two 2200 ohm resistors in parallel are connected in series with the ammeter and connected to the <strong>5 volt</strong> fixed terminals of the power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit.</figcaption>
+<img src="imgs/Figure3b_Part3Circuit.jpg" alt="Figure GUAC. Two resistors of resistance R in parallel are connected in series with the ammeter and connected to the 5 volt fixed terminals of the power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit." /><figcaption>Figure GUAC. Two resistors of resistance <strong>R</strong> in parallel are connected in series with the ammeter and connected to the <strong>5 volt</strong> fixed terminals of the power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit.</figcaption>
 </figure>
 <!-- Video for system 3, a parallel circuit -->
 
@@ -282,9 +273,9 @@ b) A 2.2kΩ resistor is placed in series with 1.7kΩ and 2.6kΩ resistors in par
         <figcaption>Video 5
         </figure>
         
-<p>Video GUAC will vary the voltage supplied to the circuit in Figure GUAC. AVOCADO</p>
+<p>Video GUAC will do what? AVOCADO Is it even a video or just an image?</p>
 <div class="QNumber">
-<p>Question 7</p>
+<p>Question 5</p>
 <div class="Question">
 <ol type="a">
 <li>The source voltage has stayed the same. What has happened to the current?</li>
@@ -292,16 +283,15 @@ b) A 2.2kΩ resistor is placed in series with 1.7kΩ and 2.6kΩ resistors in par
 </ol>
 </div>
 </div>
-</div>
-</div>
+<p>:::</p>
 <div class="ENumber">
-<p>Exercise 7</p>
+<p>Exercise 6</p>
 <div class="Exercise">
 <ol type="a">
 <li>See the circuit shown in Figure GUAC. There are now three paths for the current to take.</li>
 </ol>
 <figure>
-<img src="imgs/Figure3c_Part3Circuit.jpg" alt="Figure GUAC. Three 2200 ohm resistors in parallel are connected in series with the ammeter and connected to the 5 volt fixed terminals of the power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit." /><figcaption>Figure GUAC. Three 2200 ohm resistors in parallel are connected in series with the ammeter and connected to the 5 volt fixed terminals of the power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit.</figcaption>
+<img src="imgs/Figure3c_Part3Circuit.jpg" alt="Figure GUAC. Three resistors of resistance R in parallel are connected in series with the ammeter and connected to the 5 volt fixed terminals of the power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit." /><figcaption>Figure GUAC. Three resistors of resistance <strong>R</strong> in parallel are connected in series with the ammeter and connected to the 5 volt fixed terminals of the power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit.</figcaption>
 </figure>
 <!-- Video for system 3, a parallel circuit -->
 
@@ -312,9 +302,9 @@ b) A 2.2kΩ resistor is placed in series with 1.7kΩ and 2.6kΩ resistors in par
         <figcaption>Video 6
         </figure>
         
-<p>Video GUAC will vary the voltage supplied to the circuit in Figure GUAC. AVOCADO</p>
+<p>Video GUAC will do what? AVOCADO Is it even a video or just an image?</p>
 <div class="QNumber">
-<p>Question 8</p>
+<p>Question 6</p>
 <div class="Question">
 <ol type="a">
 <li>Again, the source voltage has stayed the same. What has happened to the current? This is easier if you compare it to the original current amount.</li>
@@ -324,23 +314,19 @@ b) A 2.2kΩ resistor is placed in series with 1.7kΩ and 2.6kΩ resistors in par
 </div>
 </div>
 </div>
-<h2 id="part-4-advanced-circuit-analysis">Part 4: Advanced Circuit Analysis</h2>
-<p>AVOCADO Do we want the Equivalence resistance here?</p>
+<p>You have become familiarized with circuits with both parallel and series circuit elements. As discussed above points in a circuit are considered to be the same. Thus when we connect two or three resistors in parallel they all have the same voltage across them. In this scenario, Ohm’s law applies to each resistor individually. If the resistance values are different, the current through that branch will also be different.</p>
+<p>In a parallel arrangement the current can divide at the top junction and recombine at the bottom junction. Because there are multiple paths on which current can flow, more current can flow for a given voltage value. Thus, the equivalent resistance will be less than any one of the individual paths.</p>
 <p>The equation to determine the equivalent resistance of a network of parallel resistors is:</p>
-<p><span class="math display">\[1/R_{equivalent} = 1/R_{1} + 1/R_{2} + 1/R_{3}\]</span></p>
+<p><span class="math display">\[\frac{1}{R_{equivalent}} = \frac{1}{R_{1}} + \frac{1}{R_{2}} + \frac{1}{R_{3}}...\]</span></p>
 <p>in the above experiment, all of the resistances were equal.</p>
-<div class="QNumber">
-<p>Question 9</p>
-<div class="Question">
-<ol type="a">
-<li>What is the equivalent resistance of a parallel network of 2.2kΩ, 3.1kΩ and 6.7kΩ?</li>
-<li>A 2.2kΩ resistor is placed in series with 1.7kΩ and 2.6kΩ resistors in parallel. The entire circuit is driven by 18V. What is the voltage across each element? What is the current through each element?</li>
-</ol>
-<figure>
-<img src="imgs/Figure4_Part3CircuitQ.jpg" alt="Figure 4: Ciruit Question" /><figcaption>Figure 4: Ciruit Question</figcaption>
-</figure>
-</div>
-</div>
+<!-- ::: Question
+a) What is the equivalent resistance of a parallel network of 2.2kΩ, 3.1kΩ and 6.7kΩ?
+b) A 2.2kΩ resistor is placed in series with 1.7kΩ and 2.6kΩ resistors in parallel. The entire circuit is driven by 18V. What is the voltage across each element? What is the current through each element?
+
+![Figure 4: Ciruit Question](imgs/Figure4_Part3CircuitQ.jpg)
+
+::: -->
+<h2 id="part-5-advanced-circuit-analysis">Part 5: Advanced Circuit Analysis</h2>
 <p>Now that you have seen both series and parallel circuits, we will be using a simulation to look at advanced circuits.</p>
 <h3 id="building-circuits-in-simulation">Building Circuits in Simulation</h3>
 <p>Here we will cover the basics of circuit building using Simulation GUAC. You will use this simulator to build circuits for analysis of equivalence resistance? The components and set up of the simulation are directly analogous to what would be made in the lab.</p>
@@ -355,13 +341,58 @@ b) A 2.2kΩ resistor is placed in series with 1.7kΩ and 2.6kΩ resistors in par
         </figure>
         
 <div class="ENumber">
-<p>Exercise 8</p>
+<p>Exercise 7</p>
 <div class="Exercise">
+<p>You have to build a circuit with a resistance of 1.5kOhm. You only have a box of 1kOhm resistors. Using equivalence resistance for both series and parallel how would you construct this circuit?</p>
+<p>What is the least amount of resistors you need to make this work?</p>
+<p>What is the configuration of this circuit?</p>
+<p>Use Ohm’s Law to verify your circuit works as intended.</p>
+<p>Build your circuit in the PhET and take a screenshot. Be sure to have the values visible by checking the Values tab on the top right corner. Us</p>
 <p>In this exercise you will use Simulation GUAC to build a new circuit.</p>
 <figure>
 <embed src="https://phet.colorado.edu/sims/html/circuit-construction-kit-dc-virtual-lab/latest/circuit-construction-kit-dc-virtual-lab_en.html" style="width:100.0%" height="600" /><figcaption>Simulation GUAC</figcaption>
 </figure>
 <p>Adding switches will help you make your circuit more manageable and will allow you to switch parts of your circuit on or off.</p>
+</div>
+</div>
+<h2 id="conclusion">Conclusion</h2>
+<!-- Add things -->
+<h2 id="appendix">Appendix</h2>
+<!-- Move resistivity here -->
+<h3 id="resistivity-and-resistance">Resistivity and Resistance</h3>
+<p>Resistance is primarily affected by two things. First is a material’s intrinsic property known as resistivity. Second is the geometry of the material, particularly the cross-sectional area and the length of the material. Resistivity varies from material to material and is similar to density. The greater the resistivity of a material, the greater the resistance of that object for a given geometry. The geometry’s affect on the resistance is more complex than just volume. Remember that current flows through something, therefore discussing volume generally is not important. Looking at the length the current must travel and the area through which is travels is what gives us the important information we are looking for. The longer a resistive object is, the greater its resistance is, however, the larger the cross-sectional area of an object, the smaller the resistance is. This is characterized by the equation below.</p>
+<p><span class="math display">\[R_{resistance}\ (\Omega) = \frac{ρ_{resistivity}\ (\Omega\ cm) \cdot L(cm)}{A(cm^2)}\]</span></p>
+<p>To return to our piping analogy, resistivity is like obstructions in a pipe such as rocks and other blockages. The more obstructions, the harder it is for the water to flow. Early resistors were made by coiling lengths of resistive wire. Resistors today are often made by taking carbon composite and binding it using some binding material with such a density as to get the desired resistance. These obstructions can be seen as the non-conductive gaps in the otherwise conductive material AVOCADO (Not a good sentence). As the length of the pipe increases, the amount of obstructions also increases overall, making it harder yet for the water to flow. As the cross-sectional area increases, there becomes far more space around the obstructions for the water to flow around, thus the obstructions become a much smaller percentage of the total region in which the water can flow and the flow increases. Imagine trying to pump water through a massive pipe a meter in diameter, water would flow quite easily. Now try pumping the same amount of water in a pipe a millimeter in diameter, it would be far more difficult to push the same amount of water through this pipe.</p>
+<p>Check out Simulation 1 to see how the values of <span class="math inline">\(ρ,\ L\)</span>, and <span class="math inline">\(A\)</span> affect <span class="math inline">\(R\)</span>. Please note the visual representation of the resistor and how it changes with these values.</p>
+<figure>
+<embed src="https://phet.colorado.edu/sims/html/resistance-in-a-wire/latest/resistance-in-a-wire_en.html" style="width:100.0%" height="600" /><figcaption>Simulation 1</figcaption>
+</figure>
+<p>The resistivity of a material can be dependent on temperature. This, however, is generally taken into account by manufacturers to minimize this effect to create constant resistors. In devices where temperature dependent resistance is useful, manufacturers take make it work yo such that resistors are designed to not change resistance when within their operating temperatures. Resistors that are designed to change with temperature are called thermistors, we will not be dealing with those in this lab.</p>
+<div class="ENumber">
+<p>Exercise 8</p>
+<div class="Exercise">
+<h2 id="notice-this-exercise-is-optional-and-does-not-provide-extra-credit.">Notice: This exercise is optional and does not provide extra credit.</h2>
+<p>Modern resistors are made using a carbon composite to create resistors of a consistent size. Earlier resistors however were made by coiling resistive wire, such as Nichrome, around an insulating core until the desired resistance was achieved.</p>
+<p>A typical modern resistor made of composite may be about <span class="math inline">\(8.5\ mm\)</span> long and <span class="math inline">\(3.2\ mm\)</span> in diameter. Nichrome has a resistivity, <span class="math inline">\(\rho\)</span>, of approximately <span class="math inline">\(10^{-6}\ \Omega\ cm\)</span>.</p>
+<!-- Image of a resistor? -->
+<div class="QNumber">
+<p>Question 7</p>
+<div class="Question">
+<ol type="a">
+<li>What is the resistivity, <span class="math inline">\(\rho\)</span>, of a 750 <span class="math inline">\(\Omega\)</span> resistor that is in the standardized package mentioned above?</li>
+<li>What is the resistivity of a a <span class="math inline">\(3.2K\ \Omega\)</span> resistor?</li>
+<li>Compare this resistivity with the resistivity of nichrome.</li>
+<li>If you had a nichrome wire of the typical resistor diameter, <span class="math inline">\(3.2\ mm\)</span>, what length would you need to have a resistance <span class="math inline">\(R\)</span> of 750 <span class="math inline">\(\Omega\)</span>?</li>
+</ol>
+</div>
+</div>
+<p>You may have noticed the value of part d above is quite large. This would result in a very inconvenient resistor, as it would be huge compared to modern electronics. This large length is due to the large cross-sectional area of the resistor. A modern resistor made of nichrome wire uses wire approximately AVOCADO mm in diameter wrapped around a core AVOCADO mm in diameter. One loop of this wire around the core is AVOCADO mm long.</p>
+<div class="QNumber">
+<p>Question 8</p>
+<div class="Question">
+<p>Using the resistivity of nichrome, the length per loop or wire, and diameter of modern nichrome wires in resistors, find the amount of loops of nichrome needed to make a 750 <span class="math inline">\(\Omega\)</span> resistor.</p>
+</div>
+</div>
 </div>
 </div>
 </body>
