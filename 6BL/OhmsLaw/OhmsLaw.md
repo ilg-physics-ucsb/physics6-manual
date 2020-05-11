@@ -51,11 +51,11 @@ $$V = I \cdot R$$
 
 where
 
-**$V$** represents the voltage across the resistor measured in volts, 
+**$V$** represents the voltage across the resistor, measured in volts, 
 
-**$I$** the current in the resistor measured in amperes, and 
+**$I$** the current in the resistor, measured in amperes, and 
 
-**$R$** the resistance of the resistor measured in units called “ohms” symbolized the upper-case Greek omega $(\Omega)$.
+**$R$** the resistance of the resistor measured, as noted above, in units called “ohms,” and symbolized by the upper-case Greek omega $(\Omega)$.
 
 In words, Ohm’s law states that “the voltage V across the ends of a resistor R, and the current I flowing through this resistor,
 are proportional.” If the potential difference across a resistor is set at 1 volt, and if a current of 1 amp is measured in the
@@ -111,9 +111,9 @@ Basically part 5 of the outline.
 
 ::: Exercise
 
-In this exercise we will build the circuit represented in Figure 1 and built in Video 2. Figure 1 shows the symbolic representation of the circuit, which consists of a power supply and a resistor. A voltmeter and an ammeter will be used to measure the voltage and current passing through a resistor respectively. 
+In this exercise we will examine the circuit represented in Figure 1 and built in Video 2. Figure 1 shows the symbolic representation of the circuit, which consists of a power supply and a resistor. A voltmeter and an ammeter will be used to measure the voltage and current passing through a resistor respectively. 
 
-1. See the circuit shown in Figure 1. A resistor of resistance **R** $=2200\ \Omega$ is wired in series with an ammeter and connected to the 0–20 volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the resistor to measure the voltage drop.
+1. Examine the circuit shown in Figure 1. A resistor of resistance **R** $=2200\ \Omega$ is wired in series with an ammeter and connected to the 0–20 volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the resistor to measure the voltage drop.
 
 ![Figure 1: A circuit with a single resistor of resistance **R**.](imgs/Figure1_Part1Circuit.jpg)
 
@@ -122,7 +122,7 @@ Video 2 shows the construction of the circuit in Figure 1
 <!-- Video 2 -->
 
 :::GVideo 
-10RAbeuldr47KBRY4x1EqsVZnXp5aHQLE
+1spIVVLwf91ttcWmOEWQTQb57msLAta-E
 :::
 
 **Note:** The circuit consists of a single loop that goes from the power supply to the resistor and the ammeter then back to the power supply.
@@ -225,7 +225,7 @@ In a simple series circuit elements are connected end to end in a chain. *The cu
 Now we will be looking at series circuit elements. This is when we have components in a circuit going back to back as can be seen in Figure 2.
 
 ::: Exercise
-1. See the circuit shown in Figure 2. Two resistors of resistance **R** $=2200\ \Omega$ are wired in series with an ammeter and connected to the 0–20 volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the two resistors to measure the total voltage drop.
+1. Examine the circuit shown in Figure 2. Two resistors of resistance **R** $=2200\ \Omega$ are wired in series with an ammeter and connected to the 0–20 volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the two resistors to measure the total voltage drop.
 
 ![Figure 2: Two resistors of resistance **R** are wired in series.](imgs/Figure2_Part2Circuit.jpg)
 
@@ -248,20 +248,18 @@ b) Compare the slope with the values of the individual resistors. What can you s
 :::
 :::
 
-To determine the value a single resistor that can be used to replace several resistors connected in series we need to find the **equivalent resistance** for series elements.
-
-The equation to determine the equivalent resistance of a network of series resistors is:
+Your results should indicate that the resistances of resistors in series add linearly. Therefore, the equation to for **equivalent resistance** of a network of series resistors is:
 
 $$R_{Total} = R_{1} + R_{2} + R_{3}...$$
 
 ## PART 4: PARALLEL CIRCUITS
 
-You’ve now been familiarized with the relationship between current, voltage and resistance for a single resistor. In a parallel configuration we have two or more elements connected to each other at both ends. A parallel configuration can be seen in Figure 4, in Exercise 5. Note that in circuits, any point connected by a wire is considered to be the same point. Ohm’s law applies to each resistor individually. 
+You are now familiar with the relationships among current, voltage and resistance for a single resistor, and with the way resistors behave when you connect them in series. In a parallel configuration we have two or more elements connected to each other at both ends. A parallel configuration can be seen in Figure 4, in Exercise 5. Note that in circuits, any point connected by a wire is considered to be the same point. Ohm’s law applies to each resistor individually. 
 
 **In parallel, the voltage across each resistors is the same.**
 
 ::: Exercise
-1. See  the circuit shown in Figure 3: Two resistors of resistance **R** $=2200\ \Omega$ in parallel are connected in series with the ammeter and connected to the 0–20 volt power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit. 
+1. Examine the circuit shown in Figure 3: Two resistors of resistance **R** $=2200\ \Omega$ in parallel are connected in series with the ammeter and connected to the 0–20 volt power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit. 
 
 In Figure 3, we put the resistors next to each other with common points at each end. The result is two separate paths for current to flow. For obvious reasons, this arrangement is referred to as parallel.
 
@@ -281,10 +279,10 @@ Video 6 will vary the voltage supplied to the circuit in Figure 3.
 ::: Question
 a) How has the current changed roughly for each data point compared to your results in Exercise 2?
 b) What is the resistance you measured from the slope of your plot? 
-c) What does this imply of the total resistance of a parallel circuit with two resistors compared to a circuit with a single resistor in Exercise 2?
+c) What does this imply of the total resistance of a parallel circuit with two resistors compared to the circuit with a single resistor in Exercise 2?
 :::
 
-7. Now see the circuit shown in Figure 4: Three resistors of resistance **R** $=2200\ \Omega$ in parallel are connected in series with the ammeter and connected to the 0–20 volt power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit. There are now three paths for the current to take.
+7. Now Examine the circuit shown in Figure 4: Three resistors of resistance **R** $=2200\ \Omega$ in parallel are connected in series with the ammeter and connected to the 0–20 volt power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit. There are now three paths for the current to take.
 
 ![Figure 4. Three resistors of resistance **R** in parallel.](imgs/Figure3c_Part3Circuit.jpg)
 
@@ -308,13 +306,13 @@ c) What does this imply of the total resistance of a parallel circuit with three
 
 You have now become familiarized with circuits with both parallel and series circuit elements. As discussed above points in a circuit are considered to be the same. Thus when we connect two or three resistors in parallel they all have the same voltage across them. In this scenario, Ohm’s law applies to each resistor individually. If the resistance values are different, the current through that branch will also be different. 
 
-In a parallel arrangement the current can divide at the top junction and recombine at the bottom junction. Because there are multiple paths on which current can flow, more current can flow for a given voltage value. Thus, the equivalent resistance will be less than any one of the individual paths.
+In a parallel arrangement, the current can divide at the top junction and recombine at the bottom junction. Because there are multiple paths on which current can flow, more current can flow for a given voltage value. Thus, the equivalent resistance will be less than any one of the individual paths.
 
 The equation to determine the equivalent resistance of a network of parallel resistors is:
 
-$$\frac{1}{R_{Total}} = \frac{1}{R_{1}} + \frac{1}{R_{2}} + \frac{1}{R_{3}}...$$
+$$\frac{1}{R_{Total}} =  \frac{1}{R_{1}} + \frac{1}{R_{2}} + \frac{1}{R_{3}}...$$
 
-in the above experiment, all of the resistances were equal.
+We see that when resistors are in parallel, their resistances add reciprocally. So the more resistors we add, the lower the total resistance becomes.
 
 <!-- ::: Question
 a) What is the equivalent resistance of a parallel network of 2.2kΩ, 3.1kΩ and 6.7kΩ?
@@ -372,25 +370,27 @@ Write a brief conclusion summarizing the important points of this lab.
 <!-- Move resistivity here -->
 ### Resistivity and Resistance
 
-Resistance is primarily affected by two things. First is a material's intrinsic property known as resistivity. Second is the geometry of the material, particularly the cross-sectional area and the length of the material. Resistivity varies from material to material and is similar to density. The greater the resistivity of a material, the greater the resistance of that object for a given geometry. The geometry's affect on the resistance is more complex than just volume. Remember that current flows through something, therefore discussing volume generally is not important. Looking at the length the current must travel and the area through which is travels is what gives us the important information we are looking for. The longer a resistive object is, the greater its resistance is, however, the larger the cross-sectional area of an object, the smaller the resistance is. This is characterized by the equation below.
+Resistance is primarily affected by two things. First is a material's intrinsic property known as resistivity, which varies from material to material. The greater the resistivity of a material, the greater the resistance of an object made of that material. Second is the geometry of the material, particularly the cross-sectional area and the length of the material. Since current flows through the cross-sectional area of the material, increasing this area is like adding resistors in parallel; the greater the cross-sectional area, the lower the resistance. The length of the material is analogous to a set of resistors in series; the longer the piece of material, the greater its resistance. These relationships are expressed by the equation below.
 
 $$R_{resistance}\ (\Omega) = \frac{ρ_{resistivity}\ (\Omega\ cm) \cdot L(cm)}{A(cm^2)}$$
 
-To return to our piping analogy, resistivity is like obstructions in a pipe such as rocks and other blockages. The more obstructions, the harder it is for the water to flow. Early resistors were made by coiling lengths of resistive wire. Resistors today are often made by taking carbon composite and binding it using some binding material with such a density as to get the desired resistance. These obstructions can be seen as the non-conductive gaps in the otherwise conductive material. As the length of the pipe increases, the amount of obstructions also increases overall, making it harder yet for the water to flow. As the cross-sectional area increases, there becomes far more space around the obstructions for the water to flow around, thus the obstructions become a much smaller percentage of the total region in which the water can flow and the flow increases. Imagine trying to pump water through a massive pipe a meter in diameter, water would flow quite easily. Now try pumping the same amount of water in a pipe a millimeter in diameter, it would be far more difficult to push the same amount of water through this pipe.
+To return to our piping analogy, resistivity is like obstructions in a pipe, such as rocks and other blockages. The more obstructions, the harder it is for the water to flow. The greater the cross-sectional area of the pipe, the more paths are available through the obstructions, and the lower the resistance to flow. The longer the pipe, the more obstructions the water encounters in going the length of the pipe, and the greater the resistance to flow.
+
+Early resistors were made by coiling lengths of resistive wire around an insulating core. Resistors today are often made by taking carbon and mixing it with some kind of binding material, with such a density as to get the desired resistance.
 
 
 Check out Simulation 3 to see how the values of $ρ,\ L$, and $A$ affect $R$. Please note the visual representation of the resistor and how it changes with these values.
 
 ![Simulation 3](https://phet.colorado.edu/sims/html/resistance-in-a-wire/latest/resistance-in-a-wire_en.html){width=100% height=600px}
 
-The resistivity of a material can be dependent on temperature. This, however, is generally taken into account by manufacturers to minimize this effect to create constant resistors. In devices where temperature dependent resistance is useful, manufacturers take make it work yo such that resistors are designed to not change resistance when within their operating temperatures. Resistors that are designed to change with temperature are called thermistors, we will not be dealing with those in this lab.
+The resistivity of a material can be dependent on temperature. For fixed resistors, manufacturers choose their materials so as to minimize this effect. Materials whose resistance varies significantly with temperature, however, are useful for making devices called *thermistors*, which are often used as sensing elements in thermometers. We will not be working with such devices in this lab.
 
 ::: Exercise
 
 
 ## Notice: This exercise is optional and does not provide extra credit.
 
-Modern resistors are made using a carbon composite to create resistors of a consistent size. Earlier resistors however were made by coiling resistive wire, such as nichrome, around an insulating core until the desired resistance was achieved.  
+Modern resistors are made with a carbon composite, in such a way that resistors of a given type are consistent in size. Earlier resistors, however, were made by winding resistive wire, such as nichrome, around an insulating core until the desired resistance was achieved.  
 
 A typical modern resistor made of composite may be about $8.5\ mm$ long and $3.2\ mm$ in diameter. Nichrome has a resistivity, $\rho$, of approximately $10^{-6}\ \Omega\ cm$. 
 
@@ -403,9 +403,9 @@ c) Compare this resistivity with the resistivity of nichrome.
 d) If you had a nichrome wire of the typical resistor diameter, $3.2\ mm$, what length would you need to have a resistance $R$ of 750 $\Omega$?
 :::
 
-You may have noticed the value of part d above is quite large. This would result in a very inconvenient resistor, as it would be huge compared to modern electronics. This large length is due to the large cross-sectional area of the resistor. A modern resistor made of nichrome wire uses wire approximately $0.1\ mm$ in diameter wrapped around a core $2.5\ mm$ in diameter. One loop of this wire around the core is approximately $7.85\ mm$ long.
+You may have noticed the value of part d above is quite large. This would result in a very inconvenient resistor, as it would be huge compared to modern electronics. This large length is due to the large cross-sectional area of the resistor. A modern resistor made of nichrome wire might use wire approximately $0.1\ mm$ in diameter wrapped around a core $2.5\ mm$ in diameter. One loop of this wire around the core is approximately $7.85\ mm$ long.
 
 ::: Question
-Using the resistivity of nichrome, the length per loop or wire, and diameter of modern nichrome wires in resistors, find the amount of loops of nichrome needed to make a 750 $\Omega$ resistor.
+Using the resistivity of nichrome, the length per loop of wire, and diameter of modern nichrome wires in resistors, find the number of turns of nichrome wire needed to make a 750 $\Omega$ resistor.
 :::
 :::
