@@ -1,0 +1,7 @@
+compile MagnetsandInductors.md MagnetsandInductors.html
+compile MagnetsandInductors.md MagnetsandInductors.html
+compile MagnetsandInductors.md MagnetsandInductors.html
+compile MagnetsandInductors.md MagnetsandInductors.html
+compile MagnetsandInductors.md MagnetsandInductors.html
+compile MagnetsandInductors.md MagnetsandInductors.html
+exit
