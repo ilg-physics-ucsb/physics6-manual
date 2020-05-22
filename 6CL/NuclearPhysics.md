@@ -1,11 +1,6 @@
-# Nuclear Physics
 ---
-
-## Introduction
-
-:::Figure:Video
-#### Paula concept video
-:::
+title: Nuclear Physics
+...
 
 The nuclei of some atoms are unstable. In the process of becoming more stable, they emit various particles. This phenomenon is known as radioactive decay. The most common energy forms are alpha and beta particles, and gamma rays. 
 
@@ -29,9 +24,7 @@ When ionizing radiation passes through the tube, it ionizes some of the gas mole
 :::
 
 :::column
-::: Figure:Figure
-![*Figure 1.1 - GM Tube Plateau*](imgs/fig1_1.JPG)
-:::
+![*Figure 1.1 - GM Tube Plateau*](fig1_1.JPG)
 :::
 
 :::
@@ -54,9 +47,7 @@ The sample holder provides six positions with 1 cm separation between each. Each
 
 *To improve sensitivity to alpha and beta particle radiation, many GM tubes have an extremely thin entrance window. If broken it cannot be repaired. Never allow objects to touch the window.*
 
-::: Figure:Figure
-![*Figure 1.2 - Spetech ST - 150 Nuclear Lab Station*](imgs/fig1_2.JPG)
-:::
+![*Figure 1.2 - Spetech ST - 150 Nuclear Lab Station*](fig1_2.JPG)
 
 ## PART 1: BACKGROUND COUNT
 
@@ -105,11 +96,7 @@ Density thickness has units of mass/area, we will use $mg/cm^2$.
 
 Gamma radiation is part of the electromagnetic spectrum and is the highest known energy-form in the universe. Because of the high energy, gamma ray absorption by matter is significantly lower than beta or alpha particles. In this lab you will subtract off the background count from each run. This is because there is not enough lead to stop the gamma rays from the Co-60 source to the background level.
 
-::: Figure:Figure
-![*Co-60 decay scheme. This figure shows how Co-60 decays into Ni-60. First it emits a 0.318 MeV beta particle. From there it emits two successive gamma rays with energies 1.173MeV and 1.332 MeV.*](imgs/co60.gif)
-
-From [HyperPhysics.com](http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/betaex.html)
-:::
+![*Figure 2.1 – Co-60 decay scheme. This figure shows how Co-60 decays into Ni-60. First it emits a 0.318 MeV beta particle. From there it emits two successive gamma rays with energies 1.173MeV and 1.332 MeV.*](fig2_1.JPG)
 
 ## Cobalt-60
 

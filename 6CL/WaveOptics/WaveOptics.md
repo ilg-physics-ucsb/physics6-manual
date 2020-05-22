@@ -44,6 +44,7 @@ $$
 Let's quickly determine how good this approximation is.
 
 ::: Question
+### This question is extra credit. You are not required to do it.
 a. For about what angle is $\sin(\theta) \approx \tan(\theta)$ good to 1%? That is, when does the percent error betweeen $\sin(\theta)$ and $\tan(\theta)$ (where $\sin(\theta)$ is the "theortical" value and $\tan(\theta)$ is the "measured") just become *1%*. **Hint2: Don't bother solving this algebraically. Go to [GeoGebra](https://www.geogebra.org/graphing) and plot the percent error.** *Give your answer in degrees*
 
 b. Now let's check the next part of the approximation, $\tan(\theta) = \frac{y}{D}$. Using the $\theta$ you found in part a and assuming $D$= 1 m, what is the furthest $y$ distance you can measure while keeping the approximation from part a good to 1%? 
@@ -235,8 +236,6 @@ Average your values for the wavelength. What is the average wavelength of the li
 
 :::Question
 a. Does the distance between maxima change when you change the slit width?
-
-b. How does the distance to the first maxima of the *diffraction envelope* change with slit width?
 :::
 
 <!-- End Exercise Simulation Wavelength Measurement -->
@@ -319,7 +318,7 @@ Assume $D$ = 5 cm and $y$ = 5 cm. How bad is the small angle approximation?
 2. This time, use the wavelength you measured in Exercise 4 and Equation 1 to calculate what $d$, the track spacing, is. $D$ for this setup is 4cm.
 
 :::Question
-a.) What is your average computed value of the track spacing for a CD? Calculate the percent difference between your measured value and the value specified in the Compact Disc Standard: $1.6 μm.$
+a.) What is your average computed value of the track spacing for a CD? Calculate the percent difference between your measured value and the value specified in the Compact Disc Standard: $3.2 μm.$
 
 b.) Does your average value of the CD track spacing fall within the tolerance of $\pm 0.1$ $\mu$m given in the Compact Disc Specification?
 :::
