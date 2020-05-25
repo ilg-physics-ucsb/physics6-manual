@@ -12,7 +12,7 @@ You will expected to turn in every plot and table you make for this lab, as well
 ## Introduction
 
 :::Figure:Video
-### Paula Introductory Video Placeholder
+!(https://drive.google.com/open?id=1HCorUFXEPEtfkIyGYHVCCxuUs8mFQ8WW)
 :::
 
 ## PART 1: PERMANENT MAGNETS AND ELECTROMAGNETS
@@ -39,20 +39,32 @@ The north pole of each compass is painted red, similarly to that of the permanen
 3. Slowly move the large compass in the foreground to different locations to see the orientation of its needle.
 
 :::Figure:Figure
-![Figure 2](imgs/CompassLocations.PNG)
+![Picture of location where to place comapsses](imgs/CompassLocations.PNG)
 :::
+
+
 4. Take a piece of paper and sketch a rectangle in the center to represent your permanent bar magnet. Move the large compass around the permanent bar magnet to ***roughly*** the locations of each of the blue dots in Figure 1,  and draw an arrow on your paper in each location, pointing in the direction of the compass&rsquo;s north pole. Take about 20 data points.
 
-:::Figure:Figure
-Find an image of field lines PLACEHOLDER, AVOCADO
-:::
 ::: Note
 **Magnetic fields are vector fields, meaning that every point in space has both a magnitude and a direction associated with it. This direction of the magnetic field is the direction in which the north pole of a compass needle points under the influence of the field.**
 
+:::row
+
+:::column
+:::Figure:Figure
+![Figure of Compasses aligning to field lines](imgs/fieldlines.png)
+:::
+:::
+
+:::column
 The compasses show the direction of the magnetic field created by the permanent bar magnet at the locations where they are placed. A *magnetic field line* is a directed line which is tangent to the magnetic field at each point along its length.  Notice that the direction of a compass needle will be along the field line passing through its location. Magnetic field lines will originate on the North pole of the magnet and loop back into the South pole.
 
 Figure 2 shows the magnetic field lines around a permanent bar magnet and a few representative compass directions.
 :::
+:::
+
+:::
+
 :::
 
 
@@ -62,7 +74,7 @@ Figure 2 shows the magnetic field lines around a permanent bar magnet and a few 
 A coil of wire with current flowing through it generates a magnetic field. We call this an electromagnet. If there is nothing but air inside of the coil it is an "air core" electromagnet. We can also place other materials such as iron inside of the coil to amplify the magnetic field. We call this an "iron core" electromagnet.
 
 ::: Exercise
-In Exercise 1 you gained intuition with a permanent bar magnet. In this exercise you will be using Simulation 2 to visualize the magnetic field of an electromagnet. Note that this is an air electromagnet. The circuit diagram for this experiment is shown in Figure 3 GUAC.
+In Exercise 1 you gained intuition with a permanent bar magnet. In this exercise you will be using Simulation 2 to visualize the magnetic field of an electromagnet. Note that this is an air electromagnet. The circuit diagram for this experiment is shown in Figure 3.
 
 ::: Figure:Figure
 ![Figure 1.2 – Wiring for basic electromagnet](imgs/Figure1.2_Wiring_basic_electromagnet.jpg)
@@ -117,7 +129,7 @@ What happens to the directions of the needles of the small compasses when you re
 
 In this exercise we will be exploring the strength of magnetic fields. 
 
-We will be working with the system described in Figure 4 GUAC. This system uses an electromagnet that has an air core, just as in Exercise 2. The large compass is placed on the axis of the coil, about $5\ cm$ away.
+We will be working with the system described in Figure 4. This system uses an electromagnet that has an air core, just as in Exercise 2. The large compass is placed on the axis of the coil, about $4\ cm$ away.
 
 :::Figure:Figure
 ![Figure 2.1– Shows wiring, also shows compass on axis of coil](imgs/Figure2.1_Wiring_compas_onaxis.jpg)
@@ -125,24 +137,26 @@ We will be working with the system described in Figure 4 GUAC. This system uses 
 
 **Note: The Earth’s magnetic field will affect the compass needle. Remember, this did not occur in previous exercises, because we were dealing with ideal simulations.  Thus we will align the entire apparatus, both the electromagnet and the compass, so that the compass needle is nearly perpendicular to the axis of the coil when the electromagnet is not powered. **
 
-:::Figure:Video
-###Placeholder for Jeremy's First Video
-<!-- Raffi Video Notes: The circuit should be set up as seen in the figure. Make sure to have the compass and apparatus oriented correctly with respect to North. Have a ruler set up, probably stuck to the table going from the compass to the coil. Slide the coil along the ruler (meter stick probably) and at various distances press the momentary switch just long enough to get a usable reading. When you get to the final distance put in the iron core, make a note of the orientation of the core, and press momentarily again. Be sure to make all of you switch presses momentary especially when the iron core is in the coil.  -->
-![Video 2](imgs/Figure2.1_Wiring_compas_onaxis.jpg)
+:::Note
+Note: In all of the videos below refer to the electromagnetic coil as a solenoid. In this context these two terms are interchangeable.
 :::
 
-In Video 2 we see the system from Figure 4, GUAC built and powered (i.e. with current flowing through the coil). The air core electromagnet will be moved away from the compass. At certain distances, current will be applied for a short time by means of the momentary-contact switch shown in Figure 4. When the electromagnet is at its farthest distance from the compass, an iron rod will be placed inside it. Current will again be applied via the momentary-contact switch.
+:::Figure:Video
+!(https://www.youtube.com/watch?v=MfqlbYl-YjU)
+:::
+
+In Video 2 we see the system from Figure 4,  built and powered (i.e. with current flowing through the coil). The air core electromagnet will be moved away from the compass. At certain distances, current will be applied for a short time by means of the momentary-contact switch shown in Figure 4. When the electromagnet is at its farthest distance from the compass, an iron rod will be placed inside it. Current will again be applied via the momentary-contact switch.
 
 1. Watch Video 2, and note the difference in how the compass needle behaves when the electromagnet is powered versus when it is not.
 2. Note the angle (in degrees) of deflection of the compass needle at three different distances. Pause the video to make these measurements.
 3. Note at what distance the needle barely deflects. 
-4. At (AVOCADO timestamp) an iron core is put into the coil. Observe what occurs when the coil is powered with the iron core inserted.
+4. At 1:45 an iron core is put into the coil. Observe what occurs when the coil is powered with the iron core inserted.
 
 
 ::: Question
-a) How many degrees does the compass needle deflect when the electromagnet is originally powered at $5\ cm$ away?
+a) How many degrees does the compass needle deflect when the electromagnet is originally powered at $4\ cm$ away?
 
-b) How many degrees does the compass needle deflect when the electromagnet is $10\ cm$ away? Is the deflection at $10\ cm$ smaller or greater than the one at $5\ cm$ away?  What can you conclude about the magnetic field strength at the two distances?
+b) How many degrees does the compass needle deflect when the electromagnet is $8\ cm$ away? Is the deflection at $8\ cm$ smaller or greater than the one at $4\ cm$ away?  What can you conclude about the magnetic field strength at the two distances?
 
 c) At what distance is the needle&rsquo;s deflection just barely noticeable?
 
@@ -157,7 +171,7 @@ d) How does the needle&rsquo;s deflection change once the iron core is placed in
 
 ::: Exercise
 
-This exercise continues our investigation of magnetic field strength. Instead of varying the distance between our compass and our electromagnet as we did in Exercise 3, we will vary the current flowing through our electromagnet. We will use a circuit containing a variable resistor  (a rheostat), as shown in Figure 5. GUAC We apply a fixed voltage, and vary the resistance of the rheostat; thus we vary the amount of current flowing through the coil (according to Ohm's Law). Video 3 GUAC shows the circuit in Figure 5, with the rheostat being slowly adjusted from zero resistance at the beginning, to maximum resistance at the end.
+This exercise continues our investigation of magnetic field strength. Instead of varying the distance between our compass and our electromagnet as we did in Exercise 3, we will vary the current flowing through our electromagnet. We will use a circuit containing a variable resistor  (a rheostat), as shown in Figure 5. We apply a fixed voltage, and vary the resistance of the rheostat; thus we vary the amount of current flowing through the coil (according to Ohm's Law). Video 3 shows the circuit in Figure 5, with the rheostat being slowly adjusted from zero resistance at the beginning, to maximum resistance at the end.
 
 :::Figure:Figure
 ![Figure 2.2 – Wiring diagram showing rheostat in series.](imgs/Figure2.2_Wiring_rheostat_inseries.jpg)
@@ -165,18 +179,17 @@ This exercise continues our investigation of magnetic field strength. Instead of
 
 
 :::Figure:Video
-###Placeholder for Jeremy's Second Video
-<!-- Raffi Video Notes: The circuit should be set up as seen in the figure now with the rheostat. Make sure to have the compass and apparatus oriented correctly with respect to North (This is all more or less the same as in the previous video). Have a ruler set up going along the rheostat now. Starting at the 0 position, slide the rheostat head along the ruler  and at various distances (0, 1/4, 1/2, 3/4, 1) press the momentary switch just long enough to get a usable reading. Be sure to make all of you switch presses momentary. -->
-![Video 2](imgs/Figure2.1_Wiring_compas_onaxis.jpg)
+!(https://www.youtube.com/watch?v=mF1zZxNNjMc)
 :::
 
-Video 3 GUAC shows a rheostat being used to vary the current passing through the coil of the electromagnet. The video begins with the wiper of the rheostat at the $0$ position, and shows it being slowly moved to the opposite end ($1$, maximum resistance). As the resistance increases, the current in the circuit decreases.
+Video 3  shows a rheostat being used to vary the current passing through the coil of the electromagnet. The video begins with the wiper of the rheostat at the $0$ position, and shows it being slowly moved to the opposite end ($1$, maximum resistance). As the resistance increases, the current in the circuit decreases.
 
 1. Watch Video 3, which shows the current being changed slowly from maximum to minimum.
 2. Note the angle of the compass needle for 5 data points; the rheostat at $0$, $\frac{1}{4}$, $\frac{1}{2}$, $\frac{3}{4}$, and $1$ positions.
 
 ::: Question
 a) How many degrees does the compass needle deflect with the rheostat at each position; $0$, $\frac{1}{4}$, $\frac{1}{2}$, $\frac{3}{4}$, and $1$?
+
 b) The magnetic field strength is proportional to the angle of deflection of the compass needle.  How does the magnetic field strength change as we increase the resistance of the rheostat?
 :::
 :::
@@ -188,25 +201,19 @@ b) The magnetic field strength is proportional to the angle of deflection of the
 ## PART 3: MAGNETIZATION
 
 ::: Exercise
-In this exercise we will explore magnetization and how objects can become magnetized. Figure 6 GUAC shows how our electromagnet is configured. It still has the iron core from Exercise 4 inside.
-
-:::Figure:Figure
-![Figure 3.1 – Wiring for basic electromagnet](imgs/Figure3.1_Wiring_basic_electromagnet.jpg)
-:::
+In this exercise we will explore magnetization and how objects can become magnetized. We will start with an iron bar that is not magnetized, and place it in an external magnetic field to magnetize it. 
 
 :::Figure:Video
-###Placeholder for Jeremy's Third Video
-<!-- Raffi Video Notes: The circuit should be set up as seen in the figure, make sure to have the iron core in the coil. Place a variety of compasses  around the coil with a big one or two maybe. Now press the switch for about 3 seconds and wait for the compasses to return to near normal. They will not go back all the way, but they will go back a little bit. Now remove the iron core making sure to leave the markings on the end visible and waive it near the compasses. After a short amount of time put the rod back in in the opposite orientation. Now press the switch again (for 3 seconds? or momentarily). remove the rod again and move it around the compasses. -->
-![Figure 3.1 – Wiring for basic electromagnet](imgs/Figure3.1_Wiring_basic_electromagnet.jpg)
+!(https://www.youtube.com/watch?v=cUli9nLH3lE)
 :::
 
-1. Watch Video 4, GUAC and pay attention to the compasses and when the switch is being pressed. Pause the video at (AVOCADO, Timestamp)
+1. Watch Video 4 and pause 1:15.
 
 ::: Question
-Did the iron core create its own magnetic field before the switch it pressed? Does the iron core create its own magnetic field after the switch it pressed? Justify your answer.
+Does the iron core create its own magnetic field after it is placed in a external ? Justify your answer.
 :::
 
-2. Finish watching the rest of Video 4 GUAC. 
+2. Finish watching the rest of Video 4. 
 
 ::: Question
 Did the north pole of the magnetized iron core change? How do you know?
@@ -223,13 +230,13 @@ Did the north pole of the magnetized iron core change? How do you know?
 
 ::: Exercise
 
-In this exercise we will explore laws critical to the study of electromagnetism. We will be using Simulation 3 to explore how a moving magnet produces current in a nearby coil of wire. The simulation shows a system similar to the one described in Figure 7 GUAC. 
+In this exercise we will explore laws critical to the study of electromagnetism. We will be using Simulation 3 to explore how a moving magnet produces current in a nearby coil of wire. The simulation shows a system similar to the one described in Figure 7. 
 
 :::Figure:Figure
 ![Figure 4.1 – Lenz’s law setup](imgs/Figure4.1_LenzsLaw.jpg)
 :::
 
-1. Examine Simulation 1. You may notice that in Figure 7 GUAC we show a Galvanometer, which measures current, and Simulation 3 has a voltmeter, which measures voltage. As we learned in the Ohm&rsquo;s Law lab, $V=IR$. Thus, for a resistive element such as the light bulb in Simulation 3, we can use these interchangeably for the purposes of this lab. 
+1. Examine Simulation 1. You may notice that in Figure 6 we show a Galvanometer, which measures current, and Simulation 3 has a voltmeter, which measures voltage. As we learned in the Ohm&rsquo;s Law lab, $V=IR$. Thus, for a resistive element such as the light bulb in Simulation 3, we can use these interchangeably for the purposes of this lab. 
 <!-- (You may also remember that the current that flows is the result of an induced voltage, often referred to as an *emf*, which stands for &ldquo;electromotive force.&rdquo; We may measure either one as we move our magnet around near the coil.) -->
 
 :::Figure:Simulation
@@ -247,7 +254,7 @@ b) What is the relationship between the magnet’s approach speed and the degree
 ::: Note
 #### Flux
 
-- In part 5 of Exercise 1, we drew magnetic field lines between the N and S poles of the bar magnet.  When these lines cross an area they produce *magnetic flux*. Magnetic flux is associated to a given surface and represents a measure of the number of field lines crossing that surface. 
+- In Exercise 1, we discussed magnetic field lines between the N and S poles of the bar magnet.  When these lines cross an area they produce *magnetic flux*. Magnetic flux is associated to a given surface and represents a measure of the number of field lines crossing that surface. 
 
 - For a uniform magnetic field perpendicular to a surface, the magnetic flux is defined as the product of the magnetic field strength and the area of the surface.
 
@@ -276,7 +283,7 @@ induced in the loop. This, in turn, gives rise to a current which we will refer 
 ::: Question
 a) Magnetic field strength decreases as you get farther from the poles of the magnet. Does the flux through the face of the coil change as you move the magnet? Explain your answer.
 
-b) Why does the meter needle deflect? Is the deflection in accordance with Lenz’s Law? Justify your answer in terms of Lenz’s law and your above answers. (AVOCADO, In need of rewording for the change from Galvonometer?) 
+b) Why does the meter needle deflect? Is the deflection in accordance with Lenz’s Law? Justify your answer in terms of Lenz’s law and your above answers. 
 :::
 
 3. Reverse the polarity of the magnet by pressing the button on the bottom right of Simulation 3. Take the magnet to the left side of the coil and repeat the above experiment (step 2). Be sure that the north pole of the magnet is the one facing the coil.

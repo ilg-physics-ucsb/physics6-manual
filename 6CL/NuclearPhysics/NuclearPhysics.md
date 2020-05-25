@@ -1,10 +1,12 @@
 # Nuclear Physics
 ---
-
+::: Note
+You will expected to turn in every plot and table you make for this lab, as well as justify the reasoning behind your answers.
+:::
 ## Introduction
 
 :::Figure:Video
-#### Paula concept video
+!(https://www.youtube.com/watch?v=VeXpMijpazE)
 :::
 
 The nuclei of some atoms are unstable. In the process of becoming more stable, they emit various particles. This phenomenon is known as radioactive decay. The most common energy forms are alpha and beta particles, and gamma rays. 
@@ -17,6 +19,10 @@ The beta particle is identical to the electron except for its origin; beta parti
 Gamma radiation, unlike alpha or beta radiation is an electromagnetic wave. Most electromagnetic waves, such as x-rays, light waves, and radio waves are generated outside the nucleus by electron transitions or electron decelerations in the case of x-rays. Gamma rays on the other hand, are produced by energy transitions within the nucleus. Depending on their energy, they can be stopped by a thin piece of aluminum foil, or they can penetrate several inches of lead. 
 
 ## Geiger-Müller Tube
+
+:::Figuer:Video
+!(https://www.youtube.com/watch?v=qtvz8lH5zhk)
+:::
 
 A device called a Geiger counter can be used to detect alpha and beta radiation. The Geiger-Müller tube (or GM tube) is the sensing element of a Geiger counter. It can detect a single particle of ionizing radiation, and is typically connected to electronic circuitry that produces an audible click for each event. It was named for Hans Geiger who invented the device in 1908 and Walther Müller who collaborated with Geiger in developing it further in 1928.
 
@@ -38,9 +44,8 @@ When ionizing radiation passes through the tube, it ionizes some of the gas mole
 
 The Geiger-Müller counter has applications in the fields of nuclear physics, geophysics (mining) and Voltage medical therapy with isotopes and x-rays. 
 
-The sensitivity of a GM tube depends on how much voltage is placed between the anode and cathode. If the voltage is too small, ionizing events will not cause a discharge and the radioactive event will not be counted. If the voltage is too great, the tube will breakdown, resulting in discharges when no radioactive events have occurred. This results in an artificially high count. A properly functioning GM tube will exhibit a “plateau” effect, where the counting rate remains nearly constant over a range of applied voltage. The correct operating voltage for the Geiger-Mueller tube may be determined experimentally using a small radioactive source. Figure 1.1 displays a typical plateau curve.
+The sensitivity of a GM tube depends on how much voltage is placed between the anode and cathode. If the voltage is too small, ionizing events will not cause a discharge and the radioactive event will not be counted. If the voltage is too great, the tube will breakdown, resulting in discharges when no radioactive events have occurred. This results in an artificially high count. A properly functioning GM tube will exhibit a “plateau” effect, where the counting rate remains nearly constant over a range of applied voltage. The correct operating voltage for the Geiger-Mueller tube may be determined experimentally using a small radioactive source. Figure 1 displays a typical plateau curve.
 
-Hint: We have determined the plateau voltage for you in this lab! Do not use any voltage besides what is labeled on your Nuclear Lab Station.
 
 ## Operational Overview
 
@@ -58,52 +63,27 @@ The sample holder provides six positions with 1 cm separation between each. Each
 ![*Figure 1.2 - Spetech ST - 150 Nuclear Lab Station*](imgs/fig1_2.JPG)
 :::
 
+
 ## PART 1: BACKGROUND COUNT
 
 :::Exercise
-1. Turn the instrument on and set the voltage to 500V by pressing the H.V. button and adjusting the voltage using the UP/DOWN buttons. Adjustments to the voltage will be made in 20 volt increments. Press the H.V. button again to return to the COUNT display. 
 
-2. Set the acquisition time to 100 seconds by pressing the TIME button. Adjust the time interval using the UP/DOWN buttons. Press TIME again to return to the COUNT display. 
+In this exercise we will introduce our instrument the ST150 and measure the rate of radiation around us. 
 
-3. Start the count by pressing the COUNT button. Once the preset time is reached the counter will stop accumulating data and the count indicator light will turn off. At this point it is only necessary to press COUNT again to zero the readout and restart a new 100 second interval.
-
-4. Take three 100-second trials of the background. Record the count for each trial. Calculate the average counts per minute.
+:::Figure:Video
+!(https://www.youtube.com/watch?v=ye4EiLZWXQA)
+:::
 
 :::Question
-What is the average background radiation in the physics lab?
+What is the average rate of background radiation in the physics lab? Answer in units of counts per minute.
+:::
 :::
 
-5.  Place a medium thickness absorber in the slot 2 spaces from the GM window. Take a single 100-second trial of the background radiation. 
+Background radiation is usually high energy cosmic rays from sources outside the earth. 
 
-:::Question
-How does the background radiation compare when there is an absorber in place? What does this tell you about the energy of the background particles?
-:::
+## Cobalt-60
 
-:::
-
-Background radiation is usually high energy cosmic rays from sources outside the earth. They make it through the physics building, so the absorber isn’t much of an obstacle.
-
-## Absorption of Radiation
-
-In this lab we will measure the mass attenuation coefficient of Cobalt-60 in lead. The mass attenuation coefficient is a measure of how much radiation a given material will absorb or scatter.
-
-There are four types of absorbers in this lab: plastic (two types), aluminum, and lead. They come in various thicknesses, and each material has a characteristic density. The likelihood that a radioactive particle is absorbed depends primarily upon the amount of mass a particle encounters. 
-
-Regardless of the material’s different densities, we employ a method that allows us treat them all similarly. If we measure the amount of material traversed in $mg/cm^2$ rather than the linear thickness traveled by the particle we get a more useful quantity, density thickness. It is a measure of the amount of material behind each corresponding amount of area, or the amount of mass a particle must travel through before exiting the absorber.
-
-Mathematically we see that:
-
-$$density thickness = \rho x = density * linear thickness$$
-
-Alternatively:
-
-$$ \rho x = \frac {mass of the absorber}{surface area} $$
-
-Density thickness has units of mass/area, we will use $mg/cm^2$.
-
-## PART 2: ABSORPTION OF GAMMA RAYS
-
-Gamma radiation is part of the electromagnetic spectrum and is the highest known energy-form in the universe. Because of the high energy, gamma ray absorption by matter is significantly lower than beta or alpha particles. In this lab you will subtract off the background count from each run. This is because there is not enough lead to stop the gamma rays from the Co-60 source to the background level.
+Cobalt-60 is a radioactive isotope of Cobalt. It has a half-life of 5.27 years. It eventually decays into the stable element Nickel-60. The decay scheme for Co-60 is shown in Figure 3. You can see in this figure how Co-60 emits two different energy beta particles. This transmutes the nucleus into that of Ni-60 but it its excited state. To get to the most stable ground state the excited nuclear will emit gamma rays, each time lowering its energy, finally becoming stable Ni-60.
 
 ::: Figure:Figure
 ![*Co-60 decay scheme. This figure shows how Co-60 decays into Ni-60. First it emits a 0.318 MeV beta particle. From there it emits two successive gamma rays with energies 1.173MeV and 1.332 MeV.*](imgs/co60.gif)
@@ -111,52 +91,137 @@ Gamma radiation is part of the electromagnetic spectrum and is the highest known
 From [HyperPhysics.com](http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/betaex.html)
 :::
 
-## Cobalt-60
+::: Exercise
+In this exercise we will measure the activity of a Co-60 source with the beta particles being blocked. 
 
-Cobalt-60 is a radioactive isotope of Cobalt. It has a half-life of 5.27 years. It eventually decays into the stable element Nickel-60. The decay scheme for Co-60 is shown in Figure 2.1. You can see in this figure how Co-60 successfully emits radiation, each time lowering its energy, finally becoming Ni-60.
+:::Figure:Video
+!(https://www.youtube.com/watch?v=w23dvGLi54c)
+:::
+
+::: Question
+What is the activity of the C0-60 in units of counts per minute? **Remember to subtract off the background counts! We only want to count radiation coming from the C0-60 and not elsewhere in the environment.**
+:::
+
+:::
+
+## PART 2: ABSORPTION OF GAMMA RAYS
+
+## Absorption of Radiation
+
+In this lab we will measure the mass attenuation coefficient of Cobalt-60 in lead. The mass attenuation coefficient is a measure of how much radiation a given material will absorb or scatter.
+
+There are two types of absorbers in this lab:  aluminum and lead. They come in various thicknesses, and each material has a characteristic density. The likelihood that a radioactive particle is absorbed depends primarily upon the amount of mass a particle encounters. 
+
+Regardless of the material’s different densities, we employ a method that allows us treat them all similarly. If we measure the amount of material traversed in $mg/cm^2$ rather than the linear thickness traveled by the particle we get a more useful quantity, density thickness. It is a measure of the amount of material behind each corresponding amount of area, or the amount of mass a particle must travel through before exiting the absorber.
+
+Mathematically we see that:
+
+:::Figure:Equation
+$$
+\text{density thickness} = \rho x = \text{density} \times \text{linear thickness}
+$$
+:::
+
+Alternatively:
+
+:::Figure:Equation
+$$ 
+\rho x = \frac {\text{mass of the absorber}}{\text{surface area}} 
+$$
+:::
+Density thickness has dimensions of mass/area, we will use $mg/cm^2$.
+
+:::Note
+The nice part about density thickness is that it combines linearly. That means if you had a material with density thickness 300 $mg/cm^2$ and another with 100 $mg/cm^2$ and you stacked them on top of each other, the total density thickness would be 400 $mg/cm^2$. 
+:::
+
+Gamma radiation is part of the electromagnetic spectrum and is the highest known energy-form in the universe. Because of the high energy, gamma ray absorption by matter is significantly lower than beta or alpha particles. **In this lab you will subtract off the background count from each run.** This is because there is not enough lead to stop the gamma rays from the Co-60 source to the background level.
+
+
 
 ## Procedure
 
 :::Exercise
-1. The first emission of Co-60 is actually a beta particle; we are only interested in gamma rays so will use aluminum to block the emitted beta particles. Place the Co-60 source in the sample holder, then place the #6 Aluminum absorber on top. Slide both into the bottom slot of the nuclear lab station. This entire assembly has to only occupy a single slot. This aluminum sheet will remain in place throughout the experiment.
 
-2. Place the thinnest lead absorber, #8, in the very top slot. Take a single 600s measurement and record the number of counts in your data table, along with the absorber’s $\rho x$ value.
+In this exercise we measure the number of gamma rays leaving the Co-60 source, passing through a number of lead sheets, and entering the detector. We will make a table of measurements which we will then use in the next exercise to determine the mass absorption coefficient of lead. 
 
-3. Add the next lead absorber (#9) into the slot 2. Repeat step 2, recording the combined $\rho x$ values for both absorbers.
+Make a table like the following.  Remember for each run you should subtract of the background number of counts you measured in Exercise 1, this is what we will call "Net Counts" in the table.
 
-4. Again, add the next lead absorber (#10) into slot 3. Repeat your measurements while again recording the combined values for the three absorbers. 
-
-5. Add the final lead absorber (#11) into slot 4, repeating your measurements as above.
-
-6. For each measurement subtract off the average background count found in Part 1. 
-
-7. Compute the natural logarithm for each of your background adjusted counts. Plot this data against your $\rho x$ values, with ln(counts) on the vertical axis and absorber density thickness $\rho x$ on the horizontal axis.
+:::Figure:Table
+|Density Thickness [$mg/cm^2$]| Counts | Net Counts | Activity [cpm] |
+| -------- | -------- | -------- | ------ |
+|     |      |     |_|
 :::
+
+:::Figure:Video
+!(https://www.youtube.com/watch?v=6mW-X-0OxxE)
+:::
+
+1. Watch Video 4 and fill out the table accordingly. Density thickness of absorber 8 is 1230 $mg/cm^2$.
+
+:::Figure:Video
+!(https://www.youtube.com/watch?v=pBp3f3ruSBo)
+:::
+
+2. Watch Video 5 and fill out the table accordingly.  Recall that density thickness combines linearly. Since the previous lead sheet is still in place you need to add their density thickness values together. Density thickness of absorber 9 is 1890 $mg/cm^2$.
+
+:::Figure:Video
+!(https://www.youtube.com/watch?v=yJRLIPIsUwo)
+:::
+
+3. Watch Video 6 and fill out the table accordingly.  Recall that density thickness combines linearly. Since the previous lead sheets are still in place you need to add their density thickness values together. Density thickness of absorber 10 is 3632 $mg/cm^2$.
+
+:::Figure:Video
+!(https://www.youtube.com/watch?v=VKZmvOzoxnI)
+:::
+
+4. Watch Video 7 and fill out the table accordingly.  Recall that density thickness combines linearly. Since the previous lead sheets are still in place you need to add their density thickness values together.  Density thickness of absorber 11 is 7435 $mg/cm^2$.
+:::
+
+::: Exercise
+1. Create a new column in your table. Compute the natural logarithm for each of your activities. Plot this data against your $\rho x$ values, with ln(activity) on the vertical axis and absorber density thickness $\rho x$ on the horizontal axis.
 
 :::Question
 What kind of curve does your data follow (straight line, exponential, parabolic, etc)?
 :::
+:::
+
+
 
 ## Determining the Mass Attenuation Coefficient $\mu/\rho$
 
 The mass attenuation coefficient for a specific material, defined as $\mu/\rho$ tells us how well a material absorbs or scatters radiation The behavior of radiation as it passes through matter is given by the formula:
 
-$$N = N_o e^{-(\mu/\rho)(\rho x)}$$
+:::Figure:Equation
+$$
+N = N_o e^{-(\mu/\rho)(\rho x)}
+$$
+:::
 
-where N is the number of counts after passing through an absorber of thickness x, $N_o$ is the number of counts incident on the absorber, the quantity $(\mu/\rho)$ is the mass attenuation coefficient, $\rho x$ is the linear density in $mg/cm^2$ and $\rho$ is the density of the absorber material in $mg/cm^3$. If we take the natural logarithm of both sides we obtain:
+where N is the number of counts per unit time (activity) after passing through an absorber of thickness x, $N_o$ is the number of counts incident on the absorber per unit time, the quantity $(\mu/\rho)$ is the mass attenuation coefficient, $\rho x$ is the linear density in $mg/cm^2$ and $\rho$ is the density of the absorber material in $mg/cm^3$. If we take the natural logarithm of both sides we obtain:
 
 $$ln(N) = ln(N_o) - (\mu/\rho)(\rho x)$$
 
 The above equation follows the form $y = mx + b$, with $m = -(\mu/\rho)$ and $b = ln(N_o)$
 
+:::Exercise
+
+1. Make a best fit line on the plot you made in Exercise 4. 
+2. Compute the slope of the 
+
 :::Question
 a. What is your computed value for the mass attenuation coefficient of lead?
 
-b. How does this compare to the accepted value of $5.9$ x $10^{-5} cm^2/mg$? Your error may be $±20%$.
-
-c. What are some sources of error in the experiment? How could you reduce them?
+b. How does this compare to the accepted value of $5.9 \times 10^{-5} cm^2/mg$? Your error may be $±50%$.
 
 d. What density thickness would you need to reduce the intensity of radiation by 1⁄2? Use the accepted value of the mass attenuation coefficient in your calculation.
 
-e. How much lead is this? Estimate the number of the thickest lead absorbers you would need to add up in order to achieve the requirement calculated in Question 2.5. How does this compare to the total density thickness used in the experiment? 
+e. How much lead is this? Estimate the number of the thickest lead absorbers  (absorber 11) you would need to add up in order to achieve the requirement calculated in part d.
 :::
+:::
+
+## Conclusion
+::: Exercise
+Write a brief conclusion summarizing the important points of this lab.
+:::
+
