@@ -142,7 +142,7 @@ Note: In all of the videos below refer to the electromagnetic coil as a solenoid
 :::
 
 :::Figure:Video
-!(https://www.youtube.com/watch?v=MfqlbYl-YjU)
+!(https://www.youtube.com/watch?v=-UGxgsBJ7Qw)
 :::
 
 In Video 2 we see the system from Figure 4,  built and powered (i.e. with current flowing through the coil). The air core electromagnet will be moved away from the compass. At certain distances, current will be applied for a short time by means of the momentary-contact switch shown in Figure 4. When the electromagnet is at its farthest distance from the compass, an iron rod will be placed inside it. Current will again be applied via the momentary-contact switch.
@@ -207,10 +207,10 @@ In this exercise we will explore magnetization and how objects can become magnet
 !(https://www.youtube.com/watch?v=cUli9nLH3lE)
 :::
 
-1. Watch Video 4 and pause 1:15.
+1. Watch Video 4 and pause at 1:15.
 
 ::: Question
-Does the iron core create its own magnetic field after it is placed in a external ? Justify your answer.
+Does the iron core create its own magnetic field after it is placed in an external field? Justify your answer.
 :::
 
 2. Finish watching the rest of Video 4. 
