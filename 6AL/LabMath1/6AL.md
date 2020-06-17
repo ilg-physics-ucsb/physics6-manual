@@ -1,14 +1,65 @@
----
-title: Good Laboratory Practices
-...
-
-
+# Good Laboratory Practices
 
 ## INTRODUCTION
+The goal of this assignment is to prepare you for the rest of the quarter, and even the next two quarters of the Physics 6 Lab series. We are going to walk you through some concepts that you will need to succeed in these classes. The things what will be highlighted are the following:
+
+- The structure of the lab manuals and what is required of you.
+- Uncertainty in measurement. 
+- What are significant figures, and how to work with them.
+- How to make a table of your data.
+- How to make a *good* plot.
+- What is a line of best fit or a curve fit?
+
 ## PART 0: GETTING FAMILIAR WITH THE FORMAT
 
-### Exercises, Questions, Tables, Plots
-AVOCADO: Fill this part.
+In all of the lab manuals you will notice some common environments. Each environment will have different tasks that you need to do in order to get full credit.
+
+### Exercises
+
+::: Exercise
+This is an exercise. An exercise is encapsulated task to cover one idea or concept. Inside of an exercise, you might be asked to do different subtasks. Each of these subtasks should be included in your report. **If they are not, you will lose points**.
+
+Typical subtasks might include:
+- Making a table.
+- Making a plot.
+- Taking a screenshot of something you did on your computer.
+- Making a hand drawing, and including a picture of it. 
+
+This is not an exhaustive list, but includes the most common subtasks you will need to do. 
+
+As practice, for this exercise, create a list of the following three things:
+1. Your name.
+2. What major you want to graduate with.
+3. The person who has won the largest share of the 2019 Nobel Prize in physics. 
+
+When writing your lab report, make it as clear as possible as to which exercise you are responding. 
+:::
+
+### Questions
+::: Question
+This is a question. Questions will be something that you should respond directly too. There may be many different parts to a questions and you should answer each part. Sometimes questions are inside of exercises and other times they are not. 
+
+Questions should be answered with a **full sentence** to get full credit. Some examples of bad answers are:
+- Yes.
+- It's bigger.
+- It looks like it.
+- Linear.
+
+These sorts of answers will receive little to no credit.
+
+Please answer the following for this question:
+
+a.  Who is your TA?
+
+b. What time is your section? 
+:::
+
+### Notes
+::: Note
+This is a note. Notes don't require you to put anything in your report. 
+
+The main point of a note is just to highlight some critical information for you. Please make sure to read every note.
+:::
 
 ## PART 1: COLLECTING DATA
 Physics is the study of the laws of nature through observation and experiment. In an experiment, we perform measurements and collect data, then we interpret the data and  derive trends and relationships between our variables.
