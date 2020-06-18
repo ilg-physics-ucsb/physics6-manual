@@ -65,10 +65,11 @@ The main point of a note is just to highlight some critical information for you.
 Physics is the study of the laws of nature through observation and experiment. In an experiment, we perform measurements and collect data, then we interpret the data and  derive trends and relationships between our variables.
 
 ### Uncertainty in measurement
-When we make a measurement, we will not obtain the true value of the measured quantity. Even different measurements won't give the same result. Instead, we will get an approximate value with some level of uncertainty. 
+When we measure a quantity, say the length of a rod, what we measure will not be the true length.  Instead, if we were careful and thoughtful in our measurement, we will get a length close to the true length but limited by the resolution of our measurement tool. For instance, the smallest marking on the tape measure might be millimeters. Because of this barrier inherent in all measurement tools, even different measurements won't give the same result. This means that all measurements will contain a window of uncertainty about them. Some window it which we are confident that the true length of the rod lies.
 
-**UNCERTANTY IS INHERENT IN EVERY MEASUREMENT**
-
+:::Note
+**UNCERTANTY IS INHERENT IN EVERY MEASUREMENT.**
+:::
 
 The following concepts will help us understand uncertainty:
 - ***Accuracy*** = how close the measured values are to the **true value**
