@@ -65,25 +65,41 @@ The main point of a note is just to highlight some critical information for you.
 Physics is the study of the laws of nature through observation and experiment. In an experiment, we perform measurements and collect data, then we interpret the data and  derive trends and relationships between our variables.
 
 ### Uncertainty in measurement
-When we measure a quantity, say the length of a rod, what we measure will not be the true length.  Instead, if we were careful and thoughtful in our measurement, we will get a length close to the true length but limited by the resolution of our measurement tool. For instance, the smallest marking on the tape measure might be millimeters. Because of this barrier inherent in all measurement tools, even different measurements won't give the same result. This means that all measurements will contain a window of uncertainty about them. Some window it which we are confident that the true length of the rod lies.
+<!-- When we measure a quantity, say the length of a rod, what we measure will not be the true length.  Instead, if we were careful and thoughtful in our measurement, we will get a length close to the true length but limited by the resolution of our measurement tool. For instance, the smallest marking on the tape measure might be millimeters. Because of this barrier inherent in all measurement tools, even different measurements won't give the same result. This means that all measurements will contain a window of uncertainty about them. Some window in which we are confident that the true length of the rod lies.-->
+
+When we measure a quantity, say the length of a rod, what we measure will not be the true length. Instead, if we were careful and thoughtful in our measurement, we will get a length close to the true length, our best guess. When we report our measurement to others, most honest way of reporting it is to provide our best guess and window of values in which the true length might fall. This window is called our **uncertainty**. We would typically write down the length of the rod in the following format.
+
+$$
+62.3 \pm 0.1 \text{ cm}
+$$
+
+The 62.3 cm is our best guess, and the 0.1 cm is our estimate of the uncertainty.  We are saying that our best guess at the true length of the rod is 62.3cm but the true length is most likely between 62.2cm and 62.4cm
 
 :::Note
 **UNCERTANTY IS INHERENT IN EVERY MEASUREMENT.**
 :::
 
+### Estimating Uncertainty
+
+We always want to do our best to estimate the uncertainty of our measurements. This can help us in our analysis of the data. A good estimation is one that is as small as reasonable without overstating your knowledge. There are two good methods for estimating uncertainty. 
+
+The first comes from using a graduated scale, like that of ruler. For a scale, we say the uncertainty is half of the smallest 
+
 The following concepts will help us understand uncertainty:
 - ***Accuracy*** = how close the measured values are to the **true value**
 -  ***Precision*** = how close the measured values are to **each other**
 
+::: Figure:Figure
 ![Figure 1: Line of Best Fit](imgs/accuracy_precision.png)
-
-The **accuracy** of your measurement is determined by *systematic errors*, which are present because of  the improper use of measurement devices or improper experimental design. 
+:::
+#### Accuracy
+The **accuracy** of your measurement is determined by *systematic errors*, which are present because of  the improper use of measurement devices or improper experimental design.  Systematic errors are those that consistently to push measurement in one direction
 
 These errors are consistent between measurements: if you repeat the experiment, you'll get the same error.  Example of systematic error: not calibrating the scale before you measure a weight.
 
-
 You can completely prevent systematic errors by understanding the equipment and experiment and using **proper measurement techniques**. Example: Taring your scale before measuring the weight of an object; keeping the line of sight perpendicular to a ruler when measuring a length.
 
+#### Precision
 The **precision** of your measurement is determined by *random errors*, which are distributed randomly around the true value.
 
 You can't completely prevent random errors, but you can minimize them by using precise instruments and obtaining a  large data set in order to take the average of your measurements. Thus, you need to perform **multiple trials** by repeating the experiment several times to average out the random errors. 
@@ -92,39 +108,76 @@ Example: reaction time in pressing a stopwatch.
 **Uncertainty** is a measure of how much your measurements deviate from the expected value, and is due to both systematic and random errors.
 
 :::Exercise
-An example of a random error is your reaction time. If you time how fast a friend runs a mile, you may start or stop the stopwatch a little too earl or a little too late.
-:::Question
-Measure your reaction time by going to the following website:
+An example of a random error is your reaction time. If you time how fast a friend runs a mile, you may start or stop the stopwatch a little too early or a little too late.
+
+1. Measure your reaction time by going to the following website:
 https://humanbenchmark.com/dashboard/reactiontime
 
-Record your reaction time 10 times in a table.  Calculate your average reaction time.
+2. Record your reaction time 10 times in a table.  Your table should look like Table 1:
 
+:::Figure:Table
+| Trial | Reaction Time (ms) | 
+| -------- | -------- | 
+| 1    |     | 
+| 2  |     | 
+| ...    |     | 
+| 10    |     | 
+:::
+
+:::Question
+What is your average reaction time?
+:::
+:::Note
+Make sure to include the table in your lab report. 
 :::
 :::
 
-To determine if a value is accurate, we compare it to the accepted one. A qualitative measure of accuracy is the **percentage error**
+### Measures of Precision and Accuracy
 
-$$\text{pecentage error} = \frac{\text{accepted - experimental}} { \text{accepted}} \times 100\%$$
+To determine if a value is accurate, we compare it to the accepted one. A qualitative measure of accuracy is the **percentage discrepancy**
+
+:::Figure:Equation
+$$\text{pecentage discrepancy} = \frac{\text{accepted - experimental}} { \text{accepted}} \times 100\%$$
+:::
 
 :::Exercise
-In an experiment we measure the acceleration due to gravity to be 9.825 m/s^2. The accepted value is 9.807 m/s^2
+In an experiment we measure the acceleration due to gravity to be $9.825 m/s^2$. The accepted value is $9.807 m/s^2$
+
 :::Question
-What is the percentage error in our measurement?
+What is the percentage discrepancy in our measurement?
 :::
+
 :::
 Sometimes there is no accepted value to our measurement. In this case, to measure the precision of two measurements that are determined experimentally, we look at how different the two values are as a percentage of their average. This is known as the **percentage difference**.
 
-$$\text{pecentage difference} = \frac{\text{value1 - value2}} { \left|\frac{value1+value2}{2}\right|} \times 100\%$$
+:::Figure:Equation
+$$
+\text{pecentage difference} = \frac{\text{value1 - value2}} {\text{average}} \times 100\%
+$$
+$$
+\text{average} = \frac{\text{value1 + value2}}{2}
+$$
+:::
 
 :::Exercise
-In an experiment we make two measurements of the diameter of a tennis ball. They are $2.58$ in and $2.61$ in.
+In an experiment we make two measurements of the diameter of a tennis ball. They are $2.58$ in. and $2.61$ in.
 :::Question
 What is the percentage difference in our measurements?
 :::
 :::
+
+::: Note
+When comparing two values, you have two options. 
+1. When comparing your measured value to a value that is well accepted by the scientific community, you want to use percentage error.
+2. When comparing two values that are not generally accepted by the scientific community (two things you have measured), you want to use percentage difference. 
+:::
+
 The **precision** is also determined by the measurement instrument. In the figure below we have two rulers, one with a cm resolution and the other with a mm resolution.
 The mm ruler is more precise because all measurements would be between 1.6 and 1.7 cm, while with the cm ruler, their values would be between 1 and 2 cm.
+
+:::Figure:Figure
 ![Figure 1: Line of Best Fit](imgs/scale.png)
+:::
 
 ## Significant Figures
 
