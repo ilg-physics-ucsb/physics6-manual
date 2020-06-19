@@ -70,10 +70,10 @@ Physics is the study of the laws of nature through observation and experiment. I
 When we measure a quantity, say the length of a rod, what we measure will not be the true length. Instead, if we were careful and thoughtful in our measurement, we will get a length close to the true length, our best guess. When we report our measurement to others, most honest way of reporting it is to provide our best guess and window of values in which the true length might fall. This window is called our **uncertainty**. We would typically write down the length of the rod in the following format.
 
 $$
-62.3 \pm 0.1 \text{ cm}
+62.33 \pm 0.05 \text{ cm}
 $$
 
-The 62.3 cm is our best guess, and the 0.1 cm is our estimate of the uncertainty.  We are saying that our best guess at the true length of the rod is 62.3cm but the true length is most likely between 62.2cm and 62.4cm
+The 62.33 cm is our best guess, and the 0.05 cm is our estimate of the uncertainty.  We are saying that our best guess at the true length of the rod is 62.33cm but the true length is most likely between 62.28cm and 62.38cm
 
 :::Note
 **UNCERTANTY IS INHERENT IN EVERY MEASUREMENT.**
@@ -83,8 +83,13 @@ The 62.3 cm is our best guess, and the 0.1 cm is our estimate of the uncertainty
 
 We always want to do our best to estimate the uncertainty of our measurements. This can help us in our analysis of the data. A good estimation is one that is as small as reasonable without overstating your knowledge. There are two good methods for estimating uncertainty. 
 
-The first comes from using a graduated scale, like that of ruler. For a scale, we say the uncertainty is half of the smallest 
+The first comes from using a graduated scale, like that of ruler. For a scale, we say the uncertainty is half of the smallest division on the scale. So if we were use a standard meter stick that as 1 mm divisions, we would say that our uncertainty is 0.05 cm. For a digital display, we say the error is half of the last digit displayed. That is if we were using an electronic balance to measure the mass of a stone and read 52g, then we would say our uncertainty is 0.5g.
 
+The second way we estimate uncertainty is by repeated measurement. Often times this allows us to quantify a more complex measurement. For instance, if we were to be use a stopwatch to time how long someone was in the air when they jumped, we shouldn't report the uncertainty by half of the last digit display. This is because our reaction time, how quickly we can press the start and stop button, is much larger than precision of the stopwatch. Our reaction time makes it much harder to estimate the uncertainty of our measurement. 
+In order to quantify the uncertainty of the stopwatch we will need to use some statistical tool that we will talk about later in this lab.
+
+
+### Analyzing Results
 The following concepts will help us understand uncertainty:
 - ***Accuracy*** = how close the measured values are to the **true value**
 -  ***Precision*** = how close the measured values are to **each other**
@@ -205,19 +210,32 @@ c) 0.0004
 ### Significant Figures in Calculations
 **When we add a series of numbers, the one having the greatest uncertainty determines the number of significant figures in the final result.** 
 For example, the sum 53.7 + 2.63 + 0.068 equals 56.4. Since we know the value 53.7 only to the tenths place, we cannot know the sum to anything less than that digit.
-```
-```
+
 **When we multiply or divide, we take the number of significant figures in the answer to be the same as that of the quantity that has the lowest number of significant figures.**
 Thus, the result of the calculation (35 &times; 0.637)/256.3 is 0.087 (two sig figs).
-```
-```
 
 ::: Exercise
-:::Question
-You are asked to find the area of a rectangle of length 1.6cm and width 2.3cm. What is the area?
+
+In this exercise you will practice the rules above by calculating some geometric properties about these shapes. Make sure you answers are written with the correct number of sig figs and with units. 
+
+Here is a rectangle with length 2.4cm and width 3.2cm.
+
+:::Figure:Figure
+![Rectangle](imgs/Rectangle2.png)
 :::
 :::Question
-Find the area of a circle of radius $r=1.6$cm. Note: The area of a circle is $A=\pi\times r^2.$
+a. What is the perimeter of the rectangle?
+
+b. What is the area of the rectangle?
+:::
+
+Here is a circle with radius 2.4 cm.
+:::Figure:Figure
+![Circle](imgs/Circle.png)
+:::
+
+:::Question
+What is the area of the circle? 
 :::
 :::
 
@@ -225,24 +243,17 @@ Find the area of a circle of radius $r=1.6$cm. Note: The area of a circle is $A=
 Example:
 
 Imagine that you&rsquo;ve been given the mass of a block of material as 75 grams, and its dimensions as 2.5 cm &times; 3.1 cm &times; 6.3 cm (it is a rectangular parallelepiped). You are told to calculate its density. Since density is mass per unit volume, you multiply the three dimensions together, and then divide the result into 75.  You do this on a calculator. For the volume, you get 48.825 cm$^3$, and for the density, the calculator spits out 1.53609831 (depending on how many digits the display gives; the units are g/cm$^3$). It may be tempting just to write down all of those digits for the final result of the calculation. The question is whether this is necessary, or whether such a number is actually meaningful. After all, given that we know the mass to the gram, and each dimension to the tenth centimeter, do we really know the density to ten nanograms per cc (the last digit in the result above), or to a microgram per cc (the 8), or even to a milligram per cc (the 6)?
-```
-```
+
 For reasons that will soon become clear, the result of the density calculation above cannot contain more than two significant figures, and is properly written as 1.5 g/cm$^3$. To obtain this result, we round the three in the next place down. We always round to the nearest value of the last significant figure. To avoid biasing calculations that have multiple steps, we always round fives to the even number. For example, to two significant figures, 1.45 is 1.4, and 1.55 is 1.6.
-```
-```
-AVOCADO: Edit following section.
-Logarithms and antilogarithms present interesting situations. (Here we will look at examples for common logarithms. Similar considerations apply for natural logarithms.) When we take log 256, the answer is 2.408. It looks as if we have gained a significant figure, but we have not. The 2 (the *characteristic*) merely tells us where the decimal point goes. The 0.408 (the *mantissa*) contains information about 256. This is perhaps clearer if we write this as log (2.56 &times; 10$^2$). This equals 0.408 + 2. Since 2.56 has three significant figures, we keep the 0.408. The 2 tells us that the decimal point was two places to the right of the 2 in 256. So the answer 2.408 really has only three significant figures.
-```
-```
-For an example of an antilogarithm, let us take antilog 2.75 (=10$^{2.75}$) = 5.6 &times; 10$^2$. Since the 2 merely tells us the location of the decimal point, only the 0.75 is significant, so our answer cannot have more than two significant figures. We therefore keep only the 5.6 in the result (with the appropriate power of ten to locate the decimal point).
-```
-```
+
 Which brings us to a few more conventions.  If we were to write the result of the antilog above as 560, it would be ambiguous how many significant figures it had. The trailing zero could be merely a placeholder, or it could be the first uncertain digit. If it were significant, we could show this by adding a decimal point &ndash; 560. &ndash; or we could write 5.60 &times; 10$^2$. Leading zeros after the decimal point, as in 0.000325, are not significant. Certain multipliers, such as the 180, in 180/&pi;, the conversion factor to go from radians to degrees, or the 2 in 2&pi;r, the formula for the circumference of a circle, are exact.  They do not affect the number of significant figures in the result of a calculation in which they appear.
 
 :::Exercise
 We submerge a piece of unknown material in water in order to measure its volume. We also use a scale to measure its mass. Ultimately we want to calculate the density of this object.
 
+:::Figure:Figure
 ![Figure 1: Line of Best Fit](imgs/measurement.jpg)
+:::
 :::Question
 What are the initial and final volumes (in mL) before and after the object is submerged? What is the volume (in mL) of the object?  Make sure you use the appropriate number of significant figures when stating all your answers.
 :::
@@ -289,7 +300,7 @@ We will usually calculate the standard deviation using the STDEV() function in E
 Use a stopwatch (either on your phone or online) to measure how long it takes you to say the sentence "I enjoy physics and learning about the laws of nature".  Make 10 measurements.
 
 :::Question
-Find the average and standard deviation of the time it takes you to say the sentence aboce.
+Find the average and standard deviation of the time it takes you to say the sentence above.
 :::
 :::Question
 Find the standard deviation for your reaction time in the previous exercise.
