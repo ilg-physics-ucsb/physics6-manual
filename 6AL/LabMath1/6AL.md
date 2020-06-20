@@ -67,7 +67,7 @@ Physics is the study of the laws of nature through observation and experiment. I
 ### Uncertainty in measurement
 <!-- When we measure a quantity, say the length of a rod, what we measure will not be the true length.  Instead, if we were careful and thoughtful in our measurement, we will get a length close to the true length but limited by the resolution of our measurement tool. For instance, the smallest marking on the tape measure might be millimeters. Because of this barrier inherent in all measurement tools, even different measurements won't give the same result. This means that all measurements will contain a window of uncertainty about them. Some window in which we are confident that the true length of the rod lies.-->
 
-When we measure a quantity, say the length of a rod, what we measure will not be the true length. Instead, if we were careful and thoughtful in our measurement, we will get a length close to the true length, our best guess. When we report our measurement to others, most honest way of reporting it is to provide our best guess and window of values in which the true length might fall. This window is called our **uncertainty**. We would typically write down the length of the rod in the following format.
+When we measure a quantity, say the length of a rod, what we measure will not be the true length. Instead, if we were careful and thoughtful in our measurement, we will get a length close to the true length, our best guess. When we report our measurement to others, the most honest way of reporting it is to provide our best guess and window of values in which the true length might fall. This window is called our **uncertainty**. We would typically write down the length of the rod in the following format.
 
 $$
 62.33 \pm 0.05 \text{ cm}
@@ -82,12 +82,49 @@ The 62.33 cm is our best guess, and the 0.05 cm is our estimate of the uncertain
 ### Estimating Uncertainty
 
 We always want to do our best to estimate the uncertainty of our measurements. This can help us in our analysis of the data. A good estimation is one that is as small as reasonable without overstating your knowledge. There are two good methods for estimating uncertainty. 
+1. Estimating from scales
+2. Estimating from repeatability
 
+##### Estimating from a scale
 The first comes from using a graduated scale, like that of ruler. For a scale, we say the uncertainty is half of the smallest division on the scale. So if we were use a standard meter stick that as 1 mm divisions, we would say that our uncertainty is 0.05 cm. For a digital display, we say the error is half of the last digit displayed. That is if we were using an electronic balance to measure the mass of a stone and read 52g, then we would say our uncertainty is 0.5g.
 
+##### Estimating from repeatability
 The second way we estimate uncertainty is by repeated measurement. Often times this allows us to quantify a more complex measurement. For instance, if we were to be use a stopwatch to time how long someone was in the air when they jumped, we shouldn't report the uncertainty by half of the last digit display. This is because our reaction time, how quickly we can press the start and stop button, is much larger than precision of the stopwatch. Our reaction time makes it much harder to estimate the uncertainty of our measurement. 
-In order to quantify the uncertainty of the stopwatch we will need to use some statistical tool that we will talk about later in this lab.
 
+In order to quantify the uncertainty of the stopwatch we will need to repeat our measurement multiple times and perform some statistical analysis. 
+
+## Mean and Standard Deviation
+To reduce the uncertainty in our measurements, we can conduct repeated measurements of the same quantity. 
+
+If you take N measurements of a quantity $x$, known as **the mean** will be :
+
+$$x_{avg}=(x_1+x_2+..x_N)/N$$
+
+The standard deviation is a measure of the spread in the values $x_1, x_2,..., x_N$.
+
+$$\text{STDEV}=\sqrt{\frac{\sum{(x_i-x_{avg})^2}}{N-1}}$$
+
+The uncertainty of the mean can be calcualted using the standard deviation of the mean, which will be $\delta x=\text{STDEV}/\sqrt{N}$
+We quote the mean value as $x_{avg}\pm\delta x$
+
+
+Example: We measure the length of a table five times and get the data: 2.32m, 234m, 2.22m, 2.27m, 2.28m. In this case $N=5$ because there are 5 measurements.
+The average is :
+$L_{avg}=\frac{(2.32+2.34+2.22+2.27+2.28)}{5}=2.28$
+Notice each measurement has 3 sig figs, so we keep 3 sig figs for the mean.
+
+We will usually calculate the standard deviation using the STDEV() function in Excel.
+
+:::Exercise
+Use a stopwatch (either on your phone or online) to measure how long it takes you to say the sentence "I enjoy physics and learning about the laws of nature".  Make 10 measurements.
+
+:::Question
+Find the average and standard deviation of the time it takes you to say the sentence above.
+:::
+:::Question
+Find the standard deviation for your reaction time in the previous exercise.
+:::
+:::
 
 ### Analyzing Results
 The following concepts will help us understand uncertainty:
@@ -274,38 +311,6 @@ A dog is 2 feet high.  What is the height of the dog in mm?
 :::
 :::
 
-## Mean and Standard Deviation
-To reduce the uncertainty in our measurements, we can conduct repeated measuements of the same quantity. 
-
-If you take N measurements of a quantity $x$, known as **the mean** will be :
-
-$$x_{avg}=(x_1+x_2+..x_N)/N$$
-
-The standard deviation is a measure of the spread in the values $x_1, x_2,..., x_N$.
-
-$$\text{STDEV}=\sqrt{\frac{\sum{(x_i-x_{avg})^2}}{N-1}}$$
-
-The uncertainty of the mean can be calcualted using the standard deviation of the mean, which will be $\delta x=\text{STDEV}/\sqrt{N}$
-We quote the mean value as $x_{avg}\pm\delta x$
-
-
-Example: We measure the length of a table five times and get the data: 2.32m, 234m, 2.22m, 2.27m, 2.28m. In this case $N=5$ because there are 5 measurements.
-The average is :
-$L_{avg}=\frac{(2.32+2.34+2.22+2.27+2.28)}{5}=2.28$
-Notice each measurement has 3 sig figs, so we keep 3 sig figs for the mean.
-
-We will usually calculate the standard deviation using the STDEV() function in Excel.
-
-:::Exercise
-Use a stopwatch (either on your phone or online) to measure how long it takes you to say the sentence "I enjoy physics and learning about the laws of nature".  Make 10 measurements.
-
-:::Question
-Find the average and standard deviation of the time it takes you to say the sentence above.
-:::
-:::Question
-Find the standard deviation for your reaction time in the previous exercise.
-:::
-:::
 
 ## PART 2: ANALYZING DATA
 
