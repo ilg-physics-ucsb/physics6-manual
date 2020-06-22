@@ -49,7 +49,7 @@ Now create a plot of $A$ as a function of $l$. This should be linear.
 
 a. Create a best-fit line and determine the slope and intercept. 
 
-b. Based on the absorbance formula you derived in Question 2. What should the intercept be?
+b. Based on the absorbance formula you derived in Question 2. What value should the intercept be?
 :::
 
 ::: Question
