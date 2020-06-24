@@ -17,7 +17,7 @@ In all of the lab manuals you will notice some common environments. Each environ
 ### Exercises
 
 ::: Exercise
-This is an exercise. An exercise is encapsulated task to cover one idea or concept. Inside of an exercise, you might be asked to do different subtasks. Each of these subtasks should be included in your report. **If they are not, you will lose points**.
+This is an exercise. An exercise is an encapsulated task to cover one idea or concept. Inside of an exercise, you might be asked to do different subtasks. Each of these subtasks should be included in your report. **If they are not, you will lose points**.
 
 Typical subtasks might include:
 - Making a table.
