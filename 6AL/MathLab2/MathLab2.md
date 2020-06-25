@@ -13,36 +13,67 @@
 
 In this lab we will build on some of the concepts from the previous lab while adding some new skills. New topics we will discuss in the assignment are the following:
 
+- What makes a good table.
 - How to make a plot.
 - How to perform a fit to some data.
 - What makes a good plot. 
 - Some guidance on how to determine if a plot is linear or not. 
 
-## Working with tables
-We compile the data from our measurements in tables. 
+---
+
+## Making a Good Table
+In the previous assignment you learned some basics about how to make a table for your lab report. Here we will write down the requirements for any table that you submit. 
 
 In order for the table to convey the data accurately, it must contain:
-1. Descriptive title of the table.
-2. Data organized in columns with descriptive headers that specify variable names and units.  If a table must span multiple pages, a header needs to be added for every page.
-5. Correct number of significant figures for the data. 
-6. All data in a column aligned at the decimal point.
 
-:::Exercise
-We measure 
+1. Data organized in columns with descriptive headers that specify variable names and **units**.  If a table must span multiple pages, a header needs to be added for every page.
+2. Correct number of significant figures for the data. 
+3. All data in a column aligned at the decimal point.
+4. If you have any calculations in your table then you should show your work for **one row** of the table. 
+
+:::Figure:Figure
+
+::: row
+
+::: column
+![GoodTable](imgs/GoodTable.png)
+
+#### Good Table Example
 :::
+
+::: column
+![BadTable](imgs/BadTable.png)
+
+#### Bad Table Example
+:::
+:::
+:::
+
+Figure 1 shows two example tables. In the one on the left it, the two variables being measured is clear, the headers have units, it has the proper amount of sig figs, and the decimal points are aligned. 
+
+The one on the right it is not clear what the two column represent. Even if you could determine what the two columns represent, there is no way for you to know the units. Is it seconds and millimeters? Hours and nanometers? Years and feet? 
+
+Your goal with a table, is to communicate what you did as simply as possible to those reading your report. For this class, that means your TA who will be grading your report. If you are clear in your thoughts and your tables, it is more likely your TA will be able to understand any mistakes you make. This will allow them to provide better feedback, and maybe even take off less points. If your TA can't follow what you did, they are more likely to take off points.
 
 ## How to make a proper graph
 Graphs help us visualize the **relationship between two variables**: the independent variable (on the x-axis) and the dependent variable (on the y-axis). 
 
-### Steps in Drawing a Graph:
+An **independent variable** is one that *doesn't* depend on anything else. Often times, but not exclusively, it is a variable that you are measuring directly. 
+
+A **dependent** variable is one that *does* depend on the other variables. Often times, but not exclusively, this is a variable that you get from doing calculations.
+
+Often times in the lab manual we will ask you to plot "this vs. that." When asked to plot something with that format that means plot "dependent variable vs independent variable".
+
+### Steps to Create a Good Graph:
 
 1. Identify the independent and dependent variables
 2. Determine the range of each variable.
 3. Clearly label each axis with variable name and unit of measurement.
-4. Plot the data as a scatter plot. DO NOT "connect the dots"
-5. Draw the line of best fit (usually linear)
-6. Provide a descriptive titles that communicates the 
+4. Plot the data as a scatter plot. DO NOT "connect the dots."
+5. Draw the line of best fit (usually linear).
+6. Provide a descriptive titles that communicates the scenario that is being plotted.
 
+When it comes to a title, **don't** provide a title like "Distance vs Time." This is a bad title. This information can be determined from just looking at the axes. Your title should describe what is happening, e.g. "Distance Traveled by Car on Vacation Trip."
 
 :::Exercise
 
@@ -61,9 +92,22 @@ Example 4: Dots connected.
 
 :::
 
-***Note: Every time your graph contains these mistakes in this or subsequent labs you will be deducted points.**
-
+:::Note
+***Every time your graph contains these mistakes in this or subsequent labs you will be deducted points.***
 :::
+:::
+
+## Working with a Spreadsheet
+Spreadsheets will make your life **MUCH** easier. We highly recommend that you take the time to learn how to use them. It will be a useful skill for all of your Physics 6 lab courses and you may even find it useful in the real world. 
+
+#### Using Equations in a Spreadsheet
+
+#### Using Spreadsheets to make a plot
+
+#### 
+
+
+
 ### Line of Best Fit
 
 The line of best fit gives you the relationship between the two variables, highlighting the strongest trend in the data. It is determined by the entire data set, which makes it more accurate than only using a single data points. Thus, it reduces experimental errors.
