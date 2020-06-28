@@ -149,18 +149,47 @@ Choosing which curve to use (line, parabola, exponential, etc.) for your data ca
 - What message are you trying to convey to the reader?
 - Does the data suggest you've selected the correct curve?
 
-#### How to find the line of best fit:
+For most of the Physics 6\*L you will be doing linear fits to data, but there will be occasions where we need something non-linear. For that reason, we will provide examples mainly of linear fits, but keep in mind that these guidelines apply to any curve fit. 
 
-1.  **Outliers**. These may be due to experimental error or typing the data in the plotting program. Double check them. 
+#### How to analyze a fit:
 
+For this example we will consider a student, Jillian, who is investigating different types of engines in her model rocket. She wants to evaluate the thrust of the different engines as a function of time. 
+
+1.  **Outliers**. These may be due to experimental error or typing the data in the plotting program. When you see an outlier you should stop and assess it. In this class, more often then not, it is because a scale was read wrong, some data was transcribed incorrectly, or there was an error in the data collecting tool.
+
+:::Note
 *DO NOT REMOVE AN OUTLIER without a good reason*.
+:::
 
-![Figure 1: Line of Best Fit](imgs/LoBF_2.png)
+On here first run she sees an outlier in here data set. She takes a closer look at her measurement system and realizes there is a loose cable which causes intermittent failures. She decides this run was not valid, and does the experiment again.
 
-2. The line of best fit is **balanced**, i.e. roughly the same number of points lie above it as below it.
-![Figure 1: Line of Best Fit](imgs/LoBF_1.png)
+:::Figure:Figure
+![Figure 1: Line of Best Fit](imgs/OutlierSheets.png)
+:::
 
-3. Similar to 2, the data should be randomly above and below your fit. For instance, if you fit a line to your data and notice that data starts off below the line, then goes above, and then below again, your data likely isn't represented by a line, but something else.
+2. The a curve fit is **balanced**, i.e. roughly the same number of points lie above the line as below it. This time Jillian plots her data and sees what looks like a balanced fit with no outliers. There are roughly the same number of points above an below the line of best fit. 
+
+:::Figure:Figure
+![Figure 1: Line of Best Fit](imgs/LinearFit.png)
+:::
+
+3. Similar to 2, the data should be randomly above and below your fit. For instance, if you fit a line to your data and notice that data starts off below the line, then goes above, and then below again, your data likely isn't represented by a line, but something else. 
+
+When Jillian takes data for her second engine, plots and does a linear fit this is her plot.
+
+:::Figure:Figure
+![](imgs/QuadLinear.png)
+:::
+
+Notice how the the data starts above the fit, then goes below the fit, then back above the fit. Jillian recognizes that this means here data is not linear because the data she be randomly above and below the fit as in Figure 9.
+
+She reads manufacturer data sheet for the second engine and learns the thrust should increase quadratically in time. So she decides to fit a parabola to the data. This is her new plot.
+
+:::Figure:Figure
+![](imgs/QuadQuad.png)
+:::
+
+Notice how the curve follows the data more closely and how the data is randomly distributed around the curve. This is sign of using the correct function to fit your data.
 
 :::Exercise
 Which of the following lines of best fit seem reasonable, and which not
