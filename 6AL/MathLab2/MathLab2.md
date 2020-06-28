@@ -66,8 +66,8 @@ Often times in the lab manual we will ask you to plot "this vs. that." When aske
 
 ### Steps to Create a Good Graph:
 
-1. Identify the independent and dependent variables
-2. Determine the range of each variable.
+1. Identify the independent and dependent variables and make sure you put them on the correct axis. 
+2. Determine the range of each variable. Your data should take up most of the area of your plot. There *should not* be any large blanks areas.
 3. Clearly label each axis with variable name and unit of measurement.
 4. Plot the data as a scatter plot. DO NOT "connect the dots."
 5. Draw the line of best fit (usually linear).
@@ -75,42 +75,79 @@ Often times in the lab manual we will ask you to plot "this vs. that." When aske
 
 When it comes to a title, **don't** provide a title like "Distance vs Time." This is a bad title. This information can be determined from just looking at the axes. Your title should describe what is happening, e.g. "Distance Traveled by Car on Vacation Trip."
 
+Here is an example of a good plot.
+
+:::Figure:Figure
+![Good Graph](imgs/GoodGraph.png)
+:::
+
+Notice that the data takes up the entire plot. There are no large blank areas. Both of the axes are labeled and have units. The data points are not connected and there is a line of best fit. There is also a title for the plot that lets us know what the experimenter was doing.
+
+
 :::Exercise
 
-A student measures the relationship between two variables, given in table 5:
+In this exercise you will use the 6 rules above to identify mistakes in graphs that other students have made.
 
 :::Question
-Identify mistakes with the following graphs
+Identify mistakes with the following graph.
 
-Example 1: Variable range improperly chosen.
-
-Example 2: Missing descriptive title.
-
-Example 3: Axes not labeled, units missing.
-
-Example 4: Dots connected.
+::: Figure:Figure
+![Bad Graph 1](imgs/GraphBadRange.png)
+:::
 
 :::
+
+:::Question
+
+Identify mistakes with the following graph.
+
+::: Figure:Figure
+![Bad Graph 2](imgs/GraphConnected.png)
+:::
+:::
+
+::: Question
+
+Identify mistakes with the following graph.
+::: Figure:Figure
+![Bad Graph 1](imgs/Graphaxislabelerrors.png)
+:::
+:::
+
+:::Question
+
+Identify mistakes with the following graph.
+::: Figure:Figure
+![Bad Graph 2](imgs/GraphNoTitle.png)
+:::
+:::
+
+
+:::Question
+
+Identify mistakes with the following graph.
+:::Figure:Figure
+![Bad Graph 5](imgs/GraphYX.png)
+:::
+:::
+
 
 :::Note
 ***Every time your graph contains these mistakes in this or subsequent labs you will be deducted points.***
 :::
+
 :::
 
-## Working with a Spreadsheet
-Spreadsheets will make your life **MUCH** easier. We highly recommend that you take the time to learn how to use them. It will be a useful skill for all of your Physics 6 lab courses and you may even find it useful in the real world. 
 
-#### Using Equations in a Spreadsheet
+### Curve Fitting
 
-#### Using Spreadsheets to make a plot
+Curve fitting gives you the relationship between the two variables, highlighting the strongest trend in the data. It is determined by the entire data set, which makes it more accurate than only using a single data points. Thus, it reduces experimental errors. 
 
-#### 
+Choosing which curve to use (line, parabola, exponential, etc.) for your data can take some practice. Your choice may depend on a few factors.
 
-
-
-### Line of Best Fit
-
-The line of best fit gives you the relationship between the two variables, highlighting the strongest trend in the data. It is determined by the entire data set, which makes it more accurate than only using a single data points. Thus, it reduces experimental errors.
+- What does theory suggest it should be?
+- What message are you trying to convey to the reader?
+- Does the data suggest you've selected the correct curve?
 
 #### How to find the line of best fit:
 
@@ -123,12 +160,27 @@ The line of best fit gives you the relationship between the two variables, highl
 2. The line of best fit is **balanced**, i.e. roughly the same number of points lie above it as below it.
 ![Figure 1: Line of Best Fit](imgs/LoBF_1.png)
 
+3. Similar to 2, the data should be randomly above and below your fit. For instance, if you fit a line to your data and notice that data starts off below the line, then goes above, and then below again, your data likely isn't represented by a line, but something else.
+
 :::Exercise
 Which of the following lines of best fit seem reasonable, and which not
 
 :::
 ### Slope significant figures
 AVOCADO: Add information.
+
+## Working with a Spreadsheet
+Spreadsheets will make your life **MUCH** easier. We highly recommend that you take the time to learn how to use them. It will be a useful skill for all of your Physics 6 lab courses and you may even find it useful in the real world. 
+
+#### Using Equations in a Spreadsheet
+
+#### Using Spreadsheets to make a plot
+
+#### 
+
+
+
+
 
 
 ## Using Google Sheets to plot data
