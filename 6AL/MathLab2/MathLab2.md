@@ -164,7 +164,7 @@ For this example we will consider a student, Jillian, who is investigating diffe
 On here first run she sees an outlier in here data set. She takes a closer look at her measurement system and realizes there is a loose cable which causes intermittent failures. She decides this run was not valid, and does the experiment again.
 
 :::Figure:Figure
-![Figure 1: Line of Best Fit](imgs/OutlierSheets.png)
+![Figure 1: Line of Best Fit](imgs/OutlierSheet.png)
 :::
 
 2. The a curve fit is **balanced**, i.e. roughly the same number of points lie above the line as below it. This time Jillian plots her data and sees what looks like a balanced fit with no outliers. There are roughly the same number of points above an below the line of best fit. 
@@ -192,18 +192,122 @@ She reads manufacturer data sheet for the second engine and learns the thrust sh
 Notice how the curve follows the data more closely and how the data is randomly distributed around the curve. This is sign of using the correct function to fit your data.
 
 :::Exercise
-Which of the following lines of best fit seem reasonable, and which not
+
+Below are two plots of the [population of California from 1900 to 1950](https://www.macrotrends.net/states/california/population). The data is the same in both of the plots but each has a different fit. The first one is a linear fit and the second is an exponential fit.
+
+:::Figure:Figure
+![Linear Fit](imgs/CAPopLinear.png)
+
+Linear
+:::
+
+:::Figure:Figure
+![Exponential Fit](imgs/CAPopExp.png)
+
+Exponential
+:::
+
+:::Question
+Which function fits the data better? Linear or exponential? Explain your reasoning.
+:::
+:::
+
+### Significant Figures in the Line of Best Fit
+Just like all physical quantities, a trend or slope estimated from data is subject to the limits of significant figures for reporting purposes. In the case of the line of best fit, which may be calculated from tens --- if not hundreds --- of data points, the number of significant figures isn't directly inherited from the number in your present in your data. This is something that must be estimated from the entire set of data you are working with.
+
+We have to be clear about what a sig fig is so we know how many digits to keep! When we talk about a sig fig, we are actually talking about a measure of *uncertainty*. For example, if I measure and record the velocity of 1.2 m/s, I am saying that the actual value of that velocity is greater than 1.15 m/s and less than 1.25 m/s --- otherwise, that the true velocity lies in this interval of numbers that *round* to 1.2 m/s; hence, the "2"  is the smallest significant digit.
+
+The same principle applies for lines of best fit: we need to determine the smallest digit that is not sensitive to the random nature of a real set of data, which will never fall exactly on your trend line. While the math an concepts that are needed to fully understand this procedure are often employed in upper-division labs with error analysis components, we can use spreadsheets to help us determine the error. By using the function "LINEST", a spreadsheet will provide with the slope and intercept as well as the error in those numbers. The error will tell use the number of sig figs to use. We will demonstrate how to use this below. 
+
+To use this to determine your least significant digit, you would then truncate the value of $m$ at the digit that coincides with the first non-zero tens place of the uncertainty. For example, if you obtained $m=12.9274...$ and an uncertainty of $0.038273$, you would report in your notebook and report $m= 12.9$. This is very similar to using the "STDEV" function that we used last lab.
+
+:::Note
+When determining the number of sig figs to report in our slope or intercept we will rely on the standard error reported by the LINEST function.
+:::
+
+### Significant Figures in More Complex Curve Fits
+If we are doing more complicated curve fits than just lines we require more knowledge about programming or higher level math. That is above what is needed in this class. For all of the physics 6\*L classes, we will just use the following convention:
+
+:::Note
+The number of sig figs in a non-linear curve fit will be limited by the number of sig figs in your data.
+:::
+
+As an example, if we collected data on the amount of potential energy in a spring has as a function of its displacement from equilibrium, we might get data like the following:
+
+
+:::row
+
+:::column
+::: Figure:Table
+| Length (m) | Potential Energy (J) |
+| -------- | -------- | 
+|   0.021   | 0.012    | 
+|   0.043   |  0.212   | 
+|   0.065   |  0.372   | 
+|   0.085   |  0.740   | 
+|   0.107   |  1.061   | 
+|   0.129   |  1.850   | 
+|  0.150    |  2.310   | 
+|   0.169   |  2.756   | 
+|   0.191   |  3.764   | 
+|   0.209  |  4.121   | 
+|   0.228   | 4.752    | 
+|   0.249   | 6.250    | 
+|   0.267   |  7.563    | 
+:::
+:::
+
+:::column
+:::Figure:Figure
+![Spring Plot](imgs/SpringEnergy.png)
+:::
+
+Since we expect the result to be quadratic, i.e. takes the form $ax^2+bx+c$, that is the fitting function we have used. The results are displayed above the graph as $102x^2-1.61x+0.809$ with $a=102$, $b=-1.61$, and $c=0.809$. If we were to report $a$, $b$, or $c$, or do any calculations with them we need to use the correct sig figs.  
+
+To determine the correct sig figs we look to our data table. Since the lowest number of sig figs in either the length or the force is 2, we will only treat $a$, $b$, or $c$ as having two sig figs. Thus, $a=1.0\times 10^2$, $b=1.6$, and $c=0.081$. 
 
 :::
-### Slope significant figures
-AVOCADO: Add information.
+:::
+
+Again, this is not a standard way of treating the data, but a convention that we are taking on for this class. 
+
+---
 
 ## Working with a Spreadsheet
-Spreadsheets will make your life **MUCH** easier. We highly recommend that you take the time to learn how to use them. It will be a useful skill for all of your Physics 6 lab courses and you may even find it useful in the real world. 
+Now that we have talked about what makes a good table, plot, and curve fit we will show you how to do this for yourself. Spreadsheets will make your life **MUCH** easier. We highly recommend that you take the time to learn how to use them. It will be a useful skill for all of your Physics 6\*L lab courses and you may even find it useful in the real world. 
+
+We will walk through plotting and fit the data in Figure 1. We will assume you can make a table from doing the first lab. This data is recorded by a car traveling from San Diego to San Francisco. The driver marked the distance traveled in kilometers roughly every 60 minutes. Once the car got on the freeway, the driver put on cruise control and  never stopped (what amazing mileage!). 
+
+**We want to answer the question, what speed, in mph, did the driver set their cruise control. **
+
+We know that for an object traveling at a constant velocity, $v$, starting at position $x_0$, that its position, $x$, as a function of time, $t$, is given by the following linear equation:
+
+:::Figure:Equation
+
+$$
+x = vt+x_0
+$$
+:::
+
+Our plan here is to convert the data table into units of miles and hours so that we can answer the question in the correct units, then to fit a line to our data where the slope should be the velocity. 
 
 #### Using Equations in a Spreadsheet
 
+The driver took data in units that we would like to convert. We do that in a spreadsheet program by using equations and functions. Watch the video below for instructions on how to use sheets to help with conversions.
+
+:::Figure:Video
+!(https://drive.google.com/file/d/13TrF8ULpWXL0HQXZP1cpCEkcg3jbzE15)
+:::
+
 #### Using Spreadsheets to make a plot
+
+Now that we have made our table, let's plot our data and do a fit. We will have to use the LINEST function in sheets to give us the error and number of sig figs in our measurement. Watch the video below demonstrating all of this.
+
+:::Figure:Video
+!(https://drive.google.com/file/d/13TrF8ULpWXL0HQXZP1cpCEkcg3jbzE15)
+:::
+
+
 
 #### 
 
@@ -212,28 +316,40 @@ Spreadsheets will make your life **MUCH** easier. We highly recommend that you t
 
 
 
-## Using Google Sheets to plot data
+## Using Google Sheets to Analyze Data
 
-Watch the following video that shows how to plot data and find the line of best fit using Google Sheets.
-
-::: GVideo
-:::
+Use all of the tools we have discussed in this lab to analyze the speed of an inch worm. 
 
 :::Exercise
-Use the data set given to you in Exercise AVOCADO, and make a graph. Display the equation for the line of best fit.
+
+Here is a table that a student collected by monitoring a inch worm as it traveled around a table. The student measured the position the of the inch worm at a given time. Here is the data.
+
+
+
+| Time (s) | Position (cm) | 
+| -------- | -------- |
+|   5.2   |   2.9   | 
+|   9.7   |   5.1   | 
+|   15.1   |  8.3    | 
+|   20.3   |  10.2    | 
+|   25.3   |  13.3    | 
+|   30.7   |  16.9    | 
+|   36.2   |   19.0   | 
+|   41.4   |   22.6   | 
+|   46.5   |   21.2   | 
+|   51.2   |    26.9  | 
+|   56.4  |     27.4 | 
+
+
+::: Question
+Using the similar analysis for the car above, what is the speed of the inch worm inches per minute? Make sure you answer with the correct number of sig figs and show the uncertainty in your measurement.
 :::
 
-## Putting it all together
+:::Note
+Make sure to include your final table with all the columns you made, a sample calculation for one row of your table, and the graph in your report.
+:::
 
-Watch the following ruler dropping experiment to find the reaction time. AVOCADO: Add explanation of ruler drop.
-1. Pause the video and record the length the ruler dropped when it is caught. 
-2. Make a table with all ten values.
-3. Make a column with the uncertainty in each value.
-4. Convert each length to a time knowing that $$length=\frac{1}{2} gt^2$$. Use the appropriate number of significant figures.
-5. Take the average of all your measurements.
-
-Note: If you are able to do this with the help of a friend, you can use your own data.
-
+:::
 
 ## Conclusion
 
