@@ -49,9 +49,9 @@ In order for the table to convey the data accurately, it must contain:
 :::
 :::
 
-Figure 1 shows two example tables. In the one on the left it, the two variables being measured is clear, the headers have units, it has the proper amount of sig figs, and the decimal points are aligned. 
+Figure 1 shows two example tables. In the table on the left, the two variables that were measured are clearly described, the headers have units, the values have the proper number of sig figs, and their decimal points are aligned. 
 
-The one on the right it is not clear what the two column represent. Even if you could determine what the two columns represent, there is no way for you to know the units. Is it seconds and millimeters? Hours and nanometers? Years and feet? 
+In the table on the right the variables are not clearly described. Even if you could determine what the two columns represent, there is no way for you to know the units. Is it seconds and millimeters? Hours and nanometers? Years and feet? 
 
 Your goal with a table, is to communicate what you did as simply as possible to those reading your report. For this class, that means your TA who will be grading your report. If you are clear in your thoughts and your tables, it is more likely your TA will be able to understand any mistakes you make. This will allow them to provide better feedback, and maybe even take off less points. If your TA can't follow what you did, they are more likely to take off points.
 
@@ -141,7 +141,7 @@ Identify mistakes with the following graph.
 
 ### Curve Fitting
 
-Curve fitting gives you the relationship between the two variables, highlighting the strongest trend in the data. It is determined by the entire data set, which makes it more accurate than only using a single data points. Thus, it reduces experimental errors. 
+Curve fitting gives you the relationship between the two variables, highlighting the strongest trend in the data. It is determined by the entire data set, which makes it more accurate than only using a single data point. Thus, it reduces experimental errors. 
 
 Choosing which curve to use (line, parabola, exponential, etc.) for your data can take some practice. Your choice may depend on a few factors.
 
@@ -161,19 +161,19 @@ For this example we will consider a student, Jillian, who is investigating diffe
 *DO NOT REMOVE AN OUTLIER without a good reason*.
 :::
 
-On here first run she sees an outlier in here data set. She takes a closer look at her measurement system and realizes there is a loose cable which causes intermittent failures. She decides this run was not valid, and does the experiment again.
+On her first run she sees an outlier in her data set. She takes a closer look at her measurement system and realizes there is a loose cable which causes intermittent failures. She decides this run was not valid, and does the experiment again.
 
 :::Figure:Figure
 ![Figure 1: Line of Best Fit](imgs/OutlierSheet.png)
 :::
 
-2. The a curve fit is **balanced**, i.e. roughly the same number of points lie above the line as below it. This time Jillian plots her data and sees what looks like a balanced fit with no outliers. There are roughly the same number of points above an below the line of best fit. 
+2. The curve fit is **balanced**, i.e. roughly the same number of points lie above the line as below it. This time Jillian plots her data and sees what looks like a balanced fit with no outliers. There are roughly the same number of points above an below the line of best fit. 
 
 :::Figure:Figure
 ![Figure 1: Line of Best Fit](imgs/LinearFit.png)
 :::
 
-3. Similar to 2, the data should be randomly above and below your fit. For instance, if you fit a line to your data and notice that data starts off below the line, then goes above, and then below again, your data likely isn't represented by a line, but something else. 
+3. As shown in Figure 9 the data should be randomly above and below your fit. For instance, if you fit a line to your data and notice that data starts off below the line, then goes above, and then below again, your data likely isn't represented by a line, but something else. 
 
 When Jillian takes data for her second engine, plots and does a linear fit this is her plot.
 
@@ -181,9 +181,9 @@ When Jillian takes data for her second engine, plots and does a linear fit this 
 ![](imgs/QuadLinear.png)
 :::
 
-Notice how the the data starts above the fit, then goes below the fit, then back above the fit. Jillian recognizes that this means here data is not linear because the data she be randomly above and below the fit as in Figure 9.
+Notice how the the data starts above the fit, then goes below the fit, then back above the fit. Jillian recognizes that this means her data is not linear because the data she be randomly above and below the fit as in Figure 9.
 
-She reads manufacturer data sheet for the second engine and learns the thrust should increase quadratically in time. So she decides to fit a parabola to the data. This is her new plot.
+She reads the manufacturer data sheet for the second engine and learns the thrust should increase quadratically in time. So she decides to fit a parabola to the data. This is her new plot.
 
 :::Figure:Figure
 ![](imgs/QuadQuad.png)
@@ -208,16 +208,16 @@ Exponential
 :::
 
 :::Question
-Which function fits the data better? Linear or exponential? Explain your reasoning.
+Which function fits the data better - linear or exponential? Explain your reasoning.
 :::
 :::
 
 ### Significant Figures in the Line of Best Fit
-Just like all physical quantities, a trend or slope estimated from data is subject to the limits of significant figures for reporting purposes. In the case of the line of best fit, which may be calculated from tens --- if not hundreds --- of data points, the number of significant figures isn't directly inherited from the number in your present in your data. This is something that must be estimated from the entire set of data you are working with.
+Just like all physical quantities, a trend or slope estimated from data is subject to the limits of significant figures for reporting purposes. In the case of the line of best fit, which may be calculated from tens --- if not hundreds --- of data points, the number of significant figures isn't directly inherited from the number of sig figs present in your data. This is something that must be estimated from the entire set of data you are working with.
 
 We have to be clear about what a sig fig is so we know how many digits to keep! When we talk about a sig fig, we are actually talking about a measure of *uncertainty*. For example, if I measure and record the velocity of 1.2 m/s, I am saying that the actual value of that velocity is greater than 1.15 m/s and less than 1.25 m/s --- otherwise, that the true velocity lies in this interval of numbers that *round* to 1.2 m/s; hence, the "2"  is the smallest significant digit.
 
-The same principle applies for lines of best fit: we need to determine the smallest digit that is not sensitive to the random nature of a real set of data, which will never fall exactly on your trend line. While the math an concepts that are needed to fully understand this procedure are often employed in upper-division labs with error analysis components, we can use spreadsheets to help us determine the error. By using the function "LINEST", a spreadsheet will provide with the slope and intercept as well as the error in those numbers. The error will tell use the number of sig figs to use. We will demonstrate how to use this below. 
+The same principle applies for lines of best fit: we need to determine the smallest digit that is not sensitive to the random nature of a real set of data, which will never fall exactly on your trend line. While the math and concepts that are needed to fully understand this procedure are often employed in upper-division labs with error analysis components, we can use spreadsheets to help us determine the error. By using the function "LINEST", a spreadsheet will provide us with the values for the slope and intercept as well as the error in those values. The error will tell us the correct number of sig figs needed. We will demonstrate how to use this below. 
 
 To use this to determine your least significant digit, you would then truncate the value of $m$ at the digit that coincides with the first non-zero tens place of the uncertainty. For example, if you obtained $m=12.9274...$ and an uncertainty of $0.038273$, you would report in your notebook and report $m= 12.9$. This is very similar to using the "STDEV" function that we used last lab.
 
@@ -262,9 +262,9 @@ As an example, if we collected data on the amount of potential energy in a sprin
 ![Spring Plot](imgs/SpringEnergy.png)
 :::
 
-Since we expect the result to be quadratic, i.e. takes the form $ax^2+bx+c$, that is the fitting function we have used. The results are displayed above the graph as $102x^2-1.61x+0.809$ with $a=102$, $b=-1.61$, and $c=0.809$. If we were to report $a$, $b$, or $c$, or do any calculations with them we need to use the correct sig figs.  
+Since we expect the result to be quadratic, i.e. takes the form $ax^2+bx+c$, that is the fitting function we have used. The results are displayed above the graph as $82.8x^2-3.69x-0.16$ with $a=82.8$, $b=3.69$, and $c=-0.16$. If we were to report $a$, $b$, or $c$, or do any calculations with them we need to use the correct sig figs.  
 
-To determine the correct sig figs we look to our data table. Since the lowest number of sig figs in either the length or the force is 2, we will only treat $a$, $b$, or $c$ as having two sig figs. Thus, $a=1.0\times 10^2$, $b=1.6$, and $c=0.081$. 
+To determine the correct sig figs we look to our data table. Since the lowest number of sig figs in either the length or the force is 2, we will only treat $a$, $b$, or $c$ as having two sig figs. Thus, $a=83$, $b=3.7$, and $c=-0.16$. 
 
 :::
 :::
@@ -304,7 +304,7 @@ The driver took data in units that we would like to convert. We do that in a spr
 Now that we have made our table, let's plot our data and do a fit. We will have to use the LINEST function in sheets to give us the error and number of sig figs in our measurement. Watch the video below demonstrating all of this.
 
 :::Figure:Video
-!(https://drive.google.com/file/d/13TrF8ULpWXL0HQXZP1cpCEkcg3jbzE15)
+!(https://drive.google.com/file/d/1uDGD0iMowp-DWujwhay58kjcMYF-5goe)
 :::
 
 
@@ -322,7 +322,7 @@ Use all of the tools we have discussed in this lab to analyze the speed of an in
 
 :::Exercise
 
-Here is a table that a student collected by monitoring a inch worm as it traveled around a table. The student measured the position the of the inch worm at a given time. Here is the data.
+Here is a table that a student collected by monitoring an inch worm as it traveled around a table. The student measured the position of the inch worm at a given time. Here is the data.
 
 
 
