@@ -1,0 +1,4 @@
+<figure class="Simulation">
+    <embed src="https://iwant2study.org/lookangejss/04waves_13light/ejss_model_mirrorv11/mirrorv11_Simulation.xhtml" width="100%" height="600" allowfullscreen frameborder="0">
+    <figcaption>Simulation 3</figcaption>
+</figure>
