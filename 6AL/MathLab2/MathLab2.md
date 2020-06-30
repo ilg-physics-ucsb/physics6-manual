@@ -296,7 +296,7 @@ Our plan here is to convert the data table into units of miles and hours so that
 The driver took data in units that we would like to convert. We do that in a spreadsheet program by using equations and functions. Watch the video below for instructions on how to use sheets to help with conversions.
 
 :::Figure:Video
-!(https://drive.google.com/file/d/13TrF8ULpWXL0HQXZP1cpCEkcg3jbzE15)
+!(https://www.youtube.com/watch?v=Nv4Ty11e00k)
 :::
 
 #### Using Spreadsheets to make a plot
@@ -304,7 +304,7 @@ The driver took data in units that we would like to convert. We do that in a spr
 Now that we have made our table, let's plot our data and do a fit. We will have to use the LINEST function in sheets to give us the error and number of sig figs in our measurement. Watch the video below demonstrating all of this.
 
 :::Figure:Video
-!(https://drive.google.com/file/d/1uDGD0iMowp-DWujwhay58kjcMYF-5goe)
+!(https://www.youtube.com/watch?v=wkqlSuAoFLQ)
 :::
 
 
