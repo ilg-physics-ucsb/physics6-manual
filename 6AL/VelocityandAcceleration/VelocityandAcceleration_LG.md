@@ -132,3 +132,97 @@ d) Based on your experiment, what properties of the object affect how the object
 :::
 
 :::
+
+
+## Collecting the Data 
+
+You have collected some data for a basketball falling from the sixth floor of Broida. Three other balls were dropped from the same point at Broida. Rather than have you repeat the same data collection we have collected data for you using a software called Tracker.
+
+Tracker allows us to monitor the location of the ball at every frame of the video which happens once every 1/30 seconds. This method has two advantages. 
+
+1. We are able to more precisely identify the location of the ball.
+2. We are able to collect many more data points.
+
+Below is a short video demonstrating how the Tracker software was used to collect data for the four drops.
+
+:::Figure:Video
+Insert Raffi OBS Video Here
+:::
+
+The data you will need is in Table 1 below, linked in a google sheet.
+
+:::Figure:Table
+
+| Ball Drop Data Set | 
+| -------- | 
+| [Link to Google Sheet](https://docs.google.com/spreadsheets/d/10RA1GWimVGeEHLYbc5dD-71jtPhEDk3WvfPQPjx9kNI)    | 
+
+:::
+
+
+## Anaylzing the Data
+
+::: Exercise
+1. Start by copying the data linked in Table 1 into separate spreadsheet. 
+2. Now you will insert your data you took for the basketball into the table and plot all four ball drops on one plot. For instructions on how to do this, watch the following video. 
+
+:::Figure:Video
+Video of plotting data. 
+:::
+:::
+
+::: Exercise
+In this exercise we will start the analysis process of the lab.
+
+In the next exercise, for each of the datasets, you will perform a polynomial fit of degree 2. This will draw a line of best fit by using a quadratic function. That is that it will attempt to fit the equation:
+
+:::Figure:Equation
+$$
+y = ax^2+bx+c
+$$
+:::
+
+The computer will adjust $a$, $b$, and $c$ to best fit the data provided. Let's start by understanding what $a$, $b$, and $c$.
+
+Equation 4 looks a lot like our kinematic equation for motion. Let's equate Equation 4 to the kinematic equation. We do this in Table 2 below. Each row starts by defining the variable. The next column has the symbol we use to represent the variable in the fit. The final column has the equivalent symbol used in the kinematic equation.
+
+:::Figure:Table
+| Variable Name | Fit Symbol | Kinematic Symbol |
+| -------- | -------- | -------- |
+| Time     | $x$     | $t$     |
+| Position | $y$    | $y$    |
+| Acceleration| $a$ | $\frac{1}{2}g$ |
+| Initial Velocity | b |  $v_0$ |
+| Initial Position | c | $y_0$
+:::
+
+
+:::Note
+** This is a critical concept that you understand before moving forward. Below are three questions. Read them and spend a few minutes trying to answer them for yourself. When you think you have the answers, click the link at the bottom to take you to the answers. **
+
+
+a. For an ideal fall (one that falls exactly like the kinematic equation describes), what should the value of $a$ in your fit be?
+
+b.  For drop like the ones in the video, where the ball is released from rest, what should the value of $b$ in your fit be?
+
+c. When the origin is defined at the release point of the ball, like it is in the video, what should the value of $c$ in your fit be?
+
+[Answers](https://docs.google.com/document/d/1xuPutEV_pWWWZYYmi8oLKV-G9F3q-pMSDv9B48brLp0)
+
+:::
+:::
+
+:::Exercise
+In this exercise you will perform a fit for each ball drop and start the analysis of the drops. 
+
+1. Start by just looking at your data. Compare 
+
+
+
+:::
+
+
+
+
+
+
