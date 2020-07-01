@@ -15,7 +15,7 @@ These three variables are interrelated, as each quantity tells you about the *ch
 To make our discussion concrete, we should review some basic physics in the case that there are no forces acting on the body of interest. 
 
 
-Let's imagine that that at $t=0$, we have a ball at rest at a height $y_0= 25 m$. What is its position at $t=10$s? Since the ball is stationary --- otherwise, $v(0)= 0$m/s --- of course it will still be $y(10 s)=25 m$!
+Let's imagine that that at $t=0$, we have a ball at rest at a height $y_0= 25 m$. What is its position at $t=10$s? Since the ball is stationary --- otherwise, $v(0)= 0$ m/s --- of course it will still be $y(10 s)=25 m$!
 
 :::Figure:Figure
 ![](imgs/nov_pos.gif)
