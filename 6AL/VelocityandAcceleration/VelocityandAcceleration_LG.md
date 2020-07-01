@@ -1,5 +1,13 @@
 # Position, Velocity, Acceleration, and Falling Objects
 
+---
+
+***Make sure to include all tables, plots, pictures, drawings, screenshots or anything else asked of you in the exercises in your report, as well as answers to all the questions.***
+
+***All responses and answers should contain the correct number of sig figs and should include units when needed.***
+
+---
+
 ## PART 1: INTRODUCTION
 
 For 1D motion of a body, we are typically concerned with three variables which characterize the trajectory:
@@ -89,6 +97,7 @@ Q3: In the region that the acceleration is negative, how would you describe the 
 
 :::
 
+---
 
 ## PART 2: MOTION OF FALLING OBJECTS
 
@@ -106,6 +115,11 @@ where y is the position, $v_{0y}$ the initial velocity, $a_{y}$ the acceleration
 
 
 
+
+
+
+---
+## PART 3: COLLECTING THE DATA
 
 ### Procedure
 
@@ -170,9 +184,6 @@ d) Based on your experiment, what properties of the object affect how the object
 
 :::
 
-
-## Collecting the Data 
-
 You have collected some data for a basketball falling from the sixth floor of Broida. Three other balls were dropped from the same point at Broida. Rather than have you repeat the same data collection we have collected data for you using a software called Tracker.
 
 Tracker allows us to monitor the location of the ball at every frame of the video which happens once every 1/30 seconds. This method has two advantages. 
@@ -183,7 +194,7 @@ Tracker allows us to monitor the location of the ball at every frame of the vide
 Below is a short video demonstrating how the Tracker software was used to collect data for the four drops.
 
 :::Figure:Video
-Insert Raffi OBS Video Here
+!(https://drive.google.com/file/d/1IQCkS8_r6cGboKwXuQqGKWEFir-vcKiA)
 :::
 
 The data you will need is in Table 1 below, linked in a google sheet.
@@ -196,8 +207,8 @@ The data you will need is in Table 1 below, linked in a google sheet.
 
 :::
 
-
-## Anaylzing the Data
+---
+## PART 4: ANALYZING THE DATA
 
 ::: Exercise
 1. Start by copying the data linked in Table 1 into separate spreadsheet. 
@@ -250,11 +261,41 @@ c. When the origin is defined at the release point of the ball, like it is in th
 :::
 
 :::Exercise
-In this exercise you will perform a fit for each ball drop and start the analysis of the drops. 
+In this exercise you will start the analysis of the drops. 
 
-1. Start by just looking at your data. Compare 
+1. Start by just looking at your data. Analyze it qualitatively by using the tools you learned in Part 1 and Part 2 of the lab. Try to determine what parts of each drop are falling under constant acceleration or constant velocity.
+2. For each of the 4 drops, sketch a velocity vs time plot.
+3. For each plot, write a brief description (one or two sentences) describing what happened in the plot.
+4. Take a picture of your four sketches and include them in your lab report. Also include your descriptions.
+
+:::
+
+:::Exercise
+In this exercise we will be more quantitative about our analysis. We will perform fits and use those to aid our analysis. 
+
+1. For each of the drops perform a polynomial fit of degree 2. 
+2. Create a table to summarize the information from your fits. It should look like the following:
+
+:::Figure:Table
 
 
+| Parameters| Dog Ball | Basketball | Volleyball | Beach Ball|
+| -------- | -------- | -------- | -- | -- |
+| Acceleration     |      |      |   |   |
+| Initial Velocity     |      |      |   |   |
+| Initial Position     |      |      |   |   |
+
+:::
+
+---
+This is where I am bulleting ideas.
+
+- We could have them calculate the percent difference for the acceleration. Ask them why are they so different and what does it mean?
+- We could explain or say somethign about terminal velocity?
+- We could point out that $b$ is getting further and further from zero. This is an indicator of a poor model. We didn't take into account air resistance. 
+- Ask them to look at a subset of data and fit a line too it. Relate that back to the sketches the made.
+- Other thoughts.
+---
 
 :::
 
