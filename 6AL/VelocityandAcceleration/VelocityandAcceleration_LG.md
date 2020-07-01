@@ -23,40 +23,36 @@ These three variables are interrelated, as each quantity tells you about the *ch
 To make our discussion concrete, we should review some basic physics in the case that there are no forces acting on the body of interest. 
 
 
-Let's imagine that that at $t=0$, we have a ball at rest at $x_0= 25 m$. What is its position at $t=10$s? Since the ball is stationary --- otherwise, $v(0)= 0$m/s --- of course it will still be $x(10 s)=25 m$!
+Let's imagine that that at $t=0$, we have a ball at rest at a height $y_0= 25 m$. What is its position at $t=10$s? Since the ball is stationary --- otherwise, $v(0)= 0$m/s --- of course it will still be $y(10 s)=25 m$!
 
 :::Figure:Figure
-![](imgs/nov.gif)
+![](imgs/nov_pos.gif)
 :::
 
-Now we image that this ball is known to have a initial velocity $v_0 = + 5$ m/s, with no forces acting upon it.  Since no forces are acting on the ball, the *change* in the velocity must be zero, so $v(t) = v_0=5$m/s for all time (not that $t$ does not appear!).
+Now we imagine that this ball is given an initial velocity $v_0 = + 10$ m/s by tossing it upwards, with no forces acting upon it (for example, in space).  Since no forces are acting on the ball, the *change* in the velocity must be zero, so $v(t) = v_0=10$m/s for all time (not that $t$ does not appear!).
 
 :::row 
 ::: column
 :::Figure:Figure
-![](imgs/v5.gif)
-:::
+::: column
+![](imgs/v10_pos.gif)
 :::
 
 :::column
-Your other column
+![](imgs/v10_vel.png)
 :::
+
 :::
-Since the velocity tells you how an object's *position* is changing in time, and we know that the velocity in the absence of force is constant, we can say that the position of the ball will increase by $5$m per second that passes. From this, we deduce that at $t=10$s, the ball is now at $x(10 s) = x_0 + v_0 t=  -2$m $+ 5$ m/s $\times 10$s = $48$ m. 
+Since the velocity tells you how an object's *position* is changing in time, and we know that the velocity in the absence of force is constant, we can say that the position of the ball will increase by $5$m per second that passes. From this, we deduce that at $t=10$s, the ball is now at $y(10 s) = y_0 + v_0 t=  25$m $+ 10$ m/s $\times 10$s = $125$ m. 
 
 Generally, in the absence of external forces, we can capture this relationship as:
 
-$$ 
-x(t) = v_0 t + x(0)
-$$
+$$ y(t) = v_0 t + y_0$$
 
-
-
-
-### Motion Under a Constant Force
+### Motion Under Constant Acceleration
 Once we include external forces acting on a body, we now must think about how the velocity changes over time.
 
-Consider now that our ball is 1kg and being pushed with a force of 1N. From $F=ma$, we find that $a = 1$m/s$^2$
+Consider now that we repeat this experiment on the moon, so that our ball is accelerating toward the ground at approximately $a = -1.6$m/s$^2$
 
 Similar to our equation for change in position, our equation for velocity is now:
 
@@ -65,26 +61,29 @@ v(t) = a t + v_0
 $$
 
 :::Figure:Figure
-![](imgs/vplot.png)
+::: column
+![](imgs/acc_pos.gif)
 :::
 
-So that at $t=10$, we can now calculate that our ball has a velocity of $v(10s) = 15$ m/s.
+:::column
+![](imgs/acc_vel.png)
+:::
+
+:::
+
+So that at $t=10$, we can now calculate that our ball has a velocity of $v(10s) = -6$ m/s.
 
 This presents us with an issue when calculating the new position of our ball, however, since now the velocity is continually changing: our previous equation is no longer correct.
 
 Given the relationship between velocity and acceleration above, it is an exercise in calculus to show the following relationship is true:
 
 $$
-x(t) = \frac{1}{2} at^2 + v_0 t 
-+x_0
+y(t) = \frac{1}{2} at^2 + v_0 t 
++y_0
 $$
 
-:::Figure:Figure
-![](imgs/acc.gif)
-:::
 
-
- Putting it all together, we have that $x(10 s) = 125$ m
+ Putting it all together, we have that $x(10 s) = 45$ m
 
 ### General Properties of Motion Curves
 
