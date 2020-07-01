@@ -1,66 +1,100 @@
-# Velocity, Acceleration, and Falling Objects
+# Position, Velocity, Acceleration, and Falling Objects
 
 ## PART 1: INTRODUCTION
 
-### Gaining Intuition
+For 1D motion of a body, we are typically concerned with three variables which characterize the trajectory:
 
-Suppose that you are sitting in the lab and you have some time to kill before the lab starts. You just finished your bag of chips in the hall and now feel a bit thirsty. After counting your change, you decide you have the time and resources to get a soda before class starts, and you head out to the nearest vending machine. Once there, you find only one selection left, and you *so* dislike orange. So you scurry to another vending machine across campus, only to find that it is out of order. You find a third, but this nasty machine won&rsquo;t take your coins. Noticing that the time has run out, you make it back to class empty-handed and find someone in your seat. You find a lab seat three feet to the left of the one you had occupied prior to your search for a soda.
-```
-```
-Moral of the story: Carry a bottle of water.
-
-### Displacement
-
-Like lawyers, doctors, engineers and others in various professions, physicists have their own vocabulary and language. The language of physics is mathematics. In the tale above, the net result of your journey was simply that you ended up three feet to the left of your original position. This distance is called the net displacement. If you connect a string from the initial position to the final position, you will reel out three feet of string to the left. Your (net) displacement is three feet to the left. The concept of position presupposes some sort of reference frame. You need to know where you were before you can figure out how far you went. By convention, we use Cartesian (rectangular) coordinates on a Euclidian (flat) plane. We locate points on the plane by means of two perpendicular axes. The horizontal, or *x*-axis, and the vertical, or *y*-axis. These cross each other at the point where the *x* and *y* coordinates are both zero (the *origin*). On the *x*-axis, left of zero is negative (-), and right of zero is positive (+). Also, any displacement towards the left is negative, and any displacement towards the right is positive. In the story above, the displacement is -3 feet, or three feet to the left of the original location. Other conventions are (for the *y*-axis) up (+) and down (-), and (for rotation) clockwise (-) [cw] and counterclockwise (+) [ccw]. You&rsquo;ll bump into these terms soon. You may have noticed that we specified the displacement with two items &ndash; 3 feet, a magnitude, and &ldquo;to the left,&rdquo; a direction. A quantity that has both magnitude and direction is called a *vector* (directed line segment). We may take &ldquo;to the left&rdquo; to mean -180 degrees. We use the horizontal direction as the zero reference, with zero degrees towards the right. A positive angle opens above the horizontal and increases in the counterclockwise direction. A negative angle opens below the horizontal and increases in the clockwise direction.
-```
-```
-It is important to note that the initial position and the final position are vectors, **r**$_1$ and **r**$_2$. Each has its tail at the origin, and its head at the *x*, *y* coordinates of its respective position. The displacement vector is the difference **&Delta;r** = **r**$_2$ - **r**$_1$, whose components we obtain by subtracting *x* $_2$ -*x*$_1$ (call this &Delta;r$_x$ ) and *y*$_2$ - *y*$_1$ (call this &Delta;r$_y$). Since these form two sides of a right triangle, the magnitude of **&Delta;r** is $\sqrt{\rm\Delta{r}\it{_x}^{\rm{2}} + \rm\Delta{r}\it{_y}^{\rm{2}}}$ (the length of the hypotenuse), and the angle of its direction is given by tan &theta; = &Delta;r$_y$/&Delta;r$_x$.  In this lab, you will be dealing with motion along only one coordinate (the *y* coordinate), so merely subtracting one height from another will give the magnitude of the displacement, and the direction will be (vertically) downward.
-
-### Velocity
-
-Here is another vector. It also has two parts, a magnitude and a direction. The magnitude of the velocity is called *speed*. Speed is just a number without an associated direction. We call this type of quantity a *scalar*. 65 mph, 14 feet/second, and $3 \times 10^{8}$ meters/second are all speeds. Once one attaches a direction, however, a speed becomes a velocity. 65 mph north, 14 feet/second up, and $3\times 10^{8}$ meters/second to the left are all velocities. Let&rsquo;s say that you took 15 minutes to try, unsuccessfully, to find a soda. The velocity is defined as (your net displacement)/(the elapsed time). We have -3 feet/15 minutes, which equates to -0.2 feet/minute or -12 feet/hour. Recall that the displacement was to the left (-180&deg;). Observe that velocity is a change in position divided by a change in time. Hence,
+1. The *position*, $x(t)$, which tells you where in space the body is located at a given time
+2. The  *velocity*, $v(t)$ which tells you the speed and direction the object is travelling at a given time, and hence the *change* in the position
+3. The acceleration, $a(t)$, which accounts for the forces on the body through $F=ma$, and tells you the *change* in the velocity.
+   
+These three variables are interrelated, as each quantity tells you about the *change over time* of the previous.
 
 
-:::Figure:Equation
-$$
-\bf{\bar{v}} = \frac{\Delta r}{\rm\Delta t}
-$$
-:::
+### Motion with No Forces
+To make our discussion concrete, we should review some basic physics in the case that there are no forces acting on the body of interest. 
 
-where, $\bf\bar{v}$ is the velocity, **r** is the position ($\bf\Delta r$ is the displacement), and t is the time (&Delta;t is the elapsed time). Note: $\bf{\bar{v}}$ and **r** are bold, because they are vectors.  Note, also, that there is a bar over **v**. This is because the net displacement divided by the elapsed time gives the *average* velocity. Your search for a soda may have taken you on a long loop around the campus, over which both your speed and the direction in which you walked varied. Thus, in the 15 minutes that it took you to make the entire trip, you ended up having moved only three feet from your starting point. (Had you found your original seat empty and returned to it, your average velocity would have been zero feet/hour.)
 
-### Acceleration
-
-This is yet another vector. It also has two parts, magnitude and direction. The definition of acceleration is the time rate of change of velocity. This yields units that might look a bit weird. Let&rsquo;s say that you are on a skateboard and you increase your speed from 2 mph to 12 mph in 20 seconds. For the sake of argument, you are moving in a straight line due north. By this definition, your acceleration would be 10 mph/20 seconds or 0.5 mph/sec north. The formulation looks like this:
-
-:::Figure:Equation
-$$
-\bf{a} = \frac{\Delta v}{\rm{\Delta t}}
-$$
-:::
-
-where, **a** is the acceleration, **v** is the velocity, and t is the time. 
-
-- Notice that displacement, velocity and acceleration are all related to each other. Let&rsquo;s say we graph the displacement of an object with respect to time, with position on the vertical axis and time on the horizontal axis. To find the velocity of the object after some time, t, we find the point on the data line above that value of t, and then extend a horizontal line from that point to the y-axis to find the displacement.
-
-- Hint: For simplicity, the motion starts at the origin, and ***the direction stays the same***. With this condition, we can call the velocity speed, and call the displacement distance. (Note that an object can experience acceleration in which both speed and direction change, in which speed is constant but the direction changes, or in which direction is constant but the speed changes. In this lab, we will deal with only the last case &ndash; only the speed will change.)
-
+Let's imagine that that at $t=0$, we have a ball at rest at $x_0= 25 m$. What is its position at $t=10$s? Since the ball is stationary --- otherwise, $v(0)= 0$m/s --- of course it will still be $x(10 s)=25 m$!
 
 :::Figure:Figure
-![](imgs/Figure1.1_DistancevsTime.jpg)
+![](imgs/nov.gif)
 :::
 
- - Distance vs. Time Graph. The instantaneous speed (velocity) is equal to the slope of the tangent line at the point of measurement. In the case of constant velocity (no acceleration), it is the slope anywhere on the line.
+Now we image that this ball is known to have a initial velocity $v_0 = + 5$ m/s, with no forces acting upon it.  Since no forces are acting on the ball, the *change* in the velocity must be zero, so $v(t) = v_0=5$m/s for all time (not that $t$ does not appear!).
 
-Without further ado, we present the following statements:
+:::Figure:Figure
+![](imgs/v5.gif)
+:::
+Since the velocity tells you how an object's *position* is changing in time, and we know that the velocity in the absence of force is constant, we can say that the position of the ball will increase by $5$m per second that passes. From this, we deduce that at $t=10$s, the ball is now at $x(10 s) = x_0 + v_0 t=  -2$m $+ 5$ m/s $\times 10$s = $48$ m. 
+
+Generally, in the absence of external forces, we can capture this relationship as:
+
+$$ x(t) = v_0 t + x(0)$$
+
+
+
+
+### Motion Under a Constant Force
+Once we include external forces acting on a body, we now must think about how the velocity changes over time.
+
+Consider now that our ball is 1kg and being pushed with a force of 1N. From $F=ma$, we find that $a = 1$m/s$^2$
+
+Similar to our equation for change in position, our equation for velocity is now:
+$$v(t) = a t + v_0 $$
+
+:::Figure:Figure
+![](imgs/vplot.png)
+:::
+
+So that at $t=10$, we can now calculate that our ball has a velocity of $v(10s) = 15$ m/s.
+
+This presents us with an issue when calculating the new position of our ball, however, since now the velocity is continually changing: our previous equation is no longer correct.
+
+Given the relationship between velocity and acceleration above, it is an exxcerise in calculus to show the following relatiionship is true:
+
+$$
+x(t) = \frac{1}{2} at^2 + v_0 t 
++x_0
+$$
+
+:::Figure:Figure
+![](imgs/acc.gif)
+:::
+
+
+ Putting it all together, we have that $x(10 s) = 125$ m
+
+### General Properties of Motion Curves
+
+We have two important qualitative statements to make from the discussion above:
 
 1. The velocity of an object at a certain time is the slope of the distance-time graph at that point.
-2. The acceleration of an object at a certain point is the slope of the velocity-time graph at that point.
+2. Similarly, the acceleration of an object at a certain point is the slope of the velocity-time graph at that point.
+
+The following figure from Hyperphysics shows the trajectory of a body whose acceleration is constant for segments of time.
+
+:::Figure:Figure
+![](imgs/HP_MotionGraphs.png)
+:::
+
+Looking at this graph, answer the following questions:
+
+::: Question
+Q1: Find the places where the acceleration is $0$ m/s$^2$. In these regions, describe the behavior of the velocity graph? Is the position graph here curved or linear?
+
+Q2: Find the region of the graph where the acceleration is negative. Try to estimate the slope of the velocity graph. How does the slope compare to the value of the acceleration?
+
+Q3: In the region that the acceleration is negative, how would you describe the shape of the position curve? 
+
+:::
 
 
 ## PART 2: MOTION OF FALLING OBJECTS
 
-When dropped from the same height, which one of these objects &ndash; stone or feather &ndash; will hit the ground first? Most people will say, &ldquo;That depends.&rdquo; If this is done in a normal room environment, the stone wins. If it is done in an evacuated cylinder, both hit the bottom at the same time. In the next activity, you will watch videos of someone dropping a variety of balls from a sixth-floor walkway. For one drop, you will measure and record height and time data, and for the rest, you will be given the data. You will plot these data, and use your results to test the validity of one of the motion formulas, namely,
+When dropped from the same height, which one of these objects &ndash; stone or feather &ndash; will hit the ground first? Most people will say, &ldquo;That depends.&rdquo; If this is done in a normal room environment, the stone wins. If it is done in an evacuated cylinder, both hit the bottom at the same time. 
+
+In the next activity, you will watch videos of someone dropping a variety of balls from a sixth-floor walkway. For one drop, you will measure and record height and time data, and for the rest, you will be given the data. You will plot these data, and use your results to test the validity of one of the motion formulas, namely,
 
 :::Figure:Equation
 $$
@@ -69,6 +103,9 @@ $$
 :::
 
 where y is the position, $v_{0y}$ the initial velocity, $a_{y}$ the acceleration, and t the time.
+
+
+
 
 ### Procedure
 
