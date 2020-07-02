@@ -31,9 +31,10 @@ Let's imagine that that at $t=0$, we have a ball at rest at a height $y_0= 25 m$
 
 Now we imagine that this ball is given an initial velocity $v_0 = + 10$ m/s by tossing it upwards, with no forces acting upon it (for example, in space).  Since no forces are acting on the ball, the *change* in the velocity must be zero, so $v(t) = v_0=10$m/s for all time (not that $t$ does not appear!).
 
-:::row 
-::: column
+
 :::Figure:Figure
+:::row 
+
 ::: column
 ![](imgs/v10_pos.gif)
 :::
@@ -41,13 +42,16 @@ Now we imagine that this ball is given an initial velocity $v_0 = + 10$ m/s by t
 :::column
 ![](imgs/v10_vel.png)
 :::
-
 :::
+:::
+
 Since the velocity tells you how an object's *position* is changing in time, and we know that the velocity in the absence of force is constant, we can say that the position of the ball will increase by $5$m per second that passes. From this, we deduce that at $t=10$s, the ball is now at $y(10 s) = y_0 + v_0 t=  25$m $+ 10$ m/s $\times 10$s = $125$ m. 
 
 Generally, in the absence of external forces, we can capture this relationship as:
 
-$$ y(t) = v_0 t + y_0$$
+$$
+y(t) = v_0 t + y_0
+$$
 
 ### Motion Under Constant Acceleration
 Once we include external forces acting on a body, we now must think about how the velocity changes over time.
@@ -61,6 +65,7 @@ v(t) = a t + v_0
 $$
 
 :::Figure:Figure
+::: row
 ::: column
 ![](imgs/acc_pos.gif)
 :::
@@ -68,7 +73,7 @@ $$
 :::column
 ![](imgs/acc_vel.png)
 :::
-
+:::
 :::
 
 So that at $t=10$, we can now calculate that our ball has a velocity of $v(10s) = -6$ m/s.
@@ -276,9 +281,9 @@ c. When the origin is defined at the release point of the ball, like it is in th
 In this exercise you will start the analysis of the drops. 
 
 1. Start by just looking at your data. Analyze it qualitatively by using the tools you learned in Part 1 and Part 2 of the lab. Try to determine what parts of each drop are falling under constant acceleration or constant velocity.
-2. For each of the 4 drops, sketch a velocity vs time plot.
-3. For each plot, write a brief description (one or two sentences) describing what happened in the plot.
-4. Take a picture of your four sketches and include them in your lab report. Also include your descriptions.
+2. Notice how the Dog Ball, Basket Ball, and Volleyball all look very similar. The beach ball is quite different from the other three. Pick one of the three similar data sets and the beach ball and **sketch** a velocity vs time plot for both data sets on the same graph. **A sketch is just a quick drawing to display the important features of a plot. You should label the axis and the two lines, but you don't need a title.**
+3. For each velocity line, write a brief description (one or two sentences) describing what happened in the plot.
+4. Take a picture of your sketch and include it in your lab report. Also include your description.
 
 :::
 
@@ -286,24 +291,34 @@ In this exercise you will start the analysis of the drops.
 In this exercise we will be more quantitative about our analysis. We will perform fits and use those to aid our analysis. 
 
 1. For each of the drops perform a polynomial fit of degree 2. 
-2. Create a table to summarize the information from your fits. It should look like the following:
+2. Create a table to summarize the information from your fits. **Hint:** $a=\frac{1}{2}g$, so make sure to solve this for $g$ before putting it in your table. Your table should look like the following:
 
 :::Figure:Table
 
 
-| Parameters| Dog Ball | Basketball | Volleyball | Beach Ball|
-| -------- | -------- | -------- | -- | -- |
-| Acceleration     |      |      |   |   |
-| Initial Velocity     |      |      |   |   |
-| Initial Position     |      |      |   |   |
+| Parameters| Ideal Drop | Dog Ball | Basketball | Volleyball | Beach Ball|
+| -------- | -------- | -------- | -- | -- | -- |
+| Gravitational Accel. [g] ($m/s^2$)     |      |      |   |   | |
+| Initial Velocity  ($m/s$)   |      |      |   |   | |
+| Initial Position    ($m$) |      |      |   |   | |
 
 :::
+
+3. Calculate the percent difference off the acceleration from ideal for each of the four drops. You can do this in a spreadhseet if you'd like but please show your work for **one** of the calculations. 
+
+:::Question 
+a. What is the cause of this systematic error in the measurement of $g$?
+
+b. Why do you think it is different for the different balls? 
+:::
+
+4. Now let's look more closely at the initial velocity of the 
 
 ---
 This is where I am bulleting ideas.
 
 - We could have them calculate the percent difference for the acceleration. Ask them why are they so different and what does it mean?
-- We could explain or say somethign about terminal velocity?
+- We could explain or say something about terminal velocity?
 - We could point out that $b$ is getting further and further from zero. This is an indicator of a poor model. We didn't take into account air resistance. 
 - Ask them to look at a subset of data and fit a line too it. Relate that back to the sketches the made.
 - Other thoughts.
