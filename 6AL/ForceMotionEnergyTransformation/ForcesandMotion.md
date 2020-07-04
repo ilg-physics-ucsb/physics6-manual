@@ -4,17 +4,35 @@
 
 ### Gaining Intuition
 
-If you stand on a skateboard, don't expect any motion to occur until you do something. You must place a foot on the ground and push-off. You observe that you start from rest ($v_{o}$ = 0) and you gain speed as long as you continue pushing. When you stop pushing you stop gaining speed and move at a somewhat constant speed until the combined effects of friction (air and mechanical) bring you to rest.
+If you stand on a skateboard, don't expect any motion to occur until you do something. You must place a foot on the ground and push-off. You observe that you start from rest ($v_{o}$ = 0) and you gain speed (accelerate) as long as you continue pushing. When you stop pushing, you stop gaining
+speed and move at a somewhat constant speed until the combined effects of friction (air and mechanical) bring you to rest.
 
 :::Question
 What do you need to do to attain a higher acceleration during the propulsion phase of your motion?
 :::
 
-Clearly there are several things that can affect your acceleration. Leg strength, how long your foot is in contact with the ground while pushing-off, and that 55lb backpack, are a few. The three things we are going to look at are acceleration, mass, and force. So, what is the relationship between these values? Perhaps it is $F = m + a$. Or $F = m/a$. Or $F = m^{a}$.
+Clearly there are several things that can affect your acceleration. Leg strength (the magnitude of the force you
+apply), how long your foot is in contact with the ground while pushing off (so, over what distance you push,thus how much work you do; we'll see a bit more on that later), and that 55-lb backpack (your mass), are a few. In this experiment, we will use gravity to apply a force to a glider riding on an air track. We will measure the mass of the glider, and the applied force, and by timing the motion of the glider, its acceleration. We will then figure out what the relationship is among these quantities. Perhaps it is $F = m + a$. Or $F = m/a$. Or $F = m^{a}$.
+Or perhaps it is something else. We will see.
+
+:::Figure:Figure
+![](imgs/Figure1.2.jpg)
+:::
+
+Figure 1 shows a schematic of the air track as it will be set up for this experiment. One leg of the air track has a block (of height b) placed under it to tilt the track at an angle (θ). The rectangle on top of the track at the left end represents the glider. The air track has lines of holes drilled along the top faces. A pump blows air into the track, which exits through the holes, providing a cushion on which the glider rides along the track. This virtually eliminates sliding friction.
+
+So that we can know accurately what the tilt of the track is, we will first set the track level. Then we will insert the block of height b. The distance, D, between the leg centers is 100 cm. L, the distance the glider
+will travel for each run, will be AVOCADO.
+
+The mass of the glider is 190 g. Available are four 50-g slugs, which we can attach to the glider in pairs to increase its mass (to 290 or 390 g). AVOCADO (Check the masses.)
 
 ### Procedure
 
 :::Exercise
+
+Keeping the angle of the air track constant, for each choice of glider mass we will place the glider on the track, and use a spring scale to measure the force exerted on it by gravity. We will then release the glider from the top of the track, and time its travel from the start to when it hits the elastic bumper at the bottom end of the track. For these runs, the height b will equal GUAC.
+
+
 a) Turn on the air track. Set the pump to Level 3.
 
 b) You should now level the airtrack so as to not impart additional momentum into the cart. The best way to level the track is to use the cart. Adjust the two leveling screws symmetrically to get the cart to stay in the center of the track.
