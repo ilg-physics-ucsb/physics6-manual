@@ -4,31 +4,33 @@
 
 ### Gaining Intuition
 
-If you stand on a skateboard, don't expect any motion to occur until you do something. You must place a foot on the ground and push-off. You observe that you start from rest ($v_{0}$ = 0) and you gain speed (accelerate) as long as you continue pushing. When you stop pushing, you stop gaining
-speed and move at a somewhat constant speed until the combined effects of friction (air and mechanical) bring you to rest.
+If you stand on a skateboard, don't expect any motion to occur until you do something. You must place a foot on the ground and push-off. You observe that starting from rest, ($v_{0}$ = 0) in order to gain speed (accelerate) you must psuh with your foot. When you stop pushing, you stop accelerating and move at a somewhat constant speed until the combined forces due to friction (air and mechanical) bring you to rest.
 
 :::Question
 What do you need to do to attain a higher acceleration during the propulsion phase of your motion?
 :::
 
-Clearly there are several things that can affect your acceleration. Leg strength (the magnitude of the force you
-apply), how long your foot is in contact with the ground while pushing off (so, over what distance you push,thus how much work you do; we'll see a bit more on that later), and that 55-lb backpack (your mass), are a few. In this experiment, we will use gravity to apply a force to a glider riding on an air track. We will measure the mass of the glider, and the applied force, and by timing the motion of the glider, its acceleration. We will then figure out what the relationship is among these quantities. Perhaps it is $F = m + a$. Or $F = m/a$. Or $F = m^{a}$.
+There are several things that can affect your acceleration. Leg strength --- which determines the magnitude of the force you
+apply)--- how long your foot is in contact with the ground while pushing off --- which determines the length of time your foot is in contact with the ground and can apply force ---  and that 55-lb backpack --- otherwise, your total *mass* --- are a few.
+
+In this experiment, we will use gravity to apply a force to a glider riding on an air track. We will measure the mass of the glider, and the applied force, and by timing the motion of the glider, its acceleration. We will then figure out what the relationship is among these quantities. Perhaps it is $F = m + a$. Or $F = m/a$. Or $F = m^{a}$.
 Or perhaps it is something else. We will see.
 
 
 ### Procedure
+
 :::Figure:Figure
-![](imgs/Figure1.2.jpg)
+![](imgs/diagram.png)
+![](imgs/rail.png)
 :::
 
-Figure 1 shows a schematic of the air track as it will be set up for this experiment. One leg of the air track has a block (of height b) placed under it to tilt the track at an angle (θ). The rectangle on top of the track at the left end represents the glider. The air track has lines of holes drilled along the top faces. A pump blows air into the track, which exits through the holes, providing a cushion on which the glider rides along the track. This virtually eliminates sliding friction.
+Figure 1 shows a schematic of the air track as it will be set up for this experiment. In order to demonstrate the affects of force while minimizing friction, the air track has lines of holes drilled along the top faces. A pump blows air into the track, which exits through the holes, providing a cushion on which the glider hovers along the track, virtually eliminating sliding friction. Furthermore, our setup has the following features:
 
-So that we can know accurately what the tilt of the track is, we will first set the track level. Then we will insert the block of height b. The distance, D, between the leg centers is 100 cm. L, the distance the glider
-will travel for each run, will be AVOCADO.
+- One leg of the air track has a block (of height $b$ placed under it to tilt the track at an angle $\theta$. The rectangle on top of the track at the left end represents the glider. 
 
-The mass of the glider is 190 g. Available are four 50-g slugs, which we can attach to the glider in pairs to increase its mass (to 290 or 390 g). AVOCADO (Check the masses.)
+- So that we can know accurately what the tilt of the track is, we will first set the track level. Then we will insert the block of height $b$. The distance, $D$, between the leg centers is 100 cm. The distance the glider will travel for each run, $L$, will be AVOCADO.
 
-
+- The mass, $m$ of the glider is 190 g. Available are four 50-g slugs, which we can attach to the glider in pairs to increase its mass (to 290 or 390 g). AVOCADO (Check the masses.)
 
 :::Exercise
 
@@ -60,11 +62,9 @@ Video 1
 Does changing the mass affect the acceleration? Should it?
 :::
 
-3. Using the height b, leg span D, some trigonometry, and vector analysis, calculate g, the acceleration of gravity.
+3. Using the height b, leg span D, some trigonometry, and vector analysis, calculate g, the acceleration due to gravity.
 
-(To do this, you must first determine the angle θ. You can find θ by using b and D, given above. Once you have determined θ, use what you know about vectors to calculate the value of g from the glider’s acceleration. You may find some of the equations on the math sheet at the end of this lab to be helpful.)
-
-To get to the acceleration, $\theta$ must first be determined. The angle θ can be obtained by using b and D, where b is the height of the block and D is the distance between the airtrack's legs. Once $\theta$ has been determined, use what you know about vectors to calculate the acceleration.
+- - To do this, you must first determine the angle $\theta$. Again, you can (and should have!) find $\theta$ by using $b$ and $D$. Once you have determined $\theta$, use what you know about vectors to calculate the value of $g$ from the glider’s acceleration. You may find some of the equations on the math sheet, at the end of this lab,helpful.
 
 ::: Question
 How does this number compare to the accepted value (to two sig figs) of $g=-9.8$ m/s$^2$?
@@ -84,18 +84,19 @@ Does the plot appear to be linear? How does the force depend on mass? It might b
 
 
 :::Exercise
-We will now repeat one of the runs from Exercise 1, but this time we will use a range finder to follow the motion of the glider as it travels down the track and then bounces back up to the top. The range finder will periodically measure the distance of the glider from the top of the track, so that at the end of the run, we will have a set of data points that give position versus time. We will keep the track at the same angle as before. The figure below shows the setup.
-i) For two different masses repeat steps d) through f) from Exercise 1 for four different heights. See data sheet at the end of the lab.
+We will now repeat one of the runs from Exercise 1, but this time we will use a range finder to follow the motion of the glider as it travels down the track and then bounces back up to the top. The range finder will periodically measure the distance of the glider from the top of the track, so that at the end of the run, we will have a set of data points that give position versus time. We will keep the track at the same angle as before. The AVOCADO figure below shows the setup.
+
+1. For two different masses repeat steps 4) through 6) from Exercise 1 for four different heights. See data sheet at the end of the lab.
 
 We will use data points taken from when the glider bounces off the bumper at the bottom of the track to when it next returns to the bumper.
 
 In order to use the range finder, we must attach a metal reflector plate to the glider. The mass of the glider with the plate attached is AVOCADO.
 
-1. Make a table like the one below for the data you will use.
+2. Make a table like the one below for the data you will use.
 
 :::Figure:Table
 |Mass $m_i$| "
-| --------  | --------   
+| --------  | --------
 | Distance (m) | Time (s) 
 | "         |               |                          
 | "         |               |                         
@@ -106,11 +107,11 @@ The following video shows the experiment:
 
 AVOCADO: !(Video link goes here.)
 
-We now have a set of position versus time data. The positions are the distance r in the figure above.
+We now have a set of position versus time data. The positions are the distance $r$ in the figure above (AVOCADO: make figure).
 
-2. Take 10 points, roughly equally spaced, from maximum position to maximum position (the trip from the bumper, up the track and back to the bumper), and make a graph of position vs. time. What shape does this plot have?
+3. Take 10 points, roughly equally spaced, from maximum position to maximum position (the trip from the bumper, up the track and back to the bumper), and make a graph of position vs. time. What shape does this plot have?
 
-3. From kinematics, you should know that the instantaneous slope (tangent) at any point on your position-vs.-time graph gives the velocity at that point. Now make a plot of velocity vs. time. AVOCADO -- Will we just give them the v-t plot?
+4. From kinematics, you should know that the instantaneous slope (tangent) at any point on your position-vs.-time graph gives the velocity at that point. Now make a plot of velocity vs. time. AVOCADO -- Will we just give them the v-t plot?
 :::
 
 ####
@@ -151,6 +152,8 @@ Using your answers from Questions 4 and 5.1, write an equation that relates forc
 ## PART 2: ENERGY TRANSFORMATION
 ### Gaining Intuition
 In this part of the lab you will be investigating the transformation of energy from one form to another, namely a transformation between potential energy (PE) and kinetic energy (KE). Potential energy is stored energy, for example the energy in a compressed spring, or the gravitational potential energy that an object has by virtue of its height above the ground. Kinetic energy is energy of motion. A mass, having been flung upwards by the spring after it has been released, has kinetic energy. When an object is dropped from some height above the ground, gravity accelerates it downwards, converting its initial potential energy into kinetic energy as it falls to the ground.
+
+AVOCADO: add simulation
 
 In the examples above, the mass starts out with zero kinetic energy. The spring, in one, and gravity, in the other, do work on the mass, thus giving it kinetic energy. This would suggest that work and energy are equivalent. Indeed, the Work-Energy Theorem states that the work done on an object is always equal to the change in kinetic energy of the object. Work and energy have the same units ($kg⋅m^2/s^2$), which represent the standard unit of energy called Joules (J). We will not discuss work in detail, but should note that it is defined as the product of the force acting on an object and the distance over which it acts, hence the aforementioned units.
 
