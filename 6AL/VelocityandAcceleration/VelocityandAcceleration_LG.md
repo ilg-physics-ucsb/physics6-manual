@@ -45,7 +45,7 @@ Now we imagine that this ball is given an initial velocity $v_0 = + 10$ m/s by t
 :::
 :::
 
-Since the velocity tells you how an object's *position* is changing in time, and we know that the velocity in the absence of force is constant, we can say that the position of the ball will increase by $5$ meters per second that passes. From this, we deduce that at $t=10$s, the ball is now at $y(10 s) = y_0 + v_0 t=  25$m $+ 10$ m/s $\times 10$s = $125$ m. 
+Since the velocity tells you how an object's *position* is changing in time, and we know that the velocity in the absence of force is constant, we can say that the position of the ball will increase by $10$ meters per second that passes. From this, we deduce that at $t=10$s, the ball is now at $y(10 s) = y_0 + v_0 t=  25$m $+ 10$ m/s $\times 10$s = $125$ m. 
 
 Generally, in the absence of external forces, we can capture this relationship mathematically as:
 
@@ -117,7 +117,7 @@ To answer this, we have two important statements to make from the discussion abo
 1. The velocity of an object at a certain time is the slope of the distance-time graph at that point.
 2. Similarly, the acceleration of an object at a certain point is the slope of the velocity-time graph at that point.
 
-Before discussing this, there are three plot shapes that are important to understand for this analysis: constant, linear, and curved. (AVOCADO, do we want parabolic here instead of curved?)
+Before discussing this, there are three plot shapes that are important to understand for this analysis: constant, linear, and curved. 
 
 :::Figure:Figure
 ::: row
@@ -141,7 +141,7 @@ C
 :::
 :::
 
-Constant refers to a value that is not changing in time, a horizontal line, as can be seen in Figure 4 Part A. Linear refers to value that is changing with time but has a linear slope as seen in Figure 4 Part B. Curved (AVOCADO or parabolic) refers to a value that is changing with time and is not linear as seen in Figure 4 Part C.
+Constant refers to a value that is not changing in time, a horizontal line, as can be seen in Figure 4 Part A. Linear refers to value that is changing with time but has a linear slope as seen in Figure 4 Part B. Curved refers to a value that is changing with time and is not linear as seen in Figure 4 Part C.
 
 The following figure from Hyperphysics shows the trajectory of a body whose acceleration is constant for each segment of time. Acceleration being constant for each segment is important for simplifying our plots.
 
@@ -170,7 +170,7 @@ Now that you have gained familiarity with position, velocity, and acceleration p
 
 The dashed lines indicate where the plot changes from one of our above mentioned plot shapes to another. 
 
-1. Make a sketch plot for velocity with dotted lines in the same positions. **A sketch is just a quick drawing to display the important features of a plot, e.g. linear, parabolic, or constant. You should label the axes and the two lines, but you don't need a title.**
+1. Make a sketch plot for velocity with dotted lines in the same positions. **A sketch is just a quick drawing to display the important features of a plot, e.g. linear, parabolic, or constant. You should label the axes, but you don't need a title.**
 
 2. Sketch the velocity curve for each segment in you skeleton plot.
 
@@ -187,7 +187,6 @@ Make sure to take a picture of your sketch plots and include them in your report
 ---
 ## PART 2: COLLECTING THE DATA
 
-### Procedure
 
 ::: Exercise
 
@@ -208,7 +207,7 @@ The pink dog ball is small but fairly weighty for its size. The basket ball is m
 
 2. Take 10 data points by pausing the video and recording the distance from the top and the timestamp on the embedded stopwatch. 
 
-3. Place your recoded data point in a table with the headers "Time (s)" and "Y_Basket (s)."
+3. Place your recoded data point in a table with the headers "Time (s)" and "Y_Basket (m)."
 
 :::
 

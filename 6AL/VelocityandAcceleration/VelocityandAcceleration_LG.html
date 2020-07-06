@@ -5,6 +5,46 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body><link rel="stylesheet" href="css\pandoc.css"><link rel="stylesheet" href="css\katex.min.css"><link rel="stylesheet" href="css\katex.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="css\PhDemoJS.css">
+    <h1>Position, Velocity, Acceleration, and Falling Objects</h1>
+<hr>
+<p><strong><em>Make sure to include all tables, plots, pictures, drawings, screenshots or anything else asked of you in the exercises in your report, as well as answers to all the questions.</em></strong></p>
+<p><strong><em>All responses and answers should contain the correct number of sig figs and should include units when needed.</em></strong></p>
+<hr>
+<h2>PART 0: GETTING FAMILIAR WITH FREE FALL</h2>
+The simulation below demonstrates the free fall motion of a ball. The left hand side shows what the 
+    scene looks like to an onlooker: a ball falling straight towards the ground at increasing speed. The right 
+    hand side shows you what the respective "position v.s. time" curve would look like if you were to record this data.
+    To get a feel for the concepts in this lab, feel free to play with the sliders. Observe how increasing and decreasing
+    air resistance affects the shape of the graph! In this lab you will explore this phenomenon using your analyitical and mathematical skills.</center>
+ 
+ <br>
+ <br>
+    <center>
+    <div class="sim">
+  <div id="graph" height= "10 in"></div>
+  <button onclick="javascript:startUpdate();" class="btn" >Drop!</button>
+  <div class="slidecontainer">  
+    <br>
+    <br>
+    <b>Starting Height:</b> <span id="f" style="font-weight:bold;color:#000000" > 50 </span> m
+    <input type="range" min="1" max="300" value="200" class="sliderx" id="myRangex">
+    <br>
+    <b>Influence of Air Resistance:</b> <span id="g" style="font-weight:bold;color:#000000" > 0 </span> %
+    <input type="range" min="0" max="100" value="0" class="sliderar" id="myRangear">
+    <br>
+    <b>Initial Velocity:</b> <span id="h" style="font-weight:bold;color:#000000" > 0 </span> m/s
+    <input type="range" min="-20" max="20" value="0" class="sliderv" id="myRangev">
+    
+  <br>
+  <br>
+  </div>
+  
+  </center>
+  
+  </div>
+
 <h1>Position, Velocity, Acceleration, and Falling Objects</h1>
 <hr>
 <p><strong><em>Make sure to include all tables, plots, pictures, drawings, screenshots or anything else asked of you in the exercises in your report, as well as answers to all the questions.</em></strong></p>
@@ -24,7 +64,7 @@
 <figure class="Figure"><p><img src="imgs/nov_pos.gif"></p><figcaption>Figure 1</figcaption></figure>
 <p>Now we imagine that this ball is given an initial velocity <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>v</mi><mn>0</mn></msub><mo>=</mo><mo>+</mo><mn>10</mn></mrow><annotation encoding="application/x-tex">v_0 = + 10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">+</span><span class="mord">1</span><span class="mord">0</span></span></span></span></span> m/s by tossing it upwards, with no forces acting upon it (for example, in space).  Since no forces are acting on the ball, the <em>change</em> in the velocity must be zero, so <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>v</mi><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo><mo>=</mo><msub><mi>v</mi><mn>0</mn></msub><mo>=</mo><mn>10</mn></mrow><annotation encoding="application/x-tex">v(t) = v_0=10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">v</span><span class="mopen">(</span><span class="mord mathdefault">t</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">0</span></span></span></span></span>m/s for all time.  Note that the time, <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>t</mi></mrow><annotation encoding="application/x-tex">t</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.61508em;vertical-align:0em;"></span><span class="mord mathdefault">t</span></span></span></span></span>, does not appear in this equation!</p>
 <figure class="Figure"><div class="row"><div class="column"><p><img src="imgs/v10_pos.gif"></p></div><div class="column"><p><img src="imgs/v10_vel.png"></p></div></div><figcaption>Figure 2</figcaption></figure>
-<p>Since the velocity tells you how an object's <em>position</em> is changing in time, and we know that the velocity in the absence of force is constant, we can say that the position of the ball will increase by <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>5</mn></mrow><annotation encoding="application/x-tex">5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">5</span></span></span></span></span> meters per second that passes. From this, we deduce that at <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>t</mi><mo>=</mo><mn>10</mn></mrow><annotation encoding="application/x-tex">t=10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.61508em;vertical-align:0em;"></span><span class="mord mathdefault">t</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">0</span></span></span></span></span>s, the ball is now at <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi><mo stretchy="false">(</mo><mn>10</mn><mi>s</mi><mo stretchy="false">)</mo><mo>=</mo><msub><mi>y</mi><mn>0</mn></msub><mo>+</mo><msub><mi>v</mi><mn>0</mn></msub><mi>t</mi><mo>=</mo><mn>25</mn></mrow><annotation encoding="application/x-tex">y(10 s) = y_0 + v_0 t= 25</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mopen">(</span><span class="mord">1</span><span class="mord">0</span><span class="mord mathdefault">s</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.7777700000000001em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.76508em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathdefault">t</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">5</span></span></span></span></span>m <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>+</mo><mn>10</mn></mrow><annotation encoding="application/x-tex">+ 10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">+</span><span class="mord">1</span><span class="mord">0</span></span></span></span></span> m/s <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>×</mo><mn>10</mn></mrow><annotation encoding="application/x-tex">\times 10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">×</span><span class="mord">1</span><span class="mord">0</span></span></span></span></span>s = <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>125</mn></mrow><annotation encoding="application/x-tex">125</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">2</span><span class="mord">5</span></span></span></span></span> m. </p>
+<p>Since the velocity tells you how an object's <em>position</em> is changing in time, and we know that the velocity in the absence of force is constant, we can say that the position of the ball will increase by <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>10</mn></mrow><annotation encoding="application/x-tex">10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">0</span></span></span></span></span> meters per second that passes. From this, we deduce that at <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>t</mi><mo>=</mo><mn>10</mn></mrow><annotation encoding="application/x-tex">t=10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.61508em;vertical-align:0em;"></span><span class="mord mathdefault">t</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">0</span></span></span></span></span>s, the ball is now at <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi><mo stretchy="false">(</mo><mn>10</mn><mi>s</mi><mo stretchy="false">)</mo><mo>=</mo><msub><mi>y</mi><mn>0</mn></msub><mo>+</mo><msub><mi>v</mi><mn>0</mn></msub><mi>t</mi><mo>=</mo><mn>25</mn></mrow><annotation encoding="application/x-tex">y(10 s) = y_0 + v_0 t= 25</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mopen">(</span><span class="mord">1</span><span class="mord">0</span><span class="mord mathdefault">s</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.7777700000000001em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.76508em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathdefault">t</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">5</span></span></span></span></span>m <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>+</mo><mn>10</mn></mrow><annotation encoding="application/x-tex">+ 10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">+</span><span class="mord">1</span><span class="mord">0</span></span></span></span></span> m/s <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>×</mo><mn>10</mn></mrow><annotation encoding="application/x-tex">\times 10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">×</span><span class="mord">1</span><span class="mord">0</span></span></span></span></span>s = <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>125</mn></mrow><annotation encoding="application/x-tex">125</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">2</span><span class="mord">5</span></span></span></span></span> m. </p>
 <p>Generally, in the absence of external forces, we can capture this relationship mathematically as:</p>
 <div class="math math-display"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo><mo>=</mo><msub><mi>v</mi><mn>0</mn></msub><mi>t</mi><mo>+</mo><msub><mi>y</mi><mn>0</mn></msub></mrow><annotation encoding="application/x-tex">y(t) = v_0 t + y_0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mopen">(</span><span class="mord mathdefault">t</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.76508em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathdefault">t</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></div>
 <p>In plain English, the above mathematical sentence translates to: "The position of the ball at a given time is equal to the distance it travels per each unit of time (e.g. seconds), multiplied by the time that has passed, plus its original position."</p>
@@ -47,21 +87,21 @@
 <p>where y is the position, <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>v</mi><mrow><mn>0</mn><mi>y</mi></mrow></msub></mrow><annotation encoding="application/x-tex">v_{0y}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.716668em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.301108em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">0</span><span class="mord mathdefault mtight" style="margin-right:0.03588em;">y</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span></span> the initial velocity, <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>a</mi><mi>y</mi></msub></mrow><annotation encoding="application/x-tex">a_{y}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.716668em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.15139200000000003em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.03588em;">y</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span></span> the acceleration, and t the time. In some of these examples, you may find that the data does not match the theoretical equation. It is your job to determine how and why these equations change using your sharp analytical skills.</p>
 <h3>General Properties of Motion Curves</h3>
 <p>Before you start the lab, we have one last theoretical discussion: given a plot of position versus time, how can we make quantitative and qualitative statements about the physics of a falling object? </p>
-<p>To answer this, te have two important  statements to make from the discussion above:</p>
+<p>To answer this, we have two important statements to make from the discussion above:</p>
 <ol>
 <li>The velocity of an object at a certain time is the slope of the distance-time graph at that point.</li>
 <li>Similarly, the acceleration of an object at a certain point is the slope of the velocity-time graph at that point.</li>
 </ol>
-<p>Before discussing this, there are three plot shapes that are important to understand for this analysis: constant, linear, and curved. (AVOCADO, do we want parabolic here instead of curved?)</p>
+<p>Before discussing this, there are three plot shapes that are important to understand for this analysis: constant, linear, and curved. </p>
 <figure class="Figure"><div class="row"><div class="column"><p><img src="imgs/Constant.png"></p><p>A</p></div><div class="column"><p><img src="imgs/Linear.png"></p><p>B</p></div><div class="column"><p><img src="imgs/Quad.png"></p><p>C</p></div></div><figcaption>Figure 4</figcaption></figure>
-<p>Constant refers to a value that is not changing in time, a horizontal line, as can be seen in Figure 4 Part A. Linear refers to value that is changing with time but has a linear slope as seen in Figure 4 Part B. Curved (AVOCADO or parabolic) refers to a value that is changing with time and is not linear as seen in Figure 4 Part C.</p>
+<p>Constant refers to a value that is not changing in time, a horizontal line, as can be seen in Figure 4 Part A. Linear refers to value that is changing with time but has a linear slope as seen in Figure 4 Part B. Curved refers to a value that is changing with time and is not linear as seen in Figure 4 Part C.</p>
 <p>The following figure from Hyperphysics shows the trajectory of a body whose acceleration is constant for each segment of time. Acceleration being constant for each segment is important for simplifying our plots.</p>
 <figure class="Figure"><div class="row"><div class="column"><p><img src="imgs/HP_MotionGraphs_Download.png"></p></div><div class="column"><p><img src="imgs/HP_MotionGraphs_Annotated.png"></p></div></div><figcaption>Figure 5</figcaption></figure>
 <p>Part A shows the three plots unobstructed. Please notice how the velocity corresponds to each section of the position plot. Whenever the position plot is linear, the velocity is constant. Whenever the position plot is curved, the velocity is linear. If the position is curving upwards, the velocity is positive, if the position is curving downwards, the velocity is negative. The Acceleration plot corresponds to the velocity plot exactly the same way the velocity plot corresponds to the position plot.</p>
 <p>Part B indicates points on the plots which correspond to the description of Part A. Please study the plots and notes in Part B to understand how they relate.</p>
 <div class="ExerciseHeading"><p>Exercise 1</p><div class="Exercise parsed"><p>Now that you have gained familiarity with position, velocity, and acceleration plots we can do analysis. In this exercise you will take a new position plot and create sketches of the velocity and acceleration plots. Please see Figure 6 below.</p><figure class="Figure"><p><img src="imgs/PvTSketch.png"></p><figcaption>Figure 6</figcaption></figure><p>The dashed lines indicate where the plot changes from one of our above mentioned plot shapes to another. </p><ol>
 <li>
-<p>Make a sketch plot for velocity with dotted lines in the same positions. <strong>A sketch is just a quick drawing to display the important features of a plot, e.g. linear, parabolic, or constant. You should label the axes and the two lines, but you don't need a title.</strong></p>
+<p>Make a sketch plot for velocity with dotted lines in the same positions. <strong>A sketch is just a quick drawing to display the important features of a plot, e.g. linear, parabolic, or constant. You should label the axes, but you don't need a title.</strong></p>
 </li>
 <li>
 <p>Sketch the velocity curve for each segment in you skeleton plot.</p>
@@ -75,7 +115,6 @@
 </ol><div class="Note"><p>Make sure to take a picture of your sketch plots and include them in your report along with the description.</p></div></div></div>
 <hr>
 <h2>PART 2: COLLECTING THE DATA</h2>
-<h3>Procedure</h3>
 <div class="ExerciseHeading"><p>Exercise 2</p><div class="Exercise parsed"><p>In this section we will look at different balls dropped from the sixth floor walkway of Broida Hall. The four balls dropped in Video 1 are of varying sizes and weights. Figure 7 shows the balls which are dropped. </p><figure class="Figure"><p><img src="imgs/Balls2.png"></p><figcaption>Figure 7</figcaption></figure><p>The pink dog ball is small but fairly weighty for its size. The basket ball is medium sized and also has decent weight to it. The volley ball is smaller than the basket ball and slightly lighter as well. The beach ball is by far the largest and the lightest. These four balls should give a wide range of masses and sizes for our data set. All four balls are dropped, however, you will only be taking data for the basket ball. The data on the other balls have been taken for you. We have annotated Video 1 for you with the height measurements and an embedded stopwatch. These will be useful tools for your data collection.</p><figure class="Video"><iframe src="https://drive.google.com/file/d/1kbutPZYjixIfeIvwBabgV7pHb8ZX3Ie8/preview" width="100%" height="600" allowfullscreen frameborder="0"></iframe><figcaption>Video 1</figcaption></figure><ol>
 <li>
 <p>Watch Video 1 and see how each ball falls to the ground.</p>
@@ -84,7 +123,7 @@
 <p>Take 10 data points by pausing the video and recording the distance from the top and the timestamp on the embedded stopwatch. </p>
 </li>
 <li>
-<p>Place your recoded data point in a table with the headers "Time (s)" and "Y_Basket (s)."</p>
+<p>Place your recoded data point in a table with the headers "Time (s)" and "Y_Basket (m)."</p>
 </li>
 </ol></div></div>
 <p>You have now collected some data for a basketball falling from the sixth floor of Broida! As mentioned above, three other balls were dropped from the same point at Broida. Rather than have you repeat the same data collection we have collected data for you using a software called Tracker.</p>
@@ -206,5 +245,293 @@
 </ol><div class="QuestionHeading"><p>Question 4</p><div class="Question parsed"><p>a. What is the slope of the line?</p><p>b. What does the slope represent?</p></div></div></div></div>
 <h2>Conclusion</h2>
 <div class="ExerciseHeading"><p>Exercise 7</p><div class="Exercise parsed"><p>Write a brief conclusion summarizing the important points of this lab.</p></div></div>
+
+<script>
+    
+    // a bunch of poorly named variables
+    var h = [], t = [], v = [];
+    // data bookkeeping for curve plot
+    let trajectory = [], time = [];
+    
+    //time step
+    var dt = 0.05;
+    
+    //gravity
+    var g =- 9.8
+    
+    //puts the stick figure + ball in the right place
+    var studentat = 220
+    var offset=-0.5;
+    
+    //these are not for the simulation, but for plotting 
+    var q=[0,0];
+    var tt=[0,0];
+    
+    
+    //Initial values for default simulation
+    var startheight= 200
+    var ar=0
+    var v0= 0
+    
+    
+    //Traces are what is to be plotted
+    var trace1 = {
+      x: t,
+      y: h,
+      mode: 'markers',
+      marker: {size: [20,10], color: ['blue', 'red'],},
+      name: 'Ball'
+    };
+    
+    var trace2 = {
+      x: time,
+      y: trajectory,
+      mode: 'lines',
+      name: 'Position vs Time',
+      line: {shape: 'spline'}
+    };
+    
+    var trace3 = {
+      x: t,
+      y: h,
+      mode: 'lines',
+      name: 'Position Now'
+    };
+    var trace4 = {
+      x: tt,
+      y: q,
+      mode: 'lines',
+      name: 'Time Now'
+    };
+    
+    
+    
+    var layout = {
+      legend: {
+        x: 1,
+        xanchor: 'right',
+        y: 1
+      },
+      xaxis: {
+        title: " time (s)",
+        range: [-2, 10]}
+        ,
+      yaxis: {
+        title: " position (m)",
+        range: [0, 320]
+        },
+      autosive: false,
+      width: 700,
+      height: 500,
+      margin: {
+        l: 50,
+        r: 50,
+        b: 100,
+        t: 100,
+        pad: 4
+      },
+      paper_bgcolor: 'white',
+      plot_bgcolor: 'white',
+      images: [
+          {
+            "source": "https://i.imgur.com/YucR7RY.png",
+            "xref": "x",
+            "yref": "y",
+            "x": - 1.3,
+            "y": studentat,
+            "sizex": 20,
+            "sizey": 200,
+            "opacity": 1,
+            "layer": "below"
+          }
+        ]
+    };
+    
+    
+    //Simulation Initialized, takes a starting height, air resistance and an intial velocity
+    function initialize(sh,air, vi){
+        startheight=Number(sh)
+        ar= Number(air)
+        v0=Number(vi)*1.0
+        console.log(v0)
+        trajectory = [startheight]
+        time = [0]
+    
+        
+    
+        //trajectory[0]= startheight;
+        //time[0] = 0;
+    
+        for (i = 0; i < 2; i++) {
+        h[i] = startheight;
+        t[i] = 0;
+        v[i] = v0;
+        }
+        //q is for plotting purposes
+        q[1]=startheight
+        t[0]=offset 
+        
+        Plotly.newPlot('graph', 
+        [trace1,  {
+          x: time,
+          y: trajectory,
+          mode: 'lines',
+          name: 'Position vs. Time',
+          line: {shape: 'spline'}}, trace3, trace4],layout
+        )
+    
+        //stick figure position
+        studentat= startheight+20
+        layout = {
+          legend: {
+              x: 1,
+              xanchor: 'right',
+              y: 1
+            },
+        xaxis: {
+          title: ' time(s) ',
+          range: [-2, 10]
+          },
+        yaxis: {
+          title: ' position (m) ',
+          range: [0, 320]
+          },
+          autosize: false,
+          width: 700,
+          height: 500,
+          margin: {
+              l: 50,
+              r: 50,
+              b: 100,
+              t: 100,
+              pad: 4
+          },
+          paper_bgcolor: 'white',
+          plot_bgcolor: 'white',
+          images: [
+              {
+                  "source": "https://i.imgur.com/YucR7RY.png",
+                  "xref": "x",
+                  "yref": "y",
+                  "x": - 1.3,
+                  "y": studentat,
+                  "sizex": 20,
+                  "sizey": 200,
+                  "opacity": 1,
+                  "layer": "below"
+              }
+             ]
+          };
+    }
+    
+    
+    // intialize the plot so there is something nice to look at
+    initialize(startheight,ar, v0)
+    
+    
+    
+    function compute () {
+    
+        // The two solutions are actually not "simply" analyiticaly related, so have to determine case
+        if(ar>0){
+          // If air resistance, calculate velocity closed form and numerically determine position
+          v[1] = (g/ar) -((g/ar)-v0)*Math.exp(-ar*t[1])
+          h[1] +=v[1]*dt*1.0;
+        } else{ 
+          // Otherwise just use free fall equations
+          v[1] = g*t[1] +v0
+          h[1] = 0.5*g*t[1]*t[1] +v0*t[1] + startheight
+        }
+    
+        // increment time for plotting
+        t[1] +=  dt;
+        
+        // copy values for plotting use
+        h[0]=h[1]
+        q[1]=h[1]
+        tt[0]=t[1]
+        tt[1]=t[1]
+    
+        //push current values to the curve tracer
+        time.push(t[1])
+        trajectory.push(h[1])
+     
+    }
+    
+    // update loop that terminates when the ball hits the ground. not sure how to interupt it onclick yet.
+    function update () {
+    
+      //call the compute function above
+      compute(); 
+    
+      //Animate the graph traces. The second trace has to be put in by hand for some reason? 
+      Plotly.animate('graph', {
+        data: [
+          trace1,  
+          {
+            x: time,
+            y: trajectory,
+            mode: 'lines',
+            name: 'Position',
+            line: {shape: 'spline'}
+            }, 
+          trace3,
+          trace4]
+      }, {
+        transition: {
+          duration: 0.0,
+        },
+        frame: {
+          duration: 0.0,
+          redraw: false,
+        }
+      });
+    
+      //kill the loop if the ball landed
+      if (h[1]> 0){
+      requestAnimationFrame(update)
+      }
+    }
+    
+    
+    
+    ///////////////// Sliders and Buttons and other dongles
+    
+    //This lets the button start the simulation
+    function startUpdate(){
+      initialize(sliderx.value,sliderar.value*0.01, sliderv.value)
+      update()
+    }
+    
+    //Poorly named sliders because I'm lazy
+    var sliderx = document.getElementById("myRangex");
+    var outputx = document.getElementById("f");
+    outputx.innerHTML = sliderx.value; // Display the default slider value
+    
+    var sliderar = document.getElementById("myRangear");
+    var outputar = document.getElementById("g");
+    outputar.innerHTML = sliderar.value; // Display the default slider value
+    
+    var sliderv = document.getElementById("myRangev");
+    var outputv = document.getElementById("h");
+    outputv.innerHTML = sliderv.value; // Display the default slider value
+    
+    // Update the current slider value (each time you drag the slider handle). Probably a nicer way to
+    // do all of these at once
+    sliderx.oninput = function() {
+      outputx.innerHTML = sliderx.value;
+      initialize(sliderx.value, sliderar.value*0.01, sliderv.value)
+    }
+    sliderar.oninput = function() {
+      outputar.innerHTML = sliderar.value;
+      initialize(sliderx.value, sliderar.value*0.01, sliderv.value)
+    }
+    
+    sliderv.oninput = function() {
+      outputv.innerHTML = sliderv.value;
+      initialize(sliderx.value, sliderar.value*0.01, sliderv.value)
+    }
+      </script>
+
 </body>
 </html>
