@@ -90,33 +90,7 @@ $$
 
  Putting it all together, we have that $x(10 s) = 45$ m
 
-### General Properties of Motion Curves
-
-We have two important qualitative statements to make from the discussion above:
-
-1. The velocity of an object at a certain time is the slope of the distance-time graph at that point.
-2. Similarly, the acceleration of an object at a certain point is the slope of the velocity-time graph at that point.
-
-The following figure from Hyperphysics shows the trajectory of a body whose acceleration is constant for segments of time.
-
-:::Figure:Figure
-![](imgs/HP_MotionGraphs.png)
-:::
-
-Looking at this graph, answer the following questions:
-
-::: Question
-Q1: Find the places where the acceleration is $0$ m/s$^2$. In these regions, describe the behavior of the velocity graph? Is the position graph here curved or linear?
-
-Q2: Find the region of the graph where the acceleration is negative. Try to estimate the slope of the velocity graph. How does the slope compare to the value of the acceleration?
-
-Q3: In the region that the acceleration is negative, how would you describe the shape of the position curve? 
-
-:::
-
----
-
-## PART 2: MOTION OF FALLING OBJECTS
+### MOTION OF FALLING OBJECTS
 
 When dropped from the same height, which one of these objects &ndash; stone or feather &ndash; will hit the ground first? Most people will say, &ldquo;That depends.&rdquo; If this is done in a normal room environment, the stone wins. If it is done in an evacuated cylinder, both hit the bottom at the same time. 
 
@@ -131,77 +105,109 @@ $$
 where y is the position, $v_{0y}$ the initial velocity, $a_{y}$ the acceleration, and t the time.
 
 
+### General Properties of Motion Curves
 
+We have two important qualitative statements to make from the discussion above:
 
+1. The velocity of an object at a certain time is the slope of the distance-time graph at that point.
+2. Similarly, the acceleration of an object at a certain point is the slope of the velocity-time graph at that point.
 
+Before discussing this, there are three plot shapes that are important to understand for this analysis: constant, linear, and curved. (AVOCADO, do we want parabolic here instead of curved?)
+
+:::Figure:Figure
+::: row
+::: column
+![](imgs/Constant.png)
+
+A
+:::
+
+:::column
+![](imgs/Linear.png)
+
+B
+:::
+
+:::column
+![](imgs/Quad.png)
+
+C
+:::
+:::
+:::
+
+Constant refers to a value that is not changing in time, a horizontal line, as can be seen in Figure 4 Part A. Linear refers to value that is changing with time but has a linear slope as seen in Figure 4 Part B. Curved (AVOCADO or parabolic) refers to a value that is changing with time and is not linear as seen in Figure 4 Part C.
+
+The following figure from Hyperphysics shows the trajectory of a body whose acceleration is constant for each segment of time. Acceleration being constant for each segment is important for simplifying our plots.
+
+:::Figure:Figure
+::: row
+::: column
+![](imgs/HP_MotionGraphs_Download.png)
+:::
+
+:::column
+![](imgs/HP_MotionGraphs_Annotated.png)
+:::
+:::
+:::
+
+Part A shows the three plots unobstructed. Please notice how the velocity corresponds to each section of the position plot. Whenever the position plot is linear, the velocity is constant. Whenever the position plot is curved, the velocity is linear. If the position is curving upwards, the velocity is positive, if the position is curving downwards, the velocity is negative. The Acceleration plot corresponds to the velocity plot exactly the same way the velocity plot corresponds to the position plot.
+
+Part B indicates points on the plots which correspond to the description of Part A. Please study the plots and notes in Part B to understand how they relate.
+
+::: Exercise
+Now that you have gained familiarity with position, velocity, and acceleration plots we can do analysis. In this exercise you will take a new position plot and create sketches of the velocity and acceleration plots. Please see Figure 6 below.
+
+:::Figure:Figure
+![](imgs/PvTSketch.png)
+:::
+
+The dashed lines indicate where the plot changes from one of our above mentioned plot shapes to another. 
+
+1. Make a sketch plot for velocity with dotted lines in the same positions. **A sketch is just a quick drawing to display the important features of a plot, e.g. linear, parabolic, or constant. You should label the axes and the two lines, but you don't need a title.**
+
+2. Sketch the velocity curve for each segment in you skeleton plot.
+
+3. Do the same to make an acceleration plot. Please note you will now have to refer to the velocity plot instead of the position one.
+
+4. Describe the motion in words. What is happening to the object in each segment of time. 
+
+:::Note
+Make sure to take a picture of your sketch plots and include them in your report along with the description.
+:::
+
+:::
 
 ---
-## PART 3: COLLECTING THE DATA
+## PART 2: COLLECTING THE DATA
 
 ### Procedure
 
-:::Exercise
-In this section, you will watch several videos, each of which will show a different type of ball being dropped from the sixth-floor walkway of Broida Hall. For one of the videos, you will periodically make the video pause, and take height and time data. For the others, you will be given the data.  You will then plot the data in two different ways, and check how well the plots fit equation 3.
+::: Exercise
 
-The drop height above the landing zone is GUAC. It will be best if you use this height as your zero reference. That is, the ball is dropped from *y* = 0, and strikes the ground at *y* = -GUAC. (You may subtract the measured heights from the drop height, to yield positive numbers, with the ball landing at GUAC. This will merely flip the graphs; they will otherwise be identical.) AVOCADO <!--  This may depend on how the students will be measuring the heights. -->
+In this section we will look at different balls dropped from the sixth floor walkway of Broida Hall. The four balls dropped in Video 1 are of varying sizes and weights. Figure 7 shows the balls which are dropped. 
 
-::: Figure:Video
-AVOCADO !Video link goes here
+:::Figure:Figure
+![](imgs/Balls2.png)
 :::
-Watch Video 1. At several times during the descent of the ball, make the video pause, and use GUAC to measure the ball&rsquo;s height and the corresponding time. (At the start, measure the zero time; the drop height, as noted above, is GUAC.) You should be able to take six data points, including the start and when the ball hits the ground. The more points you can get, the better; take at least six.
 
-1. Prepare a table for each ball to be dropped, with columns for height and time. (You may, of course, put all the data in one table. Depending on how you measure the heights, you will want to add columns, as necessary, so that you can subtract the initial drop height from all the measured heights. If the timing does not start exactly when the ball drops, you will want also to include extra time columns to subtract the start time from all subsequent times.) AVOCADO <!-- if the students will measure heights as differences from the drop height, this won't be necessary.-->
+The pink dog ball is small but fairly weighty for its size. The basket ball is medium sized and also has decent weight to it. The volley ball is smaller than the basket ball and slightly lighter as well. The beach ball is by far the largest and the lightest. These four balls should give a wide range of masses and sizes for our data set. All four balls are dropped, however, you will only be taking data for the basket ball. The data on the other balls have been taken for you. We have annotated Video 1 for you with the height measurements and an embedded stopwatch. These will be useful tools for your data collection.
 
 :::Figure:Video
-AVOCADO !(Video link goes here)
-:::
-
-2. Now watch videos 2 through GUAC. You will be given data for these drops, but it will be good for you to see them. You may wish to record any observations you have as you watch.
-
-:::Figure:Video
-AVOCADO !(Video link goes here)
-:::
-
-:::Figure:Video
-AVOCADO !(Video link goes here)
-:::
-
-:::Figure:Video
-AVOCADO !(Video link goes here)
+!(https://drive.google.com/file/d/1kbutPZYjixIfeIvwBabgV7pHb8ZX3Ie8)
 :::
 
 
-3. For each ball, graph the height y, vs. fall time t. Label your graph with the proper units. As noted above, your graph should have at least six points (including the origin). These are enough data to check basic trends. Make a separate graph for each ball. AVOCADO <!-- In earlier quarters, the students made these graphs on paper. I would guess that we are now expecting that they do this in a spreadsheet. Do we want to include some kind of instruction here, or assume that they will have a favorite, most likely Excel? -->
+1. Watch Video 1 and see how each ball falls to the ground.
 
-:::Question
-a) Are any of these plots linear?
+2. Take 10 data points by pausing the video and recording the distance from the top and the timestamp on the embedded stopwatch. 
 
-b) In terms of displacement, velocity, or acceleration, what does it mean if the plot is linear?
-
-*(The plots you will make for step 4., below, may help you a bit with the answers to questions c), d) and e).)*
-
-c) Are all of the curves shaped the same way? That is, do their slopes all change the same way, or do some change more gradually than others? If you see such a difference among the graphs, what might be causing it?
-
-d) Do any of the curves appear to have different regions, that is, parts where the slope changes at noticeably different rates? If so, what might be causing this?
-
-e) Do any of your curves exhibit a linear region (no change in slope)? At what part of the descent might this occur? What is the name for the velocity of the ball during this part of its descent?
-:::
-
-4. On each of these same graphs, also plot $y = \frac{1}{2} a_{y}t^{2}$ (using $a_{y} = -9.8 m/s^{2} = -32 ft/s^{2}$ to get *y*, plotting out to the total fall times) and  compare this to your original data. Remember to include a few sentences of analysis with each graph.
-
-:::Question
-a) Which object’s fall matched $y = \frac{1}{2} a_{y}t^{2}$ the best?
-
-b) Which object’s fall matched $y = \frac{1}{2} a_{y}t^{2}$ the least?
-
-c) Why didn’t all of your plots match $y = \frac{1}{2} a_{y}t^{2}$?
-
-d) Based on your experiment, what properties of the object affect how the object falls?
-:::
+3. Place your recoded data point in a table with the headers "Time (s)" and "Y_Basket (s)."
 
 :::
 
-You have collected some data for a basketball falling from the sixth floor of Broida. Three other balls were dropped from the same point at Broida. Rather than have you repeat the same data collection we have collected data for you using a software called Tracker.
+You have now collected some data for a basketball falling from the sixth floor of Broida! As mentioned above, three other balls were dropped from the same point at Broida. Rather than have you repeat the same data collection we have collected data for you using a software called Tracker.
 
 Tracker allows us to monitor the location of the ball at every frame of the video which happens once every 1/30 seconds. This method has two advantages. 
 
@@ -220,7 +226,7 @@ The data you will need is in Table 1 below, linked in a google sheet.
 
 | Ball Drop Data Set | 
 | -------- | 
-| [Link to Google Sheet](https://docs.google.com/spreadsheets/d/10RA1GWimVGeEHLYbc5dD-71jtPhEDk3WvfPQPjx9kNI)    | 
+| [Link to Google Sheet](https://docs.google.com/spreadsheets/d/1XI2mEKyuVftiG0uhUlS6Iah3zZuiGx1tUE5g1-e0ZIw/edit?usp=sharing)    | 
 
 :::
 
@@ -232,12 +238,24 @@ The data you will need is in Table 1 below, linked in a google sheet.
 2. Now you will insert your data you took for the basketball into the table and plot all four ball drops on one plot. For instructions on how to do this, watch the following video. 
 
 :::Figure:Video
-Video of plotting data. 
+!(https://drive.google.com/file/d/1mr_1k2dffZfHHVo0V0s2iWP5qVehbXrW)
 :::
 :::
 
+:::Exercise
+In this exercise you will start the analysis of the drops. 
+
+1. Start by just looking at your data. **Analyze it qualitatively by using the tools you learned in Part 1 of the lab.** Try to determine what parts of each drop are falling under constant acceleration or constant velocity.
+2. Notice how the Dog Ball, Basket Ball, and Volleyball all look very similar. The beach ball is quite different from the other three. Pick one of the three similar data sets and the beach ball and **sketch** a velocity vs time plot for both data sets on the same graph. **A sketch is just a quick drawing to display the important features of a plot, e.g. linear, parabolic, or constant. You should label the axes and the two lines, but you don't need a title. You shouldn't spend more than 5 minutes drawing this.**
+3. Using the velocity lines, translate the plot into a brief description  (one or two sentences) of the drop.
+4. Take a picture of your sketch and include it in your lab report. Also include your description.
+
+:::
+
 ::: Exercise
-In this exercise we will start the analysis process of the lab.
+:::Note
+This exercise is designed to help you understand curve fitting. Nothing needs to be submitted for this exercise.
+:::
 
 In the next exercise, for each of the datasets, you will perform a polynomial fit of degree 2. This will draw a line of best fit by using a quadratic function. That is that it will attempt to fit the equation:
 
@@ -278,16 +296,6 @@ c. When the origin is defined at the release point of the ball, like it is in th
 :::
 
 :::Exercise
-In this exercise you will start the analysis of the drops. 
-
-1. Start by just looking at your data. Analyze it qualitatively by using the tools you learned in Part 1 and Part 2 of the lab. Try to determine what parts of each drop are falling under constant acceleration or constant velocity.
-2. Notice how the Dog Ball, Basket Ball, and Volleyball all look very similar. The beach ball is quite different from the other three. Pick one of the three similar data sets and the beach ball and **sketch** a velocity vs time plot for both data sets on the same graph. **A sketch is just a quick drawing to display the important features of a plot. You should label the axis and the two lines, but you don't need a title.**
-3. For each velocity line, write a brief description (one or two sentences) describing what happened in the plot.
-4. Take a picture of your sketch and include it in your lab report. Also include your description.
-
-:::
-
-:::Exercise
 In this exercise we will be more quantitative about our analysis. We will perform fits and use those to aid our analysis. 
 
 1. For each of the drops perform a polynomial fit of degree 2. 
@@ -309,21 +317,39 @@ In this exercise we will be more quantitative about our analysis. We will perfor
 :::Question 
 a. What is the cause of this systematic error in the measurement of $g$?
 
-b. Why do you think it is different for the different balls? 
+b. Based on the picture of the balls, and what you know about the balls generally, why do you think the systematic error is different for the different balls? 
 :::
 
-4. Now let's look more closely at the initial velocity of the 
+4. Now let's look more closely at the initial velocity and intital position for the different drops. Do you notice how as the drops getting further from ideal the initial velocity and the inital position get further from ideal as well?
 
----
-This is where I am bulleting ideas.
+:::Question
+a. What is the percent difference in initial velocity of the beach ball and the basketball?
 
-- We could have them calculate the percent difference for the acceleration. Ask them why are they so different and what does it mean?
-- We could explain or say something about terminal velocity?
-- We could point out that $b$ is getting further and further from zero. This is an indicator of a poor model. We didn't take into account air resistance. 
-- Ask them to look at a subset of data and fit a line too it. Relate that back to the sketches the made.
-- Other thoughts.
----
+b. What is the percent difference in initial position of the beach ball and the basketball?
+:::
 
+The lower percent error in the value of $g$ from the basketball indicates that it has less systematic error, or that it is a better representation of our model (objects falling under constant acceleration). The large percent difference the beach ball has in the initial velocity and initial position with the basketball, combined with the larger percent discrepancy in the value of $g$ for the beach ball, hints that the beach ball strongly doesn't follow the constant acceleration model.
+
+::: Question
+If the beach ball isn't falling under constant acceleration, what model might it be falling under?
+:::
+
+5. Create one more plot of only the beach ball falling, but only use one second of data near the end. Somewhere it looks most linear. 
+6. Perform a linear fit on this data.
+
+::: Question
+a. What is the slope of the line?
+
+b. What does the slope represent?
+:::
+
+
+:::
+
+## Conclusion
+
+:::Exercise
+Write a brief conclusion summarizing the important points of this lab.
 :::
 
 
