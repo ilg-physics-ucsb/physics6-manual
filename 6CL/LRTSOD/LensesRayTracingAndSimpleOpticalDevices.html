@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body><link rel="stylesheet" href="css\pandoc.css"><link rel="stylesheet" href="css\katex.min.css"><link rel="stylesheet" href="css\katex.css">
+<h1>Lenses, Ray Tracing, and Simple Optical Devices</h1>
+<hr>
+<p><strong><em>Make sure to include all tables, plots, pictures, drawings, screenshots or anything else asked of you in the exercises in your report, as well as answers to all the questions.</em></strong></p>
+<p><strong><em>All responses and answers should contain the correct number of sig figs and should include units when needed.</em></strong></p>
+<hr>
+<h2>PART 1: GAINING INTUTION</h2>
+<figure class="Video"><iframe src="https://drive.google.com//file/d/1EmS1-pJrvrXioPXkftd1xWqZA97V3AdG/preview" width="100%" height="600" allowfullscreen frameborder="0"></iframe><figcaption>Video 1</figcaption></figure>
+<p>In the last lab you studied the bending of a single ray of light at a boundary between two materials, a process known as refraction. The important aspects of refraction are the indices of refraction of the materials and the incident angle the light makes with the boundary.  In this lab we will study the refraction of multiple rays of light emitted from a single point source as they reach the boundary at the front surface of a lens, then exit through the boundary at the rear surface.</p>
+<p>A lens is an object that consists of a material of index of refraction <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">n</span></span></span></span></span> and two spherical boundaries. The shapes of the boundaries are designed such that when multiple rays of light emitted by a single point source pass through the lens, they converge to a unique point, known as the image point. The lens thus creates an image of the point source.</p>
+<p>We will consider two common types of lenses, convex and concave lenses. Convex lenses are those that bulge outward in the center, with the edge being the most narrow part. Because light passing through such lenses converges to a point on the other side as described above, these are known as <em>converging</em> lenses. Concave lenses are those that are thicker on the outside and thinner towards the center. Later in this lab, we will examine the behavior of concave lenses, which is different from that of convex lenses.</p>
+<div class="ExerciseHeading"><p>Exercise 1</p><div class="Exercise parsed"><p>In this exercise you will explore the relationship between the curvature of a lens and its focal length. In Video 2 you will be shown three different lenses. They will appear first in profile, so that you can see their curvatures. The thicker a lens is at its center, the greater the curvature. Next you will see the light source, in this case a ceiling light. This is the object that will be focused by the lens to the paper below. The lenses will be moved up and down until the light is focused. Note the distance between the lens and the paper when the image is focused. Consider the relationship between this distance and the lens’s curvature.</p><figure class="Video"><iframe src="https://drive.google.com//file/d/1Z7R_8qxzZQeAn39GAaGjxaX9mtQaqlfF/preview" width="100%" height="600" allowfullscreen frameborder="0"></iframe><figcaption>Video 2</figcaption></figure><p>When a source is very far away, the image appears at the focal point of the lens. Let’s consider the ceiling light to be very far from the lenses. Thus the light from the ceiling is converging at the focal point of the lenses. The distance between the lens and the focal point is the <strong>focal length</strong>. Because for a convex lens the focal length is positive, this type of lens is also sometimes called a <em>positive</em> lens.</p><div class="QuestionHeading"><p>Question 1</p><div class="Question parsed"><p>Is there a relationship between the curvature of the lens and the focal length? </p></div></div><p><strong>*Note:</strong> A concave lens does not focus parallel light to a point.</p><p>Simulation 1 shows how lenses act in two dimensions. Play with the system by dragging the focal point along the optical axis. Moving the focal point to the left of the lens converts the blue convex lens to a red concave one. Use the simulation to explore your answer to question 1.</p>
+
+<figure class="Simulation">
+    <embed src="https://www.geogebra.org/material/iframe/id/rvcjbetq/width/700/height/444/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="100%" height="600" allowfullscreen frameborder="0">
+    <figcaption>Simulation 1</figcaption>
+</figure>
+
+</div>
+</div>
+
+<div class="ExerciseHeading"><p>Exercise 2</p><div class="Exercise parsed"><p>In this exercise we will be more quantitative about the focal lengths. We will show you a video of five parallel rays passing through two lenses. We will do this with a concave and a convex lens over graph paper. You will be measuring the focal lengths of these lenses. </p><figure class="Video"><iframe src="https://drive.google.com//file/d/1ftavX8tEbtSw7jihY-UlMOpSiEkN15ji/preview" width="100%" height="600" allowfullscreen frameborder="0"></iframe><figcaption>Video 3</figcaption></figure><p><strong>Note:</strong> The graph paper used is 4 boxes per inch.</p><ol>
+<li>
+<p>Make the video pause when the convex lens is in place.</p>
+</li>
+<li>
+<p>Measure the focal length in units of boxes.</p>
+</li>
+<li>
+<p>Notice that for the concave lens the light does not converge. For this reason we must trace the light backwards. Make the video pause when the concave lens is in place and the traced lines have appeared.</p>
+</li>
+<li>
+<p>Measure this distance in units of boxes.</p>
+</li>
+<li>
+<p>Convert both of your measurements to mm.</p>
+</li>
+</ol><div class="QuestionHeading"><p>Question 2</p><div class="Question parsed"><p>What focal lengths did you measure?</p></div></div></div></div>
+<div class="ExerciseHeading"><p>Exercise 3</p><div class="Exercise parsed"><p>In this exercise we will look at a lens that deviates from the thin lens approximation, specifically one that does not focus all parallel light to a single point. Lenses like this are said to have aberrations. In this video, five parallel rays pass through a thick, D-shaped lens.</p><figure class="Video"><iframe src="https://drive.google.com//file/d/1Io0eHTnNUuBQDuVvrKzhCtTZDQya-pQi/preview" width="100%" height="600" allowfullscreen frameborder="0"></iframe><figcaption>Video 4</figcaption></figure><ol>
+<li>
+<p>Make the video pause when the D-block is in place.</p>
+</li>
+<li>
+<p>You will notice that the rays do not converge to one point. Measure the focal lengths for the inner and outer pairs of rays from the flat side of the lens.</p>
+</li>
+</ol><div class="QuestionHeading"><p>Question 3</p><div class="Question parsed"><p>What are the focal lengths of the lens for these two pairs of rays?</p></div></div>
+
+<figure class="Simulation">
+    <embed src="https://www.geogebra.org/material/iframe/id/a2rNFfHA/width/1100/height/600/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="100%" height="600" allowfullscreen frameborder="0">
+    <figcaption>Simulation 2</figcaption>
+</figure>
+
+<ol>
+<li>Use this simulation to examine the behavior of a thick block lens. Set the radius of curvature of the left side to 100 and the radius of curvature of the right side to 4. This closely approximates the shape of the D-block shown above. Observe the refracted rays.</li>
+</ol><div class="QuestionHeading"><p>Question 4</p><div class="Question parsed"><p>Measured from the flat surface, at what distances do the rays converge?</p></div></div><ol start="2">
+<li>Now set the the radius of curvature of the right side to 100 and the radius of curvature of the left side to 4. Observe the refracted rays.</li>
+</ol><div class="QuestionHeading"><p>Question 5</p><div class="Question parsed"><p>Does the block lens have symmetrical behavior? That is, do the rays converge at the same distances from the flat surface (whether they enter or exit from that surface)? Why might this be the case? Hint: look at the flat boundary; comment on the refraction that occurs there.</p></div></div></div></div>
+<h2>PART 2: RAY TRACING WITH A LENS OF KNOWN FOCAL LENGTH</h2>
+<figure class="Video"><iframe src="https://drive.google.com//file/d/1Op2ZrjSVVUFSoRDbeuHTv0eDs3v2VV4g/preview" width="100%" height="600" allowfullscreen frameborder="0"></iframe><figcaption>Video 5</figcaption></figure>
+<p>An object is some physical entity that either produces light rays of its own (like a light bulb) or reflects them from some other light source (like this text, or your pencil). The image is a version of the object as it appears after light coming from it has gone through some optical device, in this case a lens. In the remainder of this lab we will explore how lenses form images, and how the placement of a lens relative to an object determines the location and relative size of the image, and whether it is upright (erect) or inverted.</p>
+<p>We use ray tracing methods to predict the behavior of a lens. We begin with convex lenses, though the same methods apply equally well to concave lenses. There are only three essential premises needed to analyze lenses:</p>
+<ol>
+<li>A light ray entering a lens parallel to the optical axis passes through the focal point on the other side.</li>
+</ol>
+<figure class="Figure"><p><img src="imgs/fig3_1.JPG" alt="FIgure 1"></p><figcaption>Figure 1</figcaption></figure>
+<ol start="2">
+<li>A light ray passing through the center of a lens passes through unchanged. <em>Note that this is true only for thin lenses.</em></li>
+</ol>
+<figure class="Figure"><p><img src="imgs/fig3_2.JPG" alt="Figure 2"></p><figcaption>Figure 2</figcaption></figure>
+<p>3.A light ray passing through the focal point and then through the lens emerges parallel to the optical axis.</p>
+<figure class="Figure"><p><img src="imgs/fig3_3.JPG" alt="Figure 3"></p><figcaption>Figure 3</figcaption></figure>
+<p><strong>Ray Tracing Method</strong></p>
+<ol>
+<li>
+<p>Pick a point as the object.</p>
+</li>
+<li>
+<p>Draw one line from the point, parallel to the optical axis. From where it hits the lens, draw a line down through the focal point. Be sure to extend it beyond the focal point.</p>
+</li>
+<li>
+<p>Draw one line from the point to the center of the lens, and extend it until it intersects the first line</p>
+</li>
+<li>
+<p>Draw one last line from the point through the near-side focal point and then to the lens. From there, draw a line parallel to the optical axis. This line will intersect the other two at the point where they intersect each other.</p>
+</li>
+</ol>
+<figure class="Figure"><p><img src="imgs/fig3_4.JPG" alt="Figure 4"></p><figcaption>Figure 4</figcaption></figure>
+<p>There are two other important cases to consider. When an object is placed within the focal length of a convex lens, the image point becomes negative. A virtual image is formed at the point that the image <em>appears</em> to come from. The ray tracing method is consistent, but note that you draw the line in reverse:</p>
+<figure class="Figure"><p><img src="imgs/fig3_5.JPG" alt="Figure 5"></p><figcaption>Figure 5</figcaption></figure>
+<p><em>Note:</em> As a convention, we always draw from the top-most point on the object. Any other point would work equally well. The top is generally most useful.</p>
+<p>A concave lens has a negative focal length, and the line from the object to the focal length actually crosses the lens:</p>
+<figure class="Figure"><p><img src="imgs/fig3_6.JPG" alt="Figure 6"></p><figcaption>Figure 6</figcaption></figure>
+<p>Concave lenses do not cause light to converge upon a single point, but instead cause it to spread out. Because of this they are referred to as <em>diverging</em> lenses. The focal length of a concave lens is negative. Hence they are also sometimes called <em>negative</em> lenses. If we incorporate this detail into our ray tracing, we can analyze them by using the same method that we use for convex lenses. </p>
+<figure class="Figure"><p><img src="imgs/fig3_7.JPG" alt="Figure 7"></p><figcaption>Figure 7</figcaption></figure>
+<p><em>Real Images:</em></p>
+<ul>
+<li><em>Light rays actually pass through the image point.</em></li>
+<li><em>The image is on the opposite side from the incident light.</em></li>
+</ul>
+<ul>
+<li><em>The image can be projected onto a screen.</em></li>
+<li><em>The image is inverted with respect to the object.</em></li>
+</ul>
+<p><em>Virtual Images:</em></p>
+<ul>
+<li><em>Light only appears to pass through the image point.</em> </li>
+<li><em>The image is on the same side as the incident light.</em> </li>
+</ul>
+<ul>
+<li><em>The image cannot be projected onto a screen.</em> </li>
+<li><em>The image is in the same orientation as the object; we say that it is erect.</em></li>
+</ul>
+<div class="ExerciseHeading"><p>Exercise 4</p><div class="Exercise parsed"><p>In this exercise you will practice ray tracing on a piece of paper. You will be expected to photograph and attach your work.</p><h4>Convex Lens - Object Outside Focal Length</h4><ol>
+<li>Get a sheet of paper and draw a horizontal optical axis. Next, draw a vertical line near the center of the optical axis to represent your lens, then measure out and draw the focal points. Assume the focal length to be 2 cm. Pick an object point 6 cm to the left of the lens, at a height above the optical axis that is near the top of the lens. Draw the three simple case rays – parallel, through the center of the lens, and through the focal point – and locate the image formed on the other side of the lens.</li>
+</ol><p>Note that the image is inverted, at a different distance from the lens than the object, and is a different size than the object. Also note that the light rays converge at a given point. For this reason, convex lenses are frequently referred to as <em>converging lenses.</em></p><h4>Convex Lens - Object Inside Focal Length</h4><ol start="2">
+<li>Get another sheet of paper and repeat step 1, but instead draw the object point inside the focal length, 1 cm away from the lens. Again draw the three simple case rays. Note that this is one of the special cases mentioned above; see Figure 5.</li>
+</ol><div class="QuestionHeading"><p>Question 6</p><div class="Question parsed"><p>What do you observe? Do the lines converge at a given point?</p></div></div><ol start="3">
+<li>Now trace the rays backwards as shown in Figure 5. You will find that they all intersect at a point on the same side as the object. </li>
+</ol><p>When an object is inside the focal length of a convex lens, the lens no longer converges the light rays to a single point. The image is bigger. Such a setup is called a <em>magnifier.</em> Since light does not actually pass through the point where the image is formed, we call the image a <em>virtual image.</em></p><h4>Concave Lens - Object Outside Focal Length</h4><ol start="4">
+<li>Get a third sheet of paper and repeat the ray tracing procedure for a concave lens with focal length -2 cm. Place the object outside of the focal length, 4 cm to the left of the lens. Note that this is the second special case mentioned above; see Figure 6.</li>
+</ol><div class="QuestionHeading"><p>Question 7</p><div class="Question parsed"><p>Do the rays converge at a given point?</p></div></div><ol start="5">
+<li>Trace the rays backwards as shown in Figure 6.</li>
+</ol><div class="QuestionHeading"><p>Question 8</p><div class="Question parsed"><p>For object distances outside the focal length, do concave lenses make things bigger or smaller?</p></div></div></div></div>
+<div class="ExerciseHeading"><p>Exercise 5</p><div class="Exercise parsed"><p>In this exercise you will fill out a table to describe image placements in single-lens optical systems. Use the following simulation to test your answers from Exercise 4. In addition, you will explore all possible scenarios to fill out the table below and fully characterize the behavior of convex and concave lenses.</p>
+    
+    <figure class="Simulation">
+        <embed src="https://www.geogebra.org/material/iframe/id/vd77gpfr/width/1033/height/482/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="100%" height="600" allowfullscreen frameborder="0">
+        <figcaption>Simulation 3</figcaption>
+    </figure>
+    
+<ol>
+<li>
+<p>Simulation 3 is dynamic. You can change the location of the object as well as the focal length of the lens. You can do the latter can by dragging the point labeled “Focus.” You can switch between convex and concave by dragging the “Focus” point to the right of the lens. </p>
+</li>
+<li>
+<p>Use the simulation to explore the conditions in the tables below. Fill out the table by using the <a href="https://docs.google.com/spreadsheets/d/1Cvw8Ov_A9N4cCR9wG04k_4OWk2SzO5Wo7_48GxVOHCQ/edit?usp=sharing">Table Templates</a>. Notice that the first case is filled out for you as an example.</p>
+</li>
+</ol><p><img src="imgs/Table.JPG" alt="Lens Characteristics Table"></p><div class="QuestionHeading"><p>Question 9</p><div class="Question parsed"><p>For the convex lens, describe with words what the conditions are such that the image is larger than the object, smaller than the object, and the same size as the object.</p></div></div></div></div>
+<h2>Conclusion</h2>
+<div class="ExerciseHeading"><p>Exercise 6</p><div class="Exercise parsed"><p>Write a brief summarizing the important points of this lab.</p></div></div>
+</body>
+</html>
