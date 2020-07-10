@@ -99,18 +99,6 @@ In this part of the lab we will try to get some intuition about what we expect t
 
 In this exercise we will look at a simulation that shows pure interference. It does this by shining two lights at the same time at a screen. If you'd like, it will let you explore the similarities of different types of waves, mainly water, sound, and light. We will focus on the light portion of the simulation.
 
-::: Figure#Simulation
-!(https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_en.html?screens=2)
-:::
-
-1. Start by selecting the light in the control panel on the right. It is the right-most button in the row of buttons at the bottom. You will know you've found it, because a large portion of the screen will turn black.
-
-2. Next check the "Screen" and "Intensity" selections. The "Intensity" button will become selectable after you check "Screen."
-
-3. Turn on both of the light sources by clicking the green buttons.
-
-4. On the screen you should see some colored bands start to appear once the light reaches the far end of the black space, where the screen is located. The intensity plot shows you how bright the light is on the screen. 
-
 ::: Question
 How does the separation between the two laser sources affect the space of the maxima on the on screen/in the intensity plot?
 :::
