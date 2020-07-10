@@ -18,39 +18,58 @@ In this lab we will look at both of these phenomena. They are very closely relat
 
 When light passes through two closely separated slits, the rays travel slightly different distances before reaching the screen. These slight discrepancies in distance cause the waves to interfere with one another as shown in Figure 1.
 
-:::Figure#Figure
+:::Figure:Figure
 ![When the two waves travel slightly different distances before reaching the screen, their phase relationship also changes*](imgs/fig1_1.jpg)
 :::
 
 The top of Figure 1 demonstrates constructive interference. The two waves are in phase with one another and add together, forming a bright spot, referred to as a maximum. The bottom of Figure 1 shows destructive interference. The waves are exactly out of phase at the screen, and produce a dark spot, referred to as a minimum. You can see that constructive interference happens whenever the path lengths are the same, or if they differ by a whole number of wavelengths. Similarly, destructive interference occurs when the path lengths differ by a half integer (1/2, 3/2, 5/2, etc.).
 
-The resulting maxima (bright spots) can be described mathematically by the formula for constructive interference:
+Let's make this a bit more quantitative.
 
-::: Figure#Equation
+:::Figure:Figure
+
+:::row
+
+:::column
+![Variable Definitions](imgs/Interference.png)
+
+A
+:::
+
+:::column
+![Variable Definitions](imgs/InterferenceTriangle.png)
+B
+:::
+:::
+
+Image from  [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/slits.html#c1)
+
+:::
+
+Figure 2A shows us all the meaningful variables. $y$ is the position on screen as measured from the center, $D$ is the distance between the slits and the screen, $\theta$ is the angle at which the light leaves the screen to get to position $y$, $d$ is the separation between the two slits, and $a$ is the slit width. We label which intensity maxima (bright spots) we are talking about with the letter $m$. We call the one in the middle of the two slits $0$. Then to one side of $0$ we label the maxima positions with positive numbers in increasing order away from $0$ (1,2,3 etc.) and the other side negative numbers in decreasing order away from the $0$ (-1, -2, -3, etc). Which side we pick for which is arbitrary. 
+
+Figure 1 tells us the condition for maxima occur and Figure 2A give the variables to mathematically describe Figure 1. Thus the resulting maxima can be described mathematically by the formula for constructive interference:
+
+::: Figure:Equation
 $$
 d\sin(\theta) = m\lambda
 $$
 :::
 
-where $d$ is the slit separation, $\theta$ is the angle to the screen, $m$ is an integer (0, 1, 2, 3, . . .), and $\lambda$ is the wavelength of the light source (see Figure 1.2). The angles are usually very small (the distance from the slits to the screen is much larger than the separation of the resulting pattern), so we can assume that $\sin(\theta)\approx\tan(\theta) = y/D$, where y is the distance from the central maximum, and D is the distance from the slits to the screen. The interference equation can now be rewritten:
+where $d$ is the slit separation, $\theta$ is the angle to the screen, $m$ is an integer (0, 1, 2, 3, . . .), and $\lambda$ is the wavelength of the light source. The angles are usually very small (the distance from the slits to the screen is much larger than the separation of the resulting pattern), so we can assume that $\sin(\theta)\approx\tan(\theta) = y/D$, where y is the distance from the central maximum, and D is the distance from the slits to the screen. The interference equation can now be rewritten:
 
 
-::: Figure#Equation
+::: Figure:Equation
 $$
 \lambda = \frac{dy}{mD}
 $$
 :::
 
-Let's quickly determine how good this approximation is.
+When D is 1 meter, the rror 
 
-::: Question
-### This question is extra credit. You are not required to do it.
-a. For about what angle is $\sin(\theta) \approx \tan(\theta)$ good to 1%? That is, when does the percent error betweeen $\sin(\theta)$ and $\tan(\theta)$ (where $\sin(\theta)$ is the "theortical" value and $\tan(\theta)$ is the "measured") just become *1%*. **Hint2: Don't bother solving this algebraically. Go to [GeoGebra](https://www.geogebra.org/graphing) and plot the percent error.** *Give your answer in degrees*
 
-b. Now let's check the next part of the approximation, $\tan(\theta) = \frac{y}{D}$. Using the $\theta$ you found in part a and assuming $D$= 1 m, what is the furthest $y$ distance you can measure while keeping the approximation from part a good to 1%? 
-:::
 
-***Diffraction***
+##### Diffraction
 
 Diffraction can happen with only a single slit. Thus, when we shine light through two slits we see not only the interference phenomenon, but also mixed with it, diffraction. It is important to note that the interference fringes are created by the two slits, but there is also a diffraction effect occurring from each individual slit, as demonstrated in Figure 2. The diffraction envelope causes a fading and brightening of the interference maxima.
 
@@ -93,55 +112,6 @@ For a set amplitude and separation, how does changing the frequency affect the i
 
 :::
 <!-- End Interference Exercise -->
-
-<!--
-::: Exercise
-
-In this exercise we will start by trying to look at diffraction separately from interference. We will do this by shining light through a single slit. Then we will add in interference by making it a double slit. One goal is to look at the pattern on the screen and distinguish what part of the pattern is caused by interference, and what part is caused by diffraction. The second goal is to determine how the slit width and slit separation affect these phenomena.
-
-When you open the simulation you will be greeted by two black screens; the one on the left has a white circle in the center. This white circle represents a hole in the screen. If you look above the two screens you will see what the experimental setup is. On the left is a light source. Then, in the middle is a small screen with a white dot on it. This screen is the same as the big one below on the left. Then at top right is larger black screen. This is the large screen on the right. 
-
-Light shines from the source, and travels toward the screen with a hole in it. Most of the light is blocked by the screen, but some light passes through the hole. This light goes on to land on the second screen, where we see a pattern.
-
-Below the light source, you can change the color of the light by moving the slider or clicking the arrows. Below that, to the left of the screen with the hole in it, you will see five boxes with different shapes. These let you select which hole you are going to use. Finally, at the very bottom is a control panel to adjust the size and shape of the hole.
-
-![Simulation 2](https://ilg-physics-ucsb.github.io/PhETMods/UCSBDiffraction/wave-interference/wave-interference_en.html?screens=4){width=100% height=600px}
-
-1. First adjust the wavelength to 655 nm. This is similar to the wavelengh of the light that we will use in the videos.
-
-2. Then select the hole that is the black square. It is the second from the top.
-
-3. You will start with one slit, so adjust the separation to 0.00 mm. This will make the two slits overlap.
-
-4. Adjust the height to 1.50 mm. This will turn the square into a slit.
-
-5. Turn on the light by clicking the big red button on the light source. 
-
-You should see some thin horizontal red lines on the screen. This is caused by the light diffracting through the slit in the horizontal direction. You may also notice duller red areas in the vertical direction where each of the thin red lines is. These are caused by diffraction in the vertical direction. We won't concern ourselves with that too much; let's focus on the horizontal direction.
-
-6. Make the slit width smaller by using the arrows. Pay attention to the size of the lines on the screen and the size of the lines with respect to each other. What do you notice happening as the slit width decreases?
-
-7. Now slowly make the slit width larger. What do you notice?
-
-Now let's take a look at two slits. In this setup we will have both interference and diffraction happening at the same time. 
-
-8. Turn the slit width all the way down to 0.01 mm.
-
-9. Now use the arrows to increase the separation. You should notice two slits just barely appear on the left screen.
-
-10. Slowly increase the separation and pay attention to the size of the lines and the spacing. Compare this to what you saw in the single-slit setup.
-
-11. Now try setting the slit width to 0.06 mm and the slit separation to 0.08 mm.
-
-12. Again slowly increase the separation. Notice the positions of the dark spots. Some should stay stationary, and others should change.
-
-![*Figure 2 - Diffraction and interference from a double slit*](imgs/fig1_2.jpg)
-
-AVOCADO I am not sure about the best way to use the exercise. And I feel like it could use some improvements.
-:::
--->
-<!-- End Diffraction Exercise --> 
-
 :::Exercise
 
 In this exercise you will see a video of  light shining through a pair of slits. This is not your standard pair of slits however. They are are attached to a wheel and designed to that as the wheel rotates the *slit **separation** will change* but the *slit **width** remains constant*. 
