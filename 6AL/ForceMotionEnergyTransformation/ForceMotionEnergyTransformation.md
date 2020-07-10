@@ -1,19 +1,18 @@
 # Forces, Motion and Energy Transformation
 
-## PART 1: WHAT IS THE PRECISE MATHEMATICAL RELATIONSHIP GOVERNING THE ACCELERATION OF A MASS WHEN ACTED UPON BY A FORCE?
+## PART 1: MATHEMATICAL RELATIONSHIP BETWEEN THE ACCELERATION OF A MASS AND THE FORCE ACTING ON IT
 
 ### Gaining Intuition
 
-If you stand on a skateboard, don't expect any motion to occur until you do something. You must place a foot on the ground and push-off. You observe that starting from rest, ($v_{0}$ = 0) in order to gain speed (accelerate) you must psuh with your foot. When you stop pushing, you stop accelerating and move at a somewhat constant speed until the combined forces due to friction (air and mechanical) bring you to rest.
+If you stand on a skateboard, don't expect any motion to occur until you do something. You must place a foot on the ground and push-off. You observe that starting from rest, ($v_{0}$ = 0) in order to gain speed (accelerate) you must push with your foot. When you stop pushing, you stop accelerating and move at a somewhat constant speed until the combined forces due to friction (air and mechanical) bring you to rest.
 
 :::Question
 What do you need to do to attain a higher acceleration during the propulsion phase of your motion?
 :::
 
-There are several things that can affect your acceleration. Leg strength --- which determines the magnitude of the force you
-apply)--- how long your foot is in contact with the ground while pushing off --- which determines the length of time your foot is in contact with the ground and can apply force ---  and that 55-lb backpack --- otherwise, your total *mass* --- are a few.
+A couple of things that can affect your acceleration are your leg strength, which determines the magnitude of the *force* you apply and that 55-lb backpack, otherwise, your total *mass* .
 
-In this experiment, we will use gravity to apply a force to a glider riding on an air track. We will measure the mass of the glider, and the applied force, and by timing the motion of the glider, its acceleration. We will then figure out what the relationship is among these quantities. Perhaps it is $F = m + a$. Or $F = m/a$. Or $F = m^{a}$.
+In this experiment, we will use gravity to apply a force to a glider riding on an inclined air track. We will measure the mass of the glider, and the applied force, and by timing the motion of the glider, its acceleration. We will then figure out what the relationship is among these quantities. Perhaps it is $F = m + a$. Or $F = m/a$. Or $F = m^{a}$.
 Or perhaps it is something else. We will see.
 
 
@@ -24,22 +23,26 @@ Or perhaps it is something else. We will see.
 ![](imgs/rail.png)
 :::
 
-Figure 1 shows a schematic of the air track as it will be set up for this experiment. In order to demonstrate the affects of force while minimizing friction, the air track has lines of holes drilled along the top faces. A pump blows air into the track, which exits through the holes, providing a cushion on which the glider hovers along the track, virtually eliminating sliding friction. Furthermore, our setup has the following features:
+Figure 1 shows a schematic of the air track as it will be set up for this experiment. In order to demonstrate the effects of force while minimizing friction, the air track has lines of holes drilled along the top faces. A pump blows air into the track, which exits through the holes, providing a cushion on which the glider hovers along the track, virtually eliminating sliding friction. Furthermore, our setup has the following features:
 
-- One leg of the air track has a block (of height $b$ placed under it to tilt the track at an angle $\theta$. The rectangle on top of the track at the left end represents the glider. 
+- The track is tilted to an angle $\theta$ by inserting a block of height $b$ under one leg of the track. 
+- The distance, $D$, between the legs of the track is 100 cm.
+- The distance the glider will travel for each run, $L$, will be AVOCADO.
 
-- So that we can know accurately what the tilt of the track is, we will first set the track level. Then we will insert the block of height $b$. The distance, $D$, between the leg centers is 100 cm. The distance the glider will travel for each run, $L$, will be AVOCADO.
-
-- The mass, $m$ of the glider is 190 g. Available are four 50-g slugs, which we can attach to the glider in pairs to increase its mass (to 290 or 390 g). AVOCADO (Check the masses.)
+- The mass, $m$ of the glider is 190 g. We can attach up to four slugs (in pairs) to the glider  to increase its mass (to 290 or 390 g). AVOCADO (Check the masses.)
 
 :::Exercise
 
-Keeping the angle of the air track constant, for each choice of glider mass we will place the glider on the track, and use a spring scale to measure the force exerted on it by gravity. We will then release the glider from the top of the track, and time its travel from the start to when it hits the elastic bumper at the bottom end of the track. For these runs, the height b will equal GUAC.
+In this exercise we want to explore how the mass $$m$$ of the glider relates to the force $$F$$ exerted on it by gravity ***along the track***. As you know, the force due to gravity is vertical, but we are only interested in the component along the track, since that is the one that generates the motion.
 
+We use a spring scale to measure the force $$F$$. We keep the angle of the air track constant.
+We release the glider from the top of the track, and record the time for the glider to travel from the start to when it hits the elastic bumper at the bottom end of the track. 
+For these runs, the height b will equal GUAC.
 
-The video below shows the setup, and the three glider runs. AVOCADO (Need to decide how students will do timing, etc.)
+The video below shows the setup, and the three glider runs. Use the timer on the video to find the time for each of the three runs.
+AVOCADO (Need to decide how students will do timing, etc.)
 
-1. Make a table like the one below, in which to put your data. Record the height b.
+1. Make a table like the one below, in which to record your data. Record the height b.
 - - Height, $b$, in Fig. 2 (m) =
 :::Figure:Table
 | Mass (kg) | Force (N) | Distance (m) | Time (sec)| Acceleration (m/s$^{2}$) |
@@ -56,24 +59,28 @@ AVOCADO: !(Video link goes here)
 
 Video 1
 
-2. For each run, use the kinematics you learned earlier in the quarter to calculate the acceleration from your measured values of $L$ and  $t$.
+2. For each run, use the kinematics you learned earlier in the quarter to calculate the acceleration from your measured values of $L$ and  $t$ (Hint: Use $$x=x_0+v_ot+1/2 a t^2$$ where $$x$$ is the coordinate along the air track).
 
 ::: Question
-Does changing the mass affect the acceleration? Should it?
+a) Does changing the mass affect the acceleration? 
+
+b) What is the average acceleration you find for this particular incline?
 :::
 
-3. Using the height b, leg span D, some trigonometry, and vector analysis, calculate g, the acceleration due to gravity.
-
-- - To do this, you must first determine the angle $\theta$. Again, you can (and should have!) find $\theta$ by using $b$ and $D$. Once you have determined $\theta$, use what you know about vectors to calculate the value of $g$ from the glider’s acceleration. You may find some of the equations on the math sheet, at the end of this lab,helpful.
+3. Using the height b, leg span D, and some trigonometry, determine the angle $\theta$.
+4. The acceleration along the track is the component of the acceleration due to gravity $$g$$ along the track. The accepted value (to two sig figs) of $g=9.8$ m/s$^2$
+Calculate the glider's acceleration $$a$$ from the value of $$g$$ and $$\theta$$.
 
 ::: Question
-How does this number compare to the accepted value (to two sig figs) of $g=-9.8$ m/s$^2$?
+Find the percentage discrepancy between the acceleration $$a$$ you found by trigonometry and the average acceleration you found from kinematics.
 :::
-4. Now, from the data in your table, plot force vs. mass.
+5. Now, from the data in your table, plot force vs. mass.
 
 
 ::: Question
-Does the plot appear to be linear? How does the force depend on mass? It might be helpful to calculate the slope and compare it to your theoretical acceleration. (Remember that you will have to account for the angle $\theta$ as you did in your earlier calculations.)
+a) Does the plot appear to be linear? 
+
+b) How does the force depend on mass? Calculate the slope and compare it to your theoretical acceleration. 
 :::
 
 :::
@@ -119,13 +126,13 @@ Recall from the previous lab that the instantaneous slope (tangent) of the veloc
 ####
 
 :::Exercise
-Now we will keep the mass of the glider (without the reflector) constant, and we will take four runs, each with the track at a different angle. We will do this for two different glider masses. As we did before, we will measure the force on the cart before each run.
+In this exercise we want to explore how the acceleration $$a$$ of the glider relates to the force $$F$$ exerted on it. Thus, we will keep the mass of the glider (without the reflector) constant, and we will take four runs, each with the track at a different angle. As we did before, we will measure the force on the cart before each run.
 
 For each set of four runs, the heights b will be, in order, AVOCADO, AVOCADO, AVOCADO, and AVOCADO.
 
-For the first run, the glider mass will be AVOCADO, and for the second it will be AVOCADO.
+The glider mass will be AVOCADO.
 
-1. As before, make a table for each masses' data, like the ones below, and record the heights and masses given above.
+1. As before, make a table like the one below, and record the heights and mass given above. Derive the acceleration from the kinematics equation.
 :::Figure:Table
 | Mass $m_i$|"
 | --------  | --------      | --------     | --------      | --------   |
@@ -142,8 +149,11 @@ AVOCADO: !(Video link goes here.)
 1. Now, with the data from your two tables, make two plots of force versus acceleration (one for $m_1$​ and one for $m_2$​).
 
 :::Question 
-Do these plots look linear? How does force depend on acceleration? Determine the slope for each graph and compare it to the mass used for that plot.
-Using your answers from Questions 4 and 5.1, write an equation that relates force to both mass and acceleration.
+a) Do these plots look linear?
+
+b) How does force depend on acceleration? Determine the slope for each graph and compare it to the mass used for that plot.
+
+c) Using your answers from Questions 4 and 5.1, write an equation that relates force to both mass $$m$$ and acceleration $$a$$. Clearly explain how you arrived at this equation.
 :::
 
 
@@ -206,15 +216,15 @@ AVOCADO: !(Video link goes here)
 6. For each data point, record the time, distance and velocity. By means of the mathematical formulae provided, you can use these to calculate the height, potential energy and kinetic energy of the glider for each point you record. Do this to fill in the rest of the table.
 
 ::: Question 
-a. Where is the glider when its (gravitational) potential energy is maximum? Where is it when its kinetic energy is a maximum? Where is it when its kinetic energy is a minimum?
+a) Where is the glider when its (gravitational) potential energy is maximum? 
 
-b. Do your data support the Law of Conservation of Energy?
+b) Where is it when its kinetic energy is a maximum? Where is it when its kinetic energy is a minimum?
 
-c. Identify some sources of error and suggest how you could eliminate them.
+c) Do your data support the Law of Conservation of Energy?
 
-d. When the glider hits the rubber band, what are the kinetic and potential energies right when the glider changes direction? Where did the energy go?
+d) When the glider hits the rubber band, what are the kinetic and potential energies right when the glider changes direction? Where did the energy go?
 
-e. The previous question might suggest that this experiment involves two ways in which the kinetic energy of the cart is converted to potential energy, and then back to kinetic energy (or, initially, potential energy to kinetic, then back). Briefly describe these two conversion mechanisms.
+e) The previous question might suggest that this experiment involves two ways in which the kinetic energy of the cart is converted to potential energy, and then back to kinetic energy (or, initially, potential energy to kinetic, then back). Briefly describe these two conversion mechanisms.
 :::
 :::
 
@@ -239,7 +249,7 @@ $$
 The angle $\theta$ satisfies
 
 $$
-\sin(θ) = bD
+\sin(θ) = b/D
 $$
 and
 $$
