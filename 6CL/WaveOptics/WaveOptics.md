@@ -14,7 +14,7 @@ In this lab we will look at both of these phenomena. They are very closely relat
 
 ### Theory
 
-***Interference***
+##### Interference
 
 When light passes through two closely separated slits, the rays travel slightly different distances before reaching the screen. These slight discrepancies in distance cause the waves to interfere with one another as shown in Figure 1.
 
@@ -48,7 +48,7 @@ Image from  [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/sli
 
 Figure 2A shows us all the meaningful variables. $y$ is the position on screen as measured from the center, $D$ is the distance between the slits and the screen, $\theta$ is the angle at which the light leaves the screen to get to position $y$, $d$ is the separation between the two slits, and $a$ is the slit width. We label which intensity maxima (bright spots) we are talking about with the letter $m$. We call the one in the middle of the two slits $0$. Then to one side of $0$ we label the maxima positions with positive numbers in increasing order away from $0$ (1,2,3 etc.) and the other side negative numbers in decreasing order away from the $0$ (-1, -2, -3, etc). Which side we pick for which is arbitrary. 
 
-Figure 1 tells us the condition for maxima occur and Figure 2A give the variables to mathematically describe Figure 1. Thus the resulting maxima can be described mathematically by the formula for constructive interference:
+Figure 1 tells us the condition for maxima occur and Figure 2A give the variables to mathematically describe Figure 1. The only thing we need is the wavelength of the light which we will denote with $\lambda$. Thus the resulting maxima can be described mathematically by the formula for constructive interference:
 
 ::: Figure:Equation
 $$
@@ -56,24 +56,37 @@ d\sin(\theta) = m\lambda
 $$
 :::
 
-where $d$ is the slit separation, $\theta$ is the angle to the screen, $m$ is an integer (0, 1, 2, 3, . . .), and $\lambda$ is the wavelength of the light source. The angles are usually very small (the distance from the slits to the screen is much larger than the separation of the resulting pattern), so we can assume that $\sin(\theta)\approx\tan(\theta) = y/D$, where y is the distance from the central maximum, and D is the distance from the slits to the screen. The interference equation can now be rewritten:
+It would be nice if we could replace $\sin (\theta)$ with something a bit easier to work with.
+
+The center point between the slits, this center of the screen, and any position on the screen are three points that form a triangle. An example of one such triangle is drawn in purple in Figure 2.B. The bottom of the triangle has side length $D$ and the far side has length $y$.  We could determine the hypotenuse by using the pythagorean theorem, but we won't need to do that here.
+
+**For small angles**, we can make the approximation $\sin(\theta)\approx\tan(\theta)$. Then we can use trigonometry and our triangle to get $\tan(\theta) = \frac{y}{D}$. This is summarized in the following equation:
+
+:::Figure:Equation
+$$
+sin(\theta) \approx \tan(\theta ) = \frac{y}{D}
+$$
+:::
+
+Thus we can use Equation 2 to replace $\sin(\theta)$ in Equation 1 to get a more simplified interference equation.
 
 
 ::: Figure:Equation
 $$
-\lambda = \frac{dy}{mD}
+d \frac{y}{D} = m \lambda
 $$
 :::
 
-When D is 1 meter, the rror 
-
+:::Note
+Equation 2, and thus Equation 3, relies on $\theta$ being small. $\theta$ is determined by $D$ and $Y$. When $D$ is 1 meter (the length of your arm) and $y$ is 8 cm (the length of your palm) the difference between $\sin(\theta)$ and $\tan(\$theta)$ is less than 100%. In this lab, we will be working on scales about that size. 
+:::
 
 
 ##### Diffraction
 
-Diffraction can happen with only a single slit. Thus, when we shine light through two slits we see not only the interference phenomenon, but also mixed with it, diffraction. It is important to note that the interference fringes are created by the two slits, but there is also a diffraction effect occurring from each individual slit, as demonstrated in Figure 2. The diffraction envelope causes a fading and brightening of the interference maxima.
+Another phenomena that comes into play is called diffraction. Diffraction can happen with only a single slit. Thus, when we shine light through two slits we see not only the interference phenomenon, but also mixed with it, diffraction. It is important to note that the interference fringes are created by the two slits, but there is also a diffraction effect occurring from each individual slit, as demonstrated in Figure 3. The diffraction envelope causes a fading and brightening of the interference maxima.
 
-::: Figure#Figure
+::: Figure:Figure
 ![Diffraction and interference](imgs/fig1_2.JPG)
 :::
 
