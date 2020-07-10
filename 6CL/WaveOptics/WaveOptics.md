@@ -99,6 +99,10 @@ In this part of the lab we will try to get some intuition about what we expect t
 
 In this exercise we will look at a simulation that shows pure interference. It does this by shining two lights at the same time at a screen. If you'd like, it will let you explore the similarities of different types of waves, mainly water, sound, and light. We will focus on the light portion of the simulation.
 
+::: Figure:Simulation
+SIM1
+:::
+
 ::: Question
 How does the separation between the two laser sources affect the space of the maxima on the on screen/in the intensity plot?
 :::

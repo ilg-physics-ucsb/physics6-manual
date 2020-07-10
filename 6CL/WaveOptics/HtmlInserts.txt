@@ -1,0 +1,36 @@
+### Goes in <head>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="js/InterferenceDiffraction.js"></script>
+
+### Kelly Pawlak Sim. Goes in <body>
+      <div class="sim">
+    <center> 
+    
+      <div id="graph"></div>
+      <div id="demo" ></div>
+  <br>
+      
+      <div id="demo2" ></div><br><br>
+      <br>
+      <br>
+      <img src="https://i.imgur.com/B36BXjQ.jpg" width=15px>
+    <div class="slidecontainer">  
+      <br>
+      
+      <b>Width:</b> <span id="h" style="font-weight:bold;color:#000000" > 40 </span> um
+      <input type="range" min="0" max="200" value="40" class="slider_h" id="myRange_h">
+      <br>
+      <b>Separation</b> <span id="v" style="font-weight:bold;color:#000000" > 250 </span> um
+      <input type="range" min="0" max="500" value="250" class="sliderv" id="myRangev">
+      <br>
+      <b>Wavelength</b> <span id="ar" style="font-weight:bold;color:#000000" > 650 </span> nm
+      <input type="range" min="380" max="700" value="650" class="sliderar" id="myRangear">
+      <br>
+      <input type="checkbox" id="Diffraction" > <b> Diffraction </b>
+      <br>
+      </div>
+    
+    </center>
+    
+    </div>
+
