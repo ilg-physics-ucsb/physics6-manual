@@ -103,15 +103,16 @@ AVOCADO: !(Video link goes here.)
 
 We now have a set of position versus time data. The positions are the distance $L$ in Figure 1.
 
+
 :::Figure:Table
 
 | Ball Drop Data Set | 
 | -------- | 
-| [Link to Google Sheet](https://docs.google.com/spreadsheets/d/1a-sF2TCUFwAACT4HZA4xuvlW5xBqKbF-gQUyl16__Uc/edit?usp=sharing)    | 
+| [Link to Google Sheet](https://docs.google.com/spreadsheets/d/1XI2mEKyuVftiG0uhUlS6Iah3zZuiGx1tUE5g1-e0ZIw/edit?usp=sharing)    | 
 
 :::
 
-1. Copy the data linked in Table GUAC into separate spreadsheet.
+1. Copy the data from the link above. AVOCADO Check ball drop for wording.
 
 2. Take the data points provided, from maximum position to maximum position (the trip from the bumper, up the track and back to the bumper), and make a graph of position vs. time. 
 
@@ -196,29 +197,23 @@ We will operate the air track in a similar fashion to the way we did in Exercise
 
 The mass of the glider with reflector plate is AVOCADO.
 
-We will release the glider from the 160-cm mark on the air track, and the range finder will follow its motion as it rides back and forth on the track.
+1. Make a table in which to record your data. A sample table follows the math sheet below this exercise. Also record the height b and the mass of the glider with reflector plate, given above.
+
+1. We will release the glider from the 160-cm mark on the air track, and the range finder will follow its motion as it rides back and forth on the track.
 
 The following video shows this procedure:
 
 AVOCADO: !(Video link goes here)
 
-We now have a set of position versus time data. The positions are the distance $L$ in Figure GUAC.
+2. As you did before, record numerical data from the calculator for at least 10 data points of a single cycle. (Each cycle begins when the glider leaves the elastic bumper at the bottom of the air track, and ends when it returns there.)
 
-:::Figure:Table
+3. Use (roughly) evenly spaced data points.
 
-| Ball Drop Data Set | 
-| -------- | 
-| [Link to Google Sheet](https://docs.google.com/spreadsheets/d/1a-sF2TCUFwAACT4HZA4xuvlW5xBqKbF-gQUyl16__Uc/edit?usp=sharing)    | 
+4. Include the point where the glider reached its maximum height.
 
-:::
+5. Include the points where the speed was maximum. You may need to look at your v vs. t graph to get this.
 
-1. Copy the data linked in Table GUAC into separate spreadsheet. Take note of the height b and the mass of the glider with reflector plate given above.
-
-2. Use the data in your table to plot the position and velocity of the glider. (Hint: You can make this using the same method used to plot in the previous lab)
-
-3. By means of the mathematical formulae provided, you can use these to calculate the height, potential energy, kinetic energy, and total energy (PE +KE) of the glider for each point you record. Do this to fill in the rest of the table.
-
-4. Plot the potential energy, kinetic energy, and total energy as a function of time.  
+6. For each data point, record the time, distance and velocity. By means of the mathematical formulae provided, you can use these to calculate the height, potential energy and kinetic energy of the glider for each point you record. Do this to fill in the rest of the table.
 
 ::: Question 
 a) Where is the glider when its (gravitational) potential energy is maximum? 
@@ -262,13 +257,13 @@ $$
 and
 
 $$
-\rm sin(\theta) = \frac{h}{L} 
+\rm sin(\theta) = \frac{h}{R – r} 
 $$
 
 Hence
 
 $$
-\rm h = \frac{bL}{D}
+\rm h = \frac{b(R – r)}{D}
 $$
 
-On the air track, the distance D is 100 cm. The distance L you will get from the range finder data is the distance from the bottom of the track to the glider. 
+On the air track, the distance D is 100 cm and the distance R is 200 cm. The distance r you will get from the range finder is the distance from the range finder to the car. 
