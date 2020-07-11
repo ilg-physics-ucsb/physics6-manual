@@ -4,7 +4,7 @@
 
 ## INTRODUCTION
 
-::: Figure#Video
+::: Figure:Video
 !(https://drive.google.com/open?id=1Aq_ZLiDO8b__OuCeLWL08DkIxxy7fcwS)
 :::
 
@@ -200,7 +200,7 @@ If you decrease the width separation, why do more peaks appear in the central di
 
 In this exercise you will see a video of  light shining through a pair of slits. This is not your standard pair of slits however. They are are attached to a wheel and designed to that as the wheel rotates the *slit **separation** will change* but the *slit **width** remains constant*. 
 
-:::Figure#Figure
+:::Figure:Figure
 ![Variable slit setup](imgs/VariableSlits.png)
 :::
 
@@ -208,7 +208,7 @@ Figure 3 shows the setup. A laser is shone at a variable slit wheel. The wheel r
 
 $D$ is the spacing between the slits and the screen. $y$ is the distance between the *central interference maximum* and **any other** interference maximum. $d$ is the slit separation. 
 
-:::Figure#Video
+:::Figure:Video
 
 !(https://drive.google.com/open?id=1Q1Vufhq6df7_7eOGH4zhnCjunzVYYj-z)
 
@@ -232,84 +232,17 @@ If light only behaved like a particle, what would the pattern on the screen look
 
 ## PART 2: MEASURING THE LASER'S WAVELENGTH
 
-In this part of the lab we want to be more quantitative. We will not concern ourselves the diffraction envelope, and will focus only on *interference*. We will use the interference theory developed in Part 1, namely Equation 2, to measure the wavelength of the laser.
-
-You will do it once in a simulation for yourself, and once from the video.
-
+In this part of the lab we want to be more quantitative. We will not concern ourselves the diffraction envelope, and will focus only on *interference*. We will use the interference theory developed in Part 1, namely Equation 3, to measure the wavelength of the laser.
 
 ::: Exercise
 
-In this exercise you will use the PhET simulation to determine the wavelength of light you are using in the PhET.
+In this exercise you will be given some data collected by shining a laser through different pairs of slits with various slit separations and slit widths. The data are pictures of the screen. You will measure the distances between opposite interference maxima (-1 & 1, -2 & 2, etc) and use this information to measure the wavelength of the laser.
 
-:::Figure#Simulation
-!(https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_en.html?screens=3)
-:::
-1. Start by selecting the light source just as you did in Simulation 1.
-
-2. Pick any color of light you want to work with, and put it in your lab report so that we know which color you are using, e.g., dark red, red, orange, yellow, green, cyan, blue, purple, violet. Some colors might be better for getting multiple peaks to appear on the screen than others.
-
-3. Check the boxes for "Screen" and "Intensity." (These appear after you select the light. "Intensity" becomes active after you select "Screen.")
-
-4. Switch the setup from one slit to two slits.
-
-5. You should select a slit width and slit separation that allow you to see around five peaks on the intensity plot. You can also adjust the location of the slits, but **note: the slit separation needs to be smaller than the distance between the slits and the screen.**
-
-6. Once you have it all set up, make a table with a column for the $m$ values, and a column for the distance between $m$ values.
-
-7. Fill out the table by measuring the distances between symmetric maxima about the central maximum. For instance, measure the distance between the $m=-1$ and $m=1$ peaks and put that value in the table. To measure distances in the lab, you have access to a tape measure. Simply put the red crosses on the points between which you want to measure.
-
-:::Question
-Why not directly measure each maximum from the center maximum?
-:::
-
-8. Now add a column to your table. In that column put your calculated values for $y$, the distance from the central maximum to another maximum. You do this by dividing the distance between symmetric maxima in half.
-
-9. Now measure $D$, the distance between the slits and the screen.
-
-10. Finally make a column for the wavelength, and calculate $\lambda$ by using Equation 2.
-
-::: Question
-Average your values for the wavelength. What is the average wavelength of the light? What color did you use?
-:::
-
-<!-- 1. The laser, slit disk, and screen should be setup as in Part 1, be sure to cover the screen with a piece of paper before continuing.
-
-##### Hint: Place the laser, together with the slit disk, on the opposite end of the track from the screen so that you maximize the distance between the slit disk and screen. Why is this a good idea?
-
-2. Set the slit disk to the double slit with $0.25mm$ slit separation and $0.08mm$ slit width. Adjust the laser so that it shines directly on the slit. You should see an interference pattern similar to the one observed in Part 1
-
-3. Turn off the room lights and locate and mark the center maxima ($m = 0$) of the diffraction pattern on the paper covered screen. If you cannot easily identify the center maxima, you can remove the slit disk and mark the location of the laser beam; this will be the same location as the center maxima. -->
-
-
-
-<!-- 4. With the slit disk reinstalled, record the distance from the slit disk to the screen.
-
-5. Mark the center of each maxima ($m = -3$ through $m = 3$) on the paper covered screen.
-
-6. Remove the paper. Measure and record in a table the distance between maxima of similar order (the distance between $m = -1$ and $m = 1$ and so on). Divide these numbers in half to obtain $y$, the distance from the center maxima.
-
-:::Question
-a. Does the distance between maxima change when you change the slit width?
-:::
-
-<!-- End Exercise Simulation Wavelength Measurement -->
-:::
-
-
-::: Exercise
-
-In this exercise you will watch a video of the experiment being set up, and some of the data being collected. We will then have some images of the data here for you to analyze. The analysis of the data is similar to that for Simulation 3. 
-
-The setup is exactly like that in Exercise 3, except that we won't be using a variable slit. We will instead use sets of double slits, one pair at a time. Each pair has a different slit separation and/or slit width. Below in Figure 4, you can see an image of a pair of slits.
-
-
-:::Figure#Figure
-![Close Up of Slits](imgs/Slits.jpg)
-:::
+The setup is similar to that drawn in Figure 4, except that we won't be using a variable slit. We will instead use sets of double slits, one pair at a time. Each pair has a different slit separation and/or slit width.
 
 You will make you're measurements in GeoGebra. Video 3 below walks you through how you will import an image, calibrate the images, and  make a measurement.
 
-:::Figure#Video
+:::Figure:Video
 
 !(https://drive.google.com/open?id=12b7qBiQEvYgppWfcusFWJt4yfY8AtMqa)
 
@@ -341,7 +274,7 @@ d. What do you think would happen if we used white light (light composed of all 
 
 :::
 
-
+<!--
 ## PART 3: DIFFRACTION GRATINGS AND TRACK SPACING ON A COMPACT DISC
 
 An array of many slits, instead of just two, is referred to as a diffraction grating. Diffraction gratings are made by scribing evenly-spaced grooves on a plastic substrate. These grooves act as slits, and the condition for maximum intensity in the interference pattern is the same as for the double slit: $d\sin(\theta) = m\lambda$. Because the spacing between adjacent slits is so small, often around $0.001 mm$, the interference maxima are far apart from one another. ***This means that we cannot use the small angle approximation, and must compute $\theta$ by using trigonometry.***
@@ -357,11 +290,7 @@ The setup is again similar to Figure 3, but this time we are using a CD instead 
 Assume $D$ = 5 cm and $y$ = 5 cm. How bad is the small angle approximation?
 :::
 
-<!-- 1. With the laser and screen oriented as before, remove the slit disk, and place the holder containing a piece of a compact disc about $4cm$ from the screen. This is a normal CD, but the reflective coating has been removed to allow light to pass through.
 
-2. You should see at least the first order maxima, and possibly the second order maxima if you move the CD close enough to the screen. Measure and record the distance between maxima of similar orders.
-
-3. Using the correct wavelength of laser light (printed on the laser) calculate the track spacing of a CD for each of your measured distances. -->
 
 :::Figure#Figure
 ![CD Data](imgs/CD.png)
@@ -379,6 +308,7 @@ b.) Does your average value of the CD track spacing fall within the tolerance of
 
 :::
 
+-->
 ## Conclusion
 
 :::Exercise
