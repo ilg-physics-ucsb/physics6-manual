@@ -1,6 +1,6 @@
 ### Goes in <head>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="js/InterferenceDiffraction.js"></script>
+  
 
 ### Kelly Pawlak Sim. Goes in <body>
       <div class="sim">
@@ -34,3 +34,5 @@
     
     </div>
 
+### Goes outside body at the end after </body>
+<script src="js/InterferenceDiffraction.js"></script>
