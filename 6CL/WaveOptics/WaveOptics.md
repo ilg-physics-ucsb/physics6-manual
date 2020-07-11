@@ -250,7 +250,7 @@ You will make you're measurements in GeoGebra. Video 3 below walks you through h
 
 Download each of the images, and go to [GeoGebra](https://www.geogebra.org/geometry)
 
-:::Figure#Table
+:::Figure:Table
 |Configuration| Slit Width [mm] | Slit Separation (d) [mm] | Screen to Slit Distance  (D) [cm] | Link |
 | -------- | -------- | -------- | - | - |
 | 1    | 0.04     |  0.25     | 104  | [Config_1](https://drive.google.com/open?id=1TcPVlZxFAjOmJlrIeNI9uQSP-TeA5Jev) |
@@ -292,7 +292,7 @@ Assume $D$ = 5 cm and $y$ = 5 cm. How bad is the small angle approximation?
 
 
 
-:::Figure#Figure
+:::Figure:Figure
 ![CD Data](imgs/CD.png)
 :::
 
