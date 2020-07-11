@@ -81,6 +81,9 @@ $$
 Equation 2, and thus Equation 3, relies on $\theta$ being small. $\theta$ is determined by $D$ and $Y$. When $D$ is 1 meter (the length of your arm) and $y$ is 8 cm (the length of your palm) the difference between $\sin(\theta)$ and $\tan(\$theta)$ is less than 100%. In this lab, we will be working on scales about that size. 
 :::
 
+:::Note
+Equation 3 only describes interference phenomena but ignores diffraction.
+:::
 
 ##### Diffraction
 
@@ -97,10 +100,48 @@ In this part of the lab we will try to get some intuition about what we expect t
 
 :::Exercise
 
-In this exercise we will look at a simulation that shows pure interference. It does this by shining two lights at the same time at a screen. If you'd like, it will let you explore the similarities of different types of waves, mainly water, sound, and light. We will focus on the light portion of the simulation.
+In this exercise we will use a simulation to help us gain some intuition. Simulation one is simulating shining light through two or one slit and then onto a screen. At the very top of the of the simulation is graph plotting the intensity (think brightness) vs position on the screen. It is basically showing you how bright any particular point on the middle of the screen is.
+
+Below the plot is the screen. This is simulating what you would see on a real screen (think piece of paper) if you wear to shine a laser through some slits. Lastly it is showing you the slits. This part of simulation is not drawn to scale but you can image that this is what the slits would look like under a microscope.
+
+You are able to adjust the slit width ($a$), the slit separation ($d$), and the wavelength of the light ($\lambda)$. At the bottom you can turn on and off diffraction by checking the box. **Turning off diffraction is not something you can do in real life.**
 
 ::: Figure:Simulation
 SIM1
+:::
+
+### Interference
+
+Let's start by focusing only on interference. 
+
+1. Click the diffraction checkbox to turn off an diffraction effects.
+
+An important thing to notice is that the when there is no diffraction all maxima are equally bright.  
+
+::: Question
+a. Use Equation 3 to write a prediction for what will happen to the location of the maxima on the screen ($y$), when you adjust the slit separation ($d$).
+
+b. Use Equation 3 to write a prediction for what will happen to the location of the maxima on the screen ($y$), when you adjust the slit width ($a$).
+
+c. Use Equation 3 to write a prediction for what will happen to the location of the maxima on the screen ($y$), when you adjust the wavelength ($\lambda$).
+:::
+
+2. Adjust the separation while leaving everything else the same. Pay attention to what happens on the screen and the intensity plot.
+
+:::Question
+a. How does adjusting the separation affect the pattern on the screen (or the intensity plot)? Things to consider might include the position of the maxima, the brightness of the maxima, the separation between the maxima, or anything else you find notable.
+:::
+
+3. Now adjust width while keeping all other values constant.
+
+:::Question
+How does adjusting the width affect the pattern on the screen (or the intensity plot)? Things to consider might include the position of the maxima, the brightness of the maxima, the separation between the maxima, or anything else you find notable.
+:::
+
+4.  Make sure the slit separation is somewhere in the near the middle of the range. Adjust the wavelength while keeping the other parameters constant.
+
+:::Question
+How does adjusting the wavelength affect the pattern on the screen (or the intensity plot)? Things to consider might include the position of the maxima, the brightness of the maxima, the separation between the maxima, or anything else you find notable.
 :::
 
 ::: Question
