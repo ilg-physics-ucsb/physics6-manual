@@ -114,9 +114,9 @@ SIM1
 
 Let's start by focusing only on interference. 
 
-1. Click the diffraction checkbox to turn off an diffraction effects.
+1. Click the diffraction checkbox to uncheck the box and turn off an diffraction effects.
 
-An important thing to notice is that the when there is no diffraction all maxima are equally bright.  
+An important thing to notice is that the when there is no diffraction all maxima are **equally bright and equally spaced**.  
 
 ::: Question
 a. Use Equation 3 to write a prediction for what will happen to the location of the maxima on the screen ($y$), when you adjust the slit separation ($d$).
@@ -144,20 +144,58 @@ How does adjusting the width affect the pattern on the screen (or the intensity 
 How does adjusting the wavelength affect the pattern on the screen (or the intensity plot)? Things to consider might include the position of the maxima, the brightness of the maxima, the separation between the maxima, or anything else you find notable.
 :::
 
-::: Question
-How does the separation between the two laser sources affect the space of the maxima on the on screen/in the intensity plot?
+### Diffraction
+
+Now we will consider  diffraction only. Like mentioned in the intro, diffraction occurs with only one slit, while interference takes at least two. 
+
+1. Start by sliding the separation to $0 \mu m$. This will turn our two slits into one.
+2. Now turn on diffraction by checking the box. 
+
+Notice how now we now have one large peak in the center and many much smaller peaks to the sides. This is the **diffraction envelope** shown in Figure 3. 
+
+:::Question
+a. How does adjusting the slit width change the diffraction envelope?
+
+b. How does adjusting the wavelength change the diffraction envelope?
+:::
+
+### Interference and Diffraction
+
+Now we will look at interference and diffraction happening at the same time. This is much more like what you would see in real life.
+
+1. Adjust the separation slider until there are two slits again. Somewhere around $200\mu m$. 
+2. Adjust the width to about $25 \mu m$.
+
+Notice the outline of the diffraction envelope and the interference pattern inside of it. Also notice that where the diffraction envelope goes to zero, there is not a maximum even if the interference equation says there should be one.
+
+3. To help see this try turning on and off diffraction and paying close attention to where there diffraction envelope goes to zero.
+
+:::Note
+This is important because if we are labeling the interference maxima (-2, -1, 0, 1, 2, 3, etc) we want make sure we still label the interference maxima that are at the zero point of the diffraction envelope.
+:::
+
+4. Make sure that diffraction is check to see diffraction phenomena.
+
+:::Question
+Based on the interference only and diffraction only part of the exercise, make a prediction about what will happen if you adjust the following parameters independently:
+
+a. The slit width.
+
+b. The slit separation.
+
+c. The wavelength.
 :::
 
 ::: Question
-Looking at the intensity plot, how does the max amplitude of each peak vary in the vertical direction?
+If you increase the slit separation, why do more peaks appear in the central diffraction envelope?
 :::
 
 ::: Question
-For a set amplitude and separation, how does changing the frequency affect the interference pattern?
+If you decrease the width separation, why do more peaks appear in the central diffraction envelope?
+:::
 :::
 
-:::
-<!-- End Interference Exercise -->
+
 :::Exercise
 
 In this exercise you will see a video of  light shining through a pair of slits. This is not your standard pair of slits however. They are are attached to a wheel and designed to that as the wheel rotates the *slit **separation** will change* but the *slit **width** remains constant*. 
