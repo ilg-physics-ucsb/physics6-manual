@@ -73,7 +73,7 @@ Thus we can use Equation 2 to replace $\sin(\theta)$ in Equation 1 to get a more
 
 ::: Figure:Equation
 $$
-d \frac{y}{D} = m \lambda
+y = m \lambda \frac{D}{d}
 $$
 :::
 
@@ -129,7 +129,7 @@ c. Use Equation 3 to write a prediction for what will happen to the location of 
 2. Adjust the separation while leaving everything else the same. Pay attention to what happens on the screen and the intensity plot.
 
 :::Question
-a. How does adjusting the separation affect the pattern on the screen (or the intensity plot)? Things to consider might include the position of the maxima, the brightness of the maxima, the separation between the maxima, or anything else you find notable.
+How does adjusting the separation affect the pattern on the screen (or the intensity plot)? Things to consider might include the position of the maxima, the brightness of the maxima, the separation between the maxima, or anything else you find notable.
 :::
 
 3. Now adjust width while keeping all other values constant.
@@ -208,6 +208,8 @@ Figure 4 shows the setup. A laser is shone at a variable slit wheel. The wheel r
 
 $D$ is the spacing between the slits and the screen. $y$ is the distance between the *central interference maximum* and **any other** interference maximum. $d$ is the slit separation. 
 
+
+1. Watch the video below. Pay attention to how the diffraction envelope does or does not change and the number of interference maxima in the central lobe of the diffraction envelope. 
 :::Figure:Video
 
 !(https://drive.google.com/open?id=1Q1Vufhq6df7_7eOGH4zhnCjunzVYYj-z)
@@ -244,32 +246,36 @@ You will make you're measurements in GeoGebra. Video 3 below walks you through h
 
 :::Figure:Video
 
-!(https://drive.google.com/open?id=12b7qBiQEvYgppWfcusFWJt4yfY8AtMqa)
+!(https://drive.google.com/file/d/1OzKpu9OYHZou58zI-3tNJeq1lQgSSwdu)
 
 :::
 
 Download each of the images, and go to [GeoGebra](https://www.geogebra.org/geometry)
 
 :::Figure:Table
-|Configuration| Slit Width [mm] | Slit Separation (d) [mm] | Screen to Slit Distance  (D) [cm] | Link |
+|Configuration| Slit Width (a) [mm] | Slit Separation (d) [mm] | Screen to Slit Distance  (D) [cm] | Link |
 | -------- | -------- | -------- | - | - |
-| 1    | 0.04     |  0.25     | 104  | [Config_1](https://drive.google.com/open?id=1TcPVlZxFAjOmJlrIeNI9uQSP-TeA5Jev) |
-| 2   | 0.08     | 0.25     | 105 | [Config_2](https://drive.google.com/open?id=1oGCqZR6Uvb5Nk7IvzQf601SaHpUx4FHe) |
-| 3    | 0.04     |  0.50    | 100  | [Config_3](https://drive.google.com/open?id=1iB1p0viaVGAX0FzWnQpSdFfmlsAiKStV) | 
+| 1    | 0.04     |  0.25     | 100  | [Config_1](https://drive.google.com/file/d/1D6qKXQunnEHtFx1HD_7DauRZ8zi32YAP/view?usp=sharing) |
+| 2   | 0.08     | 0.25     | 100 | [Config_2](https://drive.google.com/file/d/13zkt5If1vXRhg_8jqxvyZUeXnvYInnmd/view?usp=sharing) |
+| 3    | 0.04     |  0.50    | 100  | [Config_3](https://drive.google.com/file/d/1D6qKXQunnEHtFx1HD_7DauRZ8zi32YAP/view?usp=sharing) | 
 
 
 
 :::
-1. Now make a similar table and measurements you made in Exercise 3.  This one should include a column for the GeoGebra units, as well as the converted $y$ distance in centimeters.
+
+1. Make a table that has a column for which interference maxima you will be measuring ($m$), one for distance between two maxima in GeoGebra Units, one for distance between two maxima in millimeters, one for the average distance of the interference maxima (divide previous column by 2), and one for the wavelength.
+2. Use the three images above and Video 3 to measure the distance between 5 pairs of maxima. **HINT:** Make sure not to skip where the diffraction envelope goes to zero when labeling interference maxima. 
 
 :::Question
-a. What is your average computed value for the wavelength of the laser? How does this compare to the value printed on the laser?
+a. What is your average computed value for the wavelength of the laser in nanometers? How does this compare to the value printed on the laser (650 nm)?
 
 b. Does the distance between maxima change when you change the slit width?
 
 c. How does the distance to the first maximum of the *diffraction envelope* change with slit width?
+:::
 
-d. What do you think would happen if we used white light (light composed of all wavelengths) instead of just a monochromatic (one wavelength) light source?
+:::Question
+What do you think would happen if we used white light (light composed of all wavelengths) instead of just a monochromatic (one wavelength) light source?
 :::
 
 :::
