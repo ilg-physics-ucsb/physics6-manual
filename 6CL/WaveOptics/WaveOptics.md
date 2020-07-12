@@ -1,5 +1,12 @@
 
 # Wave Optics
+
+---
+
+***Make sure to include all tables, plots, pictures, drawings, screenshots or anything else asked of you in the exercises in your report, as well as answers to all the questions.***
+
+***All responses and answers should contain the correct number of sig figs and should include units when needed.***
+
 ---
 
 ## INTRODUCTION
@@ -93,6 +100,7 @@ Another phenomena that comes into play is called diffraction. Diffraction can ha
 ![Diffraction and interference](imgs/fig1_2.JPG)
 :::
 
+---
 
 ## PART 1: GAINING INTUITION
 
@@ -231,6 +239,7 @@ If light only behaved like a particle, what would the pattern on the screen look
 :::
 <!-- End of Variable Slit Exercise -->
 
+---
 
 ## PART 2: MEASURING THE LASER'S WAVELENGTH
 
@@ -264,7 +273,7 @@ Download each of the images, and go to [GeoGebra](https://www.geogebra.org/geome
 :::
 
 1. Make a table that has a column for which interference maxima you will be measuring ($m$), one for distance between two maxima in GeoGebra Units, one for distance between two maxima in millimeters, one for the average distance of the interference maxima (divide previous column by 2), and one for the wavelength.
-2. Use the three images above and Video 3 to measure the distance between 5 pairs of maxima. **HINT:** Make sure not to skip where the diffraction envelope goes to zero when labeling interference maxima. 
+2. Use the three images above and Video 3 to measure the distance between 5 pairs of maxima. **HINT:** Make sure not to skip where the diffraction envelope goes to zero when labeling interference maxima (use Equation 3). 
 
 :::Question
 a. What is your average computed value for the wavelength of the laser in nanometers? How does this compare to the value printed on the laser (650 nm)?

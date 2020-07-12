@@ -141,7 +141,7 @@ var layout_demo = {
     yaxis: {
         automargin: true,
         title: {
-            text:' Image ',
+            text:' Screen ',
             standoff: 20
         },
         range: [- 0.1*screen_width, 0.1*screen_width],
