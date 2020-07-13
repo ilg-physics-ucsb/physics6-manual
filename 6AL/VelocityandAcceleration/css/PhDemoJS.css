@@ -1,0 +1,67 @@
+.slidecontainer {
+    width: 600px; /* Width of the outside container */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* The slider itself */
+  .sliderx, .sliderar, .sliderv {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 600px; /* Full-width */
+    height: 20px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+  
+  /* Mouse-over effects */
+  .sliderx:hover, .sliderar:hover, .sliderv:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  .sliderx::-webkit-slider-thumb, .sliderar::-webkit-slider-thumb,.sliderv::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  
+  .sliderx::-moz-range-thumb,.sliderar::-moz-range-thumb,.sliderv::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+
+  .sim {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #000!important;
+    box-sizing: inherit;
+    background-color: "white";
+    margin: 24px -20px;
+    box-shadow: none!important;
+    width: 800px;
+    margin:auto;
+    border-style: solid;
+    border-color: darkcyan;
+    border-radius: 18px;
+}
+.btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  
