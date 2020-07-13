@@ -1,0 +1,34 @@
+### Insert in <head>
+
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<link rel="stylesheet" href="css/PhDemoJS.css">
+
+###Insert in Body
+<div class="sim">
+<center> 
+
+
+<div id="graph" height= "10 in"></div>
+<button onclick="javascript:startUpdate();" class="btn" >Drop!</button>
+<div class="slidecontainer">  
+  <br>
+  <br>
+  <b>Starting Height:</b> <span id="f" style="font-weight:bold;color:#000000" > 50 </span> m
+  <input type="range" min="1" max="300" value="200" class="sliderx" id="myRangex">
+  <br>
+  <b>Influence of Air Resistance:</b> <span id="g" style="font-weight:bold;color:#000000" > 0 </span> %
+  <input type="range" min="0" max="100" value="0" class="sliderar" id="myRangear">
+  <br>
+  <b>Initial Velocity:</b> <span id="h" style="font-weight:bold;color:#000000" > 0 </span> m/s
+  <input type="range" min="-20" max="20" value="0" class="sliderv" id="myRangev">
+  
+<br>
+<br>
+</div>
+
+</center>
+
+</div>
+
+### Insert after </body> but before </html>
+<script src="js/BallDrop.js"></script>
