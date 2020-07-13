@@ -18,7 +18,7 @@ isdiff.checked=true
 let I_y =[], y_grid=[]
 
 //Parameters
-var screen_width=100.0, steps= 300, screen_distance =1000;
+var screen_width=100.0, steps= 500, screen_distance =1000;
 
 
 ////////////////////////Functions//////////////////////////////
@@ -141,7 +141,7 @@ var layout_demo = {
     yaxis: {
         automargin: true,
         title: {
-            text:' Screen ',
+            text:' Image ',
             standoff: 20
         },
         range: [- 0.1*screen_width, 0.1*screen_width],
@@ -368,3 +368,4 @@ initialize(0.25,0.04,0.000650)
     initialize(sliderv.value*0.001,slider_h.value*0.001,lambda)
   
   }
+

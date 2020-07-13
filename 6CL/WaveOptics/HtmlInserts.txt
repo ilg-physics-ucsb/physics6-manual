@@ -21,7 +21,7 @@
       <input type="range" min="0" max="200" value="40" class="slider_h" id="myRange_h">
       <br>
       <b>Separation</b> <span id="v" style="font-weight:bold;color:#000000" > 250 </span> um
-      <input type="range" min="0" max="500" value="250" class="sliderv" id="myRangev">
+      <input type="range" min="0" max="400" value="250" class="sliderv" id="myRangev">
       <br>
       <b>Wavelength</b> <span id="ar" style="font-weight:bold;color:#000000" > 650 </span> nm
       <input type="range" min="380" max="700" value="650" class="sliderar" id="myRangear">
