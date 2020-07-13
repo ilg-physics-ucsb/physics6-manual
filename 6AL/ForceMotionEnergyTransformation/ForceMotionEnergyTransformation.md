@@ -40,7 +40,6 @@ We release the glider from the top of the track, and record the time for the gli
 For these runs, the height b will equal 7.6cm.
 
 The video below shows the setup, and the three glider runs. Use the timer on the video to find the time for each of the three runs.
-AVOCADO (Need to decide how students will do timing, etc.)
 
 1. Make a table like the one below, in which to record your data. Record the height b.
 - - Height, $b$, in Fig. 2 (m) =
@@ -56,7 +55,7 @@ AVOCADO (Need to decide how students will do timing, etc.)
 The following video shows the experiment:
 
 :::Figure:Video
-!(https://www.youtube.com/watch?v=VSeEhSMytWA&feature=youtu.be)
+!(https://www.youtube.com/watch?v=fySOUp9J6BU)
 :::
 
 2. For each run, use the kinematics you learned earlier in the quarter to calculate the acceleration from your measured values of $L$ and  $t$ (Hint: Use $$x=x_0+v_ot+\frac{1}{2} a t^2$$ where $$x$$ is the coordinate along the air track).
@@ -104,14 +103,14 @@ In order to use the range finder, we must attach a reflector plate to the glider
 The following video shows the experiment:
 
 :::Figure:Video
-!(https://www.youtube.com/watch?v=QSMZyRh-Y-0)
+!(https://www.youtube.com/watch?v=z-PokGivDFo)
 :::
 
 We now have a set of position versus time data. The positions are the distance $L$ in Figure 2.
 
 :::Figure:Table
 
-| Ball Drop Data Set | 
+| Rangefinder Data Set | 
 | -------- | 
 | [Link to Google Sheet](https://docs.google.com/spreadsheets/d/1a-sF2TCUFwAACT4HZA4xuvlW5xBqKbF-gQUyl16__Uc/edit?usp=sharing)    | 
 
@@ -141,7 +140,7 @@ In this exercise we want to explore how the acceleration $$a$$ of the glider rel
 
 For each set of four runs, the heights b will be, in order, 3.7cm, 2.0cm 1.0cm, and 0.5cm.
 
-The glider mass will be 289.8g. AVOCADO
+The glider mass will be 289.8g.
 
 1. As before, make a table like the one below, and record the heights and mass given above. Derive the acceleration from the kinematics equation.
 :::Figure:Table
@@ -154,9 +153,8 @@ The glider mass will be 289.8g. AVOCADO
 :::
 The following video shows the experiment:
 
-AVOCADO (Update Video)
 :::Figure:Video
-!(https://www.youtube.com/watch?v=jDInF_JimKk&feature=youtu.be)
+!(https://www.youtube.com/watch?v=fyl4ibDd-5k)
 :::
 
 
@@ -211,20 +209,20 @@ We will release the glider 140cm from the bottom of the air track, and the range
 The following video shows this procedure:
 
 :::Figure:Video
-!(https://www.youtube.com/watch?v=VSeEhSMytWA&feature=youtu.be)
+!(https://www.youtube.com/watch?v=hfYVs3JQZeA)
 :::
 
 We now have a set of position versus time data. The positions are the distance $L$ in Figure 3.
 
 :::Figure:Table
 
-| Ball Drop Data Set | 
+| Rangefinder Data Set | 
 | -------- | 
 | [Link to Google Sheet](https://docs.google.com/spreadsheets/d/1a-sF2TCUFwAACT4HZA4xuvlW5xBqKbF-gQUyl16__Uc/edit?usp=sharing)    | 
 
 :::
 
-1. Copy the data linked in Table 4 into separate spreadsheet. You will have to go to the second sheet named Exercise 4 Rangefinder Data. Take note of the height b and the mass of the glider with reflector plate given above.
+1. **Copy the data linked in Table 4 into separate spreadsheet**. You will have to go to the second sheet named Exercise 4 Rangefinder Data (See tab at the bottom of the Google Sheet webpage). Take note of the height b and the mass of the glider with reflector plate given above.
 
 2. Use the data in your table to plot the position and velocity of the glider. (Hint: You can make this using the same method used to plot in the previous lab)
 
