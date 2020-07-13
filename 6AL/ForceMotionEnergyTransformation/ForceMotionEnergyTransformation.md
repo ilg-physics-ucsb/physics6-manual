@@ -19,7 +19,7 @@ Or perhaps it is something else. We will see.
 ### Procedure
 
 :::Figure:Figure
-![](imgs/Figure1.3.jpg)
+![](imgs/Figure_1.2_final.jpg)
 ![](imgs/rail.png)
 :::
 
@@ -27,9 +27,9 @@ Figure 1 shows a schematic of the air track as it will be set up for this experi
 
 - The track is tilted to an angle $\theta$ by inserting a block of height $b$ under one leg of the track. 
 - The distance, $D$, between the legs of the track is 100 cm.
-- The distance the glider will travel for each run, $L$, will be AVOCADO.
+- The distance the glider will travel for each run, $L$, will be 140cm.
 
-- The mass, $m$ of the glider is 190 g. We can attach up to four slugs (in pairs) to the glider  to increase its mass (to 290 or 390 g). AVOCADO (Check the masses.)
+- The mass, $m$ of the glider with the reflector plate is 188.9 g. We can attach up to four slugs (in pairs) to the glider  to increase its mass (to 289.9 or 390.4 g).
 
 :::Exercise
 
@@ -37,7 +37,7 @@ In this exercise we want to explore how the mass $$m$$ of the glider relates to 
 
 We use a spring scale to measure the force $$F$$. We keep the angle of the air track constant.
 We release the glider from the top of the track, and record the time for the glider to travel from the start to when it hits the elastic bumper at the bottom end of the track. 
-For these runs, the height b will equal GUAC.
+For these runs, the height b will equal 7.6cm.
 
 The video below shows the setup, and the three glider runs. Use the timer on the video to find the time for each of the three runs.
 AVOCADO (Need to decide how students will do timing, etc.)
@@ -55,9 +55,9 @@ AVOCADO (Need to decide how students will do timing, etc.)
 
 The following video shows the experiment:
 
-AVOCADO: !(Video link goes here)
-
-Video 1
+:::Figure:Video
+!(https://www.youtube.com/watch?v=VSeEhSMytWA&feature=youtu.be)
+:::
 
 2. For each run, use the kinematics you learned earlier in the quarter to calculate the acceleration from your measured values of $L$ and  $t$ (Hint: Use $$x=x_0+v_ot+\frac{1}{2} a t^2$$ where $$x$$ is the coordinate along the air track).
 
@@ -91,17 +91,23 @@ b) How does the force depend on mass? Calculate the slope and compare it to your
 
 
 :::Exercise
-We will now repeat one of the runs from Exercise 1, but this time we will use a range finder to follow the motion of the glider as it travels down the track and then bounces back up to the top. The range finder will periodically measure the distance of the glider from the top of the track, so that at the end of the run, we will have a set of data points that give position versus time. We will keep the track at the same angle as before. 
+We will now repeat one of the runs from Exercise 1, but this time we will use a range finder to follow the motion of the glider as it travels down the track and then bounces back up to the top. The range finder will periodically measure the distance of the glider from the top of the track, so that at the end of the run, we will have a set of data points that give position versus time. We will keep the track at the same angle as before. We can see this set up in Figure 2.
+
+:::Figure:Figure
+![](imgs/Figure_1_final.jpg)
+:::
 
 We will use data points taken from when the glider bounces off the bumper at the bottom of the track to when it next returns to the bumper.
 
-In order to use the range finder, we must attach a reflector plate to the glider. The mass of the glider with the plate attached is AVOCADO.
+In order to use the range finder, we must attach a reflector plate to the glider. The mass of the glider with the plate attached is 188.9g.
 
 The following video shows the experiment:
 
-AVOCADO: !(Video link goes here.)
+:::Figure:Video
+!(https://www.youtube.com/watch?v=QSMZyRh-Y-0)
+:::
 
-We now have a set of position versus time data. The positions are the distance $L$ in Figure 1.
+We now have a set of position versus time data. The positions are the distance $L$ in Figure 2.
 
 :::Figure:Table
 
@@ -111,7 +117,7 @@ We now have a set of position versus time data. The positions are the distance $
 
 :::
 
-1. Copy the data linked in Table GUAC into separate spreadsheet.
+1. Copy the data linked in Table 2 into separate spreadsheet.
 
 2. Take the data points provided, from maximum position to maximum position (the trip from the bumper, up the track and back to the bumper), and make a graph of position vs. time. 
 
@@ -133,9 +139,9 @@ c) Does this value of the acceleration agree with the ones found in Exercise 1?
 :::Exercise
 In this exercise we want to explore how the acceleration $$a$$ of the glider relates to the force $$F$$ exerted on it. Thus, we will keep the mass of the glider (without the reflector) constant, and we will take four runs, each with the track at a different angle. As we did before, we will measure the force on the cart before each run.
 
-For each set of four runs, the heights b will be, in order, AVOCADO, AVOCADO, AVOCADO, and AVOCADO.
+For each set of four runs, the heights b will be, in order, 3.7cm, 2.0cm 1.0cm, and 0.5cm.
 
-The glider mass will be AVOCADO.
+The glider mass will be 289.8g. AVOCADO
 
 1. As before, make a table like the one below, and record the heights and mass given above. Derive the acceleration from the kinematics equation.
 :::Figure:Table
@@ -148,7 +154,10 @@ The glider mass will be AVOCADO.
 :::
 The following video shows the experiment:
 
-AVOCADO: !(Video link goes here.)
+AVOCADO (Update Video)
+:::Figure:Video
+!(https://www.youtube.com/watch?v=jDInF_JimKk&feature=youtu.be)
+:::
 
 
 1. Now, with the data from your table, make a plot of force versus acceleration.
@@ -156,7 +165,7 @@ AVOCADO: !(Video link goes here.)
 :::Question 
 a) Does this plot look linear?
 
-b) How does force depend on acceleration? Determine the slope for the graph and compare it to the mass.
+b) How does force depend on acceleration? Determine the slope for the graph and compare it to the mass.w
 :::
 
 :::Question
@@ -187,22 +196,25 @@ The total energy in a closed system remains *constant*.
 ### Procedure
 The figure below shows the setup we will use for this part of the lab. It is identical to the one we used in Exercise 2. For convenience, we present it here as well:
 
-AVOCADO Add Figure Here
-
+:::Figure:Figure
+![](imgs/Figure_1_final.jpg)
+:::
 
 ::: Exercise 
 
-We will operate the air track in a similar fashion to the way we did in Exercise 2. Again, we will place a block of height b under a leg of the air track. This height will be AVOCADO.
+We will operate the air track in a similar fashion to the way we did in Exercise 2. Again, we will place a block of height b under a leg of the air track. This height will be 2.0cm.
 
-The mass of the glider with reflector plate is AVOCADO.
+The mass of the glider with reflector plate is 188.9g.
 
-We will release the glider from the 160-cm mark on the air track, and the range finder will follow its motion as it rides back and forth on the track.
+We will release the glider 140cm from the bottom of the air track, and the range finder will follow its motion as it rides back and forth on the track.
 
 The following video shows this procedure:
 
-AVOCADO: !(Video link goes here)
+:::Figure:Video
+!(https://www.youtube.com/watch?v=VSeEhSMytWA&feature=youtu.be)
+:::
 
-We now have a set of position versus time data. The positions are the distance $L$ in Figure GUAC.
+We now have a set of position versus time data. The positions are the distance $L$ in Figure 3.
 
 :::Figure:Table
 
@@ -212,7 +224,7 @@ We now have a set of position versus time data. The positions are the distance $
 
 :::
 
-1. Copy the data linked in Table GUAC into separate spreadsheet. Take note of the height b and the mass of the glider with reflector plate given above.
+1. Copy the data linked in Table 4 into separate spreadsheet. You will have to go to the second sheet named Exercise 4 Rangefinder Data. Take note of the height b and the mass of the glider with reflector plate given above.
 
 2. Use the data in your table to plot the position and velocity of the glider. (Hint: You can make this using the same method used to plot in the previous lab)
 
