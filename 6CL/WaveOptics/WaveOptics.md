@@ -261,8 +261,8 @@ To open the images you need to right click and open in a new tab or window.
 :::Figure:Table
 |Configuration| Slit Width (a) [mm] | Slit Separation (d) [mm] | Screen to Slit Distance  (D) [cm] | Link |
 | -------- | -------- | -------- | - | - |
-| 1    | 0.04     |  0.25     | 100  | [Config_1](https://drive.google.com/file/d/1D6qKXQunnEHtFx1HD_7DauRZ8zi32YAP/view?usp=sharing) |
-| 2   | 0.08     | 0.25     | 100 | [Config_2](https://drive.google.com/file/d/13zkt5If1vXRhg_8jqxvyZUeXnvYInnmd/view?usp=sharing) |
+| 1    | 0.04     |  0.25     | 100  | [Config_1](https://drive.google.com/file/d/13zkt5If1vXRhg_8jqxvyZUeXnvYInnmd/view?usp=sharing) |
+| 2   | 0.08     | 0.25     | 100 | [Config_2](https://drive.google.com/file/d/1sebsIsRI68ek_7jZ_xqU_cLQlMc2QG15/view?usp=sharing) |
 | 3    | 0.04     |  0.50    | 100  | [Config_3](https://drive.google.com/file/d/1D6qKXQunnEHtFx1HD_7DauRZ8zi32YAP/view?usp=sharing) | 
 
 
