@@ -42,7 +42,7 @@ For these runs, the height b will equal 7.6cm.
 The video below shows the setup, and the three glider runs. Use the timer on the video to find the time for each of the three runs.
 
 1. Make a table like the one below, in which to record your data. Record the height b.
-- - Height, $b$, in Fig. 2 (m) =
+- - Height, $b$, in Fig. 1 (a) = 7.6cm
 :::Figure:Table
 | Mass (kg) | Force (N) | Distance (m) | Time (sec)| Acceleration (m/s$^{2}$) |
 | --------  | --------      | --------     | --------      | --------      |
@@ -136,13 +136,16 @@ c) Does this value of the acceleration agree with the ones found in Exercise 1?
 :::
 
 :::Exercise
-In this exercise we want to explore how the acceleration $$a$$ of the glider relates to the force $$F$$ exerted on it. Thus, we will keep the mass of the glider (without the reflector) constant, and we will take four runs, each with the track at a different angle. As we did before, we will measure the force on the cart before each run.
+In this exercise we want to explore how the acceleration $$a$$ of the glider relates to the force $$F$$ exerted on it. Thus, we will keep the mass of the glide constant, and we will take four runs, each with the track at a different angle. As we did before, we will measure the force on the cart before each run.
 
-For each set of four runs, the heights b will be, in order, 3.7cm, 2.0cm 1.0cm, and 0.5cm.
+For each set of four runs, the heights $b$ will be, in order, 3.7cm, 2.0cm 1.0cm, and 0.5cm.
+
+The force at each height will be 0.108 N, 0.061N, 0.027N, and 0.014N respectively.
 
 The glider mass will be 289.8g.
 
-1. As before, make a table like the one below, and record the heights and mass given above. Derive the acceleration from the kinematics equation.
+1. As before, make a table like the one below, and record the heights, forces, and mass given above. Derive the acceleration from the kinematics equation.
+
 :::Figure:Table
 | Mass $m_i$|"
 | --------  | --------      | --------     | --------      | --------   |
@@ -154,16 +157,16 @@ The glider mass will be 289.8g.
 The following video shows the experiment:
 
 :::Figure:Video
-!(https://www.youtube.com/watch?v=fyl4ibDd-5k)
+!(https://www.youtube.com/watch?v=1l9w5_2AMGU)
 :::
 
 
-1. Now, with the data from your table, make a plot of force versus acceleration.
+2. Now, with the data from your table, make a plot of force versus acceleration.
 
 :::Question 
 a) Does this plot look linear?
 
-b) How does force depend on acceleration? Determine the slope for the graph and compare it to the mass.w
+b) How does force depend on acceleration? Determine the slope for the graph and compare it to the mass.
 :::
 
 :::Question
@@ -209,7 +212,7 @@ We will release the glider 140cm from the bottom of the air track, and the range
 The following video shows this procedure:
 
 :::Figure:Video
-!(https://www.youtube.com/watch?v=hfYVs3JQZeA)
+!(https://www.youtube.com/watch?v=-o_08QyCD6g)
 :::
 
 We now have a set of position versus time data. The positions are the distance $L$ in Figure 3.
