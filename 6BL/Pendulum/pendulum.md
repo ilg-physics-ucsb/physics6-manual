@@ -195,7 +195,9 @@ c) Knowing what you know now, does this agree with your response to Question 4.a
 
 The relationship between the period and length can be expressed:
 
-$$\rm Period = 2\pi \left (\frac{Length}{\it a} \right )^{\it b}$$
+$$
+\rm Period = 2\pi \left (\frac{Length}{\it a} \right )^{\it b}
+$$
 
 where $a$ and $b$ are unknown values.
 
