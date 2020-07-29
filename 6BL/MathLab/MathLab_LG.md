@@ -303,11 +303,11 @@ Create a best-fit line for the new log-log plot.
 :::Question
 a. What is the equation for your line of best fit?
 
-b. According to this equation, what is (are) the value(s) for the exponent(s) in your original equation?
+b. According to this equation, what is the value for the exponent in your original equation?
 :::Note
-For Experiment A, these are the powers for *T* and *a*. Note that you can express the equation in more than one way; one term can be raised to a nonintegral power, or each can be raised to an integral power.
+For Experiment A, this is the power for *a* in Equation 4 (as written in Exercise 3).
 
-For Experiment B, this is the power for *T*.
+For Experiment B, this is the power for *T* in Equation 5.
 
 For Experiment C, this is the value for *b* in Equation 6.
 :::
