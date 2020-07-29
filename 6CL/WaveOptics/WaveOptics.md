@@ -29,7 +29,7 @@ When light passes through two closely separated slits, the rays travel slightly 
 ![When the two waves travel slightly different distances before reaching the screen, their phase relationship also changes*](imgs/fig1_1.jpg)
 :::
 
-The top of Figure 1 demonstrates constructive interference. The two waves are in phase with one another and add together, forming a bright spot, referred to as a maximum. The bottom of Figure 1 shows destructive interference. The waves are exactly out of phase at the screen, and produce a dark spot, referred to as a minimum. You can see that constructive interference happens whenever the distances traveled by the two waves to the observation screen are the same, or if they differ by a whole number of wavelengths. Similarly, destructive interference occurs when the difference in the traveled distances is equal  to half integer wavelengths  (1/2, 3/2, 5/2, etc.).
+The top of Figure 1 demonstrates constructive interference. The two waves are in phase with one another and add together, forming a bright spot, referred to as a maximum. The bottom of Figure 1 shows destructive interference. The waves are exactly out of phase at the screen, and produce a dark spot, referred to as a minimum. You can see that constructive interference happens whenever the distances traveled by the two waves to the observation screen are the same, or if they differ by a whole number of wavelengths. Similarly, destructive interference occurs when the difference in the traveled distances is equal  to half-integer wavelengths  (1/2, 3/2, 5/2, etc.).
 
 Let's make this a bit more quantitative.
 
@@ -53,9 +53,9 @@ Image from  [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/sli
 
 :::
 
-Figure 2A shows us all the meaningful variables: $y$ is the position on the screen as measured from its center, $D$ is the distance between the slits and the screen, $\theta$ is the angle at which the light leaves the slits to get to position $y$ on the screen, $d$ is the separation between the two slits, and $a$ is the slit width. We label which intensity maxima (bright spots) we are talking about with the letter $m$. We call the one in the center of the screen $0$. Then to one side of $0$ we label the maxima positions with positive numbers in increasing order away from $0$ (1,2,3 etc.) and the other side negative numbers in decreasing order away from the $0$ (-1, -2, -3, etc). Which side we pick for which is arbitrary. 
+Figure 2A shows us all the meaningful variables: $y$ is the position on the screen as measured from its center, $D$ is the distance between the slits and the screen, $\theta$ is the angle at which the light leaves the slits to get to position $y$ on the screen, $d$ is the separation between the two slits, and $a$ is the slit width. We label which intensity maxima (bright spots) we are talking about with the letter $m$. We call the one in the center of the screen $0$. Then to one side of $0$ we label the maxima positions with positive numbers in increasing order away from $0$ (1, 2, 3, etc.) and the other side negative numbers in decreasing order away from the $0$ (-1, -2, -3, etc). Which side we pick for which is arbitrary. 
 
-Figure 1 tells us the condition for maxima to occur and Figure 2A gives the variables to  describe Figure 1 mathematically. We also need to know the wavelength of the light, which we will denote with $\lambda$. Thus the resulting maxima can be described mathematically by the formula for constructive interference:
+Figure 1 tells us the condition for maxima to occur, and Figure 2A gives the variables to  describe Figure 1 mathematically. We also need to know the wavelength of the light, which we will denote with $\lambda$. Thus we can describe the resulting maxima mathematically by the formula for constructive interference:
 
 ::: Figure:Equation
 $$
@@ -65,7 +65,7 @@ $$
 
 It would be nice if we could replace $\sin (\theta)$ with something a bit easier to work with.
 
-The center point between the slits, the center of the screen, and any position on the screen are three points that form a triangle. An example of one such triangle is drawn in purple in Figure 2.B. The bottom of the triangle has side length $D$ and the far side has length $y$.  We could determine the hypotenuse by using the Pythagorean theorem, but we won't need to do that here.
+The center point between the slits, the center of the screen, and any other position on the screen, are three points that form a triangle. An example of one such triangle is drawn in purple in Figure 2B. The bottom of the triangle has side length $D$ and the far side has length $y$.  We could determine the hypotenuse by using the Pythagorean theorem, but we won&rsquo;t need to do that here.
 
 **For small angles**, we can make the approximation $\sin(\theta)\approx\tan(\theta)$. Then we can use trigonometry and our triangle to get $\tan(\theta) = \frac{y}{D}$. This is summarized in the following equation:
 
@@ -75,7 +75,7 @@ sin(\theta) \approx \tan(\theta ) = \frac{y}{D}
 $$
 :::
 
-Thus we can use Equation 2 to replace $\sin(\theta)$ in Equation 1 to get a simplified interference equation. We will use the subscript $m$ to indicate the position on the screen of the mth maxima, $y_m$:
+Thus we can use Equation 2 to replace $\sin(\theta)$ in Equation 1 to get a simplified interference equation. We will use the subscript $m$ to indicate the position on the screen of the $m^{th}$ maximum, $y_m$:
 
 
 ::: Figure:Equation
@@ -89,12 +89,12 @@ Equation 2, and thus Equation 3, relies on $\theta$ being small. The angle $\the
 :::
 
 :::Note
-Equation 3 only describes interference phenomena but ignores diffraction.
+Equation 3 describes only interference phenomena but ignores diffraction.
 :::
 
 ##### Diffraction
 
-When talking about interference we have ignored the effect of the slit width $a$ on the patterns observed on the screen. *Diffraction* arises when a slit has a width comparable to the wavelength of light. If we consider light passing through a single slit of width $a$, we observe only diffraction effects. If we consider light passing through two slits of width $a$. we observe both interference and diffraction effects. It is important to note that the interference results from using *two* slits, and diffraction results from the slits having a certain *width*.  When both diffraction and interference are present, such as in the case of the two slits of width $a$ shown in Figure 3, the diffraction will modulate the intereference pattern. The *diffraction envelope* causes a fading and brightening of the interference maxima.
+In our discussion of interference we have ignored the effect of the slit width $a$ on the patterns observed on the screen. *Diffraction* arises when a slit has a width comparable to the wavelength of light. If we consider light passing through a single slit of width $a$, we observe only diffraction effects. If we consider light passing through two slits of width $a$. we observe both interference and diffraction effects. It is important to note that the interference results from using *two* slits, and diffraction results from the slits having a certain *width*.  When both diffraction and interference are present, such as in the case of the two slits of width $a$ shown in Figure 3, the diffraction will modulate the intereference pattern. The *diffraction envelope* causes a fading and brightening of the interference maxima.
 
 ::: Figure:Figure
 ![Diffraction and interference](imgs/fig1_2.JPG)
@@ -108,11 +108,11 @@ In this part of the lab we will get some intuition about what we observe on a sc
 
 :::Exercise
 
-In this exercise we will use a simulation to observe the light intensity (think brightness) on a screen. At the very top of the simulation is a graph plotting the intensity vs position on the screen. It is basically showing you how bright any particular point on the screen is.
+In this exercise we will use a simulation to observe the light intensity (think brightness) on a screen. At the very top of the simulation is a graph of the intensity vs. position on the screen. It shows you how bright any particular point on the screen is.
 
-Below the graph is the screen. This is simulating what you would see on a real screen (think piece of paper) if you wear to shine a laser through some slits. Lastly it is showing you the slits. This part of simulation is not drawn to scale but you can image that this is what the slits would look like under a microscope.
+Below the graph is the screen. This simulates what you would see on a real screen (think piece of paper) if you were to shine a laser through some slits. Below that, it shows you the slits. This part of the simulation is not drawn to scale, but you can imagine that this is what the slits would look like under a microscope.
 
-You are able to adjust the slit width ($a$), the slit separation ($d$), and the wavelength of the light ($\lambda)$. At the bottom you can turn on and off diffraction by checking the box. **Turning off diffraction is not something you can do in real life.**
+You are able to adjust the slit width ($a$), the slit separation ($d$), and the wavelength of the light ($\lambda)$. At the bottom you can turn diffraction on and off by checking the box. **Turning off diffraction is not something you can do in real life.**
 
 ::: Figure:Simulation
 SIM1
@@ -120,16 +120,16 @@ SIM1
 
 ### Interference
 
-Let's start by focusing only on interference. 
+Let&rsquo;s start by focusing only on interference. 
 
-1. Click the diffraction checkbox to uncheck the box and turn off an diffraction effects.  This will ignore any effects the width of the slits has on the intensity, so that slider is not useful/active anymore.
+1. Click the diffraction checkbox to uncheck the box and turn off diffraction effects.  This will ignore any effects the width of the slits has on the intensity, so that slider is not active anymore.
 
-An important thing to notice is that the when there is no diffraction all maxima are **equally bright and equally spaced**.  
+An important thing to notice is that that when there is no diffraction, all maxima are **equally bright and equally spaced**.  
 
 ::: Question
-a. Use Equation 3 to write a prediction for what will happen to the location of the maxima on the screen ($y_m$), when you adjust the slit separation ($d$).
+a. Use Equation 3 to write a prediction for what will happen to the location of the maxima on the screen ($y_m$) when you adjust the slit separation ($d$).
 
-b. Use Equation 3 to write a prediction for what will happen to the location of the maxima on the screen ($y_m$), when you adjust the wavelength ($\lambda$).
+b. Use Equation 3 to write a prediction for what will happen to the location of the maxima on the screen ($y_m$) when you adjust the wavelength ($\lambda$).
 :::
 
 2. Adjust the separation while leaving everything else the same. Pay attention to what happens on the screen and the intensity plot.
@@ -146,12 +146,12 @@ How does adjusting the wavelength affect the pattern on the screen (or the inten
 
 ### Diffraction
 
-Now we will only consider diffraction effects. As mentioned in the introduction, diffraction can occur with only one slit, while interference takes at least two. 
+Now we will consider only diffraction effects. As mentioned in the introduction, diffraction can occur with only one slit, while interference takes at least two. 
 
 1. Start by sliding the separation to $0 \mu m$. This will turn our two slits into one.
 2. Now turn on diffraction by checking the box. 
 
-Notice how now we now have one large peak in the center and many much smaller peaks to the sides. This is the **diffraction envelope** shown in Figure 3. 
+Notice that now we now have one large peak in the center and many much smaller peaks to the sides. This is the **diffraction envelope** shown in Figure 3. 
 
 :::Question
 a. How does adjusting the slit width change the diffraction envelope?
@@ -163,16 +163,16 @@ b. How does adjusting the wavelength change the diffraction envelope?
 
 Now we will look at interference and diffraction happening at the same time. This is much more like what you would see in real life.
 
-1. Adjust the separation slider until there are two slits again. Somewhere around $200\mu m$. 
+1. Adjust the separation slider until there are two slits again, somewhere around $200\mu m$. 
 2. Adjust the width to about $25 \mu m$.
 3. Make sure the diffraction checkbox is still on.
 
 Notice the outline of the diffraction envelope and the interference pattern inside of it. Also notice that where the diffraction envelope goes to zero, there is not a maximum even if the interference equation says there should be one.
 
-3. To help see this, try turning on and off diffraction and paying close attention to where the diffraction envelope goes to zero.
+3. To help see this, try turning diffraction on and off, and pay close attention to where the diffraction envelope goes to zero.
 
 :::Note
-This is important because if we are labeling the interference maxima (-2, -1, 0, 1, 2, 3, etc) we want make sure we still label the interference maxima that are at the zero point of the diffraction envelope.
+This is important, because if we are labeling the interference maxima (-2, -1, 0, 1, 2, 3, etc.), we want to make sure that we still label the interference maxima that are at the zero point of the diffraction envelope.
 :::
 
 4. Make sure that diffraction is checked in order to see the diffraction effects.
@@ -199,7 +199,7 @@ If you decrease the slit width, why do more peaks appear in the central diffract
 
 :::Exercise
 
-In this exercise you will see a video of  light shining through a pair of slits. This is not your standard pair of slits, however. They are are attached to a wheel and designed so that as the wheel rotates the *slit **separation** will change* but the *slit **width** remains constant*. 
+In this exercise you will see a video of  light shining through a pair of slits. This is not your standard pair of slits, however. They are are attached to a wheel and designed so that as the wheel rotates the *slit **separation** changes* but the *slit **width** remains constant*. 
 
 :::Figure:Figure
 ![Variable slit setup](imgs/VariableSlits.png)
@@ -210,7 +210,7 @@ Figure 4 shows the setup. A laser is shone at a variable slit wheel. The wheel r
 $D$ is the distance between the slits and the screen. $y$ is the distance between the *central interference maximum* and **any other** interference maximum. $d$ is the slit separation. 
 
 
-1. Watch the video below. Pay attention to how the diffraction envelope does or does not change and the number of interference maxima in the central lobe of the diffraction envelope. 
+1. Watch the video below. Pay attention to how the diffraction envelope does or does not change, and the number of interference maxima in the central lobe of the diffraction envelope. 
 :::Figure:Video
 
 !(https://www.youtube.com/watch?v=_gN71PmL020)
@@ -226,7 +226,7 @@ How does the pattern on the screen change when you decrease the slit separation?
 :::
 
 ::: Question
-If light only behaved like a particle, what would the pattern on the screen look like for two slits?
+If light behaved only as a particle, what would the pattern on the screen look like for two slits?
 :::
 
 :::
@@ -234,15 +234,15 @@ If light only behaved like a particle, what would the pattern on the screen look
 
 ---
 
-## PART 2: MEASURING THE LASER'S WAVELENGTH
+## PART 2: MEASURING THE LASER&rsquo;S WAVELENGTH
 
 In this part of the lab we want to be more quantitative. We will not concern ourselves with the diffraction envelope, and will focus only on *interference*. We will use the interference theory developed in Part 1, namely Equation 3, to measure the wavelength of the laser.
 
 ::: Exercise
 
-In this exercise you will be given data collected by shining a laser through different pairs of slits with various slit separations and slit widths, and recording the patterns that appeared on a screen.  You will measure the distances between opposite interference maxima (-1 & 1, -2 & 2, etc) and use this information to measure the wavelength of the laser.
+In this exercise you will be given data collected by shining a laser through different pairs of slits with various slit separations and slit widths, and recording the patterns that appeared on a screen.  You will measure the distances between opposite interference maxima (-1 & 1, -2 & 2, etc.), and use this information to measure the wavelength of the laser.
 
-The setup is similar to that drawn in Figure 4, except that we won't be using a variable slit. We will instead use sets of double slits, one pair at a time. Each pair has a different slit separation and/or slit width.
+The setup is similar to that drawn in Figure 4, except that we won&rsquo;t be using a variable slit. We will instead use sets of double slits, one pair at a time. Each pair has a different slit separation and/or slit width.
 
 You will make your measurements in GeoGebra. Video 3 below walks you through how you will import an image, calibrate the image, and  make a measurement.
 
