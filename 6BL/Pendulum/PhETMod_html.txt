@@ -1,0 +1,4 @@
+<figure class="Simulation">
+    <embed src="https://ilg-physics-ucsb.github.io/PhETMods/pendulum-lab/pendulum-lab_en.html" width="100%" height="600" allowfullscreen frameborder="0">
+    <figcaption>Simulation 1</figcaption>
+</figure>

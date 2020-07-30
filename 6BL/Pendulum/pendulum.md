@@ -238,7 +238,7 @@ Consider two different pendulums of equal mass and tied to strings of equal leng
 
 For the next few questions, use the PhET simulation for a pendulum:
 
-![Simulation 1](https://ilg-physics-ucsb.github.io/PhETMods/pendulum-lab/pendulum-lab_en.html?screens=1)<!--{width=100% height=600px}-->
+[Simulation 1 goes here (.html insert)]
 
 1. Pick three new lengths that are not shown in Video 4. Take data for the periods corresponding to these lengths, and add those three points to your plots. Make these three points different from the rest of your data (by color or shape).
 
