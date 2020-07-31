@@ -177,6 +177,8 @@ Create a best-fit line for the new log-log plot.
 a. What is the equation for your line of best fit?
 
 b. According to this equation, what is the value of the exponent (assuming that you cast the equation to give only one variable, *i.e.* *a*, with a nonunity exponent), and thus, what are the values of *m* and *n* in the exponent in your original equation? (If you would prefer to write the equation the other way, what are the respective exponents for *T* and *a*?)
+
+c. What is the value of $\sqrt[m]{K}$, and thus *K*?
 :::
 
 ## 6. UNITS
@@ -184,7 +186,7 @@ b. According to this equation, what is the value of the exponent (assuming that 
 For the equation for Kepler&rsquo;s Third Law, although the power relationships do not depend on what units we choose for our variables, the proportionality constant, and hence its logarithm, does. Thus, a note about units and their conversion is in order.
 
 :::Note
-As noted above, for the period, *T*, we used years, for the semimajor axis of the orbit, *a*, we used a.u. (1 a.u. = $149.6 \times 10^6$ km). $K=(\frac{\rm 4\pi^2}{GM})$, where *G* is the gravitational constant ($=6.67 \times 10^{-11} \rm\frac{N\cdot m^2}{kg^2}$), and *M* is the mass of the sun ($1.988 \times 10^{30}$ kg). You may have noticed that years and a.u. are not SI units. The SI units for these values are seconds and meters. As it turns out, if you make the conversion from seconds to years, and from meters to a.u., *K* = 1; when you multiply and divide *K* by the appropriate conversion factors, raised the the appropriate powers, the result is unity.
+As noted above, for the period, *T*, we used years, for the semimajor axis of the orbit, *a*, we used a.u. (1 a.u. = $149.6 \times 10^6$ km). $K=(\frac{\rm 4\pi^2}{GM})$, where *G* is the gravitational constant ($=6.67 \times 10^{-11} \rm\frac{N\cdot m^2}{kg^2}$), and *M* is the mass of the sun ($1.988 \times 10^{30}$ kg). You may have noticed that years and a.u. are not SI units. The SI units for these values are seconds and meters. As it turns out, if you make the conversion from seconds to years, and from meters to a.u., *K* = 1; when you multiply and divide *K* by the appropriate conversion factors, raised the the appropriate powers, the result is unity. You should have found this in your answer to question 4. c.
 :::
 
 :::Question
