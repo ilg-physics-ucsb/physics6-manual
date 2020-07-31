@@ -67,7 +67,7 @@ which can also be written as
 $T=\sqrt[m]{K}a^{(n/m)}$
 :::
 
-where *T* is orbital period, *a* is the semimajor axis of the orbit, and $K=(\frac{\rm 4\pi^2}{GM})$, where *G* is the gravitational constant ($=6.67 \times 10^{-11} \rm\frac{N\cdot m^2}{kg^2}$), and *M* is the mass of the sun ($1.988 \times 10^{30}$ kg). Strictly speaking, the denominator should be $G(M_{planet} + M)$, but the sun is so much more massive than the planets, that for describing the orbital motion of the planets, the equation is accurate without the planetary mass. We will give the period in years, and the semimajor axis in a.u. (astronomical units; 1 a.u. = $149.6 \times 10^6$ km).
+where *T* is orbital period, *a* is the semimajor axis of the orbit, and $K=(\frac{\rm 4\pi^2}{GM})$, where *G* is the gravitational constant ($=6.67 \times 10^{-11} \rm\frac{N\cdot m^2}{kg^2}$), and *M* is the mass of the sun ($1.988 \times 10^{30}$ kg). Strictly speaking, the denominator should be $G(M_{planet} + M)$, but the sun is so much more massive than the planets, that for describing the orbital motion of the planets, the equation is accurate without the planetary mass. *m* and *n* are integers. We will give the period in years, and the semimajor axis in a.u. (astronomical units; 1 a.u. = $149.6 \times 10^6$ km).
 
 ## 3. DATA
 
