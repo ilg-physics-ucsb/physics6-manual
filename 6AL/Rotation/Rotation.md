@@ -1,104 +1,167 @@
-# Rotation
----
-## Gaining Intuition 
-In your study of linear dynamics, you have become familiar with terms like displacement (x), velocity (v), acceleration (a), mass (m), and so on. In rotational dynamics, we measure similar properties such as angular displacement, angular velocity, and angular acceleration. 
+# ROTATION
+## Introduction
 
-The basic unit of measurement in angular mechanics is the radian. It is defined as the angle that is subtended by an arc equal to the radius. 
+In your study of linear mechanics, you have become familiar with terms like position and displacement (along a coordinate x, y or z), velocity (**v**), acceleration (**a**), mass (m), and so on. In rotational mechanics, we measure similar quantities such as angular displacement, angular velocity and angular acceleration.
 
-You ask, “What is the value of a radian?” Perhaps this will help. You buy a 15” pizza. You carefully locate the center 7.5” from any point on the circumference. You make a single cut from the center to the edge. You now take a piece of string and carefully measure out 7.5”. You take this string and starting at the cut in the pizza you fit it along the outer edge crust. At this location you make the second cut to the center of the pizza. You now have an equilateral slice where the length along the crust (arc length) is equal to the radius. Not wanting to mess up your slice of pizza with a protractor, you proceed with the following logic. Using a clean napkin you jot the following fact about circles. The circumference, C, is equal to $2\pi r$ = 360°. Now if the radius equals the arc length, then there must be $2\pi$ radians in 360°. Doing the math on the napkin you arrive at an answer of about 57.3°. If you go crazy it’s 57.29577951... Well with pi in the calculation you know you can’t break even.
+The basic unit of measurement in rotational mechanics is the radian.  It is defined as the angle that is subtended by an arc equal to the radius of the circle on which it lies.
 
-So let’s introduce the cast for rotational motion. The first is the basic unit of measure in rotation, the radian. Its symbol is $\theta$ (theta). The second is angular velocity, $\omega$ (omega). Angular velocity measures the rate of change in rotation and has the units of rad/sec (radians per second). The third is angular acceleration, $\alpha$, which measures the rate of change in $\omega$ and has the units of rad/sec$^2$. 
+You ask, &ldquo;What is the value of a radian?&rdquo; Perhaps this will help. You buy a 15&Prime; pizza. You cut a piece of string so that it is 15 inches long, fold it exactly in half and make a mark at the midpoint. Now you use it to find the center of the pizza, and you make a straight cut from there to the edge of the pizza. Now you cut the string exactly in half, take one of the two 7.5-inch pieces, place one end of it exactly at the outer end of the cut you have just made, and carefully lay it along the edge of the pizza. From the other end of the string, you now make a second straight cut from that end of the string to the center of the pizza. You now have a slice whose length along the crust (arc length) equals the length of each side (the radius of the pizza, r). The angle subtended by this arc is thus 1 radian, but now you would like to know how many radians there are in a circle, and also, what a radian corresponds to in degree measure.
 
-Note the similarity in linear motion. Displacement, x, is measured in meters (MKS); velocity, v, is measured in m/sec; and acceleration, a, is measured in m/sec$^2$. 
+You don&rsquo;t have a protractor with you, but you do have a clean napkin and a pen. You note that the circumference of the pizza, C, equals 2&pi;r, and that a full circle subtends an angle of 360&deg;. This means that there are 2&pi; radians in 360&deg;. Doing the arithmetic, you find that 360&deg;/(2&pi;) (= 180/&pi;) = 57.3&deg;. Hence, 1 radian = 57.3&deg;. (You measured the diameter and radius rather precisely.) Note that because the radian is a ratio of two lengths, it is dimensionless.
 
-Another actor on the stage, similar to mass, is dubbed Moment of Inertia. Its symbol is I. As mass has the fundamental property to resist change in linear motion so too, does the Moment of Inertia. The Moment of Inertia is a measure of an object’s resistance to change in angular motion. Other linear motion properties such as Force, Momentum, and Kinetic Energy have counterparts in the rotational dynamics realm. In the table below compare the formulation between linear and roational properties. 
+Now let&rsquo;s introduce the cast for rotational mechanics. First is the unit of angular measure, which as we noted above, is the radian. Next is angular displacement, for which we use the Greek letter &theta; (theta), and which we measure in radians. Third is angular velocity, whose symbol is **&omega;** (omega). This is the time rate of change of displacement ($\rm\frac{\Delta\theta}{\Delta t}$), and it has the units of rad/s (radians/s). Next is angular acceleration, **&alpha;** (alpha). This is the time rate of change of angular velocity ($\rm\frac{\Delta\omega}{\Delta t}$). It has the units rad/$\rm s^2$.
 
-![Figure 1.1 – Analogs between Linear and Rotational Dynamics. ](imgs/fig1.1.jpg)
+Note that in the text above, the bold symbols are vectors. **&omega;** and **&alpha;** have both magnitude and direction. The direction is along the axis of rotation, and the sense is in the direction in which your right thumb points when you curl the fingers of your right hand in the direction of the rotation. Since it is only the sense that changes, and since we are not so much concerned with direction, for convenience we will use the scalar forms of the equations in which all these variables appear.
 
-In linear dynamics, you had to calculate the net force to determine an object’s linear motion. In rotational dynamics, you must calculate the net torque about an axis to determine an object’s rotational motion. In linear dynamics, you learned about the conservation of momentum. Not surprisingly, in rotational dynamics there is conservation of angular momentum. We could go on for hundreds of pages, but luckily your textbook already does this.
+Another member of the cast, similar to mass, is something we call the *moment of inertia*. Its symbol is I. In proportion to its mass, an object possesses *inertia*; it resists change in its linear motion. Similarly, according to its mass and how that mass is distributed about a particular axis of rotation, an object resists change in its rotational motion about that axis. The farther a portion of the mass is from the rotation axis, the greater its moment, or resistance to rotation. We will return to this later.
 
-Even though mass is analogous to moment of inertia in the formulas, the two have very different physical properties. Unlike mass, the moment of inertia depends on the distribution of mass (that is, the shape) of the object. The moment of inertia also depends on the location of the axis the object is rotating (spin-axis). Mass measurements are obtained using a balance or scale. Moment of inertia measurements are not as easily accomplished. Indeed it is a little more involved, but it’s also more fun.
+By now, you have probably noticed similarities between the quantities that we use to describe linear motion, and those that we use to describe rotational motion. To the list we have so far, we will add three more items. A force (F = ma), in rotation becomes a *torque* (symbolized by &tau; (tau); &tau; = I&alpha;), linear momentum (p = mv) becomes *angular momentum* (L = I&omega;), and kinetic energy (K = $\rm(\frac12)m v\rm^ 2$) becomes *rotational kinetic energy* (K$\rm_r = (\frac12)$I&omega;$^2$). Note that whereas force has units of newtons (kg&middot;m/s$^2$), torque has units of newton&middot;meters. Where linear momentum is in kg&middot;m/s, angular momentum is in kg&middot;m$^2$/s. (We shall see later why this is so.) Linear kinetic energy and rotational kinetic energy have the same units (J, which are N&middot;m or kg&middot;m$^2$/s$^2$). The table below shows all of these quantities, with their expressions:
 
-## PART 1: MEASURING THE MOMENT OF INERTIA 
-
-To measure the moment of inertia, we use a turntable with string wrapped around it. The string loops over a pulley and attaches to a hanging mass. The weight of the mass creates a tension in the string. This tension force exerts a torque on the turntable that makes it rotate. By calculating the angular acceleration of the turntable and torque on the turntable, we can calculate the moment of inertia. 
-
-### Torque 
-The torque exerted on an object by a force, F, is equal to the lever arm distance (the distance from the axis of rotation to where the force acts) multiplied by the component of force perpendicular to the lever arm. 
-
-![Figure 1.2 – Torque is equal to the perpendicular force multiplied by the distance from the axis of rotation.  ](imgs/fig1.2.jpg)
-
-When you attach a mass to the string on the turntable and release it, the force exerting the torque on the turntable is the tension in the string.
-
-In this experiment, you are to adjust your apparatus so that the string makes an angle of 90° = $\pi$/2 radians with the turntable and that the pulley is at the same height as the top of the turntable. 
-
-::: Question
-What is the formula for the torque on the turntable in terms of tension in the string and the lever arm distance? Justify your answer.
+:::Figure:Table
+|Linear Motion|Rotational Motion|
+|-----------------|----------------------|
+| Displacement, x|Angular Displacement, &theta;|
+|Velocity, v   |Angular Velocity, &omega;|
+|Acceleration, a|Angular Acceleration, &alpha;|
+|Mass, m|Moment of Inertia, I|
+|Force, F = ma|Torque, &tau; = I&alpha;|
+|Momentum, p = mv|Angular Momentum, L = I&omega;|
+|Kinetic Energy, K = $(\frac12)$mv$^2$|Rotational Kinetic Energy, K$\rm_r = (\frac12)$I&omega;$^2$|
 :::
 
-![Figure 1.3 ](imgs/fig1.3.jpg)
+We see that for each quantity involved in the description of an object&rsquo;s linear motion there is an analogous quantity for the description of its rotational motion. Whereas in linear dynamics you would find the net force on an object to determine its acceleration (or vice versa), in rotational dynamics you find the net torque on an object to determine its rotational acceleration (or vice versa). Just as linear momentum is conserved, so is angular momentum.
 
-When you release the mass, it will accelerate toward the earth with acceleration, a. To measure the time it takes for a mass starting at rest to move a known distance h, in time t, use the equation: 
+Even though mass is analogous to moment of inertia, we may not be able to measure them the same way. To measure mass, we can merely place the object on a balance. As noted above, however, an object&rsquo;s moment of inertia depends on how its mass is distributed about the axis about which it is rotating. If the object has uniform density and is symmetrical, it may be possible to measure its mass, and then based on its shape, calculate the moment of inertia. If this is not possible (perhaps the object has an odd shape or is of varying density), we must measure the moment of inertia by applying a torque to rotate it, and then by measuring its acceleration, find its moment of inertia. In this lab, we will do both of these things and compare the results.
+
+As noted above, the farther a portion of a rotating object is from the rotation axis, the greater its moment.  But what is this moment? If the object is rigid, all points on it have the same angular speed, &omega;, but each has an instantaneous linear speed, *v* = &omega;r, where r is its distance from the rotation axis. The angular momentum, l,  for the special case of a particle going in a circle around a central point at a distance r (as do all the mass points in our rotating object) equals m*v*r. Since *v* = &omega;r, this equals mr$^2$&omega;. This angular momentum is often called the *moment of momentum*. If we add the momenta for all the mass points in our rotating object, we have L = &Sigma;mr$^2$&omega;. Since &omega; is the same for all points on the object, L =(&Sigma;mr$^2$)&omega;. The sum in parentheses is the moment of inertia, which we call I, and L = I&omega;.
+
+We can also see this by taking the kinetic energy of each mass point, which is (1/2)m*v*$^2$. From the equations above, we see that this also equals (1/2)mr$^2$&omega;$^2$. The total kinetic energy for the rotating object is the sum for all points on it: K$\rm_r$ = &Sigma;(1/2)mr$^2$&omega;$^2$. We can pull out the (1/2), and since &omega;$^2$ is the same for all points, this is K$\rm_r$ = (1/2)[&Sigma;mr$^2$]&omega;$^2$. The sum in brackets is I, the moment of inertia. Its units are kg&middot;m$^2$ (or in cgs units, g&middot;cm$^2$).
+
+## Measuring the Moment of Inertia
+
+For our dynamic measurement of the moment of inertia, we will use a turntable that has a hub attached at its center, which has three grooves, of different radius, around which one can wind a string. The string extends from the hub of the turntable and goes over a pulley at the front edge of the base of the apparatus. A mass hanging from the free end of the string provides tension, which exerts a torque on the turntable, thus causing it to rotate. The figure below shows a schematic of the apparatus (though with the hub diameter exaggerated and only one groove): 
+
+:::Figure:Figure
+![Figure_1](imgs/Figure_1.jpg)
+:::
+
+By measuring the time it takes the mass to fall from its initial height to the floor, we can find a, its (linear) acceleration. From this we can calculate &alpha;, the angular acceleration of the turntable. From the weight of the mass, and its linear acceleration, we can find T, the tension in the string. Once we know all these things, we can calculate the torque, &tau;, and from &tau; = I&alpha;, find I, the moment of inertia of our turntable platter.
+
+### Torque
+
+The torque exerted on an object by a force, F, is equal to the lever arm distance (the distance, r,  from the axis of rotation to where the force acts) multiplied by the component of force perpendicular to the lever arm.
+
+:::Figure:Figure
+![Figure 2 &ndash; Torque is equal to the perpendicular force multiplied by the distance from the axis of rotation](imgs/Figure_1.2.jpg)
+:::
+
+When we attach a mass to the string on the turntable and release it, the force exerting the torque on the turntable is the tension in the string.
+
+In this experiment, we must make sure that the pulley on the front edge of the apparatus is in line with the string (along the tangent that runs perpendicular to the front edge), and that its top is at the same height as the groove in which we are winding the string. Since the string is tangent to the pulley (it cannot be otherwise), sin &theta; equals one; F and F$_\perp$ are identical.
+
+:::Question
+a) What is the formula for the torque on the turntable in terms of tension in the string and the lever arm distance? Justify your answer.
+
+b) When the mass is falling, what is the tension in the string? (The next two questions should provide a hint. So should Figure 1, above, and the text below it.)
+
+c) What is the tension if the turntable is held fixed, with the mass hanging from the pulley?
+
+d) What would the tension be if the mass were in free fall (for example, the string broke near the turntable hub, and the mass is pulling it over the pulley)?
+:::
+
+When you release the mass, it accelerates toward the earth with acceleration, a. To find this acceleration, we measure the time it takes for the mass to fall to the floor from a known height, h. We then use the following equation to calculate a. (Because the mass starts from rest, we can ignore the v$\rm_{0y}$t term, which equals zero.):
 
 $$
-h = v_{0y}t + \frac{1}{2}a_yt^2 
+\rm h = v_{0y}t + (\frac12)a_{y}t^2
 $$
 
 The tangential acceleration of a point at the lever arm distance is:
 
 $$
-a = r\alpha 
+\rm a = r\alpha
 $$
 
-where a is the acceleration of the falling mass, r is the lever arm distance, and $\alpha$ is the angular acceleration of the turntable
+where a is the acceleration of the falling mass, r is the lever arm distance, and &alpha; is the angular acceleration of the turntable.
 
-::: Question
-Why is this claim valid? Use physical reasoning, not equations, to answer. 
+:::Question
+Why is this claim valid? Use physical reasoning, not equations, to answer.
 :::
 
-### Procedure
-1.) Record the lever arm distance, r, of your turntable. Note: this ***is not*** the radius of the turntable top; this is the distance from the rotation axis to where the string makes contact with the turntable. This value should be 1, 2, or 3 cm. 
+## Procedure
 
-::: Question
-What effect does the diameter of the string have? 
+1) The three grooves in the turntable hub have radii of 1, 2 and 3 cm. Record the radius of the one we will use (AVOCADO -- give here or in video?). This will be your lever arm r.
+
+:::Question
+What effect does the diameter of the string have?
 :::
 
-2.) Select and record a test mass. Be sure to include the mass of the hangar. Before releasing it, also record its height above the ground. 
+2) We will select and record six test masses (one at a time). To each mass, we must add the mass of the hanger, which is AVOCADO.
 
-::: Question
-What level of confidence do you have in this measurement (+/- mm)? 
+3) Before we release each mass, we will measure and record its height above the floor.
+
+:::Question
+What level of confidence do you have in this measurement (+/- mm)?
 :::
 
-3.) Release the mass and record the time it takes to strike the floor. Record this data. 
+4) We will release the mass, then measure and record the time it takes to strike the floor.
 
-4.) Use this time and your formulas from part one, to calculate the acceleration of the mass, the angular acceleration of the table, and the torque. 
+5) Use this time and the equations above, to calculate the acceleration of the mass, the angular acceleration of the table, and the torque.
 
-Hint: Now that you know what data you’ll be gathering, sketch out a table on your paper to organize the data.
+***You should make a table for the data that you will collect, with space for values that you will need to calculate. Given the steps above, you can see that you will need a column each for r, m, h, t, a, &alpha; and &tau;. Per step 6) below, you will need six rows for data.***
 
-5.) Repeat this procedure (steps 1-4) for six different masses. 
+6) We will repeat this procedure (steps 1-5) for six different masses.
 
-6.) On graph paper, plot $\tau$ vs. $\alpha$.
+:::Exercise
+The following video will show steps above being performed.
 
-Recall that at the beginning of the lab you found that: 
+1) Watch the video, and record for each mass, r, m, h and t
+
+:::Figure:Video
+!(Video link goes here)
+:::
+2) Fill in your table by calcuating for each mass, a, &alpha; and &tau;.
+
+3) Now take the values you obtained for &tau; and &alpha;, and plot them on a graph of &tau; vs. &alpha;.
+
+4) Recall that at the beginning of this lab you learned that
 
 $$
-\tau= I\alpha
+\rm\tau = I\alpha
 $$
 
 where I is the moment of inertia. Calculate I (with proper units) from the slope of your graph.
-
-::: Question
-What is the measured moment of inertia for the rotating tabletop?
 :::
 
-The moment of inertia of an object depends not only on the mass of the object, but also on how the mass is distributed. For a disk, like your tabletop, it is equal to: 
+:::Question
+What is the measured moment of inertia for the rotating turntable platter?
+:::
+As we noted earlier, the moment of inertia of an object depends not only on the mass of the object, but also on how the mass is distributed. If an object is symmetrical, we can derive an expression for the sum of the moments described above. For a disc, like the plater of your turntable, the moment of inertia is:
 
 $$
-I = \frac{1}{2}mR^2 
+\rm I = (\frac12)mR^2
 $$
 
-where m is the mass of the disk and R is the radius of the disk. Measure and compute the moment of inertia using the above formula.
+where m is the mass of the disc and R is the radius of the disc. We will lift the platter off the apparatus and weight it. We will also measure its diameter.
 
-::: Question
-How do your two computed moments of intertia compare to each other? What could cause a discrepency between these two values? 
+:::Exercise
+AVOCADO -- Will we include a video of the measurements of the mass and diameter of the platter, or just give the values here?
+
+1) The video below shows the measurement of the mass and the diameter of the turntable platter. Record these values.
+:::Figure:Video
+!(Video link goes here.)
+:::
+2) Given the mass and radius of the turntable platter, use the equation above to calculate its moment of inertia. (Remember to use the radius, and not the diameter.)
+:::
+
+:::Question
+a) How do your two calculated moments of inertia compare to each other?
+
+b) What assumptions did we make when we used the mass and dimensions of the platter to calculate its moment of inertia?
+
+c) In what way could these cause a discrepancy between the two values you obtained for the moment of inertia?
+
+d) What else might cause a discrepancy between these two values?
+:::
+:::Exercise
+Write a brief statement summarizing the main points of this lab.
 :::

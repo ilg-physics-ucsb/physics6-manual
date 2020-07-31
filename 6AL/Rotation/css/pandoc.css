@@ -72,6 +72,19 @@ div.ExerciseHeading {
   border-radius: 15px;
 }
 
+div.Note {
+  font-size: 14pt;
+  background: #6aa571;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #195a21;
+  color: #FFFFFF;
+  padding: 5px;
+  margin: 15px;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 
 div>p{
