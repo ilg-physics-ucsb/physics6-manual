@@ -176,7 +176,7 @@ Create a best-fit line for the new log-log plot.
 :::Question
 a. What is the equation for your line of best fit?
 
-b. According to this equation, what are the values of *m* and *n* in the exponent in your original equation, and thus the value of the exponent (assuming that you cast the equation to give only one variable, *i.e.* *a*, with a nonunity exponent)? (If you would prefer to write the equation the other way, what are the respective exponents for *T* and *a*?)
+b. According to this equation, what is the value of the exponent (assuming that you cast the equation to give only one variable, *i.e.* *a*, with a nonunity exponent), and thus, what are the values of *m* and *n* in the exponent in your original equation? (If you would prefer to write the equation the other way, what are the respective exponents for *T* and *a*?)
 :::
 
 ## 6. UNITS
