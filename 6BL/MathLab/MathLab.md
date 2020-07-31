@@ -116,7 +116,7 @@ c. Does it make sense to perform a linear fit with this data set? Why or why not
 ## 4. LINEARIZING THE DATA
 
 :::Exercise
-According to the rules of logarithms given above, take the log (base 10) of both sides of Equation 4.
+According to the rules of logarithms given above, take the log of both sides of Equation 4.
 :::Note
 Remember that you can write Equation 4 either as $T^m = Ka^n$ or $T=\sqrt[m]{K}a^{(n/m)}$, and that the latter is equivalent to $T = K^{(1/m)}a^{(n/m)}$. These are all equivalent, and the units work no matter which way you write the equation. For the purposes of getting the equation into linear form, with a slope and an intercept, the second (and third) way may be more convenient than the first.
 :::
@@ -147,7 +147,7 @@ You should see that had you chosen the first form of Equation 4, after you took 
 ## 5. PLOT 2
 
 :::Exercise
-In the data table you created earlier, add two more columns. These should be for the logarithm of each of your two variables. Fill in the table with the appropriate values. 
+In the data table you created earlier, add two more columns. These should be for the logarithm (base 10) of each of your two variables. Fill in the table with the appropriate values. 
 :::Note
 **Note: If you use a computer to calculate the logarithms, in many cases, the &ldquo;LOG&rdquo; function is either the natural logarithm (ln) or log base 2 by default. If you are using Excel or Google sheets, you will want to use the LOG10 function, not the LOG function.**
 
@@ -192,8 +192,24 @@ As noted above, for the period, *T*, we used years, for the semimajor axis of th
 :::Question
 a. Had we used SI units, that is, seconds for the orbital period and meters for the semimajor axis, instead of years and a.u., by what factor should you have had to multiply the values for the periods? (Note that when you arrive at your conversion factor, you can check it by evaluating $\sqrt[m]{K}$.)
 
-b. How would this have changed the intercept of your log-log graph?
+b. How would this have changed the intercept of your log-log graph? What would its value have been?
 :::
-## 7. ADDITIONAL NOTE
+
+## 7. POWER PLOT
+:::Exercise
+In the introduction, we noted that if you know the function, then if you manipulate the *x* variable according to that function, you get a linear plot.  For example, if $y = ax^3$, then plotting *y* vs. *x* gives a curved line, but plotting *y* vs. $x^3$ yields a straight-line plot with slope *a*. Thus, for your planetary orbital data, if you plot either *T* vs. $a^{(3/2)}$, or $T^2$ vs. $a^3$, you should get a straight line (with slope *K* = 1).
+
+a. According to the two choices above, in your data table make either one or two more columns, and do one of the following:
+
+- Make one additional column for $a^{(3/2)}$, and fill it appropriately. Now plot *T* vs. $a^{(3/2)}$.
+
+- Make two additional columns, one for $T^2$ and one for $a^3$, and fill them appropriately. Now plot $T^2$ vs. $a^3$.
+
+Whichever plot you choose to do, include a best-fit line. As usual, make sure that it has all the characteristics of a good plot.
+:::Question
+a. How does this plot look? Does it fit a straight line?
+:::
+:::
+## 8. ADDITIONAL NOTE
 
 Until the work of Brahe and Kepler, there was great confusion regarding the motion of the planets. Also, our understanding of gravity was limited, and until Newton, no one had imagined the possibility that gravity could act not only close to earth, but over astronomical distances as well. Newton&rsquo;s Law of Universal Gravitation provided a deeper understanding of Kepler&rsquo;s laws, and together these formed part of the bedrock of classical physics. We hoped that fitting the data associated with the motion of the planets would provide a pleasant exercise.
