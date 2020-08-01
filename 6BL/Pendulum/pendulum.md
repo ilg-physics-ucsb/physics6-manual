@@ -114,7 +114,7 @@ We will restrict our analysis to small angles. You should have found that the mo
 ::: Exercise
 For this exercise we have designed an experiment to investigate the relationship between length and period.
 
-Below is a video of several pendulums using mass 4. The initial angles are all $10^{\circ}$. We will vary the length from about 76 cm to 22 cm. You will be making period measurements for each length. This time you can use the lengths given.
+Below is a video of several pendulums with mass 4. The initial angles are all $10^{\circ}$. We will vary the length from about 76 cm to 22 cm. You will be making period measurements for each length. This time you can use the lengths given.
 
 1. Make a data table that has the length and period for each run.
 
@@ -135,6 +135,7 @@ b) What type of trend line both fits the data and makes sense?
 
 :::
 
+<!-- There is now a whole lab that takes the place of this graphing tutorial.  It is left here for reference.
 
 ## PART 3: LOG-LOG GRAPHING TUTORIAL
 
@@ -180,8 +181,10 @@ b. Consider the relationship $y = x^{1/3}$. If you made a log-log plot of this, 
 :::
 
 :::
+-->
 
-## PART 4: ANALYZING NON-LINEAR DATA
+## PART 3: ANALYZING YOUR DATA
+In a previous lab, you learned about &ldquo;linearizing&rdquo; data, that is, making nonlinear data fit a straight line. One of the methods you used was to take the logarithm of both *x* and *y* values, to plot them, and from that plot find the power of *x* (and/or *y*) and the proportionality constant in the original equation. You will use this method in the following exercise.
 
 ::: Exercise
 
@@ -189,7 +192,9 @@ b. Consider the relationship $y = x^{1/3}$. If you made a log-log plot of this, 
 
 ::: Question
 a) What is the value of the slope of this line? What is its significance?
+
 b) What is the *y*-intercept of this line?
+
 c) Knowing what you know now, does this agree with your response to Question 4.a? Why?
 :::
 
@@ -219,7 +224,7 @@ d. With the derived values for $a$ and $b$, write the explicit mathematical rela
 
 :::
 
-## PART 5: POST LAB
+## PART 4: POST LAB
 
 :::Exercise
 
@@ -246,7 +251,7 @@ For the next few questions, use the PhET simulation for a pendulum:
 How well do these new points fit with your previous data?
 :::
 
-2. On the right side control panel in the simulation, click the drop-down menu and select "Planet X".
+2. On the right side control panel in the simulation, click the drop-down menu and select &ldquo;Planet X&rdquo;.
 
 :::Question
 How could you determine what the acceleration due to gravity, $g_x$, is on Planet X? By your method, what is the value of $g_x$?
