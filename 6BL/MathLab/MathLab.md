@@ -44,7 +44,7 @@ we can take the logarithm of both sides:
 $$
 \rm log\it (y)\:=\:\rm log\it (a)\:+\:b\:\rm log\it(x)
 $$
-We thus obtain a linear equation with slope *b* and intercept log(*a*). The slope is the exponent in the original equation, and the intercept is the logarithm of the proportionality constant (which we can recover by taking its antilogarithm, *a* = $10^{\rm log\it (a)}$, if we are using common logarithms, or base 10 logarithms.). Manipulating data in any of these ways to cause them to fall on a straight line is often called *linearizing* the data. The simulation below will allow you to plot functions of various shapes, and to see what happens when you perform the types of linearization described above.
+We thus obtain a linear equation with slope *b* and intercept log(*a*). The slope is the exponent in the original equation, and the intercept is the logarithm of the proportionality constant (which we can recover by taking its antilogarithm, *a* = $10^{\rm log\it (a)}$, if we are using common logarithms, or base 10 logarithms.). Manipulating data in any of these ways to cause them to fall on a straight line is often called *linearizing* the data. The simulations below will allow you to plot functions of various shapes, and to see what happens when you perform the types of linearization described above.
 
 :::Figure:Simulation
 Kelly's simulation goes here.
