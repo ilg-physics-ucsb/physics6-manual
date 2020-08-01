@@ -193,7 +193,7 @@ As noted above, for the period, *T*, we used years, for the semimajor axis of th
 :::
 
 :::Question
-a. Had we used SI units, that is, seconds for the orbital period and meters for the semimajor axis, instead of years and a.u., by what factor should you have had to multiply the values for the periods? (Note that when you arrive at your conversion factor, you can check it by evaluating $\sqrt[m]{K}$.)
+a. Had we used SI units, that is, seconds for the orbital period and meters for the semimajor axis, instead of years and a.u., if we were to combine both conversion factors into one, to use to multiply *T*, by what factor should you have had to multiply the values for the periods? (Note that when you arrive at your conversion factor, you can check it by evaluating $\sqrt[m]{K}$.)
 
 b. How would this have changed the intercept of your log-log graph? What would its value have been?
 :::
