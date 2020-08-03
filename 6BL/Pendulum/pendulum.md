@@ -42,7 +42,7 @@ In the next video you will be shown 5 different pendulums. The only thing that i
 !(https://drive.google.com/file/d/1XV-Ths9mrLj10PBG35dQXn_tsDQ2vaJC)
 :::
 
-2. For each mass, using the stopwatch in the video, a stopwatch app, or the video timestamp, record 5 complete periods. A complete period is the time it takes for the pendulum to swing back and forth once. Then divide this number by five to obtain an average time for one period. Record these data in a new column in your table.
+2. For each mass, using the stopwatch in the video, a stopwatch app, or the video timestamp, record the time it takes for the pendulum to make 5 complete periods. A complete period is the time it takes for the pendulum to swing back and forth once. (Start the stopwatch when the pendulum is at the beginning of a period, then, when it has reached the end of the fifth period from the start, stop the stopwatch.) Take this time and divide it by five to obtain an average time for one period. Record these data in a new column in your table.
 
 :::Question
 Does the period depend on mass? Justify your answer.
