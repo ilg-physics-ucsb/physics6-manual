@@ -24,7 +24,7 @@ The objective of this lab is to determine the physical quantities that influence
 
 Let&rsquo;s start by varying the mass and keeping the length and initial angle constant.
 
-For our pendulum setup we have five different bobs that we can put at the end of our pendulum. Below is a video showing the mass of each bob being measured. Watch this video to determine the mass of each of the five bobs. Throughout this lab, we will use the same numbering scheme for each bob that we use in this video, so when we say &ldquo;Mass 4&rdquo; in a later video, we are talking about the same mass presented here.
+For our pendulum setup we have five different bobs that we can put at the end of our pendulum. Below is a video showing the mass of each bob being measured. Watch this video to determine the mass of each of the five bobs. Throughout this lab, we will use the same numbering scheme for each bob that we use in this video, so when we say, for example, &ldquo;Mass 4&rdquo; in a later video, we are talking about the same mass presented here.
 
 <!-- Measuring Mass -->
 
@@ -56,19 +56,21 @@ In this exercise we will now vary the initial angle while keeping the length and
 
 Conventional analysis of the pendulum is done for small angles, where the restoring force experienced by the mass is approximately linear with the displacement angle. Linear restoring force is one of the criteria for simple harmonic motion. When the displacement angles become large, the restoring force is no longer linear. The motion is still periodic, but it is not sinusoidal, and the mathematical analysis becomes far more involved.
 
-You will be working with only a single mass for this part of the experiment. Below is a list of links to videos of pendulums with different masses. Each video shows a pendulum starting at the different initial angles of $5^{\circ}$, $10^{\circ}$, and $15^{\circ}$. The mass and the length stay constant. You will collect your data from one of these videos, which you will select based on the month in which you were born. **Make sure to write down which mass you are using so that we can grade properly.**
+You will be working with only a single mass for this part of the experiment, and only pendulum length. Below is a video of a pendulum with mass 3. The video shows the pendulum starting at the different initial angles of $5^{\circ}$, $10^{\circ}$, and $15^{\circ}$. (The mass and the length stay constant.) You will collect your data from this video.
 
 1. Make a new data table where you will record the period for each initial angle.
 
 2. Use the same method as in Exercise 1 to measure the period.
 
-3. From the links below, select and watch the appropriate video as noted above, and record your data.
+<!-- Angle Shots 
+- Jan-Mar: [Mass 1](https://drive.google.com/file/d/1WoKGU7Rx_yogpvlPyiLKvALeznwiaZ9Q/preview){target="_blank"}
+- Apr-May: [Mass 2](https://drive.google.com/file/d/1KHI_BKiY5eU4ooY_4u89_5RL4y69SRH7/preview){target="_blank"}-->
 
-<!-- Angle Shots  -->
-- Jan-Mar: [Mass 1](https://drive.google.com/file/d/1WoKGU7Rx_yogpvlPyiLKvALeznwiaZ9Q/preview)<!--{target="_blank"}-->
-- Apr-May: [Mass 2](https://drive.google.com/file/d/1KHI_BKiY5eU4ooY_4u89_5RL4y69SRH7/preview)<!--{target="_blank"}-->
-- Jun-Jul: [Mass 3](https://drive.google.com/file/d/1IY5ZovlJSGiguPbCO8APSNLMIfDmcox2/preview)<!--{target="_blank"}-->
-- Aug-Sep: [Mass 4](https://drive.google.com/file/d/1FJxqSmdWAnve45CFEdByCf5kaA_7qR69/preview)<!--{target="_blank"}-->
+:::Figure:Video
+!(https://drive.google.com/file/d/1IY5ZovlJSGiguPbCO8APSNLMIfDmcox2)
+:::
+
+<!--- Aug-Sep: [Mass 4](https://drive.google.com/file/d/1FJxqSmdWAnve45CFEdByCf5kaA_7qR69/preview){target="_blank"}
 - Oct-Dec: [Mass 5](https://drive.google.com/file/d/1VC7y-H-udFvNFLsUi-7HTsi9dGs3jqpz/preview)<!--{target="_blank"}-->
 
 ::: Question
@@ -83,21 +85,21 @@ b. Why do you need to use only one mass instead of all five to justify this?
 <!-- Varying Length -->
 In this exercise we will vary length while keeping mass and initial angle constant.
 
-Again, you will work with only one mass, and choose a video based on your birthday. **Make sure to write down which mass you are using so that we can grade properly.**
-
-In the video you will see 3 pendulums all having the same mass and initial angle of $10^{\circ}$. The only thing varying among runs is the length. After each run, there will be a close-up of the mass with a meterstick in the background. You can use this to make your own length measurement.
+In the following video you will see 3 pendulums all having the same mass (mass 3) and initial angle of $10^{\circ}$. The only thing that varies among runs is the length. After each run, there will be a close-up of the mass with a meterstick in the background. You can use this to make your own length measurement.
 
 1. Build a new data table that will contain the data for the lengths and the periods for each run.
 
 2. Use the same method as in Exercises 1 and 2 to measure the period. Make the video pause after each run, record the period, then measure and record the length.
 
-3. From the links below, select and watch the appropriate video as noted above, to obtain your data.
+<!-- Length Varying Videos
+- Jan-Mar: [Mass 1](https://drive.google.com/file/d/1-Obt6OXkmHiBVLUJ85Fs5iw_6KpVJhst/preview)<!--{target="_blank"}
+- Apr-May: [Mass 2](https://drive.google.com/file/d/117JDH63xLsHQ0w_HGehm7N5sYUvZiOu1/preview){target="_blank"}-->
 
-<!-- Length Varying Videos -->
-- Jan-Mar: [Mass 1](https://drive.google.com/file/d/1-Obt6OXkmHiBVLUJ85Fs5iw_6KpVJhst/preview)<!--{target="_blank"}-->
-- Apr-May: [Mass 2](https://drive.google.com/file/d/117JDH63xLsHQ0w_HGehm7N5sYUvZiOu1/preview)<!--{target="_blank"}-->
-- Jun-Jul: [Mass 3](https://drive.google.com/file/d/1zeWA0yaR7YangH5qNLJMKopLEogOZQSC/preview)<!--{target="_blank"}-->
-- Aug-Sep: [Mass 4](https://drive.google.com/file/d/1AYSL6Ec9DwZEIKPxHDTmMFOLbcyScvnS/preview)<!--{target="_blank"}-->
+:::Figure:Video
+!(https://drive.google.com/file/d/1zeWA0yaR7YangH5qNLJMKopLEogOZQSC)
+:::
+<!--{target="_blank"}
+- Aug-Sep: [Mass 4](https://drive.google.com/file/d/1AYSL6Ec9DwZEIKPxHDTmMFOLbcyScvnS/preview){target="_blank"}
 - Oct-Dec: [Mass 5](https://drive.google.com/file/d/123yCZY7AQWIPWELgcz1NvstlKeuVW-t1/preview)<!--{target="_blank"}-->
 
 :::Question
@@ -226,7 +228,7 @@ d. With the derived values for $a$ and $b$, write the explicit mathematical rela
 
 ## PART 4: POST LAB
 
-:::Exercise
+<!--:::Exercise-->
 
 ::: Question
 
@@ -241,7 +243,7 @@ Consider two different pendulums of equal mass and tied to strings of equal leng
 :::
 :::
 
-For the next few questions, use the PhET simulation for a pendulum:
+<!-- For the next few questions, use the PhET simulation for a pendulum:
 
 [Simulation 1 goes here (.html insert)]
 
@@ -257,7 +259,7 @@ How well do these new points fit with your previous data?
 How could you determine what the acceleration due to gravity, $g_x$, is on Planet X? By your method, what is the value of $g_x$?
 :::
 
-:::
+:::-->
 
 ## Conclusion
 
