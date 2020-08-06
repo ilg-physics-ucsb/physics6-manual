@@ -18,7 +18,7 @@ From AP Physics 1 Online, by John Horwat, at [https://sites.google.com/site/apph
 `<iframe src="https://kapawlak.github.io/PhDemoJS/Apps/MathLab/MathLab.html" width= "100%" height="650" style="border:none;">`
 :::
 
-### Utilizing Log-Log plots 
+### Using Log-Log plots 
 	
 If we don&rsquo;t know the form of the equation, there is something else that we can do.
 
@@ -53,7 +53,7 @@ $$
 $$
 We thus obtain a linear equation with slope *b* and intercept log(*a*). The slope is the exponent in the original equation, and the intercept is the logarithm of the proportionality constant (which we can recover by taking its antilogarithm, *a* = $10^{\rm log\it (a)}$, if we are using common logarithms, or base 10 logarithms.). Manipulating data in any of these ways to cause them to fall on a straight line is often called *linearizing* the data. 
 ####
-The simulation box below allows you to plot some data from a Black Body experiment governed by the [Stephan Boltzmann law](https://en.wikipedia.org/wiki/Stefan%E2%80%93Boltzmann_law), as well as the relationship between animal mass and basal metabolic rate, known as [Kleiber's law](https://en.wikipedia.org/wiki/Kleiber%27s_law#:~:text=Symbolically%3A%20if%20q0%20is,the%20energy%20the%20mouse%20uses). See if you can guess the correct equation based on the slope of the line, and check your answers on the linked articles!
+The simulation box below allows you to plot some data from a Black Body experiment governed by the [Stefan-Boltzmann law](https://en.wikipedia.org/wiki/Stefan%E2%80%93Boltzmann_law), as well as the relationship between animal mass and basal metabolic rate, known as [Kleiber&rsquo;s law](https://en.wikipedia.org/wiki/Kleiber%27s_law#:~:text=Symbolically%3A%20if%20q0%20is,the%20energy%20the%20mouse%20uses). See if you can guess the correct equation based on the slope of the line, and check your answers on the linked articles!
 
 
 :::Figure:Simulation
@@ -67,22 +67,22 @@ We have covered a number of tools for working out an unknown relationship betwee
 >
 
 ## 2. THE EXPERIMENT
-### Astronomical History of Kepler's Law
+### Astronomical History of Kepler&rsquo;s Law
 As early as the time of the ancient Greeks, people sought to understand the motion of the planets. Ptolemy (ca. 85 - ca. 165, Greek astronomer, geographer) proposed a *geocentric* system, that is, one in which the earth is stationary and all other bodies revolve around it. For this model to work, though, the planets must take very complicated paths; they must travel in epicycles &ndash; small circular paths superimposed on their larger circular orbits. In the sixteenth century, Nicolaus Copernicus (1473-1543, Polish astronomer) proposed a *heliocentric* theory, in which all the planets, including earth, revolved around the sun, and the earth rotates on its axis. (Oddly enough, the inspiration for this may have come from a model proposed by Aristarchus of Samos (ca. 310 B.C.E.- ca. 230 B.C.E.), but which never gained broad acceptance). Copernicus&rsquo;s model was much simpler than Ptolemy&rsquo;s, but it still had problems. Because Copernicus held that planets traveled in exact circles, he still needed to use epicycles to explain their observed motion. There was also need for better information regarding the motion of the planets. This would soon be provided by Tycho Brahe (1546-1601, Danish astronomer), who made very careful and precise observations of the motions of the planets in the solar system (without a telescope!). Some time later, Johannes Kepler (1571-1630, German astronomer), who had been Brahe&rsquo;s assistant, analyzed these data and arrived at his Three Laws of Planetary Motion. His Third Law relates the orbital periods of the planets to their mean distance from the sun. This distance is equal to the semimajor axis of the orbit, which according to his First Law, is an ellipse with the sun at one focus. Later, when Newton was working on his Law of Universal Gravitation, he found that from this law, he could derive Kepler&rsquo;s Third Law.
 
 
 ####
-### Finding the Law using data
+### Finding the Law by using data
 In this exercise, we will write the third Law as:
 
 :::Figure:Equation
 $T=k a^{z}$
 :::
 
-where *T* is orbital period, *a* is the semimajor axis of the orbit, $k$ is some constant of proportionality that we will discuss later on. We will give the period in years, and the semimajor axis in a.u. (astronomical units; 1 a.u. = $149.6 \times 10^6$ km). 
+where *T* is orbital period, *a* is the semimajor axis of the orbit, $k$ is some constant of proportionality that we will discuss later. We will give the period in years, and the semimajor axis in a.u. (astronomical units; 1 a.u. = $149.6 \times 10^6$ km). 
 	
 ####
-In the above equation we have** two** unknowns: the constant of proportionality $k$ and the exponent $z$. **The $z$ in this equation is the unknown we are primarily interested in discovering.** To do this, we will plot the data on a log-log scale and inspect the slope,  as described in the previous section.
+In the above equation we have **two** unknowns: the constant of proportionality $k$ and the exponent $z$. **The $z$ in this equation is the unknown we are primarily interested in discovering.** To do this, we will plot the data on a log-log scale and inspect the slope,  as described in the previous section.
 	
 ## 3. DATA
 
@@ -110,15 +110,15 @@ $*$ Yes, we know that Pluto is no longer considered a planet. It does, however, 
 :::Exercise
 Make a copy of the provided [Google Sheet ](https://docs.google.com/spreadsheets/d/1MUMMf5RxccOF99fp0DZ0Zg-1wgxVVgf1typklwK0UvI/edit?usp=sharing)containing the data for this exercise. This has been provided to help you get familiar with simple tools for looking at data, and you will use software such as this throughout the course, so pay attention!
 
-You are, of course, encouraged to use Excel, Google Sheets, MATLAB, or any other data processing package of your choice to create your own version of the table above, if you'd like.
+You are, of course, encouraged to use Excel, Google Sheets, MATLAB, or any other data processing package of your choice to create your own version of the table above, if you&rsquo;d like.
 :::
 
 ## 3. PLOT 1
 
 :::Exercise
-a. Make a plot of the data in your table. In Google Sheets, this can be accomplished by highlighting the two columns of interest and clicking "Insert chart" ( ![](imgs/insertchart.png) ). Plot orbital period (on the $y$- axis) vs. orbit semimajor axis. (on the $x$- axis) 
+a. Make a plot of the data in your table. In Google Sheets, you can accomplish this by highlighting the two columns of interest and clicking &ldquo;Insert chart&rdquo; ( ![](imgs/insertchart.png) ). Plot orbital period (on the $y$- axis) vs. orbit semimajor axis (on the $x$- axis). 
 
-b. However the plot looks, include a best-fit (straight) line. In Google Sheets, this option is found under "Series" in the "Customize" tab
+b. However the plot looks, include a best-fit (straight) line. In Google Sheets, this option is found under &ldquo;Series&rdquo; in the &ldquo;Customize&rdquo; tab
 :::Figure:Figure 
 
 ![](imgs/trendline.png)
@@ -159,9 +159,7 @@ Make a similar table to the one below in your report, and fill in the missing co
 | Slope | m |
 | Y-Intercept | b |  |
 :::
-:::Note
-You should see that had you chosen the first form of Equation 4, after you took the logarithm of both sides, dividing both sides by *m* (in Equation 4 or the equations in the note in exercise 3) would have given you the same result.
-:::
+
 :::
 
 ## 5. PLOT 2
@@ -186,7 +184,7 @@ d. Compare and contrast this plot with the previous one.
 :::
 
 :::Exercise
-Create a best-fit line for the new log-log plot. In Google Sheets, this can be found under "Label" in the "Series" menu trendline options described previously.
+Create a best-fit line for the new log-log plot. In Google Sheets, this can be found under &ldquo;Label&rdquo; in the &ldquo;Series&rdquo; menu trendline options described previously.
 :::Figure:Figure 
 
 ![](imgs/label.png)
@@ -204,7 +202,7 @@ c. What is the value of *k*?
 
 :::Question
 **Challenge Question:**
-Kepler's law is frequently written in the form
+Kepler&rsquo;s law is frequently written in the form
 
 :::Figure:Equation
 
@@ -217,7 +215,7 @@ a. Use the fact that this may be rewritten as
 
 $T=(K)^{\frac{1}{n_1}} a^{\frac{n_2}{n_1}}$
 :::
-and determine the simplest possible integers $n_1$ and $n_2$ consistent with your fit, and write down Equation 6 with these integers.
+to determine the simplest possible integers $n_1$ and $n_2$ consistent with your fit, and write down Equation 6 with these integers.
 
 b. Given these values of $n_1$ and $n_2$, determine $K$  (Hint: $k=(K)^{\frac{1}{n_1}}$)
 :::Note
@@ -240,7 +238,7 @@ As noted above, for the period, *T*, we used years, and for the semimajor axis o
 :::Question
 **Challenge Question:**
 
-a. Had we used SI units (that is, seconds for the orbital period and meters for the semimajor axis, instead of years and a.u.), if we were to combine both conversion factors into one, to use to multiply *T*, by what factor should you have had to multiply the values for the periods?(Note that when you arrive at your conversion factor, you can check it by evaluating $K^{1/n_1}$)
+a. Had we used SI units (that is, seconds for the orbital period and meters for the semimajor axis, instead of years and a.u.), if we were to combine both conversion factors into one, to use to multiply *T*, by what factor should you have had to multiply the values for the periods? (Note that when you arrive at your conversion factor, you can check it by comparing it to the value that you  got for $K^{1/n_1}$ in Question 5.)
   
 
 b. How would this have changed the intercept of your log-log graph? What would its value have been?
