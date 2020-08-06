@@ -1,4 +1,4 @@
-# Good Laboratory Practices
+# Good Laboratory Practices (Reference)
 ---
 ::: Note
 There are two videos in this lab. Sometimes the Safari browser has issues playing them. Try switching to Chrome or Firefox. Additionally, sometimes if you click the pop-out button it will play for you when it wouldn't play on the page.
@@ -39,9 +39,16 @@ As practice, for this exercise, create a list of the following three things:
 When writing your lab report, make it as clear as possible as to which exercise you are responding. 
 :::
 
+
+### Question
+
+::: Question
+This is a question. Make sure that these are answered with complete sentences. Do your best to justify your responses with logic and data.
+:::
+
 ### Notes
 
-::: Notes
+::: Note
 This is a note. Notes don't require you to put anything in your report.
 
 The main point of a note is just to highlight some critical information for you. Please make sure to read every note.
@@ -151,9 +158,7 @@ To determine if a value is accurate, we compare it to the accepted one. A qualit
 $$\text{pecent discrepancy} = |\frac{\text{accepted - experimental}} { \text{accepted}}| \times 100%$$
 :::
 
-::: Exercise
-In an experiment we measure the acceleration due to gravity to be $9.825 m/s^2$. The accepted value is $9.807 m/s^2$
-:::
+
 
 Sometimes there is no accepted value to our measurement. In this case, to measure the precision of two measurements that are determined experimentally, we look at how different the two values are as a percentage of their average. This is known as the **percent difference**.
 
@@ -164,10 +169,6 @@ $$
 $$
 \text{average} = \frac{\text{value1 + value2}}{2}
 $$ 
-:::
-
-::: Exercise
-In an experiment we make two measurements of the diameter of a tennis ball. They are $2.58$ in. and $2.61$ in.
 :::
 
 ::: Note
@@ -269,23 +270,6 @@ For example: 4,510,000 has three sig figs while 4,510,000. has 7 sig figs.
 
 Certain multipliers, such as the 180, in 180/π, the conversion factor to go from radians to degrees, or the 2 in 2πr, the formula for the circumference of a circle, are exact. They do not affect the number of significant figures in the result of a calculation in which they appear.
 
-::: Exercise
-
-In this exercise you will practice the rules above by calculating some geometric properties about the following shapes. Make sure your answers are written with the correct number of sig figs and with units.
-
-Here is a rectangle with length 2.4cm and width 3.2cm.
-
-::: Figure:Figure
-![figure 2](imgs/fig_2.png)
-:::
-
-Here is a circle with radius 2.4 cm.
-
-::: Figure:Figure
-![figure 3](imgs/fig_3.png)
-:::
-:::
-
 ::: Note 
 Example:
 
@@ -294,14 +278,6 @@ Imagine that you’ve been given the mass of a block of material as 75 grams, an
 The result of the density calculation above cannot contain more than two significant figures, and is properly written as 1.5 g/cm$^3$. To obtain this result, we round the three in the next place down. We always round to the nearest value of the last significant figure. To avoid biasing calculations that have multiple steps, we always round fives to the even number. For example, to two significant figures, 1.45 is 1.4, and 1.55 is 1.6.
 :::
 
-::: Exercise
-We submerge a piece of unknown material in water in order to measure its volume. We also use a scale to measure its mass. Ultimately we want to calculate the density of this object.
-
-::: Figure:Figure
-![figure 4](imgs/fig_4.png)
-:::
-
-:::
 
 ### Significant figures in unit conversions
 
@@ -538,26 +514,6 @@ Now that we have made our table, let's plot our data and do a fit. We will have 
 ## Using Google Sheets to Analyze Data
 
 Use all of the tools we have discussed in this lab to analyze the speed of an inch worm.
-
-::: Exercise
-
-Here is a table that a student collected by monitoring an inch worm as it traveled around a table. The student measured the position of the inch worm at a given time. Here is the data.
-
-:::Figure:Table
-|Time (s)|Position (cm)|
-|---|---|
-|5.2|2.9|
-|9.7|5.1|
-|15.1|8.3|
-|20.3|10.2|
-|25.3|13.3|
-|30.7|16.9|
-|36.2|19.0|
-|41.4|22.6|
-|46.5|21.2|
-|51.2|26.9|
-|56.4|27.4|
-:::
 
 :::Note
 Make sure to include your final table with all the columns you made, a sample calculation for one row of your table, and the graph in your report. 
