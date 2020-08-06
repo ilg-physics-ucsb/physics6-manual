@@ -197,9 +197,36 @@ Create a best-fit line for the new log-log plot. In Google Sheets, this can be f
 :::Question
 a. What is the equation for your line of best fit?
 
-b. According to this equation, and the relationship between the Log-Log and Raw Data equations, what is the value of the exponent $z$? (assuming that you cast Equation 4 to give only one variable, *i.e.*, *a*, with a nonunity exponent), and thus, what are the values of *m* and *n* in the exponent in your original equation? (If you would prefer to write Equation 4 the other way, what are the respective exponents for *T* and *a*?)
+b. According to this equation, and the relationship between the Log-Log and Raw Data equations, what is the value of the exponent $z$? 
 
-c. What is the value of $\sqrt[m]{K}$, and thus *K*?
+c. What is the value of *k*?
+:::
+
+:::Question
+**Challenge Question:**
+Kepler's law is frequently written in the form
+
+:::Figure:Equation
+
+$T^{n_1}=K a^{n_2}$
+:::
+where $n_1$ and $n_2$ are *integers*,  and $K=(\frac{\rm 4\pi^2}{GM})$, where G is the gravitational constant ($=6.67 \times 10^{-11} \rm\frac{N\cdot m^2}{kg^2}$), and M is the mass of the sun ($1.988 \times 10^{30}$ kg). Strictly speaking, the denominator should be $G(M_{planet} + M)$, but the sun is so much more massive than the planets, that for describing the orbital motion of the planets, the equation is accurate without the planetary mass. 
+
+a. Use the fact that this may be rewritten as
+:::Figure:Equation
+
+$T=(K)^{\frac{1}{n_1}} a^{\frac{n_2}{n_1}}$
+:::
+and determine the simplest possible integers $n_1$ and $n_2$ consistent with your fit, and write down Equation 6 with these integers.
+
+b. Given these values of $n_1$ and $n_2$, determine $K$  (Hint: $k=(K)^{\frac{1}{n_1}}$)
+:::Note
+**Note: If you used a computer to calculate the logarithms, in many cases, the &ldquo;LOG&rdquo; function is either the natural logarithm (ln) or log base 2 by default. If you are using Excel or Google sheets, you will want to use the LOG10 function, not the LOG function.**
+
+**As long as you use the same base when you take the antilog to find the proportionality constant, this makes no difference. If, however, you need to compare the actual logarithms of the data, or of the constant, to those calculated by someone else, you will need to use the same base that that person did.**
+
+**Therefore, for consistency, please make sure to use log base 10.**
+:::
 :::
 
 ## 6. UNITS
@@ -211,40 +238,19 @@ As noted above, for the period, *T*, we used years, and for the semimajor axis o
 :::
 
 :::Question
-a. Had we used SI units (that is, seconds for the orbital period and meters for the semimajor axis, instead of years and a.u.), if we were to combine both conversion factors into one, to use to multiply *T*, by what factor should you have had to multiply the values for the periods? (Note that when you arrive at your conversion factor, you can check it by evaluating $\sqrt[m]{K}$.)
+**Challenge Question:**
+
+a. Had we used SI units (that is, seconds for the orbital period and meters for the semimajor axis, instead of years and a.u.), if we were to combine both conversion factors into one, to use to multiply *T*, by what factor should you have had to multiply the values for the periods?(Note that when you arrive at your conversion factor, you can check it by evaluating $K^{1/n_1}$)
+  
 
 b. How would this have changed the intercept of your log-log graph? What would its value have been?
 
 c. What is the value of the proportionality constant $k$? 
 :::
-:::Question
-**Challenge Question:**
-Kepler's law is frequently written in the form
-
-:::Figure:Equation
-
-$T^{n_1}=K a^{n_2}$
-:::
-where $n_1$ and $n_2$ are *integers*,  and $K=(\frac{\rm 4\pi^2}{GM})$, where G is the gravitational constant ($=6.67 \times 10^{-11} \rm\frac{N\cdot m^2}{kg^2}$), and M is the mass of the sun ($1.988 \times 10^{30}$ kg). Strictly speaking, the denominator should be $G(M_{planet} + M)$, but the sun is so much more massive than the planets, that for describing the orbital motion of the planets, the equation is accurate without the planetary mass. 
-
-(a) Use the fact that this may be rewritten as
-:::Figure:Equation
-
-$T=(K)^{\frac{1}{n_1}} a^{\frac{n_2}{n_1}}$
-:::
-and determine the simplest possible integers $n_1$ and $n_2$ consistent with your fit, and write down Equation 6 with these integers.
-
-(b) Given these values of $n_1$ and $n_2$, determine $K$  (Hint: $k=(K)^{\frac{1}{n_1}}$)
-:::Note
-**Note: If you used a computer to calculate the logarithms, in many cases, the &ldquo;LOG&rdquo; function is either the natural logarithm (ln) or log base 2 by default. If you are using Excel or Google sheets, you will want to use the LOG10 function, not the LOG function.**
-
-**As long as you use the same base when you take the antilog to find the proportionality constant, this makes no difference. If, however, you need to compare the actual logarithms of the data, or of the constant, to those calculated by someone else, you will need to use the same base that that person did.**
-
-**Therefore, for consistency, please make sure to use log base 10.**
-:::
 
 
-:::
+
+
 ## 7. POWER PLOT
 :::Exercise
 In the introduction, we noted that if you know the function, then if you manipulate the *x* variable according to that function, you get a linear plot.  For example, if $y = ax^3$, then plotting *y* vs. *x* gives a curved line, but plotting *y* vs. $x^3$ yields a straight-line plot with slope *a*. Thus, for your planetary orbital data, if you plot either *T* vs. $a^{(3/2)}$, or $T^2$ vs. $a^3$, you should get a straight line (with slope *K* = 1).
