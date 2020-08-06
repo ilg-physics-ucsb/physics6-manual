@@ -111,10 +111,30 @@ a) Does the period depend on the length? Justify your answer.
 
 ## PART 2: DETERMINING THE MATHEMATICAL DEPENDENCE
 
-We will restrict our analysis to small angles. You should have found that the most significant factor influencing the period was the length of the pendulum. We would now like to figure out what the mathematical relationship is.
+### Collecting Data is Half the Job
+As a professional scientist, the point of data collection is to *differentiate* between models: numbers, equations and miscellaneous data are ultimately **useless** unless they can be combined into a complete scientific theory capable of making accurate, precise predictions. This is true whether you work with material, particle or astro- physics or if you study epidemiology, data science or even medicine. 
+
+The most common scenerio you face as a scientist is arguing for or against the validity of one or more theoretical models. In the next excercise you will carefully take data, and use your sharp analytical skills to *differentiate* between two proposed theories made by your friends, addessing if either are correct by a well thought-out argument.
+
+### The Scenerio
+
+Years from now, as a NASA astronaut-engineer, you are introducing your newfound alien friends, Alpa and Beetuh, to the laws of Newtonian physics. Alpa and Beetuh have become particularly obsessed with the memorizing motion of pendulums but, lacking technology (and dexterity), they aren't able to take data or analyze it themselves. 
+####
+From watching it for hours with their three eyes, Alpa is *sure* that the period of a pendulum with a small anglular displacement is proportional to the length of the string, $T \propto L^{2/3}$. Beetah, on the other hand thinks that it *must* be propotional to the squareroot $T \propto\sqrt L$. 
+####
+You (of course) know the correct answer, but fondly reflecting on your education at UCSB, you decide to help them conduct an experiment and analyze data to settle the argument.
+####
+
+:::Figure:Figure
+
+![](imgs/alpabeetuh.png)
+Your friends Alpa and Beetuh
+:::
+####
+
+You designed an experiment to demonstrate the relationship between length and period, which is identical to that described in the following excercise.
 
 ::: Exercise
-For this exercise we have designed an experiment to investigate the relationship between length and period.
 
 Below is a video of several pendulums with mass 4. The initial angles are all $10^{\circ}$. We will vary the length from about 76 cm to 22 cm. You will be making period measurements for each length. This time you can use the lengths given.
 
@@ -185,19 +205,55 @@ b. Consider the relationship $y = x^{1/3}$. If you made a log-log plot of this, 
 :::
 -->
 
-## PART 3: ANALYZING YOUR DATA
-In a previous lab, you learned about &ldquo;linearizing&rdquo; data, that is, making nonlinear data fit a straight line. One of the methods you used was to take the logarithm of both *x* and *y* values, to plot them, and from that plot find the power of *x* (and/or *y*) and the proportionality constant in the original equation. You will use this method in the following exercise.
+### Analyzing the Data
+Recalling your data analysis lesson, you recall learning about &ldquo;linearizing&rdquo; data, that is, making nonlinear data fit a straight line. One method you used was changing the independent variable of your data, which works great when you have an idea about what the equation *should* look like. The other method you used was to take the logarithm of both *x* and *y* values, to plot them, and from that plot find the power of *x* (and/or *y*) and the proportionality constant in the original equation. 
+
+In the following excercise, you are asked to use one of these techniques to accept or reject the hypotheses of Alpa and Beetuh.
 
 ::: Exercise
+** Option 1: Independent Variable **
+1. Using the data from Part 2, make a table of $L^{2/3},L^{1/2}$ and $T$. Make two plots Plot $\rm log_{10}(Length)$ on the independent axis, and $T$ on the dependent axis.
 
+::: Question
+a) What are the values of the slopes of these lines? What are their significance?
+
+b) What are the *y*-intercepts of these lines? What are their significance?
+
+c) Based on the appearance of these graphs, which do you think most accurately captures the data? Give a detailed explanation of your reasoning
+:::
+
+The relationship between the period and length can be expressed:
+
+$$
+\rm Period = 2\pi \left (\frac{Length}{\it a} \right )^{\it b}
+$$
+
+where $a$ and $b$ are unknown values.
+
+1.  Using the slope and *y*-intercept of the best graph, determine the quantities $a$ and $b$.
+
+::: Question
+a. What is your measured value of $b$? What do you think $b$ should be, and what does it tell you about the relationship between period and length?
+
+b. What is the value of $a$ and what does it suggest? **Hint: Think of quantities that are physically relevant to the experiment.**
+
+c. Use dimensional analysis to show that this interpretation of $a$ makes sense.
+
+d. With the derived values for $a$ and $b$, write the explicit mathematical relationship between Period and Length.
+
+e. Based on this analysis, give an explanation to Alpa and Beetuh summarizing which hypothesis is correct and how they can come to this conclusion by inspecting the data on their own.
+:::
+
+:::
+
+::: Exercise
+** Option 2: Log-Log ***
 1. Using the data from Part 2, make a table of $\rm log_{10}(Length)$ and $\rm log_{10}(Period)$. Plot $\rm log_{10}(Length)$ on the independent axis, and $\rm log_{10}(Period)$ on the dependent axis. **Hint: Convert length measurements to meters.**
 
 ::: Question
 a) What is the value of the slope of this line? What is its significance?
 
 b) What is the *y*-intercept of this line?
-
-c) Knowing what you know now, does this agree with your response to Question 4.a? Why?
 :::
 
 The relationship between the period and length can be expressed:
@@ -222,11 +278,13 @@ b. What is the value of $a$ and what does it suggest? **Hint: Think of quantitie
 c. Use dimensional analysis to show that this interpretation of $a$ makes sense.
 
 d. With the derived values for $a$ and $b$, write the explicit mathematical relationship between Period and Length.
+
+e. Based on this information, give an explanation to Alpa and Beetuh summarizing which hypothesis is correct and how they can come to this conclusion.
 :::
 
 :::
 
-## PART 4: POST LAB
+## PART 3: POST LAB
 
 <!--:::Exercise-->
 
