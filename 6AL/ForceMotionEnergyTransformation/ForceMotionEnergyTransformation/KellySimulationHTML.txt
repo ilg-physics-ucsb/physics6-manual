@@ -1,0 +1,39 @@
+#Paste this into Head
+
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<link rel="stylesheet" href="PhDemoJS_FMET.css">
+
+#Paste this into Body
+
+    <div class="sim">
+  <center> 
+  
+  
+    <div id="demo" height= "10 in"></div><div id="graph" height= "10 in"></div>
+  <br>
+  <button onclick="javascript:startUpdate();" class="btn" >Drop!</button>
+  <div class="slidecontainer">  
+    <br>
+    <br>
+    <b>Initial Height:</b> <span id="h" style="font-weight:bold;color:#000000" > 50 </span> m
+    <input type="range" min="0" max="40" value="20" class="slider_h" id="myRange_h">
+    <br>
+    <b>Initial Velocity:</b> <span id="v" style="font-weight:bold;color:#000000" > 0 </span> m/s
+    <input type="range" min="-20" max="20" value="0" class="sliderv" id="myRangev">
+    <br>
+    <br>
+    <b>Initial PE:</b> <span id="PE" style="font-weight:bold;color:#000000" >196.0 </span> J
+    <br>
+    <b>Initial KE:</b> <span id="KE" style="font-weight:bold;color:#000000" > 0.0 </span> J
+    <br>
+    <b>Total Energy:</b> <span id="TE" style="font-weight:bold;color:#000000" > 196.0 </span> J
+  <br>
+  <br>
+  </div>
+  
+  </center>
+  
+  </div>
+
+#Paste after /body and before /html
+<script src="js/EnergyTransformation.js"></script>
