@@ -2,6 +2,8 @@
 
 ## INTRODUCTION
 
+**You will be expected to turn in all plots and tables you are asked to make in the exercises, as well as all answers to questions.**
+
 :::Figure:Video
 !(https://drive.google.com/file/d/1an1ZCDO0onq_-mtUjBbJnqIjgI0eIQAp)
 :::
@@ -120,6 +122,8 @@ If the string is instead driven by a source that moves up and down in a sinusoid
 
 :::Figure:Figure
 ![Figure 4: Sinusoidal Mechanical Oscillator](imgs/Figure2_SMO.jpg)
+
+*Sinusoidal Mechanical Oscillator*
 :::
 
 A wave propagating on a string is described by the equation:
@@ -127,7 +131,7 @@ A wave propagating on a string is described by the equation:
 
 :::Figure:Equation
 $$
-velocity = v = wavelength \cdot frequency = \lambda \cdot f
+\rm velocity\: \it = v =\rm wavelength \cdot frequency\: \it = \lambda \cdot f
 $$
 :::
 
@@ -146,7 +150,7 @@ c) If the frequency of the oscillator were changed to 16 Hz, how far would one c
 
 :::Figure:Equation
 $$
-velocity = v = \sqrt{\frac{Force\, due\, to\, Tension}{String\, Density}} = \sqrt{\frac{F_T}{\mu}}
+\rm velocity\:\it = v = \sqrt{\frac{\rm Tension}{\rm String\, Density}} = \sqrt{\frac{T}{\mu}}
 $$
 :::
 :::
@@ -161,66 +165,93 @@ When a string is fixed between two rigid terminations, we may observe an interes
 :::Figure:Figure
 ![Figure 5: Nodes](imgs/Figure5_Nodes.jpg)
 
-*The First Three Natural Modes of a Vibrating String*
+*Nodes and Antinodes*
 :::
 
 If we drive one side of a string with a sinusoidal mechanical oscillator of arbitrary frequency, we get a lot of random motion with no discernible pattern, as illustrated in the figure below.
 
 :::Figure:Figure
 ![Figure 6: Random Motion](imgs/Figure6_RandomMotion.jpg)
+
+*Random motion*
 :::
 
 For the mathematical condition
 
 :::Figure:Equation
-$$Wavelength = 2L/n$$
+$$\lambda = 2\it L/n$$
 :::
 
 however, where n is a positive integer and L is the Length of the string in meters, 
-
-we observe the phenomenon of standing waves. In this case, the left-moving and right-moving waves line up such that there are areas of large motion called antinodes, and areas that don’t move at all called nodes. This pattern of vibration is fixed on the string.
+we observe the phenomenon of standing waves. In this case, the left-moving and right-moving waves line up such that there are areas of large motion called *antinodes*, and areas that don’t move at all, called *nodes*. This pattern of vibration is fixed on the string.
 
 Algebraic manipulation shows:
 
 :::Figure:Equation
-$$L = n \cdot (wavelength/2)$$
+$$L = n \cdot (\lambda/2)$$
 :::
 
-Which is slightly easier to interpret: any integer number of half wavelengths can fit on the string. Why does this happen? Because only an integer number of half wavelengths will put a node at each end. This condition is necessitated by the fact that the ends are fixed and cannot move up and down.
+Which is slightly easier to interpret: any integer number of half wavelengths can fit on the string. Why does this happen? Because only an integer number of half wavelengths will put a node at each end. This condition is necessitated by the fact that the ends are fixed and cannot move up and down. The phenomenon that occurs when this equation is satisfied is also known as *resonance*.
 
 :::Figure:Figure
 ![Figure 7: Waves on a String](imgs/Figure7_WavesonaString.jpg)
 
-*The First Three Natural Modes of a Vibrating String*
+*Waves on a String*
 :::
 
 ::: Question
-a) What wavelength is required to get 5 standing wave segments on a doubly fixed string of length 0.75m? If the velocity v is 50 m/s, what will be the frequency of this wave?
+a) What wavelength is required to get 5 standing wave segments on a doubly fixed string of length 0.75 m? If the velocity v is 50 m/s, what will be the frequency of this wave?
 
 b) Instead drive one end of the string with a sinusoidal oscillator of frequency 100 Hz. What velocity is required to set up a standing wave with 5 segments?
 :::
 
 ::: Exercise
 
-By means of a simulation, you will see standing waves and gain an intuition for how to produce them.
+By means of a simulation, you will learn how to produce standing waves. The simulation below shows a string of beads, along which you can send a pulse, or which you can drive periodically. Each bead has mass and interacts with its neighboring beads through the string. So when one bead is displaced, it pulls on its neighboring bead. The green beads behave exactly as the red beads do; they are just there as position references.
 
-In this exercise you will calculate the wavelength needed to produce a standing wave with two segments. Then you&rsquo;ll use the velocity you measured in Exercise 1 to get the frequency at which you need to drive the string in order to make the standing wave. Then, you will adjust the frequency to something random and see what happens.
+A control panel in the upper left corner gives three choices for driving the string. &ldquo;Manual&rdquo; allows you to move the wrench up and down by clicking and dragging it. &ldquo;Oscillate&rdquo; drives the end of the string up and down periodically. You can change the frequency and amplitude of the oscillation in the lower control panel. Last, &ldquo;Pulse&rdquo; allows you send a triangle-shaped pulse down the string. You can change the pulse&rsquo;s amplitude and width in the bottom control panel.
+
+A control panel in the upper right corner allows you to choose whether the right end of the string is free or fixed, or an infinite distance from the left end. The lower control panel will change slightly, depending on your selection of how to drive the string. The things that stay constant are the tension and the damping. The tension slider allows you to change how taut the string is, while the damping slider adds a bit of reality to the simulation. *For the most part, when you use the simulation you will want to set damping either to &ldquo;None&rdquo; or to something small.* At the right side of the bottom control panel is a set of measuring tools that you can turn on. You will need these from time to time to make measurements. For this exercise, though you will set the tension, you will not be concerned with the actual magnitude of the tension or the density of the string of beads. You will do the following:
+
+First, you will measure the length of the string of beads, send a pulse down the chain of beads, and measure the velocity of the pulse.
+
+Knowing the velocity of the pulse, by means of the equations you used to answer the questions above, you will then calculate the frequency at which you must drive the end of the chain to produce a standing wave with two segments.
+
+Then, you will adjust the frequency to something random and see what happens.
+
+Instructions for how to do this follow the simulation.
 
 :::Figure:Simulation
 !(https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_en.html)
 :::
 
-1. First set up the settings on Simulation 3 as follows.
+1. First set the settings as follows:
 
+|Mode|End|Amplitude|Pulse Width|Damping|Tension|Rulers|Timer|
+|:-----:|:-----:|:-----:|:-----:|:----:|:-----:|:-----:|:-----:|
+|Pulse|Fixed|0.50 cm|0.30 s|None|High|On|On|
+
+<!--
 ![Table 3: Standing Waves Settings](imgs/Standing_Wave_Table.JPG)
+-->
 
-2. Click the pause button followed by the "Restart" button in the upper left corner.
+2. Measure the length of the string of beads, and record it.
 
-3. Using equation 3, determine the wavelength you need to create a standing wave with two segments. Show your work.
+3. Press the green button on the driver. When the pulse reaches either end, start the timer. Time how long it takes for the pulse to make five round trips, and divide to get the time per round trip. Take the round-trip length, and divide by the round-trip time to get the velocity.
 
-4. Using the wavelength you just calculated, equation 1, and the velocity you measured for the high tension setting in Exercise 1, determine the frequency needed to create a standing wave with two segments. Show your work.
+4. Use Equation 3 to determine the wavelength you need to create a standing wave with two segments. Show your work.
 
-5. In the simulation set your frequency to what you just calculated, and hit play.
+5. Use the wavelength you just calculated, Equation 1, and the velocity you just measured, to determine the frequency at which you must drive the system to create a standing wave with two segments. Show your work.
+
+6. Now change the settings to those in the table below. (You will not need the ruler or timer.)
+
+|Mode|End|Amplitude|Damping|Tension|
+|:-----:|:-----:|:-----:|:-----:|:-----:|
+|Oscillator|Fixed|0.5 cm|1*|High|
+
+For damping, set the slider to 1 division away from &ldquo;None.&rdquo; (You can set it to &ldquo;None,&rdquo; but then you may need to reduce the amplitude, and the system will oscillate wildly when the resonance condition is met. Whatever damping you use, you may find it helpful to press &ldquo;Restart&rdquo; after you change anything.)
+
+Now set rhe frequency to what you just calculated, and hit play.
 
 <!-- 2) Use equation 3 and your measurement of the length of the string from Exercise 1 to determine the wavelength needed to generate a standing wave with $n$ segments.
 
@@ -238,6 +269,7 @@ Describe what you are seeing on the screen. What is moving? What is stationary?
 
 :::Question
 a. Describe what you see now. Compare and contrast it to what you saw before.
+
 b. Explain the difference between the two setups. Why do they behave so differently?
 :::
 
@@ -250,23 +282,27 @@ b. Explain the difference between the two setups. Why do they behave so differen
 <!-- ![Simulation 1](https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_en.html){width=100% height=600px} -->
 
 <!-- The objective of this lab is to analyze the characteristics of waves on a string. You will do this by examining 3 systems with varying characteristics. -->
-In the rest of the lab you will watch videos of different versions of the same setup. You can see a basic setup in Figure 8 below. We have an oscillator attached to string, similar to the simulations above. The string is then strung over a pulley with a mass $m$ hanging off the end to create tension in the string. We can vary the frequency at which the oscillator vibrates, the length of the string (the spacing between the oscillator and the pulley), and the amount of mass hanging off the end.
+
+In the rest of the lab you will watch videos of different versions of the same setup. You can see a basic setup in Figure 8 below. We have a string, anchored at one end, with an oscillator (driver) attached near that end. The string is then run over a pulley with a mass $m$ hanging off the end to create tension in the string. We can vary the frequency at which the oscillator vibrates, the length of the string (the spacing between the oscillator and the pulley), and the amount of mass hanging off the end.
 
 :::Figure:Figure
 ![Figure 8](imgs/WavesDrawing.png)
 :::
 
-We will start by setting up a system, System 1, and measure the physical characteristics of that system -- length, tension (determined by the mass), and density of the string. Then we will perform the experiment making some initial **baseline** measurements. We will then repeat the same measurements with two additional systems. System 2 will have half the length of System 1, but the same tension (mass) as System 1. System 3 will have the same length as System 1 but half the tension (mass) as System 1.
+We will start by setting up a system, System 1, and measure the physical characteristics of that system -- length, tension (determined by the mass), and density of the string. Then we will perform the experiment to make some initial **baseline** measurements. We will then repeat the same measurements with two additional systems. System 2 will have half the length of System 1, but the same tension (mass) as System 1. System 3 will have the same length as System 1 but half the tension (mass) as System 1.
 
 The goal of the experiment for each system is to understand and see the relationship between frequency and when standing waves occur. Then we will compare and contrast our three runs to see how changing the tension and length affect this.
 
-For each system we will keep the mass and length constant throughout the experiment, but we will slowly sweep through a range of frequencies. The current frequency will be displayed on a large monitor in the video. You will notice that at particular frequencies, standing waves will form on the string. At other frequencies you might notice nothing on the string, and sometimes chaos.
+For each system we will keep the mass and length constant throughout the experiment, but we will slowly sweep through a range of frequencies. The current frequency will be displayed on a large display in the video. You will notice that at particular frequencies, standing waves will form on the string. At other frequencies you might notice nothing on the string, and sometimes chaos.
 
+<!--
 **Important:** You may also notice two sets of standing waves that form at frequencies close together. This happens because the metal tongue that is oscillating can become part of the vibrating system. You don't want this. The standing waves you will want to take note of are the ones that form when it looks as if the tongue is almost still. The string should have something like a node near the end of the metal tongue. See the video below.
+
 
 :::Figure:Video
 !(https://drive.google.com/file/d/1vOgx2JbLxskVyYBM4yBIKA0Zpxlp_cx6)
 :::
+-->
 
 **Important:** If your internet quality is giving you trouble, you should be able to download any of the these videos and play it on your own computer. If you click the "Pop-out" button in the upper right, it will open the video in a google drive link. You can download it from there. Additionally, all of these videos are sped up to play at 2X speed. Since this is the YouTube video player you can slow the video down to 0.5X of real life speed and up to 4X real life speed. Just click the cog in the lower right corner and adjust "Playback speed."
 
@@ -276,12 +312,12 @@ You will be expected to turn in all plots and tables you are asked to make in th
 
 ::: Exercise
 
-In this exercise we will build a table where we can record the things that stay constant for each of the three systems. Then we will fill it out for the first system. To do this, we will use the system shown in Figure 9 and used in Video 3, 4, and 5. This setup can be called System 1.
+In this exercise we will build a table where we can record the things that stay constant for each of the three systems. Then we will fill it out for the first system. To do this, we will use the system shown in Figure 8 and used in Videos 2, 3, and 4. This setup can be called System 1.
 
 1. The linear density, $\mu$ (mass/length) is given in grams/meter. For the string we are using, the linear mass density is 0.266 g/m.
 2. The length of the string is about 0.985 m.
 3. The mass for the baseline measurement will be 50 g.
-4. Record these data in a table labeled, "Constant Values." This table should have column headers: $L$, $m$, $\mu$, $F_T$, and $v_{F\mu}$; and row headers: System 1, System 2, and System 3. Record your systems' values here as you proceed with part two of this lab. Be sure to use the correct units when recording your data. You should include your units in your headers.
+4. Record these data in a table labeled, &ldquo;Constant Values.&rdquo; This table should have column headers: $L$, $m$, $\mu$, $F_T$, and $v_{F\mu}$; and row headers: System 1, System 2, and System 3. Record your systems&rsquo; values here as you proceed with part two of this lab. Be sure to use the correct units when recording your data. You should include your units in your headers.
 
 You will be creating additional, separate, tables for each of the 3 systems in the upcoming exercises.
 
@@ -302,11 +338,11 @@ b) What is the speed of the wave as calculated from your observed values of tens
 
 In this exercise we will establish our baseline system, System 1. Above, in your Constant Values table, you characterized the system, but now we will perform our experiment. We will drive the oscillator with a sine wave and slowly sweep through a few hundred hertz. You can pause the video and scrub through it as slowly as you'd like.
 
-Do your best to identify a standing wave. You might notice something looking like a standing wave over a range of frequencies. You want the frequency where the amplitude of the string looks the largest, **the tongue of the oscillator is relatively stable,** and the whole wave looks fairly stable.
+Do your best to identify a standing wave. You might notice something looking like a standing wave over a range of frequencies. You want the frequency where the amplitude of the string looks the largest, <!--**the tongue of the oscillator is relatively stable,**--> and the whole wave looks fairly stable.
 
-**It is fine if you don't measure the exact frequency of the wave.** We won't grade you on how good you are at watching a video to make a challenging measurement. Just do your best to identify the standing wave and measure the frequency. What is interesting isn't the exact frequency at which a standing wave occurs. It is the *relationship* between frequency and the different standing waves that form. As long as you are close you should see the *relationship*.
+**It is fine if you don&Rsquo;t measure the exact frequency of the wave.** We won't grade you on how good you are at watching a video to make a challenging measurement. Just do your best to identify the standing wave and measure the frequency. What is interesting isn&rsquo;t the exact frequency at which a standing wave occurs. It is the *relationship* between frequency and the different standing waves that form. As long as you are close you should see the *relationship*.
 
-Now we will begin taking data points with System 1. Since this is the System 1 setup, we will be using the string length and mass given above in Exercise 4.
+Now we will begin taking data points with System 1. Since this is the System 1 setup, we will be using the string length and mass given above in Exercise 2.
 
 <!--Video 1 Baseline ![Video 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
 
@@ -316,7 +352,7 @@ Now we will begin taking data points with System 1. Since this is the System 1 s
 
 1. Create a table for System 1 with column headers for number of segments ($n$), frequency ($f$), $v_{λf}$, and % Difference of $v$. Your first entry in number of segments should be 1.
 
-2. Video 1 sweeps through frequencies using System 1. Watch the video and determine the frequency at which you see 1 standing wave segment. Record the frequency for your standing wave with one segment in your table.
+2. Video 2 sweeps through frequencies with System 1. Watch the video and determine the frequency at which you see one standing wave segment. Record the frequency for your standing wave with one segment in your table.
 
 ::: Question
 a. Now calculate the speed from the wavelength ($\lambda$) and frequency ($f$). Denote this $v_{\lambda f}$. Use the equation $v_{\lambda f} = f \lambda$. Use Equation 3 to calculate the wavelength. Record this in the System 1 table you just made. Show your work.
@@ -324,7 +360,7 @@ a. Now calculate the speed from the wavelength ($\lambda$) and frequency ($f$). 
 b. Compare the two values of speed. Use the $v_{F\mu}$ from your Constants Table and the $v_{\lambda f}$ that you just calculated. What is the percent difference between these two values? Record this in the System 1 table you just made. Show your work.
 :::
 
-3. Continue watching Video 1 and repeat Exercise 2 for standing waves of two, three, four, and five segments.
+3. Continue watching Video 2 and repeat Step 2 for standing waves of two, three, four, and five segments.
 
 :::
 <!-- End Exercise -->
@@ -349,7 +385,7 @@ This exercise uses a new set up called System 2. This will have the same L as Sy
 !(https://drive.google.com/file/d/1nz51ZGXjDyq28iRyb6SUkrjKc3ioko_O)
 :::
 
-4. Just as you did for System 1, go through Video 2 and find the frequencies for each number of standing wave segments. Fill out your System 2 table accordingly. You should be able to go up to at least five segments.
+4. Just as you did for System 1, go through Video 3 and find the frequencies for each number of standing wave segments. Fill out your System 2 table accordingly. You should be able to go up to at least five segments.
 :::
 <!-- End of Exercise -->
 
@@ -374,7 +410,7 @@ This exercise uses a new setup called System 3. This will have the same mass as 
 
 3. Create a new table labeled System 3, just like the one you made for System 1.
 
-4. Just as you did for Systems 1 and 2, go through Video 3 and find the frequencies for each number of standing wave segments. Fill out your System 3 table accordingly. You should just barely be able to get three segments. 
+4. Just as you did for Systems 1 and 2, go through Video 4 and find the frequencies for each number of standing wave segments. Fill out your System 3 table accordingly. You should just barely be able to get three segments. 
 :::
 
 ### Analysis
@@ -418,7 +454,7 @@ $$
 :::
 
 ::: Question
-a. From Equation 5, what is slope of your $f$ vs $n$ graph in terms of $F$, $\mu$, and $L$?
+a. From Equation 5, what is slope of your $f$ vs. $n$ graph in terms of $F$, $\mu$, and $L$?
 
 b. What are the units of the slope, and what physical meaning does it have?
 
