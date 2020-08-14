@@ -251,7 +251,7 @@ Instructions for how to do this follow the simulation.
 
 $^*$For damping, set the slider to 1 division away from &ldquo;None.&rdquo; (You can set it to &ldquo;None,&rdquo; but then you may need to reduce the amplitude, and the system will oscillate wildly when the resonance condition is met. Whatever damping you use, you may find it helpful to press &ldquo;Restart&rdquo; after you change anything.)
 
-Now set rhe frequency to what you just calculated, and hit play.
+Now set the frequency to what you just calculated, and hit play.
 
 <!-- 2) Use equation 3 and your measurement of the length of the string from Exercise 1 to determine the wavelength needed to generate a standing wave with $n$ segments.
 
