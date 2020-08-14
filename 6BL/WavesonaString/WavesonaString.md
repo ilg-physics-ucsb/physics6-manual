@@ -304,7 +304,7 @@ For each system we will keep the mass and length constant throughout the experim
 :::
 -->
 
-**Important:** If your internet quality is giving you trouble, you should be able to download any of the these videos and play it on your own computer. If you click the "Pop-out" button in the upper right, it will open the video in a google drive link. You can download it from there. Additionally, all of these videos are sped up to play at 2X speed. Since this is the YouTube video player you can slow the video down to 0.5X of real life speed and up to 4X real life speed. Just click the cog in the lower right corner and adjust "Playback speed."
+**Important:** If your internet quality is giving you trouble, you should be able to download any of the these videos and play it on your own computer. If you click the &ldquo;Pop-out&rdquo; button in the upper right, it will open the video in a google drive link. You can download it from there. Additionally, all of these videos are sped up to play at 2X speed. Since this is the YouTube video player you can slow the video down to 0.5X of real life speed and up to 4X real life speed. Just click the cog in the lower right corner and adjust &ldquo;Playback speed.&rdquo;
 
 You will be expected to turn in all plots and tables you are asked to make in the exercises, as well as all answers to questions.
 
