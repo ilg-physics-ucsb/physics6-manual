@@ -283,7 +283,7 @@ b. Explain the difference between the two setups. Why do they behave so differen
 
 <!-- The objective of this lab is to analyze the characteristics of waves on a string. You will do this by examining 3 systems with varying characteristics. -->
 
-In the rest of the lab you will watch videos of different versions of the same setup. You can see a basic setup in Figure 8 below. We have a string, anchored at one end, with an oscillator (driver) attached near that end. The string is then run over a pulley with a mass $m$ hanging off the end to create tension in the string. We can vary the frequency at which the oscillator vibrates, the length of the string (the spacing between the oscillator and the pulley), and the amount of mass hanging off the end.
+In the rest of the lab you will watch videos of different versions of the same setup. You can see a basic setup in Figure 8 below. We have a string, anchored at one end, with an oscillator (driver) attached near that end. The string is then run over a pulley with a mass $m$ hanging off the end to create tension in the string. We can vary the frequency at which the oscillator vibrates, the length of the string (the spacing between the anchor and the pulley), and the amount of mass hanging off the end.
 
 :::Figure:Figure
 ![Figure 8](imgs/WavesDrawing.png)
