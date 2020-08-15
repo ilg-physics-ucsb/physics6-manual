@@ -2,7 +2,7 @@
 ---
 
 ::: Note
-Please note that Simulation 1 and Simulation 2 will only run in Chrome or Firefox. They will NOT run in Safari.
+Please note that Simulation 1 and Simulation 2 will run only in Chrome or Firefox. They will NOT run in Safari.
 :::
 
 ::: Note
@@ -57,7 +57,7 @@ The north pole of each compass is painted red, similarly to that of the permanen
 :::
 
 :::column
-The compasses show the direction of the magnetic field created by the permanent bar magnet at the locations where they are placed. A *magnetic field line* is a directed line which is tangent to the magnetic field at each point along its length.  Notice that the direction of a compass needle will be along the field line passing through its location. Magnetic field lines will originate on the North pole of the magnet and loop back into the South pole.
+The compasses show the direction of the magnetic field created by the permanent bar magnet at the locations where they are placed. A *magnetic field line* is a directed line that is tangent to the magnetic field at each point along its length.  Notice that the direction of a compass needle is along the field line passing through its location. Magnetic field lines originate from the North pole of the magnet and loop back into the South pole.
 
 Figure 2 shows the magnetic field lines around a permanent bar magnet and a few representative compass directions.
 :::
@@ -71,10 +71,10 @@ Figure 2 shows the magnetic field lines around a permanent bar magnet and a few 
 
 ### Air core electromagnet
 
-A coil of wire with current flowing through it generates a magnetic field. We call this an electromagnet. If there is nothing but air inside of the coil it is an "air core" electromagnet. We can also place other materials such as iron inside of the coil to amplify the magnetic field. We call this an "iron core" electromagnet.
+A coil of wire with current flowing through it generates a magnetic field. We call this an electromagnet. If there is nothing but air inside of the coil, it is an &ldquo;air core&rdquo; electromagnet. We can also place other materials such as iron inside of the coil to amplify the magnetic field. We call this an &ldquo;iron core&rdquo; electromagnet.
 
 ::: Exercise
-In Exercise 1 you gained intuition with a permanent bar magnet. In this exercise you will be using Simulation 2 to visualize the magnetic field of an electromagnet. Note that this is an air electromagnet. The circuit diagram for this experiment is shown in Figure 3.
+In Exercise 1 you gained intuition with a permanent bar magnet. In this exercise you will be using Simulation 2 to visualize the magnetic field of an electromagnet. Note that this is an air core electromagnet. The circuit diagram for this experiment is shown in Figure 3.
 
 ::: Figure:Figure
 ![Figure 1.2 – Wiring for basic electromagnet](imgs/Figure1.2_Wiring_basic_electromagnet.jpg)
@@ -90,7 +90,7 @@ You will have to change to the &ldquo;Electromagnet&rdquo; tab from the default 
 :::
 
 2. Move the electromagnet coil to the middle of the window. 
-3. Make sure the voltage on the battery is set to &ldquo;$10\ V$&rdquo;.
+3. Make sure the voltage on the battery is set to &ldquo;10 V.&rdquo;
 ::: Note
 The electromagnet is the coil, not the battery.
 :::
@@ -103,17 +103,17 @@ Two magnetic fields are similar if a compass points in the same direction for al
 Based on your 20 compass locations, is the magnetic field of a bar magnet similar to that of an electromagnet? Why or why not?
 :::
 
-6. Drag the slider on the battery to the center mark so that it reads &ldquo;$0\ V$&rdquo;. This means that there is no current passing through the coil. Notice that the compasses in the background are gone.
+6. Drag the slider on the battery to the center mark so that it reads &ldquo;0 V.&rdquo; This means that there is no current passing through the coil. Notice that the compasses in the background are gone.
 7. Slowly move the large compass in the foreground to different locations .
 
 ::: Question
-What happens to the direction of the needle of the large compass when is it moved around while the battery is set to $0\ V$? What can you conclude about the strength of the magnetic field?
+What happens to the direction of the needle of the large compass when is it moved around while the battery is set to 0 V? What can you conclude about the strength of the magnetic field?
 
 :::
-8. Drag the slider back to 10 V. Then drag the slider on the battery to the far left in order to switch the direction of the current flowing through the coil. The battery should now read -10V.
+8. Drag the slider back to 10 V. Then drag the slider on the battery to the far left in order to switch the direction of the current flowing through the coil. The battery should now read -10 V.
 
 :::Question
-What happens to the directions of the needles of the small compasses when you reverse the direction of current flow, so when you drag the slider from 10 V to -10V ?
+What happens to the directions of the needles of the small compasses when you reverse the direction of current flow, so when you drag the slider from 10 V to -10 V ?
 :::
 
 :::
@@ -129,7 +129,7 @@ What happens to the directions of the needles of the small compasses when you re
 
 In this exercise we will be exploring the strength of magnetic fields. 
 
-We will be working with the system described in Figure 4. This system uses an electromagnet that has an air core, just as in Exercise 2. The large compass is placed on the axis of the coil, about $4\ cm$ away.
+We will be working with the system described in Figure 4. This system uses an electromagnet that has an air core, just as in Exercise 2. The large compass is placed on the axis of the coil, about 4 cm away.
 
 :::Figure:Figure
 ![Figure 2.1– Shows wiring, also shows compass on axis of coil](imgs/Figure2.1_Wiring_compas_onaxis.jpg)
@@ -138,14 +138,14 @@ We will be working with the system described in Figure 4. This system uses an el
 **Note: The Earth’s magnetic field will affect the compass needle. Remember, this did not occur in previous exercises, because we were dealing with ideal simulations.  Thus we will align the entire apparatus, both the electromagnet and the compass, so that the compass needle is nearly perpendicular to the axis of the coil when the electromagnet is not powered. **
 
 :::Note
-Note: In all of the videos below refer to the electromagnetic coil as a solenoid. In this context these two terms are interchangeable.
+Note: In all of the videos, we refer to the electromagnetic coil as a solenoid. In this context these two terms are interchangeable.
 :::
 
 :::Figure:Video
 !(https://www.youtube.com/watch?v=-UGxgsBJ7Qw)
 :::
 
-In Video 2 we see the system from Figure 4,  built and powered (i.e. with current flowing through the coil). The air core electromagnet will be moved away from the compass. At certain distances, current will be applied for a short time by means of the momentary-contact switch shown in Figure 4. When the electromagnet is at its farthest distance from the compass, an iron rod will be placed inside it. Current will again be applied via the momentary-contact switch.
+In Video 2 we see the system from Figure 4,  built and powered (*i.e.*, with current flowing through the coil). The air core electromagnet will be moved away from the compass. At certain distances, current will be applied for a short time by means of the momentary-contact switch shown in Figure 4. When the electromagnet is at its farthest distance from the compass, an iron rod will be placed inside it. Current will again be applied via the momentary-contact switch.
 
 1. Watch Video 2, and note the difference in how the compass needle behaves when the electromagnet is powered versus when it is not.
 2. Note the angle (in degrees) of deflection of the compass needle at three different distances. Pause the video to make these measurements.
@@ -154,13 +154,13 @@ In Video 2 we see the system from Figure 4,  built and powered (i.e. with curren
 
 
 ::: Question
-a) How many degrees does the compass needle deflect when the electromagnet is originally powered at $4\ cm$ away?
+a) How many degrees does the compass needle deflect when the electromagnet is originally powered at 4 cm away?
 
-b) How many degrees does the compass needle deflect when the electromagnet is $8\ cm$ away? Is the deflection at $8\ cm$ smaller or greater than the one at $4\ cm$ away?  What can you conclude about the magnetic field strength at the two distances?
+b) How many degrees does the compass needle deflect when the electromagnet is 8 cm away? Is the deflection at 8 cm smaller or greater than the one at 4 cm away?  What can you conclude about the magnetic field strength at the two distances?
 
 c) At what distance is the needle&rsquo;s deflection just barely noticeable?
 
-d) How does the needle&rsquo;s deflection change once the iron core is placed into the coil in comparison to when the core was an air core? What can you conclude about the magnetic field strength when we place an iron code into an air core electromagnet?
+d) How does the needle&rsquo;s deflection change once the iron core is placed into the coil in comparison to when the core was an air core? What can you conclude about the magnetic field strength when we place an iron core into an air core electromagnet?
 :::
 :::
 
@@ -171,7 +171,7 @@ d) How does the needle&rsquo;s deflection change once the iron core is placed in
 
 ::: Exercise
 
-This exercise continues our investigation of magnetic field strength. Instead of varying the distance between our compass and our electromagnet as we did in Exercise 3, we will vary the current flowing through our electromagnet. We will use a circuit containing a variable resistor  (a rheostat), as shown in Figure 5. We apply a fixed voltage, and vary the resistance of the rheostat; thus we vary the amount of current flowing through the coil (according to Ohm's Law). Video 3 shows the circuit in Figure 5, with the rheostat being slowly adjusted from zero resistance at the beginning, to maximum resistance at the end.
+This exercise continues our investigation of magnetic field strength. Instead of varying the distance between our compass and our electromagnet as we did in Exercise 3, we will vary the current flowing through our electromagnet. We will use a circuit containing a variable resistor  (a rheostat), as shown in Figure 5. We apply a fixed voltage, and vary the resistance of the rheostat; thus we vary the amount of current flowing through the coil (according to Ohm&rsquo;s Law). Video 3 shows the circuit in Figure 5, with the rheostat being slowly adjusted from zero resistance at the beginning, to maximum resistance at the end.
 
 :::Figure:Figure
 ![Figure 2.2 – Wiring diagram showing rheostat in series.](imgs/Figure2.2_Wiring_rheostat_inseries.jpg)
@@ -207,7 +207,7 @@ In this exercise we will explore magnetization and how objects can become magnet
 !(https://www.youtube.com/watch?v=cUli9nLH3lE)
 :::
 
-1. Watch Video 4 and pause at 1:15.
+1. Watch Video 4 and make it pause at 1:15.
 
 ::: Question
 Does the iron core create its own magnetic field after it is placed in an external field? Justify your answer.
@@ -254,7 +254,7 @@ b) What is the relationship between the magnet’s approach speed and the degree
 ::: Note
 #### Flux
 
-- In Exercise 1, we discussed magnetic field lines between the N and S poles of the bar magnet.  When these lines cross an area they produce *magnetic flux*. Magnetic flux is associated to a given surface and represents a measure of the number of field lines crossing that surface. 
+- In Exercise 1, we discussed magnetic field lines between the N and S poles of the bar magnet.  When these lines cross an area they produce *magnetic flux*. Magnetic flux is associated with a given surface and represents a measure of the number of field lines crossing that surface. 
 
 - For a uniform magnetic field perpendicular to a surface, the magnetic flux is defined as the product of the magnetic field strength and the area of the surface.
 
@@ -264,7 +264,7 @@ b) What is the relationship between the magnet’s approach speed and the degree
 
 #### Faraday’s Law
 
-- Consider an area bounded by a loop of wire. If the amount of flux through the area is changing, then a voltage will be
+- Consider an area bounded by a loop of wire. If the amount of flux through the area is changing, then a voltage is
 induced in the loop. This, in turn, gives rise to a current which we will refer to as the induced current. 
 
 #### Lenz’s Law
