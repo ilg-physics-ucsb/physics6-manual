@@ -5,7 +5,7 @@
 **You will be expected to turn in all plots and tables you are asked to make in the exercises, as well as all answers to questions.**
 
 :::Figure:Video
-!(https://drive.google.com/file/d/1an1ZCDO0onq_-mtUjBbJnqIjgI0eIQAp)
+!(https://www.youtube.com/watch?v=Wb1rvaiHnLs)
 :::
 
 ## PART 1: PULSES
@@ -140,13 +140,14 @@ Velocity, $v$, is the speed at which any disturbance propagates down the string.
 ::: Question
 a) Consider a very long string driven by a sinusoidal oscillator. The string is so long that there are no reflections. A wave travels at 3 m/s on this string, and the oscillator is set to 10 Hz. You can view the wavelength as how far a wave travels in one period of oscillation. What is the wavelength in this case?
 
-b) If the velocity were instead 12 m/s, what would the wavelength be? Keep in mind that the frequency is the same as in part a. Is the sinusoidal pattern on the string longer or shorter with a greater propagation velocity?
-
-c) If the frequency of the oscillator were changed to 16 Hz, how far would one cycle travel? The velocity is still 12 m/s.
+b) If the velocity were instead 18 m/s, what would the wavelength be? Keep in mind that the frequency is the same as in part a. Is the sinusoidal pattern on the string longer or shorter with a greater propagation velocity?
+<!--
+c) If the frequency of the oscillator were changed to 16 Hz, how far would one cycle travel? The velocity is still 12 m/s. -->
 :::
 
 :::Note
-**NOTE:** For a given frequency the wavelength is determined entirely by the velocity of the wave on the string. The velocity of a wave on a string is given by:
+**NOTE:** The velocity of all waves on a particular string is determined by the properties of the string itself &ndash; the tension in the string, and the linear mass density of the string.  The linear mass density is the mass per unit length of string, which determines how heavy the string is per unit length.
+<!--For a given frequency the wavelength is determined entirely by the velocity of the wave on the string. The velocity of a wave on a string is given by:-->
 
 :::Figure:Equation
 $$
@@ -194,17 +195,20 @@ $$L = n \cdot (\lambda/2)$$
 Which is slightly easier to interpret: any integer number of half wavelengths can fit on the string. Why does this happen? Because only an integer number of half wavelengths will put a node at each end. This condition is necessitated by the fact that the ends are fixed and cannot move up and down. The phenomenon that occurs when this equation is satisfied is also known as *resonance*.
 
 :::Figure:Figure
-![Figure 7: Waves on a String](imgs/Figure7_WavesonaString.jpg)
+![Figure 7: Waves on a String](imgs/Figure7_WavesonaString1B.jpg)
 
 *Waves on a String*
 :::
 
 ::: Question
-a) What wavelength is required to get 5 standing wave segments on a doubly fixed string of length 0.75 m? If the velocity *v* is 50 m/s, what will be the frequency of this wave?
+a) What wavelength is required to get 5 standing wave segments on a doubly fixed string of length 0.75 m?
 
-b) Instead drive one end of the string with a sinusoidal oscillator of frequency 100 Hz. What velocity is required to set up a standing wave with 5 segments?
+b) If the velocity *v* is 50 m/s, what will be the frequency of this wave?
+<!--
+b) If we drive one end of the string with a sinusoidal oscillator of frequency 100 Hz, what velocity is required to set up a standing wave with 5 segments? -->
 :::
 
+<!-- Exercise with PhET removed for brevity
 ::: Exercise
 
 By means of a simulation, you will learn how to produce standing waves. The simulation below shows a string of beads, along which you can send a pulse, or which you can drive periodically. Each bead has mass and interacts with its neighboring beads through the string. So when one bead is displaced, it pulls on its neighboring bead. The green beads behave exactly as the red beads do; they are just there as position references.
@@ -234,7 +238,7 @@ Instructions for how to do this follow the simulation.
 <!--
 ![Table 3: Standing Waves Settings](imgs/Standing_Wave_Table.JPG)
 -->
-
+<!--
 2. Measure the length of the string of beads, and record it.
 
 3. Press the green button on the driver. When the pulse reaches either end, start the timer. Time how long it takes for the pulse to make five round trips, and divide to get the time per round trip. Take the round-trip length, and divide by the round-trip time to get the velocity.
@@ -260,7 +264,7 @@ Now set the frequency to what you just calculated, and hit play.
 <!-- 4. Set your frequency to fit the wavelength to get $n = 2$ with tension set to high. 
 
 5. Repeat part d. with the tension set to Medium and Low for n = 3 and n = 4. Make a table similar to [sample table doc](https://docs.google.com/spreadsheets/d/1xZ7Nz3IUxpD715pPghY0djhcSn_bZ_FZs1SoGMgkw8k/edit?usp=sharing){target=_blank} and fill the table accordingly. Note that the length does not change.  -->
-
+<!--
 ::: Question
 Describe what you are seeing on the screen. What is moving? What is stationary?
 :::
@@ -274,7 +278,7 @@ b. Explain the difference between the two setups. Why do they behave so differen
 :::
 
 :::
-
+-->
 
 ## PART 3: MEASUREMENT
 
@@ -283,13 +287,13 @@ b. Explain the difference between the two setups. Why do they behave so differen
 
 <!-- The objective of this lab is to analyze the characteristics of waves on a string. You will do this by examining 3 systems with varying characteristics. -->
 
-In the rest of the lab you will watch videos of different versions of the same setup. You can see a schematic of the basic setup in Figure 8 below. (This is the same apparatus that appears in Figure  7.) We have a string, anchored at one end, with an oscillator (driver) attached near that end. The string is then run over a pulley with a mass $m$ hanging off the end to create tension in the string. We can vary the frequency at which the oscillator vibrates, the length of the string (the spacing between the anchor and the pulley), and the amount of mass hanging off the end.
+In the rest of the lab you will watch videos of different versions of the same setup. You can see a schematic of the basic setup in Figure 8 below. (This is the same apparatus that appears in Figure  7, above.) We have a string, anchored at one end, with an oscillator (driver) attached near that end. The string is then run over a pulley with a mass $m$ hanging off the end to create tension in the string. We can vary the frequency at which the oscillator vibrates, the length of the string (the spacing between the anchor and the pulley), and the amount of mass hanging off the end.
 
 :::Figure:Figure
 ![Figure 8](imgs/WavesDrawing.png)
 :::
 
-We will start by setting up a system, System 1, and measure the physical characteristics of that system -- length, tension (determined by the mass), and density of the string. Then we will perform the experiment to make some initial **baseline** measurements. We will then repeat the same measurements with two additional systems. System 2 will have the same length as System 1, but the half the tension (mass) as System 1. System 3 will have half the length as System 1 but the same tension (mass) as System 1. Because the string is elastic, its density varies with the tension; the greater the tension, the more the string stretches, and the lower the density. We have therefore measured the density for each run, and will give each value. (As you might guess, two of these should be the same; they are, indeed, very close.)
+We will start by setting up a system, System 1, and measure the physical characteristics of that system &ndash; length, tension (determined by the hanging mass), and linear mass density of the string. Then we will perform the experiment to make some initial **baseline** measurements. We will then repeat the same measurements with two additional systems. System 2 will have the same length as System 1, but the half the tension (hanging mass) as System 1. System 3 will have half the length as System 1 but the same tension (hanging mass) as System 1. We have measured the linear mass density of the string to be 3.0 g/m.
 
 The goal of the experiment for each system is to understand and see the relationship between frequency and when standing waves occur. Then we will compare and contrast our three runs to see how changing the tension and length affect this.
 
@@ -303,18 +307,18 @@ For each system we will keep the mass and length constant throughout the experim
 !(https://drive.google.com/file/d/1vOgx2JbLxskVyYBM4yBIKA0Zpxlp_cx6)
 :::
 -->
-
+<!--
 **Important:** If your internet quality is giving you trouble, you should be able to download any of the these videos and play it on your own computer. If you click the &ldquo;Pop-out&rdquo; button in the upper right, it will open the video in a google drive link. You can download it from there. Additionally, all of these videos are sped up to play at 2X speed. Since this is the YouTube video player you can slow the video down to 0.5X of real life speed and up to 4X real life speed. Just click the cog in the lower right corner and adjust &ldquo;Playback speed.&rdquo;
-
+-->
 You will be expected to turn in all plots and tables you are asked to make in the exercises, as well as all answers to questions.
 
 ### Setup
 
 ::: Exercise
 
-In this exercise we will build a table where we can record the things that stay constant for each of the three systems. Then we will fill it out for the first system. To do this, we will use the system shown in Figure 8 and used in Videos 2, 3, and 4. This setup can be called System 1.
+In this exercise you will build a table where you can record the things that stay constant for each of the three systems. Then you will fill it out for the first system. To do this, you will use the system shown in Figure 8 and used in Videos 2, 3, and 4. This setup can be called System 1.
 
-1. The linear density, $\mu$ (mass/length) is given in grams/meter. For the string we are using, for this run, the linear mass density is 3.0 g/m.
+1. The linear density, $\mu$ (mass/length) is given in grams/meter. For the string we are using, the linear mass density is 3.0 g/m.
 2. The length of the string is about 1.70 m.
 3. The mass for the baseline measurement will be 400 g.
 4. Record these data in a table labeled, &ldquo;Constant Values.&rdquo; This table should have column headers: $L$, $m$, $\mu$, $T$, and $v_{T\mu}$; and row headers: System 1, System 2, and System 3. Record your systems&rsquo; values here as you proceed with part two of this lab. Be sure to use the correct units when recording your data. You should include your units in your headers.
@@ -339,16 +343,16 @@ b) What is the speed of the wave you calculate from your observed values of tens
 
 In this exercise we will establish our baseline system, System 1. Above, in your Constant Values table, you characterized the system, but now we will perform our experiment. We will drive the oscillator with a sine wave and slowly sweep through a range of frequencies. You can make the video pause and step through it as slowly as you&rsquo;d like.
 
-Do your best to identify a standing wave. You might notice something looking like a standing wave over a range of frequencies. You want the frequency where the amplitude of the string looks the largest, <!--**the tongue of the oscillator is relatively stable,**--> and the whole wave looks fairly stable.
+Do your best to identify a standing wave. You might notice something looking like a standing wave over a range of frequencies. You want the frequency where the amplitude of the string vibration looks the largest, <!--**the tongue of the oscillator is relatively stable,**--> and the whole wave looks fairly stable.
 
-**It is fine if you don&rsquo;t measure the exact frequency of the wave.** We won't grade you on how good you are at watching a video to make a challenging measurement. Just do your best to identify the standing wave and measure the frequency. What is interesting isn&rsquo;t the exact frequency at which a standing wave occurs. It is the *relationship* between frequency and the different standing waves that form. As long as you are close you should see the *relationship*.
+**It is fine if you don&rsquo;t measure the exact frequency of the wave.** We won&rsquo;t grade you on how good you are at watching a video to make a challenging measurement. Just do your best to identify the standing wave and measure the frequency. What is interesting isn&rsquo;t the exact frequency at which a standing wave occurs. It is the *relationship* between frequency and the different standing waves that form. As long as you are close you should see the *relationship*.
 
 Now we will begin taking data points with System 1. Since this is the System 1 setup, we will be using the string length and mass given above in Exercise 2.
 
 <!--Video 1 Baseline ![Video 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
 
 :::Figure:Video
-!(https://drive.google.com/file/d/1g36ZdXNY7PA1P5SjsvOUi92QjRKrpPfu)
+!(https://www.youtube.com/embed/NUJMDtmXZF4)
 :::
 
 1. Create a table for System 1 with column headers for number of segments ($n$), frequency ($f$), $v_{λf}$, and % Difference of $v$. Your first entry in number of segments should be 1.
@@ -368,11 +372,9 @@ b. Compare the two values of speed. Use the $v_{T\mu}$ from your Constants Table
 
 ::: Exercise
 
-This exercise uses a new set up called System 2. This will have the same L as System 1, but will have half the mass.
+This exercise uses a new setup called System 2. This will have the same L as System 1, but will have half the mass.
 
-1. The linear mass density, $\mu$, of the string is 3.7 g/m.
-
-2. The mass for System 2 is 200 g. 
+1. The mass for System 2 is 200 g. 
 <!-- 1) Measure the mass for System 2 using Image 2 below.
 
 <!-- Image 2 ![Image 2](imgs/Figure5_Nodes.jpg){width=100% height=600px}
@@ -385,7 +387,7 @@ This exercise uses a new set up called System 2. This will have the same L as Sy
 
 <!--Video 2 Lighter Mass ![Video 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
 :::Figure:Video
-!(https://drive.google.com/file/d/1nz51ZGXjDyq28iRyb6SUkrjKc3ioko_O)
+!(https://www.youtube.com/embed/1s8Hbo-WlFY)
 :::
 
 4. Just as you did for System 1, go through Video 3 and find the frequencies for each number of standing wave segments. Fill out your System 2 table accordingly. You should be able to go up to at least five segments.
@@ -396,9 +398,7 @@ This exercise uses a new set up called System 2. This will have the same L as Sy
 
 This exercise uses a new setup called System 3. This will have the same mass as System 1, but will have half the length.
 
-1. The linear mass density, $\mu$, of the string is 3.0 g/m.
-
-2. The length of the string in System 3 is 0.85 m. 
+1. The length of the string in System 3 is 0.85 m. 
 
 <!-- 1) Measure the length for System 3 using Image 3 below.
 
@@ -410,12 +410,12 @@ This exercise uses a new setup called System 3. This will have the same mass as 
 
 <!--Video 3 Baseline ![Video 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
 :::Figure:Video
-!(https://drive.google.com/file/d/1DeLhDlN5magKGvzTYqaaOrCRr_qvPazT)
+!(https://www.youtube.com/embed/q_O90MCVQeQ)
 :::
 
 3. Create a new table labeled System 3, just like the one you made for System 1.
 
-4. Just as you did for Systems 1 and 2, go through Video 4 and find the frequencies for each number of standing wave segments. Fill out your System 3 table accordingly. You should just barely be able to get three segments. 
+4. Just as you did for Systems 1 and 2, go through Video 4 and find the frequencies for each number of standing wave segments. Fill out your System 3 table accordingly. You should just barely be able to get five segments. 
 :::
 
 ### Analysis
@@ -426,12 +426,19 @@ In this exercise we will now analyze the three systems and compare and contrast 
 
 1) Our goal is now to study the relationship between the frequency and the number of segments of the wave. Make sure your tables for Systems 1, 2 and 3 are completely filled out.
 
-2) Make a graph of $f$ versus $n$ (the number of segments) for each system. You should have the three curves on one graph in different colors.
+2) Make a graph of $f$ versus $n$ (the number of segments) for each system. You should have the three plots on one graph, in different colors.
 
 All standing waves are referred to as **harmonics**. A standing wave with one segment is called the **fundamental** or the the first harmonic. The **fundamental** is the natural frequency at which the system wants to oscillate. If instead of driving the system with an oscillator you were to pluck the string as you would on a guitar, it would oscillate at the **fundamental** frequency.
 
 :::Question
-What do you notice about the fundamental frequency of the three systems? How does halving the length change the fundamental? How does halving the mass change the fundamental?
+a. What do you notice about the fundamental frequency of the three systems?
+
+b. How does halving the length change the fundamental?
+
+c. How does halving the mass change the fundamental?
+:::Note
+The mass we are referring to in this question is the hanging mass, which determines the tension in the string.
+:::
 :::
 
 :::Question
@@ -441,13 +448,13 @@ b. Does halving the length or halving the tension (mass) change the relationship
 :::
 
 ::: Question
-a) What is the shape of each of the curves on the graph?
+a) What is the shape of each of the plots on the graph?
 
-b) Does each system yield a curve of the same shape?
+b) Does each system yield a plot of the same shape?
 
-c) From system to system, how does this curve vary?
+c) From system to system, how does the plot vary?
 
-d) What are the slopes of the best fit lines through these curves?
+d) What are the slopes of the best fit lines through these plots?
 :::
 
 3) Combine equations 1, 2, and 3 (from the Theory section), and show that the frequency can be written as: 
@@ -466,10 +473,10 @@ b. What are the units of the slope, and what physical meaning does it have?
 c. Compare the value of the slope of your plots to the measured fundamental frequency for each system.
 :::
 
-We have previously given you the values of the linear mass density ($\mu$), but you can check our values by using the slope from Equation 5.
+We have previously given you the value of the linear mass density ($\mu$), but you can check our value by using the slope from Equation 5.
 
 :::Question
-Use the slopes from your graph, and the tension and length for each system, to calculate the density, $\mu$, of the string.  Compare these measured values of density to the given values. What is the percent difference for each?
+Use the slopes from your graph, and the tension and length for each system, to calculate the density, $\mu$, of the string.  Compare these measured values of density to the given value. What is the percent difference for each?
 :::
 
 :::
