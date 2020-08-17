@@ -183,7 +183,7 @@ $$\lambda = 2\it L/n$$
 :::
 
 however, where n is a positive integer and L is the Length of the string in meters, 
-we observe the phenomenon of standing waves. In this case, the left-moving and right-moving waves line up such that there are areas of large motion called *antinodes*, and areas that don’t move at all, called *nodes*. This pattern of vibration is fixed on the string.
+we observe the phenomenon of standing waves. In this case, the left-moving and right-moving waves line up such that there are areas of large motion called *antinodes*, and areas that don’t move at all, called *nodes*. This pattern of vibration is fixed on the string. The first three such patterns that occur, for *n* = 1, 2 and 3, in Equation 3, are shown above in Figure 5.
 
 Algebraic manipulation shows:
 
@@ -283,7 +283,7 @@ b. Explain the difference between the two setups. Why do they behave so differen
 
 <!-- The objective of this lab is to analyze the characteristics of waves on a string. You will do this by examining 3 systems with varying characteristics. -->
 
-In the rest of the lab you will watch videos of different versions of the same setup. You can see a basic setup in Figure 8 below. We have a string, anchored at one end, with an oscillator (driver) attached near that end. The string is then run over a pulley with a mass $m$ hanging off the end to create tension in the string. We can vary the frequency at which the oscillator vibrates, the length of the string (the spacing between the anchor and the pulley), and the amount of mass hanging off the end.
+In the rest of the lab you will watch videos of different versions of the same setup. You can see a schematic of the basic setup in Figure 8 below. (This is the same apparatus that appears in Figure  7.) We have a string, anchored at one end, with an oscillator (driver) attached near that end. The string is then run over a pulley with a mass $m$ hanging off the end to create tension in the string. We can vary the frequency at which the oscillator vibrates, the length of the string (the spacing between the anchor and the pulley), and the amount of mass hanging off the end.
 
 :::Figure:Figure
 ![Figure 8](imgs/WavesDrawing.png)
@@ -293,7 +293,7 @@ We will start by setting up a system, System 1, and measure the physical charact
 
 The goal of the experiment for each system is to understand and see the relationship between frequency and when standing waves occur. Then we will compare and contrast our three runs to see how changing the tension and length affect this.
 
-For each system we will keep the mass and length constant throughout the experiment, but we will slowly sweep through a range of frequencies. The current frequency will be displayed on a large display in the video. You will notice that at particular frequencies, standing waves will form on the string. At other frequencies you might notice nothing on the string, and sometimes chaos.
+For each system we will keep the mass and length constant throughout the experiment, but we will slowly sweep through a range of frequencies. The current frequency will be displayed on a large display in the video. You will notice that at particular frequencies, standing waves will form on the string, according to the patterns illustrated in Figures 5 and 7, and described by Equations 3 and 4. Between those frequencies, you may observe very little motion, random motion, or perhaps some motion that appears to have a pattern to it. As compared to the actual harmonics that you will be trying to find, these motions will be very small and short-lived.
 
 <!--
 **Important:** You may also notice two sets of standing waves that form at frequencies close together. This happens because the metal tongue that is oscillating can become part of the vibrating system. You don't want this. The standing waves you will want to take note of are the ones that form when it looks as if the tongue is almost still. The string should have something like a node near the end of the metal tongue. See the video below.
