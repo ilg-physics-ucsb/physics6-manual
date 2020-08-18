@@ -5,7 +5,7 @@
 **You will be expected to turn in all plots and tables you are asked to make in the exercises, as well as all answers to questions.**
 
 :::Figure:Video
-!(https://www.youtube.com/watch?v=Wb1rvaiHnLs)
+!(https://www.youtube.com/watch?v=6v4wtNbUZl0)
 :::
 
 ## PART 1: PULSES
@@ -138,9 +138,11 @@ $$
 Velocity, $v$, is the speed at which any disturbance propagates down the string. Wavelength, $\lambda$, is the distance that one sinusoidal oscillation covers on the string. Frequency, $f$, is the rate of periodic oscillation. For our purposes, we will use units of cycles per second, or hertz, abbreviated Hz.
 
 ::: Question
-a) Consider a very long string driven by a sinusoidal oscillator. The string is so long that there are no reflections. A wave travels at 3 m/s on this string, and the oscillator is set to 10 Hz. You can view the wavelength as how far a wave travels in one period of oscillation. What is the wavelength in this case?
+a. Consider a very long string driven by a sinusoidal oscillator. The string is so long that there are no reflections. A wave travels at 3 m/s on this string, and the oscillator is set to 10 Hz. You can view the wavelength as how far a wave travels in one period of oscillation. What is the wavelength in this case?
 
-b) If the velocity were instead 18 m/s, what would the wavelength be? Keep in mind that the frequency is the same as in part a. Is the sinusoidal pattern on the string longer or shorter with a greater propagation velocity?
+b. If the velocity were instead 18 m/s, what would the wavelength be? Keep in mind that the frequency is the same as in part a.
+
+c. Is the sinusoidal pattern on the string longer or shorter with a greater propagation velocity?
 <!--
 c) If the frequency of the oscillator were changed to 16 Hz, how far would one cycle travel? The velocity is still 12 m/s. -->
 :::
@@ -201,9 +203,9 @@ Which is slightly easier to interpret: any integer number of half wavelengths ca
 :::
 
 ::: Question
-a) What wavelength is required to get 5 standing wave segments on a doubly fixed string of length 0.75 m?
+a. What wavelength is required to get 5 standing wave segments on a doubly fixed string of length 0.75 m?
 
-b) If the velocity *v* is 50 m/s, what will be the frequency of this wave?
+b. If the velocity *v* is 50 m/s, what will be the frequency of this wave?
 <!--
 b) If we drive one end of the string with a sinusoidal oscillator of frequency 100 Hz, what velocity is required to set up a standing wave with 5 segments? -->
 :::
@@ -326,9 +328,9 @@ In this exercise you will build a table where you can record the things that sta
 You will be creating additional, separate, tables for each of the three systems in the upcoming exercises.
 
 ::: Question
-a) What is the tension in the string? Use the formula $\text{Tension} = T = mg$. Show your work.
+a. What is the tension in the string? Use the formula $\text{Tension} = T = mg$. Show your work.
 
-b) What is the speed of the wave you calculate from your observed values of tension ($T$) and linear density ($\mu$)? Record this value in the $v_{Tμ}$ column. Show your work.
+b. What is the speed of the wave you calculate from your observed values of tension ($T$) and linear density ($\mu$)? Record this value in the $v_{Tμ}$ column. Show your work.
 :::
 
 <!-- 
@@ -352,7 +354,7 @@ Now we will begin taking data points with System 1. Since this is the System 1 s
 <!--Video 1 Baseline ![Video 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
 
 :::Figure:Video
-!(https://www.youtube.com/embed/NUJMDtmXZF4)
+!(https://www.youtube.com/embed/v-TwpVgjShs)
 :::
 
 1. Create a table for System 1 with column headers for number of segments ($n$), frequency ($f$), $v_{λf}$, and % Difference of $v$. Your first entry in number of segments should be 1.
@@ -387,7 +389,7 @@ This exercise uses a new setup called System 2. This will have the same L as Sys
 
 <!--Video 2 Lighter Mass ![Video 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
 :::Figure:Video
-!(https://www.youtube.com/embed/1s8Hbo-WlFY)
+!(https://www.youtube.com/embed/PHV0RSShpgI)
 :::
 
 4. Just as you did for System 1, go through Video 3 and find the frequencies for each number of standing wave segments. Fill out your System 2 table accordingly. You should be able to go up to at least five segments.
@@ -410,7 +412,7 @@ This exercise uses a new setup called System 3. This will have the same mass as 
 
 <!--Video 3 Baseline ![Video 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
 :::Figure:Video
-!(https://www.youtube.com/embed/q_O90MCVQeQ)
+!(https://www.youtube.com/embed/wiNSBAKnoLc)
 :::
 
 3. Create a new table labeled System 3, just like the one you made for System 1.
@@ -431,11 +433,9 @@ In this exercise we will now analyze the three systems and compare and contrast 
 All standing waves are referred to as **harmonics**. A standing wave with one segment is called the **fundamental** or the the first harmonic. The **fundamental** is the natural frequency at which the system wants to oscillate. If instead of driving the system with an oscillator you were to pluck the string as you would on a guitar, it would oscillate at the **fundamental** frequency.
 
 :::Question
-a. What do you notice about the fundamental frequency of the three systems?
+a. How does halving the length change the fundamental?
 
-b. How does halving the length change the fundamental?
-
-c. How does halving the mass change the fundamental?
+b. How does halving the mass change the fundamental?
 :::Note
 The mass we are referring to in this question is the hanging mass, which determines the tension in the string.
 :::
@@ -448,13 +448,13 @@ b. Does halving the length or halving the tension (mass) change the relationship
 :::
 
 ::: Question
-a) What is the shape of each of the plots on the graph?
+a. What is the shape of each of the plots on the graph?
 
-b) Does each system yield a plot of the same shape?
+b. Does each system yield a plot of the same shape?
 
-c) From system to system, how does the plot vary?
+c. From system to system, how does the plot vary?
 
-d) What are the slopes of the best fit lines through these plots?
+d. What are the slopes of the best fit lines through these plots?
 :::
 
 3) Combine equations 1, 2, and 3 (from the Theory section), and show that the frequency can be written as: 
@@ -470,13 +470,13 @@ a. From Equation 5, what is slope of your $f$ vs. $n$ graph in terms of $T$, $\m
 
 b. What are the units of the slope, and what physical meaning does it have?
 
-c. Compare the value of the slope of your plots to the measured fundamental frequency for each system.
+c. For each system, compare the value of the slope of your plot to the measured fundamental frequency by calculating the percent discrepancy.
 :::
 
 We have previously given you the value of the linear mass density ($\mu$), but you can check our value by using the slope from Equation 5.
 
 :::Question
-Use the slopes from your graph, and the tension and length for each system, to calculate the density, $\mu$, of the string.  Compare these measured values of density to the given value. What is the percent difference for each?
+Use the slopes from your graph, and the tension and length for each system, to calculate the density, $\mu$, of the string.  Compare these measured values of density to the given value (3.0 g/m) by calculating the percent discrepancy.
 :::
 
 :::
