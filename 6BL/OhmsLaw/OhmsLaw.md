@@ -20,14 +20,6 @@ During the dawn of the age of electricity, an investigator named Georg Simon Ohm
 
 ### Circuits and Resistance
 
-<!-- A circuit is a closed loop of wires and components that allows electrons to flow through it. The flow of electrons is referred to as **current**, and it varies at different parts of a circuit. The flow of electrons is caused by differences in electrical potential, the amount of which is referred to as **voltage**. Differences in voltage are provided by power sources, often times, a battery. As the power source causes a current to flow, electrical potential energy is converted into electrical kinetic energy as current. This leads to the draining of your power source over time. For any particular voltage, the current that flows will be determined by the **resistance** of the medium through which it is flowing. The larger the resistance, the more difficult it is for electrons to flow, and thus the lower the current. AVOCADO (Do final wording check of this paragraph) Circuits are analogous to other systems that flow such as piped water. Water held at a height has a potential and when drained can flow water out.  --> 
-
-<!-- A simple circuit can be analogized by a system of water flowing through pipes. Imagine a loop of pipes filled with water. A pump which takes water to a higher height is similar to a power source that is creating a potential energy difference. The water then flows down from that source analogous to current until it reaches the lower potential then gets pumped back up by means of the power source. As the water is flowing the resistance in the pipes determines the rate of flow. The more obstructions a pipe has, the slower the water will flow. The initial height or potential of the water also affects the rate of flow. The higher the potential, the greater the flow. AVOCADO (Do final wording check for this paragraph) -->
-
-<!-- Resistance is the measure of opposition to some flow, in electrical circuits this flow is the flow of electrons, otherwise known as current. As such, resistance reduces the current that can flow due to a voltage source. The unit of resistance is the Ohm, it is characterized by the symbol $\Omega$. A component in a circuit designed to have a set resistance is called a **resistor**. In our pipe analogy a resistor would be an obstruction or a kink in the piping. -->
-
-<!-- This video describes our pipe analogy such that AVOCADO (Reword and pick video, and make the link external) -->
-
 A circuit is a closed loop of wires and components that allows electrons to flow through it. The flow of electrons is referred to as **current**, and it varies at different parts of a circuit, if the circuit is more than just a single loop, according to the characteristics of each part of the circuit. The unit of current is the ampere (after Andr&eacute; Marie Ampere), sometimes shortened to &ldquo;amp,&rdquo; abbreviated A. The flow of electrons is caused by differences in electrical potential between different parts of the circuit. The unit of electrical potential is the volt (after Alessandro Volta), abbreviated V, and potential difference is often referred to as **voltage**. Generators, power supplies and batteries provide such potential differences. When such a power source is connected to a circuit, it converts electrical potential energy into electrical kinetic energy, and thus causes current to flow in the circuit. This leads to the draining of the power source over time. (An electrical power supply plugged into the wall will not drain, but it will consume fuel burned by the generator that provides its current.) If we place a particular voltage across a piece of conductive material, the current that flows is determined by the **resistance** of that material. The larger the resistance, the more difficult it is for electrons to flow, and thus the lower the current. As noted above, the unit of resistance is the ohm, which is also symbolized as $\Omega$. A component in a circuit designed to have a particular resistance is called a **resistor**.
 
 A useful analogy for understanding current flow in circuits is the comparison to the flow of water in a system of pipes. Consider a loop of pipes filled with water, with a pump circulating the water through the loop. The pump is analogous to a battery or power supply, the difference in pressure between the outlet and the return like the potential difference between the terminals of the battery. The pipe is like the wire, with water taking the place of the electric current. The water flows from the high-pressure outlet of the pump (high electrical potential), through the pipe to the low-pressure inlet of the pump (low electrical potential). The characteristics of the pipe -- its length, cross-sectional area, and the presence and nature of any obstructions -- constitute its resistance.  Together with the pressure difference between the two ends of the pump, this determines the rate of water flow in the loop.  The greater the pressure difference between the outlet and inlet of the pump, the greater the flow. The greater the resistance of the pipes, the lesser the flow. 
@@ -53,7 +45,7 @@ where
 
 **$I$** is the current in the resistor, measured in amperes, and 
 
-**$R$** is the resistance of the resistor measured, as noted above, in units called “ohms,” and symbolized by the upper-case Greek omega $(\Omega)$.
+**$R$** is the resistance of the resistor measured, as noted above, in units called “ohms,” which are also symbolized by the upper-case Greek omega $(\Omega)$.
 
 In words, Ohm&rsquo;s law states that “the voltage V across the ends of a resistor R, and the current I flowing through this resistor,
 are proportional.” If the potential difference across a resistor is set at 1 volt, and if a current of 1 amp is measured in the
@@ -78,6 +70,8 @@ This is also shown the video introduction. From this equation, it should be clea
 $$
 R = V/I
 $$
+
+Note that if *V* is in volts, for *R* to be in ohms, *I* must be in amperes. If *V* is in volts and *I* is in mA, then *R* will be in k$\Omega$.
 
 ::: Exercise
 In Simulation 1 you will see a simple but effective demonstration of Ohm&rsquo;s Law. Use this simulation to gain understanding of Ohm&rsquo;s Law and how changing either the resistance of the resistor or the voltage across it changes the current. Notice that the size of each symbol changes to illustrate the change in magnitude of that value. In addition, the orange arrows on the the corners of the circuit change in size according to the magnitude of the current.
@@ -118,7 +112,7 @@ Basically part 5 of the outline.
 
 ::: Exercise
 
-In this exercise we will examine the circuit represented in Figure 1 and built in Video 2 (below). Figure 1 shows the schematic representation of the circuit, which consists of a power supply and a resistor. We will use a voltmeter and an ammeter to measure, respectively, the voltage across, and the current passing through, a resistor.
+In this exercise we will examine the circuit shown in Figure 1 and built in Video 2 (below). Figure 1 shows the schematic representation of the circuit, which consists of a power supply and a resistor. We will use a voltmeter and an ammeter to measure, respectively, the voltage across, and the current passing through, a resistor.
 
 1. Examine the circuit shown in Figure 1. A resistor of resistance **R** $=2,200\ \Omega$ is wired in series with an ammeter and connected to the 0–20-volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the resistor to measure the voltage drop.
 
@@ -166,6 +160,7 @@ d) Compare this value to the known resistor value of 2,200 $\Omega$.
 :::
 :::
 
+<!--
 ::: Exercise
 
 ## Notice: This exercise is optional and does not provide extra credit.
@@ -173,7 +168,7 @@ d) Compare this value to the known resistor value of 2,200 $\Omega$.
 In this exercise you will use the technique from Exercise 2 to find the value of an unknown resistor. Video 4 will show the circuit being set up, and then a scan of the voltage from 0 to 20 volts. The circuit layout will be identical to that in Figure 1.
 
 <!-- Video 4: Mystery Resistor -->
-
+<!--
 :::Figure:Video 
 !(https://drive.google.com/file/d/1Q75MGxrg3S-SQ_HeVW3edIktECPdj88C)
 :::
@@ -184,10 +179,11 @@ In this exercise you will use the technique from Exercise 2 to find the value of
 What is the value of the unknown mystery resistor?
 :::
 :::
+-->
 
 <!-- ### Series and Parallel Introductions -->
 
-Now that you have seen simple circuits with single resistors, we can explore more complex ones. There are two ways in which components may be connected together -- in series and in parallel.
+Now that you have seen a simple circuit with a single resistor, we can explore more complex ones. There are two ways in which components may be connected together -- in series and in parallel.
 
 <!-- #### Series Circuits
 In order for current to move through a circuit, there must be a complete path leading away from and back to the source voltage. In a simple series circuit there is only one such path. It is important to note that the same amount of current flows through all points of a series circuit. If this were not the case, there would be points where current was either created or destroyed. *The current through each element is the same*, however the total circuit voltage is divided among the individual resistors. For this reason, the circuit in the previous experiment is commonly known as a voltage divider. Individual series resistors add to form a total resistance. Individual voltages in series circuits add to form the total circuit voltage. The entire source voltage will be dropped across the combination of two resistors. The voltage across each individual resistor is proportional to its individual resistance.  -->
@@ -232,23 +228,27 @@ Figure 2, in the next exercise, shows a circuit with two resistors connected in 
 ![Figure 2: Two resistors of resistance **R** are wired in series.](imgs/Figure2_Part2Circuit.jpg)
 :::
 
-<!-- Video 5: Two Series Resistors -->
+<!-- Video 4: Two Series Resistors -->
 
 :::Figure:Video
 !(https://drive.google.com/file/d/1Ul_S7augc2rNcOdlW4qVHDynu2bJ9RHe)
 :::
 
-Video 5 shows the circuit in Figure 2, with the voltage across the pair of resistors being changed slowly from 0 to 20 volts.
+Video 4 shows the circuit in Figure 2, with the voltage across the pair of resistors being changed slowly from 0 to 20 volts.
 
 **Note:** The voltmeter is placed across two resistors, both of resistance $R$, chained end to end. The quantity measured by this device is the voltage across the pair of resistors. The ammeter measures the amount of current flowing through the series circuit. 
 
-2. Watch Video 5. As the  voltage changes, make the video pause, and record the voltage and corresponding current for 10 data points. You should take measurements approximately every 2 volts. They do not, however, need to be exactly 2 volts apart, as long as the data points are fairly well spaced out.
-3. Neatly tabulate your data, then plot them with current on the *x*-axis and voltage on the *y*-axis.
+2. Watch Video 4. For this exercise, we have taken the data, which we will provide to you.  You should watch the video, however, to see how the current changes with the applied voltage, as compared to the way it did in the last video.
+<!--
+As the  voltage changes, make the video pause, and record the voltage and corresponding current for 10 data points. You should take measurements approximately every 2 volts. They do not, however, need to be exactly 2 volts apart, as long as the data points are fairly well spaced out.-->
+3. Open the spreadsheet at this [link](https://docs.google.com/spreadsheets/d/1yo4mQZohXVGUwLKSBgQCl_pjaHFre1qS7MCPDOokjRc/edit#gid=0) to get your data. Copy them to whatever spreadsheet program you prefer, and then plot them with current on the *x*-axis and voltage on the *y*-axis.
 
 ::: Question
-a) What is the slope of this line? Use units.
+a) For each data point, roughly how much did the current change from that of the previous point, compared to the results in Exercise 2? **Note:** Your answer to this does not need to be precise.
 
-b) Compare the slope with the values of the individual resistors. What can you say about the equivalent resistance of resistors in series, in comparison to the value of a single resistor?
+b) What is the slope of the line of your plot? Use units.
+
+c) Compare the slope with the values of the individual resistors. What can you say about the equivalent resistance of resistors in series, in comparison to that of a single resistor?
 :::
 :::
 
@@ -279,26 +279,34 @@ In this circuit, the resistors sit next to each other with common points at each
 !(https://drive.google.com/file/d/1oZ8NXwqN_JdITnuXtNXGx_6Hy-Smr6IF)
 :::
 
-Video 6 shows the circuit in Figure 3, with the voltage across the pair of resistors being changed slowly from 0 to 20 volts. 
-
+Video 5 shows the circuit in Figure 3, with the voltage across the pair of resistors being changed slowly from 0 to 20 volts. 
+<!--
 ### Notice: You may pick a single voltage/current pair to find the resistance, instead of finding it for 10 pairs.
+-->
+2. Watch Video 5. As we did for the previous exercise, we will provide you with data that we took. You should watch the video to see how the current changes with the applied voltage, as compared to the way it did in the last two experiments.
 
-2. Watch Video 6. As the voltage changes, make the video pause, and record the voltage and corresponding current. As noted above, you need not collect 10 points. Just pick a convenient place to freeze the video, and take a point.
+<!--
+As the voltage changes, make the video pause, and record the voltage and corresponding current. As noted above, you need not collect 10 points. Just pick a convenient place to freeze the video, and take a point.
+
 3. If you did decide to take 10 points, neatly tabulate your data, then plot them with current on the *x*-axis and voltage on the *y*-axis.
+-->
+3. Open the spreadsheet at this [link](https://docs.google.com/spreadsheets/d/1j_oHZBVi7vsE31FO_DncADHoPzgAzTdiIqjItS4zJ6g/edit#gid=0) to get your data. Copy them to whatever spreadsheet program you prefer, and then plot them with current on the *x*-axis and voltage on the *y*-axis.
+
 
 ::: Question
+<!--
 a) If you took only one data point, use Ohm&rsquo;s Law to calculate the resistance of the pair of resistors connected in parallel.
 
 b) If you took and plotted multiple points:
+-->
+a) For each data point, roughly how much did the current change from that of the previous point, compared to the results in Exercise 2? **Note:** Your answer to this does not need to be precise.
 
-1. For each data point, roughly how much did the current change from that of the previous point, compared to your results in Exercise 2? **Note:** Your answer to this does not need to be precise.
-
-2. What is the resistance you calculate from the slope of your plot?
+b) What is the resistance you calculate from the slope of your plot?
 	 
 c) What does your answer to a) or b) indicate about the total resistance of a parallel circuit with two resistors, compared to the resistance of the circuit with a single resistor in Exercise 2?
 :::
 
-4. Now Examine the circuit shown in Figure 4. Three resistors of resistance **R** $=2,200\ \Omega$ in parallel are connected in series with the ammeter and connected to the 0–20 volt power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit. There are now three paths for the current to take.
+4. Now Examine the circuit shown in Figure 4. Three resistors of resistance **R** $=2,200\ \Omega$, connected in parallel, are connected in series with the ammeter and the 0–20 volt power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit. There are now three paths for the current to take.
 
 :::Figure:Figure
 ![Figure 4. Three resistors of resistance **R** in parallel.](imgs/Figure3c_Part3Circuit.jpg)
@@ -310,21 +318,27 @@ c) What does your answer to a) or b) indicate about the total resistance of a pa
 !(https://drive.google.com/file/d/1L7qFZ-qIAhmla9i1eBBvtm_MUqHG8liZ)
 :::
 
-Video 7 shows the circuit in Figure 4, with the voltage across the set of three parallel resistors being changed slowly from 0 to 20 volts.. 
-
+Video 6 shows the circuit in Figure 4, with the voltage across the set of three parallel resistors being changed slowly from 0 to 20 volts.. 
+<!--
 ### Notice: You may pick a single voltage/current pair to find the resistance instead of finding 10 pairs.
+-->
+5. Watch Video 6. As we did for the previous two exercises, we will provide you with data that we took. You should watch the video to see how the current changes with the applied voltage, as compared to the way it did in the previous experiment.
+<!--
+As the voltage changes, make the video pause, and record the voltage and corresponding current for 10 data points. As noted above, you need not collect 10 points. Just pick a convenient place to freeze the video, and take a point.
 
-5. Watch Video 7. As the voltage changes, make the video pause, and record the voltage and corresponding current for 10 data points. As noted above, you need not collect 10 points. Just pick a convenient place to freeze the video, and take a point.
 6. If you did decide to take 10 points, neatly tabulate your data, then plot them with current on the *x*-axis and voltage on the *y*-axis.
+-->
+6. Open the spreadsheet at this [link](https://docs.google.com/spreadsheets/d/1o2fZd6anXc9pIRaiSfBb0VD_9NnsVqA8wH5CUwHExfE/edit#gid=0) to get your data. Copy them to whatever spreadsheet program you prefer, and then plot them with current on the *x*-axis and voltage on the *y*-axis.
 
 ::: Question
+<!--
 a) If you took only one data point, use Ohm&rsquo;s Law to calculate the resistance of the set of three resistors connected in parallel.
 
 b) If you took and plotted multiple points:
+-->
+a) For each data point, roughly how much did the current change from that of the previous point, compared to your results in Exercise 2 and Question 4? **Note:** Your answer to this does not need to be precise.
 
-1. For each data point, roughly how much did the current change from that of the previous point, compared to your results in Exercise 2 and Question 5? **Note:** Your answer to this does not need to be precise.
-
-2. What is the resistance you calculate from the slope of your plot?
+b) What is the resistance you calculate from the slope of your plot?
 	 
 c) What does your answer to a) or b) indicate about the total resistance of a parallel circuit with three resistors, compared to the resistance of the circuit with a single resistor in Exercise 2?
 
@@ -420,7 +434,7 @@ Check out Simulation 3 to see how the values of $ρ,\ L$, and $A$ affect $R$. Pl
 :::
 
 The resistivity of a material can be dependent on temperature. For fixed resistors, manufacturers choose their materials so as to minimize this effect. Materials whose resistance varies significantly with temperature, however, are useful for making devices called *thermistors*, which are often used as sensing elements in thermometers. We will not be working with such devices in this lab.
-
+<!--
 ::: Exercise
 
 
@@ -431,7 +445,7 @@ Modern resistors are made with a carbon composite, in such a way that resistors 
 A typical modern resistor made of composite may be about 8.5 mm long and 3.2 mm in diameter. Nichrome has a resistivity, $\rho$, of approximately $10^{-6}\ \Omega\cdot\rm cm$. 
 
 <!-- Image of a resistor? -->
-
+<!--
 ::: Question
 a) What is the resistivity, $\rho$, of a 750-$\Omega$ resistor that is in the standardized package mentioned above?
 
@@ -448,3 +462,4 @@ You may have noticed the value of part d above is quite large. This would result
 Use the resistivity of nichrome, the length per loop of wire, and diameter of modern nichrome wires in resistors, to find the number of turns of nichrome wire needed to make a 750-$\Omega$ resistor.
 :::
 :::
+-->
