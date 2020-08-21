@@ -404,6 +404,11 @@ b) What is the configuration of this circuit?
 
 :::
 
+:::Note
+You probably noticed that for each experiment, the change in current that a particular change in voltage produced, &Delta;*V*/&Delta;*I*, which equals *R*, was constant over the range of voltages applied to the circuit. That is, the circuits obeyed Ohm&rsquo;s law for all applied voltages. For this reason, resistors are often said to exhibit *ohmic* resistance.
+
+The resistances that you calculated from the data should have been reasonably close to those you would expect for resistors having the nominal value given. Besides the usual sources of measurement error (instrument accuracy, for example), there is something else that might cause these values to differ. The resistances of carbon resistors such as those used in this lab, can differ from their nominal values according to a tolerance specified by the manufacturer.  These are usually &plusmn;5% or &plusmn10%, but can be higher or lower. For applications in which it is necessary that the resistance be very close to the nominal value, resistors are available with tolerances of 1% or less, even down to 0.005%(!).
+:::
 ## Conclusion
 
 <!-- Add things -->
