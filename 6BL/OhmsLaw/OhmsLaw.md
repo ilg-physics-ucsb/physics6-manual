@@ -241,7 +241,7 @@ Video 4 shows the circuit in Figure 2, with the voltage across the pair of resis
 2. Watch Video 4. For this exercise, we have taken the data, which we will provide to you.  You should watch the video, however, to see how the current changes with the applied voltage, as compared to the way it did in the last video.
 <!--
 As the  voltage changes, make the video pause, and record the voltage and corresponding current for 10 data points. You should take measurements approximately every 2 volts. They do not, however, need to be exactly 2 volts apart, as long as the data points are fairly well spaced out.-->
-3. Open the spreadsheet at this [link](https://docs.google.com/spreadsheets/d/1yo4mQZohXVGUwLKSBgQCl_pjaHFre1qS7MCPDOokjRc/edit#gid=0) to get your data. Copy them to whatever spreadsheet program you prefer, and then plot them with current on the *x*-axis and voltage on the *y*-axis.
+3. Open the spreadsheet at this [link](https://docs.google.com/spreadsheets/d/1yo4mQZohXVGUwLKSBgQCl_pjaHFre1qS7MCPDOokjRc/edit?usp=sharing) to get your data. Copy them to whatever spreadsheet program you prefer, and then plot them with current on the *x*-axis and voltage on the *y*-axis.
 
 ::: Question
 a) For each data point, roughly how much did the current change from that of the previous point, compared to the results in Exercise 2? **Note:** Your answer to this does not need to be precise.
@@ -290,7 +290,7 @@ As the voltage changes, make the video pause, and record the voltage and corresp
 
 3. If you did decide to take 10 points, neatly tabulate your data, then plot them with current on the *x*-axis and voltage on the *y*-axis.
 -->
-3. Open the spreadsheet at this [link](https://docs.google.com/spreadsheets/d/1j_oHZBVi7vsE31FO_DncADHoPzgAzTdiIqjItS4zJ6g/edit#gid=0) to get your data. Copy them to whatever spreadsheet program you prefer, and then plot them with current on the *x*-axis and voltage on the *y*-axis.
+3. Open the spreadsheet at this [link](https://docs.google.com/spreadsheets/d/1j_oHZBVi7vsE31FO_DncADHoPzgAzTdiIqjItS4zJ6g/edit?usp=sharing) to get your data. Copy them to whatever spreadsheet program you prefer, and then plot them with current on the *x*-axis and voltage on the *y*-axis.
 
 
 ::: Question
@@ -328,7 +328,7 @@ As the voltage changes, make the video pause, and record the voltage and corresp
 
 6. If you did decide to take 10 points, neatly tabulate your data, then plot them with current on the *x*-axis and voltage on the *y*-axis.
 -->
-6. Open the spreadsheet at this [link](https://docs.google.com/spreadsheets/d/1o2fZd6anXc9pIRaiSfBb0VD_9NnsVqA8wH5CUwHExfE/edit#gid=0) to get your data. Copy them to whatever spreadsheet program you prefer, and then plot them with current on the *x*-axis and voltage on the *y*-axis.
+6. Open the spreadsheet at this [link](https://docs.google.com/spreadsheets/d/1o2fZd6anXc9pIRaiSfBb0VD_9NnsVqA8wH5CUwHExfE/edit?usp=sharing) to get your data. Copy them to whatever spreadsheet program you prefer, and then plot them with current on the *x*-axis and voltage on the *y*-axis.
 
 ::: Question
 <!--
@@ -392,7 +392,7 @@ In this exercise your objective is to build a circuit with a resistance of 1.5 k
 
 2. Use the equations for equivalent resistance of resistors both in series and in parallel, to design a circuit that contains only 1-k&Omega; resistors, but has an overall resistance of 1.5 k&Omega;. 
 
-#### Hint: You can build this circuit by using only 3 resistors.
+#### Hint: Start by thinking about what values the simplest resistor combinations would yield.
 
 3. Begin building your circuit in Simulation 2 to test your design. Note that switches are helpful for quick testing of different parts of a circuit. 
 
