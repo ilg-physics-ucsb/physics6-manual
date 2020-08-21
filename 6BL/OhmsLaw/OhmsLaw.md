@@ -399,7 +399,7 @@ In this exercise your objective is to build a circuit with a resistance of 1.5 k
 ::: Question
 a) What is the least number of resistors you need to make your circuit work?
 
-b) What is the configuration of this circuit? 
+b) What is the configuration of this circuit? (You should include a screenshot of your circuit, but please describe it in words.)
 :::
 
 :::
