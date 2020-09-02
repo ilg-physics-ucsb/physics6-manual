@@ -15,7 +15,7 @@ Note that in the text above, the bold symbols are vectors. **&omega;** and **&al
 
 Another member of the cast, similar to mass, is something we call the *moment of inertia*. Its symbol is I. In proportion to its mass, an object possesses *inertia*; it resists change in its linear motion. Similarly, according to its mass and how that mass is distributed about a particular axis of rotation, an object resists change in its rotational motion about that axis. The farther a portion of the mass is from the rotation axis, the greater its moment, or resistance to rotation. We will return to this later.
 
-By now, you have probably noticed similarities between the quantities that we use to describe linear motion, and those that we use to describe rotational motion. To the list we have so far, we will add three more items. A force (F = ma), in rotation becomes a *torque* (symbolized by &tau; (tau); &tau; = I&alpha;), linear momentum (p = mv) becomes *angular momentum* (L = I&omega;), and kinetic energy (K = $\rm(\frac12)m v\rm^ 2$) becomes *rotational kinetic energy* (K$\rm_r = (\frac12)$I&omega;$^2$). Note that whereas force has units of newtons (kg&middot;m/s$^2$), torque has units of newton&middot;meters. Where linear momentum is in kg&middot;m/s, angular momentum is in kg&middot;m$^2$/s. (We shall see later why this is so.) Linear kinetic energy and rotational kinetic energy have the same units (J, which are N&middot;m or kg&middot;m$^2$/s$^2$). The table below shows all of these quantities, with their expressions:
+By now, you have probably noticed similarities between the quantities that we use to describe linear motion, and those that we use to describe rotational motion. To the list we have so far, we will add three more items.  Linear momentum (p = mv), in rotation becomes *angular momentum* (L = I&omega;),  force (F = ma) becomes a *torque* (symbolized by &tau; (tau); &tau; = I&alpha;), and kinetic energy (K = $\rm(\frac12)m v\rm^ 2$) becomes *rotational kinetic energy* (K$\rm_r = (\frac12)$I&omega;$^2$). Note that whereas linear momentum is in kg&middot;m/s, angular momentum is in kg&middot;m$^2$/s. Where force has units of newtons (kg&middot;m/s$^2$), torque has units of newton&middot;meters. (We shall see later why this is so.) Linear kinetic energy and rotational kinetic energy have the same units (J, which are N&middot;m or kg&middot;m$^2$/s$^2$). The table below shows all of these quantities, with their expressions:
 
 :::Figure:Table
 |Linear Motion|Rotational Motion|
@@ -24,8 +24,8 @@ By now, you have probably noticed similarities between the quantities that we us
 |Velocity, v   |Angular Velocity, &omega;|
 |Acceleration, a|Angular Acceleration, &alpha;|
 |Mass, m|Moment of Inertia, I|
-|Force, F = ma|Torque, &tau; = I&alpha;|
 |Momentum, p = mv|Angular Momentum, L = I&omega;|
+|Force, F = ma|Torque, &tau; = I&alpha;|
 |Kinetic Energy, K = $(\frac12)$mv$^2$|Rotational Kinetic Energy, K$\rm_r = (\frac12)$I&omega;$^2$|
 :::
 
