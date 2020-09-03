@@ -141,7 +141,7 @@ $$
 \rm I = (\frac12)mR^2
 $$
 
-where m is the mass of the disc and R is the radius of the disc. We will lift the platter off the apparatus and weight it. We will also measure its diameter.
+where m is the mass of the disc and R is the radius of the disc. We will lift the platter off the apparatus and weigh it. We will also measure its diameter.
 
 :::Exercise
 AVOCADO -- Will we include a video of the measurements of the mass and diameter of the platter, or just give the values here?
