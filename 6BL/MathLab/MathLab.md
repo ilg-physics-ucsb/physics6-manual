@@ -6,7 +6,7 @@ When you wish to study the behavior of a physical system, a common technique to 
 
 ### Changing the Independent Variable
 
-If we know the form of the original equation, then performing the appropriate operation on the *x* or *y* values and then plotting, yields a straight line.  For example, if the function is $y=(\frac1x)$, then plotting *y* vs. $(\frac1x)$ yields a straight line, if $y=x^2$, then plotting *y* vs. $x^2$ gives a straight line, and so on. The figure below shows some examples, and the simulation box lets you see how the shape of some such curves becomes linear.
+If we know the form of the original equation, then performing the appropriate operation on the *x* or *y* values and then plotting, yields a straight line.  For example, if the function is $y=(\frac1x)$, then plotting *y* vs. $(\frac1x)$ yields a straight line, if $y=x^2$, then plotting *y* vs. $x^2$ gives a straight line, and so on. The figure below shows some examples, and the simulation that follows it lets you see how the shape of some such curves becomes linear.
 
 :::Figure:Figure
 ![](imgs/linearize.png)
@@ -51,9 +51,9 @@ we can take the logarithm of both sides:
 $$
 \rm log\it (y)\:=\:\rm log\it (a)\:+\:b\:\rm log\it(x)
 $$
-We thus obtain a linear equation with slope *b* and intercept log(*a*). The slope is the exponent in the original equation, and the intercept is the logarithm of the proportionality constant (which we can recover by taking its antilogarithm, *a* = $10^{\rm log\it (a)}$, if we are using common logarithms, or base 10 logarithms.). Manipulating data in any of these ways to cause them to fall on a straight line is often called *linearizing* the data. 
+We thus obtain a linear equation with slope *b* and intercept log(*a*). The slope is the exponent in the original equation, and the intercept is the logarithm of the proportionality constant (which we can recover by taking its antilogarithm, *a* = $10^{\rm log\it (a)}$, if we are using common logarithms, or base 10 logarithms.). Manipulating data in either of these ways to cause them to fall on a straight line is often called *linearizing* the data. 
 ####
-The simulation box below allows you to plot some data from a Black Body experiment governed by the [Stefan-Boltzmann law](https://en.wikipedia.org/wiki/Stefan%E2%80%93Boltzmann_law), as well as the relationship between animal mass and basal metabolic rate, known as [Kleiber&rsquo;s law](https://en.wikipedia.org/wiki/Kleiber%27s_law#:~:text=Symbolically%3A%20if%20q0%20is,the%20energy%20the%20mouse%20uses). See if you can guess the correct equation based on the slope of the line, and check your answers on the linked articles!
+The simulation below allows you to plot some data from a pair of experiments. The first involves a phenomenon called black body radiation.  You are most likely familiar with the glow of electric heating elements when they are on, as on an electric stove top or in a toaster, or the glow of the hot filament in an incandescent lamp. Among those who studied this type of radiation during the late nineteenth and early twentieth centuries, was Josef Stefan, who formulated a law that stated that the radiated power of an emitting object went as a certain power of its temperature. This law is called *Stefan&rsquo;s Law* or the [Stefan-Boltzmann law](https://en.wikipedia.org/wiki/Stefan%E2%80%93Boltzmann_law). The second experiment involves the relationship between animal mass and basal metabolic rate. In the early 1930s, Max Kleiber proposed that the energy consumed by an animal was a function of its mass. The equation he used to describe this relationship is known as [Kleiber&rsquo;s law](https://en.wikipedia.org/wiki/Kleiber%27s_law#:~:text=Symbolically%3A%20if%20q0%20is,the%20energy%20the%20mouse%20uses). For each of these experiments, see if you can guess the correct equation based on the slope of the line, and check your answers in the linked articles!
 
 
 :::Figure:Simulation
@@ -61,28 +61,34 @@ The simulation box below allows you to plot some data from a Black Body experime
 :::
 
 ### In Summary	
-We have covered a number of tools for working out an unknown relationship between experimental variables given a set of data. In this lab, you will primarily use the logarithm technique to linearize data from a set of astronomical observations, with the goal of discovering the equation that relates two observable variables.
+We have shown two ways to determine an unknown relationship between experimental variables given a set of data. In this lab, you will use the logarithm technique to linearize data from a set of astronomical observations, with the goal of discovering the equation that relates two observable variables.
 
 >***REPORT REQUIREMENTS: For your report you should explicitly answer each question in the report. You should also include all your work for the exercises, which will consist of one table and two plots.***
 >
 
 ## 2. THE EXPERIMENT
-### Astronomical History of Kepler&rsquo;s Law
-As early as the time of the ancient Greeks, people sought to understand the motion of the planets. Ptolemy (ca. 85 - ca. 165, Greek astronomer, geographer) proposed a *geocentric* system, that is, one in which the earth is stationary and all other bodies revolve around it. For this model to work, though, the planets must take very complicated paths; they must travel in epicycles &ndash; small circular paths superimposed on their larger circular orbits. In the sixteenth century, Nicolaus Copernicus (1473-1543, Polish astronomer) proposed a *heliocentric* theory, in which all the planets, including earth, revolved around the sun, and the earth rotates on its axis. (Oddly enough, the inspiration for this may have come from a model proposed by Aristarchus of Samos (ca. 310 B.C.E.- ca. 230 B.C.E.), but which never gained broad acceptance). Copernicus&rsquo;s model was much simpler than Ptolemy&rsquo;s, but it still had problems. Because Copernicus held that planets traveled in exact circles, he still needed to use epicycles to explain their observed motion. There was also need for better information regarding the motion of the planets. This would soon be provided by Tycho Brahe (1546-1601, Danish astronomer), who made very careful and precise observations of the motions of the planets in the solar system (without a telescope!). Some time later, Johannes Kepler (1571-1630, German astronomer), who had been Brahe&rsquo;s assistant, analyzed these data and arrived at his Three Laws of Planetary Motion. His Third Law relates the orbital periods of the planets to their mean distance from the sun. This distance is equal to the semimajor axis of the orbit, which according to his First Law, is an ellipse with the sun at one focus. Later, when Newton was working on his Law of Universal Gravitation, he found that from this law, he could derive Kepler&rsquo;s Third Law.
 
-
-####
-### Finding the Law by using data
-In this exercise, we will write the third Law as:
+As early as the time of the ancient Greeks, people sought to understand the motion of the planets. Ptolemy (ca. 85 - ca. 165, Greek astronomer, geographer) proposed a *geocentric* system, that is, one in which the earth is stationary and all other bodies revolve around it. For this model to work, though, the planets must take very complicated paths; they must travel in epicycles &ndash; small circular paths superimposed on their larger circular orbits. In the sixteenth century, Nicolaus Copernicus (1473-1543, Polish astronomer) proposed a *heliocentric* theory, in which all the planets, including earth, revolved around the sun, and the earth rotates on its axis. (Oddly enough, the inspiration for this may have come from a model proposed by Aristarchus of Samos (ca. 310 B.C.E.- ca. 230 B.C.E.), but which never gained broad acceptance). Copernicus&rsquo;s model was much simpler than Ptolemy&rsquo;s, but it still had problems. Because Copernicus held that planets traveled in exact circles, he still needed to use epicycles to explain their observed motion. There was also need for better information regarding the motion of the planets. This would soon be provided by Tycho Brahe (1546-1601, Danish astronomer), who made very careful and precise observations of the motions of the planets in the solar system (without a telescope!). Some time later, Johannes Kepler (1571-1630, German astronomer), who had been Brahe&rsquo;s assistant, analyzed these data and arrived at his Three Laws of Planetary Motion. His Third Law relates the orbital periods of the planets to their mean distance from the sun. This distance is equal to the semimajor axis of the orbit, which according to his First Law, is an ellipse with the sun at one focus. Later, when Newton was working on his Law of Universal Gravitation, he found that from this law, he could derive Kepler&rsquo;s Third Law. Kepler&rsquo;s Third Law takes the form
 
 :::Figure:Equation
-$T=k a^{z}$
+$T^i=Ka^j$$
+
+which can also be written as
+
+$T=\sqrt[i]{K}a^{j/i}$
 :::
 
-where *T* is orbital period, *a* is the semimajor axis of the orbit, $k$ is some constant of proportionality that we will discuss later. We will give the period in years, and the semimajor axis in a.u. (astronomical units; 1 a.u. = $149.6 \times 10^6$ km). 
-	
-####
-In the above equation we have **two** unknowns: the constant of proportionality $k$ and the exponent $z$. **The $z$ in this equation is the unknown we are primarily interested in discovering.** To do this, we will plot the data on a log-log scale and inspect the slope,  as described in the previous section.
+Note that $\sqrt[i]{K}$ is the same as $K^{(1/i)}$. For convenience, in the exercises that follow, we will let $k=\sqrt[i]{K}$ and $j/i=z$, and we will write the equation
+
+:::Figure:Equation
+$T=ka^z$
+:::
+
+We are expressing the equations this way, because your goal is to find out what these exponents are. Note that $z$ is not an integer, but a value that can be expressed as a ratio of small whole numbers.
+
+In the equations above, *T* is orbital period, *a* is the semimajor axis of the orbit, and $K=(\frac{\rm 4\pi^2}{GM})$, where G is the gravitational constant ($=6.67 \times 10^{-11} \rm\frac{N\cdot m^2}{kg^2}$), and M is the mass of the sun ($1.988 \times 10^{30}$ kg). Strictly speaking, the denominator should be $G(M_{planet} + M)$, but the sun is so much more massive than the planets, that for describing the orbital motion of the planets, the equation is accurate without the planetary mass. We will give the period in years, and the semimajor axis in a.u. (astronomical units; 1 a.u. = $149.6 \times 10^6$ km).
+
+This choice of units (years and a.u.) has an interesting consequence for the value of $K$, and thus also $k$, which makes the data easier to work with, and which you will notice when you make your log-log plot of the data.
 	
 ## 3. DATA
 
@@ -165,13 +171,17 @@ Make a similar table to the one below in your report, and fill in the missing co
 ## 5. PLOT 2
 
 :::Exercise
-We will now fill in the log-log table. If you are using Google sheets, use the LOG10 function to take the log of data points in both columns, filling in the table with the appropriate values. 
+In your data table, add two more columns. These will be for the logarithm of the orbital period and of the orbit semimajor axis. If you are using Google sheets, use the LOG10 function to take the log of data points in both columns, filling in the table with the appropriate values. 
 :::Note
-Note: Please use LOG10 to avoid issues later in the lab! See further comments later on.
+**Note: If you used a computer to calculate the logarithms, in many cases, the &ldquo;LOG&rdquo; function is either the natural logarithm (ln) or log base 2 by default. If you are using Excel or Google sheets, you will want to use the LOG10 function, not the LOG function.**
+
+**As long as you use the same base when you take the antilog to find the proportionality constant, this makes no difference. If, however, you need to compare the actual logarithms of the data, or of the constant, to those calculated by someone else, you will need to use the same base that that person did.**
+
+**Therefore, for consistency, please make sure to use log base 10.**
 :::
 :::
 :::Exercise
-Now make a plot of the data in these two columns. (Be sure to take the log of  **both** columns That is, plot log(*T*) vs. log(*a*).) Again, make sure that your graph has all of the components of a good plot in order to receive full credit.
+Now make a plot of the data in these two columns. (Be sure to take the log of  **both** columns. That is, plot log(*T*) vs. log(*a*).) Again, make sure that your graph has all of the components of a good plot in order to receive full credit.
 :::
 :::Question
 a. Does this graph look linear, quadratic, exponential, or something else?
@@ -184,7 +194,7 @@ d. Compare and contrast this plot with the previous one.
 :::
 
 :::Exercise
-Create a best-fit line for the new log-log plot. In Google Sheets, this can be found under &ldquo;Label&rdquo; in the &ldquo;Series&rdquo; menu trendline options described previously.
+Create a best-fit line for the new log-log plot. In Google Sheets, you can do this as described in Exercise 2, or you can find it under &ldquo;Label&rdquo; in the &ldquo;Series&rdquo; menu trendline options.
 :::Figure:Figure 
 
 ![](imgs/label.png)
@@ -197,34 +207,25 @@ a. What is the equation for your line of best fit?
 
 b. According to this equation, and the relationship between the Log-Log and Raw Data equations, what is the value of the exponent $z$? 
 
-c. What is the value of *k*?
+c. What is the numerical value of *k*? (You might find this result interesting. If the value you get seems too simple, don&rsquo;t panic; it&rsquo;s probably right!)
 :::
 
 :::Question
-**Challenge Question:**
-Kepler&rsquo;s law is frequently written in the form
+As we noted earlier, Kepler&rsquo;s law is frequently written in the form
 
 :::Figure:Equation
 
-$T^{n_1}=K a^{n_2}$
+$T^{i}=K a^{j}$
 :::
-where $n_1$ and $n_2$ are *integers*,  and $K=(\frac{\rm 4\pi^2}{GM})$, where G is the gravitational constant ($=6.67 \times 10^{-11} \rm\frac{N\cdot m^2}{kg^2}$), and M is the mass of the sun ($1.988 \times 10^{30}$ kg). Strictly speaking, the denominator should be $G(M_{planet} + M)$, but the sun is so much more massive than the planets, that for describing the orbital motion of the planets, the equation is accurate without the planetary mass. 
 
 a. Use the fact that this may be rewritten as
 :::Figure:Equation
 
-$T=(K)^{\frac{1}{n_1}} a^{\frac{n_2}{n_1}}$
+$T=(K)^{(1/i)} a^{(j/i)}$
 :::
-to determine the simplest possible integers $n_1$ and $n_2$ consistent with your fit, and write down Equation 6 with these integers.
+to determine the simplest (*i.e.*, smallest) possible integers $i$ and $j$ consistent with your fit, and write down Equation 6 with these integers.
 
-b. Given these values of $n_1$ and $n_2$, determine $K$  (Hint: $k=(K)^{\frac{1}{n_1}}$)
-:::Note
-**Note: If you used a computer to calculate the logarithms, in many cases, the &ldquo;LOG&rdquo; function is either the natural logarithm (ln) or log base 2 by default. If you are using Excel or Google sheets, you will want to use the LOG10 function, not the LOG function.**
-
-**As long as you use the same base when you take the antilog to find the proportionality constant, this makes no difference. If, however, you need to compare the actual logarithms of the data, or of the constant, to those calculated by someone else, you will need to use the same base that that person did.**
-
-**Therefore, for consistency, please make sure to use log base 10.**
-:::
+b. Given these values of $i$ and $j$, determine $K$  (Remember: $k=(K)^{(1/j)}$. Again, if your answer looks too simple, don&rsquo;t panic.  It&rsquo;s probably right!)
 :::
 
 ## 6. UNITS
@@ -232,18 +233,17 @@ b. Given these values of $n_1$ and $n_2$, determine $K$  (Hint: $k=(K)^{\frac{1}
 For the equation for Kepler&rsquo;s Third Law, although the power relationships do not depend on what units we choose for our variables, the proportionality constant, and hence its logarithm, does. Thus, a note about units and their conversion is in order.
 
 :::Note
-As noted above, for the period, *T*, we used years, and for the semimajor axis of the orbit, *a*, we used a.u. (1 a.u. = $149.6 \times 10^6$ km). $K=(\frac{\rm 4\pi^2}{GM})$, where *G* is the gravitational constant ($=6.67 \times 10^{-11} \rm\frac{N\cdot m^2}{kg^2}$), and *M* is the mass of the sun ($1.988 \times 10^{30}$ kg). You may have noticed that years and a.u. are not SI units. The SI units for these values are seconds and meters. As it turns out, if you make the conversion from seconds to years, and from meters to a.u., *K* = 1; when you multiply and divide *K* by the appropriate conversion factors, raised to the appropriate powers, the result is unity. You should have found this in your answer to question 4. c.
+As noted above, for the period, *T*, we used years, and for the semimajor axis of the orbit, *a*, we used a.u. (1 a.u. = $149.6 \times 10^6$ km). $K=(\frac{\rm 4\pi^2}{GM})$, where *G* is the gravitational constant ($=6.67 \times 10^{-11} \rm\frac{N\cdot m^2}{kg^2}$), and *M* is the mass of the sun ($1.988 \times 10^{30}$ kg). You may have noticed that years and a.u. are not SI units. The SI units for these values are seconds and meters. As it turns out, if you make the conversion from seconds to years, and from meters to a.u., *K* = 1; when you multiply and divide *K* by the appropriate conversion factors, raised to the appropriate powers, the result is unity. You should have found this in your answer to questions 4. c and 5.b.
 :::
 
 :::Question
-**Challenge Question:**
 
-a. Had we used SI units (that is, seconds for the orbital period and meters for the semimajor axis, instead of years and a.u.), if we were to combine both conversion factors into one, to use to multiply *T*, by what factor should you have had to multiply the values for the periods? (Note that when you arrive at your conversion factor, you can check it by comparing it to the value that you  got for $K^{1/n_1}$ in Question 5.)
-  
+a. Say we wished to use SI units, that is, seconds for the orbital period and meters for the semimajor axis, instead of years and a.u. We would need one conversion to change the time from a.u. to years, and one to change the distance from a.u. to meters, and we would have to raise each to the power of its respective variable in the equation ($i$ or $j$). If we wished to make this conversion by multiplying only our values for *T*, instead of having to convert both our *T* values and our *a* values, we could combine these two conversion factors into one.
+
+If you were to do this, by what factor should you have to multiply the values for the periods? (Note that when you arrive at your conversion factor, you can check it by comparing it to the value that you  get if you evaluate $K^{1/i}$, by calculating $(\frac{\rm 4\pi^2}{GM})^{(1/i)}$, with the values given above for $G$ and $M$.)
+
 
 b. How would this have changed the intercept of your log-log graph? What would its value have been?
-
-c. What is the value of the proportionality constant $k$? 
 :::
 
 
