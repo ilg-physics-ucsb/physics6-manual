@@ -71,11 +71,11 @@ We have shown two ways to determine an unknown relationship between experimental
 As early as the time of the ancient Greeks, people sought to understand the motion of the planets. Ptolemy (ca. 85 - ca. 165, Greek astronomer, geographer) proposed a *geocentric* system, that is, one in which the earth is stationary and all other bodies revolve around it. For this model to work, though, the planets must take very complicated paths; they must travel in epicycles &ndash; small circular paths superimposed on their larger circular orbits. In the sixteenth century, Nicolaus Copernicus (1473-1543, Polish astronomer) proposed a *heliocentric* theory, in which all the planets, including earth, revolved around the sun, and the earth rotates on its axis. (Oddly enough, the inspiration for this may have come from a model proposed by Aristarchus of Samos (ca. 310 B.C.E.- ca. 230 B.C.E.), but which never gained broad acceptance). Copernicus&rsquo;s model was much simpler than Ptolemy&rsquo;s, but it still had problems. Because Copernicus held that planets traveled in exact circles, he still needed to use epicycles to explain their observed motion. There was also need for better information regarding the motion of the planets. This would soon be provided by Tycho Brahe (1546-1601, Danish astronomer), who made very careful and precise observations of the motions of the planets in the solar system (without a telescope!). Some time later, Johannes Kepler (1571-1630, German astronomer), who had been Brahe&rsquo;s assistant, analyzed these data and arrived at his Three Laws of Planetary Motion. His Third Law relates the orbital periods of the planets to their mean distance from the sun. This distance is equal to the semimajor axis of the orbit, which according to his First Law, is an ellipse with the sun at one focus. Later, when Newton was working on his Law of Universal Gravitation, he found that from this law, he could derive Kepler&rsquo;s Third Law. Kepler&rsquo;s Third Law takes the form
 
 :::Figure:Equation
-$T^i=Ka^j$$
+$T^i=Ka^j$
 
 which can also be written as
 
-$T=\sqrt[i]{K}a^{j/i}$
+$T=\sqrt[i]{K}a^{(j/i)}$
 :::
 
 Note that $\sqrt[i]{K}$ is the same as $K^{(1/i)}$. For convenience, in the exercises that follow, we will let $k=\sqrt[i]{K}$ and $j/i=z$, and we will write the equation
@@ -240,7 +240,7 @@ As noted above, for the period, *T*, we used years, and for the semimajor axis o
 
 a. Say we wished to use SI units, that is, seconds for the orbital period and meters for the semimajor axis, instead of years and a.u. We would need one conversion to change the time from a.u. to years, and one to change the distance from a.u. to meters, and we would have to raise each to the power of its respective variable in the equation ($i$ or $j$). If we wished to make this conversion by multiplying only our values for *T*, instead of having to convert both our *T* values and our *a* values, we could combine these two conversion factors into one.
 
-If you were to do this, by what factor should you have to multiply the values for the periods? (Note that when you arrive at your conversion factor, you can check it by comparing it to the value that you  get if you evaluate $K^{1/i}$, by calculating $(\frac{\rm 4\pi^2}{GM})^{(1/i)}$, with the values given above for $G$ and $M$.)
+If you were to do this, by what factor should you have to multiply the values for the periods? (Note that when you arrive at your conversion factor, you can check it by comparing it to the value that you  get if you evaluate $K^{(1/i)}$, by calculating $(\frac{\rm 4\pi^2}{GM})^{(1/i)}$, with the values given above for $G$ and $M$.)
 
 
 b. How would this have changed the intercept of your log-log graph? What would its value have been?
