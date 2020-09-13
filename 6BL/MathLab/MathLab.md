@@ -144,7 +144,7 @@ c. Does it make sense to perform a linear fit with this data set? Why or why not
 ## 4. LINEARIZING THE DATA
 
 :::Exercise
-According to the rules of logarithms given above, take the log of both sides of Equation 4.
+According to the rules of logarithms given above, take the log of both sides of Equation 5 ($T=ka^z$).
 
 :::
 
@@ -173,7 +173,7 @@ Make a similar table to the one below in your report, and fill in the missing co
 :::Exercise
 In your data table, add two more columns. These will be for the logarithm of the orbital period and of the orbit semimajor axis. If you are using Google sheets, use the LOG10 function to take the log of data points in both columns, filling in the table with the appropriate values. 
 :::Note
-**Note: If you used a computer to calculate the logarithms, in many cases, the &ldquo;LOG&rdquo; function is either the natural logarithm (ln) or log base 2 by default. If you are using Excel or Google sheets, you will want to use the LOG10 function, not the LOG function.**
+**Note: If you use a computer to calculate the logarithms, in many cases, the &ldquo;LOG&rdquo; function is either the natural logarithm (ln) or log base 2 by default. If you are using Excel or Google sheets, you will want to use the LOG10 function, not the LOG function.**
 
 **As long as you use the same base when you take the antilog to find the proportionality constant, this makes no difference. If, however, you need to compare the actual logarithms of the data, or of the constant, to those calculated by someone else, you will need to use the same base that that person did.**
 
@@ -251,13 +251,13 @@ b. How would this have changed the intercept of your log-log graph? What would i
 
 ## 7. POWER PLOT
 :::Exercise
-In the introduction, we noted that if you know the function, then if you manipulate the *x* variable according to that function, you get a linear plot.  For example, if $y = ax^3$, then plotting *y* vs. *x* gives a curved line, but plotting *y* vs. $x^3$ yields a straight-line plot with slope *a*. Thus, for your planetary orbital data, if you plot either *T* vs. $a^{(3/2)}$, or $T^2$ vs. $a^3$, you should get a straight line (with slope *K* = 1).
+In the introduction, we noted that if you know the function, then if you manipulate the *x* variable according to that function, you get a linear plot.  For example, if $y = ax^3$, then plotting *y* vs. *x* gives a curved line, but plotting *y* vs. $x^3$ yields a straight-line plot with slope *a*. Thus, for your planetary orbital data, if you plot either *T* vs. $a^z$ ($=a^{(j/i)})$, or $T^i$ vs. $a^j$, you should get a straight line (with slope *K* = 1).
 
 a. According to the two choices above, in your data table make either one or two more columns, and do one of the following:
 
-- Make one additional column for $a^{(3/2)}$, and fill it appropriately. Now plot *T* vs. $a^{(3/2)}$.
+- Make one additional column for $a^{(j/i)}$, and fill it appropriately. Now plot *T* vs. $a^{(j/i)}$.
 
-- Make two additional columns, one for $T^2$ and one for $a^3$, and fill them appropriately. Now plot $T^2$ vs. $a^3$.
+- Make two additional columns, one for $T^i$ and one for $a^j$, and fill them appropriately. Now plot $T^i$ vs. $a^j$.
 
 Whichever plot you choose to do, include a best-fit line. As usual, make sure that it has all the characteristics of a good plot.
 :::Question
