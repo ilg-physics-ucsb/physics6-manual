@@ -39,13 +39,13 @@ We can also see this by taking the kinetic energy of each mass point, which is (
 
 ## Measuring the Moment of Inertia
 
-For our dynamic measurement of the moment of inertia, we will use a turntable that has a hub attached at its center, which has three grooves, of different radius, around which one can wind a string. The string extends from the hub of the turntable and goes over a pulley at the front edge of the base of the apparatus. A mass hanging from the free end of the string provides tension, which exerts a torque on the turntable, thus causing it to rotate. The figure below shows a schematic of the apparatus (though with the hub diameter exaggerated and only one groove): 
+For our dynamic measurement of the moment of inertia, we will use a vertically-mounted turntable that has a hub attached at its center, which has three grooves of different radius, around which one can wind a string. A mass hanging from the free end of the string provides tension, which exerts a torque on the turntable, thus causing it to rotate. The figure below shows a schematic of the apparatus: 
 
 :::Figure:Figure
 ![Figure_1](imgs/Figure_1.jpg)
 :::
 
-By measuring the time it takes the mass to fall from its initial height to the floor, we can find a, its (linear) acceleration. From this we can calculate &alpha;, the angular acceleration of the turntable. From the weight of the mass, and its linear acceleration, we can find T, the tension in the string. Once we know all these things, we can calculate the torque, &tau;, and from &tau; = I&alpha;, find I, the moment of inertia of our turntable platter.
+By measuring the time it takes the mass to fall from its initial height to the table top (or some reference line just above it), we can find a, its (linear) acceleration. From this we can calculate &alpha;, the angular acceleration of the turntable. From the weight of the mass, and its linear acceleration, we can find T, the tension in the string. Once we know all these things, we can calculate the torque, &tau;, and from &tau; = I&alpha;, find I, the moment of inertia of our turntable platter.
 
 ### Torque
 
@@ -57,7 +57,7 @@ The torque exerted on an object by a force, F, is equal to the lever arm distanc
 
 When we attach a mass to the string on the turntable and release it, the force exerting the torque on the turntable is the tension in the string.
 
-In this experiment, we must make sure that the pulley on the front edge of the apparatus is in line with the string (along the tangent that runs perpendicular to the front edge), and that its top is at the same height as the groove in which we are winding the string. Since the string is tangent to the pulley (it cannot be otherwise), sin &theta; equals one; F and F$_\perp$ are identical.
+<!--In this experiment, we must make sure that the pulley on the front edge of the apparatus is in line with the string (along the tangent that runs perpendicular to the front edge), and that its top is at the same height as the groove in which we are winding the string. Since the string is tangent to the pulley (it cannot be otherwise), sin &theta; equals one; F and F$_\perp$ are identical.-->
 
 :::Question
 a) What is the formula for the torque on the turntable in terms of tension in the string and the lever arm distance? Justify your answer.
@@ -66,7 +66,7 @@ b) When the mass is falling, what is the tension in the string? (The next two qu
 
 c) What is the tension if the turntable is held fixed, with the mass hanging from the pulley?
 
-d) What would the tension be if the mass were in free fall (for example, the string broke near the turntable hub, and the mass is pulling it over the pulley)?
+d) What would the tension be if the mass were in free fall (for example, the string broke near the turntable hub)?
 :::
 
 When you release the mass, it accelerates toward the earth with acceleration, a. To find this acceleration, we measure the time it takes for the mass to fall to the floor from a known height, h. We then use the following equation to calculate a. (Because the mass starts from rest, we can ignore the v$\rm_{0y}$t term, which equals zero.):
