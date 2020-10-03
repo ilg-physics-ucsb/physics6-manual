@@ -89,7 +89,7 @@ Why is this claim valid? Use physical reasoning, not equations, to answer.
 
 ## Procedure
 
-1) The three grooves in the turntable hub have radii of 1, 2 and 3 cm. Record the radius of the one we will use (AVOCADO -- give here or in video?). This will be your lever arm r.
+1) The three grooves in the turntable hub have radii of 1.5, 2.0 and 2.5 cm. Record the radius of the one we will use (AVOCADO -- give here or in video?). This will be your lever arm r.
 
 :::Question
 What effect does the diameter of the string have?
