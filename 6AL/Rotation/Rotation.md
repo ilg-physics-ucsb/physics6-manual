@@ -145,13 +145,12 @@ $$
 where m is the mass of the disc and R is the radius of the disc. We will lift the platter off the apparatus and weigh it. We will also measure its diameter.
 
 :::Exercise
-AVOCADO -- Will we include a video of the measurements of the mass and diameter of the platter, or just give the values here?
 
 1) The video below shows the measurement of the mass and the diameter of the turntable platter. Record these values.
 :::Figure:Video
 !(Video link goes here.)
 :::
-2) Given the mass and radius of the turntable platter, use the equation above to calculate its moment of inertia. (Remember to use the radius, and not the diameter.)
+2) Given the mass of $476.5 g$ and radius of $12.7 cm$ of the turntable platter, use the equation above to calculate its moment of inertia. (Remember to use the radius, and not the diameter.)
 :::
 
 :::Question
