@@ -89,15 +89,15 @@ Why is this claim valid? Use physical reasoning, not equations, to answer.
 
 ## Procedure
 
-1) The three grooves in the turntable hub have radii of 1.5, 2.0 and 2.5 cm. Record the radius of the one we will use, $2.5 cm$. This will be your lever arm r.
+1) The three grooves in the turntable hub have radii of $1.5$, $2.0$ and $2.5$ cm. Record the radius of the one we will use, $2.5$ cm. This will be your lever arm r.
 
 :::Question
 What effect does the diameter of the string have?
 :::
 
-2) We will select and record six test masses (one at a time). To each mass, we must add the mass of the hanger, which is $50 g$.
+2) We will select and record six test masses (one at a time). To each mass, we must add the mass of the hanger, which is $50$ g.
 
-3) Before we release each mass, we will measure and record its height above the floor.
+3) Before we release each mass, we will measure and record its height of $90$ cm above the floor.
 
 :::Question
 What level of confidence do you have in this measurement (+/- mm)?
