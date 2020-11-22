@@ -52,7 +52,7 @@ By measuring the time it takes the mass to fall from its initial height to the t
 The torque exerted on an object by a force, F, is equal to the lever arm distance (the distance, r,  from the axis of rotation to where the force acts) multiplied by the component of force perpendicular to the lever arm.
 
 :::Figure:Figure
-![Figure 2 &ndash; Torque is equal to the perpendicular force multiplied by the distance from the axis of rotation](imgs/Figure_1.2.jpg)
+![Figure 2 &ndash; Torque is equal to the perpendicular force multiplied by the distance from the axis of rotation](imgs/Figure_1.2.JPG)
 :::
 
 When we attach a mass to the string on the turntable and release it, the force exerting the torque on the turntable is the tension in the string.
