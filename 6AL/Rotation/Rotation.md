@@ -49,7 +49,8 @@ By measuring the time it takes the mass to fall from its initial height to the t
 
 ### Torque
 
-The torque exerted on an object by a force, F, is equal to the lever arm distance (the distance, r,  from the axis of rotation to where the force acts) multiplied by the component of force perpendicular to the lever arm.
+The torque exerted on an object by a force F  around a pivot point is equal to the distance r  from the axis of rotation to where the force acts multiplied by the component of force perpendicular to the position vector ${\bf r}$. 
+If the force is perpendicular to the position vector, we call the distance r the lever arm.
 
 :::Figure:Figure
 ![Figure 2 &ndash; Torque is equal to the perpendicular force multiplied by the distance from the axis of rotation](imgs/Figure_1.2.JPG)
@@ -60,19 +61,17 @@ When we attach a mass to the string on the turntable and release it, the force e
 <!--In this experiment, we must make sure that the pulley on the front edge of the apparatus is in line with the string (along the tangent that runs perpendicular to the front edge), and that its top is at the same height as the groove in which we are winding the string. Since the string is tangent to the pulley (it cannot be otherwise), sin &theta; equals one; F and F$_\perp$ are identical.-->
 
 :::Question
-a) What is the formula for the torque on the turntable in terms of tension in the string and the lever arm distance? Justify your answer.
+a) What is the formula for the torque on the turntable in terms of tension $T$ in the string and the lever arm distance $r$? 
 
-b) When the mass is falling, what is the tension in the string? (The next two questions should provide a hint. So should Figure 1, above, and the text below it.)
+b) What is the tension in the string if the turntable is held fixed, with the mass hanging from the pulley (i.e. the mass is stationary)?
 
-c) What is the tension if the turntable is held fixed, with the mass hanging from the pulley?
-
-d) What would the tension be if the mass were in free fall (for example, the string broke near the turntable hub)?
+b) When the mass is falling, what is the tension in the string? Use Newton's second law to determine the tension $T$ in the string as a function of $m$, the falling mass, $g$, the acceleration due to gravity, and $a$, the linear acceleration of the falling mass. Refer to Figure 1.
 :::
 
 When you release the mass, it accelerates toward the earth with acceleration, a. To find this acceleration, we measure the time it takes for the mass to fall to the floor from a known height, h. We then use the following equation to calculate a. (Because the mass starts from rest, we can ignore the v$\rm_{0y}$t term, which equals zero.):
 
 $$
-\rm h = v_{0y}t + (\frac12)a_{y}t^2
+\rm h = v_{0}t +\left (\frac{1}{2}\right)a_{}t^2=\left (\frac{1}{2}\right)a_{}t^2
 $$
 
 The tangential acceleration of a point at the lever arm distance is:
@@ -84,32 +83,29 @@ $$
 where a is the acceleration of the falling mass, r is the lever arm distance, and &alpha; is the angular acceleration of the turntable.
 
 :::Question
-Why is this claim valid? Use physical reasoning, not equations, to answer.
+Show that the equation $a=r\alpha$ is consistent in terms of units. 
+Note: Radians can be ignores as a unit.
 :::
 
 ## Procedure
 
-1) The three grooves in the turntable hub have radii of $1.5$, $2.0$ and $2.5$ cm. Record the radius of the one we will use, $2.5$ cm. This will be your lever arm r.
+1) The three grooves in the turntable hub have radii of $1.5$, $2.0$ and $2.5$ cm. We will only be using one value of the radius, $2.5$cm. Record the radius of the one we will use. This will be your lever arm r since the tension $T$ is perpendicular to it.
 
 :::Question
-What effect does the diameter of the string have?
+What effect does the diameter of the string have on the lever arm? Explain why we can ignore this effect.
 :::
 
 2) We will select and record six test masses (one at a time). To each mass, we must add the mass of the hanger, which is $50$ g.
 
 3) Before we release each mass, we will measure and record its height of $90$ cm above the floor.
 
-:::Question
-What level of confidence do you have in this measurement (+/- mm)?
-:::
+4) We will release the mass, then measure and record the time it takes to strike the floor. Use a stopwatch, online timer or a clock to  measure the time from the video.
 
-4) We will release the mass, then measure and record the time it takes to strike the floor.
+5) Use this time and the equations above, to calculate the linear acceleration of the mass  a, the angular acceleration of the platter $\alpha$, the tension $T$, and the torque $\tau$.
 
-5) Use this time and the equations above, to calculate the acceleration of the mass, the angular acceleration of the table, and the torque.
+***You should make a table for the data that you will collect, with space for values that you will need to calculate. Given the steps above, you can see that you will need a column each for r, m, h, t, a, &alpha;, T and &tau;. Per step 6) below, you will need six rows for data.***
 
-***You should make a table for the data that you will collect, with space for values that you will need to calculate. Given the steps above, you can see that you will need a column each for r, m, h, t, a, &alpha; and &tau;. Per step 6) below, you will need six rows for data.***
-
-6) We will repeat this procedure (steps 1-5) for six different masses.
+6) We will repeat this procedure (steps 1-5) for all our different masses.
 
 :::Exercise
 The following video will show steps above being performed.
@@ -120,11 +116,11 @@ The following video will show steps above being performed.
 !(https://www.youtube.com/watch?v=Sszn5bjbLNk)
 :::
 
-2) Fill in your table by calcuating for each mass, a, &alpha; and &tau;.
+2) Fill in your table by calculating for each mass, a, &alpha; , T and &tau;.
 
 3) Now take the values you obtained for &tau; and &alpha;, and plot them on a graph of &tau; vs. &alpha;.
 
-4) Recall that at the beginning of this lab you learned that
+4) Recall that at the beginning of this lab you learned
 
 $$
 \rm\tau = I\alpha
@@ -136,13 +132,13 @@ where I is the moment of inertia. Calculate I (with proper units) from the slope
 :::Question
 What is the measured moment of inertia for the rotating turntable platter?
 :::
-As we noted earlier, the moment of inertia of an object depends not only on the mass of the object, but also on how the mass is distributed. If an object is symmetrical, we can derive an expression for the sum of the moments described above. For a disc, like the plater of your turntable, the moment of inertia is:
+As we noted earlier, the moment of inertia of an object depends not only on the mass of the object, but also on how the mass is distributed around the axis of rotation. If an object is symmetrical, we can derive an expression for the sum of the moments described above. For a disc, like the plater of your turntable, the moment of inertia is:
 
 $$
-\rm I = (\frac12)mR^2
+\rm I = \left(\frac12\right)mR^2
 $$
 
-where m is the mass of the disc and R is the radius of the disc. We will lift the platter off the apparatus and weigh it. We will also measure its diameter.
+where m is the mass of the disc and R is the radius of the disc. Do not confuse the radius of the disc $R$ with the lever arm $r$ where the tension is applied. We will lift the platter off the apparatus and weigh it. We will also measure its diameter.
 
 :::Exercise
 
