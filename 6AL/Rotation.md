@@ -120,7 +120,7 @@ The following video will show steps above being performed.
 
 3) Now take the values you obtained for &tau; and &alpha;, and plot them on a graph of &tau; vs. &alpha;.
 
-4) Recall that at the beginning of this lab you learned that
+4) Recall that at the beginning of this lab you learned
 
 $$
 \rm\tau = I\alpha
