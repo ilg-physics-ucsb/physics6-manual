@@ -68,7 +68,7 @@ b) What is the tension in the string if the turntable is held fixed, with the ma
 b) When the mass is falling, what is the tension in the string? Use Newton's second law to determine the tension $T$ in the string as a function of $m$, the falling mass, $g$, the acceleration due to gravity, and $a$, the linear acceleration of the falling mass. Refer to Figure 1.
 :::
 
-When you release the mass, it accelerates toward the earth with acceleration, a. To find this acceleration, we measure the time it takes for the mass to fall to the floor from a known height, h. We then use the following equation to calculate a. (Because the mass starts from rest, we can ignore the v$\rm_{0y}$t term, which equals zero.):
+When you release the mass, it accelerates toward the earth with acceleration, a. To find this acceleration, we measure the time it takes for the mass to fall to the floor from a known height, h. We then use the following equation to calculate a. (Because the mass starts from rest, we can ignore the v$\rm_{0}$t term, which equals zero.):
 
 $$
 \rm h = v_{0}t +\left (\frac{1}{2}\right)a_{}t^2=\left (\frac{1}{2}\right)a_{}t^2
@@ -84,7 +84,7 @@ where a is the acceleration of the falling mass, r is the lever arm distance, an
 
 :::Question
 Show that the equation $a=r\alpha$ is consistent in terms of units. 
-Note: Radians can be ignores as a unit.
+Note: Radians can be ignored as a unit.
 :::
 
 ## Procedure
