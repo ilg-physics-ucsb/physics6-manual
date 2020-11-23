@@ -89,7 +89,7 @@ Note: Radians can be ignored as a unit.
 
 ## Procedure
 
-1) The three grooves in the turntable hub have radii of $1.5$, $2.0$ and $2.5$ cm. We will only be using one value of the radius, $2.5$cm. Record the radius of the one we will use. This will be your lever arm r since the tension $T$ is perpendicular to it.
+1) The three grooves in the turntable hub have radii of $1.5$, $2.0$ and $2.5$ cm. We will be using only one value of the radius, $2.5$ cm. Record this radius. This will be your lever arm r, since the tension $T$ is perpendicular to it.
 
 :::Question
 What effect does the diameter of the string have on the lever arm? Explain why we can ignore this effect.
@@ -97,18 +97,18 @@ What effect does the diameter of the string have on the lever arm? Explain why w
 
 2) We will select and record six test masses (one at a time). To each mass, we must add the mass of the hanger, which is $50$ g.
 
-3) Before we release each mass, we will measure and record its height of $90$ cm above the floor.
+3) Before we release each mass, we will measure and record its height of $90$ cm above the foam pad on the table.
 
-4) We will release the mass, then measure and record the time it takes to strike the floor. Use a stopwatch, online timer or a clock to  measure the time from the video.
+4) We will release the mass, then measure and record the time it takes for it to reach the foam pad. Use a stopwatch, on-line timer or a clock to measure the time from the video.
 
-5) Use this time and the equations above, to calculate the linear acceleration of the mass  a, the angular acceleration of the platter $\alpha$, the tension $T$, and the torque $\tau$.
+5) Use this time and the equations above, to calculate the linear acceleration of the mass a, the angular acceleration of the platter $\alpha$, the tension $T$, and the torque $\tau$.
 
 ***You should make a table for the data that you will collect, with space for values that you will need to calculate. Given the steps above, you can see that you will need a column each for r, m, h, t, a, &alpha;, T and &tau;. Per step 6) below, you will need six rows for data.***
 
 6) We will repeat this procedure (steps 1-5) for all our different masses.
 
 :::Exercise
-The following video will show steps above being performed.
+The following video will show the steps above being performed.
 
 1) Watch the video, and record for each mass, r, m, h and t
 
@@ -120,7 +120,7 @@ The following video will show steps above being performed.
 
 3) Now take the values you obtained for &tau; and &alpha;, and plot them on a graph of &tau; vs. &alpha;.
 
-4) Recall that at the beginning of this lab you learned
+4) Recall that at the beginning of this lab you learned that
 
 $$
 \rm\tau = I\alpha
@@ -132,13 +132,13 @@ where I is the moment of inertia. Calculate I (with proper units) from the slope
 :::Question
 What is the measured moment of inertia for the rotating turntable platter?
 :::
-As we noted earlier, the moment of inertia of an object depends not only on the mass of the object, but also on how the mass is distributed around the axis of rotation. If an object is symmetrical, we can derive an expression for the sum of the moments described above. For a disc, like the plater of your turntable, the moment of inertia is:
+As we noted earlier, the moment of inertia of an object depends not only on the mass of the object, but also on how the mass is distributed around the axis of rotation. If an object is symmetrical, we can derive an expression for the sum of the moments described above. For a disc, like the platter of your turntable, the moment of inertia is:
 
 $$
 \rm I = \left(\frac12\right)mR^2
 $$
 
-where m is the mass of the disc and R is the radius of the disc. Do not confuse the radius of the disc $R$ with the lever arm $r$ where the tension is applied. We will lift the platter off the apparatus and weigh it. We will also measure its diameter.
+where m is the mass of the disc and R is the radius of the disc. Do not confuse the radius of the disc $R$ with the lever arm $r$, where the tension is applied. We will lift the platter off the apparatus and weigh it. We will also measure its diameter.
 
 :::Exercise
 
@@ -146,7 +146,7 @@ where m is the mass of the disc and R is the radius of the disc. Do not confuse 
 :::Figure:Video
 !(https://www.youtube.com/watch?v=ETgDS-KEfgo)
 :::
-2) Given the mass of $976.5 g$ and radius of $12.7 cm$ of the turntable platter, use the equation above to calculate its moment of inertia. (Remember to use the radius, and not the diameter.)
+2) Given the mass of $976.5 g$, and radius of $12.7 cm$, of the turntable platter, use the equation above to calculate its moment of inertia. (Remember to use the radius, and not the diameter.)
 :::
 
 :::Question
