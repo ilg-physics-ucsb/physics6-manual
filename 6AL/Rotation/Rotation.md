@@ -113,7 +113,7 @@ The following video will show steps above being performed.
 1) Watch the video, and record for each mass, r, m, h and t
 
 :::Figure:Video
-!(https://www.youtube.com/watch?v=sP8FaC9pWKw)
+!(https://www.youtube.com/watch?v=0i6CmxgNM34)
 :::
 
 2) Fill in your table by calculating for each mass, a, &alpha; , T and &tau;.
