@@ -248,6 +248,7 @@ b. How would this have changed the intercept of your log-log graph? What would i
 
 
 
+<!--
 
 ## 7. POWER PLOT
 :::Exercise
@@ -264,6 +265,15 @@ Whichever plot you choose to do, include a best-fit line. As usual, make sure th
 a. How does this plot look? Does it fit a straight line?
 :::
 :::
-## 8. ADDITIONAL NOTE
+
+-->
+
+## 7. ADDITIONAL NOTE
 
 Until the work of Brahe and Kepler, there was great confusion regarding the motion of the planets. Also, our understanding of gravity was limited, and until Newton, no one had imagined the possibility that gravity could act not only close to earth, but over astronomical distances as well. Newton&rsquo;s Law of Universal Gravitation provided a deeper understanding of Kepler&rsquo;s laws, and together these formed part of the bedrock of classical physics. We hoped that fitting the data associated with the motion of the planets would provide a pleasant exercise.
+
+## 8. CONCLUSION
+
+:::Exercise
+Write a brief conclusion summarizing the important points of this lab.
+:::
