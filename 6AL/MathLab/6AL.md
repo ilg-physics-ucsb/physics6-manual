@@ -104,7 +104,7 @@ The standard deviation is a measure of the spread in the values $x_1, x_2,..., x
 
 $$\text{STDEV}=\sqrt{\frac{\sum{(x_i-x_{avg})^2}}{N-1}}$$
 
-The uncertainty of the mean can be calcualted using the standard deviation of the mean, which will be $\delta x=\text{STDEV}/\sqrt{N}$
+The uncertainty of the mean can be calculated using the standard deviation of the mean, which will be $\delta x=\text{STDEV}/\sqrt{N}$
 We quote the mean value as $x_{avg}\pm\delta x$
 
 
@@ -179,7 +179,7 @@ Make sure to include the table in your lab report.
 To determine if a value is accurate, we compare it to the accepted one. A qualitative measure of accuracy is the **percentage discrepancy**
 
 :::Figure:Equation
-$$\text{pecentage discrepancy} = \frac{\text{accepted - experimental}} { \text{accepted}} \times 100\%$$
+$$\text{percentage discrepancy} = \frac{\text{accepted - experimental}} { \text{accepted}} \times 100\%$$
 :::
 
 :::Exercise
@@ -194,7 +194,7 @@ Sometimes there is no accepted value to our measurement. In this case, to measur
 
 :::Figure:Equation
 $$
-\text{pecentage difference} = \frac{\text{value1 - value2}} {\text{average}} \times 100\%
+\text{percentage difference} = \frac{\text{value1 - value2}} {\text{average}} \times 100\%
 $$
 $$
 \text{average} = \frac{\text{value1 + value2}}{2}
@@ -380,9 +380,9 @@ Which of the following lines of best fit seem reasonable, and which not
 
 :::
 ### Slope significant figures
-Just like all physical quantities, a trend or slope estimated from data is subject to the limits of signifigant figures for reporting purposes. In the case of the line of best fit, which may be calculated from tens --- if not hundreds --- of data points, the number of signifigant figures isn't directly inherited from the number in your present in your data. This is something that must be estimated from the entire set of data you are working with.
+Just like all physical quantities, a trend or slope estimated from data is subject to the limits of significant figures for reporting purposes. In the case of the line of best fit, which may be calculated from tens --- if not hundreds --- of data points, the number of significant figures isn't directly inherited from the number in your present in your data. This is something that must be estimated from the entire set of data you are working with.
 
-We have to be clear about what a "sigfig" is so we know how many digits to keep! When we talk about a "sigfig", we are actually talking about a measure of *uncertainty*. For example, if I measure and record the velocity of 1.2 m/s, I am saying that the actual value of that velocity is greater than 1.15 m/s and less than 1.25 m/s --- otherwise, that the true velocity lies in this interval of numbers that *round* to 1.2 m/s; hence, the "2"  is the smallest signifigant digit.
+We have to be clear about what a "sigfig" is so we know how many digits to keep! When we talk about a "sigfig", we are actually talking about a measure of *uncertainty*. For example, if I measure and record the velocity of 1.2 m/s, I am saying that the actual value of that velocity is greater than 1.15 m/s and less than 1.25 m/s --- otherwise, that the true velocity lies in this interval of numbers that *round* to 1.2 m/s; hence, the "2"  is the smallest significant digit.
 
 The same principle applies for lines of best fit: we need to determine the smallest digit that is not sensitive to the random nature of a real set of data, which will never fall exactly on your trend line. While the math an concepts that are needed to fully understand this proceedure are often employed in upper-division labs with error analysis components, the following formula can be used, e.g., in excel for a set of dependent measurements $y_i$ and independent variables $x_i$ fit to a model $y= mx +b$:
 
@@ -393,7 +393,7 @@ $$
 
 The $R^2$ above is called the *coefficient of determination* and indicates how good your fit is by how close it is to $1$. This quantity, as well as the standard deviations in the above formula, are calculable in any spreadsheet program, such as google sheets.
 
-To use this to determine your least signifigant digit, you would then truncate the value of $m$ at the digit that coincides with the first non-zero tens place of the undertainty. For example, if you obtained $m=12.9274...$ and an uncertainty of $0.038273$, you would report in your notebook and report $m= 12.9$ 
+To use this to determine your least significant digit, you would then truncate the value of $m$ at the digit that coincides with the first non-zero tens place of the uncertainty. For example, if you obtained $m=12.9274...$ and an uncertainty of $0.038273$, you would report in your notebook and report $m= 12.9$ 
 
 
 

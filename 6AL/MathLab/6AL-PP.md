@@ -182,7 +182,7 @@ Random errors are unbiased, so some of your measurements will be higher and some
 To determine if a value is accurate, we compare it to the accepted one. A qualitative measure of accuracy is the **percent discrepancy**
 
 :::Figure:Equation
-$$\text{pecent discrepancy} = |\frac{\text{accepted - experimental}} { \text{accepted}}| \times 100\%$$
+$$\text{percent discrepancy} = |\frac{\text{accepted - experimental}} { \text{accepted}}| \times 100\%$$
 :::
 
 :::Exercise
@@ -197,7 +197,7 @@ Sometimes there is no accepted value to our measurement. In this case, to measur
 
 :::Figure:Equation
 $$
-\text{pecent difference} = \frac{\text{value1 - value2}} {\text{average}} \times 100\%
+\text{percent difference} = \frac{\text{value1 - value2}} {\text{average}} \times 100\%
 $$
 $$
 \text{average} = \frac{\text{value1 + value2}}{2}
