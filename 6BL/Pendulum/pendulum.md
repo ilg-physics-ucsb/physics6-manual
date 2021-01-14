@@ -14,37 +14,36 @@
 
 ## PART 1: WHAT&rsquo;S IMPORTANT?
 
-The objective of this lab is to determine the physical quantities that influence the period of a pendulum. The period is how long it takes for the pendulum to make one complete cycle of motion. The relevant features are the mass of the bob, the length of the pendulum, and the initial angular displacement. We will test each of these features separately by varying one of them while keeping the other two constant.
+The objective of this lab is to determine the physical quantities that influence the period of a pendulum. The period is how long it takes for the pendulum to make one complete cycle of motion. The relevant features are the mass of the bob, the length of the pendulum, and the initial angular displacement. *** We will test how each of these features influence the period of the pendulum  by varying one of them while keeping the other two constant.***
+
+:::Note
+
+**To make your tables and plots, use the Google sheets template provided.**
 
 **You will be expected to turn in all plots and tables that you are asked to make in the exercises, as well as all answers to questions.**
+:::
 
-**To make your tables and plots, you may use Excel, Google Sheets, MATLAB or any other spreadsheet that you would like.**
+### Dependence of period on mass
 
-<!-- Mass Constant -->
+We will investigate if the period $T$ of the pendulum depends on the mass $m$ of the bob attached to its end. To do so, we will vary the mass, $m$, while keeping the length, $L$, and initial angle, $\theta_0$, constant.
 
 :::Exercise
 
-Let&rsquo;s start by varying the mass and keeping the length and initial angle constant.
-
-For our pendulum setup we have five different bobs that we can put at the end of our pendulum. Below is a video showing the mass of each bob being measured. Watch this video to determine the mass of each of the five bobs. Throughout this lab, we will use the same numbering scheme for each bob that we use in this video, so when we say, for example, &ldquo;Mass 4&rdquo; in a later video, we are talking about the same mass presented here.
-
-<!-- Measuring Mass -->
+We have five bobs of different masses that we can placed at the end of our pendulum. Below is a video showing the mass of each bob being measured. Watch this video to determine the mass of each of the five bobs. Throughout this lab, we will use the same numbering scheme for each bob that we use in this video, so when we say, for example, &ldquo;Mass 4&rdquo; in a later video, we are talking about the same mass presented here.
 
 :::Figure:Video
 !(https://www.youtube.com/watch?v=jlHmdzWArcY)
 :::
 
-1. Make a two-column table with the first column being the name (*e.g.* &ldquo;Mass 1&rdquo;) and the second column being the measured mass. Make the video pause, and use the triple beam balance to make your best measurement of the mass. You will be adding columns to this table shortly.
+1. Fill the table provided with the measured mass values. Pause the video, and use the triple beam balance to make your best measurement of the mass. 
 
 In the next video you will be shown five different pendulums. The only thing that is different among the five pendulums is the mass that is used. The initial angle for each setup is $20^{\circ}$, and the length is 80 cm.
-
-<!-- 5 Masses All 20 Degrees-->
 
 :::Figure:Video
 !(https://www.youtube.com/watch?v=-teybyRBRxE)
 :::
 
-2. For each mass, use the stopwatch in the video, a stopwatch app, or the video timestamp, to record the time it takes for the pendulum to make 10 complete periods. A complete period is the time it takes for the pendulum to swing back and forth once. (Start the stopwatch when the pendulum is at the beginning of a period, then, when it has reached the end of the tenth period from the start, stop the stopwatch.) Take this time and divide it by ten to obtain an average time for one period. Record these data in a new column in your table.
+2. For each mass, use the stopwatch in the video, a stopwatch app, or the video timestamp, to record the time it takes for the pendulum to undergo 10 complete periods. A complete period is the time it takes for the pendulum to swing back and forth once. **Start the stopwatch when the pendulum is at the beginning of a period, then, when it has reached the end of the tenth period from the start, stop the stopwatch.** Take this time and divide it by ten to obtain an average time for one period. Record these data in a new column in your table.
 
 :::Question
 Does the period depend on mass? Justify your answer.
@@ -52,17 +51,18 @@ Does the period depend on mass? Justify your answer.
 
 :::
 
+### Dependency of period on initial angle
+
+Conventional analysis of the pendulum is done for small angles, where the restoring force experienced by the mass is approximately linear with the displacement angle. A linear restoring force is one of the criteria for simple harmonic motion. When the displacement angles become large, the restoring force is no longer linear. The motion is still periodic, but it is not sinusoidal, and the mathematical analysis becomes far more involved. In this lab we will only focus on small displacement angles, and thus simple harmonic motion.
+
+
+We will investigate if the period $T$ of the pendulum depends on the initial angle $\theta_0$ of the bob attached to its end. To do so, we will vary the initial angle, $\theta_0$, while keeping the length, $L$, and mass, $m$, constant.
+
 :::Exercise
-<!-- Angle Vary -->
-In this exercise we will now vary the initial angle while keeping the length and mass constant.
 
-Conventional analysis of the pendulum is done for small angles, where the restoring force experienced by the mass is approximately linear with the displacement angle. Linear restoring force is one of the criteria for simple harmonic motion. When the displacement angles become large, the restoring force is no longer linear. The motion is still periodic, but it is not sinusoidal, and the mathematical analysis becomes far more involved.
+You will be working with only a single mass for this part of the experiment, and only one pendulum length. Below is a video of a pendulum with mass 2. The video shows the pendulum starting at the different initial angles of $5^{\circ}$, $10^{\circ}$, and $15^{\circ}$.  You will collect your data from this video.
 
-You will be working with only a single mass for this part of the experiment, and only one pendulum length. Below is a video of a pendulum with mass 2. The video shows the pendulum starting at the different initial angles of $5^{\circ}$, $10^{\circ}$, and $15^{\circ}$. (The mass and the length stay constant.) You will collect your data from this video.
-
-1. Make a new data table where you will record the period for each initial angle.
-
-2. Use the same method as in Exercise 1 to measure the period.
+1. Record the average period for each initial angle. Use the same method as in Exercise 1 to measure the period (by measuring the time of 10 periods, then dividing that by 10).
 
 <!-- Angle Shots 
 - Jan-Mar: [Mass 1](https://drive.google.com/file/d/1WoKGU7Rx_yogpvlPyiLKvALeznwiaZ                           9Q/preview){target="_blank"}
@@ -76,22 +76,22 @@ You will be working with only a single mass for this part of the experiment, and
 - Oct-Dec: [Mass 5](https://drive.google.com/file/d/1VC7y-H-udFvNFLsUi-7HTsi9dGs3jqpz/preview)<!--{target="_blank"}-->
 
 ::: Question
-a. Does the period depend on the initial angular displacement? Justify your answer.
+a)  Does the period depend on the initial angle? Justify your answer.
 
-b. Why do you need to use only one mass instead of all five to justify this?
+b) Why can you only use one mass instead of all five to justify this?
 :::
 <!-- End Angle Exercise -->
 :::
+### Dependence of period on length
+
+We will investigate if the period $T$ of the pendulum depends on the length of the pendulum $L$. To do so, we will vary the length $L$, while keeping the initial angle, $\theta_0$, and mass, $m$, constant.
 
 :::Exercise
 <!-- Varying Length -->
-In this exercise we will vary length while keeping mass and initial angle constant.
 
 In the following video you will see three pendulums all having the same mass (mass 2) and initial angle of $10^{\circ}$. The only thing that varies among runs is the length. After the first run, there will be a brief close-up of the mass with a meterstick in the background. You can use this to make your own length measurement. For the second run, the length will be 40 cm, and for the third it will be 24 cm.
 
-1. Build a new data table that will contain the data for the lengths and the periods for each run.
-
-2. Use the same method as in Exercises 1 and 2 to measure the period. Make the video pause after each run, record the period, then measure and record the length.
+1. Use the same method as in Exercises 1 and 2 to measure the average period for each pendulum length.
 
 <!-- Length Varying Videos
 - Jan-Mar: [Mass 1](https://drive.google.com/file/d/1-Obt6OXkmHiBVLUJ85Fs5iw_6KpVJhst/preview)<!--{target="_blank"}
@@ -105,18 +105,22 @@ In the following video you will see three pendulums all having the same mass (ma
 - Oct-Dec: [Mass 5](https://drive.google.com/file/d/123yCZY7AQWIPWELgcz1NvstlKeuVW-t1/preview)<!--{target="_blank"}-->
 
 :::Question
-a) Does the period depend on the length? Justify your answer.
+Does the period depend on the length? Justify your answer.
 :::
 
 :::
 <!-- End Length Exercise -->
 
-## PART 2: DETERMINING THE MATHEMATICAL DEPENDENCE
+## PART 2: DETERMINING THE MATHEMATICAL DEPENDENCE 
 
-### Collecting Data is Half the Job
+<!-- ### Collecting Data is Half the Job
 For a professional scientist, the point of data collection is to *differentiate* between models. Numbers, equations and miscellaneous data are ultimately **useless** unless they can be combined into a complete scientific theory capable of making accurate, precise predictions. This is true whether you work with material, particle or astro- physics or if you study epidemiology, data science or even medicine. 
 
-The most common scenario you face as a scientist is arguing for or against the validity of one or more theoretical models. In the next exercise you will carefully take data, and use your sharp analytical skills to *differentiate* between two proposed theories made by your friends, and determine by a well thought-out argument, if either is correct.
+
+### Finding the exact dependency of period on pendulum length
+-->
+From your previous investigations on which parameters affect the period of the pendulum, you have hopefully concluded that the length $L$ is the only parameter that affects the period of the pendulum. In this part, we will attempt to find the mathematical relationship between the period $T$ and the length $L$.
+<!-- The most common scenario you face as a scientist is arguing for or against the validity of one or more theoretical models. In the next exercise you will carefully take data, and use your sharp analytical skills to *differentiate* between two proposed theories made by your friends, and determine by a well thought-out argument, if either is correct. 
 
 ### The Scenario
 
@@ -136,27 +140,27 @@ Your friends Alpa and Beetuh
 
 You design an experiment to demonstrate the relationship between length and period, which is identical to that described in the following exercise.
 
+-->
 ::: Exercise
 
 Below is a (very-much-sped-up) video of several pendulums with mass 2. The initial angles are all $10^{\circ}$. We vary the length from 96 cm to 24 cm. To keep the lab from being too long, we will provide you with the data that we collected.
 
-1. Watch the video.
+1. Watch the video. 
 
-<!-- Varying Lengths -->
 :::Figure:Video
 !(https://www.youtube.com/watch?v=tb9A7V8-zQU)
 :::
 
 2. Go to [this link](https://docs.google.com/spreadsheets/d/1Gp8Ake88TBxx3RhgtoZL6M_NX7lGdAEon_f0R5DeG1I/edit#gid=0) to get your data. Make a table to contain the data at this link, and copy them into your table.
 
-3. Note that the times are for 10 periods; you will have to average them. That is, you will need to divide them by 10. You will also want to convert the length values from cm to meters. Add two columns to your table, to contain values for the lengths in meters, and the periods.
+3. Note that the times are for 10 periods, you will need to divide them by 10 in order to find the actual period of the pendulums. You will also want to convert the length values from cm to meters.
 
-4. Make a plot of period vs. length.
+4. Make a plot of period vs. length (include all elements of a good plot).
 
 :::Question
-a) Describe the relationship between length and period.
+a) Describe the relationship between length and period. Is it linear or nonlinear?
 
-b) What type of trend line both fits the data and makes sense?
+<!-- b) What type of trend line both fits the data and makes sense? -->
 :::
 
 :::
@@ -210,9 +214,23 @@ b. Consider the relationship $y = x^{1/3}$. If you made a log-log plot of this, 
 -->
 
 ### Analyzing the Data
-From your data analysis lesson, you recall learning about &ldquo;linearizing&rdquo; data, that is, making nonlinear data fit a straight line. One method you used was changing the independent variable of your data, which works great when you have an idea about what the equation *should* look like. The other method you used was to take the logarithm of both *x* and *y* values, to plot them, and from that plot find the power of *x* (and/or *y*) and the proportionality constant in the original equation. 
 
-In the following exercise, you are asked to use one of these techniques to accept or reject the hypotheses of Alpa and Beetuh.
+<!-- One method you used was changing the independent variable of your data, which works great when you have an idea about what the equation *should* look like. The other method you used was to take the logarithm of both *x* and *y* values, to plot them, and from that plot find the power of *x* (and/or *y*) and the proportionality constant in the original equation. -->
+Let's assume that the period $T$ depends on the length $L$ in a non-linear way, namely a power law:
+
+::: Equation
+
+$T=a L^b,$
+:::
+where $a$ and $b$ are unknown values.
+
+<!-- :::Question
+In the equation above, which is the dependent variable and which is the independent variable?
+:::
+-->
+From your data analysis lab, you recall learning about &ldquo;linearizing&rdquo; data, that is, making nonlinear data fit a straight line. The method you used was to take the logarithm of both the independent variable (*x*) and  the dependent variable (*y*) values, to plot them, and from that plot find the power of *x* (and/or *y*) and the proportionality constant in the original equation.
+
+<!-- In the following exercise, you are asked to use one of these techniques to accept or reject the hypotheses of Alpa and Beetuh. 
 
 ::: Exercise
 ** Option 1: Independent Variable **
@@ -225,8 +243,9 @@ b) What are the *y*-intercepts of these lines? What is their significance?
 
 c) Based on the appearance of these graphs, which do you think more accurately captures the data? Give a detailed explanation of your reasoning.
 :::
+-->
 
-The relationship between the period and length can be expressed:
+<!--The relationship between the period and length can be expressed:
 
 $$
 \rm Period = 2\pi \left (\frac{Length}{\it a} \right )^{\it b}
@@ -249,9 +268,9 @@ e. Based on this analysis, give an explanation to Alpa and Beetuh summarizing wh
 :::
 
 :::
-
+-->
 ::: Exercise
-** Option 2: Log-Log **
+<!--** Option 2: Log-Log **
 
 The relationship between the period and length can be expressed:
 
@@ -260,34 +279,84 @@ $$
 $$
 
 where $a$ and $b$ are unknown values.
+-->
+1. Start with the equation given above. Take the logarithm of both sides, and reduce this equation by using the rules for logarithms that you learned in the last lab. As always, SHOW YOUR WORK.
+:::: Note
+A reminder about properties of logarithms:  
+log$(XY)$ = log$(X)$ + log$(Y)$,
 
-1. Start with the equation given above. Take the logarithm of both sides, and reduce this equation by using the rules for logarithms that you learned in the last lab. SHOW THIS WORK.
+log$(\frac XY)$ = log$(X)$ - log$(Y)$, 
 
-(A reminder:  log$(ab)$ = log$(a)$ + log$(b)$, log$(\frac ab)$ = log$(a)$ - log$(b)$, log$(c^d)$ = $d \:\rm log\it (c)$, and $\rm 10^{log\it (f)}$ = $f$ (if you are using base 10 logs, or common logs.))
+log$(X^Y)$ = $Y \:\rm log\it (X)$, and 
 
-In your final reduction, you should recognize that some values are constant, while one term is dependent upon Length (specifically the $\rm log_{10}(Length)$).
-
-2. Use the data from Part 2 to make a table of $\rm log_{10}(Length)$ and $\rm log_{10}(Period)$. Plot $\rm log_{10}(Length)$ on the independent axis, and $\rm log_{10}(Period)$ on the dependent axis. **Hint: Convert length measurements to meters.**
+$\rm 10^{log\it (f)}$ = $f$ (if you are using base 10 logs, or common logs.)
+:::
+In your final reduction, you should recognize that some values are constant, while one term is dependent upon the length $L$ (specifically on $\rm log_{10}(L)$).
 
 ::: Question
-a) What is the value of the slope of this line? What is its significance?
+a) What is the mathematical relationship between the slope of the log-log line and the unknowns $a$ and $b$?
 
-b) What is the *y*-intercept of this line?
+b) What is the mathematical relationship between the intercept of the log-log line with the vertical axis and the unknowns $a$ and $b$?
 :::
-
-3.  Use the slope and *y*-intercept of your log-log graph to determine the quantities $a$ and $b$.
+2. Use the data from Part 2 to make a table of $\rm log_{10}(L)$ and $\rm log_{10}(T)$. Plot $\rm log_{10}(L)$ on the independent axis, and $\rm log_{10}(T)$ on the dependent axis.  Find the line of best fit and display it on your plot.
+:::Note
+**Hint: Convert length measurements to meters.**
+:::
 
 ::: Question
-a. What is your measured value of $b$? What do you think $b$ should be, and what does it tell you about the relationship between period and length?
+a) From the line of best fit, what is the numerical value of the slope of this  log-log line? 
 
-b. What is the value of $a$ and what does it suggest? **Hint: Think of quantities that are physically relevant to the experiment.**
+c) From the line of best fit, what is the numerical value of the intercept of this log-log line with the vertical axis?
 
-c. Use dimensional analysis to show that this interpretation of $a$ makes sense.
-
-d. With the derived values for $a$ and $b$, write the explicit mathematical relationship between Period and Length.
-
-e. Based on this information, give an explanation to Alpa and Beetuh summarizing which hypothesis is correct and how they can come to this conclusion.
+**Hint: Make sure you use the correct number of significant figures.**
 :::
+
+3.  Use the slope and intercept of your log-log graph to determine the quantities $a$ and $b$.
+
+::: Question
+a) From your answers to the two previous questions, what is the numerical value of $a$ you calculated? 
+
+b) From your answers to the two previous questions, what is the numerical value of $b$ you calculated? 
+
+c) Using the numerical values for $a$ and $b$, rewrite the equation involving them explicitly.
+
+**Hint: Make sure you use the correct number of significant figures.**
+
+:::
+:::
+
+### Comparing experiment to theory
+The relationship between the period and length can be derived theoretically to be:
+
+$$
+\rm T = 2\pi \sqrt{\frac{L}{g} }
+$$
+
+where g is the acceleration due to gravity ($g=9.8m/s^2$)
+
+:::Exercise
+We want to compare our nonlinear equation (which we guessed) to the theoretical model.
+:::Question
+
+a) Compare the nonlinear equation we assumed $T=aL^b$ with the above equation and identify the parameters $a$ and $b$ (write the theoretical equations for $a$ and $b$).
+
+b) What numerical values would you expect for $a$ and $b$ from the theoretical model?
+
+c) Calculate the percent discrepancy between the measured and theoretical values for $a$ and $b$.
+:::
+:::Note
+Measuring the period of a pendulum is a simple method to determine the acceleration due to gravity on Earth or any planet!
+:::
+
+
+:::Question
+a) Express the acceleration due to gravity $g$ in terms of $a$ and $b$.
+
+b) What numerical value do you obtain for $g$?
+
+c) What is the percent discrepancy between the accepted value of $g$ and your calculated value?
+:::
+
 
 :::
 
