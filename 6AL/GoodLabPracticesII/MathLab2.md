@@ -1,11 +1,11 @@
 # ANALYZING DATA
 
 ---
-
+:::Note
 ***Make sure to include all tables, plots, pictures, drawings, screenshots or anything else asked of you in the exercises in your report, as well as answers to all the questions.***
 
 ***All responses and answers should contain the correct number of sig figs and should include units when needed.***
-
+:::
 ---
 
 ## Introduction
