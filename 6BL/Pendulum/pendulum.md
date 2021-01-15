@@ -7,6 +7,15 @@
 
 ***If you are using the Safari browser, this is the only way to watch the videos. ***
 
+---
+:::Note
+***Make sure to include all tables, plots, pictures, drawings, screenshots or anything else asked of you in the exercises in your report, as well as answers to all the questions.***
+
+***All responses and answers should contain the correct number of sig figs and should include units when needed.***
+:::
+
+---
+
 ## INTRODUCTION
 <!-- Concepts -->
 
@@ -218,7 +227,7 @@ b. Consider the relationship $y = x^{1/3}$. If you made a log-log plot of this, 
 <!-- One method you used was changing the independent variable of your data, which works great when you have an idea about what the equation *should* look like. The other method you used was to take the logarithm of both *x* and *y* values, to plot them, and from that plot find the power of *x* (and/or *y*) and the proportionality constant in the original equation. -->
 Let's assume that the period $T$ depends on the length $L$ in a non-linear way, namely a power law:
 
-::: Equation
+::: Figure:Equation
 
 $T=a L^b,$
 :::
@@ -282,7 +291,8 @@ where $a$ and $b$ are unknown values.
 -->
 1. Start with the equation given above. Take the logarithm of both sides, and reduce this equation by using the rules for logarithms that you learned in the last lab. As always, SHOW YOUR WORK.
 :::: Note
-A reminder about properties of logarithms:  
+A reminder about properties of logarithms: 
+:::Figure:Equation
 log$(XY)$ = log$(X)$ + log$(Y)$,
 
 log$(\frac XY)$ = log$(X)$ - log$(Y)$, 
@@ -290,6 +300,9 @@ log$(\frac XY)$ = log$(X)$ - log$(Y)$,
 log$(X^Y)$ = $Y \:\rm log\it (X)$, and 
 
 $\rm 10^{log\it (f)}$ = $f$ (if you are using base 10 logs, or common logs.)
+
+:::
+
 :::
 In your final reduction, you should recognize that some values are constant, while one term is dependent upon the length $L$ (specifically on $\rm log_{10}(L)$).
 
@@ -328,9 +341,11 @@ c) Using the numerical values for $a$ and $b$, rewrite the equation involving th
 ### Comparing experiment to theory
 The relationship between the period and length can be derived theoretically to be:
 
+:::Figure:Equation
 $$
 \rm T = 2\pi \sqrt{\frac{L}{g} }
 $$
+:::
 
 where g is the acceleration due to gravity ($g=9.8m/s^2$)
 
