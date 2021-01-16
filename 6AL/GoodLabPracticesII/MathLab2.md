@@ -70,12 +70,14 @@ Often times in the lab manual we will ask you to plot "this vs. that." When aske
 2. Determine the range of each variable. Your data should take up most of the area of your plot. There *should not* be any large blanks areas.
 3. Clearly label each axis with variable name and unit of measurement.
 4. Plot the data as a scatter plot. DO NOT "connect the dots."
-5. Draw the line of best fit (usually linear).
+5. Draw the line of best fit (usually linear) and include equation.
 6. Provide a descriptive titles that communicates the scenario that is being plotted.
 
 When it comes to a title, **don't** provide a title like "Distance vs Time." This is a bad title. This information can be determined from just looking at the axes. Your title should describe what is happening, e.g. "Distance Traveled by Car on Vacation Trip."
 
-Here is an example of a good plot.
+Here is an example of a good plot. To make this plot we looked a few different "color" (wavelength) LED's and measured the voltage at which they turned on. We then used the Inverse Wavelength as the dependent variable and then the turn on voltage is the dependent variable.
+
+
 
 :::Figure:Figure
 ![Good Graph](imgs/GoodGraph.png)
@@ -324,25 +326,20 @@ Use all of the tools we have discussed in this lab to analyze the speed of an in
 
 Here is a table that a student collected by monitoring an inch worm as it traveled around a table. The student measured the position of the inch worm at a given time. Here is the data.
 
+:::row
+:::column
+:::Figure:Table
+![Table of Data for Inchworm](/imgs/InchWormTable.png)
+:::
+:::
 
-
-| Time (s) | Position (cm) | 
-| -------- | -------- |
-|   5.2   |   2.9   | 
-|   9.7   |   5.1   | 
-|   15.1   |  8.3    | 
-|   20.3   |  10.2    | 
-|   25.3   |  13.3    | 
-|   30.7   |  16.9    | 
-|   36.2   |   19.0   | 
-|   41.4   |   22.6   | 
-|   46.5   |   21.2   | 
-|   51.2   |    26.9  | 
-|   56.4  |     27.4 | 
-
-
+:::column
 ::: Question
-Using the similar analysis for the car above, what is the speed of the inch worm inches per minute? Make sure you answer with the correct number of sig figs and show the uncertainty in your measurement.
+Using the similar analysis for the car above, what is the speed of the inch worm inches per minute? 
+
+Make sure you answer with the correct number of sig figs and show the uncertainty in your measurement.
+:::
+:::
 :::
 
 :::Note

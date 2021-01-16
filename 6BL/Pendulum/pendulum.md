@@ -289,7 +289,7 @@ $$
 
 where $a$ and $b$ are unknown values.
 -->
-1. Start with the equation given above. Take the logarithm of both sides, and reduce this equation by using the rules for logarithms that you learned in the last lab. As always, SHOW YOUR WORK.
+1. Start with the Equation 1 given above. Take the logarithm of both sides, and reduce this equation by using the rules for logarithms that you learned in the last lab. As always, SHOW YOUR WORK.
 :::: Note
 A reminder about properties of logarithms: 
 :::Figure:Equation
@@ -331,7 +331,7 @@ a) From your answers to the two previous questions, what is the numerical value 
 
 b) From your answers to the two previous questions, what is the numerical value of $b$ you calculated? 
 
-c) Using the numerical values for $a$ and $b$, rewrite the equation involving them explicitly.
+c) Using the numerical values for $a$ and $b$, rewrite the Equation 1 involving them explicitly.
 
 **Hint: Make sure you use the correct number of significant figures.**
 
