@@ -32,6 +32,16 @@ The objective of this lab is to determine the physical quantities that influence
 **You will be expected to turn in all plots and tables that you are asked to make in the exercises, as well as all answers to questions.**
 :::
 
+:::Figure:Table
+
+
+| Link to Template Google Sheet |
+| -------- |
+| [Link](https://docs.google.com/spreadsheets/d/1dB44-IegX9enQbE6CSxV_smJDdDF135B-f-zbeyczRA/edit?usp=sharing)     |
+
+
+:::
+
 ### Dependence of period on mass
 
 We will investigate if the period $T$ of the pendulum depends on the mass $m$ of the bob attached to its end. To do so, we will vary the mass, $m$, while keeping the length, $L$, and initial angle, $\theta_0$, constant.
@@ -353,7 +363,7 @@ where g is the acceleration due to gravity ($g=9.8m/s^2$)
 We want to compare our nonlinear equation (which we guessed) to the theoretical model.
 :::Question
 
-a) Compare the nonlinear equation we assumed $T=aL^b$ with the above equation and identify the parameters $a$ and $b$ (write the theoretical equations for $a$ and $b$).
+a) Compare the nonlinear equation we assumed $T=aL^b$ with the above equation and identify the parameters $a$ and $b$ (write the theoretical equations for $a$ and $b$). **Hint:** Recall that $\sqrt{x} = x^{1/2}$
 
 b) What numerical values would you expect for $a$ and $b$ from the theoretical model?
 
