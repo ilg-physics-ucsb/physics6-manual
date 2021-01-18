@@ -75,7 +75,7 @@ Often times in the lab manual we will ask you to plot "this vs. that." When aske
 
 When it comes to a title, **don't** provide a title like "Distance vs Time." This is a bad title. This information can be determined from just looking at the axes. Your title should describe what is happening, e.g. "Distance Traveled by Car on Vacation Trip."
 
-Here is an example of a good plot. To make this plot we looked a few different "color" (wavelength) LED's and measured the voltage at which they turned on. We then used the Inverse Wavelength as the dependent variable and then the turn on voltage is the dependent variable.
+Below is an example of a good plot, which shows the relationship between a few different color (wavelength) LEDs and the measured voltage at which they turn on.  The Inverse Wavelength is the independent variable and the Turn-on Voltage is the dependent variable.
 
 
 
