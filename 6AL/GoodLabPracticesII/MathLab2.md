@@ -329,7 +329,7 @@ Here is a table that a student collected by monitoring an inch worm as it travel
 :::row
 :::column
 :::Figure:Table
-![Table of Data for Inchworm](/imgs/InchWormTable.png)
+![Table of Data for Inchworm](imgs/InchWormTable.png)
 :::
 :::
 
