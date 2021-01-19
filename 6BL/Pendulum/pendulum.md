@@ -19,7 +19,7 @@
 ## INTRODUCTION
 <!-- Concepts -->
 
-!(https://drive.google.com/file/d/1LFQdf2nu1YZzSB_addwEp8zbTW7yBu3l)
+<!--!(https://drive.google.com/file/d/1LFQdf2nu1YZzSB_addwEp8zbTW7yBu3l)-->
 
 ## PART 1: WHAT&rsquo;S IMPORTANT?
 
