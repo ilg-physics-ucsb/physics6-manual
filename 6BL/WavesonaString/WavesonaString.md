@@ -367,19 +367,36 @@ You will be expected to turn in all plots and tables you are asked to make in th
 
 ::: Exercise
 
-In this exercise you will build a table where you can record the things that stay constant for each of the three systems. Then you will fill it out for the first system. To do this, you will use the system shown in Figure 8 and used in Videos 2, 3, and 4. This setup can be called System 1.
+In this exercise you will be guided through filling out the data template provided in table below. This template will be used as a lunching point for all of of the data you need to take for this lab.  In this exercise we will fill out the row labeled "System 1" in the "Constants Table".  To do this, you will use the system shown in Figure 8 and used in Videos 2, 3, and 4. This setup can be called System 1.
 
-1. The linear density, $\mu$ (mass/length) is given in grams/meter. For the string we are using, the linear mass density is 3.0 g/m.
+1. The linear density, $\mu$ (mass/length) is given in grams/meter. For the string we are using, the linear mass density is 3.0 g/m. **This is the same for all three systems**
 2. The length of the string is about 1.70 m.
 3. The mass for the baseline measurement will be 400 g.
-4. Record these data in a table labeled, &ldquo;Constant Values.&rdquo; This table should have column headers: $L$, $m$, $\mu$, $T$, and $v_{T\mu}$; and row headers: System 1, System 2, and System 3. Record your systems&rsquo; values here as you proceed with part two of this lab. Be sure to use the correct units when recording your data. You should include your units in your headers.
+4. Record these data in a table labeled, &ldquo;Constant Values.&rdquo; This table should have column headers: System #, Linear Densisty (kg/m), Length (m), Mass (kg), Tension (N), Velocity (m/s), Fundamental Frequency (Hz); and row headers: System 1, System 2, and System 3. Record your systems&rsquo; values here as you proceed with part two of this lab. 
 
-You will be creating additional, separate, tables for each of the three systems in the upcoming exercises.
+:::Note
+Be sure to use the units provided in the template tables when recording your data e.g. Linear density should be in kg/m.
+:::
+
+
+::: Figure:Table
+| Template Link | 
+| -------- |
+| [Link](https://docs.google.com/spreadsheets/d/14VH-8zIag5QF24o1JIXlLb2614FS3I7WiWoRSvL5tMM/edit?usp=sharing)     | 
+:::
+
+
 
 ::: Question
-a. What is the tension in the string? Use the formula $\text{Tension} = T = mg$. Show your work.
+a. What is the tension in the string? Use the formula $\text{Tension} = T = mg$. Record the value in the "Tension (N)" column. Show your work.
 
-b. What is the speed of the wave you calculate from your observed values of tension ($T$) and linear mass density ($\mu$)? Record this value in the $v_{Tμ}$ column. Show your work.
+b. What is the speed of the wave you calculate from your observed values of tension ($T$) and linear mass density ($\mu$)? Record this value in the "Velocity (m/s)" column. Show your work.
+
+c. What is the fundamental frequency of the system using the velocity and length? Record this value in the "Fundamental Frequency (Hz)" column. Show your work.
+
+:::Note
+This calculated fundamental frequency, and the ones you will calculate for System 2 and 3,  provide an idea of where to expect to see the first standing wave patterns in the videos.
+:::
 :::
 
 <!-- 
@@ -396,9 +413,11 @@ In this exercise we will establish our baseline system, System 1. Above, in your
 
 Do your best to identify a standing wave. You might notice something looking like a standing wave over a range of frequencies. You want the frequency where the amplitude of the string vibration looks the largest, <!--**the tongue of the oscillator is relatively stable,**--> and the whole wave looks fairly stable.
 
-**It is fine if you don&rsquo;t measure the exact frequency of the wave.** We won&rsquo;t grade you on how good you are at watching a video to make a challenging measurement. Just do your best to identify the standing wave and measure the frequency. What is interesting isn&rsquo;t the exact frequency at which a standing wave occurs. It is the *relationship* between frequency and the different standing waves that form. As long as you are close you should see the *relationship*.
+:::Note
+It is fine if you don&rsquo;t measure the *exact* frequency of the wave. We won&rsquo;t grade you on how good you are at watching a video to make a challenging measurement. Just do your best to identify the standing wave and measure the frequency. What is interesting isn&rsquo;t the exact frequency at which a standing wave occurs. It is the *relationship* between frequency and the different standing waves that form. As long as you are close you should see the *relationship*.
+:::
 
-Now we will begin taking data points with System 1. Since this is the System 1 setup, we will be using the string length and mass given above in Exercise 2.
+Now we will begin taking data points with System 1. 
 
 <!--Video 1 Baseline ![Video 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
 
@@ -406,7 +425,7 @@ Now we will begin taking data points with System 1. Since this is the System 1 s
 !(https://www.youtube.com/embed/v-TwpVgjShs)
 :::
 
-1. Create a table for System 1 with column headers for number of segments ($n$),  and frequency ($f$). Your first entry in number of segments should be 1.
+1. Use the table labeled "System 1" in the template to record your data.
 
 2. Video 2 shows a sweep through frequencies with System 1. Watch the video and determine the frequency at which you see one standing wave segment. Record the frequency for the standing wave with one segment in your table.
 
@@ -424,7 +443,7 @@ a. Now calculate the speed from the wavelength ($\lambda$) and frequency ($f$). 
 
 ::: Exercise
 
-This exercise uses a new setup called System 2. This will have the same L as System 1, but will have half the mass.
+This exercise uses a new setup called System 2. This will have the **same length as System 1**, but will have **half the hanging mass**.
 
 1. The mass for System 2 is 200 g. 
 <!-- 1) Measure the mass for System 2 using Image 2 below.
@@ -433,41 +452,37 @@ This exercise uses a new setup called System 2. This will have the same L as Sys
 ![Image 2: Sample Image 2](imgs/Moon_Test.JPG)
 *Image 2 placeholder* --> 
 
-2. Add the values of $L$, $m$, and $\mu$ to your Constant Values table in the System 2 row. Calculate the tension and the velocity, and include those in your table as well.
-
-3. Create a new table labeled System 2, just like the one you made for System 1.
+2. Add the values of $\mu$, $L$, and $m$  to your Constant Values table in the System 2 row. Calculate the tension, velocity, and the fundamental frequency. Include those in your table as well.
 
 <!--Video 2 Lighter Mass ![Video 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
 :::Figure:Video
 !(https://www.youtube.com/embed/PHV0RSShpgI)
 :::
 
-4. Just as you did for System 1, go through Video 3 and find the frequencies for each number of standing wave segments. Fill out your System 2 table accordingly. You should be able to go up to at least five segments.
+3. Just as you did for System 1, go through Video 3 and find the frequencies for each number of standing wave segments. Fill out your System 2 table accordingly. You should be able to go up to at least five segments.
 :::
 <!-- End of Exercise -->
 
 ::: Exercise
 
-This exercise uses a new setup called System 3. This will have the same mass as System 1, but will have half the length.
+This exercise uses a new setup called System 3. This will have the **same mass as System 1**, but will have **half the length**.
 
 1. The length of the string in System 3 is 0.85 m. 
 
-<!-- 1) Measure the length for System 3 using Image 3 below.
+<!-- 1) Measure the length for System 3 using Image 3 below.Q
 
 <!--Image 3 ![Video 1](imgs/Figure5_Nodes.jpg){width=100% height=600px}
 ![Image 3: Sample Image 3](imgs/Saturn_Test.jpg)
 *Image 3 placeholder* -->
 
-2. Add the values of $L$, $m$, and $\mu$ to your Constant Values table in the System 3 row. Calculate the tension and the velocity, and include those in your table as well.
+2. Add the values of $\mu$ , $L$, and $m$ to your Constant Values table in the System 3 row. Calculate the tension, velocity, and the fundamental frequency. Include those in your table as well.
 
 <!--Video 3 Baseline ![Video 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
 :::Figure:Video
 !(https://www.youtube.com/embed/wiNSBAKnoLc)
 :::
 
-3. Create a new table labeled System 3, just like the one you made for System 1.
-
-4. Just as you did for Systems 1 and 2, go through Video 4 and find the frequencies for each number of standing wave segments. Fill out your System 3 table accordingly. You should just barely be able to get five segments. 
+3. Just as you did for Systems 1 and 2, go through Video 4 and find the frequencies for each number of standing wave segments. Fill out your System 3 table accordingly. You should just barely be able to get five segments. 
 :::
 
 ### Analysis
@@ -503,13 +518,14 @@ a. Find the ratios of the  upper harmonic frequencies to the frequency of the fu
 b. Does halving the length or halving the tension (mass) change the relationship between the upper harmonics and the fundamental? Explain.
 :::
 
-2) Make a graph of $f$ versus $n$ (the number of segments) for each system. You should have the three plots on one graph, in different colors. Plot the line of best fit for each system.
+3) Plot  your measured harmonic frequencies, $f_n$, versus the number of segments, $n$, for each system. It is more informative if you add all the three plots on one graph, in different colors, but you can also make three different graphs.
+
+4) Plot the line of best fit for each system.
 
 ::: Question
 What are the slopes of the best fit lines for each system?
 :::
-
-3) Combine equations 1, 2, and 3 (from the Theory section), and derive Equation 5 (show all your work):
+5) Combine equations 1, 2, and 3 (from the Theory section), and derive Equation 5 (show all your work):
 
 ::: Equation
 $$
