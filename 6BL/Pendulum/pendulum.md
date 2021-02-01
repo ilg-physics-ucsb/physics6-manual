@@ -20,6 +20,8 @@
 <!-- Concepts -->
 
 <!--!(https://drive.google.com/file/d/1LFQdf2nu1YZzSB_addwEp8zbTW7yBu3l)-->
+Simple harmonic motion is found everywhere in nature is and is a recurring theme throughout physics. Many different systems can be modeled as harmonic oscillators. One of the most accessible systems to study is the pendulum. When you hang a mass from a point it will swing back and forth about the equilibrium position. This simple behavior can be then be mapped to many more systems.
+
 
 ## PART 1: WHAT&rsquo;S IMPORTANT?
 
