@@ -1,16 +1,24 @@
 # Waves on a String
 
-## INTRODUCTION
 
-**You will be expected to turn in all plots and tables you are asked to make in the exercises, as well as all answers to questions.**
+:::Note
+Make sure to include all tables, plots, pictures, drawings, screenshots or anything else asked of you in the exercises in your report, as well as answers to all the questions.
 
+All responses and answers should contain the correct number of sig figs and should include units when needed.
+:::
+<!--
 :::Figure:Video
 !(https://www.youtube.com/watch?v=6v4wtNbUZl0)
 :::
+-->
 
-## PART 1: PULSES
+## INTRODUCTION
+In this lab we will study standing waves on a string, which are at the core of sound formation in musical instruments.
 
-***Theory***
+## PART 1: THEORY
+In this part we will look at the factors that determine the speed of waves traveling on a string  (propagation velocity), we will see how waves reflect from boundaries and we will understand how multiple waves can overlap. We will study these concepts using pulses, which are localized disturbances, but all the conclusions will hold for sinusoidal waves.
+
+### Propagation of Pulses
 
 :::Figure:Figure
 ![Figure 1](imgs/Figure1_TravelingPulse.jpg)
@@ -18,9 +26,6 @@
 *Traveling Pulse Waves*
 :::
 
-::: Question
-For a given tension, will a pulse on a denser string have greater or lesser propagation velocity than one on a less dense string? Justify your reasoning.
-:::
 
 <!--
 ***Simulations***
@@ -74,12 +79,34 @@ a) How is the speed of a wave on a rope related to tension?
 -->
 <!-- End of Exercise -->
 
+:::Note
+The propagation velocity of all waves on a particular string is determined by the properties of the string itself &ndash; the tension in the string, $T$, and the linear mass density of the string, $\mu$.  The linear mass density is the mass per unit length of string, which determines how heavy the string is per unit length.
+<!--For a given frequency the wavelength is determined entirely by the velocity of the wave on the string. The velocity of a wave on a string is given by:-->
+
+:::Figure:Equation
+$$
+\rm velocity\:\it = v = \sqrt{\frac{\rm Tension}{\rm String\, Density}} = \sqrt{\frac{T}{\mu}}
+$$
+:::
+:::
+<!-- AVOCADO What is the equation for wavelength in terms of force? -->
+
+::: Question
+For a given tension, will a pulse on a denser string have greater or lesser propagation velocity than one on a less dense string? Justify your reasoning.
+:::
+
+### Reflection of Pulses from Boundaries
+
 :::Figure:Figure
 ![Figure 2: Incident and Reflected Traveling Pulse](imgs/Figure3_IRTPulse.jpg)
 
 *Incident and Reflected Traveling Pulse*
 :::
-The figure above illustrates what happens to a pulse when it meets and is reflected from a rigid termination.
+The figure above illustrates what happens to a pulse when it is reflected from a rigid termination.
+
+### Superposition of pulses
+
+Two waves can travel on a string &ndash; in opposite directions &ndash; and pass through each other, and retain their individual properties. This is called the principle of superposition. 
 
 :::Figure:Figure
 ![Figure 3:Superposition of Two Counterpropagating Pulses](imgs/Figure4_IRTPulseCont.jpg)
@@ -87,7 +114,7 @@ The figure above illustrates what happens to a pulse when it meets and is reflec
 *Superposition of Two Counterpropagating Pulses*
 :::
 
-Two waves can travel on a string &ndash; in opposite directions &ndash; and pass through each other, and retain their individual properties. This is called the principle of superposition. Consider two pulses of identical shape and amplitude traveling toward each other. If they are both positive (above figure, left side) they will cross each other and build in amplitude. The maximum height is the sum of both individual amplitudes. If one is positive and the other negative (above figure, right side), they will sum to zero amplitude when they are exactly over each other. In either case, the two pulses retain their original shape and amplitude after they have passed each other.
+Consider two pulses of identical shape and amplitude traveling toward each other. If they are both positive (above figure, left side) they will cross each other and, when they are exactly over each other, build in amplitude. The maximum height is the sum of both individual amplitudes. If one is positive and the other negative (above figure, right side), they will sum to zero amplitude when they are exactly over each other. In either case, the two pulses retain their original shape and amplitude after they have passed each other.
 
 <!--
 ::: Exercise
@@ -118,7 +145,7 @@ Could you observe constructive interference if you instead set the end to fixed?
 
 ## PART 2: OSCILLATORY MOTION
 
-If the string is instead driven by a source that moves up and down in a sinusoidal fashion, then a sine wave will propagate down the line instead of a pulse. The length of this waveform is determined by the frequency of oscillation and the velocity of the wave. Note that every point on the string vibrates with the same frequency.
+If the string is instead driven by a source that moves up and down in a sinusoidal fashion, then a sine wave will propagate down the line instead of a pulse. The length of this waveform is determined by the frequency of oscillation and the propagation velocity of the wave. Note that every point on the string vibrates with the same frequency.
 
 :::Figure:Figure
 ![Figure 4: Sinusoidal Mechanical Oscillator](imgs/Figure2_SMO.jpg)
@@ -135,43 +162,28 @@ $$
 $$
 :::
 
-Velocity, $v$, is the speed at which any disturbance propagates down the string. Wavelength, $\lambda$, is the distance that one sinusoidal oscillation covers on the string. Frequency, $f$, is the rate of periodic oscillation. For our purposes, we will use units of cycles per second, or hertz, abbreviated Hz.
+As before, the propagation velocity, $v$, is the speed at which any disturbance (pulse or sinusoidal wave) propagates down the string. The wavelength, $\lambda$, is the distance that one sinusoidal oscillation covers on the string. The frequency, $f$, is the rate of periodic oscillation. To measure frequency we will use units of cycles per second, or hertz, abbreviated Hz.
 
 ::: Question
-a. Consider a very long string driven by a sinusoidal oscillator. The string is so long that there are no reflections. A wave travels at 3 m/s on this string, and the oscillator is set to 10 Hz. You can view the wavelength as how far a wave travels in one period of oscillation. What is the wavelength in this case?
+a. Consider a very long string driven by a sinusoidal oscillator. The string is so long that there are no reflections. A wave travels at 5 m/s on this string, and the oscillator is set to 10 Hz. You can view the wavelength as how far a wave travels in one period of oscillation. What is the wavelength in this case?
 
-b. If the velocity were instead 18 m/s, what would the wavelength be? Keep in mind that the frequency is the same as in part a.
+b. If the velocity were instead 20 m/s, what would the wavelength be? Keep in mind that the frequency of the oscillation is the same as before, namely 10 Hz.
 
 c. Is the sinusoidal pattern on the string longer or shorter with a greater propagation velocity?
 <!--
 c) If the frequency of the oscillator were changed to 16 Hz, how far would one cycle travel? The velocity is still 12 m/s. -->
 :::
 
-:::Note
-**NOTE:** The velocity of all waves on a particular string is determined by the properties of the string itself &ndash; the tension in the string, and the linear mass density of the string.  The linear mass density is the mass per unit length of string, which determines how heavy the string is per unit length.
-<!--For a given frequency the wavelength is determined entirely by the velocity of the wave on the string. The velocity of a wave on a string is given by:-->
 
-:::Figure:Equation
-$$
-\rm velocity\:\it = v = \sqrt{\frac{\rm Tension}{\rm String\, Density}} = \sqrt{\frac{T}{\mu}}
-$$
-:::
-:::
-<!-- AVOCADO What is the equation for wavelength in terms of force? -->
 
 ### Standing Waves
 
 <!--PhET Formatting ![Simulation 1](imgs/Figure5_Nodes.jpg){width=100% height=600px} -->
 
-When a string is fixed between two rigid terminations, we may observe an interesting phenomenon. A wave traveling on this string is continually reflected back and forth between the two boundaries. At each boundary, the wave experiences a negative reflection. The left-moving and right-moving traveling waves superimpose at all points. What results are sinusoidal standing wave patterns called the natural modes of the string. This is the phenomenon that occurs on guitar, piano and violin strings. Any vibration on a doubly fixed string can be modeled as a linear combination of the sinusoidal natural modes. This is called Fourier Analysis; you will learn more about this in your advanced coursework.
+Let's fix the right end of the string and thus create a rigid termination. If we drive the left side of the string with a sinusoidal mechanical oscillator (which we will also consider a rigid termination), we generate a wave that will travel down the string. As a wave travels on the string, it is continually reflected back and forth between the two boundaries. At each boundary, the wave experiences a negative reflection. The left-moving and right-moving traveling waves superimpose at all points. 
 
-:::Figure:Figure
-![Figure 5: Nodes](imgs/Figure5_Nodes.jpg)
 
-*Nodes and Antinodes*
-:::
-
-If we drive one side of a string with a sinusoidal mechanical oscillator of arbitrary frequency, we get a lot of random motion with no discernible pattern, as illustrated in the figure below.
+For most wave frequencies created by the sinusoidal mechanical oscillator, the resulting shape of the string will exhibit a lot of random motion with no discernible pattern, as illustrated in the figure below.
 
 :::Figure:Figure
 ![Figure 6: Random Motion](imgs/Figure6_RandomMotion.jpg)
@@ -179,36 +191,73 @@ If we drive one side of a string with a sinusoidal mechanical oscillator of arbi
 *Random motion*
 :::
 
-For the mathematical condition
+However, for certain special frequencies, the left-moving and right-moving waves line up such that there are areas of large motion called *antinodes*, and areas that don’t move at all, called *nodes*. This pattern of vibration is fixed on the string. and is referred to as sinusoidal standing waves or normal modes of the string. 
+<!-- This is the phenomenon that occurs on guitar, piano and violin strings. Any vibration on a doubly fixed string can be modeled as a linear combination of the sinusoidal natural modes. This is called Fourier Analysis; you will learn more about this in your advanced coursework. -->
 
-:::Figure:Equation
-$$\lambda = 2\it L/n$$
+:::Note
+The distance between two consecutive nodes is $\lambda/2$. We will call the pattern between two consecutive nodes a "segment."
 :::
 
-however, where n is a positive integer and L is the Length of the string in meters, 
-we observe the phenomenon of standing waves. In this case, the left-moving and right-moving waves line up such that there are areas of large motion called *antinodes*, and areas that don’t move at all, called *nodes*. This pattern of vibration is fixed on the string. The first three such patterns that occur, for *n* = 1, 2 and 3, in Equation 3, are shown above in Figure 5.
+:::Figure:Figure
+![Figure 5: Nodes](imgs/Figure5_Nodes.jpg)
 
-Algebraic manipulation shows:
+*Standing Wave Patterns*
+:::
+
+
+
+The mathematical condition for standing waves to occur is that the wavelength $\lambda$ of the wave obeys the following equation:
+
+:::Figure:Equation
+$$\lambda = 2\it L/n,$$
+:::
+
+where $n$ is a positive integer and $L$ is the length of the string. 
+
+Alternatively, we can write the previous equation as:
 
 :::Figure:Equation
 $$L = n \cdot (\lambda/2)$$
 :::
 
-Which is slightly easier to interpret: any integer number of half wavelengths can fit on the string. Why does this happen? Because only an integer number of half wavelengths will put a node at each end. This condition is necessitated by the fact that the ends are fixed and cannot move up and down. The phenomenon that occurs when this equation is satisfied is also known as *resonance*.
+The above equation is easier to interpret: any integer number of half wavelengths can fit on the string. Why does this happen? The ends of the string are fixed and cannot move up or down, so they must be nodes. Only if the length of the string is equal to an integer number of segments (which are half-wavelength long), will there be nodes at each end of the string. 
+<!-- The phenomenon that occurs when this equation is satisfied is also known as *resonance*. -->
+
 
 :::Figure:Figure
 ![Figure 7: Waves on a String](imgs/Figure7_WavesonaString1B.jpg)
-
 *Waves on a String*
 :::
+
+The first three standing wave patterns that occur, for $n$ = 1, 2 and 3, in Equation 4, are shown above in Figure 7.
+
 
 ::: Question
 a. What wavelength is required to get 5 standing wave segments on a doubly fixed string of length 0.75 m?
 
 b. If the velocity *v* is 50 m/s, what will be the frequency of this wave?
+:::
+
+
+Using Equations 1, 2, and 3, we can find the wave frequencies that correspond to standing waves in terms of $n$, the tension $T$, the linear mass density $\mu$,  and the length of string $L$.
+
+:::Figure:Equation
+$$
+f _n=n \left (\frac{1}{2L}\sqrt{\frac{T}{\mu}} \right ),
+$$
+:::
+
+where we indexed our frequencies by the number of segments, $n$.
+
+From Equation 5, we conclude that there are specific frequencies at which the mechanical oscillator can drive the string and create standing waves. We call these frequencies **harmonics**. A standing wave with one segment is called the **fundamental** or the the first harmonic. The frequency of the fundamental is  $f_1= \frac{1}{2L}\sqrt{\frac{T}{\mu}}$. 
+The higher harmonics have frequencies which are multiple of the fundamental frequency (e.g. the second harmonic has frequency $f_2=2\cdot f_1$)
+
+
+<!-- The **fundamental** is the natural frequency at which the system wants to oscillate. If instead of driving the system with an oscillator you were to pluck the string as you would on a guitar, it would oscillate at the **fundamental** frequency. -->
+
 <!--
 b) If we drive one end of the string with a sinusoidal oscillator of frequency 100 Hz, what velocity is required to set up a standing wave with 5 segments? -->
-:::
+
 
 <!-- Exercise with PhET removed for brevity
 ::: Exercise
@@ -289,7 +338,7 @@ b. Explain the difference between the two setups. Why do they behave so differen
 
 <!-- The objective of this lab is to analyze the characteristics of waves on a string. You will do this by examining 3 systems with varying characteristics. -->
 
-In the rest of the lab you will watch videos of different versions of the same setup. You can see a schematic of the basic setup in Figure 8 below. (This is the same apparatus that appears in Figure  7, above.) We have a string, anchored at one end, with an oscillator (driver) attached near that end. The string is then run over a pulley with a mass $m$ hanging off the end to create tension in the string. We can vary the frequency at which the oscillator vibrates, the length of the string (the spacing between the anchor and the pulley), and the amount of mass hanging off the end.
+In this part of the lab you will watch videos of different versions of the same setup. You can see a schematic of the basic setup in Figure 8 below. (This is the same apparatus that appears in Figure  7, above.) We have a string, anchored at one end, with an oscillator (driver) attached near that end. The string is then run over a pulley with a mass $m$ hanging off the end to create tension in the string. We can vary the frequency at which the oscillator vibrates, the length of the string (the spacing between the anchor and the pulley), and the amount of mass hanging off the end.
 
 :::Figure:Figure
 ![Figure 8](imgs/WavesDrawing.png)
@@ -297,9 +346,9 @@ In the rest of the lab you will watch videos of different versions of the same s
 
 We will start by setting up a system, System 1, and measure the physical characteristics of that system &ndash; length, tension (determined by the hanging mass), and linear mass density of the string. Then we will perform the experiment to make some initial **baseline** measurements. We will then repeat the same measurements with two additional systems. System 2 will have the same length as System 1, but the half the tension (hanging mass) as System 1. System 3 will have half the length as System 1 but the same tension (hanging mass) as System 1. We have measured the linear mass density of the string to be 3.0 g/m.
 
-The goal of the experiment for each system is to understand and see the relationship between frequency and when standing waves occur. Then we will compare and contrast our three runs to see how changing the tension and length affect this.
+The goal of the experiment for each system is to observe the wave frequencies for which standing waves occur. Then we will compare and contrast our three runs to see how changing the tension and length of the string affect these frequencies.
 
-For each system we will keep the mass and length constant throughout the experiment, but we will slowly sweep through a range of frequencies. The current frequency will be displayed on a large display in the video. You will notice that at particular frequencies, standing waves will form on the string, according to the patterns illustrated in Figures 5 and 7, and described by Equations 3 and 4. Between those frequencies, you may observe very little motion, random motion, or perhaps some motion that appears to have a pattern to it. As compared to the actual harmonics that you will be trying to find, these motions will be very small and short-lived.
+For each system we will keep the mass and length constant throughout the experiment, but we will slowly sweep through a range of frequencies. The current frequency will be displayed on a large display in the video. You will notice that, at particular frequencies, standing waves will form on the string, according to the patterns illustrated in Figures 6 and 7, and described by Equations 3 and 4. Between those frequencies, you may observe very little motion, random motion, or perhaps some motion that appears to have a pattern to it. As compared to the actual harmonics that you will be trying to find, these motions will be very small and short-lived.
 
 <!--
 **Important:** You may also notice two sets of standing waves that form at frequencies close together. This happens because the metal tongue that is oscillating can become part of the vibrating system. You don't want this. The standing waves you will want to take note of are the ones that form when it looks as if the tongue is almost still. The string should have something like a node near the end of the metal tongue. See the video below.
@@ -330,7 +379,7 @@ You will be creating additional, separate, tables for each of the three systems 
 ::: Question
 a. What is the tension in the string? Use the formula $\text{Tension} = T = mg$. Show your work.
 
-b. What is the speed of the wave you calculate from your observed values of tension ($T$) and linear density ($\mu$)? Record this value in the $v_{Tμ}$ column. Show your work.
+b. What is the speed of the wave you calculate from your observed values of tension ($T$) and linear mass density ($\mu$)? Record this value in the $v_{Tμ}$ column. Show your work.
 :::
 
 <!-- 
@@ -343,7 +392,7 @@ b. What is the speed of the wave you calculate from your observed values of tens
 
 ::: Exercise
 
-In this exercise we will establish our baseline system, System 1. Above, in your Constant Values table, you characterized the system, but now we will perform our experiment. We will drive the oscillator with a sine wave and slowly sweep through a range of frequencies. You can make the video pause and step through it as slowly as you&rsquo;d like.
+In this exercise we will establish our baseline system, System 1. Above, in your Constant Values table, you characterized the system, but now we will perform our experiment. We will drive the oscillator with a sine wave and slowly sweep through a range of frequencies. You can pause the video and step through it as slowly as you&rsquo;d like.
 
 Do your best to identify a standing wave. You might notice something looking like a standing wave over a range of frequencies. You want the frequency where the amplitude of the string vibration looks the largest, <!--**the tongue of the oscillator is relatively stable,**--> and the whole wave looks fairly stable.
 
@@ -357,15 +406,16 @@ Now we will begin taking data points with System 1. Since this is the System 1 s
 !(https://www.youtube.com/embed/v-TwpVgjShs)
 :::
 
-1. Create a table for System 1 with column headers for number of segments ($n$), frequency ($f$), $v_{λf}$, and % Difference of $v$. Your first entry in number of segments should be 1.
+1. Create a table for System 1 with column headers for number of segments ($n$),  and frequency ($f$). Your first entry in number of segments should be 1.
 
 2. Video 2 shows a sweep through frequencies with System 1. Watch the video and determine the frequency at which you see one standing wave segment. Record the frequency for the standing wave with one segment in your table.
 
-::: Question
-a. Now calculate the speed from the wavelength ($\lambda$) and frequency ($f$). Denote this $v_{\lambda f}$. Use the equation $v_{\lambda f} = f \lambda$. Use Equation 3 to calculate the wavelength. Record this in the System 1 table you just made. Show your work.
+<!--- ::: Question
+a. Now calculate the speed from the wavelength ($\lambda$) and frequency ($f$). Denote this $v_{\lambda f}$. Use the equation $v_{\lambda f} = f \lambda$. Use Equation 3 to calculate the wavelength. Record this in the System 1 table you just made. Show your work. -->
 
-b. Compare the two values of speed. Use the $v_{T\mu}$ from your Constants Table and the $v_{\lambda f}$ that you just calculated. What is the percent difference between these two values? Record this in the System 1 table you just made. Show your work.
-:::
+<!-- b. Compare the two values of speed. Use the $v_{T\mu}$ from your Constants Table and the $v_{\lambda f}$ that you just calculated. What is the percent difference between these two values? Record this in the System 1 table you just made. Show your work. -->
+<!--- :::-- >
+
 
 3. Continue watching Video 2 and repeat Step 2 for standing waves of two, three, four and five segments.
 
@@ -428,58 +478,59 @@ In this exercise we will now analyze the three systems and compare and contrast 
 
 1) Our goal is now to study the relationship between the frequency and the number of segments of the wave. Make sure your tables for Systems 1, 2 and 3 are completely filled out.
 
-2) Make a graph of $f$ versus $n$ (the number of segments) for each system. You should have the three plots on one graph, in different colors.
-
-All standing waves are referred to as **harmonics**. A standing wave with one segment is called the **fundamental** or the the first harmonic. The **fundamental** is the natural frequency at which the system wants to oscillate. If instead of driving the system with an oscillator you were to pluck the string as you would on a guitar, it would oscillate at the **fundamental** frequency.
 
 :::Question
-a. How does halving the length change the fundamental?
+a.  How does halving the length change the fundamental? Find the ratio of the fundamental frequency of System 2 to that of System 1.
 
-b. How does halving the mass change the fundamental?
+b. What would you expect the ratio in the previous part to be from the theory? 
+Remember that the frequency of the fundamental is  $f_1= \frac{1}{2L}\sqrt{\frac{T}{\mu}}$. 
+:::
+::: Question
+a. Find the ratio of the fundamental frequency of System 3 to that of System 1. How does halving the mass change the fundamental?
+
+b. What would you expect the ratio in the previous part to be given the theory?
+
 :::Note
 The mass we are referring to in this question is the hanging mass, which determines the tension in the string.
 :::
 :::
 
-:::Question
-a. For these systems, how are the frequencies of the upper harmonics related to the frequency of the fundamental?
+2) For all three systems, we expect the harmonics to be multiples of the fundamental frequency. 
 
-b. Does halving the length or halving the tension (mass) change the relationships you noted in part a. of this question?
+:::Question
+a. Find the ratios of the  upper harmonic frequencies to the frequency of the fundamental for all three systems.
+
+b. Does halving the length or halving the tension (mass) change the relationship between the upper harmonics and the fundamental? Explain.
 :::
+
+2) Make a graph of $f$ versus $n$ (the number of segments) for each system. You should have the three plots on one graph, in different colors. Plot the line of best fit for each system.
 
 ::: Question
-a. What is the shape of each of the plots on the graph?
-
-b. Does each system yield a plot of the same shape?
-
-c. From system to system, how does the plot vary?
-
-d. What are the slopes of the best fit lines through these plots?
+What are the slopes of the best fit lines for each system?
 :::
 
-3) Combine equations 1, 2, and 3 (from the Theory section), and show that the frequency can be written as: 
+3) Combine equations 1, 2, and 3 (from the Theory section), and derive Equation 5 (show all your work):
 
-:::Figure:Equation
+::: Equation
 $$
-f = \left (\frac{1}{2L}\sqrt{\frac{T}{\mu}} \right )n
+f _n= \left (\frac{1}{2L}\sqrt{\frac{T}{\mu}} \right )n
 $$
 :::
 
 ::: Question
-a. From Equation 5, what is slope of your $f$ vs. $n$ graph in terms of $T$, $\mu$, and $L$?
+a. From Equation 5, what is slope of your $f_n$ vs. $n$ graph in terms of $T$, $\mu$, and $L$?
 
-b. What are the units of the slope, and what physical meaning does it have?
+b. What are the units of the slope, and what physical meaning does it have? Hint: Read the theory around Equation 5 again.
 
-c. For each system, compare the value of the slope of your plot to the measured fundamental frequency by calculating the percent discrepancy.
+c. For each system, compare the value of the slope of your plot to the fundamental frequency  observed  in the videos by calculating the percent discrepancy between the two.
 :::
 
-We have previously given you the value of the linear mass density ($\mu$), but you can check our value by using the slope from Equation 5.
+<!-- We have previously given you the value of the linear mass density ($\mu$), but you can check our value by using the slope from Equation 5. 
 
-:::Question
+<!-- :::Question
 Use the slopes from your graph, and the tension and length for each system, to calculate the density, $\mu$, of the string.  Compare these measured values of density to the given value (3.0 g/m) by calculating the percent discrepancy.
-:::
+::: 
 
-:::
 
 
 ## Conclusion
