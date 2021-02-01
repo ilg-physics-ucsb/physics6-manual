@@ -3,7 +3,6 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 <body><link rel="stylesheet" href="css\PhDemoJS.css"><link rel="stylesheet" href="css\pandoc.css"><link rel="stylesheet" href="css\katex.min.css"><link rel="stylesheet" href="css\katex.css">
 <h1>Position, Velocity, Acceleration, and Falling Objects</h1>
@@ -16,34 +15,7 @@ scene looks like to an onlooker: a ball falling straight towards the ground at i
 hand side shows you what the respective "position v.s. time" curve would look like if you were to record this data.
 To get a feel for the concepts in this lab, feel free to play with the sliders. Observe how increasing and decreasing
 air resistance affects the shape of the graph! In this lab you will explore this phenomenon using your analytical and mathematical skills.</p>
-<figure class="Simulation">
-    <div class="sim">
-        <center> 
-        
-        
-        <div id="graph" height= "10 in"></div>
-        <button onclick="javascript:startUpdate();" class="btn" >Drop!</button>
-        <div class="slidecontainer">  
-          <br>
-          <br>
-          <b>Starting Height:</b> <span id="f" style="font-weight:bold;color:#000000" > 50 </span> m
-          <input type="range" min="1" max="300" value="200" class="sliderx" id="myRangex">
-          <br>
-          <b>Influence of Air Resistance:</b> <span id="g" style="font-weight:bold;color:#000000" > 0 </span> %
-          <input type="range" min="0" max="100" value="0" class="sliderar" id="myRangear">
-          <br>
-          <b>Initial Velocity:</b> <span id="h" style="font-weight:bold;color:#000000" > 0 </span> m/s
-          <input type="range" min="-20" max="20" value="0" class="sliderv" id="myRangev">
-          
-        <br>
-        <br>
-        </div>
-        
-        </center>
-        
-        </div>
-    <figcaption>Simulation 1</figcaption>
-</figure>
+<figure class="Simulation"><p>SIM1</p><figcaption>Simulation 1</figcaption></figure>
 <h2>PART 1: INTRODUCTION</h2>
 <p>For 1D motion of a body, we are typically concerned with three variables which characterize the trajectory:</p>
 <ol>
@@ -109,7 +81,7 @@ air resistance affects the shape of the graph! In this lab you will explore this
 </ol><div class="Note"><p>Make sure to take a picture of your sketch plots and include them in your report along with the description.</p></div></div></div>
 <hr>
 <h2>PART 2: COLLECTING THE DATA</h2>
-<div class="ExerciseHeading"><p>Exercise 2</p><div class="Exercise parsed"><p>In this section we will look at different balls dropped from the sixth floor walkway of Broida Hall. The four balls dropped in Video 1 are of varying sizes and weights. Figure 7 shows the balls which are dropped. </p><figure class="Figure"><p><img src="imgs/Balls2.png"></p><figcaption>Figure 7</figcaption></figure><p>The pink dog ball is small but fairly weighty for its size. The basket ball is medium sized and also has decent weight to it. The volley ball is smaller than the basket ball and slightly lighter as well. The beach ball is by far the largest and the lightest. These four balls should give a wide range of masses and sizes for our data set. All four balls are dropped, however, you will only be taking data for the basket ball. The data on the other balls have been taken for you. We have annotated Video 1 for you with the height measurements and an embedded stopwatch. These will be useful tools for your data collection.</p><figure class="Video"><iframe src="https://www.youtube.com/embed/juYSrbM66b0" width="100%" height="600" allowfullscreen frameborder="0"></iframe><figcaption>Video 1</figcaption></figure><ol>
+<div class="ExerciseHeading"><p>Exercise 2</p><div class="Exercise parsed"><p>In this section we will look at different balls dropped from the sixth floor walkway of Broida Hall. The four balls dropped in Video 1 are of varying sizes and weights. Figure 7 shows the balls which are dropped. </p><figure class="Figure"><p><img src="imgs/Balls2.png"></p><figcaption>Figure 7</figcaption></figure><p>The pink dog ball is small but fairly weighty for its size. The basket ball is medium sized and also has decent weight to it. The volley ball is smaller than the basket ball and slightly lighter as well. The beach ball is by far the largest and the lightest. These four balls should give a wide range of masses and sizes for our data set. All four balls are dropped, however, you will only be taking data for the basket ball. The data on the other balls have been taken for you. We have annotated Video 1 for you with the height measurements and an embedded stopwatch. These will be useful tools for your data collection.</p><figure class="Video"><p>!(https://youtu.be/OZn--kkp2vA )</p><figcaption>Video 1</figcaption></figure><ol>
 <li>
 <p>Watch Video 1 and see how each ball falls to the ground.</p>
 </li>
@@ -240,5 +212,4 @@ air resistance affects the shape of the graph! In this lab you will explore this
 <h2>Conclusion</h2>
 <div class="ExerciseHeading"><p>Exercise 7</p><div class="Exercise parsed"><p>Write a brief conclusion summarizing the important points of this lab.</p></div></div>
 </body>
-<script src="js/BallDrop.js"></script>
 </html>

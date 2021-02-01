@@ -210,7 +210,7 @@ In this section we will look at different balls dropped from the sixth floor wal
 The pink dog ball is small but fairly weighty for its size. The basket ball is medium sized and also has decent weight to it. The volley ball is smaller than the basket ball and slightly lighter as well. The beach ball is by far the largest and the lightest. These four balls should give a wide range of masses and sizes for our data set. All four balls are dropped, however, you will only be taking data for the basket ball. The data on the other balls have been taken for you. We have annotated Video 1 for you with the height measurements and an embedded stopwatch. These will be useful tools for your data collection.
 
 :::Figure:Video
-!(https://www.youtube.com/watch?v=juYSrbM66b0)
+!(https://youtu.be/OZn--kkp2vA )
 :::
 
 
