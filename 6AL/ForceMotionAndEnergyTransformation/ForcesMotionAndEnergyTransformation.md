@@ -1,19 +1,25 @@
 # Forces, Motion and Energy Transformation
 
+---
+:::Note
+***Make sure to include all tables, plots, pictures, drawings, screenshots or anything else asked of you in the exercises in your report, as well as answers to all the questions.***
+
+***All responses and answers should contain the correct number of sig figs and should include units when needed.***
+:::
+---
+
 ## PART 1: MATHEMATICAL RELATIONSHIP BETWEEN THE ACCELERATION OF A MASS AND THE FORCE ACTING ON IT
 
 ### Gaining Intuition
 
-If you stand on a skateboard, don&rsquo;t expect any motion to occur until you do something. You must place a foot on the ground and push off. You observe that starting from rest ($v_{0}$ = 0), in order to gain speed (accelerate) you must push with your foot. When you stop pushing, you stop accelerating and move at a somewhat constant speed until the combined forces due to friction (air and mechanical) bring you to rest.
+If you stand on a skateboard, don&rsquo;t expect any motion to occur until you do something. You must place a foot on the ground and push off, and thus you will gain speed (accelerate). When you stop pushing, you stop accelerating and move at a somewhat constant speed until friction forces (air and mechanical) bring you to rest.
 
-:::Question
-What do you need to do to attain a higher acceleration during the propulsion phase of your motion?
-:::
+What affects  your acceleration is your leg strength, which determines the magnitude of the **force** you apply, and that 55-lb backpack, otherwise, your total **mass**.
 
-A couple of things that can affect your acceleration are your leg strength, which determines the magnitude of the *force* you apply, and that 55-lb backpack, otherwise, your total *mass*.
 
-In this experiment, we will use gravity to apply a force to a glider riding on an inclined air track. We will measure the mass of the glider, and the applied force, and by timing the motion of the glider, its acceleration. We will then figure out what the relationship is among these quantities. Perhaps it is $F = m + a$. Or $F = m/a$. Or $F = m^{a}$.
-Or perhaps it is something else. We will see.
+In this experiment, we will observe the motion of a glider sliding on an inclined air track under the influence of gravity. We will measure the *mass* of the glider, the *force* acting on the glider, and, by timing the motion of the glider, its *acceleration*. 
+
+We will then figure out what the relationship is among these quantities. Perhaps it is $F = m + a$. Or $F = m/a$. Or $F = m^{a}$. Or perhaps it is something else. We will see.
 
 
 ### Procedure
@@ -33,16 +39,12 @@ Figure 1 shows a schematic of the air track as it will be set up for this experi
 
 :::Exercise
 
-In this exercise we want to explore how the mass, $$m$$, of the glider relates to the force, $$F$$, exerted on it by gravity ***along the track***. As you know, the force due to gravity is vertical, but we are interested only in the component along the track, since that is the one that generates the motion.
+In this exercise we want to explore how the mass, $$m$$, of the glider relates to the force, $$F$$, exerted on it by gravity ***along the track***. As you know, the force due to gravity is vertical, but** we are interested only in the component along the track, since that is the one that generates the motion**.
 
-We use a spring scale to measure the force, $$F$$. We keep the angle of the air track constant.
-We release the glider from the top of the track, and record the time for the glider to travel from the start to when it hits the elastic bumper at the bottom end of the track. 
-For these runs, the height b will equal 7.6 cm.
 
-The video below shows the setup, and the three glider runs. Use the timer on the video to find the time for each of the three runs.
+<!-- For these runs, the height b will equal 7.6 cm. -->
 
-1. Make a table like the one below, in which to record your data. Record the height b.
-- - Height $b$ in Fig. 1 (a) = 7.6 cm
+1. Make a table like the one below, in which to record your data. For these runs, the height $b$ is 7.6 cm (see  Fig. 1 (a) )
 :::Figure:Table
 | Mass (kg) | Force (N) | Distance (m) | Time (sec)| Acceleration (m/s$^{2}$) |
 | --------  | --------      | --------     | --------      | --------      |
@@ -52,34 +54,34 @@ The video below shows the setup, and the three glider runs. Use the timer on the
 :::
 
 
-The following video shows the experiment:
+ The following video shows the experiment. The glider will be released three times, each time with a different mass. The angle of the air track will be constant across the three runs.
 
 :::Figure:Video
 !(https://www.youtube.com/watch?v=fySOUp9J6BU)
 :::
 
+2.  Use the spring scale shown in the video to measure the force, $$F$$, along the track for each mass. Record the force values in your table. 
+We release the glider from the top of the track, and record the time for the glider to travel from the start (indicated by a red marker on the video) to when it hits the elastic bumper at the bottom end of the track (indicated by a second red marker on the video). 
 2. For each run, use the kinematics you learned earlier in the quarter to calculate the acceleration from your measured values of $L$ and  $t$ (Hint: Use $$x=x_0+v_ot+\frac{1}{2} a t^2$$, where $$x$$ is the coordinate along the air track).
 
 ::: Question
-a) Does changing the mass affect the acceleration? 
+a. Does changing the mass of the glider affect the acceleration? 
 
-b) What is the average acceleration you find for this particular incline?
+b. What is the average acceleration you find (across the three runs) for this particular incline?
 :::
 
-3. Using the height b, leg span, D, and some trigonometry, determine the angle $\theta$.
+3. Using the height b, leg span, D, and some trigonometry, determine $\sin{\theta}$.
 4. The acceleration along the track is the component of the acceleration due to gravity, $$g$$, along the track. The accepted value (to two sig figs) of $g=9.8$ m/s$^2$.
-Calculate the glider's acceleration $$a$$ from the value of $$g$$ and $$\theta$$.
+Calculate the glider's acceleration $$a$$ from the value of $$g$$ and $$\sin{\theta}$$.
 
 ::: Question
 Find the percent discrepancy between the acceleration $$a$$ you found by trigonometry and the average acceleration you found from kinematics.
 :::
-5. Now, from the data in your table, plot force vs. mass.
+5. Now, from the data in your table, plot force vs. mass. The plot should be linear. Find and plot the line of best fit.
 
 
 ::: Question
-a) Does the plot appear to be linear? 
-
-b) How does the force depend on mass? Calculate the slope and compare it to your theoretical acceleration. 
+What  is the slope of the line of best fit? Compare it to your theoretical acceleration. 
 :::
 
 :::
@@ -88,55 +90,8 @@ b) How does the force depend on mass? Calculate the slope and compare it to your
 ####
 
 
-
 :::Exercise
-We will now repeat one of the runs from Exercise 1, but this time we will use a range finder to follow the motion of the glider as it travels down the track and then bounces back up to the top. The range finder will periodically measure the distance of the glider from the top of the track, so that at the end of the run, we will have a set of data points that give position versus time. We will keep the track at the same angle as before. We can see this setup in Figure 2.
-
-:::Figure:Figure
-![](imgs/Figure_1_final.jpg)
-:::
-
-We will use data points taken from when the glider bounces off the bumper at the bottom of the track to when it next returns to the bumper.
-
-In order to use the range finder, we must attach a reflector plate to the glider. The mass of the glider with the plate attached is 188.9 g.
-
-The following video shows the experiment:
-
-:::Figure:Video
-!(https://www.youtube.com/watch?v=z-PokGivDFo)
-:::
-
-We now have a set of position-versus-time data. The positions are the distance $L$ in Figure 2.
-
-:::Figure:Table
-
-| Rangefinder Data Set | 
-| -------- | 
-| [Link to Google Sheet](https://docs.google.com/spreadsheets/d/1a-sF2TCUFwAACT4HZA4xuvlW5xBqKbF-gQUyl16__Uc)    | 
-
-:::
-
-1. Copy the data linked in Table 2 into separate spreadsheet.
-
-2. Take the data points provided, from maximum position to maximum position (the trip from the bumper, up the track and back to the bumper), and make a graph of position vs. time. 
-
-::: Question 
-What shape does the position-vs.-time plot have?
-:::
-
-Remember from kinematics that the position-vs.-time plot is a parabola that obeys the equation $$x=x_0+v_0t+\frac{1}{2}at^2$$. As you did in the lab on free-fall motion, fit your data to the quadratic equation just mentioned.  (Hint: Look over the free fall lab to refresh your knowledge.)
-:::Question
-a) What are the numerical values of the three coefficients of the equation? 
-
-b) What value can you assign to the acceleration of the glider? 
-
-c) Does this value of the acceleration agree with the ones you found in Exercise 1?
-:::
-
-:::
-
-:::Exercise
-In this exercise we want to explore how the acceleration $$a$$ of the glider relates to the force $$F$$ exerted on it. Thus, we will keep the mass of the glider constant, and we will take four runs, each with the track at a different angle. As we did before, we will measure the force on the cart before each run.
+In this exercise we want to explore how the acceleration $$a$$ of the glider relates to the force $$F$$ exerted on it. Thus, we will keep the mass of the glider constant, and we will take four runs, each with the track at a different angle. The different incline angles will generate different accelerations along the track. As we did before, we will measure the force on the cart before each run.
 
 For each set of four runs, the heights $b$ will be, in order, 3.7 cm, 2.0 cm 1.0 cm, and 0.5 cm.
 
@@ -161,16 +116,14 @@ The following video shows the experiment:
 :::
 
 
-2. Now, with the data from your table, make a plot of force versus acceleration.
+2. Now, with the data from your table, make a plot of force versus acceleration. The plot should look linear. FInd an plot the line of best fit.
 
 :::Question 
-a) Does this plot look linear?
-
-b) How does force depend on acceleration? Determine the slope for the graph and compare it to the mass.
+What is the slope of the line of best fit? Compare the slope to the mass of the glider.
 :::
 
 :::Question
-Using your answers from Questions 4b) and 7b) write an equation that relates force to both mass $$m$$ and acceleration $$a$$. Clearly explain how you arrived at this equation.
+Using your answers from Questions 3 and 4 write an equation that relates force to both mass $$m$$ and acceleration $$a$$. Clearly explain how you arrived at this equation.
 :::
 
 
@@ -227,11 +180,11 @@ We now have a set of position-versus-time data. The positions are the distance $
 
 1. **Copy the data linked in Table 4 into separate spreadsheet**. You will have to go to the second sheet named &ldquo;Exercise 4 Rangefinder Data&rdquo; (See the tab at the bottom of the Google Sheet web page). Take note of the height b and the mass of the glider with reflector plate given above.
 
-2. Use the data in your table to plot the position and velocity of the glider. (Hint: You can do this using the same method you used to plot in the previous lab)
+<!-- 2. Use the data in your table to plot the position and velocity of the glider. (Hint: You can do this using the same method you used to plot in the previous lab) -->
 
-3. By means of the mathematical formulas provided, you can use these to calculate the height, potential energy, kinetic energy, and total energy (PE + KE) of the glider for each point you record. Do this to fill in the rest of the table.
+2. By means of the mathematical formulas provided, you can use these to calculate the height, potential energy, kinetic energy, and total energy (PE + KE) of the glider for each point you record. Do this to fill in the rest of the table.
 
-4. Plot the potential energy, kinetic energy, and total energy as a function of time.  
+3. Plot the potential energy, kinetic energy, and total energy as a function of time.  
 
 ::: Question 
 a) Where is the glider when its (gravitational) potential energy is maximum? 
@@ -239,12 +192,14 @@ a) Where is the glider when its (gravitational) potential energy is maximum?
 b) Where is it when its kinetic energy is a maximum? 
 
 c) Where is it when its kinetic energy is a minimum?
+:::
+::: Question
 
-d) Do your data support the Law of Conservation of Energy? (Hint: What happens to the sum of potential and kinetic energy over the course of the experiment?)
+a) Do your data support the Law of Conservation of Energy? (Hint: What happens to the sum of potential and kinetic energy over the course of the experiment?)
 
-e) When the glider hits the rubber band, what are the kinetic and potential energies right when the glider changes direction? 
+b) When the glider hits and stretches the rubber band, what are the kinetic and potential energies right when the glider changes direction? 
 
-f) Where did the energy from part e) go?
+c) Where did the energy from part e) go?
 :::
 :::
 
@@ -285,3 +240,52 @@ $$
 $$
 
 On the air track, the distance D is 100 cm. The distance L that you will get from the range finder data is the distance from the bottom of the track to the glider. 
+
+
+<!--
+:::Exercise
+We will now repeat one of the runs from Exercise 1, but this time we will use a range finder to follow the motion of the glider as it travels down the track and then bounces back up to the top. The range finder will periodically measure the distance of the glider from the top of the track, so that at the end of the run, we will have a set of data points that give position versus time. We will keep the track at the same angle as before. We can see this setup in Figure 2.
+
+:::Figure:Figure
+![](imgs/Figure_1_final.jpg)
+:::
+
+We will use data points taken from when the glider bounces off the bumper at the bottom of the track to when it next returns to the bumper.
+
+In order to use the range finder, we must attach a reflector plate to the glider. The mass of the glider with the plate attached is 188.9 g.
+
+The following video shows the experiment:
+
+:::Figure:Video
+!(https://www.youtube.com/watch?v=z-PokGivDFo)
+:::
+
+We now have a set of position-versus-time data. The positions are the distance $L$ in Figure 2.
+
+:::Figure:Table
+
+| Rangefinder Data Set | 
+| -------- | 
+| [Link to Google Sheet](https://docs.google.com/spreadsheets/d/1a-sF2TCUFwAACT4HZA4xuvlW5xBqKbF-gQUyl16__Uc)    | 
+
+:::
+
+1. Copy the data linked in Table 2 into separate spreadsheet.
+
+2. Take the data points provided, from maximum position to maximum position (the trip from the bumper, up the track and back to the bumper), and make a graph of position vs. time. 
+
+::: Question 
+What shape does the position-vs.-time plot have?
+:::
+
+Remember from kinematics that the position-vs.-time plot is a parabola that obeys the equation $$x=x_0+v_0t+\frac{1}{2}at^2$$. As you did in the lab on free-fall motion, fit your data to the quadratic equation just mentioned.  (Hint: Look over the free fall lab to refresh your knowledge.)
+:::Question
+a) What are the numerical values of the three coefficients of the equation? 
+
+b) What value can you assign to the acceleration of the glider? 
+
+c) Does this value of the acceleration agree with the ones you found in Exercise 1?
+:::
+
+:::
+-->
