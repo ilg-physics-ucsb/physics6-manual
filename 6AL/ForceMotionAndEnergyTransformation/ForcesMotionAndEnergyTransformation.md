@@ -93,7 +93,7 @@ b) How does the force depend on mass? Calculate the slope and compare it to your
 We will now repeat one of the runs from Exercise 1, but this time we will use a range finder to follow the motion of the glider as it travels down the track and then bounces back up to the top. The range finder will periodically measure the distance of the glider from the top of the track, so that at the end of the run, we will have a set of data points that give position versus time. We will keep the track at the same angle as before. We can see this setup in Figure 2.
 
 :::Figure:Figure
-![](imgs/Figure_1_final.jpg)
+![](imgs/Figure_1_final.png)
 :::
 
 We will use data points taken from when the glider bounces off the bumper at the bottom of the track to when it next returns to the bumper.
