@@ -125,7 +125,7 @@ Video 2 shows the construction of the circuit in Figure 1.
 <!-- Video 2 -->
 
 :::Figure:Video
-!(https://drive.google.com/file/d/1spIVVLwf91ttcWmOEWQTQb57msLAta-E)
+!(https://www.youtube.com/watch?v=6uP-mirlYSo)
 :::
 
 :::Note
@@ -139,7 +139,7 @@ Video 2 shows the construction of the circuit in Figure 1.
 <!-- Video 3: Voltage sweep -->
 
 :::Figure:Video 
-!(https://drive.google.com/file/d/1nVjP41ZKt6C7EgT5SCn55EhqAzNzgAQp)
+!(https://www.youtube.com/watch?v=y6ZEXgQUqes)
 :::
 
 Video 3 shows the circuit from Figure 1 and Video 2, with the voltage from the power supply being slowly changed from 0 volts to 20 volts.
@@ -231,7 +231,7 @@ Figure 2, in the next exercise, shows a circuit with two resistors connected in 
 <!-- Video 4: Two Series Resistors -->
 
 :::Figure:Video
-!(https://drive.google.com/file/d/1Ul_S7augc2rNcOdlW4qVHDynu2bJ9RHe)
+!(https://www.youtube.com/watch?v=6Kj52kXYTyw)
 :::
 
 Video 4 shows the circuit in Figure 2, with the voltage across the pair of resistors being changed slowly from 0 to 20 volts.
@@ -276,7 +276,7 @@ In this circuit, the resistors sit next to each other with common points at each
 <!-- Video 6: Two in Parallel -->
 
 :::Figure:Video
-!(https://drive.google.com/file/d/1oZ8NXwqN_JdITnuXtNXGx_6Hy-Smr6IF)
+!(https://www.youtube.com/watch?v=8JM-5cI3zhM)
 :::
 
 Video 5 shows the circuit in Figure 3, with the voltage across the pair of resistors being changed slowly from 0 to 20 volts. 
@@ -315,7 +315,7 @@ c) What does your answer to a) or b) indicate about the total resistance of a pa
 <!-- Video 7: Three in Parallel -->
 
 :::Figure:Video
-!(https://drive.google.com/file/d/1L7qFZ-qIAhmla9i1eBBvtm_MUqHG8liZ)
+!(https://www.youtube.com/watch?v=P-kIiMwo7s0)
 :::
 
 Video 6 shows the circuit in Figure 4, with the voltage across the set of three parallel resistors being changed slowly from 0 to 20 volts.. 
