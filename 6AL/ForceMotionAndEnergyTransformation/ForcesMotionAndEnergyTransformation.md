@@ -166,7 +166,7 @@ The total energy in a closed system remains *constant*.
 The figure below shows the setup we will use for this part of the lab.  We measure the position and velocity of the glider by means of a rangefinder.  We will denote the position of the glider along the track with $x$ and the velocity $v$. Note that the position and velocity change with time as the glider moves along the track. We will set the x-axis to be along the track (with the positive direction up the track), and our origin $x=0$ at the bottom of the track.
 
 :::Figure:Figure
-![](imgs/Figure_1_final.jpg)
+![](imgs/Figure_1_final.png)
 :::
 
 ::: Exercise 
