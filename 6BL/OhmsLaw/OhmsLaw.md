@@ -10,9 +10,9 @@
 During the dawn of the age of electricity, an investigator named Georg Simon Ohm examined the relationship between an applied voltage and the resulting current in a conducting material. He found that for a given conductor the current in the wire was directly proportional to the voltage across it. When current (dependent axis) is plotted against the voltage (independent axis) across a given conductor, the data form a straight line. The reciprocal of the slope is the resistance of the conductor. This result was published in 1826. In recognition of Ohm’s work, this empirical relationship bears his name (Ohm&rsquo;s Law), as does the unit of resistance, the ohm, which is also symbolized by $\Omega$.
 
 
-:::Figure:Video
+<!-- :::Figure:Video
 !(https://drive.google.com/file/d/13abGEHjGPAlNlA72gHoU2hptcdmXS3Zs)
-:::
+::: -->
 
 
 ## PART 1: Understanding Circuits and Resistance
@@ -146,17 +146,16 @@ Video 3 shows the circuit from Figure 1 and Video 2, with the voltage from the p
 
 **Note:** The voltmeter measures the voltage across the resistor **in units of volts** . The ammeter measures the amount of current flowing through the resistor **in units of milliamperes**.
 
-2. Watch Video 3. As the voltage changes, you should make the video pause, and record the voltage and corresponding current for 10 data points. You should take measurements approximately every 2 volts. They do not, however, need to be exactly 2 volts apart, as long as the data points are fairly well spaced out.
-3. Neatly tabulate your data, then plot your data with current on the *x*-axis and voltage on the *y*-axis.
+2. Watch Video 3. As the voltage changes, you should pause the video pause, and record the voltage and corresponding current for 10 data points. You should take measurements approximately every 2 volts. They do not, however, need to be exactly 2 volts apart, as long as the data points are fairly well spaced out.
+3. Neatly tabulate your data, then plot your data with current on the *x*-axis and voltage on the *y*-axis. Find and plot the line of best fit.
 
 ::: Question
-a) Is the plot linear or almost linear?
 
-b) What is the value of the slope of this line? Use units. Note the equivalence volts/amperes = ohms.
+a. What is the value of the slope of this line? Use units. Note the equivalence volts/amperes = ohms.
 
-c) What is the physical meaning of the slope? Note the units.
+b. What is the physical meaning of the slope? Note the units.
 
-d) Compare this value to the known resistor value of 2,200 $\Omega$.
+c. Compare the value of the slope to the known resistor value of 2,200 $\Omega$.
 :::
 :::
 
@@ -172,7 +171,7 @@ In this exercise you will use the technique from Exercise 2 to find the value of
 :::Figure:Video 
 !(https://drive.google.com/file/d/1Q75MGxrg3S-SQ_HeVW3edIktECPdj88C)
 :::
-1. Watch Video 4. As the  voltage changes, make the video pause, and record the voltage and corresponding current for 10 data points. You should take measurements approximately every 2 volts. They do not, however, need to be exactly 2 volts apart, as long as the data points are fairly well spaced out.
+1. Watch Video 4. As the  voltage changes, pause the video, and record the voltage and corresponding current for 10 data points. You should take measurements approximately every 2 volts. They do not, however, need to be exactly 2 volts apart, as long as the data points are fairly well spaced out.
 2. Neatly tabulate your data, then plot your data with current on the *x*-axis and voltage on the *y*-axis.
 
 ::: Question
@@ -240,15 +239,13 @@ Video 4 shows the circuit in Figure 2, with the voltage across the pair of resis
 
 2. Watch Video 4. For this exercise, we have taken the data, which we will provide to you.  You should watch the video, however, to see how the current changes with the applied voltage, as compared to the way it did in the last video.
 <!--
-As the  voltage changes, make the video pause, and record the voltage and corresponding current for 10 data points. You should take measurements approximately every 2 volts. They do not, however, need to be exactly 2 volts apart, as long as the data points are fairly well spaced out.-->
-3. Open the spreadsheet at this [link](https://docs.google.com/spreadsheets/d/1yo4mQZohXVGUwLKSBgQCl_pjaHFre1qS7MCPDOokjRc/edit?usp=sharing) to get your data. Copy them to whatever spreadsheet program you prefer, and then plot them with current on the *x*-axis and voltage on the *y*-axis.
+As the  voltage changes, pause the video, and record the voltage and corresponding current for 10 data points. You should take measurements approximately every 2 volts. They do not, however, need to be exactly 2 volts apart, as long as the data points are fairly well spaced out.-->
+3. Open the spreadsheet at this [link](https://docs.google.com/spreadsheets/d/1yo4mQZohXVGUwLKSBgQCl_pjaHFre1qS7MCPDOokjRc/edit?usp=sharing) to get your data. Copy them to whatever spreadsheet program you prefer, and then plot them with current on the *x*-axis and voltage on the *y*-axis. Find and plot the line of best fit.
 
 ::: Question
-a) For each data point, roughly how much did the current change from that of the previous point, compared to the results in Exercise 2? **Note:** Your answer to this does not need to be precise.
+a. What is the slope of the line of your plot? Use units.
 
-b) What is the slope of the line of your plot? Use units.
-
-c) Compare the slope with the values of the individual resistors. What can you say about the equivalent resistance of resistors in series, in comparison to that of a single resistor?
+b. Compare the slope with the values of the individual resistors. What can you say about the equivalent resistance of resistors in series, in comparison to that of a single resistor?
 :::
 :::
 
@@ -299,11 +296,10 @@ a) If you took only one data point, use Ohm&rsquo;s Law to calculate the resista
 
 b) If you took and plotted multiple points:
 -->
-a) For each data point, roughly how much did the current change from that of the previous point, compared to the results in Exercise 2? **Note:** Your answer to this does not need to be precise.
 
-b) What is the resistance you calculate from the slope of your plot?
+a. What is the resistance you calculate from the slope of your plot?
 	 
-c) What does your answer to a) or b) indicate about the total resistance of a parallel circuit with two resistors, compared to the resistance of the circuit with a single resistor in Exercise 2?
+b. What does your answer indicate about the total resistance of a parallel circuit with two resistors, compared to the resistance of the circuit with a single resistor?
 :::
 
 4. Now Examine the circuit shown in Figure 4. Three resistors of resistance **R** $=2,200\ \Omega$, connected in parallel, are connected in series with the ammeter and the 0–20 volt power supply. The voltmeter is connected across the resistors to measure the voltage drop. The ammeter is in series with the circuit and measures total current in the circuit. There are now three paths for the current to take.
@@ -325,10 +321,10 @@ Video 6 shows the circuit in Figure 4, with the voltage across the set of three 
 5. Watch Video 6. As we did for the previous two exercises, we will provide you with data that we took. You should watch the video to see how the current changes with the applied voltage, as compared to the way it did in the previous experiment.
 <!--
 As the voltage changes, make the video pause, and record the voltage and corresponding current for 10 data points. As noted above, you need not collect 10 points. Just pick a convenient place to freeze the video, and take a point.
-
-6. If you did decide to take 10 points, neatly tabulate your data, then plot them with current on the *x*-axis and voltage on the *y*-axis.
 -->
-6. Open the spreadsheet at this [link](https://docs.google.com/spreadsheets/d/1o2fZd6anXc9pIRaiSfBb0VD_9NnsVqA8wH5CUwHExfE/edit?usp=sharing) to get your data. Copy them to whatever spreadsheet program you prefer, and then plot them with current on the *x*-axis and voltage on the *y*-axis.
+<!-- 6. If you did decide to take 10 points, neatly tabulate your data, then plot them with current on the *x*-axis and voltage on the *y*-axis.
+-->
+6. Open the spreadsheet at this [link](https://docs.google.com/spreadsheets/d/1o2fZd6anXc9pIRaiSfBb0VD_9NnsVqA8wH5CUwHExfE/edit?usp=sharing) to get your data. Copy them to whatever spreadsheet program you prefer, and then plot them with current on the *x*-axis and voltage on the *y*-axis. Find and plot the line of best fit.
 
 ::: Question
 <!--
@@ -336,11 +332,10 @@ a) If you took only one data point, use Ohm&rsquo;s Law to calculate the resista
 
 b) If you took and plotted multiple points:
 -->
-a) For each data point, roughly how much did the current change from that of the previous point, compared to your results in Exercise 2 and Question 4? **Note:** Your answer to this does not need to be precise.
 
-b) What is the resistance you calculate from the slope of your plot?
+a. What is the resistance you calculate from the slope of your plot?
 	 
-c) What does your answer to a) or b) indicate about the total resistance of a parallel circuit with three resistors, compared to the resistance of the circuit with a single resistor in Exercise 2?
+b. What does your answer indicate about the total resistance of a parallel circuit with three resistors, compared to the resistance of the circuit with a single resistor?
 
 :::
 :::
@@ -357,6 +352,13 @@ $$
 
 We see that when resistors are in parallel, their resistances add reciprocally. So the more resistors we add, the lower the total resistance becomes.
 
+::: Question
+If we had three resistors, each of 1.0 kΩ, how could we connect them such that the equivalent resistance of the combination is 1.5 kΩ? Draw a schematic of the three resistors.
+
+Hint: Start by thinking about what values the simplest resistor combinations would yield. 
+:::
+
+
 <!-- ::: Question
 a) What is the equivalent resistance of a parallel network of 2.2 kΩ, 3.1 kΩ and 6.7 kΩ?
 b) A 2.2-kΩ resistor is placed in series with 1.7-kΩ and 2.6-kΩ resistors in parallel. The entire circuit is driven by 18 V. What is the voltage across each element? What is the current through each element?
@@ -365,7 +367,7 @@ b) A 2.2-kΩ resistor is placed in series with 1.7-kΩ and 2.6-kΩ resistors in 
 
 ::: -->
 
-## Part 5: Advanced Circuit Analysis
+<!-- ## Part 5: Advanced Circuit Analysis
 
 Now that you have seen both series and parallel circuits, you will be using a simulation to look at advanced circuits. 
 
@@ -376,11 +378,11 @@ Here you will use a simulation to expand on what you have learned so far about b
 Video 8 is a brief overview of the simulation and how it works.
 
 <!-- Video for using the DC PhET -->
-:::Figure:Video 
+<!-- :::Figure:Video 
 !(https://drive.google.com/file/d/1mMkStu23L28fPTbcnl4XQlUa_WRk4IU_)
-:::
+::: -->
 
-::: Exercise
+<!-- ::: Exercise
 
 In this exercise your objective is to build a circuit with a resistance of 1.5 k&Omega;. You have available, however, only 1-k&Omega; resistors. You can accomplish this by using the equivalent resistance equations for both series and parallel, to arrange some of the 1-k&Omega; resistors so that their overall resistance equals 1.5 k&Omega;.
 
@@ -402,7 +404,8 @@ a) What is the least number of resistors you need to make your circuit work?
 b) What is the configuration of this circuit? (You should include a screenshot of your circuit, but please describe it in words.)
 :::
 
-:::
+::: -->
+
 
 :::Note
 You probably noticed that for each experiment, the change in current that a particular change in voltage produced, &Delta;*V*/&Delta;*I*, which equals *R*, was constant over the range of voltages applied to the circuit. That is, the circuits obeyed Ohm&rsquo;s law for all applied voltages. For this reason, resistors are often said to exhibit *ohmic* resistance.
