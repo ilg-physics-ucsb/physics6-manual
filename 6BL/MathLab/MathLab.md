@@ -225,7 +225,7 @@ $T=(K)^{(1/i)} a^{(j/i)}$
 :::
 to determine the simplest (*i.e.*, smallest) possible integers $i$ and $j$ consistent with your fit, and write down Equation 6 with these integers.
 
-b. Given these values of $i$ and $j$, determine $K$  (Remember: $k=(K)^{(1/j)}$. Again, if your answer looks too simple, don&rsquo;t panic.  It&rsquo;s probably right!)
+b. Given these values of $i$ and $j$, determine $K$  (Remember: $k=(K)^{(1/i)}$. Again, if your answer looks too simple, don&rsquo;t panic.  It&rsquo;s probably right!)
 :::
 
 ## 6. UNITS
