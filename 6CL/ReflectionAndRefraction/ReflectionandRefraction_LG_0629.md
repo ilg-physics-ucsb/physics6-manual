@@ -305,7 +305,10 @@ The goal of this exercise is to trace the path that light takes from the object 
 !(https://drive.google.com/file/d/1_bQA4djbphWCM3i5XS_J_mjxz-JzfISX)
 :::
 
-Now you have seen a video of the all of the rays being marked. What&rsquo;s left to do is to trace the points into a diagram similar to what was in Simulation 3. Below is a link to an image paper that was created in the video. You will take that image and perform a ray trace.
+Now you have seen a video of the all of the rays being marked. What&rsquo;s left to do is to trace the points into a diagram similar to what was in Simulation 3. Depending on what materials you have available, you can choose from one of the following two methods:
+
+### Method 1: Using Geogebra
+Below is a link to an image paper that was created in the video. You will take that image and perform a ray trace.
 
 <!-- ***Procedure for Plane Mirror Ray Tracing:***
 
@@ -334,6 +337,17 @@ iv. Draw another line from the rays intersection point back to the object. -->
 4. Also include the distance from the object to the mirror and the image to the mirror.
 
 5. Take a screenshot of your ray tracing and include it in your lab report.
+
+
+### Method 2: Printing/Tracing and using a protractor
+In this version, you will either print or trace the image and use a protractor to measure the ray tracing angles
+1. Either print or trace [this image](https://drive.google.com/a/ucsb.edu/file/d/1GzSUSF4hoYAaT_hoSxRW_6ryHqxU8JVd/view?usp=sharing) onto a sheet of paper. If tracing, hold a sheet of paper over your screen and gently trace the markings with a pencil. DO NOT APPLY PRESSURE to your screen. If needed, go over the markings a second time on your table.
+2. Complete the ray tracing by hand using a ruler
+3. Measure the angles with a protractor. Make sure to measure the incident and reflected angles for both rays. If you do not own a protractor you may print or trace [this one](imgs/protractor.gif). Alternatively, you can hold the paper with your ray tracing up to the screen, over the protractor image, to measure the angles.
+
+4. Also include the distance from the object to the mirror and the image to the mirror, which you  may find using a ruler.
+
+5. Take a picture/scan of your ray tracing and include it in your lab report.
 
 :::Question
 How does the object distance compare to the image distance? In ideal conditions, how should they compare?
