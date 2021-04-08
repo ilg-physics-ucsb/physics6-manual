@@ -31,7 +31,7 @@ When a light ray encounters a boundary between two materials, it experiences a c
 
 
 :::Figure:Figure
-![Figure 1](imgs/fig1_1.JPG)
+![Figure 1](imgs/fig1_1.jpg)
 :::
 The figure above shows beams of light being emitted from the blue semicircle at the bottom left. The rays travel through a medium having an index of refraction of $n_1$, towards the interface of that medium with a second medium having an index of refraction of $n_2$. The beams in the lower region are the *incident* beams. The beams in the upper region are the *refracted* beams. When light reaches the interface, some of it is reflected back into the first medium, but most of it is refracted into the second medium. Note that two of the exiting beams, B and C, are bent (*refracted*) away from the normal. This figure could represent light coming from water and going into air. When a beam is perpendicular to the interface boundary, as is beam A, it is said to be *normal* to the interface. Normal rays are undeflected. 
 
@@ -352,7 +352,7 @@ iii. Draw a line from the viewer to the image
 iv. Draw another line from the rays intersection point back to the object. -->
 
 
-1. Take [this image](imgs/geogebra.PNG) and go to the website [GeoGebra](click this link to go to the started ray trace https://www.geogebra.org/geometry/n6jx7jug)
+1. Take [this image](imgs/geogebra.png) and go to the website [GeoGebra (click this link to go to the started ray trace)](https://www.geogebra.org/geometry/n6jx7jug)
 
 2. For a guide on how to use the tools in GeoGebra and perform the ray trace, watch the video below.
 
@@ -370,7 +370,7 @@ iv. Draw another line from the rays intersection point back to the object. -->
 
 ### Method 2: Printing/Tracing and using a protractor
 In this version, you will either print or trace the image and use a protractor to measure the ray tracing angles
-1. Either print or trace [this image](/imgs/geogebra,png) onto a sheet of paper. If tracing, hold a sheet of paper over your screen and gently trace the markings with a pencil. DO NOT APPLY PRESSURE to your screen. If needed, go over the markings a second time on your table.
+1. Either print or trace [this image](imgs/geogebra.png) onto a sheet of paper. If tracing, hold a sheet of paper over your screen and gently trace the markings with a pencil. DO NOT APPLY PRESSURE to your screen. If needed, go over the markings a second time on your table.
 2. Complete the ray tracing by hand using a ruler
 3. Measure the angles with a protractor. Make sure to measure the incident and reflected angles for both rays. If you do not own a protractor you may print or trace [this one](imgs/protractor.gif). Alternatively, you can hold the paper with your ray tracing up to the screen, over the protractor image, to measure the angles.
 
