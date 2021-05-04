@@ -371,7 +371,7 @@ In this exercise you will be guided through filling out the data template provid
 
 1. The linear density, $\mu$ (mass/length) is given in grams/meter. For the string we are using, the linear mass density is 3.0 g/m. **This is the same for all three systems**
 2. The length of the string is about 1.70 m.
-3. The mass for the baseline measurement will be 400 g.
+3. The mass for the baseline measurement will be 400.0 g.
 4. Record these data in a table labeled, &ldquo;Constant Values.&rdquo; This table should have column headers: System #, Linear Densisty (kg/m), Length (m), Mass (kg), Tension (N), Velocity (m/s), Fundamental Frequency (Hz); and row headers: System 1, System 2, and System 3. Record your systems&rsquo; values here as you proceed with part two of this lab. 
 
 :::Note
@@ -427,7 +427,9 @@ Now we will begin taking data points with System 1.
 
 1. Use the table labeled "System 1" in the template to record your data.
 
-2. Video 2 shows a sweep through frequencies with System 1. Watch the video and determine the frequency at which you see one standing wave segment. Record the frequency for the standing wave with one segment in your table.
+2. Video 1 shows a sweep through frequencies with System 1. Watch the video and determine the frequency at which you see one standing wave segment. Record the frequency for the standing wave with one segment in your table.
+
+3. Continue watching Video 1 and repeat Step 2 for standing waves of two, three, four and five segments.
 
 <!--- ::: Question
 a. Now calculate the speed from the wavelength ($\lambda$) and frequency ($f$). Denote this $v_{\lambda f}$. Use the equation $v_{\lambda f} = f \lambda$. Use Equation 3 to calculate the wavelength. Record this in the System 1 table you just made. Show your work. -->
@@ -436,7 +438,7 @@ a. Now calculate the speed from the wavelength ($\lambda$) and frequency ($f$). 
 <!--- :::-- >
 
 
-3. Continue watching Video 2 and repeat Step 2 for standing waves of two, three, four and five segments.
+
 
 :::
 <!-- End Exercise -->
@@ -445,7 +447,7 @@ a. Now calculate the speed from the wavelength ($\lambda$) and frequency ($f$). 
 
 This exercise uses a new setup called System 2. This will have the **same length as System 1**, but will have **half the hanging mass**.
 
-1. The mass for System 2 is 200 g. 
+1. The mass for System 2 is 200.0 g. 
 <!-- 1) Measure the mass for System 2 using Image 2 below.
 
 <!-- Image 2 ![Image 2](imgs/Figure5_Nodes.jpg){width=100% height=600px}
@@ -459,7 +461,7 @@ This exercise uses a new setup called System 2. This will have the **same length
 !(https://www.youtube.com/embed/PHV0RSShpgI)
 :::
 
-3. Just as you did for System 1, go through Video 3 and find the frequencies for each number of standing wave segments. Fill out your System 2 table accordingly. You should be able to go up to at least five segments.
+3. Just as you did for System 1, go through Video 2 and find the frequencies for each number of standing wave segments. Fill out your System 2 table accordingly. You should be able to go up to at least five segments.
 :::
 <!-- End of Exercise -->
 
@@ -482,7 +484,7 @@ This exercise uses a new setup called System 3. This will have the **same mass a
 !(https://www.youtube.com/embed/wiNSBAKnoLc)
 :::
 
-3. Just as you did for Systems 1 and 2, go through Video 4 and find the frequencies for each number of standing wave segments. Fill out your System 3 table accordingly. You should just barely be able to get five segments. 
+3. Just as you did for Systems 1 and 2, go through Video 3 and find the frequencies for each number of standing wave segments. Fill out your System 3 table accordingly. You should just barely be able to get five segments. 
 :::
 
 ### Analysis
@@ -495,15 +497,15 @@ In this exercise we will now analyze the three systems and compare and contrast 
 
 
 :::Question
-a.  How does halving the length change the fundamental? Find the ratio of the fundamental frequency of System 2 to that of System 1.
+a.  How does halving the mass change the fundamental? Find the ratio of the fundamental frequency of System 2 to that of System 1.
 
 b. What would you expect the ratio in the previous part to be from the theory? 
 Remember that the frequency of the fundamental is  $f_1= \frac{1}{2L}\sqrt{\frac{T}{\mu}}$. 
 :::
 ::: Question
-a. Find the ratio of the fundamental frequency of System 3 to that of System 1. How does halving the mass change the fundamental?
+a. How does halving the length change the fundamental? Find the ratio of the fundamental frequency of System 3 to that of System 1. 
 
-b. What would you expect the ratio in the previous part to be given the theory?
+b. What would you expect the ratio in the previous part to be given the theory? Remember that the frequency of the fundamental is  $f_1= \frac{1}{2L}\sqrt{\frac{T}{\mu}}$. 
 
 :::Note
 The mass we are referring to in this question is the hanging mass, which determines the tension in the string.
@@ -513,9 +515,9 @@ The mass we are referring to in this question is the hanging mass, which determi
 2) For all three systems, we expect the harmonics to be multiples of the fundamental frequency. 
 
 :::Question
-a. Find the ratios of the  upper harmonic frequencies to the frequency of the fundamental for all three systems.
+a. Find the ratios of the upper harmonic frequencies to the frequency of the fundamental for all three systems. This should give you a list of at least 12 numbers, depending on how many harmonic frequencies you found.
 
-b. Does halving the length or halving the tension (mass) change the relationship between the upper harmonics and the fundamental? Explain.
+b. Does halving the length or halving the tension (mass) change the relationship (ratio) between the upper harmonics and the fundamental? Explain.
 :::
 
 3) Plot  your measured harmonic frequencies, $f_n$, versus the number of segments, $n$, for each system. It is more informative if you add all the three plots on one graph, in different colors, but you can also make three different graphs.
@@ -536,9 +538,9 @@ $$
 ::: Question
 a. From Equation 5, what is slope of your $f_n$ vs. $n$ graph in terms of $T$, $\mu$, and $L$?
 
-b. What are the units of the slope, and what physical meaning does it have? Hint: Read the theory around Equation 5 again.
+b. What are the units of the slope, and what physical meaning does it have? Hint: To find the physical meaning, read the theory behind Equation 5 again.
 
-c. For each system, compare the value of the slope of your plot to the fundamental frequency  observed  in the videos by calculating the percent discrepancy between the two.
+c. For each system, compare the value of the slope of your plot (for that system) to the fundamental frequency  observed  in the videos (of the corresponding system) by calculating the percent difference between the two values.
 :::
 
 <!-- We have previously given you the value of the linear mass density ($\mu$), but you can check our value by using the slope from Equation 5. 
