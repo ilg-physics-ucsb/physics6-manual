@@ -53,9 +53,9 @@ Image from  [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/sli
 
 :::
 
-Figure 2A shows us all the meaningful variables: $y$ is the position on the screen as measured from its center, $D$ is the distance between the slits and the screen, $\theta$ is the angle at which the light leaves the slits to get to position $y$ on the screen, $d$ is the separation between the two slits, and $a$ is the slit width. We label which intensity maxima (bright spots) we are talking about with the letter $m$. We call the one in the center of the screen $0$. Then to one side of $0$ we label the positions of the maxima with positive numbers in increasing order away from $0$ (1, 2, 3, etc.), and on the other side with negative numbers in decreasing order away from $0$ (-1, -2, -3, etc). Which side we pick for which is arbitrary. 
+**Figure 2A shows us all the meaningful variables: $y$ is the position on the screen as measured from its center, $D$ is the distance between the slits and the screen, $\theta$ is the angle at which the light leaves the slits to get to position $y$ on the screen, $d$ is the separation between the two slits, and $a$ is the slit width**. We label which intensity maxima (bright spots) we are talking about with the letter $m$. We call the one in the center of the screen $0$. Then to one side of $0$ we label the positions of the maxima with positive numbers in increasing order away from $0$ (1, 2, 3, etc.), and on the other side with negative numbers in decreasing order away from $0$ (-1, -2, -3, etc). Which side we pick for which is arbitrary. 
 
-Figure 1 tells us the condition for maxima to occur, and Figure 2A gives the variables to  describe Figure 1 mathematically. We also need to know the wavelength of the light, which we will denote with $\lambda$. Thus we can describe the resulting maxima mathematically by the formula for constructive interference:
+Figure 1 tells us the condition for maxima to occur, and Figure 2A gives the variables to  describe Figure 1 mathematically. **We also need to know the wavelength of the light, which we will denote with $\lambda$**. Thus we can describe the resulting maxima mathematically by the formula for constructive interference:
 
 ::: Figure:Equation
 $$
@@ -89,12 +89,12 @@ Equation 2, and thus Equation 3, relies on $\theta$ being small. The angle $\the
 :::
 
 :::Note
-Equation 3 describes only interference phenomena but ignores diffraction.
+Equation 3 describes only interference phenomena but ignores diffraction. The assumption is that the two slits have infinitesimal width (so we can ignore it)
 :::
 
 ##### Diffraction
 
-In our discussion of interference we have ignored the effect of the slit width $a$ on the patterns observed on the screen. *Diffraction* arises when a slit has a width comparable to the wavelength of light. If we consider light passing through a single slit of width $a$, we observe only diffraction effects. If we consider light passing through two slits of width $a$. we observe both interference and diffraction effects. It is important to note that the interference results from using *two* slits, and diffraction results from the slits having a certain *width*.  When both diffraction and interference are present, such as in the case of the two slits of width $a$ shown in Figure 3, the diffraction will modulate the intereference pattern. The *diffraction envelope* causes a fading and brightening of the interference maxima.
+In our discussion of interference we have ignored the effect of the slit width $a$ on the patterns observed on the screen. *Diffraction* arises when a slit has a width comparable to the wavelength of light. If we consider light passing through a single slit of width $a$, we observe only diffraction effects. If we consider light passing through two slits of width $a$. we observe both interference and diffraction effects.** It is important to note that the interference results from using *two* slits, and diffraction results from the slits having a certain *width*.**  When both diffraction and interference are present, such as in the case of the two slits of width $a$ shown in Figure 3, the diffraction will modulate the intereference pattern. The *diffraction envelope* causes a fading and brightening of the interference maxima.
 
 ::: Figure:Figure
 ![Diffraction and interference](imgs/fig1_2.JPG)
@@ -127,9 +127,9 @@ Let&rsquo;s start by focusing only on interference.
 An important thing to notice is that that when there is no diffraction, all maxima are **equally bright and equally spaced**.  
 
 ::: Question
-a. Use Equation 3 to write a prediction for what will happen to the location of the maxima on the screen ($y_m$) when you adjust the slit separation ($d$).
+a. Use Equation 3 to predict what will happen to the location of the maxima on the screen ($y_m$) when you adjust the slit separation $d$  (i.e. what happens when we increase and decrease the slit separation).
 
-b. Use Equation 3 to write a prediction for what will happen to the location of the maxima on the screen ($y_m$) when you adjust the wavelength ($\lambda$).
+b. Use Equation 3 to predict what will happen to the location of the maxima on the screen ($y_m$) when you adjust the wavelength ($\lambda$).
 :::
 
 2. Adjust the slit separation while leaving everything else the same. Pay attention to what happens on the screen and in the intensity plot.
@@ -178,7 +178,7 @@ This is important, because if we are labeling the interference maxima (-2, -1, 0
 4. Make sure that diffraction is checked in order to see the diffraction effects.
 
 :::Question
-Based on the interference only and diffraction only part of the exercise, make a prediction about what will happen if you adjust the following parameters independently:
+Based on the interference only and diffraction only part of the exercise, predict what will happen if you adjust the following parameters independently:
 
 a. The slit width.
 
@@ -188,15 +188,11 @@ c. The wavelength (besides a change in color).
 :::
 
 ::: Question
-If you increase the slit separation, why do more peaks appear in the central diffraction envelope?
-:::
+a. If you decrease the slit width, why do more peaks appear in the central diffraction envelope?
 
-::: Question
-If you decrease the slit width, why do more peaks appear in the central diffraction envelope?
-:::
+b. If you increase the slit separation, why do more peaks appear in the central diffraction envelope?
 
-:::Question
-If you increase or decrease the wavelength, why does the number of peaks within the central diffraction envelope remain the same?
+c. If you increase or decrease the wavelength, why does the number of peaks within the central diffraction envelope remain the same?
 :::
 
 :::
@@ -222,12 +218,12 @@ $D$ is the distance between the slits and the screen. $y$ is the distance betwee
 
 :::
 
-:::Question
-What do you observe on the screen? Make a sketch of this in your notebook.
-:::
+
 
 ::: Question
-How does the pattern on the screen change when you decrease the slit separation?
+How does the pattern on the screen change when you increase the slit separation? 
+
+Note: The pattern may look tilted due to the experimental artifacts. Ignore this effect and just focus on the size of the central lobe and the number of intensity maxima inside it.
 :::
 
 ::: Question
