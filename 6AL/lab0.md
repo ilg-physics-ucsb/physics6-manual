@@ -112,14 +112,16 @@ There are two main types of errors: **Systematic** and **Random**.
 
 ## Systematic Error
 :::Card Definition Systematic Error
-**Systematic errors** are errors that arise due to the actions and choices of *experimenter*. There are two especially important kinds of systematic error that we will typically see in undergraduate courses:
+**Systematic errors** are errors that arise due to the actions and choices of the *experimenter*. There are two especially important kinds of systematic error that we will frequently see in undergraduate courses:
 
-- **Systematic error due to apparatus or measurement technique.** This would be the error you would expect if your ruler lines were inaccurate or your spectroscope was not properly calibrated.
-- **Systematic error due to an incorrect mathematical model.** This common kind of error arises from applying the wrong *model* to your *data*, e.g. calculating the area of a circle as $A=r^2$ instead of $A = \frac{\pi }{2}r^2$
+- **Systematic error due to poor apparatus or measurement technique.** This would be the error you would expect if your ruler lines were inaccurate or your spectroscope was not properly calibrated.
+- **Systematic error due to an incorrect mathematical model.** This common kind of error arises from applying the wrong *model* to your *data*, e.g. applying the equations of free fall to a feather to calculate the gravitational acceleration constant $g$, not considering the effects of air resistance.
 
 :::
 
-**Systematic errors** can arise from improper use of the measurement equipment, improper experimental techniques, or the use of an incorrect model. Systematic uncertainties are consistent between measurements: if you repeat the experiment in the same exact way, you'll get a similar error. Systematic errors are *very useful* in experimental science: the presence of a systematic error means that the experimenter can improve the experiment directly *or* that there is a fundamental problem with one or more of the physical laws being used [fn]Systematic errors are what particle physicists at CERN rely on to search for new physics beyond the Standard Model.[/fn]. 
+**Systematic errors** can arise from improper use of the measurement equipment, improper experimental techniques, or the use of an incorrect model. Systematic uncertainties are consistent between measurements: if you repeat the experiment in the same exact way, you'll get a very similar error. 
+
+Systematic errors are *very useful* in experimental science: the presence of a systematic error means that the experimenter can improve the experiment directly *or* that there is a fundamental problem with one or more of the physical laws being used [fn]for example, the appearance of systematic errors are what particle physicists at CERN rely on to search for new physics beyond the Standard Model.[/fn]. 
 
 :::Hider Systematic Error Examples
 Imagine we are characterizing the properties of a pencil. Each of the following scenarios are an example of systematic error:
@@ -140,20 +142,20 @@ We can reduce the prevalence of systematic errors in a number of ways[fn]While y
 **Random errors** arise from the intrinsic statistical randomness of the experimental apparatus, the environment, or the phenomenon being investigated. Generally the experimenter has little to no **direct** control over random error.
 :::
  
-Random Error, unlike systematic error, has little to do with the experimenter. Even if we were able to exactly replicate an experiment multiple times, we would find that the resulting measurements would differ from one another slightly. These values will be different from each other and will be randomly distributed around a mean value, which we will take to be our best estimate. Random error is much like a [Galton Box](https://en.wikipedia.org/wiki/Bean_machine): even though you start out with the same setup, since the dropped bean has a 50/50 chance of going left or right at each peg, the final outcomes differ between trials. The best we can do is repeat the experiment *many times*
+Random Error, unlike systematic error, has little to do with the experimenter. Even if we were able to exactly replicate an experiment multiple times, we would find that the resulting measurements would differ from one another slightly. These values will be different from each other and will be randomly distributed around a mean value, which we will take to be our best estimate. Random error is much like a [Galton Box](https://en.wikipedia.org/wiki/Bean_machine): even though you start out with the same setup the final outcomes differ between trials -- there is inherit randomness since the dropped bean has a 50/50 chance of going left or right at each peg,. The best we can do is repeat the experiment *many times*
 and discuss the *average* outcome.
 
 :::Hider Random Error Examples
 Imagine we are characterizing the properties of a pencil. Each of the following scenarios are an example of random error:
 
-- @fa-pencil@ If you measured the weight of the pencil on a sensitive electronic scale, you would notice that the reading in last significant fluctuates due to factors such as electronic noise, air pressure fluctuations, thermal fluctuations of the mechanical parts of the scale. 
+- @fa-pencil@ If you measured the weight of the pencil on a sensitive electronic scale, you would notice that the reading in last significant figure fluctuates due to factors such as electronic noise, air pressure fluctuations, and thermal fluctuations of the mechanical parts of the scale. 
 
 - @fa-pencil@ When measuring the pencil, it is highly unlikely that the edges of the pencil are aligned with the ruler markings, regardless of how careful you are. Each time you measure the pencils length, your resulting value will be slightly different, especially when estimating the value between tick marks on the ruler.
 
 
 :::
 
-We can't eliminate random errors [fn] This is a deep and true fact about the nature of our universe. Even in the absence of [quantum mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics), it would take an infinite number of measurements to pin down the value of a quantity to infinite precision, and hence and infinite amount of time and resource![/fn], but we can minimize them by using precise instruments and by collecting a  large data set for calculating the average of our measurements. Thus, we need to perform multiple trials by repeating the experiment several times to average out the random errors. 
+We can't eliminate random errors [fn] This is a deep and true fact about the nature of our universe. Even in the absence of [quantum mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics), it would take an infinite number of measurements to pin down the value of a quantity to infinite precision, and hence and infinite amount of time and resource![/fn], but we can minimize them by using precise instruments and by collecting a large data set for calculating the average of our measurements. Thus, we need to perform multiple trials by repeating the experiment several times to average out the random errors. 
 
 
 **Random error leads to uncertainty in our measurement.**
