@@ -24,7 +24,7 @@ In all of the lab manuals you will notice some common environments. Each environ
 
 ## Exercises
 
-:::::: Exercise
+::::::Exercise
 This is an exercise. An exercise is an encapsulated task to cover one idea or concept. Inside of an exercise, you might be asked to do different subtasks. Each of these subtasks should be included in your report. **If they are not, you will lose points**.
 
 Typical subtasks might include:
@@ -108,71 +108,43 @@ Uncertainty is unavoidable in every measurement!
 
 Error in a measurement is any deviation from the true value that is being measured. Error does not mean that you made a mistake.
 
-There are two main types of errors: **Systematic** and **Random**.
+There are two main types of errors: **systematic** and **random**:
 
-## Systematic Error
 :::Card Definition Systematic Error
-**Systematic errors** are errors that arise due to the actions and choices of *experimenter*. There are two especially important kinds of systematic error that we will typically see in undergraduate courses:
-
-- **Systematic error due to apparatus or measurement technique.** This would be the error you would expect if your ruler lines were inaccurate or your spectroscope was not properly calibrated.
-- **Systematic error due to an incorrect mathematical model.** This common kind of error arises from applying the wrong *model* to your *data*, e.g. calculating the area of a circle as $A=r^2$ instead of $A = \frac{\pi }{2}r^2$
-
+**Systematic errors** arise from improper use of the measurement equipment and  improper experimental techniques. Systematic uncertainties are consistent between measurements: if you repeat the experiment, you'll get the same error. 
 :::
+**Systematic errors** can arise from improper use of the measurement equipment and  improper experimental techniques. Systematic uncertainties are consistent between measurements: if you repeat the experiment, you'll get the same error. For example, when we measure the length of the pencil, if the ruler is made out of metal and the temperature of the room is very low, the ruler might be contracted. That implies that the ruler is actually shorter than it should be, and our best estimate for the length of the pencil will always be larger than its true value.
 
-**Systematic errors** can arise from improper use of the measurement equipment, improper experimental techniques, or the use of an incorrect model. Systematic uncertainties are consistent between measurements: if you repeat the experiment in the same exact way, you'll get a similar error. Systematic errors are *very useful* in experimental science: the presence of a systematic error means that the experimenter can improve the experiment directly *or* that there is a fundamental problem with one or more of the physical laws being used [fn]Systematic errors are what particle physicists at CERN rely on to search for new physics beyond the Standard Model.[/fn]. 
+Another systematic error would be introduced if we didn't keep the line of sight perpendicular to the ruler when measuring the pencil length.
 
-:::Hider Systematic Error Examples
-Imagine we are characterizing the properties of a pencil. Each of the following scenarios are an example of systematic error:
+We can completely prevent systematic errors by calibrating and checking the equipment and using proper measurement techniques. 
 
-- @fa-pencil@ When we measure the length of the pencil, if the ruler is made out of metal and the temperature of the room is very low, the ruler might be contracted. That implies that the ruler is actually shorter than it should be, and our best estimate for the length of the pencil will always be larger than its true value. 
-
-- @fa-pencil@ If we didn't keep the line of sight perpendicular to the ruler when measuring the pencil length, the resulting measured length would be shorter than the actual length of the pencil.
-
-- @fa-pencil@ Say we measured the length, radius and weight of the hexagonal pencil and wanted to characterize its density. If we modeled the area of the pencil cross section as a circle rather than a hexagon, our calculation for the resulting density would always be less than the actual density.
-
-:::
-
-We can reduce the prevalence of systematic errors in a number of ways[fn]While you can never completely get rid of it, ideally, systematic error should have *less* of an effect on your result than random error. We consider systematic error that is this weak to be negligible to the experiment.[/fn]. Most importantly, we can calibrate and check our equipment against standards *prior* to collecting data[fn]For example, you might double check that your scale is calibrated my measuring the weight of a known mass prior to taking data[/fn]. We can also thoughtfully consider our measurement techniques, and if any steps in our procedure are introducing unnecessary systematic errors[fn]If you are doing a spring constant experiment by a sunny window, you might consider that the heating of the spring throughout the day might affect your data! [/fn]. Finally, as we apply models to our data, we can think about if our models are accurate for the given situation [fn]The equation for a projectile learned in introductory physics might not be as applicable to a feather as it is a cannon ball[/fn]. 
-
-## Random Error
+**Random error**
 
 :::Card Definition Random Error
-**Random errors** arise from the intrinsic statistical randomness of the experimental apparatus, the environment, or the phenomenon being investigated. Generally the experimenter has little to no **direct** control over random error.
+**Random errors** arise from the statistical, inherently random nature of the experiment. 
 :::
  
-Random Error, unlike systematic error, has little to do with the experimenter. Even if we were able to exactly replicate an experiment multiple times, we would find that the resulting measurements would differ from one another slightly. These values will be different from each other and will be randomly distributed around a mean value, which we will take to be our best estimate. Random error is much like a [Galton Box](https://en.wikipedia.org/wiki/Bean_machine): even though you start out with the same setup, since the dropped bean has a 50/50 chance of going left or right at each peg, the final outcomes differ between trials. The best we can do is repeat the experiment *many times*
-and discuss the *average* outcome.
+If we repeat a measurement, the values of the measured quantity will  be different from each other and will be randomly distributed around a mean value, which we will take to be our best estimate. 
 
-:::Hider Random Error Examples
-Imagine we are characterizing the properties of a pencil. Each of the following scenarios are an example of random error:
+We can't eliminate random errors, but we can minimize them by using precise instruments and by collecting a  large data set for calculating the average of our measurements. Thus, we need to perform multiple trials by repeating the experiment several times to average out the random errors. 
 
-- @fa-pencil@ If you measured the weight of the pencil on a sensitive electronic scale, you would notice that the reading in last significant fluctuates due to factors such as electronic noise, air pressure fluctuations, thermal fluctuations of the mechanical parts of the scale. 
+***Random error leads to uncertainty in our measurement. ***
 
-- @fa-pencil@ When measuring the pencil, it is highly unlikely that the edges of the pencil are aligned with the ruler markings, regardless of how careful you are. Each time you measure the pencils length, your resulting value will be slightly different, especially when estimating the value between tick marks on the ruler.
-
-
-:::
-
-We can't eliminate random errors [fn] This is a deep and true fact about the nature of our universe. Even in the absence of [quantum mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics), it would take an infinite number of measurements to pin down the value of a quantity to infinite precision, and hence and infinite amount of time and resource![/fn], but we can minimize them by using precise instruments and by collecting a  large data set for calculating the average of our measurements. Thus, we need to perform multiple trials by repeating the experiment several times to average out the random errors. 
-
-
-**Random error leads to uncertainty in our measurement.**
 This random error is what we quote in the above example as 0.05 cm. 
 
 
 :::Note
-The main points of this section are:
+Systematic error should be eliminated as a source of error from our experiment.
 
-- Systematic error is controllable by the experimenter and should be limited as a source of error in our experiments.
-
-- Random error is unavoidable and leads to uncertainty in our measurement.
+Random error is unavoidable and leads to uncertainty in our measurement.
 :::
 
 ::::::Exercise
 An example of a random error is your reaction time. If you time how fast a friend runs a mile, you may start or stop the stopwatch a little too early or a little too late.
 
 1. Measure your reaction time by going to the following website:
-[https://humanbenchmark.com/dashboard/reactiontime](https://humanbenchmark.com/dashboard/reactiontime)
+https://humanbenchmark.com/dashboard/reactiontime
 
 2. Record your reaction time 10 times in a table.  Your table should look like Table 1:
 
@@ -200,32 +172,25 @@ Make sure to include the table in your lab report.
 ::::::
  
  
- ## Accuracy v.s. Precision
-
-:::RFigure avp m
-![A visual guide to Accuracy vs. Precision. Notice that accuracy is gauging how close darts are landing to the bullseye while precision only considers how close they are to each other](imgs/Lab0/targets.png)
-
-A visual guide to Accuracy vs. Precision. Notice that accuracy is gauging how close darts are landing to the bullseye while precision only considers how close they are to each other
-:::
+ ## Accuracy and Precision
  
-Systematic errors will  cause bias in one direction, causing your measurements to be consistently higher or lower than the accepted value. Hence, these errors directly influence the **accuracy** of your measurement.
-
+Systematic errors will  cause bias in one direction, causing your measurements to be consistently higher or lower than the accepted value. These errors will determine the **accuracy** of your measurement.
 :::Card Definition Accuracy
-**Accuracy** is a measure of how *close* your measured values are to the *accepted*  or *true* value.
+***Accuracy*** = how close the measured values are to the **true value**
 :::
-
 Random errors are unbiased, so some of your measurements will be higher and some will be lower than the accepted value. Random errors will determine the **precision** of your measurement.
 
 :::Card Definition Precision
-**Precision** is a measure of how *close* your measured values, after repeating an experiment multiples times, are to each other.
+ ***Precision*** = how close the measured values are to **each other**
 :::
 
 
+:::Figure
+![Figure 1: Line of Best Fit](imgs/Lab0/targets.png)
+:::
 
 
-
-
-### Measures of Precision and Accuracy
+## Measures of Precision and Accuracy
 
 To determine if a value is accurate, we compare it to the accepted one. A qualitative measure of accuracy is the **percent discrepancy**
 
@@ -233,15 +198,14 @@ To determine if a value is accurate, we compare it to the accepted one. A qualit
 $$\text{percent discrepancy} = |\frac{\text{accepted - experimental}} { \text{accepted}}| \times 100\%$$
 :::
 
-
-
+::::::Exercise
+In an experiment we measure the acceleration due to gravity to be $9.825 m/s^2$. The accepted value is $9.807 m/s^2$
 
 :::Question
-In an experiment we measure the acceleration due to gravity to be $9.825 m/s^2$. The accepted value is $9.807 m/s^2$ What is the percent discrepancy in our measurement?
+What is the percent discrepancy in our measurement?
 :::
 
-
-
+::::::
 Sometimes there is no accepted value to our measurement. In this case, to measure the precision of two measurements that are determined experimentally, we look at how different the two values are as a percentage of their average. This is known as the **percent difference**.
 
 :::Equation
@@ -253,13 +217,12 @@ $$
 $$
 :::
 
-
-
-:::Question
+::::::Exercise
 In an experiment we make two measurements of the diameter of a tennis ball. They are $2.58$ in. and $2.61$ in.
+:::Question
 What is the percent difference in our measurements?
 :::
-
+::::::
 
 ::: Note
 When comparing two values, you have two options. 
@@ -296,6 +259,16 @@ The standard deviation is a measure of the spread in the values $x_1, x_2,..., x
 $$\text{STDEV}=\sqrt{\frac{\sum{(x_i-x_{avg})^2}}{N-1}}=\delta x$$
 :::
 
+<!--
+The uncertainty of the mean can be calculated using the standard deviation of the mean, which will be $\delta x=\text{STDEV}/\sqrt{N}$
+We quote the mean value as $x_{avg}\pm\delta x$
+
+
+Example: We measure the length of a table five times and get the data: 2.32m, 234m, 2.22m, 2.27m, 2.28m. In this case $N=5$ because there are 5 measurements.
+The average is :
+$L_{avg}=\frac{(2.32+2.34+2.22+2.27+2.28)}{5}=2.28$
+Notice each measurement has 3 sig figs, so we keep 3 sig figs for the mean.
+-->
 The standard deviation is an excellent estimation of our uncertainty due to random errors. Thus we can report our measurement as:
 
 :::Equation
@@ -353,9 +326,9 @@ If the trailing zero is to the left of the decimal point it can be ambiguous. To
 
 For example: 4,510,000 has three sig figs while 4,510,000. has 7 sig figs. 
 
-
+::::::Exercise
 :::Question
-Determine the number of significant figures in the following measurements:
+Determine the number of significant figures in the following measurements
 
 1. 15.02
 
@@ -366,9 +339,8 @@ Determine the number of significant figures in the following measurements:
 4. 12300
 
 5. 12300
-
 :::
-
+::::::
 
 
 ## Significant Figures in Calculations
@@ -380,7 +352,7 @@ Thus, the result of the calculation (35 &times; 0.637)/256.3 is 0.087 (two sig f
 
 Certain multipliers, such as the 180, in 180/&pi;, the conversion factor to go from radians to degrees, or the 2 in 2&pi;r, the formula for the circumference of a circle, are exact.  They do not affect the number of significant figures in the result of a calculation in which they appear.
 
-:::::: Exercise
+::::::Exercise
 
 In this exercise you will practice the rules above by calculating some geometric properties about the following shapes. **Make sure your answers are written with the correct number of sig figs and with units.** 
 
@@ -390,9 +362,9 @@ Here is a rectangle with length 2.4cm and width 3.2cm.
 ![Rectangle](imgs/Lab0/Rectangle2.png)
 :::
 :::Question
-1. What is the perimeter of the rectangle?
+a. What is the perimeter of the rectangle?
 
-2. What is the area of the rectangle?
+b. What is the area of the rectangle?
 :::
 
 Here is a circle with radius 2.4 cm.
@@ -409,43 +381,36 @@ What is the area of the circle?
 :::Note
 Example:
 
-Imagine that you've been given the mass of a block of material as 75 grams, and its dimensions as 2.5 cm &times; 3.1 cm &times; 6.3 cm (it is a rectangular parallelepiped). You are told to calculate its density. Since density is mass per unit volume, you multiply the three dimensions together, and then divide the result into 75.  You do this on a calculator. For the volume, you get 48.825 cm$^3$, and for the density, the calculator spits out 1.53609831 (depending on how many digits the display gives; the units are g/cm$^3$). It may be tempting just to write down all of those digits for the final result of the calculation. The question is whether this is necessary, or whether such a number is actually meaningful. After all, given that we know the mass to the gram, and each dimension to the tenth centimeter, do we really know the density to ten nanograms per cc (the last digit in the result above), or to a microgram per cc (the 8), or even to a milligram per cc (the 6)?
+Imagine that you&rsquo;ve been given the mass of a block of material as 75 grams, and its dimensions as 2.5 cm &times; 3.1 cm &times; 6.3 cm (it is a rectangular parallelepiped). You are told to calculate its density. Since density is mass per unit volume, you multiply the three dimensions together, and then divide the result into 75.  You do this on a calculator. For the volume, you get 48.825 cm$^3$, and for the density, the calculator spits out 1.53609831 (depending on how many digits the display gives; the units are g/cm$^3$). It may be tempting just to write down all of those digits for the final result of the calculation. The question is whether this is necessary, or whether such a number is actually meaningful. After all, given that we know the mass to the gram, and each dimension to the tenth centimeter, do we really know the density to ten nanograms per cc (the last digit in the result above), or to a microgram per cc (the 8), or even to a milligram per cc (the 6)?
 
 The result of the density calculation above cannot contain more than two significant figures, and is properly written as 1.5 g/cm$^3$. To obtain this result, we round the three in the next place down. We always round to the nearest value of the last significant figure. To avoid biasing calculations that have multiple steps, we always round fives to the even number. For example, to two significant figures, 1.45 is 1.4, and 1.55 is 1.6.
 :::
 
-:::::::::Exercise
-::::::col l6
+::::::Exercise
 We submerge a piece of unknown material in water in order to measure its volume. We also use a scale to measure its mass. Ultimately we want to calculate the density of this object.
 
-
+:::Figure
+![Figure 1: Line of Best Fit](imgs/Lab0/gradcylinder.png)
+:::
 :::Question
 What are the initial and final volumes (in mL) before and after the object is submerged? What is the volume (in mL) of the object?  Make sure you use the appropriate number of significant figures when stating all your answers.
 :::
-
-::::::
-::::::col l6
-:::Figure cyl m
-![Object submerged in cylinder](imgs/Lab0/gradcylinder.png)
-Object submerged in cylinder
-:::
-::::::
 :::Question
 If the mass of the object is $57.868$ g, what is its density (in g/mL) ? Make sure you use the appropriate number of significant figures when stating all your answers.
 :::
 :::Question
 Knowing that the density of platinum is $21.45$ g/mL, what is the percent discrepancy in your measurement?
 :::
-:::::::::
+::::::
 
 ## Significant figures in unit conversions
 When converting between units, the conversions are treated as exact and don't affect the number of sig figs in your result.
 
-
+::::::Exercise
 :::Question
 A dog is $2.0$ feet tall.  What is the height of the dog in mm to correct sig figs?
 :::
-
+::::::
 
 
 # Conclusion

@@ -155,13 +155,13 @@ where M is the mass of the disc and R is the radius of the disc. Do not confuse 
 :::
 
 :::Question
-a) How do your two calculated moments of inertia compare to each other?
+1. How do your two calculated moments of inertia compare to each other?
 
-b) What assumptions did we make when we used the mass and dimensions of the platter to calculate its moment of inertia?
+2. What assumptions did we make when we used the mass and dimensions of the platter to calculate its moment of inertia?
 
-c) In what way could these assumptions cause a discrepancy between the two values you obtained for the moment of inertia? Hint: Using Video 2, inspect how the mass of the turntable is distributed around the axis of rotation.
+3. In what way could these assumptions cause a discrepancy between the two values you obtained for the moment of inertia? Hint: Using Video 2, inspect how the mass of the turntable is distributed around the axis of rotation.
 
-d) What else might cause a discrepancy between these two values? 
+4. What else might cause a discrepancy between these two values? 
 ::::::
 :::Exercise
 Write a brief statement summarizing the main points of this lab.
