@@ -6,27 +6,27 @@
     },
     {
         "name": "Lab 0",
-        "file": "lab0",
+        "file": "Lab0",
         "showSmall": "true"
     },
     {
         "name": "Lab 1",
-        "file": "lab1",
+        "file": "Lab1",
         "showSmall": "true"
     },
     {
         "name": "Lab 2",
-        "file": "lab2",
+        "file": "Lab2",
         "showSmall": "true"
     },
     {
         "name": "Lab 3",
-        "file": "lab3",
+        "file": "Lab3",
         "showSmall": "true"
     },
     {
         "name": "Lab 4",
-        "file": "lab4",
+        "file": "Lab4",
         "showSmall": "true"
     }
 
