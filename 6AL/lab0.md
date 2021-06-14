@@ -13,10 +13,6 @@ The goal of this assignment is to prepare you for the rest of the quarter, and e
 :::
 ---
 
-:::Note
-There are two videos in this lab. Sometimes the Safari browser has issues playing them. Try switching to Chrome or Firefox. Additionally, sometimes if you click the pop-out button it will play for you when it wouldn't play on the page.
-:::
-
 
 # Getting Familiar with the Format
 
@@ -39,7 +35,7 @@ This is not an exhaustive list, but includes the most common subtasks you will n
 As practice, for this exercise, create a list of the following three things:
 1. Your name.
 2. What major you want to graduate with.
-3. The person who has won the largest share of the 2019 Nobel Prize in physics. 
+3. The person who has won the largest share of the 2020 Nobel Prize in physics. 
 
 When writing your lab report, make it as clear as possible as to which exercise you are responding. 
 ::::::
@@ -66,12 +62,36 @@ Please answer the following for this question:
 ::::::
 
 
-## Notes
-::: Note
+## Notes and Warnings
+::: Note 
 This is a note. Notes don't require you to put anything in your report. 
 
 The main point of a note is just to highlight some critical information for you. Please make sure to read every note.
 :::
+
+::: Warning 
+This is a Warning. Like Notes, Warnings don't require you to put anything in your report. 
+Warning differ from Notes because they highlight potentially dangerous details of the procedure. Please make sure to read every Warning to prevent harm to yourself and others. Please click to dismiss once you have read the warning.
+:::
+
+## Information Boxes
+
+In this course, information boxes come in many shapes and sizes. Click the arrow below to expand the information box on expanding boxes
+
+:::Hider Expanding Boxes
+The first kind of information box is an expanding box, like this one. This box usually contains supplementary information that you may want to minimize while working on the lab. It can also contain a check-your-understanding type question.
+
+:::
+
+:::Card Definition Definition Box
+**Definition Boxes**: these are boxes which are used to frame the important definition of technical words or concepts in the course. 
+:::
+
+:::Card Intro Introduction Boxes
+These will appear at the top of a lab to give you an idea of what the week will focus on
+:::
+
+
 
 ## Conclusion
 Each lab report will ask you to write a conclusion statement about the main point of the lab. This should be a 1-3 sentence statement highlighting most important point(s) of the lab. It should not describe how you feel about the lab, or reexplain what you did. A good example would be:
@@ -95,10 +115,10 @@ Physics is the study of the laws of nature through observation and experiment. I
 When we measure a quantity, say the length of a pencil, we will never be able to measure the **true value** of the length. Instead, if we are careful and thoughtful in our measurement, we will get a length close to the true length, our **best estimate**. The most honest way to report our measurement to others is to provide our best estimate and a window of values in which the true length might fall. This window is called our **uncertainty**. We would typically write down the length of the pencil in the following format.
 
 $$
-62.33 \pm 0.05 \text{ cm}
+15.33 \pm 0.05 \text{ cm}
 $$
 
-The 62.33 cm is our best estimate, and the 0.05 cm is our estimate of the uncertainty.  We are saying that our best guess at the true length of the rod is 62.33cm but the true length is most likely between 62.28cm and 62.38cm.
+The 15.33 cm is our best estimate, and the 0.05 cm is our estimate of the uncertainty.  We are saying that our best guess at the true length of the pencil is 15.33cm but the true length is most likely between 15.28cm and 15.38cm.
 
 :::Note
 Uncertainty is unavoidable in every measurement!
@@ -121,20 +141,20 @@ There are two main types of errors: **Systematic** and **Random**.
 
 **Systematic errors** can arise from improper use of the measurement equipment, improper experimental techniques, or the use of an incorrect model. Systematic uncertainties are consistent between measurements: if you repeat the experiment in the same exact way, you'll get a very similar error. 
 
-Systematic errors are *very useful* in experimental science: the presence of a systematic error means that the experimenter can improve the experiment directly *or* that there is a fundamental problem with one or more of the physical laws being used [fn]for example, the appearance of systematic errors are what particle physicists at CERN rely on to search for new physics beyond the Standard Model.[/fn]. 
+Systematic errors can be *very useful* in experimental science: the presence of a systematic error means that the experimenter can improve the experiment directly *or* that there is a fundamental problem with one or more of the physical laws being used [fn]for example, the appearance of systematic errors are what particle physicists at CERN rely on to search for new physics beyond the Standard Model.[/fn]. 
 
 :::Hider Systematic Error Examples
 Imagine we are characterizing the properties of a pencil. Each of the following scenarios are an example of systematic error:
 
 - @fa-pencil@ When we measure the length of the pencil, if the ruler is made out of metal and the temperature of the room is very low, the ruler might be contracted. That implies that the ruler is actually shorter than it should be, and our best estimate for the length of the pencil will always be larger than its true value. 
 
-- @fa-pencil@ If we didn't keep the line of sight perpendicular to the ruler when measuring the pencil length, the resulting measured length would be shorter than the actual length of the pencil.
+- @fa-pencil@ If we didn't keep the line of sight perpendicular to the ruler when measuring the pencil length, the resulting measured length would be longer or shorter than the actual length of the pencil.
 
 - @fa-pencil@ Say we measured the length, radius and weight of the hexagonal pencil and wanted to characterize its density. If we modeled the area of the pencil cross section as a circle rather than a hexagon, our calculation for the resulting density would always be less than the actual density.
 
 :::
 
-We can reduce the prevalence of systematic errors in a number of ways[fn]While you can never completely get rid of it, ideally, systematic error should have *less* of an effect on your result than random error. We consider systematic error that is this weak to be negligible to the experiment.[/fn]. Most importantly, we can calibrate and check our equipment against standards *prior* to collecting data[fn]For example, you might double check that your scale is calibrated my measuring the weight of a known mass prior to taking data[/fn]. We can also thoughtfully consider our measurement techniques, and if any steps in our procedure are introducing unnecessary systematic errors[fn]If you are doing a spring constant experiment by a sunny window, you might consider that the heating of the spring throughout the day might affect your data! [/fn]. Finally, as we apply models to our data, we can think about if our models are accurate for the given situation [fn]The equation for a projectile learned in introductory physics might not be as applicable to a feather as it is a cannon ball[/fn]. 
+We can reduce the prevalence of systematic errors in a number of ways[fn]While you can never completely get rid of it, ideally, systematic error should have *less* of an effect on your result than random error. We consider systematic error that is this weak to be negligible to the experiment.[/fn]. Most importantly, we can calibrate and check our equipment against standards *prior* to collecting data[fn]For example, you might double check that your scale is calibrated my measuring the weight of a known mass prior to taking data[/fn]. We can also thoughtfully consider our measurement techniques, and if any steps in our procedure are introducing unnecessary systematic errors[fn] If you are measuring the extensibility of a spring by a sunny window, you might consider that the heating of the spring throughout the day might affect your data! [/fn]. Finally, as we apply models to our data, we can think about if our models are accurate for the given situation [fn]The equation for a projectile learned in introductory physics might not be as applicable to a feather as it is a cannon ball[/fn]. 
 
 ## Random Error
 
@@ -152,10 +172,11 @@ Imagine we are characterizing the properties of a pencil. Each of the following 
 
 - @fa-pencil@ When measuring the pencil, it is highly unlikely that the edges of the pencil are aligned with the ruler markings, regardless of how careful you are. Each time you measure the pencils length, your resulting value will be slightly different, especially when estimating the value between tick marks on the ruler.
 
+- @fa-pencil@ If you and 9 of your friends all measured the length of the pencil to one decimal past the visible markings on your ruler, you will likely see that there will be a spread of values that are close but do not agree.
 
 :::
 
-We can't eliminate random errors [fn] This is a deep and true fact about the nature of our universe. Even in the absence of [quantum mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics), it would take an infinite number of measurements to pin down the value of a quantity to infinite precision, and hence and infinite amount of time and resource![/fn], but we can minimize them by using precise instruments and by collecting a large data set for calculating the average of our measurements. Thus, we need to perform multiple trials by repeating the experiment several times to average out the random errors. 
+We can't eliminate random errors [fn] This is a deep and true fact about the nature of our universe. Even in the absence of [quantum mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics), it would take an infinite number of measurements to pin down the value of a quantity to infinite precision, and hence and infinite amount of time and resource![/fn], but we can minimize *and characterize* them by using precise instruments and by collecting a large data set for calculating the average of our measurements. Thus, we need to perform multiple trials by repeating the experiment several times to average out the random errors (and characterize the spread, or precision, of our results as a whole). 
 
 
 **Random error leads to uncertainty in our measurement.**
@@ -456,7 +477,7 @@ A dog is $2.0$ feet tall.  What is the height of the dog in mm to correct sig fi
 Write a brief conclusion summarizing the important points of this lab.
 :::
 
-:::Note
+:::Summary 
 You should take a moment to go back and review your answers to questions and responses to exercises. Make sure that *everything* has the correct number of sig figs, and that units are included when necessary.
 :::
 
