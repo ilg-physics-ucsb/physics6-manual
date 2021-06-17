@@ -288,6 +288,7 @@ The data you will need is in the box below, including a link to the google sheet
 Please open the link to the Google Sheet data when you are ready to start [Ex](#Ex-table).
 
 :::::: Exercise table
+**Instructions:**
 1. Start by copying the data linked in Table 1 into separate spreadsheet. 
 2. Now you will insert your data you took for the basketball into the table and plot all four ball drops on one plot. For instructions on how to do this, watch the following video. 
 
@@ -304,7 +305,7 @@ Please open the link to the Google Sheet data when you are ready to start [Ex](#
 In [Ex](#Ex-anal) you will begin analyzing the drop data. You will apply what you learned in the Introduction to real data, and try to **infer** something about the underlying physics.
 
 :::Exercise anal
- 
+**Instructions:**
 
 1. Start by just looking at your data. 
     - **Analyze it qualitatively by using the tools you learned in Part 1 of the lab.** 
