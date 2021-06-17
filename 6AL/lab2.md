@@ -137,17 +137,17 @@ where y is the position, $v_{0y}$ the initial velocity, $a_{y}$ the acceleration
 ## General Properties of Motion Curves
 :::RFigure graphs m 
 
-![](imgs/Lab2/Constant.png)
+![(a) Constant Position v.s. Time](imgs/Lab2/Constant.png)
+(a) Constant Position v.s. Time
 
 
 
+![(b) Linear Position v.s. Time](imgs/Lab2/Linear.png)
+(b) Linear Position v.s. Time
 
-![](imgs/Lab2/Linear.png)
 
-
-
-![](imgs/Lab2/Quad.png)
-
+![(c) Quadratic Position v.s. Time](imgs/Lab2/Quad.png)
+(c) Quadratic Position v.s. Time
 :::
 
 Before you start the lab, we have one last theoretical discussion: given a plot of position versus time, how can we make quantitative and qualitative statements about the physics of a falling object? 
@@ -161,15 +161,14 @@ Before discussing this, there are three plot shapes that are important to unders
 
 
 
-Constant refers to a value that is not changing in time, a horizontal line, as can be seen in the top graph of [Fi](#Fi-graphs)  . Linear refers to value that is changing with time but has a linear slope as seen in the middle graph of  [Fi](#Fi-graphs). Curved refers to a value that is changing with time and is not linear as seen in the bottom graph pf [Fi](#Fi-graphs).
+Constant refers to a value that is not changing in time, a horizontal line, as can be seen in  [Fi](#Fi-graphs)<u>a</u>  . Linear refers to value that is changing with time but has a linear slope as seen in [Fi](#Fi-graphs)<u>b</u>. Curved refers to a value that is changing with time and is not linear as seen in [Fi](#Fi-graphs)<u>c</u>.
 
 [Fi](#Fi-motiongraphs), obtained from from Hyperphysics, shows the trajectory of a body whose acceleration is constant for each segment of time. Acceleration being constant for each segment is important for simplifying our plots.
+:::row
+:::
+[Fi](#Fi-motiongraphs)<u>a</u> shows the three plots unobstructed. Notice how the velocity corresponds to each section of the position plot.
 
-
-
-The leftmost graph in [Fi](#Fi-motiongraphs) shows the three plots unobstructed. Please notice how the velocity corresponds to each section of the position plot. Whenever the position plot is linear, the velocity is constant. Whenever the position plot is curved, the velocity is linear. If the position is curving upwards, the velocity is positive, if the position is curving downwards, the velocity is negative. The Acceleration plot corresponds to the velocity plot exactly the same way the velocity plot corresponds to the position plot.
-::::::Figure motiongraphs l
-
+::::::Figure motiongraphs m
 ::: col l6
 ![](imgs/Lab2/HP_MotionGraphs_Download.png)
 :::
@@ -177,10 +176,28 @@ The leftmost graph in [Fi](#Fi-motiongraphs) shows the three plots unobstructed.
 :::col l6
 ![](imgs/Lab2/HP_MotionGraphs_Annotated.png)
 :::
+:::row
+:::
+::: col l6
+(a) 
+:::
 
+:::col l6
+(b)
+:::
 ::::::
 
-The rightmost graph of [Fi](#Fi-motiongraphs) indicates points on the plots which correspond to the description of Part A. Please study the plots and notes in Part B to understand how they relate.
+
+ In particular notice that:
+ - Whenever the position plot is linear, the velocity is constant. 
+ - Whenever the position plot is curved, the velocity is linear. 
+ - If the position is curving upwards, the velocity is positive
+ - If the position is curving downwards, the velocity is negative. 
+ - The Acceleration plot corresponds to the velocity plot exactly the same way the velocity plot corresponds to the position plot.
+
+
+
+ [Fi](#Fi-motiongraphs)<u>b</u> indicates points on the plots which correspond to the description of Part A. Please study the plots and notes in Part B to understand how they relate.
 
 :::::: Exercise
 Now that you have gained familiarity with position, velocity, and acceleration plots we can do analysis. In this exercise you will take a new position plot and create sketches of the velocity and acceleration plots. Please see Figure 6 below.
@@ -206,32 +223,44 @@ Make sure to take a picture of your sketch plots and include them in your report
 ::::::
 
 
-# Collecting the Data
+# Obtaining the Data
 
-
-:::::: Exercise
-
-In this section we will look at different balls dropped from the sixth floor walkway of Broida Hall. The four balls dropped in Video 1 are of varying sizes and weights. Figure 7 shows the balls which are dropped. 
-
-:::Figure
-![](imgs/Lab2/Balls2.png)
+## Collecting Data from an Experiment
+:::RFigure balls s
+![The sport balls](imgs/Lab2/Balls2.png)
+The sport balls - click to enlarge
 :::
 
-The pink dog ball is small but fairly weighty for its size. The basket ball is medium sized and also has decent weight to it. The volley ball is smaller than the basket ball and slightly lighter as well. The beach ball is by far the largest and the lightest. These four balls should give a wide range of masses and sizes for our data set. All four balls are dropped, however, you will only be taking data for the basket ball. The data on the other balls have been taken for you. We have annotated Video 1 for you with the height measurements and an embedded stopwatch. These will be useful tools for your data collection.
+In [Ex](#Ex-drop) we will look at different balls dropped from the sixth floor walkway of Broida Hall. The four balls dropped in Video are of varying sizes and weights. [Fi](#Fi-balls) shows the balls &mdash;a basketball, a volleyball, a beachball, and a dog ball &mdash; which each have different trajectories upon release. How do the properties of these sport balls affect how they fall?
 
-:::Video
-!(https://www.youtube.com/watch?v=OZn--kkp2vA)
+The pink dog ball is small but fairly weighty for its size &mdash; in other words, it is *dense*. The basket ball is medium sized and is moderately heavy. The volley ball is smaller than the basket ball and slightly lighter as well. The beach ball is by far the largest and the lightest. These four balls should give a wide range of masses and sizes for our data set. 
+:::row
 :::
 
+::::::Exercise drop
 
-1. Watch Video 1 and see how each ball falls to the ground.
+In this exercise you will be collecting data on the height of a ball in freefall versus time. All four balls are dropped, however, you will **only be taking data for the basketball.** The data on the other balls have been taken for you. 
+
+We have annotated [Vi](#Vi-balldrop) for you with the height measurements and an embedded stopwatch. These will be useful tools for your data collection.
+
+**Instructions:**
+
+1. Watch [Vi](#Vi-balldrop) and see how each ball falls to the ground. 
 
 2. Take 10 data points by pausing the video and recording the distance from the top and the timestamp on the embedded stopwatch. 
 
-3. Place your recoded data point in a table with the headers "Time (s)" and "Y_Basket (m)."
+3. Place your recoded data points in a table with the headers "Time (s)" and "Y_Basket (m)."
+
+:::Video balldrop
+<iframe width="auto"  src="https://www.youtube.com/embed/OZn--kkp2vA" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 :::
 
+
+::::::
+
+
+## Understanding & Organizing Data
 You have now collected some data for a basketball falling from the sixth floor of Broida! As mentioned above, three other balls were dropped from the same point at Broida. Rather than have you repeat the same data collection we have collected data for you using a software called Tracker.
 
 Tracker allows us to monitor the location of the ball at every frame of the video which happens once every 1/30 seconds. This method has two advantages. 
@@ -242,49 +271,55 @@ Tracker allows us to monitor the location of the ball at every frame of the vide
 Below is a short video demonstrating how the Tracker software was used to collect data for the four drops.
 
 :::Video
-!(https://www.youtube.com/watch?v=hvwjn3tAtqc)
-:::
 
-The data you will need is in Table 1 below, linked in a google sheet.
-
-:::Table
-
-| Ball Drop Data Set | 
-| -------- | 
-| [Link to Google Sheet](https://docs.google.com/spreadsheets/d/1XI2mEKyuVftiG0uhUlS6Iah3zZuiGx1tUE5g1-e0ZIw/edit?usp=sharing)    | 
+<iframe width="auto"  src="https://www.youtube.com/embed/hvwjn3tAtqc" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 :::
 
----
-# Analyzing the Data
+The data you will need is in the box below, including a link to the google sheet holding it.
 
-::: Exercise
+:::Hider Table of Data
+<iframe width="100%" height ="400px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjap_R4TFvQqlPgrOHBNpjmNz1h0AOOVBmnvw95l6yJlgL8EKgRB0ahCc4HR-Pt9Qvho_yBRfRecRE/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
+[Link to Google Sheet](https://docs.google.com/spreadsheets/d/1XI2mEKyuVftiG0uhUlS6Iah3zZuiGx1tUE5g1-e0ZIw/edit?usp=sharing)  
+
+:::
+
+Please open the link to the Google Sheet data when you are ready to start [Ex](#Ex-table).
+
+:::::: Exercise table
 1. Start by copying the data linked in Table 1 into separate spreadsheet. 
 2. Now you will insert your data you took for the basketball into the table and plot all four ball drops on one plot. For instructions on how to do this, watch the following video. 
 
 :::Video
-!(https://www.youtube.com/watch?v=PT6GM85ut4I)
+
+<iframe width="auto"  src="https://www.youtube.com/embed/PT6GM85ut4I" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 :::
 ::::::
 
-:::Exercise
-In this exercise you will start the analysis of the drops. 
+# Analyzing the Data
 
-1. Start by just looking at your data. **Analyze it qualitatively by using the tools you learned in Part 1 of the lab.** Try to determine what parts of each drop are falling under constant acceleration or constant velocity.
-2. Notice how the Dog Ball, Basket Ball, and Volleyball all look very similar. The beach ball is quite different from the other three. Pick one of the three similar data sets and the beach ball and **sketch** a velocity vs time plot for both data sets on the same graph. **A sketch is just a quick drawing to display the important features of a plot, e.g. linear, parabolic, or constant. You should label the axes and the two lines, but you don't need a title. You shouldn't spend more than 5 minutes drawing this.**
+## Qualitatively Understanding your Data
+In [Ex](#Ex-anal) you will begin analyzing the drop data. You will apply what you learned in the Introduction to real data, and try to **infer** something about the underlying physics.
+
+:::Exercise anal
+ 
+
+1. Start by just looking at your data. 
+    - **Analyze it qualitatively by using the tools you learned in Part 1 of the lab.** 
+    - Try to determine what parts of each drop are falling under constant acceleration or constant velocity.
+2. Notice how the Dog Ball, Basket Ball, and Volleyball all look very similar. The beach ball is quite different from the other three. Pick one of the three similar data sets and the beach ball and **sketch**[fn] A sketch is just a quick drawing to display the important features of a plot, e.g. linear, parabolic, or constant. You should label the axes and the two lines, but you don't need a title. You shouldn't spend more than 5 minutes drawing this.[/fn] a velocity vs time plot for both data sets on the same graph.
 3. Using the velocity lines, translate the plot into a brief description  (one or two sentences) of the drop.
-4. Take a picture of your sketch and include it in your lab report. Also include your description.
+4. Take a picture of your sketch and include it in your lab report, being sure to include your description.
 
 :::
 
-:::::: Exercise
-:::Note
-This exercise is designed to help you understand curve fitting. Nothing needs to be submitted for this exercise.
-:::
+## Quantitatively Understanding your Data
+In [Ex](#Ex-fit), for each of the datasets, you will perform a polynomial fit of degree 2. This will draw a line of best fit by using a quadratic function. That is that it will attempt to fit the equation:
 
-In the next exercise, for each of the datasets, you will perform a polynomial fit of degree 2. This will draw a line of best fit by using a quadratic function. That is that it will attempt to fit the equation:
 
-:::Equation
+:::Equation fit
 $$
 y = ax^2+bx+c
 $$
@@ -292,9 +327,8 @@ $$
 
 The computer will adjust $a$, $b$, and $c$ to best fit the data provided. Let's start by understanding what $a$, $b$, and $c$.
 
-Equation 4 looks a lot like our kinematic equation for motion. Let's equate Equation 4 to the kinematic equation. We do this in Table 2 below. Each row starts by defining the variable. The next column has the symbol we use to represent the variable in the fit. The final column has the equivalent symbol used in the kinematic equation.
-
-:::Table
+[Eq](#Eq-fit) looks a lot like our kinematic equation for motion. Let's equate [Eq](#Eq-fit) to the kinematic equation. We do this in  the table below. Each row starts by defining the variable. The next column has the symbol we use to represent the variable in the fit. The final column has the equivalent symbol used in the kinematic equation.
+:::Table eq
 | Variable Name | Fit Symbol | Kinematic Symbol |
 | -------- | -------- | -------- |
 | Time     | $x$     | $t$     |
@@ -305,26 +339,48 @@ Equation 4 looks a lot like our kinematic equation for motion. Let's equate Equa
 :::
 
 
-:::Note
-** This is a critical concept that you understand before moving forward. Below are three questions. Read them and spend a few minutes trying to answer them for yourself. When you think you have the answers, click the link at the bottom to take you to the answers. **
 
+:::::: Exercise fit
+**Check your understanding:** 
 
-a. For an ideal fall (one that falls exactly like the kinematic equation describes), what should the value of $a$ in your fit be?
+This is a critical concept that you understand before moving forward. Below are three questions. Read them and spend a few minutes trying to answer them for yourself. When you think you have the answers, click the link at the bottom to take you to the answers. 
 
-b.  For drop like the ones in the video, where the ball is released from rest, what should the value of $b$ in your fit be?
+1. For an ideal fall (one that falls exactly like the kinematic equation describes), what should the value of $a$ in your fit be?
+2.  For drop like the ones in the video, where the ball is released from rest, what should the value of $b$ in your fit be?
+3. When the origin is defined at the release point of the ball, like it is in the video, what should the value of $c$ in your fit be?
 
-c. When the origin is defined at the release point of the ball, like it is in the video, what should the value of $c$ in your fit be?
+:::Hider Answers
+1. The value of $a$ in your fit should be $\frac{g}{2}$, which is approximately $4.8$ms$^{-2}$
+2. The value of $b$ in your fit should be $0$ ms$^{-1}$ because the ball is being released from rest. It has no initial velocity.
+3. The value of $c$ in your fit should also be $0$ m. This is because $c$ is the initial position of the ball, and we defined origin to be the point where the ball is released.
 
-[Answers](https://docs.google.com/document/d/1xuPutEV_pWWWZYYmi8oLKV-G9F3q-pMSDv9B48brLp0)
-
+Keep in mind, these answers are for an ideal (not real world) drop. When we drop a ball in the real world, there will be factors and errors that shift the value of $a$, $b$, & $c$ from the ideal values. 
 :::
+
+After answering these questions, return to your spreadsheet and play with the curve fitting tools in Google Sheets. If you need a reminder how to do curve fitting, please refer to the video from the last lab:
+
+:::Video
+<iframe width="auto"  src="https://www.youtube.com/embed/wkqlSuAoFLQ" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+
+
+
+
+:::Note
+This exercise is designed to help you understand curve fitting. Nothing needs to be submitted for this exercise.
+:::
+
 ::::::
 
-::::::Exercise
-In this exercise we will be more quantitative about our analysis. We will perform fits and use those to aid our analysis. 
+
+## Quantitatively Understanding your Data 2
+In this [Ex](#Ex-quant) we will be more quantitative about our analysis. We will perform specific fits to our data and use the results to analyze the underlying physics in our experiment. 
+
+::::::Exercise quant
+**Instructions:**
 
 1. For each of the drops perform a polynomial fit of degree 2. 
-2. Create a table to summarize the information from your fits. **Hint:** $a=\frac{1}{2}g$, so make sure to solve this for $g$ before putting it in your table. Your table should look like the following:
+2. Create a table to summarize the information from your fits. **Hint:** $a=\frac{g}{2}$, so make sure to solve this for $g$ before putting it in your table. Your table should look like the following:
 
 :::Table
 
@@ -337,7 +393,7 @@ In this exercise we will be more quantitative about our analysis. We will perfor
 
 :::
 
-3. Calculate the percent discrepancy of the acceleration from ideal for each of the four drops. You can do this in a spreadhseet if you'd like but please show your work for **one** of the calculations. 
+3. Calculate the percent discrepancy of the acceleration from ideal for each of the four drops. You can do this in a spreadsheet if you'd like but please show your work for **one** of the calculations. 
 
 :::Question 
 1. What is the cause of this systematic error in the measurement of $g$?
@@ -363,6 +419,7 @@ If the beach ball isn't falling under constant acceleration, what model might it
 6. Perform a linear fit on this data.
 
 ::: Question
+From your linear fit: 
 1. What is the slope of the line?
 
 2. What does the slope represent?

@@ -98,13 +98,19 @@ body {
 
 }
 
-#mdcontent > ol{
+#mdcontent > ol, #mdcontent > ul {
 
    margin-inline-start: 5em;
    margin-inline-end: 5em;
-   line-height: 1;
+   line-height: 1.5!important;
 
 }
+
+#mdcontent > ol > li,#mdcontent > ol > ul{
+
+    margin: 10px 0px;
+ 
+ }
 
 .tab { text-indent:40px }
 /* Materials */
@@ -240,6 +246,11 @@ body {
     color: var(--l2-font);
     transition: background-color 0.5s ease-in-out;
 }
+
+.Exercise  .Hider  .aclabel{
+    font-size: 50%!important;
+}
+
 
 /* Simulation Card */
 .Simulation{
@@ -395,8 +406,14 @@ tbody > tr:nth-child(odd){background-color:var(--l3-bg)!important}
 .Hider > .ac-label {
     background-color: var(--primary-dark);
     color: var(--primary-font);
-    font-size: 100%!important;
     font-weight: lighter;
+  }
+
+  #mdcontent > .Hider > .ac-label {
+
+    
+    font-size: 100%!important;
+
   }
 
 
