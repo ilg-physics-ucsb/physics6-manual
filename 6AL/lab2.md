@@ -3,7 +3,7 @@
 ---
 
 :::Card Intro In this Lab..
-We will investigate with how to describe, mathematically, the trajectory of a body moving under the influence of a force. 
+We will investigate with how to describe, mathematically, the trajectory of a body moving under the influence of a force. Following this discussion we will turn our attention to a real experiment. The data from this "real-world" experiment will be analyzed and compared to the "ideal" theory and you will draw inferences about the underlying physics. 
 :::
 ---
 
@@ -21,10 +21,23 @@ air resistance affects the shape of the graph! In this lab you will explore this
 
 For 1D motion of a body, we are typically concerned with three variables which characterize the trajectory:
 
-1. The *position*, $x(t)$, which tells you where in space the body is located at a given time
+<!-- 1. The *position*, $x(t)$, which tells you where in space the body is located at a given time
 2. The  *velocity*, $v(t)$ which tells you the speed and direction the object is traveling at a given time, and hence the *change* in the position
-3. The acceleration, $a(t)$, which accounts for the forces on the body through $F=ma$, and tells you the *change* in the velocity.
-   
+3. The acceleration, $a(t)$, which accounts for the forces on the body through $F=ma$, and tells you the *change* in the velocity. -->
+
+
+:::Card Definition Position
+ The *position*, $x(t)$, quantifies where a body is located in space at a given time. In this lab, this is simply the *height* of an object above the ground.
+:::
+
+:::Card Definition Velocity
+The  *velocity*, $v(t)$, quantifies how the *position* of an object changes over time. It is a measure of the speed *and* direction the object is traveling at a given time.
+:::
+
+:::Card Definition Acceleration
+The acceleration, $a(t)$, quantifies how the *velocity* of an object changes over time. Physically, it originates from the forces acting on the body through $F=ma$.
+:::
+
 These three variables are interrelated, as each quantity tells you about the *change over time* of the previous.
 
 
