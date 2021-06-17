@@ -8,14 +8,13 @@ We will investigate with how to describe, mathematically, the trajectory of a bo
 ---
 
 
-The Simulation 1 below demonstrates the free fall motion of a ball. The left hand side shows what the 
-scene looks like to an onlooker: a ball falling straight towards the ground at increasing speed. The right hand side shows you what the respective "position v.s. time" curve would look like if you were to record this data.
-To get a feel for the concepts in this lab, feel free to play with the sliders. Observe how increasing and decreasing
+
+To get a feel for the concepts in this lab, feel free to play with [Si](#Si-balldrop). You can adjust the sliders to see how different conditions affect the trajectry of the ball.Observe how increasing and decreasing
 air resistance affects the shape of the graph! In this lab you will explore this phenomenon using your analytical and mathematical skills.
 	
-:::Simulation
+:::Simulation balldrop
+<iframe src="https://kapawlak.github.io/PhDemoJS/Apps/BallDrop/Page.html"  height="1000" style="border:none;width:100%"> </iframe>
 
-Add simulation
 :::
 
 # Introduction
@@ -30,76 +29,90 @@ These three variables are interrelated, as each quantity tells you about the *ch
 
 
 ## Motion with No Forces
+:::RFigure noforce m
+![The trajectory of the ball with no force and zero initial velocity](imgs/Lab2/nov_pos.gif)
+The trajectory of the ball with no force and zero initial velocity. Click to expand the GIF
+:::
 To make our discussion concrete, we should review some basic physics in the case that there are no forces acting on the body of interest. 
 
 
 Let's imagine that that at $t=0$, we have a ball at rest at a height $y_0= 25 m$. What is its position at $t=10$s? Since the ball is stationary &mdash; otherwise, $v_0= 0$ m/s &mdash; of course it will still be $y(10 s)=25 m$!
 
-:::Figure
-![](imgs/Lab2/nov_pos.gif)
-:::
+
 
 Now we imagine that this ball is given an initial velocity $v_0 = + 10$ m/s by tossing it upwards, with no forces acting upon it (for example, in space).  Since no forces are acting on the ball, the *change* in the velocity must be zero, so $v(t) = v_0=10$m/s for all time.  Note that the time, $t$, does not appear in this equation!
 
 
-::::::Figure
 
-::: col l5
-![](imgs/Lab2/v10_pos.gif)
-:::
-:::col l2
-.
-:::
-:::col l5
-![](imgs/Lab2/v10_vel.png)
-:::
-
-::::::
 
 Since the velocity tells you how an object's *position* is changing in time, and we know that the velocity in the absence of force is constant, we can say that the position of the ball will increase by $10$ meters per second that passes. From this, we deduce that at $t=10$s, the ball is now at $y(10 s) = y_0 + v_0 t=  25$m $+ 10$ m/s $\times 10$s = $125$ m. 
 
-Generally, in the absence of external forces, we can capture this relationship mathematically as:
-
-$$
-y(t) = v_0 t + y_0
-$$
-In plain English, the above mathematical sentence translates to: "The position of the ball at a given time is equal to the distance it travels per each unit of time (e.g. seconds), multiplied by the time that has passed, plus its original position."
-
-## Motion Under Constant Acceleration
-Once we include external forces acting on a body, we now must think about how the velocity changes over time.
-
-Consider now that we repeat this experiment on the moon, so that our ball is accelerating toward the ground at approximately $a = -1.6$m/s$^2$
-
-Similar to our equation for change in position, our equation for velocity is now:
-
-$$
-v(t) = a t + v_0 
-$$
-
-::::::Figure
+::::::Figure constvel l
 
 ::: col l5
-![](imgs/Lab2/acc_pos.gif)
+![(a) When there is no force, the velocity remains constant](imgs/Lab2/v10_pos.gif)
+(a) When there is no force, the velocity remains constant
 :::
 :::col l2
 .
-::: 
+:::
 :::col l5
-![](imgs/Lab2/acc_vel.png)
+![(b) The cosntant velocity is easily identified in a plot versus time](imgs/Lab2/v10_vel.png)
+(b) The cosntant velocity is easily identified in a plot versus time
 :::
 
 ::::::
 
-So that at $t=10$, we can now calculate that our ball has a velocity of $v(10s) = -6$ m/s.
+Generally, in the absence of external forces, we can capture this relationship mathematically as:
 
-This presents us with an issue when calculating the new position of our ball, however, since now the velocity is continually changing: our previous equation is no longer correct.
+:::Equation noforcep
+$$
+y(t) = v_0 t + y_0
+$$
+(in the absence of external forces.)
+:::
+In plain English, the above mathematical sentence translates to: "The position of the ball at a given time is equal to the distance it travels per each unit of time (e.g. seconds), multiplied by the time that has passed, plus its original position."
+
+## Motion Under Constant Acceleration
+Once we include external forces acting on a body, we now must think about how the velocity changes over time. Consider now that we repeat this experiment on the moon, so that our ball is accelerating toward the ground at approximately $a = -1.6$m/s$^2$. Similar to [Eq](#Eq-noforcep) for change in position, our equation for velocity is now:
+
+:::Equation
+$$
+v(t) = a t + v_0 
+$$
+:::
+
+So that at $t=10$, we can now calculate that our ball has a velocity of $v(10s) = -6$ m/s. This presents us with an issue when calculating the new position of our ball, however, since now the velocity is continually changing: our previous equation is no longer correct.
+
+::::::Figure withforce l
+:::col l6
+![](imgs/Lab2/acc_pos.gif)
+:::
+:::col l6
+![](imgs/Lab2/acc_vel.png)
+:::
+:::row
+
+:::
+:::col l6
+(a) Position v.s. time in the presence of an external force.
+:::
+:::col l6
+(b) Velocity v.s. time in the presence of an external force
+:::
+ 
+
+::::::
+
+
 
 Given the relationship between velocity and acceleration above, it is an exercise in calculus to show the following relationship is true:
-
+:::Equation positionwithforce
 $$
 y(t) = \frac{1}{2} at^2 + v_0 t 
 +y_0
 $$
+:::
 
 
  Putting it all together, we have that $x(10 s) = 45$ m
@@ -364,12 +377,12 @@ If the beach ball isn't falling under constant acceleration, what model might it
 Write a brief conclusion summarizing the important points of this lab.
 :::
 
-:::Note
+
+
+:::Summary 
 Make sure to include all tables, plots, pictures, drawings, screenshots or anything else asked of you in the exercises in your report, as well as answers to all the questions.
 
-All responses and answers should contain the correct number of sig figs and should include units when needed.
+**All responses and answers should contain the correct number of sig figs and should include units when needed.**
 :::
-
-
 
 

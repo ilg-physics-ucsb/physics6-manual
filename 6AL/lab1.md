@@ -33,20 +33,20 @@ Below we show an example of an excellent table and a not so great table. Just by
 ::::::RFigure table_ex m
 
 ::: col l6
-![GoodTable](imgs/Lab1/GoodTable.png)
+![Table 1](imgs/Lab1/GoodTable.png)
 
 Table 1
 :::
 
 ::: col l6
-![BadTable](imgs/Lab1/BadTable.png)
+![Table 2](imgs/Lab1/BadTable.png)
  Table 2
 
 :::
 
 ::::::
 
-[Fi](Fi-table_ex) shows two example tables. In the table on the left, the two variables that were measured are clearly described, the headers have units, the values have the proper number of sig figs, and their decimal points are aligned. 
+[Fi](#Fi-table_ex) shows two example tables. In the table on the left, the two variables that were measured are clearly described, the headers have units, the values have the proper number of sig figs, and their decimal points are aligned. 
 
 In the table on the right the variables are not clearly described. Even if you could determine what the two columns represent, there is no way for you to know the units. Is it seconds and millimeters? Hours and nanometers? Years and feet?
 
@@ -67,7 +67,7 @@ A **dependent** variable is one that *does* depend on the other variables. Often
 
 Often times in the lab manual we will ask you to plot "this vs. that." When asked to plot something with that format that means plot "dependent variable vs independent variable".
 
-## Creating a Good Graph:
+## Creating a Good Graph
 
 
 
@@ -83,12 +83,13 @@ Often times in the lab manual we will ask you to plot "this vs. that." When aske
 
 When it comes to a title, **don't** provide a title like "Distance vs Time." This is a bad title. This information can be determined from just looking at the axes. Your title should describe what is happening, e.g. "Distance Traveled by Car on Vacation Trip."
 
-Below is an example of a good plot, which shows the relationship between a few different color (wavelength) LEDs and the measured voltage at which they turn on.  The Inverse Wavelength is the independent variable and the Turn-on Voltage is the dependent variable.
+[Fi](#Fi-goodgraph), below, is an example of a good plot, which shows the relationship between a few different color (wavelength) LEDs and the measured voltage at which they turn on.  The Inverse Wavelength is the independent variable and the Turn-on Voltage is the dependent variable.
 
 
 
-:::Figure
-![Good Graph](imgs/Lab1/GoodGraph.png)
+:::Figure goodgraph xl
+![Example of a Good Graph](imgs/Lab1/GoodGraph.png)
+Example of a Good Graph
 :::
 
 Notice that the data takes up the entire plot. There are no large blank areas. Both of the axes are labeled and have units. The data points are not connected and there is a line of best fit. There is also a title for the plot that lets us know what the experimenter was doing.
@@ -101,44 +102,43 @@ In this exercise you will use the 6 rules above to identify mistakes in graphs t
 :::Question
 Identify mistakes with the following graph.
 
-::: Figure
+
 ![Bad Graph 1](imgs/Lab1/GraphBadRange.png)
-:::
 
 :::
+
 
 :::Question
 
 Identify mistakes with the following graph.
 
-::: Figure
 ![Bad Graph 2](imgs/Lab1/GraphConnected.png)
-:::
+
 :::
 
 ::: Question
 
 Identify mistakes with the following graph.
-::: Figure
+
 ![Bad Graph 1](imgs/Lab1/Graphaxislabelerrors.png)
-:::
+
 :::
 
 :::Question
 
 Identify mistakes with the following graph.
-::: Figure
+
 ![Bad Graph 2](imgs/Lab1/GraphNoTitle.png)
-:::
+
 :::
 
 
 :::Question
 
 Identify mistakes with the following graph.
-:::Figure
+
 ![Bad Graph 5](imgs/Lab1/GraphYX.png)
-:::
+
 :::
 
 
@@ -171,31 +171,33 @@ For this example we will consider a student, Jillian, who is investigating diffe
 DO NOT REMOVE AN OUTLIER without a good reason!
 :::
 
-On her first run she sees an outlier in her data set. She takes a closer look at her measurement system and realizes there is a loose cable which causes intermittent failures. She decides this run was not valid, and does the experiment again.
+On her first run she sees an outlier in her data set, shown in [Fi](#Fi-jill1). She takes a closer look at her measurement system and realizes there is a loose cable which causes intermittent failures. She decides this run was not valid, and does the experiment again.
 
-:::Figure
-![ Line of Best Fit](imgs/Lab1/OutlierSheet.png)
+:::Figure jill1 xl
+![Jill's Line of Best Fit and apparent outlier](imgs/Lab1/OutlierSheet.png)
+ Jill's Line of Best Fit and apparent outlier
 :::
 
-2. The curve fit is **balanced**, i.e. roughly the same number of points lie above the line as below it. This time Jillian plots her data and sees what looks like a balanced fit with no outliers. There are roughly the same number of points above an below the line of best fit. 
+2. The curve fit is **balanced**, i.e. roughly the same number of points lie above the line as below it. This time Jillian plots her data in [Fi](#Fi-jill2) and sees what looks like a balanced fit with no outliers. There are roughly the same number of points above an below the line of best fit. 
 
-:::Figure
-![ Line of Best Fit](imgs/Lab1/LinearFit.png)
+:::Figure jill2 xl
+![ Line of Best Fit after removing the outlier ](imgs/Lab1/LinearFit.png)
+Line of Best Fit after removing the outlier
 :::
 
-3. As shown in Figure 9 the data should be randomly above and below your fit. For instance, if you fit a line to your data and notice that data starts off below the line, then goes above, and then below again, your data likely isn't represented by a line, but something else. 
+3. As shown in [Fi](#Fi-jill2)  the data should be randomly above and below your fit. For instance, if you fit a line to your data and notice that data starts off below the line, then goes above, and then below again, your data likely isn't represented by a line, but something else. 
 
-When Jillian takes data for her second engine, plots and does a linear fit this is her plot.
+When Jillian takes data for her second engine, plots and does a linear fit she obtains the plot in [Fi](#Fi-jill3).
 
-:::Figure
+:::Figure jill3 xl
 ![](imgs/Lab1/QuadLinear.png)
 :::
 
 Notice how the the data starts above the fit, then goes below the fit, then back above the fit. Jillian recognizes that this means her data is not linear because the data she be randomly above and below the fit as in Figure 9.
 
-She reads the manufacturer data sheet for the second engine and learns the thrust should increase quadratically in time. So she decides to fit a parabola to the data. This is her new plot.
+She reads the manufacturer data sheet for the second engine and learns the thrust should increase quadratically in time, so she decides to fit a parabola to the data, as in [Fi](#Fi-jill4).
 
-:::Figure
+:::Figure jill4 xl
 ![](imgs/Lab1/QuadQuad.png)
 :::
 
@@ -359,7 +361,7 @@ Make sure to include your final table with all the columns you made, a sample ca
 Write a brief conclusion summarizing the important points of this lab.
 ::::::
 
-:::Note
+:::Summary 
 Make sure to include all tables, plots, pictures, drawings, screenshots or anything else asked of you in the exercises in your report, as well as answers to all the questions.
 
 **All responses and answers should contain the correct number of sig figs and should include units when needed.**
