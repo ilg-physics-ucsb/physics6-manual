@@ -1,8 +1,9 @@
 # Nuclear Physics
 ---
-::: Note
-You will expected to turn in every plot and table you make for this lab, as well as justify the reasoning behind your answers.
+:::Card Intro You've made it to the final lab!
+You've learned a lot about optics this quarter and we are finally ready to move on! In this lab we will be focusing on the final subject of this course: **Nuclear Physics** and the characteristics of its radiation.
 :::
+---
 # Introduction
 
 :::Video
@@ -30,8 +31,9 @@ The Geiger-Müller tube consists of a tube filled with an inert gas such as heli
 
 
 
-::: LFigure
-![*Figure 1.1 - GM Tube Plateau*](imgs/Lab4/fig1_1.JPG)
+:::LFigure gmtube xl
+![Geiger-Müller Tube Plateau](imgs/Lab4/fig1_1.JPG)
+Geiger-Müller Tube Plateau
 :::
 When ionizing radiation passes through the tube, it ionizes some of the gas molecules. This creates positively charged ions and free electrons. The electric field created by the tube’s electrodes accelerates particles. The ions are pulled to the cathode; the electrons to the anode. The charged particles gain sufficient energy to ionize other molecules. This creates an avalanche of charged particles and results in a short, intense pulse of current from the negative electrode to the positive electrode.
 
@@ -40,24 +42,25 @@ When ionizing radiation passes through the tube, it ionizes some of the gas mole
 
 The Geiger-Müller counter has applications in the fields of nuclear physics, geophysics (mining) and Voltage medical therapy with isotopes and x-rays. 
 
-The sensitivity of a GM tube depends on how much voltage is placed between the anode and cathode. If the voltage is too small, ionizing events will not cause a discharge and the radioactive event will not be counted. If the voltage is too great, the tube will breakdown, resulting in discharges when no radioactive events have occurred. This results in an artificially high count. A properly functioning GM tube will exhibit a “plateau” effect, where the counting rate remains nearly constant over a range of applied voltage. The correct operating voltage for the Geiger-Mueller tube may be determined experimentally using a small radioactive source. Figure 1 displays a typical plateau curve.
+The sensitivity of a GM tube depends on how much voltage is placed between the anode and cathode. If the voltage is too small, ionizing events will not cause a discharge and the radioactive event will not be counted. If the voltage is too great, the tube will breakdown, resulting in discharges when no radioactive events have occurred. This results in an artificially high count. A properly functioning GM tube will exhibit a “plateau” effect, where the counting rate remains nearly constant over a range of applied voltage. The correct operating voltage for the Geiger-Mueller tube may be determined experimentally using a small radioactive source. [Fi](#Fi-gmtube) displays a typical plateau curve.
 
 
 ## Operational Overview
+:::RFigure labstation m
+![Spetech ST - 150 Nuclear Lab Station](imgs/Lab4/fig1_2.JPG)
+Spetech ST - 150 Nuclear Lab Station
+:::
 
 In this lab we use the ST-150 Nuclear Lab Station to make radiation measurements using a Co-60 gamma source. We will place it in the detector at different distances and with various absorbers. 
 
-*The quantities of radiation in this lab are safe and will not hurt you.*
+<center> <b>The quantities of radiation in this lab are safe and will not hurt you. </b></center>
 
-The basic operation of the ST-150 is straightforward; it does the counting for you over the time interval that you specify. 
+The basic operation of the ST-150 is straightforward; it does the counting for you over the time interval that you specify. The sample holder provides six positions with 1 cm separation between each. Each position can hold either a radioactive source or an absorber. 
 
-The sample holder provides six positions with 1 cm separation between each. Each position can hold either a radioactive source or an absorber. 
-
-*To improve sensitivity to alpha and beta particle radiation, many GM tubes have an extremely thin entrance window. If broken it cannot be repaired. Never allow objects to touch the window.*
-
-::: Figure
-![*Figure 1.2 - Spetech ST - 150 Nuclear Lab Station*](imgs/Lab4/fig1_2.JPG)
+:::Note 
+To improve sensitivity to alpha and beta particle radiation, many GM tubes have an extremely thin entrance window. If broken it cannot be repaired. Never allow objects to touch the window.
 :::
+
 
 
 # Background Counts
@@ -79,9 +82,9 @@ Background radiation is usually high energy cosmic rays from sources outside the
 
 ## Cobalt-60
 
-Cobalt-60 is a radioactive isotope of Cobalt. It has a half-life of 5.27 years. It eventually decays into the stable element Nickel-60. The decay scheme for Co-60 is shown in Figure 3. You can see in this figure how Co-60 emits two different energy beta particles. This transmutes the nucleus into that of Ni-60 but it its excited state. To get to the most stable ground state the excited nuclear will emit gamma rays, each time lowering its energy, finally becoming stable Ni-60.
+Cobalt-60 is a radioactive isotope of Cobalt. It has a half-life of 5.27 years. It eventually decays into the stable element Nickel-60. The decay scheme for Co-60 is shown in [Fi](#Fi-co60). You can see in [Fi](#Fi-co60) how Co-60 emits two different energy beta particles. This transmutes the nucleus into that of Ni-60 but it its excited state. To get to the most stable ground state the excited nuclear will emit gamma rays, each time lowering its energy, finally becoming stable Ni-60.
 
-::: Figure
+:::Figure co60 xl
 ![*Co-60 decay scheme. This figure shows how Co-60 decays into Ni-60. First it emits a 0.318 MeV beta particle. From there it emits two successive gamma rays with energies 1.173MeV and 1.332 MeV.*](imgs/Lab4/co60.gif)
 
 From [HyperPhysics.com](http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/betaex.html)
@@ -189,7 +192,7 @@ What kind of curve does your data follow (straight line, exponential, parabolic,
 
 The mass attenuation coefficient for a specific material, defined as $\mu/\rho$ tells us how well a material absorbs or scatters radiation The behavior of radiation as it passes through matter is given by the formula:
 
-:::Equation
+:::Equation n
 $$
 N = N_o e^{-(\mu/\rho)(\rho x)}
 $$
@@ -197,9 +200,13 @@ $$
 
 where N is the number of counts per unit time (activity) after passing through an absorber of thickness x, $N_o$ is the number of counts incident on the absorber per unit time, the quantity $(\mu/\rho)$ is the mass attenuation coefficient, $\rho x$ is the linear density in $mg/cm^2$ and $\rho$ is the density of the absorber material in $mg/cm^3$. If we take the natural logarithm of both sides we obtain:
 
-$$ln(N) = ln(N_o) - (\mu/\rho)(\rho x)$$
-
-The above equation follows the form $y = mx + b$, with $m = -(\mu/\rho)$ and $b = ln(N_o)$
+:::Equation log
+$$
+ln(N) = ln(N_o) - (\mu/\rho)(\rho x)
+$$
+:::
+ 
+[Eq](#Eq-log) follows the form $y = mx + b$, with $m = -(\mu/\rho)$ and $b = ln(N_o)$
 
 ::::::Exercise
 
@@ -220,5 +227,8 @@ The above equation follows the form $y = mx + b$, with $m = -(\mu/\rho)$ and $b 
 # Conclusion
 ::: Exercise
 Write a brief conclusion summarizing the important points of this lab.
+:::
+:::Summary
+You will expected to turn in every plot and table you make for this lab, as well as justify the reasoning behind your answers.
 :::
 

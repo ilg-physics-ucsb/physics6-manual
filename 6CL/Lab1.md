@@ -1,7 +1,9 @@
 # Reflection and Refraction
 
-:::Note
-You will be expected to turn in all plots and tables you are asked to make in the exercises, as well as all answers to questions
+:::Card Intro This Week
+
+This week we will investigate Reflection and Refraction. After a short review of the theory governing the reflection and refraction of light through surfaces and prisms, you will tackle a few "virtual" experiments by using simulations or interacting with videos. 
+
 :::
 # Introduction
 
@@ -14,21 +16,23 @@ You will be expected to turn in all plots and tables you are asked to make in th
 
 # Refraction
 ## Index of refraction and speed of light
-Light travels in a vacuum at a speed $c=3.00 \times 10^8 m/s$, and more slowly within any other medium or material. We define the **index of refraction**  of a material, denoted by $n$, to be the ratio of the speed of light in a vacuum to the speed of light in that medium.
+Light travels in a vacuum at a speed $c=3.00 \times 10^8 $ m s$^{-1}$, and more slowly within any other medium or material. We define the **index of refraction**  of a material, denoted by $n$, to be the ratio of the speed of light in a vacuum to the speed of light in that medium.
 
 :::Equation
 $$
-n = c/v
+n = \frac{c}{v}
 $$
 :::
-where $n$ is the index of refraction, $c$ is the speed of light in a vacuum and $v$ is the speed of light in the medium. If you know the medium’s index of refraction, you know the speed of light in that medium.
+where $c$ is the speed of light in a vacuum and $v$ is the speed of light in the medium. If you know the medium’s index of refraction, you know the speed of light in that medium.
 
 When a light ray encounters a boundary between two materials, it experiences a change in direction, which we call *refraction*. The bending of the light at the interface is due to fact that light travels at different speeds in the two materials, so it's a result of the the difference in the materials’ indexes of refraction. 
 
 
-:::Figure
-![Figure 1](imgs/Lab1/fig1_1.jpg)
+:::Figure refrac xl
+![The result of refraction at different angles of incidence.](imgs/Lab1/fig1_1.jpg)
+The result of refraction at different angles of incidence. 
 :::
+
 The figure above shows beams of light being emitted from the blue semicircle at the bottom left. The rays travel through a medium having an index of refraction of $n_1$, towards the interface of that medium with a second medium having an index of refraction of $n_2$. The beams in the lower region are the *incident* beams. The beams in the upper region are the *refracted* beams. When light reaches the interface, some of it is reflected back into the first medium, but most of it is refracted into the second medium. Note that two of the exiting beams, B and C, are bent (*refracted*) away from the normal. This figure could represent light coming from water and going into air. When a beam is perpendicular to the interface boundary, as is beam A, it is said to be *normal* to the interface. Normal rays are undeflected. 
 
 ## Snell's Law
@@ -51,15 +55,15 @@ The indexes of refraction are properties of the two mediums.
 
 <!-- Q1 -->
 :::Question
-Look at Figure 1 to answer the following:
+Look at [Fi](#Fi-refrac) to answer the following:
 
-a. Light ray A is normal to the interface.  What is the angle of incidence $\theta_1$ for this ray? Using Snell's law, what is the angle of refraction $\theta_2$? 
+1. Light ray A is normal to the interface.  What is the angle of incidence $\theta_1$ for this ray? Using Snell's law, what is the angle of refraction $\theta_2$? 
 
-b. Is the angle of the refracted light beam B larger or smaller than the angle of incidence o? What about light beam C? Using Snell's Law, what does the relative magnitude of the angles (i.e. $\theta_2/\theta_1$) tell us about the relative magnitude of the indexes $n_1$ and $n_2$?
+2. Is the angle of the refracted light beam B larger or smaller than the angle of incidence o? What about light beam C? Using Snell's Law, what does the relative magnitude of the angles (i.e. $\theta_2/\theta_1$) tell us about the relative magnitude of the indexes $n_1$ and $n_2$?
 
 :::
 ## Critical angle and total internal reflection
-When the angle of incidence reaches a certain value (ray D in Figure 1), light no longer gets refracted into the second medium, instead it is fully reflected back. The **critical angle** is the incident angle at which light does not get transmitted, but all the light is reflected back into the first medium.
+When the angle of incidence reaches a certain value (ray D in [Fi](#Fi-refrac) 1), light no longer gets refracted into the second medium, instead it is fully reflected back. The **critical angle** is the incident angle at which light does not get transmitted, but all the light is reflected back into the first medium.
 The critical angle is the angle of incidence that corresponds to an angle of refraction of 90°. For any angle greater than the critical angle, *total internal reflection* will occur. A necessary condition for the critical angle to exist is that the index $n_1$ of the first medium has to be greater than the index $n_2$ of the second medium.
 
 
@@ -69,7 +73,7 @@ Let's start by looking at a simulation of what happens when light interacts with
 
 ::::::Exercise
 
-In this exercise you will use a computer program to simulate what happens to light at a boundary.
+In this exercise you will use a simulation to investigate what happens to light at a boundary.
 
 :::Simulation
 <iframe src="https://phet.colorado.edu/sims/html/bending-light/latest/bending-light_en.html?screens=1" width="100%" height="600" allowfullscreen="" frameborder="0"></iframe>
@@ -82,9 +86,9 @@ In this exercise you will use a computer program to simulate what happens to lig
 3. Use the protractor tool to measure the new incident angle and refracted angle.
 
 :::Question
-a. What is the index of refraction for the material "Mystery B?" Show your work.
+1. What is the index of refraction for the material "Mystery B?" Show your work.
 
-b. What is the speed of light in the "Mystery B" material.
+2. What is the speed of light in the "Mystery B" material.
 :::
 
 ::::::
@@ -93,32 +97,34 @@ b. What is the speed of light in the "Mystery B" material.
 ## Experiment
  We will use the optical bench in this experiment and a semi-circular acrylic block with an unknown index of refraction. Our objective is to find its index of refraction.
 
-::::::Exercise
+:::::::::Exercise
 
+:::RFigure semicyn m
+![Schematic of Prism ](imgs/Lab1/semi_circular_refraction.jpg)
+Schematic of Prism
+:::
 
-
-In the video below, you will be shown light passing through a semi-cylindrical prism (D-block). The light is coming from the bottom of the video and hitting the curved surface of the D-block first, then passing through the material and exiting the flat surface. (See Figure 2.)
+In the video below, you will be shown light passing through a semi-cylindrical prism (D-block). The light is coming from the bottom of the video and hitting the curved surface of the D-block first, then passing through the material and exiting the flat surface as in [Fi](#Fi-semicyn)
 
 You will use this video to make some measurements and answer the questions below.
 
-<!-- 1. Adjust the ray box to provide one beam of light. Place the semi-circular plastic block in the middle of the ray tracing table. Align it with the table’s axis, this will make it easy to measure the incident and refracted angles. *You can then rotate the table, not the block. It’s easy! Measure and record four different angles of incidence and their respective angles of refraction. Be sure your choices of the incident angles produce a reasonable span of values. A selection of values, ranging from 5° to 8°, would be “not a reasonable span.”* -->
+**Instructions**
 
-:::Figure
-![Figure 2](imgs/Lab1/semi_circular_refraction.jpg)
-:::
-
-
-<!-- Ray Table -->
-:::Video
-<iframe style='width:100%;' src="https://www.youtube.com/embed/TdWsScRNHuI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-:::
-:::Note
-We neglect the first boundary between air and the acrylic block because the incident beam is perpendicular to the cylinder’s surface, so it is undeflected.
-:::
 
 1. Start by making a data table to record the incident and refracted angles.
 
-2. Starting about about 2:20 in the video, the ray tracing table starts to be rotated. This goes on until about 3:50. Within this window, make the video pause at four different angles, and use the ray tracing table to record the incident and refracted angles. The video stops for a moment to highlight which angles you should be measuring. Feel free to use this as one of your measurements. Finally, be sure your choices of the incident angles produce a reasonable span of values. A selection of values ranging from $5^{\circ}$ to $8^{\circ}$, would not be “a reasonable span." **You should NOT spend more than 5 minutes making these measurements. If you do, you are working too hard.**
+2. At about 2:20 in the video, the ray tracing table starts to be rotated. This goes on until about 3:50. Within this window, make the video pause at four different angles, and use the ray tracing table to record the incident and refracted angles. The video stops for a moment to highlight which angles you should be measuring. Feel free to use this as one of your measurements. Finally, be sure your choices of the incident angles produce a reasonable span of values. A selection of values ranging from $5^{\circ}$ to $8^{\circ}$, would not be “a reasonable span." **You should NOT spend more than 5 minutes making these measurements. If you do, you are working too hard.**
+
+
+
+:::Video
+<iframe style='width:100%;' src="https://www.youtube.com/embed/TdWsScRNHuI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+
+
+:::Note
+We neglect the first boundary between air and the acrylic block because the incident beam is perpendicular to the cylinder’s surface, so it is undeflected.
+:::
 
 
  
@@ -138,13 +144,13 @@ What is average index of refraction for the acrylic D-block? We will denote it $
 2. At the critical angle, the refracted light travels along the surface of the plastic block. Thus, $\sin(\theta_2) = 1.0$, or $\theta_2 = 90$ ̊. Plug this into Snell’s law and compute $n_c$.
 :::
 
-:::Note
+::::::Note
 Recall that the equation for percent difference is the following:
 
 :::Equation
 
 $$
-\text{percent difference} = \frac{| \text{value 1} - \text{value 2}|}{average} \\
+\text{percent difference} = \frac{| \text{value 1} - \text{value 2}|}{average} 
 $$
 :::
 
@@ -154,7 +160,7 @@ $$
 \text{average} = \frac{\text{value 1} + \text{value 2}}{2}
 $$
 
-:::
+::::::
 
 :::Question
 Compare your calculated $n_c$ to $n_{avg}$. What is the percent difference? 
@@ -164,7 +170,7 @@ Compare your calculated $n_c$ to $n_{avg}$. What is the percent difference?
 What is the speed of light in the acrylic block (use either $n_c$ or $n_{avg}$)?
 :::
 
-::::::
+:::::::::
 
 
 # Prisms & Frequency-Dependent Refraction
@@ -172,11 +178,12 @@ What is the speed of light in the acrylic block (use either $n_c$ or $n_{avg}$)?
 ::::::RFigure freqdep m
 
 
-![Figure 2.1  ](imgs/Lab1/fig2_1.jpg)
-*Frequency-dependent index of refraction for glass, quartz, and diamond*
+![Frequency-dependent index of refraction for glass, quartz, and diamond](imgs/Lab1/fig2_1.jpg)
+Frequency-dependent index of refraction for glass, quartz, and diamond
 
 
-![](imgs/Lab1/fig2_1_graph.jpg)
+![Scatter Plot of above data.](imgs/Lab1/fig2_1_graph.jpg)
+Scatter Plot of above data.
 
 
 
@@ -198,7 +205,9 @@ A beam of white light traveling in air is incident on a glass block at an angle 
 :::
 
 ## Experiment
-::::::Exercise
+In [Ex](#Ex-white), you will investigate what happens as white light is passed through a prism. You will use your knowledge of Frequency-Dependent Refraction to describe what is happening. 
+
+::::::Exercise white
 
 In this video you will see what happens when we refract white light. Recall that white light is composed of many different frequencies (colors) of light.
 
@@ -212,7 +221,7 @@ In this video you will see what happens when we refract white light. Recall that
 :::Question
 In the video the most clear rainbow is observed when the light is close to the critical angle. Why is the critical angle ideal for observing the rainbow? 
 
-Hints: How does dispersion change with increasing the incident angle? What happens to refracted light past teh critical angle?
+Hints: How does dispersion change with increasing the incident angle? What happens to refracted light past the critical angle?
 
 :::
 
@@ -228,11 +237,12 @@ The image of any point object in a plane mirror is simply the point straight acr
 
 
 
-:::Figure
-![Figure 3.1 *Simple ray tracing with single planar mirror.*](imgs/Lab1/fig3_1.jpg)
+:::Figure raytrace xl
+![Simple ray tracing with a single planar mirror.](imgs/Lab1/fig3_1.jpg)
+Simple ray tracing with a single planar mirror.
 :::
 
-Now let's consider why ray tracing works. The law of reflection tells us that the angle of incidence is always equal to the angle of reflection. We also know that the image is formed by the light ray that emanates from the object, reflects off the mirror, and finally reaches our eye. The ray that reaches our eye must obey the law of reflection; its path is shown in Figure 4. It is important to note that this would work equally well for any set of angles. We see an image behind the mirror because of the law of reflection; if you extended the reflected light ray behind the mirror, it would arrive precisely at the image point as in Figure 4. The phenomenon of reflection fools us into thinking that the light rays originate from the image point.
+Now let's consider why ray tracing works. The law of reflection tells us that the angle of incidence is always equal to the angle of reflection. We also know that the image is formed by the light ray that emanates from the object, reflects off the mirror, and finally reaches our eye. The ray that reaches our eye must obey the law of reflection; its path is shown in [Fi](#Fi-raytrace). It is important to note that this would work equally well for any set of angles. We see an image behind the mirror because of the law of reflection; if you extended the reflected light ray behind the mirror, it would arrive precisely at the image point as in [Fi](#Fi-raytrace). The phenomenon of reflection fools us into thinking that the light rays originate from the image point.
 
 
 ::::::Exercise
@@ -298,6 +308,12 @@ What could be the reasons for errors in the two questions above?
 
 :::Exercise
 Write a brief conclusion summarizing the important points of this lab.
+:::
+
+:::Summary
+
+You are expected to turn in all plots and tables you are asked to make in the exercises, as well as all answers to questions
+
 :::
 
 

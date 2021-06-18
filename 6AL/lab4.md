@@ -219,7 +219,7 @@ The tension on the string provides, in turn[fn]pun intended[/fn], an opposing fo
 3. When the mass is falling, what is the tension in the string? Use Newton's second law to determine the tension $T$ in the string as a function of $m$, the falling mass, $g$, the acceleration due to gravity, and $a$, the linear acceleration of the falling mass. Refer to [Fi](#Fi-device).
 :::
 
-When you release the mass, it accelerates toward the earth with acceleration, $a$. To find this acceleration, we measure the time it takes for the mass to fall to the floor from a known height, h. We then use the following equation to calculate $a$[fn]Because the mass starts from rest, we can ignore the $v_{0} t$ term, which equals zero.[/fn]:
+When you release the mass, it accelerates toward the earth with acceleration, $a$. To find this acceleration, we measure the time it takes for the mass to fall to the floor from a known height, $h$. We then use the following equation to calculate $a$[fn]Because the mass starts from rest, we can ignore the $v_{0} t$ term, which equals zero.[/fn]:
 
 :::Equation
 $$
@@ -275,7 +275,9 @@ The following video will show steps above being performed.
 1) Watch the video, and record for each mass, r, m, h and t
 
 :::Video
-!(https://www.youtube.com/watch?v=0i6CmxgNM34)
+
+<iframe width="auto"  src="https://www.youtube.com/embed/0i6CmxgNM34" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 :::
 
 2) Fill in your table by calculating for each mass, a, &alpha; , T and &tau;.
@@ -304,7 +306,7 @@ where M is the mass of the disc and R is the radius of the disc. Do not confuse 
 
 1) The video below shows the measurement of the mass and the diameter of the turntable platter. Record these values.
 :::Video
-!(https://www.youtube.com/watch?v=gFbj7EOupxc)
+<iframe width="auto"  src="https://www.youtube.com/embed/gFbj7EOupxc" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
 2) Given the mass  $M=976.5 g$ and radius $R=12.7 cm$ of the turntable platter, use the equation above to calculate its moment of inertia. (Remember to use the radius, and not the diameter.)
 :::
