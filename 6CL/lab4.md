@@ -1,4 +1,4 @@
-# Nuclear Physics
+# Lab 4: Nuclear Physics
 ---
 :::Card Intro You've made it to the final lab!
 You've learned a lot about optics this quarter and we are finally ready to move on! In this lab we will be focusing on the final subject of this course: **Nuclear Physics** and the characteristics of its radiation.

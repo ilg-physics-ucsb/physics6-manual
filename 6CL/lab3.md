@@ -1,5 +1,5 @@
 
-# Wave Optics
+# Lab 3: Wave Optics
 
 ---
 

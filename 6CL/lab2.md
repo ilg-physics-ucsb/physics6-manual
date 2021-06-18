@@ -1,4 +1,4 @@
-# Lenses, Ray Tracing, and Simple Optical Devices
+# Lab 2: Lenses, Ray Tracing, and Simple Optical Devices
 
 ---
 
