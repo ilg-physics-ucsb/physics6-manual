@@ -466,3 +466,10 @@ tbody > tr:nth-child(odd){background-color:var(--l3-bg)!important}
 .w3-hover-theme:hover {color: var(--hover-font) !important; background-color:var(--hover-bg)!important}
 .w3-hover-text-theme:hover {color:var(--hover-font)!important}
 .w3-hover-border-theme:hover {border-color:var(--border-col)!important}
+
+
+
+.Intro table{
+    width: 110%;
+    margin: 0px -20px 0px -20px;
+}
