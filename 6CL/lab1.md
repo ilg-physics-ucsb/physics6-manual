@@ -1,4 +1,4 @@
-# Reflection and Refraction
+# Lab 1: Reflection and Refraction
 
 :::Card Intro This Week
 
