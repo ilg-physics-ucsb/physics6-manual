@@ -362,20 +362,32 @@ To know the best way to write our answer, we must determine which **digits carry
 
 To determine the number of significant figures, count from left to right the number of digits.
 
-For example: 1.67cm has 3 sig figs, whereas 1.6cm has two sig figs.
+:::Card Intro Example
+1.67cm has 3 sig figs, whereas 1.6cm has two sig figs.
+:::
+
+
 
 Note that leading zeros after the decimal point are not significant. They merely determine the location of the decimal point.
 
-For example: 0.016 m has only two significant figures (this is the 1.6cm quoted before)
+:::Card Intro Example
+0.016 m has only two significant figures (this is the 1.6cm quoted before)
+
+:::
+
 
 Zeros at the end of a number (trailing zeros) can be significant or not depending on context. If the trailing zero is to the right of a decimal point then we will count it as significant. 
 
-For example: 12.450 has five sig figs while 12.45000 has seven sig figs.
+
+:::Card Intro Example
+12.450 has five sig figs while 12.45000 has seven sig figs.
+:::
 
 If the trailing zero is to the left of the decimal point it can be ambiguous. To avoid ambiguity we use the following convention. If the number ends in a decimal point, all of the zeros are significant. If the number does not end in a decimal point, the trailing zeros are not significant.
 
-For example: 4,510,000 has three sig figs while 4,510,000. has 7 sig figs. 
-
+:::Card Intro Example
+ 4,510,000 has three sig figs while 4,510,000. has 7 sig figs. 
+:::
 
 :::Question
 Determine the number of significant figures in the following measurements:

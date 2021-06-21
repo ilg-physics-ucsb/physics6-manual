@@ -322,7 +322,7 @@ Now that we have made our table, let's plot our data and do a fit. We will have 
 :::
 
 
-
+ 
 
 
 # Using Google Sheets to Analyze Data

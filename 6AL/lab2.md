@@ -25,7 +25,7 @@ For 1D motion of a body, we are typically concerned with three variables which c
 2. The  *velocity*, $v(t)$ which tells you the speed and direction the object is traveling at a given time, and hence the *change* in the position
 3. The acceleration, $a(t)$, which accounts for the forces on the body through $F=ma$, and tells you the *change* in the velocity. -->
 
-
+ 
 :::Card Definition Position
  The *position*, $x(t)$, quantifies where a body is located in space at a given time. In this lab, this is simply the *height* of an object above the ground.
 :::

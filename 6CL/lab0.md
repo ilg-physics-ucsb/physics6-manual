@@ -2,7 +2,7 @@
 
 
 :::Card Intro Welcome to PHYS6CL!
-This week we will engage with a quick lab intended as a refresher of out mathematical skills.
+This week we will engage with a quick lab intended as a refresher of our mathematical skills.
 :::
 
 # Introduction 
