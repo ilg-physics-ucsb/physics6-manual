@@ -327,7 +327,11 @@ x_{avg} \pm \delta x
 $$
 :::
 
-Where $\delta x$ is the standard deviation. We report standard deviation to 1 significant figure. You can see more about this below.
+Where $\delta x$ is the standard deviation. We report the standard deviation to 1 significant figure. You can see more about this below.
+
+:::Note
+We report standard deviations to 1 significant figure! Please see the example in [Part V](#toc_Significant-Figures-and-Uncertainty)
+:::
 
 We will usually calculate the standard deviation by using the STDEV() function in Google Sheets.
 
@@ -407,11 +411,17 @@ Determine the number of significant figures in the following measurements:
 
 
 ## Significant Figures in Calculations
-**When we add a series of numbers, the one having the greatest uncertainty determines the number of significant figures in the final result.** 
-For example, the sum 53.7 + 2.63 + 0.068 equals 56.4. Since we know the value 53.7 only to the tenths place, we cannot know the sum to anything less than that digit.
+When we add a series of numbers, the one having the greatest uncertainty determines the number of significant figures in the final result.
 
-**When we multiply or divide, we take the number of significant figures in the answer to be the same as that of the quantity that has the lowest number of significant figures.**
-Thus, the result of the calculation (35 &times; 0.637)/256.3 is 0.087 (two sig figs).
+:::Card Intro Example
+For example, the sum 53.7 + 2.63 + 0.068 equals 56.4. Since we know the value 53.7 only to the tenths place, we cannot know the sum to anything less than that digit.
+:::
+
+When we multiply or divide, we take the number of significant figures in the answer to be the same as that of the quantity that has the lowest number of significant figures.
+
+:::Card Intro Example
+The result of the calculation (35 &times; 0.637)/256.3 is 0.087 (two sig figs).
+:::
 
 Certain multipliers, such as the 180, in 180/&pi;, the conversion factor to go from radians to degrees, or the 2 in 2&pi;r, the formula for the circumference of a circle, are exact.  They do not affect the number of significant figures in the result of a calculation in which they appear.
 
@@ -441,8 +451,7 @@ What is the area of the circle?
 ::::::
 
 
-:::Note
-Example:
+:::Hider An Example
 
 Imagine that you've been given the mass of a block of material as 75 grams, and its dimensions as 2.5 cm &times; 3.1 cm &times; 6.3 cm (it is a rectangular parallelepiped). You are told to calculate its density. Since density is mass per unit volume, you multiply the three dimensions together, and then divide the result into 75.  You do this on a calculator. For the volume, you get 48.825 cm$^3$, and for the density, the calculator spits out 1.53609831 (depending on how many digits the display gives; the units are g/cm$^3$). It may be tempting just to write down all of those digits for the final result of the calculation. The question is whether this is necessary, or whether such a number is actually meaningful. After all, given that we know the mass to the gram, and each dimension to the tenth centimeter, do we really know the density to ten nanograms per cc (the last digit in the result above), or to a microgram per cc (the 8), or even to a milligram per cc (the 6)?
 
@@ -473,7 +482,7 @@ Knowing that the density of platinum is $21.45$ g/mL, what is the percent discre
 :::
 :::::::::
 
-## Significant figures in unit conversions
+## Significant Figures in Unit Conversions
 When converting between units, the conversions are treated as exact and don't affect the number of sig figs in your result.
 
 
@@ -481,7 +490,15 @@ When converting between units, the conversions are treated as exact and don't af
 A dog is $2.0$ feet tall.  What is the height of the dog in mm to correct sig figs?
 :::
 
+## Significant Figures and Uncertainty
+When we take data with an estimated uncertainty, the uncertainty will always be in the first uncertain figure. This is natural, of course, since digits beyond the location of the uncertainty of the number are washed out by the possible error.
 
+:::Card Intro Example
+If you measured a dog's height to be $101.537$ cm, but your ruler and technique suggested an uncertainty of $\pm 0.4$ cm, then naturally, the last significant figure in your measurement is '$5$', e.g. $ \text{Height of dog} = (101.5 \pm 0.4)$ cm 
+:::
+
+
+But how many significant figures should be reported in the uncertainty *itself*? The answer to this is easy! **The uncertainty is always reported with one significant figure,** for the same reason as above: the additional digits in the uncertainty are far less important that the first digit.
 
 # Conclusion
 
