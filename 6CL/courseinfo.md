@@ -8,6 +8,7 @@ For concerns related to the lab materials, questions, completion & grading, plea
 - [Siyi Wang](mailto:siyiwang@ucsb.edu)
 - [Chih-Hung Wu](chih-hungwu@physics.ucsb.edu)
 - [Henry Leung](mailto:yleung@ucsb.edu)
+- [Leonardo Zining Zhu](mailto:zining@ucsb.edu)
 
 
 For reporting errors in the manual, access problems, or to report inappropriate behavior please contact

@@ -248,16 +248,23 @@ Random errors are unbiased, so some of your measurements will be higher and some
 
 
 
-### Measures of Precision and Accuracy
+## Measures of Precision and Accuracy
 
-To determine if a value is accurate, we compare it to the accepted one. A qualitative measure of accuracy is the **percent discrepancy**
+To determine if a value is accurate, we compare it to the accepted one. A quantitative measure of accuracy is the **percent discrepancy**
+
+::::::Card Definition Percent Discrepancy
+The **Percent Discrepancy** measures the absolute percent difference between two measurements. We say that the *percent discrepancy of value 2 with respect to value 1 is:* 
+:::Equation
+$$\text{percent discrepancy} = |\frac{\text{value 1 - value 2}} { \text{value 1}}| \times 100\%$$
+:::
+The result of this calculation *is always a positive number*. It is a relative measure of accuracy with respect to the first value
+::::::
+
+When comparing your **experimental value to the accepted value** the accepted value will always appear in the denominator. 
 
 :::Equation
 $$\text{percent discrepancy} = |\frac{\text{accepted - experimental}} { \text{accepted}}| \times 100\%$$
 :::
-
-
-
 
 :::Question
 In an experiment we measure the acceleration due to gravity to be $9.825 m/s^2$. The accepted value is $9.807 m/s^2$ What is the percent discrepancy in our measurement?
@@ -267,7 +274,10 @@ In an experiment we measure the acceleration due to gravity to be $9.825 m/s^2$.
 
 Sometimes there is no accepted value to our measurement. In this case, to measure the precision of two measurements that are determined experimentally, we look at how different the two values are as a percentage of their average. This is known as the **percent difference**.
 
-:::Equation
+
+::::::Card Definition Percent Difference
+The **Percent Difference** measures the relative percent difference between two measurements. We say that the *percent difference between value 2 with respect to value 1:* 
+:::Equation pdiff
 $$
 \text{percent difference} = \frac{\text{value1 - value2}} {\text{average}} \times 100\%
 $$
@@ -275,12 +285,20 @@ $$
 \text{average} = \frac{\text{value1 + value2}}{2}
 $$
 :::
+The result of this calculation can be a positive or negative number, depending on the relative magnitudes and signs of the two values. 
+::::::
+
+
+:::Note
+Careful! The definition of percent difference in this course is **different** than what you may see in other courses. Please use [Eq](#Eq-pdiff) for calculations in this course
+:::
+
 
 
 
 :::Question
 In an experiment we make two measurements of the diameter of a tennis ball. They are $2.58$ in. and $2.61$ in.
-What is the percent difference in our measurements?
+What is the percent difference between the second measurement with respect to the first in our measurements?
 :::
 
 
