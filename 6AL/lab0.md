@@ -44,9 +44,9 @@ When writing your lab report, make it as clear as possible as to which exercise 
 :::::: Question
 This is a question. Questions will be something that you should respond directly to. There may be many different parts to a question and you should answer each part. Sometimes questions are inside of exercises and other times they are not. 
 
-Questions should be answered with a **full sentence** to get full credit. Some examples of bad answers are:
+You should answer questions with a **full sentence** to get full credit. Some examples of bad answers are:
 - Yes.
-- It's bigger.
+- It&rsquo;s bigger.
 - It looks like it.
 - Linear.
 
@@ -56,7 +56,7 @@ These sorts of answers will receive little to no credit.
 
 Please answer the following for this question:
 
-1.  Who is your TA?
+1. Who is your TA?
 
 2. What time is your section? 
 ::::::
@@ -64,37 +64,37 @@ Please answer the following for this question:
 
 ## Notes and Warnings
 ::: Note 
-This is a note. Notes don't require you to put anything in your report. 
+This is a note. Notes don&rsquo;t require you to put anything in your report. 
 
 The main point of a note is just to highlight some critical information for you. Please make sure to read every note.
 :::
 
 ::: Warning 
-This is a Warning. Like Notes, Warnings don't require you to put anything in your report. 
-Warning differ from Notes because they highlight potentially dangerous details of the procedure. Please make sure to read every Warning to prevent harm to yourself and others. Please click to dismiss once you have read the warning.
+This is a Warning. Like Notes, Warnings don&rsquo;t require you to put anything in your report. 
+Warnings differ from Notes because they highlight potentially dangerous details of the procedure. Please make sure to read every Warning to prevent harm to yourself and others. Please click to dismiss once you have read the Warning. The box will then change color and stop shaking.
 :::
 
 ## Information Boxes
 
-In this course, information boxes come in many shapes and sizes. Click the arrow below to expand the information box on expanding boxes
+In this course, information boxes come in many shapes and sizes. Click the arrow below to expand the information box on expanding boxes.
 
 :::Hider Expanding Boxes
-The first kind of information box is an expanding box, like this one. This box usually contains supplementary information that you may want to minimize while working on the lab. It can also contain a check-your-understanding type question.
+The first kind of information box is an expanding box, like this one. This box usually contains supplementary information, and you may want to minimize it while working on the lab. It can also contain a check-your-understanding type of question.
 
 :::
 
 :::Card Definition Definition Box
-**Definition Boxes**: these are boxes which are used to frame the important definition of technical words or concepts in the course. 
+**Definition Boxes**: these are boxes that are used to frame the important definitions of technical words or concepts in the course. 
 :::
 
 :::Card Intro Introduction Boxes
-These will appear at the top of a lab to give you an idea of what the week will focus on
+These will appear at the top of a lab to give you an idea of what the week will focus on.
 :::
 
-
+Make the cursor hover over this number in brackets: [fn]This is an in-line footnote. Hovering over one of these reveals hidden text that provides interesting and useful information to supplement the main text.[/fn]
 
 ## Conclusion
-Each lab report will ask you to write a conclusion statement about the main point of the lab. This should be a 1-3 sentence statement highlighting most important point(s) of the lab. It should not describe how you feel about the lab, or reexplain what you did. A good example would be:
+Each lab report will ask you to write a conclusion statement about the main point of the lab. This should be a 1-3-sentence statement highlighting the most important point(s) of the lab. It should not describe how you feel about the lab, or reexplain what you did. A good example would be:
 ``` 
 In this lab we showed that falling objects in air do not fall with constant acceleration. The major factors affecting air resistance are mass and cross sectional area.
 ``` 
@@ -118,7 +118,7 @@ $$
 15.33 \pm 0.05 \text{ cm}
 $$
 
-The 15.33 cm is our best estimate, and the 0.05 cm is our estimate of the uncertainty.  We are saying that our best guess at the true length of the pencil is 15.33cm but the true length is most likely between 15.28cm and 15.38cm.
+The 15.33 cm is our best estimate, and the 0.05 cm is our estimate of the uncertainty.  We are saying that our best guess at the true length of the pencil is 15.33 cm but the true length is most likely between 15.28 cm and 15.38 cm.
 
 :::Note
 Uncertainty is unavoidable in every measurement!
@@ -135,26 +135,26 @@ There are two main types of errors: **Systematic** and **Random**.
 **Systematic errors** are errors that arise due to the actions and choices of the *experimenter*. There are two especially important kinds of systematic error that we will frequently see in undergraduate courses:
 
 - **Systematic error due to poor apparatus or measurement technique.** This would be the error you would expect if your ruler lines were inaccurate or your spectroscope was not properly calibrated.
-- **Systematic error due to an incorrect mathematical model.** This common kind of error arises from applying the wrong *model* to your *data*, e.g. applying the equations of free fall to a feather to calculate the gravitational acceleration constant $g$, not considering the effects of air resistance.
+- **Systematic error due to an incorrect mathematical model.** This common kind of error arises from applying the wrong *model* to your *data*, e.g., applying the equations of free fall to a feather to calculate the gravitational acceleration constant $g$, not considering the effects of air resistance.
 
 :::
 
-**Systematic errors** can arise from improper use of the measurement equipment, improper experimental techniques, or the use of an incorrect model. Systematic uncertainties are consistent between measurements: if you repeat the experiment in the same exact way, you'll get a very similar error. 
+**Systematic errors** can arise from improper use of the measurement equipment, improper experimental techniques, or the use of an incorrect model. Systematic uncertainties are consistent between measurements: if you repeat the experiment in the same exact way, you&rsquo;ll get a very similar error. 
 
-Systematic errors can be *very useful* in experimental science: the presence of a systematic error means that the experimenter can improve the experiment directly *or* that there is a fundamental problem with one or more of the physical laws being used [fn]for example, the appearance of systematic errors are what particle physicists at CERN rely on to search for new physics beyond the Standard Model.[/fn]. 
+Systematic errors can be *very useful* in experimental science: the presence of a systematic error means that the experimenter can improve the experiment directly, *or* that there is a fundamental problem with one or more of the physical laws being used [fn]For example, the appearance of systematic errors is what particle physicists at CERN rely on to search for new physics beyond the Standard Model.[/fn]. 
 
 :::Hider Systematic Error Examples
-Imagine we are characterizing the properties of a pencil. Each of the following scenarios are an example of systematic error:
+Imagine that we are characterizing the properties of a pencil. Each of the following scenarios is an example of systematic error:
 
-- @fa-pencil@ When we measure the length of the pencil, if the ruler is made out of metal and the temperature of the room is very low, the ruler might be contracted. That implies that the ruler is actually shorter than it should be, and our best estimate for the length of the pencil will always be larger than its true value. 
+- @fa-pencil@ When we measure the length of the pencil, if the ruler is made out of metal and the temperature of the room is very low, the ruler might be contracted (while the wooden pencil is less so). That implies that the ruler is actually shorter than it should be, and our best estimate for the length of the pencil will always be larger than its true value.
 
-- @fa-pencil@ If we didn't keep the line of sight perpendicular to the ruler when measuring the pencil length, the resulting measured length would be longer or shorter than the actual length of the pencil.
+- @fa-pencil@ If we didn&rsquo;t keep the line of sight perpendicular to the ruler when measuring the pencil length, the resulting measured length would be longer or shorter than the actual length of the pencil.
 
-- @fa-pencil@ Say we measured the length, radius and weight of the hexagonal pencil and wanted to characterize its density. If we modeled the area of the pencil cross section as a circle rather than a hexagon, our calculation for the resulting density would always be less than the actual density.
+- @fa-pencil@ Say we measured the length, (maximum) radius and weight of the hexagonal pencil and wanted to characterize its density. If we modeled the area of the pencil cross section as a circle rather than a hexagon, our calculation for the resulting density would always be less than the actual density.
 
 :::
 
-We can reduce the prevalence of systematic errors in a number of ways[fn]While you can never completely get rid of it, ideally, systematic error should have *less* of an effect on your result than random error. We consider systematic error that is this weak to be negligible to the experiment.[/fn]. Most importantly, we can calibrate and check our equipment against standards *prior* to collecting data[fn]For example, you might double check that your scale is calibrated my measuring the weight of a known mass prior to taking data[/fn]. We can also thoughtfully consider our measurement techniques, and if any steps in our procedure are introducing unnecessary systematic errors[fn] If you are measuring the extensibility of a spring by a sunny window, you might consider that the heating of the spring throughout the day might affect your data! [/fn]. Finally, as we apply models to our data, we can think about if our models are accurate for the given situation [fn]The equation for a projectile learned in introductory physics might not be as applicable to a feather as it is a cannon ball[/fn]. 
+We can reduce the prevalence of systematic errors in a number of ways[fn]While you can never completely get rid of it, ideally, systematic error should have *less* of an effect on your result than random error. We consider systematic error that is this weak to be negligible to the experiment.[/fn]. Most important, we can calibrate and check our equipment against standards *prior* to collecting data[fn]For example, you might double check that your scale is calibrated by measuring the weight of a known mass prior to taking data.[/fn]. We can also thoughtfully consider our measurement techniques, and if any steps in our procedure are introducing unnecessary systematic errors[fn]If you are measuring the extensibility of a spring by a sunny window, you might consider that the heating of the spring throughout the day might affect your data![/fn]. Finally, as we apply models to our data, we can think about whether our models are accurate for the given situation [fn]The equation for projectile motion that you learned in introductory physics might not apply to the motion of a feather as well as it does to that of a cannon ball.[/fn]. 
 
 ## Random Error
 
@@ -162,21 +162,20 @@ We can reduce the prevalence of systematic errors in a number of ways[fn]While y
 **Random errors** arise from the intrinsic statistical randomness of the experimental apparatus, the environment, or the phenomenon being investigated. Generally the experimenter has little to no **direct** control over random error.
 :::
  
-Random Error, unlike systematic error, has little to do with the experimenter. Even if we were able to exactly replicate an experiment multiple times, we would find that the resulting measurements would differ from one another slightly. These values will be different from each other and will be randomly distributed around a mean value, which we will take to be our best estimate. Random error is much like a [Galton Box](https://en.wikipedia.org/wiki/Bean_machine): even though you start out with the same setup the final outcomes differ between trials -- there is inherit randomness since the dropped bean has a 50/50 chance of going left or right at each peg,. The best we can do is repeat the experiment *many times*
-and discuss the *average* outcome.
+Random Error, unlike systematic error, has little to do with the experimenter. Even if we were able to exactly replicate an experiment multiple times, we would find that the resulting measurements differ from one another slightly. They are different from each other, and they are randomly distributed around a mean value, which we take to be our best estimate of the quantity that we are measuring. The source of random error is much like the operation of a [Galton Box](https://en.wikipedia.org/wiki/Bean_machine): even though you start out with the same setup, the final outcomes differ between trials -- there is inherent randomness, since the dropped bean has a 50/50 chance of going left or right at each peg. The best we can do is to repeat the experiment *many times* and discuss the *average* outcome.
 
 :::Hider Random Error Examples
-Imagine we are characterizing the properties of a pencil. Each of the following scenarios are an example of random error:
+Imagine that we are characterizing the properties of a pencil. Each of the following scenarios is an example of random error:
 
 - @fa-pencil@ If you measured the weight of the pencil on a sensitive electronic scale, you would notice that the reading in last significant figure fluctuates due to factors such as electronic noise, air pressure fluctuations, and thermal fluctuations of the mechanical parts of the scale. 
 
-- @fa-pencil@ When measuring the pencil, it is highly unlikely that the edges of the pencil are aligned with the ruler markings, regardless of how careful you are. Each time you measure the pencils length, your resulting value will be slightly different, especially when estimating the value between tick marks on the ruler.
+- @fa-pencil@ When you measure the pencil, it is highly unlikely that the edges of the pencil are aligned with the ruler markings, regardless of how careful you are. Each time you measure the pencil&rsquo;s length, your resulting value is slightly different, especially when you are estimating the value between tick marks on the ruler.
 
-- @fa-pencil@ If you and 9 of your friends all measured the length of the pencil to one decimal past the visible markings on your ruler, you will likely see that there will be a spread of values that are close but do not agree.
+- @fa-pencil@ If you and nine of your friends all measured the length of the pencil to one decimal place past the visible markings on your ruler, you would likely see that there is a spread of values that are close but do not agree.
 
 :::
 
-We can't eliminate random errors [fn] This is a deep and true fact about the nature of our universe. Even in the absence of [quantum mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics), it would take an infinite number of measurements to pin down the value of a quantity to infinite precision, and hence and infinite amount of time and resource![/fn], but we can minimize *and characterize* them by using precise instruments and by collecting a large data set for calculating the average of our measurements. Thus, we need to perform multiple trials by repeating the experiment several times to average out the random errors (and characterize the spread, or precision, of our results as a whole). 
+We can&rsquo;t eliminate random errors [fn] This is a deep and true fact about the nature of our universe. Even in the absence of [quantum mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics), it would take an infinite number of measurements to pin down the value of a quantity to infinite precision, and hence an infinite amount of time and resources![/fn], but we can minimize *and characterize* them by using precise instruments, and by collecting a large data set for calculating the average of our measurements. Thus, we need to perform multiple trials by repeating the experiment several times to average out the random errors (and characterize the spread, or precision, of our results as a whole). 
 
 
 **Random error leads to uncertainty in our measurement.**
@@ -223,15 +222,15 @@ Make sure to include the table in your lab report.
 ::::::
  
  
- ## Accuracy v.s. Precision
+ ## Accuracy vs. Precision
 
 :::RFigure avp m
-![A visual guide to Accuracy vs. Precision. Notice that accuracy is gauging how close darts are landing to the bullseye while precision only considers how close they are to each other](imgs/Lab0/targets.png)
+![A visual guide to Accuracy vs. Precision. Notice that accuracy gauges how close darts are landing to the bullseye, while precision considers only how close they are to each other](imgs/Lab0/targets.png)
 
-A visual guide to Accuracy vs. Precision. Notice that accuracy is gauging how close darts are landing to the bullseye while precision only considers how close they are to each other
+A visual guide to Accuracy vs. Precision. Notice that accuracy gauges how close darts are landing to the bullseye while precision considers only how close they are to each other
 :::
  
-Systematic errors will  cause bias in one direction, causing your measurements to be consistently higher or lower than the accepted value. Hence, these errors directly influence the **accuracy** of your measurement.
+Systematic errors introduce bias in one direction, causing your measurements to be consistently higher or lower than the accepted value. Hence, these errors directly influence the **accuracy** of your measurement.
 
 :::Card Definition Accuracy
 **Accuracy** is a measure of how *close* your measured values are to the *accepted*  or *true* value.
@@ -240,7 +239,7 @@ Systematic errors will  cause bias in one direction, causing your measurements t
 Random errors are unbiased, so some of your measurements will be higher and some will be lower than the accepted value. Random errors will determine the **precision** of your measurement.
 
 :::Card Definition Precision
-**Precision** is a measure of how *close* your measured values, after repeating an experiment multiples times, are to each other.
+**Precision** is a measure of how *close* your measured values, after you have repeated an experiment multiple times, are to each other.
 :::
 
 
@@ -260,7 +259,7 @@ $$\text{percent discrepancy} = |\frac{\text{accepted - experimental}} { \text{ac
 
 
 :::Question
-In an experiment we measure the acceleration due to gravity to be $9.825 m/s^2$. The accepted value is $9.807 m/s^2$ What is the percent discrepancy in our measurement?
+In an experiment we measure the acceleration due to gravity to be $9.825 m/s^2$. The accepted value is $9.807 m/s^2$. What is the percent discrepancy in our measurement?
 :::
 
 
@@ -297,17 +296,17 @@ We always want to do our best to estimate the uncertainty of our measurements. T
 2. Estimating from repeatability
 
 ### Estimating uncertainty from a scale
-The first comes from using a graduated scale, like that of ruler. For a scale, we say the uncertainty is half of the smallest division on the scale. So if we were to use a standard meter stick that has 1 mm divisions, we would say that our uncertainty is $\pm 0.5$ mm. For a digital display, we say the error is half of the last digit displayed. That is, if we were using an electronic balance to measure the mass of a stone and read $52$ g, then we would say our uncertainty is $\pm 0.5$ g. Thus we would report the stones mass as $52.0 \pm 0.5 g$
+The first comes from using a graduated scale, like that of a ruler. For a scale, we say that the uncertainty is half of the smallest division on the scale. So if we were to use a standard meter stick that has 1-mm divisions, we would say that our uncertainty is $\pm 0.5$ mm. For a digital display, we say that the error is half of the last digit displayed. That is, if we were using an electronic balance to measure the mass of a stone and read $52$ g, then we would say our uncertainty is $\pm 0.5$ g. Thus we would report the stone&rsquo;s mass as $52.0 \pm 0.5 g$.
 
 ### Estimating uncertainty from repeatability
-The second way we estimate uncertainty is by repeated measurement. Often times this allows us to quantify a more complex measurement. For instance, if we were to be use a stopwatch to time how long someone was in the air when they jumped, we shouldn't report the uncertainty by half of the last digit displayed. This is because our reaction time, how quickly we can press the start and stop button, is much larger than the precision of the stopwatch. Our reaction time makes it much harder to estimate the uncertainty of our measurement. 
+The second way we estimate uncertainty is by repeated measurement. Often times this allows us to quantify a more complex measurement. For instance, if we were to be use a stopwatch to time how long someone was in the air when they jumped, we shouldn&rsquo;t report the uncertainty by half of the last digit displayed. This is because our reaction time, how quickly we can press the start and stop button, is much larger than the precision of the stopwatch. Our reaction time makes it much harder to estimate the uncertainty of our measurement. 
 
 In order to quantify the uncertainty of the stopwatch we will need to repeat our measurement multiple times and perform some statistical analysis. 
 
 # Mean and Standard Deviation
 To quantify the uncertainty in our measurements, we can conduct repeated measurements of the same quantity. 
 
-If you take N measurements of a quantity $x$, you can get a better best estimate than any one of the measurements individually. This is done by finding arithmetic average of your N measurements, known as the **the mean.** The formula for the mean is :
+If you take N measurements of a quantity $x$, you can get a better best estimate than any one of the measurements individually. This is done by finding the arithmetic average of your N measurements, known as **the mean.** The formula for the mean is:
 
 :::Equation
 $$x_{avg}=(x_1+x_2+..x_N)/N$$
@@ -319,7 +318,7 @@ The standard deviation is a measure of the spread in the values $x_1, x_2,..., x
 $$\text{STDEV}=\sqrt{\frac{\sum{(x_i-x_{avg})^2}}{N-1}}=\delta x$$
 :::
 
-The standard deviation is an excellent estimation of our uncertainty due to random errors. Thus we can report our measurement as:
+The standard deviation gives an excellent estimate of our uncertainty due to random errors. Thus we can report our measurement as:
 
 :::Equation
 $$
@@ -332,7 +331,7 @@ Where $\delta x$ is the standard deviation. We report standard deviation to 1 si
 We will usually calculate the standard deviation by using the STDEV() function in Google Sheets.
 
 ::::::Exercise
-1. Use a stopwatch (either on your phone or online) to measure how long it takes you to say the sentence "I enjoy physics and learning about the laws of nature".  Make 10 measurements. Record this data in a new table.
+1. Use a stopwatch (either on your phone or online) to measure how long it takes you to say the sentence &ldquo;I enjoy physics and learning about the laws of nature.&rdquo;  Make 10 measurements. Record these data in a new table.
 
 2. Watch the video below. It will show you how to use Google Sheets to calculate the average and the standard deviation.
 
@@ -353,17 +352,17 @@ Find the standard deviation for your reaction time in the previous Exercise 2. R
 
 # Significant Figures
 
-When we quote our measurements,  the number of digits we write has to correlate with the precision of our measurement tool.
-For instance, in the previous case when we use the cm scale, we quote a measurement as 1cm. We cannot quote it as 1.6723cm, since our ruler does not have that much precision. 
+When we quote our measurements, the number of digits we write has to correlate with the precision of our measurement tool.
+For instance, in the previous case, when we used the cm scale, we quoted a measurement as 1 cm. We could not quote it as 1.6723 cm, since our ruler did not have that much precision. 
 
-For the mm scale, we quote our measurement as 1.6cm, since the last digit mentioned (6) is the uncertain one.
+For the mm scale, we quote our measurement as 1.6 cm, since the last digit mentioned (6) is the uncertain one. We round to the nearest value in the least significant digit.
 
-To know the best way to write our answer, we must determine which **digits carry meaningful information**, and which ones do not. That is, we keep only those digits that are *significant*. We call these *significant figures*, which many people shorten to *sig figs*. These are all the digits whose values are certain, plus the first uncertain one. 
+To know the best way to write our answer, we must determine which **digits carry meaningful information**, and which ones do not. That is, we keep only those digits that are *significant*. We call these *significant figures*, which many people shorten to *sig figs*. These are all the digits whose values are certain, plus the first uncertain one.
 
 To determine the number of significant figures, count from left to right the number of digits.
 
 :::Card Intro Example
-1.67cm has 3 sig figs, whereas 1.6cm has two sig figs.
+1.67 cm has 3 sig figs, whereas 1.7 cm has two sig figs.
 :::
 
 
@@ -371,7 +370,7 @@ To determine the number of significant figures, count from left to right the num
 Note that leading zeros after the decimal point are not significant. They merely determine the location of the decimal point.
 
 :::Card Intro Example
-0.016 m has only two significant figures (this is the 1.6cm quoted before)
+0.017 m has only two significant figures. (This is the 1.7 cm quoted before.)
 
 :::
 
@@ -380,13 +379,13 @@ Zeros at the end of a number (trailing zeros) can be significant or not dependin
 
 
 :::Card Intro Example
-12.450 has five sig figs while 12.45000 has seven sig figs.
+12.450 has five sig figs, while 12.45000 has seven sig figs.
 :::
 
 If the trailing zero is to the left of the decimal point it can be ambiguous. To avoid ambiguity we use the following convention. If the number ends in a decimal point, all of the zeros are significant. If the number does not end in a decimal point, the trailing zeros are not significant.
 
 :::Card Intro Example
- 4,510,000 has three sig figs while 4,510,000. has 7 sig figs. 
+ 4,510,000 has three sig figs, while 4,510,000. has 7 sig figs. 
 :::
 
 :::Question
@@ -419,7 +418,7 @@ Certain multipliers, such as the 180, in 180/&pi;, the conversion factor to go f
 
 In this exercise you will practice the rules above by calculating some geometric properties about the following shapes. **Make sure your answers are written with the correct number of sig figs and with units.** 
 
-Here is a rectangle with length 2.4cm and width 3.2cm.
+Here is a rectangle with length 2.4 cm and width 3.2 cm.
 
 :::Figure
 ![Rectangle](imgs/Lab0/Rectangle2.png)
@@ -444,7 +443,7 @@ What is the area of the circle?
 :::Note
 Example:
 
-Imagine that you've been given the mass of a block of material as 75 grams, and its dimensions as 2.5 cm &times; 3.1 cm &times; 6.3 cm (it is a rectangular parallelepiped). You are told to calculate its density. Since density is mass per unit volume, you multiply the three dimensions together, and then divide the result into 75.  You do this on a calculator. For the volume, you get 48.825 cm$^3$, and for the density, the calculator spits out 1.53609831 (depending on how many digits the display gives; the units are g/cm$^3$). It may be tempting just to write down all of those digits for the final result of the calculation. The question is whether this is necessary, or whether such a number is actually meaningful. After all, given that we know the mass to the gram, and each dimension to the tenth centimeter, do we really know the density to ten nanograms per cc (the last digit in the result above), or to a microgram per cc (the 8), or even to a milligram per cc (the 6)?
+Imagine that you&rsquo;ve been given the mass of a block of material as 75 grams, and its dimensions as 2.5 cm &times; 3.1 cm &times; 6.3 cm (it is a rectangular parallelepiped). You are told to calculate its density. Since density is mass per unit volume, you multiply the three dimensions together, and then divide the result into 75.  You do this on a calculator. For the volume, you get 48.825 cm$^3$, and for the density, the calculator spits out 1.53609831 (depending on how many digits the display gives; the units are g/cm$^3$). It may be tempting just to write down all of those digits for the final result of the calculation. The question is whether this is necessary, or whether such a number is actually meaningful. After all, given that we know the mass to the gram, and each dimension to the tenth centimeter, do we really know the density to ten nanograms per cc (the last digit in the result above), or to a microgram per cc (the 8), or even to a milligram per cc (the 6)?
 
 The result of the density calculation above cannot contain more than two significant figures, and is properly written as 1.5 g/cm$^3$. To obtain this result, we round the three in the next place down. We always round to the nearest value of the last significant figure. To avoid biasing calculations that have multiple steps, we always round fives to the even number. For example, to two significant figures, 1.45 is 1.4, and 1.55 is 1.6.
 :::
