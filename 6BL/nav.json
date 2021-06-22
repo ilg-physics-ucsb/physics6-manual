@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Course Info",
+        "file": "courseinfo",
+        "showSmall": "false"
+    },
+    {
+        "name": "Lab 0",
+        "file": "Lab0",
+        "showSmall": "true"
+    },
+    {
+        "name": "Lab 1",
+        "file": "Lab1",
+        "showSmall": "true"
+    },
+    {
+        "name": "Lab 2",
+        "file": "Lab2",
+        "showSmall": "true"
+    },
+    {
+        "name": "Lab 3",
+        "file": "Lab3",
+        "showSmall": "true"
+    },
+    {
+        "name": "Lab 4",
+        "file": "Lab4",
+        "showSmall": "true"
+    }
+
+]
