@@ -374,17 +374,17 @@ Find the standard deviation for your reaction time in the previous Exercise 2. R
 
 # Significant Figures
 
-When we quote our measurements, the number of digits we write has to correlate with the precision of our measurement tool.
-For instance, in the previous case, when we used the cm scale, we quoted a measurement as 1 cm. We could not quote it as 1.6723 cm, since our ruler did not have that much precision. 
+When we quote our measurements, the number of digits we write has to correlate with the precision of our measurement tool. When we read a scale, we can interpolate between two of the finest divisions on the scale to find the first uncertain digit.
+For instance, if we use a scale whose finest divisions are 1 cm apart, we can quote a measurement as 1.6 cm.  We could not quote it as 1.6723 cm, since our ruler does not have that much precision.
 
-For the mm scale, we quote our measurement as 1.67 cm, since the last digit mentioned (7) is the uncertain one. (We are assuming here that the extra digits, 0.0023, are just made up, and therefore nonsensical.)
+For a scale whose finest divisions are 1 mm apart, we could quote a measurement as 1.67 cm, since the last digit mentioned (7, obtained by interporating between neighboring mm marks) is the uncertain one.
 
 To know the best way to write our answer, we must determine which **digits carry meaningful information**, and which ones do not. That is, we keep only those digits that are *significant*. We call these *significant figures*, which many people shorten to *sig figs*. These are all the digits whose values are certain, plus the first uncertain one.
 
 To determine the number of significant figures, count from left to right the number of digits.
 
 :::Card Intro Example
-1.7 cm has two sig figs, whereas 1.67 cm has three sig figs.
+1.6 cm has two sig figs, whereas 1.67 cm has three sig figs.
 :::
 
 
