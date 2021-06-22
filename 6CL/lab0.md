@@ -40,7 +40,7 @@ In [Ex](#Ex-exp) we will perform August&rsquo;s experiment. You probably do not 
 **Instructions:**
 
 1. Leave wavelength set to &ldquo;preset,&rdquo; the detector set to &ldquo;Transmittance,&rdquo; and the solution set to &ldquo;Drink mix.&rdquo;
-2. Slide the concentration to August&rsquo;s known concentration of $100 \text{mM}$. 
+2. Slide the concentration to August&rsquo;s known concentration of $100 \text{ mM}$. 
 3. Press the big red button to turn on the laser. 
 4. Use the yellow arrows to slide the length of the container all the way left so it is as small as possible. 
 5. Create a table with two columns, one for the length, and another for the transmittance.
