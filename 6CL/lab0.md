@@ -81,7 +81,11 @@ For the compound that gives Crocjuice its color, August finds the extinction coe
 He now pours some of the contents of his last bottle of pre-diluted drink into a cell whose path length is $3.0$ cm, and he measures the absorbance to be $1.97$. What is the concentration of this compound in the drink when it is diluted as August likes it?
 :::
 ::::::
+# Conclusion
 
+:::Exercise
+Write a brief conclusion summarizing the important points of this lab.
+:::
 :::Summary
 
 Make sure to include all tables, plots, pictures, drawings, screenshots or anything else asked of you in the exercises in your report, as well as answers to all the questions.
