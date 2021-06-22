@@ -7,9 +7,9 @@ This week we will engage with a quick lab intended as a refresher of our mathema
 
 # Introduction 
 
-Taking measurements is *never* enough in experimental physics. In fact, performing an experiment and collecting data are *only the begining* of the experimental process: data is absolutely meaningless without contextualization, analysis and comparison to *something*, e.g a model or the data of a colleague.  
+Taking measurements is *never* enough in experimental physics. In fact, performing an experiment and collecting data are *only the beginning* of the experimental process: data are absolutely meaningless without contextualization, analysis and comparison to *something*, e.g., a model or the data of a colleague.  
 
-In this Lab, we will review the very basics of data analysis: organization into a table, presentation as a scatter plot, followed by inferring relationships from linear fits of the data (or functions of the data!). After the analysis is carried on, we will ask you to put on your thinking caps and contextualize the data by using what you learned to make a physical prediction.
+In this Lab, we will review the very basics of data analysis: organization into a table, presentation as a scatter plot, followed by inferring relationships from linear fits of the data (or functions of the data!). After the analysis is carried out, we will ask you to put on your thinking caps and contextualize the data by using what you learned to make a physical prediction.
 
 # Crocjuice
 A student, August, is very particular about his favorite sports drink. For legal reasons we will refer to this sports drink as Crocjuice.  He finds the flavor of Crocjuice straight from the bottle to be too strong for his sophisticated taste, so he dilutes it with (filtered) water to exactly the right concentration. Unfortunately, he has forgotten the factor by which he dilutes the Crocjuice, but he does have one last remaining bottle of drink that he had prepared earlier. If he could measure the concentration of that drink, and knew the original concentration of Crocjuice, he would again have his recipe. To this end, he wants to build a device that can measure the concentration of his drink.
@@ -28,7 +28,7 @@ To do this, August designs an experiment.  Since he wishes to measure the molar 
 
 
 ## The Experiment 
-In [Ex](#Ex-exp) we will perform August's experiment. You probably do not have access to an actual lab, so instead you will carry out the experiment using a simulation. 
+In [Ex](#Ex-exp) we will perform August&rsquo;s experiment. You probably do not have access to an actual lab, so instead you will carry out the experiment by using a simulation. 
 
 :::::: Exercise exp
 
@@ -39,14 +39,14 @@ In [Ex](#Ex-exp) we will perform August's experiment. You probably do not have a
 
 **Instructions:**
 
-1. Leave wavelength set to "preset," the detector set to "Transmittance," and the solution set to "Drink mix."
-2. Slide the concentration to August's known concentration of $100 \text{mM}$. 
+1. Leave wavelength set to &ldquo;preset,&rdquo; the detector set to &ldquo;Transmittance,&rdquo; and the solution set to &ldquo;Drink mix.&rdquo;
+2. Slide the concentration to August&rsquo;s known concentration of $100 \text{mM}$. 
 3. Press the big red button to turn on the laser. 
-4. Use the yellow arrows, and slide the length of the container all the way left so it is as small as possible. 
+4. Use the yellow arrows to slide the length of the container all the way left so it is as small as possible. 
 5. Create a table with two columns, one for the length, and another for the transmittance.
 6. Drag the ruler to the container and measure its length. Then look at the detector. Fill out the first row of your table. (Make sure to convert the percent transmittance to a decimal number between zero and one, by dividing by 100.)
 7. Now adjust the length of the container, measure its length, and measure the transmittance. Add these measurements to your table.
-8. Repeat step 7 six more times for a total of 8 data points.
+8. Repeat step 7 six more times for a total of eight data points.
 
 ::: Question
 Make plot of transmittance vs. container length.  Is the plot linear?
@@ -65,7 +65,7 @@ Define a new quantity $A$,  named *absorbance*, that is equal to $−\log(T)$.  
 9. Make a new column in your table for the absorbance. 
 
 ::: Question
-Now, using the transmittance data you've already collected, create a plot of $A$ as a function of $l$. This should be linear. 
+Now, using the transmittance data you&rsquo;ve already collected, create a plot of $A$ as a function of $l$. This should be linear. 
 
 1. Based on the absorbance formula you derived in Question 2, create a best-fit line, and determine the slope and intercept. 
 
