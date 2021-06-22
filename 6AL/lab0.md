@@ -266,7 +266,7 @@ $$\text{percent discrepancy} = |\frac{\text{accepted - experimental}} { \text{ac
 :::
 
 :::Question
-In an experiment we measure the acceleration due to gravity to be $9.825 m/s^2$. The accepted value is $9.807 m/s^2$. What is the percent discrepancy in our measurement?
+In an experiment we measure the acceleration due to gravity to be $9.825\ \rm{m/s}^2$. The accepted value is $9.807\ \rm{m/s}^2$. What is the percent discrepancy in our measurement?
 :::
 
 
@@ -275,13 +275,13 @@ Sometimes there is no accepted value to our measurement. In this case, to measur
 
 
 ::::::Card Definition Percent Difference
-The **Percent Difference** measures the relative percent difference between two measurements. We say that the *percent difference between value 2 with respect to value 1:* 
+The **Percent Difference** measures the relative percent difference between two measurements. We say that the *percent difference of value 2 with respect to value 1 is:* 
 :::Equation pdiff
 $$
-\text{percent difference} = \frac{\text{value1 - value2}} {\text{average}} \times 100\%
+\text{percent difference} = \frac{\text{value 1 - value 2}} {\text{average}} \times 100\%
 $$
 $$
-\text{average} = \frac{\text{value1 + value2}}{2}
+\text{average} = \frac{\text{value 1 + value 2}}{2}
 $$
 :::
 The result of this calculation can be a positive or negative number, depending on the relative magnitudes and signs of the two values. 
@@ -289,7 +289,7 @@ The result of this calculation can be a positive or negative number, depending o
 
 
 :::Note
-Careful! The definition of percent difference in this course is **different** than what you may see in other courses. Please use [Eq](#Eq-pdiff) for calculations in this course
+Careful! The definition of percent difference in this course is **different** from what you may see in other courses. Please use [Eq](#Eq-pdiff) for calculations in this course.
 :::
 
 
@@ -297,7 +297,7 @@ Careful! The definition of percent difference in this course is **different** th
 
 :::Question
 In an experiment we make two measurements of the diameter of a tennis ball. They are $2.58$ in. and $2.61$ in.
-What is the percent difference between the second measurement with respect to the first in our measurements?
+What is the percent difference of the second measurement with respect to the first in our measurements?
 :::
 
 
@@ -377,14 +377,14 @@ Find the standard deviation for your reaction time in the previous Exercise 2. R
 When we quote our measurements, the number of digits we write has to correlate with the precision of our measurement tool.
 For instance, in the previous case, when we used the cm scale, we quoted a measurement as 1 cm. We could not quote it as 1.6723 cm, since our ruler did not have that much precision. 
 
-For the mm scale, we quote our measurement as 1.6 cm, since the last digit mentioned (6) is the uncertain one. We round to the nearest value in the least significant digit.
+For the mm scale, we quote our measurement as 1.67 cm, since the last digit mentioned (7) is the uncertain one. (We are assuming here that the extra digits, 0.0023, are just made up, and therefore nonsensical.)
 
 To know the best way to write our answer, we must determine which **digits carry meaningful information**, and which ones do not. That is, we keep only those digits that are *significant*. We call these *significant figures*, which many people shorten to *sig figs*. These are all the digits whose values are certain, plus the first uncertain one.
 
 To determine the number of significant figures, count from left to right the number of digits.
 
 :::Card Intro Example
-1.67 cm has 3 sig figs, whereas 1.7 cm has two sig figs.
+1.7 cm has two sig figs, whereas 1.67 cm has three sig figs.
 :::
 
 
@@ -392,7 +392,7 @@ To determine the number of significant figures, count from left to right the num
 Note that leading zeros after the decimal point are not significant. They merely determine the location of the decimal point.
 
 :::Card Intro Example
-0.017 m has only two significant figures. (This is the 1.7 cm quoted before.)
+0.0167 m has only three significant figures. (This is the 1.67 cm quoted before.)
 
 :::
 
@@ -440,11 +440,11 @@ When we multiply or divide, we take the number of significant figures in the ans
 The result of the calculation (35 &times; 0.637)/256.3 is 0.087 (two sig figs).
 :::
 
-Certain multipliers, such as the 180, in 180/&pi;, the conversion factor to go from radians to degrees, or the 2 in 2&pi;r, the formula for the circumference of a circle, are exact.  They do not affect the number of significant figures in the result of a calculation in which they appear.
+Certain multipliers, such as the 180, in 180/$\pi$, the conversion factor to go from radians to degrees, or the 2 in 2$\pi$r, the formula for the circumference of a circle, are exact.  They do not affect the number of significant figures in the result of a calculation in which they appear.
 
 :::::: Exercise
 
-In this exercise you will practice the rules above by calculating some geometric properties about the following shapes. **Make sure your answers are written with the correct number of sig figs and with units.** 
+In this exercise you will practice the rules above by calculating some geometric properties of the following shapes. **Make sure your answers are written with the correct number of sig figs and with units.** 
 
 Here is a rectangle with length 2.4 cm and width 3.2 cm.
 
@@ -500,7 +500,7 @@ Knowing that the density of platinum is $21.45$ g/mL, what is the percent discre
 :::::::::
 
 ## Significant Figures in Unit Conversions
-When converting between units, the conversions are treated as exact and don't affect the number of sig figs in your result.
+When you are converting between units, the conversions are treated as exact and don&rsquo;t affect the number of sig figs in your result.
 
 
 :::Question
@@ -511,11 +511,11 @@ A dog is $2.0$ feet tall.  What is the height of the dog in mm to correct sig fi
 When we take data with an estimated uncertainty, the uncertainty will always be in the first uncertain figure. This is natural, of course, since digits beyond the location of the uncertainty of the number are washed out by the possible error.
 
 :::Card Intro Example
-If you measured a dog's height to be $101.537$ cm, but your ruler and technique suggested an uncertainty of $\pm 0.4$ cm, then naturally, the last significant figure in your measurement is '$5$', e.g. $ \text{Height of dog} = (101.5 \pm 0.4)$ cm 
+If you measured a dog&rsquo;s height to be $101.537$ cm, but your ruler and technique suggested an uncertainty of $\pm 0.4$ cm, then naturally, the last significant figure in your measurement is &lsquo;$5$&rsquo;, i.e., $ \text{Height of dog} = (101.5 \pm 0.4)$ cm 
 :::
 
 
-But how many significant figures should be reported in the uncertainty *itself*? The answer to this is easy! **The uncertainty is always reported with one significant figure,** for the same reason as above: the additional digits in the uncertainty are far less important that the first digit.
+But how many significant figures should be reported in the uncertainty *itself*? The answer to this is easy! **The uncertainty is always reported with one significant figure,** for the same reason as above: the additional digits in the uncertainty are far less important than the first digit.
 
 # Conclusion
 
