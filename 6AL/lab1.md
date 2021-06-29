@@ -327,7 +327,7 @@ Now that we have made our table, let&rsquo;s plot our data and do a fit. We will
 
 # Using Google Sheets to Analyze Data
 
-Use all of the tools we have discussed in this lab to analyze the motion of an inch worm. 
+Use all of the tools we have discussed in this lab to analyze the motion of an inchworm. 
 
 :::::::::Exercise
 
