@@ -18,7 +18,7 @@ He knows from his research and his good friends, Pierre and Johann, that if you 
 
 ::: Equation
 $$
-T = e^{-\epsilon lc }
+T = 10^{-\epsilon lc }
 $$
 :::
 

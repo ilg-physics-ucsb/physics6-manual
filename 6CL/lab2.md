@@ -63,8 +63,8 @@ Is there a relationship between the curvature of a lens and its focal length?
 
 :::Simulation InfiniteSourceTest
 
-<a href="https://www.geogebra.org/material/iframe/id/v69nxnqu" target="_blank" rel="noopener noreferrer"> Open in New Tab</a> 
-<iframe title="InfiniteSourceTest" src="https://www.geogebra.org/material/iframe/id/v69nxnqu" style="border:0px;height:550px;width:100%;"> </iframe>
+<a href="https://www.geogebra.org/material/iframe/id/rvcjbetq" target="_blank" rel="noopener noreferrer"> Open in New Tab</a> 
+<iframe title="InfiniteSourceTest" src="https://www.geogebra.org/material/iframe/id/rvcjbetq" style="border:0px;height:550px;width:100%;"> </iframe>
 :::
 
 ::::::
@@ -121,8 +121,8 @@ What are the focal lengths of the lens for these two pairs of rays?
 :::
 
 :::Simulation geo1
-<a href="https://www.geogebra.org/material/iframe/id/X8RuneVy" target="_blank" rel="noopener noreferrer"> Open in New Tab</a> 
-<iframe src="https://www.geogebra.org/material/iframe/id/X8RuneVy"  style="border:0px;height:483px;width:100%;"> </iframe>
+<a href="https://www.geogebra.org/material/iframe/id/a2rNFfHA" target="_blank" rel="noopener noreferrer"> Open in New Tab</a> 
+<iframe src="https://www.geogebra.org/material/iframe/id/a2rNFfHA"  style="border:0px;height:483px;width:100%;"> </iframe>
 :::
 
 
@@ -236,8 +236,8 @@ Image formation through a lens is exemplified in the dynamic [Si](#Si-Concave). 
 
 
 :::Simulation Concave
-<a href="https://www.geogebra.org/material/iframe/id/thejwqzw" target="_blank" rel="noopener noreferrer"> Open in New Tab</a> 
-<iframe scrolling="no" title="Copy of Concave and Convex Lenses" src="https://www.geogebra.org/material/iframe/id/thejwqzw" width="1033px" height="482px" style="border:0px;width:100%; height:500px;"> </iframe
+<a href="https://www.geogebra.org/material/iframe/id/vd77gpfr" target="_blank" rel="noopener noreferrer"> Open in New Tab</a> 
+<iframe scrolling="no" title="Copy of Concave and Convex Lenses" src="https://www.geogebra.org/material/iframe/id/vd77gpfr" width="1033px" height="482px" style="border:0px;width:100%; height:500px;"> </iframe
 :::
 
 

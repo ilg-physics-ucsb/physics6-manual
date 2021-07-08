@@ -46,7 +46,7 @@ This is a question. Questions will be something that you should respond directly
 
 You should answer questions with a **full sentence** to get full credit. Some examples of bad answers are:
 - Yes.
-- It&rsquo;s bigger.
+- It's bigger.
 - It looks like it.
 - Linear.
 
@@ -64,13 +64,13 @@ Please answer the following for this question:
 
 ## Notes and Warnings
 ::: Note 
-This is a note. Notes don&rsquo;t require you to put anything in your report. 
+This is a note. Notes don't require you to put anything in your report. 
 
 The main point of a note is just to highlight some critical information for you. Please make sure to read every note.
 :::
 
 ::: Warning 
-This is a Warning. Like Notes, Warnings don&rsquo;t require you to put anything in your report. 
+This is a Warning. Like Notes, Warnings don't require you to put anything in your report. 
 Warnings differ from Notes because they highlight potentially dangerous details of the procedure. Please make sure to read every Warning to prevent harm to yourself and others. Please click to dismiss once you have read the Warning. The box will then change color and stop shaking.
 :::
 
@@ -139,7 +139,7 @@ There are two main types of errors: **Systematic** and **Random**.
 
 :::
 
-**Systematic errors** can arise from improper use of the measurement equipment, improper experimental techniques, or the use of an incorrect model. Systematic uncertainties are consistent between measurements: if you repeat the experiment in the same exact way, you&rsquo;ll get a very similar error. 
+**Systematic errors** can arise from improper use of the measurement equipment, improper experimental techniques, or the use of an incorrect model. Systematic uncertainties are consistent between measurements: if you repeat the experiment in the same exact way, you'll get a very similar error. 
 
 Systematic errors can be *very useful* in experimental science: the presence of a systematic error means that the experimenter can improve the experiment directly, *or* that there is a fundamental problem with one or more of the physical laws being used [fn]For example, the appearance of systematic errors is what particle physicists at CERN rely on to search for new physics beyond the Standard Model.[/fn]. 
 
@@ -148,7 +148,7 @@ Imagine that we are characterizing the properties of a pencil. Each of the follo
 
 - @fa-pencil@ When we measure the length of the pencil, if the ruler is made out of metal and the temperature of the room is very low, the ruler might be contracted (while the wooden pencil is less so). That implies that the ruler is actually shorter than it should be, and our best estimate for the length of the pencil will always be larger than its true value.
 
-- @fa-pencil@ If we didn&rsquo;t keep the line of sight perpendicular to the ruler when measuring the pencil length, the resulting measured length would be longer or shorter than the actual length of the pencil.
+- @fa-pencil@ If we didn't keep the line of sight perpendicular to the ruler when measuring the pencil length, the resulting measured length would be longer or shorter than the actual length of the pencil.
 
 - @fa-pencil@ Say we measured the length, (maximum) radius and weight of the hexagonal pencil and wanted to characterize its density. If we modeled the area of the pencil cross section as a circle rather than a hexagon, our calculation for the resulting density would always be less than the actual density.
 
@@ -169,13 +169,13 @@ Imagine that we are characterizing the properties of a pencil. Each of the follo
 
 - @fa-pencil@ If you measured the weight of the pencil on a sensitive electronic scale, you would notice that the reading in last significant figure fluctuates due to factors such as electronic noise, air pressure fluctuations, and thermal fluctuations of the mechanical parts of the scale. 
 
-- @fa-pencil@ When you measure the pencil, it is highly unlikely that the edges of the pencil are aligned with the ruler markings, regardless of how careful you are. Each time you measure the pencil&rsquo;s length, your resulting value is slightly different, especially when you are estimating the value between tick marks on the ruler.
+- @fa-pencil@ When you measure the pencil, it is highly unlikely that the edges of the pencil are aligned with the ruler markings, regardless of how careful you are. Each time you measure the pencil's length, your resulting value is slightly different, especially when you are estimating the value between tick marks on the ruler.
 
 - @fa-pencil@ If you and nine of your friends all measured the length of the pencil to one decimal place past the visible markings on your ruler, you would likely see that there is a spread of values that are close but do not agree.
 
 :::
 
-We can&rsquo;t eliminate random errors [fn] This is a deep and true fact about the nature of our universe. Even in the absence of [quantum mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics), it would take an infinite number of measurements to pin down the value of a quantity to infinite precision, and hence an infinite amount of time and resources![/fn], but we can minimize *and characterize* them by using precise instruments, and by collecting a large data set for calculating the average of our measurements. Thus, we need to perform multiple trials by repeating the experiment several times to average out the random errors (and characterize the spread, or precision, of our results as a whole). 
+We can't eliminate random errors [fn] This is a deep and true fact about the nature of our universe. Even in the absence of [quantum mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics), it would take an infinite number of measurements to pin down the value of a quantity to infinite precision, and hence an infinite amount of time and resources![/fn], but we can minimize *and characterize* them by using precise instruments, and by collecting a large data set for calculating the average of our measurements. Thus, we need to perform multiple trials by repeating the experiment several times to average out the random errors (and characterize the spread, or precision, of our results as a whole). 
 
 
 **Random error leads to uncertainty in our measurement.**
@@ -314,10 +314,10 @@ We always want to do our best to estimate the uncertainty of our measurements. T
 2. Estimating from repeatability
 
 ### Estimating uncertainty from a scale
-The first comes from using a graduated scale, like that of a ruler. For a scale, we say that the uncertainty is half of the smallest division on the scale. So if we were to use a standard meter stick that has 1-mm divisions, we would say that our uncertainty is $\pm 0.5$ mm. For a digital display, we say that the error is half of the last digit displayed. That is, if we were using an electronic balance to measure the mass of a stone and read $52$ g, then we would say our uncertainty is $\pm 0.5$ g. Thus we would report the stone&rsquo;s mass as $52.0 \pm 0.5 g$.
+The first comes from using a graduated scale, like that of a ruler. For a scale, we say that the uncertainty is half of the smallest division on the scale. So if we were to use a standard meter stick that has 1-mm divisions, we would say that our uncertainty is $\pm 0.5$ mm. For a digital display, we say that the error is half of the last digit displayed. That is, if we were using an electronic balance to measure the mass of a stone and read $52$ g, then we would say our uncertainty is $\pm 0.5$ g. Thus we would report the stone's mass as $52.0 \pm 0.5 g$.
 
 ### Estimating uncertainty from repeatability
-The second way we estimate uncertainty is by repeated measurement. Often times this allows us to quantify a more complex measurement. For instance, if we were to be use a stopwatch to time how long someone was in the air when they jumped, we shouldn&rsquo;t report the uncertainty by half of the last digit displayed. This is because our reaction time, how quickly we can press the start and stop button, is much larger than the precision of the stopwatch. Our reaction time makes it much harder to estimate the uncertainty of our measurement. 
+The second way we estimate uncertainty is by repeated measurement. Often times this allows us to quantify a more complex measurement. For instance, if we were to be use a stopwatch to time how long someone was in the air when they jumped, we shouldn't report the uncertainty by half of the last digit displayed. This is because our reaction time, how quickly we can press the start and stop button, is much larger than the precision of the stopwatch. Our reaction time makes it much harder to estimate the uncertainty of our measurement. 
 
 In order to quantify the uncertainty of the stopwatch we will need to repeat our measurement multiple times and perform some statistical analysis. 
 
@@ -338,7 +338,7 @@ $$\text{STDEV}=\sqrt{\frac{\sum{(x_i-x_{avg})^2}}{N-1}}=\delta x$$
 
 The standard deviation gives an excellent estimate of our uncertainty due to random errors. Thus we can report our measurement as:
 
-:::Equation
+:::Equation fmt
 $$
 x_{avg} \pm \delta x
 $$
@@ -353,7 +353,7 @@ We report standard deviations to 1 significant figure! Please see the example in
 We will usually calculate the standard deviation by using the STDEV() function in Google Sheets.
 
 ::::::Exercise
-1. Use a stopwatch (either on your phone or online) to measure how long it takes you to say the sentence &ldquo;I enjoy physics and learning about the laws of nature.&rdquo;  Make 10 measurements. Record these data in a new table.
+1. Use a stopwatch (either on your phone or online) to measure how long it takes you to say the sentence "I enjoy physics and learning about the laws of nature."  Make 10 measurements. Record these data in a new table.
 
 2. Watch the video below. It will show you how to use Google Sheets to calculate the average and the standard deviation.
 
@@ -363,11 +363,11 @@ We will usually calculate the standard deviation by using the STDEV() function i
 
 
 :::Question
-Find the average and standard deviation of the time it takes you to say the sentence above. Report your results using the format of Equation 5.
+Find the average and standard deviation of the time it takes you to say the sentence above. Report your results using the format of  [Eq](#Eq-fmt).
 :::
 
 :::Question
-Find the standard deviation for your reaction time in the previous Exercise 2. Report your full results (average and uncertainty) using the format of Equation 5.
+Find the standard deviation for your reaction time in the previous Exercise 2. Report your full results (average and uncertainty) using the format of [Eq](#Eq-fmt).
 :::
 
 ::::::
@@ -411,7 +411,7 @@ If the trailing zero is to the left of the decimal point it can be ambiguous. To
 :::
 
 :::Question
-Determine the number of significant figures in the following measurements:
+Determine the number of significant figures in the following values:
 
 1. 15.02
 
@@ -421,7 +421,7 @@ Determine the number of significant figures in the following measurements:
 
 4. 12300
 
-5. 12300
+5. 12300$.$ 
 
 :::
 
@@ -470,7 +470,7 @@ What is the area of the circle?
 
 :::Hider An Example
 
-Imagine that you&rsquo;ve been given the mass of a block of material as 75 grams, and its dimensions as 2.5 cm &times; 3.1 cm &times; 6.3 cm (it is a rectangular parallelepiped). You are told to calculate its density. Since density is mass per unit volume, you multiply the three dimensions together, and then divide the result into 75.  You do this on a calculator. For the volume, you get 48.825 cm$^3$, and for the density, the calculator spits out 1.53609831 (depending on how many digits the display gives; the units are g/cm$^3$). It may be tempting just to write down all of those digits for the final result of the calculation. The question is whether this is necessary, or whether such a number is actually meaningful. After all, given that we know the mass to the gram, and each dimension to the tenth centimeter, do we really know the density to ten nanograms per cc (the last digit in the result above), or to a microgram per cc (the 8), or even to a milligram per cc (the 6)?
+Imagine that you've been given the mass of a block of material as 75 grams, and its dimensions as 2.5 cm &times; 3.1 cm &times; 6.3 cm (it is a rectangular parallelepiped). You are told to calculate its density. Since density is mass per unit volume, you multiply the three dimensions together, and then divide the result into 75.  You do this on a calculator. For the volume, you get 48.825 cm$^3$, and for the density, the calculator spits out 1.53609831 (depending on how many digits the display gives; the units are g/cm$^3$). It may be tempting just to write down all of those digits for the final result of the calculation. The question is whether this is necessary, or whether such a number is actually meaningful. After all, given that we know the mass to the gram, and each dimension to the tenth centimeter, do we really know the density to ten nanograms per cc (the last digit in the result above), or to a microgram per cc (the 8), or even to a milligram per cc (the 6)?
 
 The result of the density calculation above cannot contain more than two significant figures, and is properly written as 1.5 g/cm$^3$. To obtain this result, we round the three in the next place down. We always round to the nearest value of the last significant figure. To avoid biasing calculations that have multiple steps, we always round fives to the even number. For example, to two significant figures, 1.45 is 1.4, and 1.55 is 1.6.
 :::
@@ -500,7 +500,7 @@ Knowing that the density of platinum is $21.45$ g/mL, what is the percent discre
 :::::::::
 
 ## Significant Figures in Unit Conversions
-When you are converting between units, the conversions are treated as exact and don&rsquo;t affect the number of sig figs in your result.
+When you are converting between units, the conversions are treated as exact and don't affect the number of sig figs in your result.
 
 
 :::Question
@@ -511,7 +511,7 @@ A dog is $2.0$ feet tall.  What is the height of the dog in mm to correct sig fi
 When we take data with an estimated uncertainty, the uncertainty will always be in the first uncertain figure. This is natural, of course, since digits beyond the location of the uncertainty of the number are washed out by the possible error.
 
 :::Card Intro Example
-If you measured a dog&rsquo;s height to be $101.537$ cm, but your ruler and technique suggested an uncertainty of $\pm 0.4$ cm, then naturally, the last significant figure in your measurement is &lsquo;$5$&rsquo;, i.e., $ \text{Height of dog} = (101.5 \pm 0.4)$ cm 
+If you measured a dog's height to be $101.537$ cm, but your ruler and technique suggested an uncertainty of $\pm 0.4$ cm, then naturally, the last significant figure in your measurement is '$5$', i.e., $ \text{Height of dog} = (101.5 \pm 0.4)$ cm 
 :::
 
 

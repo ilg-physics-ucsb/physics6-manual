@@ -70,8 +70,8 @@ Since the velocity tells you how an object's *position* is changing in time, and
 .
 :::
 :::col l5
-![(b) The cosntant velocity is easily identified in a plot versus time](imgs/Lab2/v10_vel.png)
-(b) The cosntant velocity is easily identified in a plot versus time
+![(b) The constant velocity is easily identified in a plot versus time](imgs/Lab2/v10_vel.png)
+(b) The constant velocity is easily identified in a plot versus time
 :::
 
 ::::::
