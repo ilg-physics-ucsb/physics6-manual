@@ -215,7 +215,7 @@ Based on the interference only and diffraction only part of the exercise, predic
 <br>
 ::::::
 
-## Pair of Slits With Variable Separation
+## Pair of Slits with Variable Separation
 
 In [Ex](#Ex-variable) you will see a video of  light shining through a pair of slits. This is not your standard pair of slits, however. They are attached to a wheel and designed so that as the wheel rotates the *slit **separation** changes* but the *slit **width** remains constant*. 
 
