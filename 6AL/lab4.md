@@ -58,7 +58,7 @@ You don&rsquo;t have a protractor with you, but you do have a clean napkin and a
 
 ### Angular Velocity
 
-Just as *velocity* is the *time rate of change in position,*  **angular velocity** is the time rate of change in *angular displacement*. This is denoted ($\rm\frac{\Delta\theta}{\Delta t}$), and it has the units of rad/s (radians/s). 
+Just as *velocity* is the *time rate of change in position,*  **angular velocity** is the time rate of change in *angular displacement*. This is denoted ($\rm\frac{\Delta\theta}{\Delta t}$), and it has the units of $\rm rad/s$ (radians/s). 
 
 :::Card Definition Angular Velocity
 **Angular Velocity** is a measure of an object&rsquo;s rotation rate, which refers to how fast an object rotates about an axis relative to some reference position, *i.e.*, how fast the angular position or orientation of an object changes with time. It is typically represented with the Greek symbol $\vec \omega$.
@@ -67,21 +67,21 @@ Just as *velocity* is the *time rate of change in position,*  **angular velocity
 
 ### Angular Acceleration
 
-You probably recall that the time rate of change in (linear) velocity is *acceleration*. Similarly, the time rate of change in *angular velocity* is, of course, **angular acceleration**. This is denoted ($\rm\frac{\Delta\omega}{\Delta t}$). It has the units rad/$\rm s^2$.
+You probably recall that the time rate of change in (linear) velocity is *acceleration*. Similarly, the time rate of change in *angular velocity* is, of course, **angular acceleration**. This is denoted ($\rm\frac{\Delta\omega}{\Delta t}$). It has the units $\rm rad/ s^2$.
 
 :::Card Definition Angular Acceleration
 **Angular Acceleration** is the time rate of change of angular velocity. It is typically represented with the Greek symbol $\vec \alpha$.
 :::
 
 
-Note that in the text above, the arrows over the variables indicate that these quantities are *vectors* &mdash; that is, $\vec\theta$, $\vec\omega$ and $\vec\alpha$ have both magnitude and direction. (It is also common to denote that these quantities are vectors by setting their symbols in **boldface**, as ***&theta;***, ***&omega;*** and ***&alpha;***.) The direction is along the axis of rotation, and the sense is in the direction in which your right thumb points when you curl the fingers of your right hand in the direction of the rotation. Since it is only the sense that changes, and since we are not so much concerned with direction, for convenience we will use the scalar forms of the equations in which all these variables appear.
+Note that in the text above, the arrows over the symbols indicate that the quantities they represent are *vectors* &ndash; that is, $\vec\theta$, $\vec\omega$ and $\vec\alpha$ have both magnitude and direction. (It is also common to denote that these quantities are vectors by setting their symbols in **boldface**, as ***&theta;***, ***&omega;*** and ***&alpha;***.) The direction is along the axis of rotation, and the sense is in the direction in which your right thumb points when you curl the fingers of your right hand in the direction of the rotation. Since it is only the sense that changes, and since we are not so much concerned with direction, for convenience we will use the scalar forms of the equations in which all these symbols appear.
 
 
 ## Mass, Force, Momentum
 
-Some of the equivalences in the previous section may have been obvious to you &mdash; the change from *distance* to *angle* might not be so mind bending. Not all the changes, however, are as straightforward. You may have noticed that we didn&rsquo;t move on to define &ldquo;angular force,&rdquo; or **torque**, for example. Your first instinct is likely to borrow from $\vec F = m \vec a$ and define $torque = m \vec \alpha$. This would be a good guess, but very wrong!  
+Some of the equivalences in the previous section may have been obvious to you &ndash; the change from *distance* to *angle* might not be so mind bending. Not all the changes, however, are as straightforward. You may have noticed that we didn&rsquo;t move on to define &ldquo;angular force,&rdquo; or **torque**, for example. Your first instinct is likely to borrow from $\vec F = m \vec a$ and define $torque = m \vec \alpha$. This would be a good guess, but very wrong!  
 
-That this is wrong may be surprising -- you can&rsquo;t simply plug mass into this formula. Instead, we need to talk about the strange rotational equivalent of mass, the **moment of inertia**.
+That this is wrong may be surprising &ndash; you can&rsquo;t simply plug mass into this formula. Instead, we need to talk about the strange rotational equivalent of mass, the **moment of inertia**.
 
 ### The Moment of Inertia
 
@@ -108,7 +108,7 @@ Where $\tau$, as you may have guessed, is the *angular force* known as **torque*
 :::Card Definition Torque
 **Torque** is the rotational equivalent of linear force, typically represented by the Greek symbol $\vec\tau$. Just as a linear force is a push or a pull, a torque can be thought of as a counterclockwise or clockwise twist to an object around a specific axis.
 ::: 
-Where force has units of newtons (kg&middot;m&middot;s$^{-2}$), torque has units of N&middot;m. You can apply torque to an object by applying a force to it. This torque, however, depends not only on the magnitude of the force you apply, but where you apply it, and at what angle with respect to the line between that point and the axis of rotation. The torque exerted on an object by a force $F$, around a pivot point, is equal to the distance r from the pivot point to where the force acts, multiplied by the component of the force that is perpendicular to the position vector ${\vec r}$. If the force is perpendicular to the position vector, we may call the distance $r$ the lever arm.
+Where force has units of newtons ($\rm kg \cdot m \cdot s^{-2}$), torque has units of $\rm N\cdot m$. You can apply torque to an object by applying a force to it. This torque, however, depends not only on the magnitude of the force you apply, but where you apply it, and at what angle with respect to the line between that point and the axis of rotation. The torque exerted on an object by a force $F$, around a pivot point, is equal to the distance r from the pivot point to where the force acts, multiplied by the component of the force that is perpendicular to the position vector ${\vec r}$. If the force is perpendicular to the position vector, we may call the distance $r$ the lever arm.
 
 
 :::Figure torque xl
@@ -132,7 +132,7 @@ $$
 :::
 ::::::
 
-Note that whereas linear momentum is in kg&middot;m/s, angular momentum is in kg&middot;m$^2$/s. We shall see later why this is so.
+Note that whereas linear momentum is in $\rm kg\cdot m/s$, angular momentum is in $\rm kg\cdot m^2/s$. We shall see later why this is so.
 ### Kinetic Energy
 
 We will wrap up this review of rotational mechanics by giving the expression for Kinetic Energy that applies to rotating bodies:
@@ -141,7 +141,7 @@ $$
 K = \frac{1}{2} I \omega^2
 $$
 :::
-Since this is just an energy, it has the same units (J, which are N&middot;m or kg&middot;m$^2$&middot;s$^{-2}$) as those for linear kinetic energy.
+Since this is just an energy, it has the same units ($\rm J$, which are $\rm N \cdot m$ or $\rm kg \cdot m^2 \cdot s^{-2}$) as those for linear kinetic energy.
 
 ## The Final Dictionary
 The table below lists the quantities described in the above discussion, with their variables and expressions:
@@ -188,7 +188,7 @@ This angular momentum is often called the *moment of momentum*. If we add the mo
 
 We can also see this by taking the kinetic energy of each mass point, which is $K_{point}=(\frac{1}{2})mv^2$. From the equations above, we see that this also equals $K_{point}=(\frac{1}{2})mr^2\omega^2$. 
 
-The total kinetic energy for the rotating object is the sum for all points on it: $K\rm_r= \sum (\frac{1}{2})\it{mr}\rm^2\omega^2$. We can pull out the ($\frac{1}{2}$), and since $\omega^2$ is the same for all points, this is $K\rm_r= (\frac{1}{2})[\sum \it{mr}\rm^2] \omega^2$. The sum in brackets is $I$, the moment of inertia. Its units are kg&middot;m$^2$ (or in cgs units, g&middot;cm$^2$).
+The total kinetic energy for the rotating object is the sum for all points on it: $K\rm_r= \sum (\frac{1}{2})\it{mr}\rm^2\omega^2$. We can pull out the ($\frac{1}{2}$), and since $\omega^2$ is the same for all points, this is $K\rm_r= (\frac{1}{2})[\sum \it{mr}\rm^2] \omega^2$. The sum in brackets is $I$, the moment of inertia. Its units are $\rm kg \cdot m^2$ (or in cgs units, $\rm g \cdot cm^2$).
 :::
 
 ## Setup
