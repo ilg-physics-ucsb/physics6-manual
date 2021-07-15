@@ -29,7 +29,7 @@ The energies of all three of these types of radiation greatly exceed the ionizat
 
 A device called a Geiger counter can be used to detect alpha, beta and gamma radiation. The Geiger-Müller tube (or GM tube) is the sensing element of a Geiger counter. It can detect a single particle of ionizing radiation, and is typically connected to electronic circuitry that produces an audible click for each event. It was named for Hans Geiger, who invented the device in 1908, and Walther Müller, who collaborated with Geiger in developing it further in 1928.
 
-The Geiger-Müller tube consists of a tube filled with an inert gas such as helium, neon or argon, and an organic vapor or a halogen. The tube contains electrodes, between which there is a voltage of several hundred volts, but no current flowing. The walls of the tube are metal (or have the inside coated with metal) to form the cathode. The anode is a wire that passes through the center of the tube and is insulated from the cathode. An opening in the tube wall, covered with a thin sheet of mica, provides a window through which alpha and beta particles can enter the tube. (Entry of gamma rays into the tube would not typically be hindered by the tube wall.) Because alpha particles interact so strongly with matter, this mica window must be very thin in order for alpha particles to be able to enter the tube. The minimum energy that an alpha particle must have in order to enter the Geiger-Müller tube depends on the thickness of this window.  (The thicker the window, the greater the minimum energy necessary for an alpha particle to enter.) In some Geiger-Müller tubes, this window is not thin enough to allow alpha particles to pass through it. Such tubes can detect only beta particles and gamma rays.
+The Geiger-Müller tube consists of a tube filled with an inert gas such as helium, neon or argon, and an organic vapor or a halogen. The tube contains electrodes, between which there is a voltage of several hundred volts, but no current flowing. The walls of the tube are metal (or have the inside coated with metal) to form the cathode. The anode is a wire that passes through the center of the tube and is insulated from the cathode. An opening in the tube wall, covered with a thin sheet of mica, provides a window through which alpha and beta particles can enter the tube. (Entry of gamma rays into the tube would not be hindered by the tube wall.) Because alpha particles interact so strongly with matter, this mica window must be very thin in order for them to be able to enter the tube. The minimum energy that an alpha particle must have in order to enter the Geiger-Müller tube depends on the thickness of this window.  (The thicker the window, the greater the minimum energy necessary for an alpha particle to enter.) In some Geiger-Müller tubes, this window is not thin enough to allow alpha particles to pass through it. Such tubes can detect only beta particles and gamma rays.
 
 
 
@@ -37,7 +37,7 @@ The Geiger-Müller tube consists of a tube filled with an inert gas such as heli
 ![Geiger-Müller Tube Plateau](imgs/Lab4/fig1_1.JPG)
 Geiger-Müller Tube Plateau
 :::
-When ionizing radiation passes through the tube, it ionizes some of the gas molecules inside it. This creates positively charged ions and free electrons. The electric field between the tube’s electrodes accelerates these charged particles. The ions are pulled to the cathode, and the electrons are drawn to the anode. On their way to opposite electrodes, they gain sufficient energy to ionize other molecules. This creates an avalanche of charged particles and results in a short, intense pulse of current from the negative electrode to the positive electrode.
+When ionizing radiation passes through the tube, it ionizes some of the gas molecules inside it. This creates positively charged ions and free electrons. The electric field between the tube’s electrodes accelerates these charged particles. The ions are pulled to the cathode, and the electrons are drawn to the anode. On their way to the electrodes, they gain sufficient energy to ionize other molecules. This creates an avalanche of charged particles and results in a short, intense pulse of current from the negative electrode to the positive electrode.
 
 
 The Geiger-Müller counter has applications in the fields of nuclear physics, geophysics (mining) and medical therapy that involves radioisotopes and x-rays.
@@ -51,11 +51,11 @@ The sensitivity of a GM tube depends on how much voltage is placed between the a
 Spectech ST - 150 Nuclear Lab Station
 :::
 
-In this lab we will use the ST-150 Nuclear Lab Station to make radiation measurements with a Co-60 gamma source. We will place it in the device at different distances from the detector, and with various absorbers inserted between it and the detector.
+In this lab we will use the ST-150 Nuclear Lab Station to make radiation measurements with a Co-60 gamma source. We will place it in the device at a set distance from the detector, and then we will insert various absorbers between it and the detector.
 
 <center> <b>The quantities of radiation in this lab are safe and will not hurt you. </b></center>
 
-The basic operation of the ST-150 is straightforward; it does the counting for you over the time interval that you specify. The sample holder provides six positions with 1 cm separation between each one and the next. Each position can hold either a radioactive source or an absorber.
+The basic operation of the ST-150 is straightforward; it does the counting for you over the time interval that you specify. The sample holder provides six positions with 1 cm separation between them. Each position can hold either a radioactive source or an absorber.
 
 :::Note 
 To improve sensitivity to alpha and beta particle radiation, many GM tubes have an extremely thin entrance window. If broken, it cannot be repaired. ***Never*** allow objects to touch the window.
@@ -67,7 +67,7 @@ To improve sensitivity to alpha and beta particle radiation, many GM tubes have 
 
 ::::::Exercise
 
-In this exercise we will introduce our instrument, the ST - 150, and measure the intensity of the radiation around us by observing the count rate with no source installed in the instrument.
+In this exercise we will introduce our instrument, the ST - 150, and measure the level of the radiation around us by observing the count rate with no source installed in the instrument.
 
 :::Video
 <iframe style='width:100%;' src="https://www.youtube.com/embed/ye4EiLZWXQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -98,7 +98,7 @@ In this exercise we will measure the activity of a Co-60 source with the beta pa
 :::
 
 ::: Question
-What is the activity of the C0-60 in units of counts per minute? **Remember to subtract the background counts! We want to count the radiation coming only from the C0-60 and not from elsewhere in the environment.**
+What is the (gamma) activity of the C0-60 in units of counts per minute? **Remember to subtract the background counts! We want to count the radiation coming only from the C0-60 and not from elsewhere in the environment.**
 :::
 
 ::::::
@@ -134,7 +134,7 @@ Density thickness has dimensions of mass/area; we will use $\rm mg/cm^2$.
 The nice thing about density thickness is that it combines linearly. That means if you had a material with density thickness 300 $\rm mg/cm^2$, and another with 100 $\rm mg/cm^2$, and you stacked them on top of each other, the total density thickness would be 400 $\rm mg/cm^2$. 
 :::
 
-Gamma radiation is part of the electromagnetic spectrum, and of all known forms of energy in the universe, it has the highest energy. Because of this high energy, gamma ray absorption by matter is significantly lower than for beta or alpha particles. **In this lab you will subtract the background count from each run.** This is because there is not enough lead to stop all of the gamma rays from the Co-60 source and thereby reduce the count rate to the background level.
+Gamma radiation is part of the electromagnetic spectrum, and of all known forms of energy in the universe, it is of the highest energy. Because of this high energy, gamma ray absorption by matter is significantly lower than for beta or alpha particles. **In this lab you will subtract the background count from each run.** This is because there is not enough lead to stop all of the gamma rays from the Co-60 source and thereby reduce the count rate to the background level.
 
 
 
@@ -142,7 +142,7 @@ Gamma radiation is part of the electromagnetic spectrum, and of all known forms 
 
 ::::::Exercise
 
-In this exercise we measure the number of gamma rays leaving the Co-60 source, passing through a number of lead sheets, and entering the detector. You will make a table of measurements, which you will then use in the next exercise to determine the mass absorption coefficient of lead. 
+In this exercise we measure the number of gamma rays leaving the Co-60 source, passing through a number of lead sheets, and entering the detector. You will make a table of measurements, which you will then use in the next exercise to determine the mass attenuation coefficient of lead. 
 
 Make a table like the following. Remember that for each run you should subtract the background number of counts that you measured in Exercise 1. The result is what we will call &ldquo;Net Counts&rdquo; in the table.
 
@@ -162,7 +162,7 @@ Make a table like the following. Remember that for each run you should subtract 
 <iframe style='width:100%;' src="https://www.youtube.com/embed/pBp3f3ruSBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
 
-2. Watch Video 5 and fill out the table accordingly.  Recall that density thickness combines linearly. Since the previous lead sheet is still in place, you need to add its density thickness to that of absorber 9. Density thickness of absorber 9 is $1,890 \rm\ mg/cm^2$.
+2. Watch Video 5 and fill out the table accordingly.  Recall that density thickness combines linearly. Since the previous lead sheet is still in place, you need to add its density thickness to that of absorber 9. The density thickness of absorber 9 is $1,890 \rm\ mg/cm^2$.
 
 :::Video
 <iframe style='width:100%;' src="https://www.youtube.com/embed/yJRLIPIsUwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
