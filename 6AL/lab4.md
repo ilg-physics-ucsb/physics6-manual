@@ -2,7 +2,7 @@
 ---
 
 :::Card Intro In this Lab..
-Rotation stuff. 
+In the last lab of this quarter, you will refresh your knowledge of **Rotational Mechanics**. While the relationships between variables are very similar to Linear Mechanics, some quantities are ostensibly new, and will be explored in this lab. Among them is the concept of the **Moment of Inertia** of an object, and in this lab we will investigate multiple ways to measure it in a pulley system. 
 :::
 
 ---
