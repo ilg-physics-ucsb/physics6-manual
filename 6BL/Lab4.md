@@ -17,11 +17,11 @@ All responses and answers should contain the correct number of sig figs and shou
 
 ## Gaining Intuition with Magnets
 
-::::::::: Exercise permanentMagnets
+::::::::: Exercise permanentMagnet
 
-In this exercise you will gain intuition on magnetic fields and  magnetic field lines. In [Si](#Si-permanentMagent) you will explore how permanent magnets affect the region surrounding them.
+In this exercise you will gain intuition on magnetic fields and  magnetic field lines. In [Si](#Si-permanentMagnet) you will explore how permanent magnets affect the region surrounding them.
 
-1. Examine the &ldquo;Bar Magnet&rdquo; tab of [Si](#Si-permanentMagent). There is a permanent bar magnet with its north and south pole labeled, which creates a magnetic field around it. Notice the many compasses laid out in the background, and the single compass laid out in the foreground.  Each compass will orient itself in the direction of the magnetic field at its location.
+1. Examine the &ldquo;Bar Magnet&rdquo; tab of [Si](#Si-permanentMagnet). There is a permanent bar magnet with its north and south pole labeled, which creates a magnetic field around it. Notice the many compasses laid out in the background, and the single compass laid out in the foreground.  Each compass will orient itself in the direction of the magnetic field at its location.
 
 :::Simulation permanentMagnet
 <iframe src="https://phet.colorado.edu/sims/cheerpj/faraday/latest/faraday.html?simulation=magnets-and-electromagnets" width="100%" height="800px" scrolling="no" allowfullscreen></iframe>
@@ -64,7 +64,7 @@ The compasses show the direction of the magnetic field created by the permanent 
 A coil of wire with current flowing through it generates a magnetic field. We call this an electromagnet. If there is nothing but air inside of the coil, it is an &ldquo;air core&rdquo; electromagnet. We can also place other materials such as iron inside of the coil to amplify the magnetic field. We call this an &ldquo;iron core&rdquo; electromagnet.
 
 :::::: Exercise airCoreField
-In [Ex](#Ex-permanentMagnets) you gained intuition with a permanent bar magnet. In this exercise you will be using [Si](#Si-electroMagnet) to visualize the magnetic field of an electromagnet. Note that this is an air core electromagnet. The circuit diagram for this experiment is shown in [Fi](#Fi-airCoreField).
+In [Ex](#Ex-permanentMagnet) you gained intuition with a permanent bar magnet. In this exercise you will be using [Si](#Si-electroMagnet) to visualize the magnetic field of an electromagnet. Note that this is an air core electromagnet. The circuit diagram for this experiment is shown in [Fi](#Fi-airCoreField).
 
 :::Figure airCoreField
 ![[Fi](#Fi-compassLocations).2 – Wiring for basic electromagnet](imgs/Lab4/Figure1.2_Wiring_basic_electromagnet.jpg)
@@ -218,14 +218,14 @@ Did the north pole of the magnetized iron core change? How do you know?
 **In some materials, the magnetic domains remain aligned after the external magnetic field has been removed. As a result, the material itself becomes a magnet. This phenomenon is called *ferromagnetism*. A material that behaves this way is said to be *ferromagnetic*.**
 :::
 
-# Magentic Flux and Faraday's Law
+# magnetic Flux and Faraday's Law
 
 <!-- Galvanometers are sensitive current meters. The terminals are connected to a small coil of wire enclosed within a permanent magnet; the coil is mechanically linked to the readout needle. Current flowing through the coil produces a magnetic field, which because of its orientation in the field of the permanent magnet, creates a torque on the needle. More current produces a stronger field and thus greater deflection of the needle. A hairspring connected to the needle balances this torque, and restores the needle to its original position when current is removed.-->
 
 
 ## Flux
 
-In [Ex](#Ex-permanentMagent), we discussed magnetic field lines between the N and S poles of the bar magnet.  When these lines cross an area they produce *magnetic flux*. Magnetic flux is associated with a given surface and represents a measure of the number of field lines crossing that surface. 
+In [Ex](#Ex-permanentMagnet), we discussed magnetic field lines between the N and S poles of the bar magnet.  When these lines cross an area they produce *magnetic flux*. Magnetic flux is associated with a given surface and represents a measure of the number of field lines crossing that surface. 
 
 For a uniform magnetic field perpendicular to a surface, the magnetic flux is defined as the product of the magnetic field strength and the area of the surface.
 
@@ -262,7 +262,7 @@ In this exercise we will explore laws critical to the study of electromagnetism.
 ![[Fi](#Fi-airCoreStrength).1 – Lenz’s law setup](imgs/Lab4/Figure4.1_LenzsLaw.jpg)
 :::
 
-1. Examine [Si](#Si-permanentMagent). You may notice that in [Fi](#Fi-lenzLaw) we show a Galvanometer, which measures current, and [Si](#Si-lenzLaw) has a voltmeter, which measures voltage. As we learned in the Ohm&rsquo;s Law lab, $V=IR$. Thus, for a resistive element such as the light bulb in [Si](#Si-lenzLaw), we can use these interchangeably for the purposes of this lab. 
+1. Examine [Si](#Si-permanentMagnet). You may notice that in [Fi](#Fi-lenzLaw) we show a Galvanometer, which measures current, and [Si](#Si-lenzLaw) has a voltmeter, which measures voltage. As we learned in the Ohm&rsquo;s Law lab, $V=IR$. Thus, for a resistive element such as the light bulb in [Si](#Si-lenzLaw), we can use these interchangeably for the purposes of this lab. 
 <!-- (You may also remember that the current that flows is the result of an induced voltage, often referred to as an *emf*, which stands for &ldquo;electromotive force.&rdquo; We may measure either one as we move our magnet around near the coil.) -->
 
 :::Simulation lenzLaw
