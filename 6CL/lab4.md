@@ -176,9 +176,9 @@ Make a table like the following. Remember that for each run you should subtract 
 :::
 
 4. Watch Video 7 and fill out the table accordingly.  Recall that density thickness combines linearly. Since the previous lead sheets are still in place, you need to add their density thickness values together, and then to that of absorber 11.  The density thickness of absorber 11 is $7,435 \rm\ mg/cm^2$.
+::::::
 
-
-::: Exercise
+:::::: Exercise
 1. Create a new column in your table. Compute the natural logarithm for each of your activity values. Plot these data against your $\rho x$ values, with ln(activity) on the vertical axis and absorber density thickness $\rho x$ on the horizontal axis.
 
 :::Question
