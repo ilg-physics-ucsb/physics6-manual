@@ -20,9 +20,9 @@
 Simple harmonic motion is found everywhere in nature is and is a recurring theme throughout physics. Many different systems can be modeled as harmonic oscillators. One of the most accessible systems to study is the pendulum. When you hang a mass from a point it will swing back and forth about the equilibrium position. This simple behavior can be then be mapped to many more systems.
 
 
-# What's Important
+# What&rsquo;s Important
 
-The objective of this lab is to determine the physical quantities that influence the period of a pendulum. The period is how long it takes for the pendulum to make one complete cycle of motion. The relevant features are the mass of the bob, the length of the pendulum, and the initial angular displacement. *** We will test how each of these features influence the period of the pendulum  by varying one of them while keeping the other two constant.***
+The objective of this lab is to determine the physical quantities that influence the period of a pendulum. The period is how long it takes for the pendulum to make one complete cycle of motion. The relevant features are the mass of the bob, the length of the pendulum, and the initial angular displacement. ***We will test how each of these features influences the period of the pendulum  by varying one of them while keeping the other two constant.***
 
 :::Note
 
@@ -47,21 +47,21 @@ We will investigate if the period $T$ of the pendulum depends on the mass $m$ of
 
 ::::::Exercise
 
-We have five bobs of different masses that we can placed at the end of our pendulum. Below is a video showing the mass of each bob being measured. Watch this video to determine the mass of each of the five bobs. Throughout this lab, we will use the same numbering scheme for each bob that we use in this video, so when we say, for example, &ldquo;Mass 4&rdquo; in a later video, we are talking about the same mass presented here.
+We have five bobs of different masses that we can place at the end of our pendulum. Below is a video showing the mass of each bob being measured. Watch this video to determine the mass of each of the five bobs. Throughout this lab, we will use the same numbering scheme for each bob that we use in this video, so when we say, for example, &ldquo;Mass 4&rdquo; in a later video, we are talking about the same mass presented here.
 
 ::: Video
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/jlHmdzWArcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
 
-1. Fill the table provided with the measured mass values. Pause the video, and use the triple beam balance to make your best measurement of the mass. 
+1. Fill the table provided with the measured mass values. Make the video pause, and use the triple beam balance to make your best measurement of the mass.
 
-In the next video you will be shown five different pendulums. The only thing that is different among the five pendulums is the mass that is used. The initial angle for each setup is $20^{\circ}$, and the length is 80 cm.
+In the next video you will be shown five different pendulums. The only thing that is different among the five pendulums is the mass that is used. The initial angle for each setup is $20^{\circ}$, and the length is $80\rm\ cm$.
 
 ::: Video
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/-teybyRBRxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
 
-2. For each mass, use the stopwatch in the video, a stopwatch app, or the video timestamp, to record the time it takes for the pendulum to undergo 10 complete periods. A complete period is the time it takes for the pendulum to swing back and forth once. **Start the stopwatch when the pendulum is at the beginning of a period, then, when it has reached the end of the tenth period from the start, stop the stopwatch.** Take this time and divide it by ten to obtain an average time for one period. Record these data in a new column in your table.
+2. For each mass, use the stopwatch in the video, a stopwatch app, or the video time stamp, to record the time it takes for the pendulum to undergo 10 complete periods. A complete period is the time it takes for the pendulum to swing back and forth once. **Start the stopwatch when the pendulum is at the beginning of a period, then, when it has reached the end of the tenth period from the start, stop the stopwatch.** Take this time and divide it by ten to obtain an average time for one period. Record these data in a new column in your table.
 
 :::Question
 Does the period depend on mass? Justify your answer.
@@ -71,7 +71,7 @@ Does the period depend on mass? Justify your answer.
 
 ## Initial Angle
 
-Conventional analysis of the pendulum is done for small angles, where the restoring force experienced by the mass is approximately linear with the displacement angle. A linear restoring force is one of the criteria for simple harmonic motion. When the displacement angles become large, the restoring force is no longer linear. The motion is still periodic, but it is not sinusoidal, and the mathematical analysis becomes far more involved. In this lab we will only focus on small displacement angles, and thus simple harmonic motion.
+Conventional analysis of the pendulum is done for small angles, where the restoring force experienced by the mass is approximately linear with the displacement angle. A linear restoring force is one of the criteria for simple harmonic motion. When the displacement angles become large, the restoring force is no longer linear. The motion is still periodic, but it is not sinusoidal, and the mathematical analysis becomes far more involved. In this lab we will focus only on small displacement angles, and thus simple harmonic motion.
 
 
 We will investigate if the period $T$ of the pendulum depends on the initial angle $\theta_0$ of the bob attached to its end. To do so, we will vary the initial angle, $\theta_0$, while keeping the length, $L$, and mass, $m$, constant.
@@ -96,7 +96,7 @@ You will be working with only a single mass for this part of the experiment, and
 ::: Question
 1. Does the period depend on the initial angle? Justify your answer.
 
-2. Why can you only use one mass instead of all five to justify this?
+2. Why can you use only one mass instead of all five to justify this?
 :::
 <!-- End Angle Exercise -->
 ::::::
@@ -108,7 +108,7 @@ We will investigate if the period $T$ of the pendulum depends on the length of t
 ::::::Exercise
 <!-- Varying Length -->
 
-In the following video you will see three pendulums all having the same mass (mass 2) and initial angle of $10^{\circ}$. The only thing that varies among runs is the length. After the first run, there will be a brief close-up of the mass with a meterstick in the background. You can use this to make your own length measurement. For the second run, the length will be 40 cm, and for the third it will be 24 cm.
+In the following video you will see three pendulums all having the same mass (mass 2) and initial angle of $10^{\circ}$. The only thing that varies among runs is the length. After the first run, there will be a brief close-up of the mass with a meterstick in the background. You can use this to make your own length measurement. For the second run, the length will be 40 $\rm cm$, and for the third it will be 24 $\rm cm$.
 
 1. Use the same method as in Exercises 1 and 2 to measure the average period for each pendulum length.
 
@@ -138,7 +138,7 @@ For a professional scientist, the point of data collection is to *differentiate*
 
 ### Finding the exact dependency of period on pendulum length
 -->
-From your previous investigations on which parameters affect the period of the pendulum, you have hopefully concluded that the length $L$ is the only parameter that affects the period of the pendulum. In this part, we will attempt to find the mathematical relationship between the period $T$ and the length $L$.
+From your previous investigations on which parameters affect the period of the pendulum, hopefully, you have concluded that the length $L$ is the only parameter that affects the period of the pendulum. In this part, we will attempt to find the mathematical relationship between the period $T$ and the length $L$.
 <!-- The most common scenario you face as a scientist is arguing for or against the validity of one or more theoretical models. In the next exercise you will carefully take data, and use your sharp analytical skills to *differentiate* between two proposed theories made by your friends, and determine by a well thought-out argument, if either is correct. 
 
 ### The Scenario
@@ -162,7 +162,7 @@ You design an experiment to demonstrate the relationship between length and peri
 -->
 :::::: Exercise
 
-Below is a (very-much-sped-up) video of several pendulums with mass 2. The initial angles are all $10^{\circ}$. We vary the length from 96 cm to 24 cm. To keep the lab from being too long, we will provide you with the data that we collected.
+Below is a (very-much-sped-up) video of several pendulums with mass 2. The initial angles are all $10^{\circ}$. We vary the length from 96 $\rm cm$ to $\rm 24$ cm. To keep the lab from being too long, we will provide you with the data that we collected.
 
 1. Watch the video. 
 
@@ -172,7 +172,7 @@ Below is a (very-much-sped-up) video of several pendulums with mass 2. The initi
 
 2. Go to [this link](https://docs.google.com/spreadsheets/d/1Gp8Ake88TBxx3RhgtoZL6M_NX7lGdAEon_f0R5DeG1I/edit#gid=0) to get your data. Make a table to contain the data at this link, and copy them into your table.
 
-3. Note that the times are for 10 periods, you will need to divide them by 10 in order to find the actual period of the pendulums. You will also want to convert the length values from cm to meters.
+3. Note that the times are for 10 periods; you will need to divide them by 10 in order to find the actual period of the pendulums. You will also want to convert the length values from $\rm cm$ to meters.
 
 4. Make a plot of period vs. length (include all elements of a good plot).
 
@@ -235,7 +235,7 @@ b. Consider the relationship $y = x^{1/3}$. If you made a log-log plot of this, 
 ## Analyzing the Data
 
 <!-- One method you used was changing the independent variable of your data, which works great when you have an idea about what the equation *should* look like. The other method you used was to take the logarithm of both *x* and *y* values, to plot them, and from that plot find the power of *x* (and/or *y*) and the proportionality constant in the original equation. -->
-Let's assume that the period $T$ depends on the length $L$ in a non-linear way, namely a power law:
+Let&rsquo;s assume that the period $T$ depends on the length $L$ in a non-linear way, namely a power law:
 
 ::: Equation generalizedPeriod
 $$T=a L^b$$
@@ -314,6 +314,7 @@ $\log(X^Y) = Y \log(X)$
 $10^{log (f)} = f$ 
 
 *This is true for base 10*
+*(and for any other base).*
 
 :::
 
@@ -367,7 +368,7 @@ T = 2\pi \sqrt{\frac{L}{g}}
 $$
 :::
 
-where $g$ is the acceleration due to gravity ($g=9.8m/s^2$)
+where $g$ is the acceleration due to gravity ($g=9.8\rm\ m/s^2$)
 
 ::::::Exercise
 We want to compare our nonlinear equation, [Eq](#Eq-generalizedPeriod), (which we guessed) to the theoretical model.
@@ -402,7 +403,7 @@ Measuring the period of a pendulum is a simple method to determine the accelerat
 <!-- :::Exercise -->
 
 :::::: Question
-Consider two different pendulums of equal mass and tied to strings of equal length, but which differ in the following way: The first is a sphere, similar to those used in this experiment. The second is a lengthy rod, tied at one end. (See [Fi](#Fi-twoPendulums)) Which pendulum has a longer period? **Hint: Think about the center of mass and what that means for the effective length.**
+Consider two different pendulums of equal mass and tied to strings of equal length, but which differ in the following way: The first is a sphere, similar to those used in this experiment. The second is a lengthy rod, tied at one end. (See [Fi](#Fi-twoPendulums).) Which pendulum has a longer period? **Hint: Think about the center of mass and what that means for the effective length.**
 
 :::Figure twoPendulums
 ![Figure 2](imgs/Lab1/TwoPendulums.png)<!--{max-width=200px max-height=200px}-->
