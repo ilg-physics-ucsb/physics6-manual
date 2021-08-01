@@ -1,10 +1,10 @@
 # Lab Math 6BL
 
-## 1. INTRODUCTION
+# Introduction
 
 When you wish to study the behavior of a physical system, a common technique to use is to choose a pair of quantities whose relationship you wish to examine, and, keeping everything else fixed, to vary one and to measure the second as you do so. A plot of the quantity you measure (dependent variable) vs. the one you varied (the independent variable), allows you to see the shape of the mathematical relationship between those two variables. If you can then fit the data to a mathematical function, you will have a good sense of what that relationship is. You might also be able to confirm that the data fit an equation that you had proposed before you did the experiment. If the data form a straight line, then such a fit is fairly simple. In 6A, you performed such a fit for the force data you generated in the experiment with the air track. As you might guess, though, the relationships between physical quantities are often nonlinear, and, in fact, they could take any of a number of forms. While it might be possible to identify a nonlinear function by looking at the shape of a plot, and while it is possible to perform fits to nonlinear functions, it is generally easier to fit to a straight line. If we can get our data into linear form, such a fit can provide information that tells us the form of the original function.
 
-### Changing the Independent Variable
+## Changing the Independent Variable
 
 
 :::Figure plotExamples
@@ -21,7 +21,7 @@ If we know the form of the original equation, then performing the appropriate op
 <iframe src="https://kapawlak.github.io/PhDemoJS/Apps/MathLab/MathLab.html" width= "100%" height="1000" style="border:none;"></iframe>
 :::
 
-### Using Log-Log plots 
+## Using Log-Log plots 
 	
 If we don&rsquo;t know the form of the equation, there is something else that we can do.
 
@@ -73,13 +73,13 @@ The simulation below allows you to plot some data from a pair of experiments. Th
 <iframe src="https://kapawlak.github.io/PhDemoJS/Apps/MathLab_Data/MathLab_Data.html" width= "100%" height="1000" style="border:none;"></iframe>
 :::
 
-### In Summary	
+## In Summary	
 We have shown two ways to determine an unknown relationship between experimental variables given a set of data. In this lab, you will use the logarithm technique to linearize data from a set of astronomical observations, with the goal of discovering the equation that relates two observable variables.
 
 >***REPORT REQUIREMENTS: For your report you should explicitly answer each question in the report. You should also include all your work for the exercises, which will consist of one table and two plots.***
 >
 
-## 2. THE EXPERIMENT
+# Experiment
 
 As early as the time of the ancient Greeks, people sought to understand the motion of the planets. Ptolemy (ca. 85 - ca. 165, Greek astronomer, geographer) proposed a *geocentric* system, that is, one in which the earth is stationary and all other bodies revolve around it. For this model to work, though, the planets must take very complicated paths; they must travel in epicycles &ndash; small circular paths superimposed on their larger circular orbits. In the sixteenth century, Nicolaus Copernicus (1473-1543, Polish astronomer) proposed a *heliocentric* theory, in which all the planets, including earth, revolved around the sun, and the earth rotates on its axis. (Oddly enough, the inspiration for this may have come from a model proposed by Aristarchus of Samos (ca. 310 B.C.E.- ca. 230 B.C.E.), but which never gained broad acceptance). 
 
@@ -107,7 +107,7 @@ In the equations above, $T$ is orbital period, $a$ is the semimajor axis of the 
 
 This choice of units (years and a.u.) has an interesting consequence for the value of $K$, and thus also $k$, which makes the data easier to work with, and which you will notice when you make your log-log plot of the data.
 	
-## 3. DATA
+# Data
 
 ::: Note
 We will not use Tycho Brahe&rsquo;s data.  We will use data from the [NASA Planetary Fact Sheets](https://nssdc.gsfc.nasa.gov/planetary/planetfact.html).
@@ -137,7 +137,7 @@ Make a copy of the provided [Google Sheet ](https://docs.google.com/spreadsheets
 You are, of course, encouraged to use Excel, Google Sheets, MATLAB, or any other data processing package of your choice to create your own version of the table above, if you&rsquo;d like.
 :::
 
-## 3. PLOT 1
+# Plot 1
 
 ::::::Exercise
 1. Make a plot of the data in your table. In Google Sheets, you can accomplish this by highlighting the two columns of interest and clicking &ldquo;Insert chart&rdquo; ( ![](imgs/Lab0/insertchart.png) ). Plot orbital period (on the $y$- axis) vs. orbit semimajor axis (on the $x$- axis). 
@@ -164,7 +164,7 @@ You are, of course, encouraged to use Excel, Google Sheets, MATLAB, or any other
 
 
 
-## 4. LINEARIZING THE DATA
+# Linearizing the Data
 
 :::::::::Exercise exLinearize
 According to the rules of logarithms given above, take the log of both sides of [Eq](#Eq-keplerGeneralSimplified)
@@ -192,7 +192,7 @@ Make a similar table to the one below in your report, and fill in the missing co
 ::::::
 :::::::::
 
-## 5. PLOT 2
+# Plot 2
 
 ::::::Exercise
 In your data table, add two more columns. These will be for the logarithm of the orbital period and of the orbit semimajor axis. If you are using Google sheets, use the LOG10 function to take the log of data points in both columns, filling in the table with the appropriate values. 
@@ -259,7 +259,7 @@ to determine the simplest (*i.e.*, smallest) possible integers $i$ and $j$ consi
 ::::::
 
 :::::::::
-## 6. UNITS
+# Units
 
 For the equation for Kepler&rsquo;s Third Law, although the power relationships do not depend on what units we choose for our variables, the proportionality constant, and hence its logarithm, does. Thus, a note about units and their conversion is in order.
 
@@ -281,7 +281,7 @@ If you were to do this, by what factor should you have to multiply the values fo
 
 <!--
 
-## 7. POWER PLOT
+# 7. POWER PLOT
 :::Exercise
 In the introduction, we noted that if you know the function, then if you manipulate the *x* variable according to that function, you get a linear plot.  For example, if $y = ax^3$, then plotting *y* vs. *x* gives a curved line, but plotting *y* vs. $x^3$ yields a straight-line plot with slope *a*. Thus, for your planetary orbital data, if you plot either *T* vs. $a^z$ ($=a^{(j/i)})$, or $T^i$ vs. $a^j$, you should get a straight line (with slope *K* = 1).
 
@@ -299,12 +299,14 @@ Whichever plot you choose to do, include a best-fit line. As usual, make sure th
 
 -->
 
-## 7. ADDITIONAL NOTE
-
+:::Hider Historical Note
 Until the work of Brahe and Kepler, there was great confusion regarding the motion of the planets. Also, our understanding of gravity was limited, and until Newton, no one had imagined the possibility that gravity could act not only close to earth, but over astronomical distances as well. Newton&rsquo;s Law of Universal Gravitation provided a deeper understanding of Kepler&rsquo;s laws, and together these formed part of the bedrock of classical physics. We hoped that fitting the data associated with the motion of the planets would provide a pleasant exercise.
-
-## 8. CONCLUSION
+:::
+# Conclusion
 
 :::Exercise
 Write a brief conclusion summarizing the important points of this lab.
+:::
+
+:::Summary
 :::
