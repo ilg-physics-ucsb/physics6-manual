@@ -116,15 +116,15 @@ We will not use Tycho Brahe&rsquo;s data.  We will use data from the [NASA Plane
 ::: Table
 |Planet|Orbit Semimajor Axis (a.u.)|Period (years)|
 |:--------|--------:|--------:|
-|Mercury|0.3871|0.24084|
-|Venus|0.7233|0.615188|
-|Earth|1.000|1.00000|
-|Mars|1.524|1.8808|
-|Jupiter|5.204|11.8618|
-|Saturn|9.582|29.4566|
-|Uranus|19.20|84.0107|
-|Neptune|30.05|164.78|
-|Pluto*|39.48|247.94|
+|Mercury|0.3871|0.2408|
+|Venus|0.7233|0.6152|
+|Earth|1.000|1.000|
+|Mars|1.524|1.881|
+|Jupiter|5.204|11.86|
+|Saturn|9.582|29.46|
+|Uranus|19.20|84.01|
+|Neptune|30.05|164.8|
+|Pluto*|39.48|247.9|
 
 $*$ Yes, we know that Pluto is no longer considered a planet. It does, however, orbit the sun, and it obeys the same laws as the planets.
 :::
@@ -269,7 +269,8 @@ As noted above, for the period, *T*, we used years, and for the semimajor axis o
 
 :::Question
 
-1. Say we wished to use SI units, that is, seconds for the orbital period and meters for the semimajor axis, instead of years and a.u. We would need one conversion to change the time from a.u. to years, and one to change the distance from a.u. to meters, and we would have to raise each to the power of its respective variable in the equation ($i$ or $j$). If we wished to make this conversion by multiplying only our values for *T*, instead of having to convert both our *T* values and our *a* values, we could combine these two conversion factors into one.
+1. Say we wished to use SI units, that is, seconds for the orbital period and meters for the semimajor axis, instead of years and $\rm a.u.$ We would need one conversion to change the time from years to seconds, and one to change the distance from $\rm a.u.$ to meters, and we would have to raise each to the power of its respective variable in the equation ($i$ or $j$). If we wished to make this conversion by multiplying only our values for $T$, instead of having to convert both our $T$ values and our $a$ values, we could combine these two conversion factors into one.
+
 
 If you were to do this, by what factor should you have to multiply the values for the periods? (Note that when you arrive at your conversion factor, you can check it by comparing it to the value that you  get if you evaluate $K^{(1/i)}$, by calculating $(\frac{ 4\pi^2}{GM})^{(1/i)}$, with the values given above for $G$ and $M$.)
 
@@ -309,4 +310,6 @@ Write a brief conclusion summarizing the important points of this lab.
 :::
 
 :::Summary
+
+You must show work for all problems!
 :::
