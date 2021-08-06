@@ -1,22 +1,26 @@
 
 # The Pendulum
 
-::: Figure
-![Figure 1: Shot of Pendulum Setup](imgs/Lab1/PhotofPendulum.jpg)
+::::::Card Intro This week...
+:::RFigure pendulum xs
+![Shot of Pendulum Setup](imgs/Lab1/PhotofPendulum.jpg)
+Shot of Pendulum Setup
 :::
+Our first major topic in Physics 6BL will be simple hamonic motion (SHM), or the oscillating behavoir of a body when subjected to a restoring force directly proportional to it's displacement from equilibrium. SHM is a universal behavior, witnessed in everything from springs to pendulums, and even forms the basis of Quantum Field theories. 
 
----
-:::Note
-***Make sure to include all tables, plots, pictures, drawings, screenshots or anything else asked of you in the exercises in your report, as well as answers to all the questions.***
 
-***All responses and answers should contain the correct number of sig figs and should include units when needed.***
-:::
+In this lab we will learn about SHM by studying the behavior of a pendulum, and characterizing how carying certain physical variables of a pendulum change its behavior.
+
+
+::::::
 ---
+
 
 # Introduction
-<!-- Concepts -->
+
 
 <!--!(https://drive.google.com/file/d/1LFQdf2nu1YZzSB_addwEp8zbTW7yBu3l)-->
+
 Simple harmonic motion is found everywhere in nature is and is a recurring theme throughout physics. Many different systems can be modeled as harmonic oscillators. One of the most accessible systems to study is the pendulum. When you hang a mass from a point it will swing back and forth about the equilibrium position. This simple behavior can be then be mapped to many more systems.
 
 
@@ -434,3 +438,11 @@ How could you determine what the acceleration due to gravity, $g_x$, is on Plane
 Write a brief conclusion summarizing the important points of this lab.
 :::
 
+:::Summary
+
+**Make sure to include all tables, plots, pictures, drawings, screenshots or anything else asked of you in the exercises in your report, as well as answers to all the questions.**
+
+*All responses and answers should contain the correct number of sig figs and should include units when needed.*
+
+*Please show your work where applicable*
+:::
