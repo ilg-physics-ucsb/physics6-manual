@@ -19,7 +19,7 @@ During the dawn of the age of electricity, an investigator named Georg Simon Ohm
 
 ## Circuits and Resistance
 
-A circuit is a closed loop of wires and components that allows electrons to flow through it. The flow of electrons is referred to as **current**, and it varies at different parts of a circuit, if the circuit is more than just a single loop, according to the characteristics of each part of the circuit. The unit of current is the ampere (after Andr&eacute; Marie Ampere), sometimes shortened to &ldquo;amp,&rdquo; abbreviated A. The flow of electrons is caused by differences in electrical potential between different parts of the circuit. The unit of electrical potential is the volt (after Alessandro Volta), abbreviated V, and potential difference is often referred to as **voltage**. Generators, power supplies and batteries provide such potential differences. When such a power source is connected to a circuit, it converts electrical potential energy into electrical kinetic energy, and thus causes current to flow in the circuit. This leads to the draining of the power source over time. (An electrical power supply plugged into the wall will not drain, but it will consume fuel burned by the generator that provides its current.) If we place a particular voltage across a piece of conductive material, the current that flows is determined by the **resistance** of that material. The larger the resistance, the more difficult it is for electrons to flow, and thus the lower the current. As noted above, the unit of resistance is the ohm, which is also symbolized as $\Omega$. A component in a circuit designed to have a particular resistance is called a **resistor**.
+A circuit is a closed loop of wires and components that allows electrons to flow through it. The flow of electrons is referred to as **current**, and it varies at different parts of a circuit, if the circuit is more than just a single loop, according to the characteristics of each part of the circuit. The unit of current is the ampere (after Andr&eacute; Marie Amp&egrave;re), sometimes shortened to &ldquo;amp,&rdquo; abbreviated A. The flow of electrons is caused by differences in electrical potential between different parts of the circuit. The unit of electrical potential is the volt (after Alessandro Volta), abbreviated V, and potential difference is often referred to as **voltage**. Generators, power supplies and batteries provide such potential differences. When such a power source is connected to a circuit, it converts electrical potential energy into electrical kinetic energy, and thus causes current to flow in the circuit. This leads to the draining of the power source over time. (An electrical power supply plugged into the wall will not drain, but it will consume fuel burned by the generator that provides its current.) If we place a particular voltage across a piece of conductive material, the current that flows is determined by the **resistance** of that material. The larger the resistance, the more difficult it is for electrons to flow, and thus the lower the current. As noted above, the unit of resistance is the ohm, which is also symbolized as $\Omega$. A component in a circuit designed to have a particular resistance is called a **resistor**.
 
 A useful analogy for understanding current flow in circuits is the comparison to the flow of water in a system of pipes. Consider a loop of pipes filled with water, with a pump circulating the water through the loop. The pump is analogous to a battery or power supply, the difference in pressure between the outlet and the return like the potential difference between the terminals of the battery. The pipe is like the wire, with water taking the place of the electric current. The water flows from the high-pressure outlet of the pump (high electrical potential), through the pipe to the low-pressure inlet of the pump (low electrical potential). The characteristics of the pipe -- its length, cross-sectional area, and the presence and nature of any obstructions -- constitute its resistance.  Together with the pressure difference between the two ends of the pump, this determines the rate of water flow in the loop.  The greater the pressure difference between the outlet and inlet of the pump, the greater the flow. The greater the resistance of the pipes, the lesser the flow. 
 
@@ -46,7 +46,7 @@ where
 
 **$I$** is the current in the resistor, measured in amperes, and 
 
-**$R$** is the resistance of the resistor measured, as noted above, in units called “ohms,” which are also symbolized by the upper-case Greek omega $(\Omega)$.
+**$R$** is the resistance of the resistor measured, as noted above, in units called “ohms,” which are also symbolized by the upper-case Greek letter omega $(\Omega)$.
 
 In words, Ohm&rsquo;s law states that “the voltage V across the ends of a resistor R, and the current I flowing through this resistor,
 are proportional.” If the potential difference across a resistor is set at 1 volt, and if a current of 1 amp is measured in the
@@ -64,7 +64,7 @@ $$
 $$
 :::
 
-Algebraic rearrangement of the [Eq](#Eq-ohmsLaw) above gives the current in terms of the voltage and resistance:
+Algebraic rearrangement of [Eq](#Eq-ohmsLaw) above gives the current in terms of the voltage and resistance:
 
 $$
 I = V/R
@@ -123,7 +123,7 @@ Basically part 5 of the outline.
 
 In this exercise we will examine the circuit shown in [Fi](#Fi-schematic) and built in Video 2 (below). [Fi](#Fi-schematic) shows the schematic representation of the circuit, which consists of a power supply and a resistor. We will use a voltmeter and an ammeter to measure, respectively, the voltage across, and the current passing through, a resistor.
 
-1. Examine the circuit shown in [Fi](#Fi-schematic) and diagram in [Fi](#Fi-baseSetup). A resistor of resistance $R=2,200\ \Omega$ is wired in series with an ammeter and connected to the 0–20 volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the resistor to measure the voltage drop.
+1. Examine the circuit shown in [Fi](#Fi-schematic) and the diagram in [Fi](#Fi-baseSetup). A resistor of resistance $R=2,200\ \Omega$ is wired in series with an ammeter and connected to the 0–20 volt power supply. The ammeter will measure the current (mA) flowing through the circuit. The voltmeter is connected across the resistor to measure the voltage drop.
 
 :::Figure baseSetup
 ![Figure 2: A circuit with a single resistor of resistance **R**.](imgs/Lab3/Figure1_Part1Circuit.jpg)
@@ -155,7 +155,7 @@ In this exercise we will examine the circuit shown in [Fi](#Fi-schematic) and bu
 
 **Note:** The voltmeter measures the voltage across the resistor **in units of volts** . The ammeter measures the amount of current flowing through the resistor **in units of milliamperes**.
 
-1. Watch [Vi](#Vi-basicDataCollection). As the voltage changes, you should pause the video pause, and record the voltage and corresponding current for 10 data points. You should take measurements approximately every 2 volts. They do not, however, need to be exactly 2 volts apart, as long as the data points are fairly well spaced out.
+1. Watch [Vi](#Vi-basicDataCollection). As the voltage changes, you should make the video pause, and record the voltage and corresponding current for 10 data points. You should take measurements approximately every 2 volts. They do not, however, need to be exactly 2 volts apart, as long as the data points are fairly well spaced out.
 
 2. Neatly tabulate your data, then plot your data with current on the $x$-axis and voltage on the $y$-axis. Find and plot the line of best fit.
 
@@ -369,7 +369,7 @@ $$
 We see that when resistors are in parallel, their resistances add reciprocally. So the more resistors we add, the lower the total resistance becomes.
 
 ::: Question
-1. If we had three resistors, each of 1.0 kΩ, how could we connect them such that the equivalent resistance of the combination is 1.5 kΩ? 
+1. If we had three resistors, each of 1.0 kΩ, how could we connect them so that the equivalent resistance of the combination is 1.5 kΩ? 
 2. Draw a schematic of the three resistors.
 
 **Hint:** Start by thinking about what values the simplest resistor combinations would yield. 
@@ -427,7 +427,7 @@ b) What is the configuration of this circuit? (You should include a screenshot o
 :::Note
 You probably noticed that for each experiment, the change in current that a particular change in voltage produced, &Delta;*V*/&Delta;*I*, which equals *R*, was constant over the range of voltages applied to the circuit. That is, the circuits obeyed Ohm&rsquo;s law for all applied voltages. For this reason, resistors are often said to exhibit *ohmic* resistance.
 
-The resistances that you calculated from the data should have been reasonably close to those you would expect for resistors having the nominal value given. Besides the usual sources of measurement error (instrument accuracy, for example), there is something else that might cause these values to differ. The resistances of carbon resistors such as those used in this lab, can differ from their nominal values according to a tolerance specified by the manufacturer.  These are usually &plusmn;5% or &plusmn10%, but can be higher or lower. For applications in which it is necessary that the resistance be very close to the nominal value, resistors are available with tolerances of 1% or less, even down to 0.005%(!).
+The resistances that you calculated from the data should have been reasonably close to those you would expect for resistors having the nominal value given. Besides the usual sources of measurement error (instrument accuracy, for example), there is something else that might cause these values to differ. The resistances of carbon resistors such as those used in this lab, can differ from their nominal values according to a tolerance specified by the manufacturer.  These are usually &plusmn;5% or &plusmn;10%, but can be higher or lower. For applications in which it is necessary that the resistance be very close to the nominal value, resistors are available with tolerances of 1% or less, even down to 0.005%(!).
 :::
 
 # Conclusion
@@ -447,7 +447,7 @@ Resistance is primarily affected by two things. First is a material&rsquo;s intr
 
 :::Equation
 $$
-R_{resistance}\ (\Omega) = \frac{ρ_{resistivity}\ (\Omega\ cm) \cdot L(cm)}{A(cm^2)}
+R_{resistance}\ (\Omega) = \frac{ρ_{resistivity}\ (\Omega\cdot cm) \cdot L(cm)}{A(cm^2)}
 $$
 :::
 

@@ -14,7 +14,7 @@ From AP Physics 1 Online, by John Horwat, at [https://sites.google.com/site/apph
 :::
 
 
-If we know the form of the original equation, then performing the appropriate operation on the *x* or *y* values and then plotting, yields a straight line.  For example, if the function is $y=(\frac1x)$, then plotting *y* vs. $(\frac1x)$ yields a straight line, if $y=x^2$, then plotting *y* vs. $x^2$ gives a straight line, and so on. The figure below shows some examples, and the simulation that follows it lets you see how the shape of some such curves becomes linear.
+If we know the form of the original equation, then performing the appropriate operation on the *x* or *y* values and then plotting, yields a straight line.  For example, if the function is $y=(\frac1x)$, then plotting $y$ vs. $(\frac1x)$ yields a straight line, if $y=x^2$, then plotting $y$ vs. $x^2$ gives a straight line, and so on. The figure below shows some examples, and the simulation that follows it lets you see how the shape of some such curves becomes linear.
 
 
 :::Simulation
@@ -64,7 +64,7 @@ $$
 \log (y)= \log (a) + b\log(x)
 $$
 
-We thus obtain a linear equation with slope $b$ and intercept log($a$). The slope is the exponent in the original equation, and the intercept is the logarithm of the proportionality constant (which we can recover by taking its antilogarithm, $a = 10^{\log (a)}$, if we are using common logarithms, or base 10 logarithms.). Manipulating data in either of these ways to cause them to fall on a straight line is often called *linearizing* the data. 
+We thus obtain a linear equation with slope $b$ and intercept log($a$). The slope is the exponent in the original equation, and the intercept is the logarithm of the proportionality constant (which we can recover by taking its antilogarithm, $a = 10^{\log (a)}$, if we are using common logarithms, or base 10 logarithms). Manipulating data in either of these ways to cause them to fall on a straight line is often called *linearizing* the data. 
 
 The simulation below allows you to plot some data from a pair of experiments. The first involves a phenomenon called black body radiation.  You are most likely familiar with the glow of electric heating elements when they are on, as on an electric stove top or in a toaster, or the glow of the hot filament in an incandescent lamp. Among those who studied this type of radiation during the late nineteenth and early twentieth centuries, was Josef Stefan, who formulated a law that stated that the radiated power of an emitting object went as a certain power of its temperature. This law is called *Stefan&rsquo;s Law* or the [Stefan-Boltzmann law](https://en.wikipedia.org/wiki/Stefan%E2%80%93Boltzmann_law). The second experiment involves the relationship between animal mass and basal metabolic rate. In the early 1930s, Max Kleiber proposed that the energy consumed by an animal was a function of its mass. The equation he used to describe this relationship is known as [Kleiber&rsquo;s law](https://en.wikipedia.org/wiki/Kleiber%27s_law#:~:text=Symbolically%3A%20if%20q0%20is,the%20energy%20the%20mouse%20uses). For each of these experiments, see if you can guess the correct equation based on the slope of the line, and check your answers in the linked articles!
 
@@ -103,9 +103,9 @@ $$T=ka^z$$
 
 We are expressing the equations this way, because your goal is to find out what these exponents are. Note that $z$ is not an integer, but a value that can be expressed as a ratio of small whole numbers.
 
-In the equations above, $T$ is orbital period, $a$ is the semimajor axis of the orbit, and $K=(\frac{ 4\pi^2}{GM})$, where $G$ is the gravitational constant ($=6.67 \times 10^{-11} \frac{N\cdot m^2}{kg^2}$), and $M$ is the mass of the sun ($1.988 \times 10^{30}$ kg). Strictly speaking, the denominator should be $G(M_{planet} + M)$, but the sun is so much more massive than the planets, that for describing the orbital motion of the planets, the equation is accurate without the planetary mass. We will give the period in years, and the semimajor axis in a.u. (astronomical units; 1 a.u. = $149.6 \times 10^6$ km).
+In the equations above, $T$ is orbital period, $a$ is the semimajor axis of the orbit, and $K=(\frac{ 4\pi^2}{GM})$, where $G$ is the gravitational constant ($=6.67 \times 10^{-11} \rm\frac{N\cdot m^2}{kg^2}$), and $M$ is the mass of the sun ($1.988 \times 10^{30}\rm\ kg$). Strictly speaking, the denominator should be $G(M_{planet} + M)$, but the sun is so much more massive than the planets, that for describing the orbital motion of the planets, the equation is accurate without the planetary mass. We will give the period in years, and the semimajor axis in $\rm\ a.u.$ (astronomical units; $\rm 1\ a.u. = 149.6 \times 10^6\ km$).
 
-This choice of units (years and a.u.) has an interesting consequence for the value of $K$, and thus also $k$, which makes the data easier to work with, and which you will notice when you make your log-log plot of the data.
+This choice of units (years and $\rm a.u.$) has an interesting consequence for the value of $K$, and thus also $k$, which makes the data easier to work with, and which you will notice when you make your log-log plot of the data.
 	
 # Data
 
@@ -264,7 +264,7 @@ to determine the simplest (*i.e.*, smallest) possible integers $i$ and $j$ consi
 For the equation for Kepler&rsquo;s Third Law, although the power relationships do not depend on what units we choose for our variables, the proportionality constant, and hence its logarithm, does. Thus, a note about units and their conversion is in order.
 
 :::Note
-As noted above, for the period, *T*, we used years, and for the semimajor axis of the orbit, *a*, we used a.u. (1 a.u. = $149.6 \times 10^6$ km). $K=(\frac{ 4\pi^2}{GM})$, where *G* is the gravitational constant ($=6.67 \times 10^{-11} \frac{N\cdot m^2}{kg^2}$), and *M* is the mass of the sun ($1.988 \times 10^{30}$ kg). You may have noticed that years and a.u. are not SI units. The SI units for these values are seconds and meters. As it turns out, if you make the conversion from seconds to years, and from meters to a.u., *K* = 1; when you multiply and divide *K* by the appropriate conversion factors, raised to the appropriate powers, the result is unity. You should have found this in your answer to questions 4. c and 5.b.
+As noted above, for the period, $T$, we used years, and for the semimajor axis of the orbit, $a$, we used $\rm a.u.$ ($\rm 1\ a.u. = 149.6 \times 10^6\ km$). $K=(\frac{ 4\pi^2}{GM})$, where $G$ is the gravitational constant ($=6.67 \times 10^{-11} \rm\frac{N\cdot m^2}{kg^2}$), and $M$ is the mass of the sun ($1.988 \times 10^{30}\rm\ kg$). You may have noticed that years and $\rm a.u.$ are not SI units. The SI units for these values are seconds and meters. As it turns out, if you make the conversion from seconds to years, and from meters to $\rm a.u.$, $K = 1$; when you multiply and divide $K$ by the appropriate conversion factors, raised to the appropriate powers, the result is unity. You should have found this in your answer to questions 4. c and 5.b.
 :::
 
 :::Question
@@ -284,11 +284,11 @@ If you were to do this, by what factor should you have to multiply the values fo
 
 # 7. POWER PLOT
 :::Exercise
-In the introduction, we noted that if you know the function, then if you manipulate the *x* variable according to that function, you get a linear plot.  For example, if $y = ax^3$, then plotting *y* vs. *x* gives a curved line, but plotting *y* vs. $x^3$ yields a straight-line plot with slope *a*. Thus, for your planetary orbital data, if you plot either *T* vs. $a^z$ ($=a^{(j/i)})$, or $T^i$ vs. $a^j$, you should get a straight line (with slope *K* = 1).
+In the introduction, we noted that if you know the function, then if you manipulate the $x$ variable according to that function, you get a linear plot.  For example, if $y = ax^3$, then plotting $y$ vs. $x$ gives a curved line, but plotting $y$ vs. $x^3$ yields a straight-line plot with slope $a$. Thus, for your planetary orbital data, if you plot either $T$ vs. $a^z$ ($=a^{(j/i)})$, or $T^i$ vs. $a^j$, you should get a straight line (with slope $K$ = 1).
 
 a. According to the two choices above, in your data table make either one or two more columns, and do one of the following:
 
-- Make one additional column for $a^{(j/i)}$, and fill it appropriately. Now plot *T* vs. $a^{(j/i)}$.
+- Make one additional column for $a^{(j/i)}$, and fill it appropriately. Now plot $T$ vs. $a^{(j/i)}$.
 
 - Make two additional columns, one for $T^i$ and one for $a^j$, and fill them appropriately. Now plot $T^i$ vs. $a^j$.
 
