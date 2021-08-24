@@ -1,19 +1,9 @@
 # Waves on a String
 
 
-:::Note
-Make sure to include all tables, plots, pictures, drawings, screenshots or anything else asked of you in the exercises in your report, as well as answers to all the questions.
-
-All responses and answers should contain the correct number of sig figs and should include units when needed.
+:::Card Intro This week..
+In this lab we will study **standing waves** on a string. A standing wave, also known as a stationary wave, is a wave which oscillates in time but whose peak amplitude profile does not move in space. Such waves occur when one or more ends of a string are fixed, or a string is periodically peturbed. Standing waves and their related mathematics are ubiquitous throughout science -- they are even responsible for the formation of sound in musical instruments.
 :::
-<!--
-:::Video
-!(https://www.youtube.com/watch?v=6v4wtNbUZl0)
-:::
--->
-
-# Introduction
-In this lab we will study standing waves on a string, which are at the core of sound formation in musical instruments.
 
 # Theory
 In this part we will look at the factors that determine the speed of waves traveling on a string  (propagation velocity), we will see how waves reflect from boundaries and we will understand how multiple waves can overlap. We will study these concepts using pulses, which are localized disturbances, but all the conclusions will hold for sinusoidal waves.
@@ -27,68 +17,19 @@ In this part we will look at the factors that determine the speed of waves trave
 :::
 
 
-<!--
-***Simulations***
 
-::: Exercise
-
-Below, in Simulation 1, you will see what appears to be many beads linked together on a string. This is simulating the description in Figure 1 to an extreme. Each bead has mass and interacts with its neighboring beads through the string. So when one bead gets pulled on, it pulls on its neighboring bead. The green beads behave exactly as the red beads do; they are just there as positional references.
-
-In Simulation 1 you can move the end of the string of beads in three different ways, which you can choose from the panel in the upper left corner of the simulation. "Manual" allows you to move the wrench up and down by clicking and dragging it. "Oscillate" drives the end of the string up and down periodically. You can change the frequency and amplitude of the oscillation in the lower control panel. Last, "Pulse" allows you send a triangle-shaped pulse down the string. You can change the pulse's amplitude and width in the bottom control panel.
-
-There are a few more things to note. In the upper right is a control panel that allows you to change what is happening on the right end of the string. The lower control panel will change slightly, depending on your selection of how to drive the string. The things that stay constant are the tension and the damping. The tension slider allows you to change how taut the string is, while the damping slider adds a bit of reality to the simulation. *For the most part, when you use the simulation you will want to set damping to "None."* Finally, there is a set of tools you can use in the right side of the bottom control panel. You will need these from time to time to make measurements.
-
-For this exercise you will investigate how the velocity of a pulse on a taut string varies with the tension. You will send a pulse down the string, and time how long it takes to travel 5 round trips. You will use the time and distance you measured to determine the velocity.
-
-<!--[Simulation 1: Pulse Velocity Measurement]
-!(https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_en.html)
-
-1) First set up the settings on Simulation 1 as follows.
--->
-<!--
-![Table 1: Velocity Measurement Settings](imgs/Lab2/Pulse_Settings.JPG)
-
-<!-- 2) Make a table as shown in [sample table doc](https://docs.google.com/spreadsheets/d/1xZ7Nz3IUxpD715pPghY0djhcSn_bZ_FZs1SoGMgkw8k/edit?usp=sharing){target=_blank} with columns for Tension, Length, total time, time and velocity. -->
-<!--
-2) Measure the total length of the string and record that value.
-
-3) Create a data table with columns for Tension, Total Time. The first entry in the Tension column should be "High."
-
-<!-- 3) Use the ruler to measure the length of the string and record it in the table. -->
-
-<!-- 4) Send a pulse and simultaneously start the timer, and record how long it takes the pulse to travel 5 full cycles. Add this time to your table under the "Total time (s)" column. 
-
-5) Send a pulse down the line. Wait for the pulse to get to one of the ends, and start the timer. Record the total time it takes for the pulse to make 5 round trips (travel the length of the string 10 times).
-
-6) You now have all the information you need to calculate the velocity of the pulse. Add whatever columns you need to your table to make the velocity calculation. The last column, however, should be velocity.
-
-:::Question
-Explain each column in your table. Provide a description of how you obtained each value in every column.
-:::
-
-7) Repeat part 4. with the tension set to Medium and Low, and fill out the table accordingly. Note that the length you measured in step 2 does not change.
--->
-<!-- 8) Calculate the time for one pulse's round trip by taking the total time and dividing it by 5. Divide the length of one round trip (twice the length of the string) by the time for a single round trip. -->
-<!--
-::: Question
-a) How is the speed of a wave on a rope related to tension?
-:::
--->
-<!--
-:::
--->
-<!-- End of Exercise -->
-
-::::::Note
 The propagation velocity of all waves on a particular string is determined by the properties of the string itself &ndash; the tension in the string, $T$, and the linear mass density of the string, $\mu$.  The linear mass density is the mass per unit length of string, which determines how heavy the string is per unit length.
 <!--For a given frequency the wavelength is determined entirely by the velocity of the wave on the string. The velocity of a wave on a string is given by:-->
 
 :::Equation velocityTension
 $$
-\textrm{velocity}= v = \sqrt{\frac{\rm Tension}{\rm String\ Density}} = \sqrt{\frac{T}{\mu}}
+\begin{aligned}
+v =& \sqrt{\frac{\rm (Tension)}{\rm (String)\ (Density)}} \\\\
+=&\sqrt{\frac{T}{\mu}}
+\end{aligned}
 $$
 :::
-::::::
+ where $v$ is the velocity.
 <!-- AVOCADO What is the equation for wavelength in terms of force? -->
 
 ::: Question
@@ -159,10 +100,13 @@ A wave propagating on a string is described by the equation:
 
 :::Equation velocityWaves
 $$
-\textrm{velocity} = v = \textrm{wavelength} \cdot \textrm{frequency} = \lambda \cdot f
+v =  \lambda f
 $$
 :::
-
+which reads: 
+$$
+\textrm{velocity} =\textrm{wavelength} \cdot \textrm{frequency} 
+$$
 As before, the propagation velocity, $v$, is the speed at which any disturbance (pulse or sinusoidal wave) propagates down the string. The wavelength, $\lambda$, is the distance that one sinusoidal oscillation covers on the string. The frequency, $f$, is the rate of periodic oscillation. To measure frequency we will use units of cycles per second, or hertz, abbreviated Hz.
 
 ::: Question
@@ -365,10 +309,12 @@ For each system we will keep the mass and length constant throughout the experim
 You will be expected to turn in all plots and tables you are asked to make in the exercises, as well as all answers to questions.
 
 ## Setup
+In this exercise you will be guided through filling out the data template provided in the table below. This template will be used as a model for all of of the data tables you need to make for this lab.
 
 ::::::::: Exercise
+In this exercise we will fill out the row labeled &ldquo;System 1&rdquo; in the &ldquo;Constants Table.&rdquo;  To do this, you will use the system shown in [Fi](#Fi-setup) and used in [Vi](#Vi-baseline). This setup can be called System 1.
 
-In this exercise you will be guided through filling out the data template provided in the table below. This template will be used as a model for all of of the data tables you need to make for this lab. In this exercise we will fill out the row labeled &ldquo;System 1&rdquo; in the &ldquo;Constants Table.&rdquo;  To do this, you will use the system shown in [Fi](#Fi-setup) and used in [Vi](#Vi-baseline). This setup can be called System 1.
+**Instructions**:
 
 1. The linear density, $\mu$ (mass/length) is given in grams/meter. For the string we are using, the linear mass density is 3.0 g/m. **This is the same for all three systems**
 2. The length of the string is about 1.70 m.
@@ -407,10 +353,10 @@ This calculated fundamental frequency, and the ones you will calculate for Syste
 :::::::::
 
 ## Experiments
-
+In this exercise we will establish our baseline system, System 1. Above, in your Constant Values table, you characterized the system, but now we will perform our experiment. We will drive the oscillator with a sine wave and slowly sweep through a range of frequencies. You can make the video pause, and step through it as slowly as you&rsquo;d like.
 :::::: Exercise
 
-In this exercise we will establish our baseline system, System 1. Above, in your Constant Values table, you characterized the system, but now we will perform our experiment. We will drive the oscillator with a sine wave and slowly sweep through a range of frequencies. You can make the video pause, and step through it as slowly as you&rsquo;d like.
+
 
 Do your best to identify a standing wave. You might notice something looking like a standing wave over a range of frequencies. You want the frequency where the amplitude of the string vibration looks the largest, <!--**the tongue of the oscillator is relatively stable,**--> and the whole wave looks fairly stable.
 
@@ -425,6 +371,8 @@ Now we will begin taking data points with System 1.
 :::Video baseline
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/v-TwpVgjShs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
+
+**Instructions**: 
 
 1. Use the table labeled &ldquo;System 1&rdquo; in the template to record your data.
 
@@ -441,10 +389,11 @@ a. Now calculate the speed from the wavelength ($\lambda$) and frequency ($f$). 
 <!-- End Exercise -->
 ::::::
 
-:::::: Exercise
-
 This exercise uses a new setup called System 2. This will have the **same length as System 1**, but will have **half the hanging mass**.
 
+:::::: Exercise
+
+**Instructions**
 1. The mass for System 2 is 200.0 g. 
 <!-- 1) Measure the mass for System 2 using Image 2 below.
 
@@ -463,9 +412,10 @@ This exercise uses a new setup called System 2. This will have the **same length
 ::::::
 <!-- End of Exercise -->
 
+This exercise uses a new setup called System 3. This will have the **same mass as System 1**, but will have **half the length**.
 :::::: Exercise
 
-This exercise uses a new setup called System 3. This will have the **same mass as System 1**, but will have **half the length**.
+**Instructions :** 
 
 1. The length of the string in System 3 is 0.85 m. 
 
@@ -486,10 +436,10 @@ This exercise uses a new setup called System 3. This will have the **same mass a
 ::::::
 
 ## Analysis
+In this exercise we will now analyze the three systems and compare and contrast them to each other.
 
 ::::::::: Exercise
-
-In this exercise we will now analyze the three systems and compare and contrast them to each other.
+**Instructions**
 
 1) Our goal is now to study the relationship between the frequency and the number of segments of the wave. Make sure your tables for Systems 1, 2 and 3 are completely filled out.
 
@@ -563,3 +513,10 @@ Write a brief conclusion summarizing the important points of this lab.
 <!--PhET Formatting ![Simulation 1](imgs/Lab2/Figure5_Nodes.jpg){width=100% height=600px} -->
 
 <!-- Sample Table Sheet https://docs.google.com/spreadsheets/d/1xZ7Nz3IUxpD715pPghY0djhcSn_bZ_FZs1SoGMgkw8k/edit?usp=sharing -->
+
+
+:::Summary
+Make sure to include all tables, plots, pictures, drawings, screenshots or anything else asked of you in the exercises in your report, as well as answers to all the questions.
+
+All responses and answers should contain the correct number of sig figs and should include units when needed.
+:::

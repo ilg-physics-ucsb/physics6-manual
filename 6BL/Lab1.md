@@ -329,7 +329,7 @@ In your final reduction, you should recognize that some values are constant, whi
 2. What is the mathematical relationship between the intercept of the log-log line with the vertical axis and the unknowns $a$ and $b$?
 :::
 
-2. Use the data from Part 2 to make a table of $\rm log_{10}(L)$ and $\rm log_{10}(T)$. Plot $\rm log_{10}(L)$ on the independent axis, and $\rm log_{10}(T)$ on the dependent axis.  Find the line of best fit and display it on your plot.
+2. Use the data from Part 3 to make a table of $\rm log_{10}(L)$ and $\rm log_{10}(T)$. Plot $\rm log_{10}(L)$ on the independent axis, and $\rm log_{10}(T)$ on the dependent axis.  Find the line of best fit and display it on your plot.
 
 
 :::Note
